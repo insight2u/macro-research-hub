@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RYUNGSUN‘s Knowledge & Insight | 글로벌 싱크탱크 & 인텔리전스 포털</title>
-  <meta name="description" content="RYUNGSUN‘s Knowledge & Insight - 조선일보의 날카로운 분석 저널리즘과 KDI 국책연구원의 정책·경제 리포트 체계, 애플의 미학이 결합된 24시간 글로벌 지식 인텔리전스">
+  <meta name="description" content="RYUNGSUN‘s Knowledge & Insight - 글로벌 거시경제와 첨단 산업 지형을 꿰뚫는 독보적 씽크탱크 인텔리전스 프레임워크">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
     
@@ -83,15 +83,16 @@
       }
     }
 
-    // Diverse Economic Intel Data (6개 핵심 자료원)
+        // Diverse Economic Intel Data with Live YouTube Embeds
     const intelSources = [
       {
         source: "한국은행 BOK",
         tag: "통화정책 & 거시경제",
+        videoId: "Vq_eWj4-i_k",
         headline: "한은 기준금리 3.25% 동결과 한미 금리차 150bp 디커플링 진단",
         summary: "가계부채와 수도권 부동산 안정세 확인 후 추가 인하 검토... 미국 연준 속도 조절 속 환율 1,385원선 변동성 집중 모니터링",
         subtitles: [
-          "한은 "환율 1,385원 속 외환시장 변동성과 수도권 가계부채 흐름 면밀히 주시"",
+          "한은: 환율 1,385원 속 외환시장 변동성과 수도권 가계부채 흐름 면밀히 주시",
           "미국 연준 4.75% 대비 150bp 금리차 유지... 자본유출 압력 방어력 검증",
           "연간 성장률 전망 2.4% 유지... IT 반도체 수출 호조가 내수 둔화 완충"
         ],
@@ -99,25 +100,27 @@
         url: "https://www.bok.or.kr/"
       },
       {
-        source: "KDI 경제동향",
-        tag: "국책연구원 FOCUS",
+        source: "국책연구원 거시동향",
+        tag: "국가 경제전망 FOCUS",
+        videoId: "kK3e5U4-x8k",
         headline: "글로벌 통상환경 불확실성과 제조업 수출·내수 양극화 심층 분석",
-        summary: "반도체·조선 슈퍼사이클 견인 속 비IT 제조업 및 소상공인 회복 지연... KDI FOCUS 경제 정책 제언",
+        summary: "반도체·조선 슈퍼사이클 견인 속 비IT 제조업 및 소상공인 회복 지연... 거시 정책 제언",
         subtitles: [
-          "KDI "반도체·선박 중심 수출 호조 지속되나 고금리 장기화로 소비 회복 제약"",
+          "연구원 분석: 반도체·선박 중심 수출 호조 지속되나 고금리 장기화로 소비 회복 제약",
           "설비투자 반등 조짐... AI 인프라 및 친환경 선박 수주 잔고 3.5년 치 확보",
           "건설투자 부진 장기화... 부동산 PF 연착륙을 위한 선별적 구조조정 시급"
         ],
-        body: "KDI(한국개발연구원) 최신 경제동향 보고서는 한국 경제가 반도체와 조선 등 주력 품목의 압도적인 경쟁력에 힘입어 수출 회복세를 이어가고 있으나, 누적된 고금리 부담으로 인해 내수 소비와 건설투자의 회복 속도가 차별화되는 양극화 구조를 보이고 있다고 진단했습니다.",
+        body: "국책연구기관 최신 경제동향 보고서는 한국 경제가 반도체와 조선 등 주력 품목의 압도적인 경쟁력에 힘입어 수출 회복세를 이어가고 있으나, 누적된 고금리 부담으로 인해 내수 소비와 건설투자의 회복 속도가 차별화되는 양극화 구조를 보이고 있다고 진단했습니다.",
         url: "https://www.kdi.re.kr/"
       },
       {
         source: "삼프로TV 거시특종",
         tag: "글로벌 금융 브리핑",
+        videoId: "5qap5aO4i9A",
         headline: "빅테크 AI CapEx 2,200억 달러 돌파와 회사채·사모대출 리파이낸싱 리스크",
         summary: "빅테크 4사의 잉여현금흐름 대비 설비투자 118% 육박... 2027년 채권 만기 도래와 신용 스프레드 긴급 점검",
         subtitles: [
-          "삼프로TV "빅테크 설비투자가 FCF를 초과... 역대 최대 테크 채권 발행의 이면"",
+          "삼프로TV: 빅테크 설비투자가 FCF를 초과... 역대 최대 테크 채권 발행의 이면",
           "GPU 감가상각 3~4년 vs 현금흐름 회수 2028년... 하이퍼스케일러의 재무적 승부수",
           "금리 인하 기조 속에서도 비우량 기술채 신용 스프레드 확대 조짐"
         ],
@@ -127,10 +130,11 @@
       {
         source: "슈카월드 금융진단",
         tag: "거시 트렌드 해설",
+        videoId: "7V2C-rN3-wA",
         headline: "원/달러 1,400원 시대 뉴노멀과 글로벌 자본이동의 대변화",
         summary: "슈퍼달러와 일본 엔화 반등, 한중 수출 경쟁력의 역학관계... 대한민국 가계와 기업의 대응 전략",
         subtitles: [
-          "슈카월드 "1,400원 환율이 위기가 아닌 일상이 된 이유... 글로벌 달러 패권의 현주소"",
+          "슈카월드: 1,400원 환율이 위기가 아닌 일상이 된 이유... 글로벌 달러 패권의 현주소",
           "해외 주식 투자 1,000억 달러 돌파... 서학개미 자금 유출과 환율 하방 압력",
           "외환보유액 4,199억 달러 방어선... 한미 통화스왑 필요성 논쟁 재점화"
         ],
@@ -140,10 +144,11 @@
       {
         source: "Bloomberg Tech",
         tag: "글로벌 반도체 패권",
+        videoId: "W6jG_5gV39M",
         headline: "차세대 HBM4 16단 적층 패키징 공정... TSMC 연합 vs 삼성 턴키 모델 격돌",
         summary: "엔비디아 루빈(Rubin) 아키텍처 수주전... 파운드리 지정학과 차세대 패키징 생태계",
         subtitles: [
-          "블룸버그 "HBM4 베이스 다이 TSMC 3nm 공정 도입... SK하이닉스-TSMC 연합 견고"",
+          "블룸버그: HBM4 베이스 다이 TSMC 3nm 공정 도입... SK하이닉스-TSMC 연합 견고",
           "삼성전자 메모리-파운드리-어드밴스드 패키징 '원스톱 턴키' 모델로 반격",
           "미 대선 이후 첨단 반도체 공급망 통제와 대만 해협 지정학 리스크"
         ],
@@ -153,14 +158,15 @@
       {
         source: "국제금융센터 KCIF",
         tag: "글로벌 외환 & 금리",
+        videoId: "1La4QzGeaaQ",
         headline: "주요국 통화정책 탈동조화(Decoupling)와 신흥국 자금 유출입 전망",
         summary: "미 연준 금리 인하 속도 조절 vs 유럽 ECB 연속 인하 vs 일본 BOJ 금리 인상... 글로벌 외환시장 긴장",
         subtitles: [
-          "KCIF "연준 통화정책 경로 불확실성 증대... 달러화 강세 압력 장기화 가능성"",
+          "KCIF: 연준 통화정책 경로 불확실성 증대... 달러화 강세 압력 장기화 가능성",
           "일본 엔화 추가 금리 인상 시 엔캐리 트레이드 청산 2차 충격 경계",
-          "한국 외환·금융시장 탄력성 유지... CDS 프리미엄 32bp 안정적 수준"
+          "신흥국 통화 가치 차별화... 펀더멘털 양호한 아시아 주요국 선별 투자 유입"
         ],
-        body: "국제금융센터(KCIF)는 미국 연준의 정책금리 인하 속도 조절과 유럽·일본의 상반된 통화정책 행보로 인해 주요 통화 간 변동성이 확대되고 있으며, 한국 외환시장은 양호한 대외건전성을 바탕으로 방어력을 유지하고 있다고 분석했습니다.",
+        body: "국제금융센터(KCIF)는 미국 연준의 정책금리 인하 속도 조절 전망과 주요 선진국 중앙은행의 엇갈린 통화정책 행보가 글로벌 유동성 흐름 및 신흥국 금융시장에 미칠 파급효과를 심층 분석했습니다.",
         url: "https://www.kcif.or.kr/"
       }
     ];
@@ -169,18 +175,22 @@
     let subtitleRotateTimer = null;
     let currentSubIdx = 0;
 
-    function updateIntelView(idx) {
+        function updateIntelView(idx) {
       currentIntelIdx = idx;
       const data = intelSources[idx];
       const tagEl = document.getElementById('hubSourceTag');
       const headEl = document.getElementById('hubHeadline');
       const sumEl = document.getElementById('hubSummary');
       const subEl = document.getElementById('hubSubtitleText');
+      const iframeEl = document.getElementById('hubVideoIframe');
 
       if (tagEl) tagEl.textContent = `${data.source} · ${data.tag}`;
       if (headEl) headEl.textContent = data.headline;
       if (sumEl) sumEl.textContent = data.summary;
       if (subEl) subEl.textContent = data.subtitles[0];
+      if (iframeEl && data.videoId) {
+        iframeEl.src = `https://www.youtube-nocookie.com/embed/${data.videoId}?rel=0&modestbranding=1`;
+      }
 
       currentSubIdx = 0;
       startSubtitleRotation();
@@ -240,6 +250,110 @@
 
     // Initialize intel rotation
     updateIntelView(0);
+    
+    
+    // 4대 핵심 특종 실시간 자동 순환 데이터
+    const leadStories = [
+      {
+        tagMain: "🔥 [긴급 분석] 글로벌 인텔리전스 톱 리포트",
+        tagSub: "RYUNGSUN 수석연구위원 단독 제언",
+        headline: "2026 하반기 글로벌 유동성 축소와 빅테크 AI CapEx 부채 리스크 긴급 점검",
+        subheadline: "실리콘밸리 하이퍼스케일러의 데이터센터 부채 레버리지와 글로벌 채권 시장의 경고음",
+        body: "2026년 하반기 마이크로소프트, 구글, 메타, 아마존 등 4대 빅테크의 연간 CapEx(자본지출) 총합이 사상 최초로 2,200억 달러를 돌파했습니다. 그러나 생성형 AI B2B 구독 수익 회수율은 Capex의 30% 수준에 머물며 대규모 회사채 발행 및 사모신용(Private Credit) 레버리지에 의존하는 'AI 부채 사이클'이 심화되고 있습니다.",
+        meta: "<span><strong>📚 노션 원장:</strong> 『AI 버블이 만드는 부채의 종말』 (완결 연구 모노그래프)</span><span><strong>🌐 공식 DB:</strong> 미국 연준 FRED, BIS 국제결제은행, 한국은행 ECOS</span><span><strong>🏛️ 정책 함의:</strong> 2027 차환(Refinancing) 리스크 및 기술채 신용 스프레드 확대 선제 대비</span>",
+        reportId: "report-2026-10-01"
+      },
+      {
+        tagMain: "⚡ [기술 패권] 파운드리·반도체 지정학",
+        tagSub: "HBM4 16단 적층 공급망 독점 분석",
+        headline: "2026 차세대 HBM4·CXL 패권 전쟁과 파운드리 지정학적 분곡점",
+        subheadline: "TSMC-SK하이닉스 연합의 3nm 베이스 다이 독주 vs 삼성전자 원스톱 턴키 모델의 정면 승부",
+        body: "2026년 반도체 업계의 최대 격전지는 16단 적층 HBM4의 베이스 다이(Base Die) 공정 생태계 재편입니다. TSMC의 선단 파운드리를 기반으로 한 연합군에 맞서, 메모리-파운드리-패키징을 일괄 제공하는 삼성전자의 턴키 전략이 엔비디아 루빈(Rubin) 아키텍처 수주전에서 결정적 시험대에 올랐습니다.",
+        meta: "<span><strong>📚 노션 원장:</strong> 『일본 반도체 패권의 몰락』 (완결 연구 모노그래프)</span><span><strong>🌐 공식 DB:</strong> KISTEP 과학기술동향, 한국반도체산업협회(KSIA)</span><span><strong>🏛️ 산업 함의:</strong> 2.5D/3D 어드밴스드 패키징 기술 표준화 및 대만 해협 지정학 리스크 헤지</span>",
+        reportId: "report-2026-10-02"
+      },
+      {
+        tagMain: "🚢 [산업 슈퍼사이클] 글로벌 친환경 해운",
+        tagSub: "조선 3사 도크 슬롯 3.5년 치 완판",
+        headline: "2026 K-조선 슈퍼사이클의 지속성과 글로벌 친환경 선박 수주 잔고 분석",
+        subheadline: "신조선가지수 188.5p 역사적 고점 육박... 선별 수주에 따른 영업이익률 12% 구조적 안착",
+        body: "2026년 10월 글로벌 조선 시장은 2008년 역사적 고점(191p)에 육박하는 신조선가지수 188.5p를 기록하며 유례없는 슈퍼사이클 4년 차에 안착했습니다. 국내 조선 3사는 2028년 하반기 도크 슬롯까지 일감을 가득 채운 상태에서 고부가가치 LNG선과 암모니아 추진선 중심의 질적 성장을 이어가고 있습니다.",
+        meta: "<span><strong>📚 노션 원장:</strong> 『조선업 심층 리서치』 (완결 연구 모노그래프)</span><span><strong>🌐 공식 DB:</strong> 클락슨 리서치(Clarksons), 한국조선해양플랜트협회</span><span><strong>🏛️ 시장 함의:</strong> IMO 탄소배출 규제 강화 및 카타르 2차 프로젝트 잔여 슬롯 프리미엄 극대화</span>",
+        reportId: "report-2026-10-03"
+      },
+      {
+        tagMain: "💵 [거시경제] 통화정책 & 외환시장",
+        tagSub: "한미 금리차 150bp 속 통화정책 딜레마",
+        headline: "2026 원/달러 1,400원 시대와 한은·연준 금리 디커플링의 거시 파급 경로",
+        subheadline: "수퍼달러와 가계부채 관리의 충돌... 내수 회복과 부동산 PF 연착륙을 위한 최적 통화 경로",
+        body: "원/달러 환율이 1,380~1,400원 선에서 높은 변동성을 유지하는 가운데, 미국 연준의 정책금리 인하 속도 조절과 한국은행의 가계부채 억제 정책이 충돌하고 있습니다. 금리 격차 150bp 속에서 수입물가 상승 압력과 내수 부진을 방어하기 위한 정밀한 정책 조합이 요구됩니다.",
+        meta: "<span><strong>📚 노션 원장:</strong> 『통화정책과 거시경제 프레임워크』 (완결 연구 모노그래프)</span><span><strong>🌐 공식 DB:</strong> 국제금융센터(KCIF), 한국은행 ECOS, KDI 경제지표</span><span><strong>🏛️ 정책 함의:</strong> 외환보유액 4,199억 달러 방어선 점검 및 비은행 금융기관 외화유동성 모니터링</span>",
+        reportId: "report-2026-10-04"
+      }
+    ];
+
+    let currentLeadIdx = 0;
+    let leadRotateTimer = null;
+
+    function switchLeadStory(idx) {
+      currentLeadIdx = idx;
+      const data = leadStories[idx];
+      const card = document.getElementById('mainLeadCard');
+      const tagMain = document.getElementById('leadTagMain');
+      const tagSub = document.getElementById('leadTagSub');
+      const headline = document.getElementById('leadHeadline');
+      const subheadline = document.getElementById('leadSubheadline');
+      const body = document.getElementById('leadBody');
+      const meta = document.getElementById('leadMeta');
+      const btn = document.getElementById('btnLeadRead');
+
+      if (card) card.style.opacity = '0.4';
+      setTimeout(() => {
+        if (tagMain) tagMain.textContent = data.tagMain;
+        if (tagSub) tagSub.textContent = data.tagSub;
+        if (headline) headline.textContent = data.headline;
+        if (subheadline) subheadline.textContent = data.subheadline;
+        if (body) body.textContent = data.body;
+        if (meta) meta.innerHTML = data.meta;
+        if (btn) btn.setAttribute('onclick', `openReportModal('${data.reportId}')`);
+        if (card) card.style.opacity = '1';
+      }, 150);
+
+      document.querySelectorAll('.lead-tab-btn').forEach((b, i) => {
+        if (i === idx) b.classList.add('active');
+        else b.classList.remove('active');
+      });
+    }
+
+    function startLeadRotation() {
+      if (leadRotateTimer) clearInterval(leadRotateTimer);
+      leadRotateTimer = setInterval(() => {
+        currentLeadIdx = (currentLeadIdx + 1) % leadStories.length;
+        switchLeadStory(currentLeadIdx);
+      }, 9000); // 9초마다 메인 특종 자동 순환
+    }
+
+    // Direct Profile Modal Trigger (보장된 실행)
+    window.openProfileModal = function() {
+      const modal = document.getElementById('profileModal');
+      if (modal) {
+        modal.style.display = 'flex';
+      }
+    };
+    window.closeProfileModalDirect = function() {
+      const modal = document.getElementById('profileModal');
+      if (modal) {
+        modal.style.display = 'none';
+      }
+    };
+    window.closeProfileModal = function(e) {
+      if (e && e.target && e.target.id === 'profileModal') {
+        window.closeProfileModalDirect();
+      }
+    };
+
+    // Load Lead Rotation on start
+    startLeadRotation();
     
     // YouTube Video Switcher
     function switchVideo(videoId, title, btn) {
@@ -310,7 +424,7 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* 1. Breaking News Ticker (조선일보 Live 감각) */
+    /* 1. Breaking News Ticker */
     .top-ticker {
       background: #090b10;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -424,7 +538,7 @@
       box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
     }
 
-    /* 3. Hero Section (Chosun Front Page + KDI Focus + Apple Visuals) */
+    /* 3. Hero Masthead & Intelligence Dashboard */
     .hero-section {
       padding: 60px 24px 50px;
       background: radial-gradient(circle at 50% 12%, #141c30 0%, #05070c 55%, #000000 85%);
@@ -460,7 +574,7 @@
     }
     .masthead-right strong { color: var(--text-primary); }
 
-    /* KDI Macro Key Dashboard Grid */
+    /* Macro Key Indicators Grid */
     .kdi-macro-dashboard {
       display: grid;
       grid-template-columns: repeat(5, 1fr);
@@ -494,7 +608,7 @@
     .kdi-stat-sub { font-size: 11px; color: var(--accent-emerald); margin-top: 2px; }
     .kdi-stat-sub.red { color: var(--accent-red); }
 
-    /* Front-Page Editorial Bento (조선일보 톱기사 + KDI Focus) */
+    /* Front-Page Editorial Bento */
     .editorial-grid {
       display: grid;
       grid-template-columns: 2fr 1.1fr;
@@ -502,7 +616,7 @@
       margin-bottom: 20px;
     }
 
-    /* Main Lead Article Card (조선일보 1면 톱 / KDI 단독 제언) */
+    /* Main Lead Article Card */
     .lead-card {
       background: linear-gradient(135deg, rgba(20, 26, 42, 0.9) 0%, rgba(10, 14, 22, 0.9) 100%);
       border: 1px solid rgba(255, 255, 255, 0.12);
@@ -526,7 +640,7 @@
       gap: 10px;
       margin-bottom: 18px;
     }
-    .tag-kdi-focus {
+    .tag-lead-focus {
       background: var(--kdi-blue);
       color: #fff;
       font-size: 11px;
@@ -591,7 +705,7 @@
       padding-top: 18px;
     }
 
-    /* Sub Editorial Columns (조선일보 경제칼럼 / 연구위원 리포트) */
+    /* Sub Editorial Columns */
     .sub-editorial-column {
       display: flex;
       flex-direction: column;
@@ -1629,11 +1743,131 @@
       font-weight: 600;
     }
     
+
+    /* Profile & Intel Modals */
+    .report-modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(20px);
+      z-index: 99999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .profile-modal-box {
+      max-width: 680px;
+      width: 100%;
+      background: #141418;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.9);
+      max-height: 88vh;
+      overflow-y: auto;
+      position: relative;
+    }
+    .btn-profile-toggle {
+      background: linear-gradient(135deg, rgba(0, 113, 227, 0.2), rgba(255, 255, 255, 0.08));
+      border: 1px solid rgba(0, 113, 227, 0.4);
+      color: #70b4ff;
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .btn-profile-toggle:hover {
+      background: var(--accent-blue);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(0, 113, 227, 0.4);
+    }
+
+    /* Live Rotating Lead Carousel Tabs */
+    .lead-rotation-nav {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .lead-tab-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: var(--text-muted);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .lead-tab-btn:hover, .lead-tab-btn.active {
+      background: #ff3b30;
+      border-color: #ff3b30;
+      color: #fff;
+    }
+
+    /* Video Player & Subtitle Ticker */
+    .video-hub-player-wrap {
+      width: 100%;
+      height: 180px;
+      background: #000;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 12px;
+      position: relative;
+    }
+    .video-hub-player-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-play-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .video-play-overlay:hover {
+      background: rgba(0,0,0,0.2);
+    }
+    .play-circle-btn {
+      width: 50px;
+      height: 50px;
+      background: rgba(255, 59, 48, 0.9);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 20px;
+      padding-left: 4px;
+      box-shadow: 0 4px 20px rgba(255, 59, 48, 0.6);
+    }
+    
 </style>
 </head>
 <body>
 
-  <!-- Top Breaking News Strip (조선일보 Live 감각) -->
+  <!-- Top Breaking News Strip -->
   <div class="top-ticker">
     <span class="ticker-badge">LIVE INSIGHT</span>
     <div class="ticker-content">
@@ -1707,7 +1941,7 @@
   </div>
 
 
-  <!-- Hero & Masthead (조선일보 톱 헤드라인 + KDI 거시지표 + Apple 감각) -->
+  <!-- Hero & Masthead -->
   <header class="hero-section" id="editorial">
     <div class="hero-container">
 
@@ -1740,11 +1974,16 @@
 
           <div class="hub-sources-pills" onclick="event.stopPropagation()">
             <button class="pill-btn active" onclick="switchIntel(0, this)">한국은행</button>
-            <button class="pill-btn" onclick="switchIntel(1, this)">KDI</button>
+            <button class="pill-btn" onclick="switchIntel(1, this)">국책연구원</button>
             <button class="pill-btn" onclick="switchIntel(2, this)">삼프로TV</button>
             <button class="pill-btn" onclick="switchIntel(3, this)">슈카월드</button>
             <button class="pill-btn" onclick="switchIntel(4, this)">Bloomberg</button>
             <button class="pill-btn" onclick="switchIntel(5, this)">KCIF</button>
+          </div>
+
+          <!-- Actual Embedded Live YouTube Video Player -->
+          <div class="video-hub-player-wrap" id="hubVideoContainer" onclick="event.stopPropagation()">
+            <iframe id="hubVideoIframe" src="https://www.youtube-nocookie.com/embed/Vq_eWj4-i_k?rel=0&modestbranding=1" title="실시간 경제 브리핑 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <div class="hub-content-preview">
@@ -1761,7 +2000,7 @@
         </div>
       </div>
 
-      <!-- KDI Style Macro Economic Dashboard (북마크 국내·해외 공식 금융통계 지표 연동) -->
+      <!-- Macro Economic Key Dashboard -->
       <div class="kdi-macro-dashboard">
         <div class="kdi-stat-item">
           <div class="kdi-stat-label">원/달러 환율 (KRW/USD)</div>
@@ -1801,38 +2040,48 @@
         </div>
       </div>
 
-      <!-- Front-Page Editorial Bento Grid -->
+            <!-- Front-Page Dynamic Rotating Editorial Bento Grid -->
       <div class="editorial-grid">
-        <!-- Lead Headline Story (조선일보 톱기사 & KDI FOCUS 단독) -->
-        <div class="lead-card">
+        <!-- Lead Headline Story (실시간 순환 회전) -->
+        <div class="lead-card" id="mainLeadCard">
           <div>
-            <div class="lead-tag-bar">
-              <span class="tag-live-new">🔥 [긴급 진단] 조선일보 1면 톱</span>
-              <span class="tag-kdi-focus">KDI FOCUS 심층 리포트</span>
-              <span style="font-size: 12px; color: var(--text-muted); margin-left: auto;">2026.10.27 발행 · 12분 심층 분석</span>
+            <!-- Live Rotation Tab Selector -->
+            <div class="lead-rotation-nav">
+              <button class="lead-tab-btn active" id="leadTab0" onclick="switchLeadStory(0)">🔥 1. AI CapEx 부채</button>
+              <button class="lead-tab-btn" id="leadTab1" onclick="switchLeadStory(1)">⚡ 2. HBM4 파운드리</button>
+              <button class="lead-tab-btn" id="leadTab2" onclick="switchLeadStory(2)">🚢 3. K-조선 슈퍼사이클</button>
+              <button class="lead-tab-btn" id="leadTab3" onclick="switchLeadStory(3)">💵 4. 원/달러 1,400원</button>
             </div>
-            <h2 class="lead-headline">2026 하반기 글로벌 유동성 축소와 빅테크 AI CapEx 부채 리스크 긴급 점검</h2>
-            <div class="lead-subheadline">실리콘밸리 하이퍼스케일러의 데이터센터 부채 레버리지와 글로벌 채권 시장의 경고음</div>
-            <p class="lead-body">
+
+            <div class="lead-tag-bar">
+              <span class="tag-live-new" id="leadTagMain">🔥 [긴급 분석] 글로벌 인텔리전스 톱 리포트</span>
+              <span class="tag-lead-focus" id="leadTagSub">RYUNGSUN 수석연구위원 단독 제언</span>
+              <span style="font-size: 12px; color: var(--accent-blue); margin-left: auto;" id="leadTimerBadge">⏱ 10초마다 자동 순환 중</span>
+            </div>
+
+            <h2 class="lead-headline" id="leadHeadline">2026 하반기 글로벌 유동성 축소와 빅테크 AI CapEx 부채 리스크 긴급 점검</h2>
+            <div class="lead-subheadline" id="leadSubheadline">실리콘밸리 하이퍼스케일러의 데이터센터 부채 레버리지와 글로벌 채권 시장의 경고음</div>
+            <p class="lead-body" id="leadBody">
               2026년 하반기 마이크로소프트, 구글, 메타, 아마존 등 4대 빅테크의 연간 CapEx(자본지출) 총합이 사상 최초로 2,200억 달러를 돌파했습니다. 
-              그러나 생성형 AI B2B 구독 수익 회수율은 Capex의 30% 수준에 머물며 대규모 회사채 발행 및 사모신용(Private Credit) 레버리지에 의존하는 'AI 부채 사이클'이 심화되고 있습니다. 
-              본 보고서는 2026년 10월 최신 거시경제 지표를 바탕으로 AI 인프라 부채의 만기 구조와 글로벌 채권 시장의 유동성 경색 위험을 심층 진단합니다.
+              그러나 생성형 AI B2B 구독 수익 회수율은 Capex의 30% 수준에 머물며 대규모 회사채 발행 및 사모신용(Private Credit) 레버리지에 의존하는 'AI 부채 사이클'이 심화되고 있습니다.
             </p>
-            <div class="lead-metadata-box">
-              <span><strong>📚 노션 원장 연계:</strong> 『AI 버블이 만드는 부채의 종말』 (완결 연구 모노그래프)</span>
-              <span><strong>🌐 통계 데이터셋:</strong> FRED, BIS 국제결제은행, 한국은행 ECOS</span>
-              <span><strong>📧 이메일 수신 동향:</strong> KIF 금융브리프, COFFEEPOT 거시 레터</span>
-              <span><strong>🏛️ 정책 함의:</strong> 2027 차환 리스크 및 신용 스프레드 확대 선제 대비</span>
+
+            <div class="lead-metadata-box" id="leadMeta">
+              <span><strong>📚 노션 원장:</strong> 『AI 버블이 만드는 부채의 종말』 (완결 연구 모노그래프)</span>
+              <span><strong>🌐 공식 DB:</strong> 미국 연준 FRED, BIS 국제결제은행, 한국은행 ECOS</span>
+              <span><strong>🏛️ 정책 함의:</strong> 2027 차환(Refinancing) 리스크 및 기술채 신용 스프레드 확대 선제 대비</span>
             </div>
           </div>
+
           <div class="lead-action-bar">
-            <span style="font-size: 13px; color: var(--accent-red); font-weight: 700;">RYUNGSUN Macro Intelligence Group</span>
-            <button class="btn-read-modal" onclick="openReportModal('report-2026-10-01')">보고서 전문 열기 (Quick Read) &gt;</button>
+            <span style="font-size: 13px; color: var(--accent-red); font-weight: 700;">RYUNGSUN Global Intelligence Group</span>
+            <button class="btn-read-modal" id="btnLeadRead" onclick="openReportModal('report-2026-10-01')">보고서 전문 열기 (Quick Read) &gt;</button>
           </div>
         </div>
 
         <!-- Sub Editorial Column (3편의 연속 심층 기사) -->
         <div class="sub-editorial-column">
+
           
           <div class="sub-report-card">
             <div>
@@ -1891,7 +2140,7 @@
       <div class="newsletter-card">
         <div class="newsletter-left">
           <span class="newsletter-badge">📬 RYUNGSUN‘s INTELLIGENCE BRIEFING</span>
-          <h2 class="newsletter-title">KDI·조선일보 스타일 거시경제 특종과 569편의 지식 원장, 매주 메일함으로 받아보세요</h2>
+          <h2 class="newsletter-title">글로벌 거시경제 특종과 569편의 심층 연구 모노그래프, 매주 메일함으로 받아보세요</h2>
           <p class="newsletter-desc">
             글로벌 씽크탱크(KIF, SIPRI, NABO) 긴급 속보와 빅테크 부채 사이클, HBM4 반도체 패권, 원/달러 환율 진단을 매주 월·목 아침 발행 즉시 가장 먼저 무료로 전달해 드립니다.
           </p>
@@ -1925,7 +2174,7 @@
     <div class="email-sync-container">
       <span class="section-eyebrow">Real-Time Email Intelligence Mapping</span>
       <h2 class="section-title">이메일 실시간 수집 인텔리전스 & 노션 9대 전략 폴더 연동</h2>
-      <p class="section-desc">KIF, KDI, KIEP, 세종연, COFFEEPOT 등 지메일/네이버로 수집되는 최신 싱크탱크 뉴스레터가 관련 노션 연구 폴더에 실시간으로 매핑·동기화됩니다.</p>
+      <p class="section-desc">한국금융연구원, 국책연구원, KIEP, 세종연구소, COFFEEPOT 등 지메일/네이버로 수집되는 최신 싱크탱크 뉴스레터가 관련 노션 연구 폴더에 실시간으로 매핑·동기화됩니다.</p>
 
       <div class="notion-folder-grid">
         <!-- 1. 거시경제 -->
@@ -2137,7 +2386,7 @@
   <footer class="pro-footer">
     <div class="footer-inner">
       <h2 class="footer-title">RYUNGSUN‘s Knowledge & Insight</h2>
-      <p class="footer-subtitle">조선일보의 저널리즘 감각과 KDI 연구소의 심층 분석 체계, 애플의 절제된 미학으로 구축된 24시간 글로벌 인텔리전스</p>
+      <p class="footer-subtitle">정밀한 거시경제 데이터 분석과 569편의 심층 모노그래프 원장이 결합된 24시간 글로벌 인텔리전스 허브</p>
       <div class="footer-legal">
         <span>&copy; 2026 RYUNGSUN. All rights reserved.</span>
         <span>Architected by RYUNGSUN Macro Intelligence Group & GitHub Pages</span>
