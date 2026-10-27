@@ -75,6 +75,615 @@
 
 ---
 
+## 📚 노션 전략 연구 & 칼럼 아카이브 (Notion Intelligence Monographs - 48편)
+
+> 영선 님의 노션(`유영선의 Know-tion`)에 집필·정리된 방대한 심층 연구 분석서, 거시경제 및 산업 분석 모노그래프 전문 아카이브입니다.
+
+| 연구 테마 / 칼럼 명칭 | 분량 (글자 수) | 원문 노션 링크 | 깃허브 마크다운 파일 |
+| :--- | :---: | :---: | :---: |
+| **🌏PSB(Planet Size Brain)** | 142,181자 | [노션 열기](https://app.notion.com/p/PSB-Planet-Size-Brain-129e42c8c5e280b49a27edd7780cd316) | [`🌏PSB(Planet Size Brain).md`](notion-intelligence/🌏PSB(Planet Size Brain).md) |
+| **AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법 ** | 125,189자 | [노션 열기](https://app.notion.com/p/AI-3fde42c8c5e2805787eac978ca95983e) | [`AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법.md`](notion-intelligence/AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법.md) |
+| **환율 지식이 돈이다 1년 반 동안 서민의 지갑에서 빠져나간 돈 109조 원! ** | 107,432자 | [노션 열기](https://app.notion.com/p/1-109-22fe42c8c5e2804ca0c4d16dc2301813) | [`환율 지식이 돈이다 1년 반 동안 서민의 지갑에서 빠져나간 돈 109조 원!.md`](notion-intelligence/환율 지식이 돈이다 1년 반 동안 서민의 지갑에서 빠져나간 돈 109조 원!.md) |
+| **대중 음악 사전** | 103,933자 | [노션 열기](https://app.notion.com/p/aa5294bf6abc41d08dcce76f88247223) | [`대중 음악 사전.md`](notion-intelligence/대중 음악 사전.md) |
+| **War** | 89,841자 | [노션 열기](https://app.notion.com/p/War-23fe42c8c5e2800191faf0a72f0bb6ec) | [`War.md`](notion-intelligence/War.md) |
+| **한국 대중음악 명반 100 앨범리뷰 젊은 평론가들의 시대를 초월한 선택** | 78,629자 | [노션 열기](https://app.notion.com/p/100-820f4009be9e44df9ab45978ce744b7d) | [`한국 대중음악 명반 100 앨범리뷰 젊은 평론가들의 시대를 초월한 선택.md`](notion-intelligence/한국 대중음악 명반 100 앨범리뷰 젊은 평론가들의 시대를 초월한 선택.md) |
+| **Mmmh!: 레전드, 비하인드, 레코드** | 66,865자 | [노션 열기](https://app.notion.com/p/Mmmh-283e42c8c5e280a8a28bf46a5f49f08a) | [`Mmmh!_ 레전드, 비하인드, 레코드.md`](notion-intelligence/Mmmh!_ 레전드, 비하인드, 레코드.md) |
+| **진짜 하루만에 이해하는 해운·조선 산업** | 64,315자 | [노션 열기](https://app.notion.com/p/36be42c8c5e280d7a7e6f16f8ed1f450) | [`진짜 하루만에 이해하는 해운·조선 산업.md`](notion-intelligence/진짜 하루만에 이해하는 해운·조선 산업.md) |
+| **shipbuilding** | 59,579자 | [노션 열기](https://app.notion.com/p/shipbuilding-2a9e42c8c5e2805da54bfc4b7e21b427) | [`shipbuilding.md`](notion-intelligence/shipbuilding.md) |
+| **죽기 전에 꼭 들어야 할 앨범 1001장** | 55,662자 | [노션 열기](https://app.notion.com/p/1001-23ce42c8c5e28069b47de66ac870aea8) | [`죽기 전에 꼭 들어야 할 앨범 1001장.md`](notion-intelligence/죽기 전에 꼭 들어야 할 앨범 1001장.md) |
+| **나는 스무 살이다** | 52,946자 | [노션 열기](https://app.notion.com/p/285e42c8c5e280e38057d8cb833ed58f) | [`나는 스무 살이다.md`](notion-intelligence/나는 스무 살이다.md) |
+| **🎬Movie(영화감독)** | 52,448자 | [노션 열기](https://app.notion.com/p/Movie-251e42c8c5e28011bfcec2f0400efb3e) | [`🎬Movie(영화감독).md`](notion-intelligence/🎬Movie(영화감독).md) |
+| **한국 대중음악사 개론 Introduction to K-pop history** | 50,440자 | [노션 열기](https://app.notion.com/p/Introduction-to-K-pop-history-285e42c8c5e280dabb33f51256182a71) | [`한국 대중음악사 개론 Introduction to K-pop history.md`](notion-intelligence/한국 대중음악사 개론 Introduction to K-pop history.md) |
+| **자본주의 시대에서 살아남기 위한 최소한의 경제 공부** | 50,071자 | [노션 열기](https://app.notion.com/p/36be42c8c5e2801c9cdcd1706ce10aec) | [`자본주의 시대에서 살아남기 위한 최소한의 경제 공부.md`](notion-intelligence/자본주의 시대에서 살아남기 위한 최소한의 경제 공부.md) |
+| **역사와 인물로 동유럽 들여다보기** | 47,780자 | [노션 열기](https://app.notion.com/p/15ee42c8c5e2800a8ed1c7011a729270) | [`역사와 인물로 동유럽 들여다보기.md`](notion-intelligence/역사와 인물로 동유럽 들여다보기.md) |
+| **투자 디톡스 + 필사노트 세트 본성에 휘툴리지 않고 불안에서 벗어나기 ** | 45,877자 | [노션 열기](https://app.notion.com/p/29be42c8c5e2805c850de00e2cac1dfb) | [`투자 디톡스 + 필사노트 세트 본성에 휘툴리지 않고 불안에서 벗어나기.md`](notion-intelligence/투자 디톡스 + 필사노트 세트 본성에 휘툴리지 않고 불안에서 벗어나기.md) |
+| **당신이 보고 싶은 영화는 영화관에 없다** | 45,605자 | [노션 열기](https://app.notion.com/p/290e42c8c5e280c0a338d3f46b9f91ee) | [`당신이 보고 싶은 영화는 영화관에 없다.md`](notion-intelligence/당신이 보고 싶은 영화는 영화관에 없다.md) |
+| **제너레이션 : 세대란 무엇인가? 사일런트, 베이비붐, X, 밀레니얼, Z, 알파 세대, 그들은 대체 누구인가?** | 45,061자 | [노션 열기](https://app.notion.com/p/X-Z-2ed3fcf9fa5d433a9d4a684378fa21cf) | [`제너레이션 _ 세대란 무엇인가_ 사일런트, 베이비붐, X, 밀레니얼, Z, 알파 세대, 그들은 대체 누구인가_.md`](notion-intelligence/제너레이션 _ 세대란 무엇인가_ 사일런트, 베이비붐, X, 밀레니얼, Z, 알파 세대, 그들은 대체 누구인가_.md) |
+| **참고자료(일본 영화)** | 44,377자 | [노션 열기](https://app.notion.com/p/1ffe42c8c5e28090ad6dd3c5c3c77fa8) | [`참고자료(일본 영화).md`](notion-intelligence/참고자료(일본 영화).md) |
+| **AI 경영: 소년병과 아인슈타인** | 43,513자 | [노션 열기](https://app.notion.com/p/AI-2a5e42c8c5e2803a83c0f6f492bcdc70) | [`AI 경영_ 소년병과 아인슈타인.md`](notion-intelligence/AI 경영_ 소년병과 아인슈타인.md) |
+| **[고우영] 가루지기뎐 01권** | 43,511자 | [노션 열기](https://app.notion.com/p/01-104e42c8c5e2805bb753f5988aad82bd) | [`[고우영] 가루지기뎐 01권.md`](notion-intelligence/[고우영] 가루지기뎐 01권.md) |
+| **[고우영] 가루지기뎐 03권 [완]** | 43,315자 | [노션 열기](https://app.notion.com/p/03-104e42c8c5e280c5ad28e46b17b9d3ba) | [`[고우영] 가루지기뎐 03권 [완].md`](notion-intelligence/[고우영] 가루지기뎐 03권 [완].md) |
+| **건설산업 생존전략** | 42,413자 | [노션 열기](https://app.notion.com/p/28ee42c8c5e28003a56fe3350b5cfd58) | [`건설산업 생존전략.md`](notion-intelligence/건설산업 생존전략.md) |
+| **[고우영] 가루지기뎐 02권** | 42,139자 | [노션 열기](https://app.notion.com/p/02-6f2a3a3695874b7f888ce09d83ed3756) | [`[고우영] 가루지기뎐 02권.md`](notion-intelligence/[고우영] 가루지기뎐 02권.md) |
+| **진짜 하루만에 이해하는 반도체 산업** | 41,007자 | [노션 열기](https://app.notion.com/p/36be42c8c5e280b78470e2db953db58c) | [`진짜 하루만에 이해하는 반도체 산업.md`](notion-intelligence/진짜 하루만에 이해하는 반도체 산업.md) |
+| **일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까?** | 38,011자 | [노션 열기](https://app.notion.com/p/3f7e42c8c5e2808a912cedd3b82acd34) | [`일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까_.md`](notion-intelligence/일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까_.md) |
+| **세대별 아이돌 100[ 직접작성 ] ** | 36,627자 | [노션 열기](https://app.notion.com/p/100-f8e2c1df143c4ad69510d96249398a50) | [`세대별 아이돌 100[ 직접작성 ].md`](notion-intelligence/세대별 아이돌 100[ 직접작성 ].md) |
+| **환율 비밀 노트** | 36,029자 | [노션 열기](https://app.notion.com/p/204e42c8c5e28086b518c5d8feaeb9f7) | [`환율 비밀 노트.md`](notion-intelligence/환율 비밀 노트.md) |
+| **🪆양자 컴퓨터** | 35,072자 | [노션 열기](https://app.notion.com/p/21fe42c8c5e280c1b8a1f8482802267c) | [`🪆양자 컴퓨터.md`](notion-intelligence/🪆양자 컴퓨터.md) |
+| **Z의 스마트폰** | 33,809자 | [노션 열기](https://app.notion.com/p/Z-311e42c8c5e280d48624d9d70a04d646) | [`Z의 스마트폰.md`](notion-intelligence/Z의 스마트폰.md) |
+| **근대 대중가요의 지속과 변모** | 33,725자 | [노션 열기](https://app.notion.com/p/285e42c8c5e280518dfdd5c73b02b7d7) | [`근대 대중가요의 지속과 변모.md`](notion-intelligence/근대 대중가요의 지속과 변모.md) |
+| **진보를 위한 주식투자 광수네 복덕방, 모두의 투자 이야기 ** | 33,334자 | [노션 열기](https://app.notion.com/p/2d6e42c8c5e2805199c6d8bd9ff68b30) | [`진보를 위한 주식투자 광수네 복덕방, 모두의 투자 이야기.md`](notion-intelligence/진보를 위한 주식투자 광수네 복덕방, 모두의 투자 이야기.md) |
+| **슈퍼달러 슈퍼리치 환율과 썸 타기 ** | 33,113자 | [노션 열기](https://app.notion.com/p/1e8e42c8c5e280cead24e968537c4376) | [`슈퍼달러 슈퍼리치 환율과 썸 타기.md`](notion-intelligence/슈퍼달러 슈퍼리치 환율과 썸 타기.md) |
+| **대중음악 강의 20세기 대중음악의 장르별 역사** | 30,809자 | [노션 열기](https://app.notion.com/p/20-e6ba86c8c1484f708e40815985e368cf) | [`대중음악 강의 20세기 대중음악의 장르별 역사.md`](notion-intelligence/대중음악 강의 20세기 대중음악의 장르별 역사.md) |
+| **참고자료(일본)** | 30,290자 | [노션 열기](https://app.notion.com/p/1f4e42c8c5e2805c8a74dbc7f78f6460) | [`참고자료(일본).md`](notion-intelligence/참고자료(일본).md) |
+| **주식과 부동산, 파티는 끝났다 유동성과 환율로 분석하고 전망한** | 29,204자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e28040be4bde61fdfb4234) | [`주식과 부동산, 파티는 끝났다 유동성과 환율로 분석하고 전망한.md`](notion-intelligence/주식과 부동산, 파티는 끝났다 유동성과 환율로 분석하고 전망한.md) |
+| **최리노의 한 권으로 끝내는 반도체 이야기** | 28,021자 | [노션 열기](https://app.notion.com/p/29ce42c8c5e280309f5ffc4ff3803db3) | [`최리노의 한 권으로 끝내는 반도체 이야기.md`](notion-intelligence/최리노의 한 권으로 끝내는 반도체 이야기.md) |
+| **나의 두 번째 교과서 X 궤도의 다시 만난 과학** | 26,903자 | [노션 열기](https://app.notion.com/p/X-282e42c8c5e2800fa46bd9c85f021b97) | [`나의 두 번째 교과서 X 궤도의 다시 만난 과학.md`](notion-intelligence/나의 두 번째 교과서 X 궤도의 다시 만난 과학.md) |
+| **Commerce** | 26,026자 | [노션 열기](https://app.notion.com/p/Commerce-235e42c8c5e280779242f9669ff7eded) | [`Commerce.md`](notion-intelligence/Commerce.md) |
+| **근대 대중가요의 매체와 문화** | 25,805자 | [노션 열기](https://app.notion.com/p/285e42c8c5e280aebe83fb8959670038) | [`근대 대중가요의 매체와 문화.md`](notion-intelligence/근대 대중가요의 매체와 문화.md) |
+| **넷플릭스 인사이드 세계 최대 엔터 제국 넷플릭스 성공의 비밀 ** | 23,992자 | [노션 열기](https://app.notion.com/p/2dee42c8c5e2806e9159fa2caf569003) | [`넷플릭스 인사이드 세계 최대 엔터 제국 넷플릭스 성공의 비밀.md`](notion-intelligence/넷플릭스 인사이드 세계 최대 엔터 제국 넷플릭스 성공의 비밀.md) |
+| **혐한의 나라 일본** | 23,105자 | [노션 열기](https://app.notion.com/p/289e42c8c5e2800ca4e8eea47ae5801a) | [`혐한의 나라 일본.md`](notion-intelligence/혐한의 나라 일본.md) |
+| **하류지향 배움을 흥정하는 아이들, 일에서 도피하는 청년들 성장 거부 세대에 대한 사회학적 통찰** | 23,036자 | [노션 열기](https://app.notion.com/p/2bee42c8c5e28050955aedd3bfd0c4f0) | [`하류지향 배움을 흥정하는 아이들, 일에서 도피하는 청년들 성장 거부 세대에 대한 사회학적 통찰.md`](notion-intelligence/하류지향 배움을 흥정하는 아이들, 일에서 도피하는 청년들 성장 거부 세대에 대한 사회학적 통찰.md) |
+| **건설업** | 22,258자 | [노션 열기](https://app.notion.com/p/137e42c8c5e2803ea922ecd6a5da9e24) | [`건설업.md`](notion-intelligence/건설업.md) |
+| **건설업** | 22,133자 | [노션 열기](https://app.notion.com/p/28ee42c8c5e280fd8e2cee955bbf9c64) | [`건설업.md`](notion-intelligence/건설업.md) |
+| **진짜 하루만에 이해하는 정유 · 석유화학 산업 정유 · 석유화학 산업의 큰 그림과 핵심 개념을 진짜 쉽게 설명하는 책** | 22,062자 | [노션 열기](https://app.notion.com/p/36be42c8c5e2802087a7e0487cb7871e) | [`진짜 하루만에 이해하는 정유 · 석유화학 산업 정유 · 석유화학 산업의 큰 그림과 핵심 개념을 진짜 쉽게 설명하는 책.md`](notion-intelligence/진짜 하루만에 이해하는 정유 · 석유화학 산업 정유 · 석유화학 산업의 큰 그림과 핵심 개념을 진짜 쉽게 설명하는 책.md) |
+| **📊Investment** | 22,061자 | [노션 열기](https://app.notion.com/p/Investment-257e42c8c5e28040a014d3404489f110) | [`📊Investment.md`](notion-intelligence/📊Investment.md) |
+| **로봇의 미래 AI 이후, 세계는 로봇으로 재편된다(*마지막 파트 작성 필요)** | 21,857자 | [노션 열기](https://app.notion.com/p/AI-368e42c8c5e280d59316ecdfe28872c1) | [`로봇의 미래 AI 이후, 세계는 로봇으로 재편된다(_마지막 파트 작성 필요).md`](notion-intelligence/로봇의 미래 AI 이후, 세계는 로봇으로 재편된다(_마지막 파트 작성 필요).md) |
+| **동유럽 근현대사 제국 지배에서 민족국가로 ** | 21,683자 | [노션 열기](https://app.notion.com/p/8c29c6e1872f4d09914bb2b4b9e836a1) | [`동유럽 근현대사 제국 지배에서 민족국가로.md`](notion-intelligence/동유럽 근현대사 제국 지배에서 민족국가로.md) |
+| **🆙산업전망/현황(연구소)** | 21,476자 | [노션 열기](https://app.notion.com/p/220e42c8c5e280af9057f0fb6c6e895a) | [`🆙산업전망_현황(연구소).md`](notion-intelligence/🆙산업전망_현황(연구소).md) |
+| **NFT** | 21,434자 | [노션 열기](https://app.notion.com/p/NFT-137e42c8c5e280398d72c75b2c30e7bc) | [`NFT.md`](notion-intelligence/NFT.md) |
+| **Fulfillment** | 21,237자 | [노션 열기](https://app.notion.com/p/Fulfillment-284e42c8c5e2802589f8cc7dea21a596) | [`Fulfillment.md`](notion-intelligence/Fulfillment.md) |
+| **정서적 연봉 월급쟁이에게 돈보다 중요한 것** | 20,889자 | [노션 열기](https://app.notion.com/p/2bae42c8c5e280f78f30f67009a33a5f) | [`정서적 연봉 월급쟁이에게 돈보다 중요한 것.md`](notion-intelligence/정서적 연봉 월급쟁이에게 돈보다 중요한 것.md) |
+| **동유럽사(통합본) 제국의 일원에서 민족의 자각으로, 민족 운동에서 국가의 탄생까지** | 20,466자 | [노션 열기](https://app.notion.com/p/06676386e65042c59b2700158def2e33) | [`동유럽사(통합본) 제국의 일원에서 민족의 자각으로, 민족 운동에서 국가의 탄생까지.md`](notion-intelligence/동유럽사(통합본) 제국의 일원에서 민족의 자각으로, 민족 운동에서 국가의 탄생까지.md) |
+| **레코드 맨 음반 산업의 장대한 역사** | 20,384자 | [노션 열기](https://app.notion.com/p/319e42c8c5e280709f27f4cbaa02ba39) | [`레코드 맨 음반 산업의 장대한 역사.md`](notion-intelligence/레코드 맨 음반 산업의 장대한 역사.md) |
+| **시부사와 에이이치 일본 자본주의의 설계자 
+500개 기업 창업. 재벌이 되길 거부한 경영자. 일본이 선택한 시대정신** | 20,157자 | [노션 열기](https://app.notion.com/p/500-2ece42c8c5e280d89065dae73fc7c987) | [`시부사와 에이이치 일본 자본주의의 설계자 
+500개 기업 창업. 재벌이 되길 거부한 경영자. 일본이 선택한 시대정신.md`](notion-intelligence/시부사와 에이이치 일본 자본주의의 설계자 
+500개 기업 창업. 재벌이 되길 거부한 경영자. 일본이 선택한 시대정신.md) |
+| **전쟁 대행 주식회사** | 19,859자 | [노션 열기](https://app.notion.com/p/3f9e42c8c5e280d5b846c7269e7e73be) | [`전쟁 대행 주식회사.md`](notion-intelligence/전쟁 대행 주식회사.md) |
+| **슈퍼인텔리전스 경로, 위험, 전략** | 19,304자 | [노션 열기](https://app.notion.com/p/284e42c8c5e28078953edadb5e51ff49) | [`슈퍼인텔리전스 경로, 위험, 전략.md`](notion-intelligence/슈퍼인텔리전스 경로, 위험, 전략.md) |
+| **피터케이의 이기는 투자 불변의 법칙** | 19,091자 | [노션 열기](https://app.notion.com/p/36be42c8c5e2801b98d2c51cb291b870) | [`피터케이의 이기는 투자 불변의 법칙.md`](notion-intelligence/피터케이의 이기는 투자 불변의 법칙.md) |
+| **나는 대한민국 상사맨이다 곡물 트레이더, 중동 사막에서 싱가포르 항구까지 글로벌 식량 전쟁터를 누비다** | 18,193자 | [노션 열기](https://app.notion.com/p/2c9e42c8c5e280e9bd22fb31b5ac0654) | [`나는 대한민국 상사맨이다 곡물 트레이더, 중동 사막에서 싱가포르 항구까지 글로벌 식량 전쟁터를 누비다.md`](notion-intelligence/나는 대한민국 상사맨이다 곡물 트레이더, 중동 사막에서 싱가포르 항구까지 글로벌 식량 전쟁터를 누비다.md) |
+| ** 궤도의 다시 만난 과학자 나의 두 번째 교과서 시즌 2** | 17,779자 | [노션 열기](https://app.notion.com/p/2-282e42c8c5e280a9942fc937a87f24d4) | [`궤도의 다시 만난 과학자 나의 두 번째 교과서 시즌 2.md`](notion-intelligence/궤도의 다시 만난 과학자 나의 두 번째 교과서 시즌 2.md) |
+| **대한민국 식량의 미래 기후플레이션부터 식량안보까지, 우리는 무엇을 준비해야 하는가** | 17,653자 | [노션 열기](https://app.notion.com/p/2c9e42c8c5e28034b4cbd1b954c3f531) | [`대한민국 식량의 미래 기후플레이션부터 식량안보까지, 우리는 무엇을 준비해야 하는가.md`](notion-intelligence/대한민국 식량의 미래 기후플레이션부터 식량안보까지, 우리는 무엇을 준비해야 하는가.md) |
+| **프롬프트 텔링 격차를 만드는 AI 소통 능력** | 17,409자 | [노션 열기](https://app.notion.com/p/AI-2a9e42c8c5e2801ab256c189c42a2a0c) | [`프롬프트 텔링 격차를 만드는 AI 소통 능력.md`](notion-intelligence/프롬프트 텔링 격차를 만드는 AI 소통 능력.md) |
+| **🎰금융기관** | 15,471자 | [노션 열기](https://app.notion.com/p/264e42c8c5e280939294d3cb3ab8c38f) | [`🎰금융기관.md`](notion-intelligence/🎰금융기관.md) |
+| **참고자료(💰Biz)** | 15,469자 | [노션 열기](https://app.notion.com/p/Biz-5dc92c4964f14fdf8060cc76826d7c8c) | [`참고자료(💰Biz).md`](notion-intelligence/참고자료(💰Biz).md) |
+| **케이팝의 시간 서태지와 아이들부터 뉴진스까지, 히스토리로 읽는 케이팝 이야기** | 14,343자 | [노션 열기](https://app.notion.com/p/53d58beef83040fea46958cabe70e2d3) | [`케이팝의 시간 서태지와 아이들부터 뉴진스까지, 히스토리로 읽는 케이팝 이야기.md`](notion-intelligence/케이팝의 시간 서태지와 아이들부터 뉴진스까지, 히스토리로 읽는 케이팝 이야기.md) |
+| **참고자료(🎧Music)** | 14,300자 | [노션 열기](https://app.notion.com/p/Music-475024cdf0674f6186db18375bfd3466) | [`참고자료(🎧Music).md`](notion-intelligence/참고자료(🎧Music).md) |
+| **🛍️참고자료(소비자학)** | 13,607자 | [노션 열기](https://app.notion.com/p/218e42c8c5e2800eaeedeb4a1209eb15) | [`🛍️참고자료(소비자학).md`](notion-intelligence/🛍️참고자료(소비자학).md) |
+| **Petrochemical ** | 13,471자 | [노션 열기](https://app.notion.com/p/Petrochemical-277e42c8c5e280238017ddcbf96ad51e) | [`Petrochemical.md`](notion-intelligence/Petrochemical.md) |
+| **♿Failed company** | 13,410자 | [노션 열기](https://app.notion.com/p/Failed-company-1e4e42c8c5e28067b46ef02f64331bf5) | [`♿Failed company.md`](notion-intelligence/♿Failed company.md) |
+| **한국사(심태섭)** | 12,611자 | [노션 열기](https://app.notion.com/p/104e42c8c5e280c38f1fca6d0ce3266a) | [`한국사(심태섭).md`](notion-intelligence/한국사(심태섭).md) |
+| **환율의 대전환 ** | 12,469자 | [노션 열기](https://app.notion.com/p/19de42c8c5e2802db373edd602168cdb) | [`환율의 대전환.md`](notion-intelligence/환율의 대전환.md) |
+| ** 한국 인터넷 기업의 변천사 네트워크 경제의 실험과 형성** | 12,398자 | [노션 열기](https://app.notion.com/p/291e42c8c5e280efa1dae2ba31a9a7d1) | [`한국 인터넷 기업의 변천사 네트워크 경제의 실험과 형성.md`](notion-intelligence/한국 인터넷 기업의 변천사 네트워크 경제의 실험과 형성.md) |
+| **불확실성을 이기는 필승 투자 전략** | 11,858자 | [노션 열기](https://app.notion.com/p/22ee42c8c5e2803e93bbf4813d139ccd) | [`불확실성을 이기는 필승 투자 전략.md`](notion-intelligence/불확실성을 이기는 필승 투자 전략.md) |
+| **빽 투 더 올드팝 복고맨의 8090 팝스 견문록 ** | 11,682자 | [노션 열기](https://app.notion.com/p/8090-158e42c8c5e28078a964c64d09746c0e) | [`빽 투 더 올드팝 복고맨의 8090 팝스 견문록.md`](notion-intelligence/빽 투 더 올드팝 복고맨의 8090 팝스 견문록.md) |
+| **반도체 밸류체인 투자 ** | 11,609자 | [노션 열기](https://app.notion.com/p/320e42c8c5e28079a849c89a36debf91) | [`반도체 밸류체인 투자.md`](notion-intelligence/반도체 밸류체인 투자.md) |
+| **참고자료(📈Stock/Corporation)** | 11,310자 | [노션 열기](https://app.notion.com/p/Stock-Corporation-219e42c8c5e2803b97f9c5fd24dc7a67) | [`참고자료(📈Stock_Corporation).md`](notion-intelligence/참고자료(📈Stock_Corporation).md) |
+| **🎣메타버스** | 11,134자 | [노션 열기](https://app.notion.com/p/21fe42c8c5e280b3abbee457c719e484) | [`🎣메타버스.md`](notion-intelligence/🎣메타버스.md) |
+| **러시아-우크라이나 전쟁 우아한 위선에서 정직한 야만의 시대로** | 11,054자 | [노션 열기](https://app.notion.com/p/318e42c8c5e280be9120df432b431d93) | [`러시아-우크라이나 전쟁 우아한 위선에서 정직한 야만의 시대로.md`](notion-intelligence/러시아-우크라이나 전쟁 우아한 위선에서 정직한 야만의 시대로.md) |
+| **참고자료(🀄인공지능)** | 11,006자 | [노션 열기](https://app.notion.com/p/216e42c8c5e280a0bd4cfeeaf3205b28) | [`참고자료(🀄인공지능).md`](notion-intelligence/참고자료(🀄인공지능).md) |
+| **국가부채/국가채무/가계부채** | 10,793자 | [노션 열기](https://app.notion.com/p/252e42c8c5e280cbba24f162479b7469) | [`국가부채_국가채무_가계부채.md`](notion-intelligence/국가부채_국가채무_가계부채.md) |
+| **마켓컬리 인사이트 스케일을 뛰어넘는 디테일로 시장을 장악하는 방식** | 10,716자 | [노션 열기](https://app.notion.com/p/284e42c8c5e2804dabd0e6ce9bc127c3) | [`마켓컬리 인사이트 스케일을 뛰어넘는 디테일로 시장을 장악하는 방식.md`](notion-intelligence/마켓컬리 인사이트 스케일을 뛰어넘는 디테일로 시장을 장악하는 방식.md) |
+| **참고자료(🚗Mobility&로봇)** | 10,466자 | [노션 열기](https://app.notion.com/p/Mobility-1fbe42c8c5e2809fbc06d601ca50cd3c) | [`참고자료(🚗Mobility&로봇).md`](notion-intelligence/참고자료(🚗Mobility&로봇).md) |
+| **죽기 전에 꼭 들어야 할 팝송 1001** | 10,429자 | [노션 열기](https://app.notion.com/p/1001-23ce42c8c5e280b28b11e7b0d3982afd) | [`죽기 전에 꼭 들어야 할 팝송 1001.md`](notion-intelligence/죽기 전에 꼭 들어야 할 팝송 1001.md) |
+| **참고자료(삼성)** | 10,311자 | [노션 열기](https://app.notion.com/p/208e42c8c5e280b9ac22eb6ebb7ec545) | [`참고자료(삼성).md`](notion-intelligence/참고자료(삼성).md) |
+| **참고자료(🎣메타버스)** | 10,235자 | [노션 열기](https://app.notion.com/p/21fe42c8c5e280909635ed954c43d67e) | [`참고자료(🎣메타버스).md`](notion-intelligence/참고자료(🎣메타버스).md) |
+| **음악이 삶의 전부는 아닙니다만** | 10,201자 | [노션 열기](https://app.notion.com/p/319e42c8c5e2808eb845cafc532f3964) | [`음악이 삶의 전부는 아닙니다만.md`](notion-intelligence/음악이 삶의 전부는 아닙니다만.md) |
+| **참고자료(🔠문화콘텐츠)** | 10,020자 | [노션 열기](https://app.notion.com/p/263e42c8c5e28059b49fef618af94474) | [`참고자료(🔠문화콘텐츠).md`](notion-intelligence/참고자료(🔠문화콘텐츠).md) |
+| **에너지학개론(GS칼텍스)** | 9,984자 | [노션 열기](https://app.notion.com/p/GS-137e42c8c5e280be8a66f4a767d86ac1) | [`에너지학개론(GS칼텍스).md`](notion-intelligence/에너지학개론(GS칼텍스).md) |
+| **러시아** | 9,853자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2805f9427db90e1ad84bd) | [`러시아.md`](notion-intelligence/러시아.md) |
+| **참고자료(현대)** | 9,745자 | [노션 열기](https://app.notion.com/p/208e42c8c5e2809782cad281c74d90a3) | [`참고자료(현대).md`](notion-intelligence/참고자료(현대).md) |
+| **미국 대중음악 민스트럴시부터 힙합까지, 200년의 연대기** | 9,705자 | [노션 열기](https://app.notion.com/p/200-d815a786e9e245bda5591b743d5bac54) | [`미국 대중음악 민스트럴시부터 힙합까지, 200년의 연대기.md`](notion-intelligence/미국 대중음악 민스트럴시부터 힙합까지, 200년의 연대기.md) |
+| **대중음악의 이해 ** | 9,013자 | [노션 열기](https://app.notion.com/p/6d6b723294c14448af86015dbe3c1d6c) | [`대중음악의 이해.md`](notion-intelligence/대중음악의 이해.md) |
+| **알아두면 쓸모 있는 클래식 잡학사전 나를 위한 예술 교양 레벨 업** | 8,648자 | [노션 열기](https://app.notion.com/p/5cbdfa14d19848509b99c1b88691edc2) | [`알아두면 쓸모 있는 클래식 잡학사전 나를 위한 예술 교양 레벨 업.md`](notion-intelligence/알아두면 쓸모 있는 클래식 잡학사전 나를 위한 예술 교양 레벨 업.md) |
+| **👨‍🦳참고자료(Global)** | 8,287자 | [노션 열기](https://app.notion.com/p/Global-f5dc92ab291d4ab5a211eef00cbdfbec) | [`👨‍🦳참고자료(Global).md`](notion-intelligence/👨‍🦳참고자료(Global).md) |
+| **⚠️Big31~** | 8,033자 | [노션 열기](https://app.notion.com/p/Big31-20de42c8c5e28059b826e374e8c23e5f) | [`⚠️Big31~.md`](notion-intelligence/⚠️Big31~.md) |
+| **한국 재벌 흑역사 : 현대** | 7,962자 | [노션 열기](https://app.notion.com/p/f8805561df1d45e1988347592aad7874) | [`한국 재벌 흑역사 _ 현대.md`](notion-intelligence/한국 재벌 흑역사 _ 현대.md) |
+| **🪅인공지능** | 7,063자 | [노션 열기](https://app.notion.com/p/216e42c8c5e28087af68c3710cc8d3d8) | [`🪅인공지능.md`](notion-intelligence/🪅인공지능.md) |
+| **책/방송(📈Stock/Corporation)** | 7,041자 | [노션 열기](https://app.notion.com/p/Stock-Corporation-22fe42c8c5e280318d6fdd96c4918e1c) | [`책_방송(📈Stock_Corporation).md`](notion-intelligence/책_방송(📈Stock_Corporation).md) |
+| **토목공학** | 6,769자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280c1a1d4e8207a887b1a) | [`토목공학.md`](notion-intelligence/토목공학.md) |
+| **한눈에 정리하는 반도체 8대공정 프로세스** | 6,742자 | [노션 열기](https://app.notion.com/p/8-223e42c8c5e280a3b1fcdaa6cc308cf5) | [`한눈에 정리하는 반도체 8대공정 프로세스.md`](notion-intelligence/한눈에 정리하는 반도체 8대공정 프로세스.md) |
+| **참고자료(🎬Movie)** | 6,698자 | [노션 열기](https://app.notion.com/p/Movie-1f2e42c8c5e280948f54fe359439b64e) | [`참고자료(🎬Movie).md`](notion-intelligence/참고자료(🎬Movie).md) |
+| **🎴자산관리(25.11.09)** | 6,686자 | [노션 열기](https://app.notion.com/p/25-11-09-50b6553a6e994b58b1a50e9061a3e8a8) | [`🎴자산관리(25.11.09).md`](notion-intelligence/🎴자산관리(25.11.09).md) |
+| **환율&금리&관세&외환보유고** | 6,403자 | [노션 열기](https://app.notion.com/p/1fde42c8c5e28078b09bfc82ae237176) | [`환율&금리&관세&외환보유고.md`](notion-intelligence/환율&금리&관세&외환보유고.md) |
+| **참고자료(🔫Defence&War)** | 6,136자 | [노션 열기](https://app.notion.com/p/Defence-War-1fbe42c8c5e280a7875bc4c76eecebd3) | [`참고자료(🔫Defence&War).md`](notion-intelligence/참고자료(🔫Defence&War).md) |
+| **🇪🇺유럽(-동유럽)** | 6,089자 | [노션 열기](https://app.notion.com/p/4c2bcd782a8543e1ba4e05c7fc2f149c) | [`🇪🇺유럽(-동유럽).md`](notion-intelligence/🇪🇺유럽(-동유럽).md) |
+| **참고자료(🚕산업분석)** | 6,071자 | [노션 열기](https://app.notion.com/p/1fbe42c8c5e280e7b08dcdda7938eb2b) | [`참고자료(🚕산업분석).md`](notion-intelligence/참고자료(🚕산업분석).md) |
+| **테크 천재들의 연대기 ** | 5,813자 | [노션 열기](https://app.notion.com/p/1e6e42c8c5e280528986f5cb878b3025) | [`테크 천재들의 연대기.md`](notion-intelligence/테크 천재들의 연대기.md) |
+| **참고자료(이재명)** | 5,731자 | [노션 열기](https://app.notion.com/p/229e42c8c5e28000a086ea6c3541fb04) | [`참고자료(이재명).md`](notion-intelligence/참고자료(이재명).md) |
+| **H+222 #PSB  #電腦星  오늘의 키워드 - #K팝** | 5,706자 | [노션 열기](https://app.notion.com/p/H-222-PSB-K-2a9e42c8c5e2801ba870d92f6886fa38) | [`H+222 #PSB  #電腦星  오늘의 키워드 - #K팝.md`](notion-intelligence/H+222 #PSB  #電腦星  오늘의 키워드 - #K팝.md) |
+| **월드뮤직 도슨트 그리스에서 아르헨티나까지 플라멩코에서 보사노바까지, 당신이 몰랐던 세상의 모든 음악** | 5,588자 | [노션 열기](https://app.notion.com/p/138e42c8c5e2801abffdc6af10d33236) | [`월드뮤직 도슨트 그리스에서 아르헨티나까지 플라멩코에서 보사노바까지, 당신이 몰랐던 세상의 모든 음악.md`](notion-intelligence/월드뮤직 도슨트 그리스에서 아르헨티나까지 플라멩코에서 보사노바까지, 당신이 몰랐던 세상의 모든 음악.md) |
+| **K-pop** | 5,357자 | [노션 열기](https://app.notion.com/p/K-pop-10fe42c8c5e280a7a875cc8233edf914) | [`K-pop.md`](notion-intelligence/K-pop.md) |
+| **💥Debt(참고자료)** | 5,319자 | [노션 열기](https://app.notion.com/p/Debt-3fde42c8c5e280a8847fdd6ed1933c3c) | [`💥Debt(참고자료).md`](notion-intelligence/💥Debt(참고자료).md) |
+| **참고자료(유럽)** | 4,540자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280b9894cc597c7aa55ab) | [`참고자료(유럽).md`](notion-intelligence/참고자료(유럽).md) |
+| **반도체 공정별 대표기업** | 4,440자 | [노션 열기](https://app.notion.com/p/231e42c8c5e28016ab0de6f491db1f29) | [`반도체 공정별 대표기업.md`](notion-intelligence/반도체 공정별 대표기업.md) |
+| **책(일본)** | 4,425자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e2806eb94df757722d6771) | [`책(일본).md`](notion-intelligence/책(일본).md) |
+| **건축공학** | 4,252자 | [노션 열기](https://app.notion.com/p/213e42c8c5e2805a9434d6ad5f5be00a) | [`건축공학.md`](notion-intelligence/건축공학.md) |
+| **참고자료(Bond)** | 4,204자 | [노션 열기](https://app.notion.com/p/Bond-1f5e42c8c5e280d7bd69f6c9d575cfc4) | [`참고자료(Bond).md`](notion-intelligence/참고자료(Bond).md) |
+| **Defence ** | 4,169자 | [노션 열기](https://app.notion.com/p/Defence-216e42c8c5e28079a696d8711ee16525) | [`Defence.md`](notion-intelligence/Defence.md) |
+| **책/방송(💰Biz)** | 4,076자 | [노션 열기](https://app.notion.com/p/Biz-22fe42c8c5e280218e73e2f3eec01e91) | [`책_방송(💰Biz).md`](notion-intelligence/책_방송(💰Biz).md) |
+| **J+80•81•82 #PSB  #電腦星  오늘의 키워드 #G2** | 3,885자 | [노션 열기](https://app.notion.com/p/J-80-81-82-PSB-G2-2e6e42c8c5e280d68520c71bb517c292) | [`J+80•81•82 #PSB  #電腦星  오늘의 키워드 #G2.md`](notion-intelligence/J+80•81•82 #PSB  #電腦星  오늘의 키워드 #G2.md) |
+| **오금동 아파트 자산 최적화 및 생애주기 로드맵** | 3,810자 | [노션 열기](https://app.notion.com/p/307e42c8c5e280a6b09ce4b7a147da9f) | [`오금동 아파트 자산 최적화 및 생애주기 로드맵.md`](notion-intelligence/오금동 아파트 자산 최적화 및 생애주기 로드맵.md) |
+| **🪆Global** | 3,769자 | [노션 열기](https://app.notion.com/p/Global-aa655e22900048878c5a7388f1c2d39e) | [`🪆Global.md`](notion-intelligence/🪆Global.md) |
+| **인간은 왜 예측을 만들고, 종교는 왜 그것을 거부하는가
+— 통제감과 패턴 착각에 대하여** | 3,767자 | [노션 열기](https://app.notion.com/p/2dfe42c8c5e2808f94a8efc6116aff05) | [`인간은 왜 예측을 만들고, 종교는 왜 그것을 거부하는가
+— 통제감과 패턴 착각에 대하여.md`](notion-intelligence/인간은 왜 예측을 만들고, 종교는 왜 그것을 거부하는가
+— 통제감과 패턴 착각에 대하여.md) |
+| **참고자료(반도체)** | 3,685자 | [노션 열기](https://app.notion.com/p/216e42c8c5e28049813ed698dcf8a4a2) | [`참고자료(반도체).md`](notion-intelligence/참고자료(반도체).md) |
+| **참고자료(Commerce)** | 3,683자 | [노션 열기](https://app.notion.com/p/Commerce-223e42c8c5e2808aa1b3c75edb30d987) | [`참고자료(Commerce).md`](notion-intelligence/참고자료(Commerce).md) |
+| **🇷🇺러시아&🇨🇨동유럽&🇦🇶중앙아시아** | 3,590자 | [노션 열기](https://app.notion.com/p/a3c44e5dac6e44928103314671b2ffd9) | [`🇷🇺러시아&🇨🇨동유럽&🇦🇶중앙아시아.md`](notion-intelligence/🇷🇺러시아&🇨🇨동유럽&🇦🇶중앙아시아.md) |
+| **D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝** | 3,527자 | [노션 열기](https://app.notion.com/p/D-73-PSB-3eae42c8c5e2804db7face21ecbecf6d) | [`D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝.md`](notion-intelligence/D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝.md) |
+| **컨텐츠산업** | 3,497자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28083a796d7e1daaccfbd) | [`컨텐츠산업.md`](notion-intelligence/컨텐츠산업.md) |
+| **I+202 #PSB  #電腦星  오늘의 키워드 #골디락스** | 3,409자 | [노션 열기](https://app.notion.com/p/I-202-PSB-2a3e42c8c5e280c9a7aec1cedf0486cb) | [`I+202 #PSB  #電腦星  오늘의 키워드 #골디락스.md`](notion-intelligence/I+202 #PSB  #電腦星  오늘의 키워드 #골디락스.md) |
+| **참고자료(💰Consumer)** | 3,394자 | [노션 열기](https://app.notion.com/p/Consumer-76c64b5eb43948a1a9663d4a7605b813) | [`참고자료(💰Consumer).md`](notion-intelligence/참고자료(💰Consumer).md) |
+| **SK** | 3,359자 | [노션 열기](https://app.notion.com/p/SK-121b4ce767d4402e9d34e5eeafe93216) | [`SK.md`](notion-intelligence/SK.md) |
+| **J+290 #PSB #電腦星 오늘의 키워드 #체험밀도** | 3,343자 | [노션 열기](https://app.notion.com/p/J-290-PSB-3d5e42c8c5e280de8716dd578c0aaa01) | [`J+290 #PSB #電腦星 오늘의 키워드 #체험밀도.md`](notion-intelligence/J+290 #PSB #電腦星 오늘의 키워드 #체험밀도.md) |
+| **트렌드코리아2024** | 3,276자 | [노션 열기](https://app.notion.com/p/2024-db208fa7a22141b1bb9b0d1ab7a79262) | [`트렌드코리아2024.md`](notion-intelligence/트렌드코리아2024.md) |
+| **💻GlobalDB** | 3,241자 | [노션 열기](https://app.notion.com/p/GlobalDB-399eb558d9b0469fbb3a66babad567a4) | [`💻GlobalDB.md`](notion-intelligence/💻GlobalDB.md) |
+| **노래방** | 3,076자 | [노션 열기](https://app.notion.com/p/0a5fa889c62941288fe1bd61fc1119e5) | [`노래방.md`](notion-intelligence/노래방.md) |
+| **🚕Industry** | 3,074자 | [노션 열기](https://app.notion.com/p/Industry-e46c920bca324d18bf5a928c8cedd35e) | [`🚕Industry.md`](notion-intelligence/🚕Industry.md) |
+| **J+95 #PSB  #電腦星  오늘의 키워드 #G2** | 2,899자 | [노션 열기](https://app.notion.com/p/J-95-PSB-G2-2d5e42c8c5e28049b449c15aea45593d) | [`J+95 #PSB  #電腦星  오늘의 키워드 #G2.md`](notion-intelligence/J+95 #PSB  #電腦星  오늘의 키워드 #G2.md) |
+| **🕋참고자료(🪆Global Biz)** | 2,882자 | [노션 열기](https://app.notion.com/p/Global-Biz-20de42c8c5e280268781e24cab9020fe) | [`🕋참고자료(🪆Global Biz).md`](notion-intelligence/🕋참고자료(🪆Global Biz).md) |
+| **책(🚕산업분석)** | 2,784자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e280e9aab5dfa46132e667) | [`책(🚕산업분석).md`](notion-intelligence/책(🚕산업분석).md) |
+| **💰Consumers** | 2,752자 | [노션 열기](https://app.notion.com/p/Consumers-d4355bc16aef4e898d6654f37c4feaab) | [`💰Consumers.md`](notion-intelligence/💰Consumers.md) |
+| **🧙Big5~30** | 2,655자 | [노션 열기](https://app.notion.com/p/Big5-30-20de42c8c5e2807c8ebcd36b4f264de8) | [`🧙Big5~30.md`](notion-intelligence/🧙Big5~30.md) |
+| **피터 틸** | 2,590자 | [노션 열기](https://app.notion.com/p/21ee42c8c5e28096a0b4ea220fcdbb90) | [`피터 틸.md`](notion-intelligence/피터 틸.md) |
+| **워런 버핏** | 2,583자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280b59ebee953c85c723c) | [`워런 버핏.md`](notion-intelligence/워런 버핏.md) |
+| **🩻STEM(이공계열)** | 2,564자 | [노션 열기](https://app.notion.com/p/STEM-134e42c8c5e280cc8c13de79231ccd77) | [`🩻STEM(이공계열).md`](notion-intelligence/🩻STEM(이공계열).md) |
+| **센고쿠 시대** | 2,536자 | [노션 열기](https://app.notion.com/p/9e04dc3290d145ab95d959f47e5dc917) | [`센고쿠 시대.md`](notion-intelligence/센고쿠 시대.md) |
+| **투자수익률 실증분석** | 2,530자 | [노션 열기](https://app.notion.com/p/24de42c8c5e28009b801c95714c688ed) | [`투자수익률 실증분석.md`](notion-intelligence/투자수익률 실증분석.md) |
+| **😊Picture(Family)** | 2,526자 | [노션 열기](https://app.notion.com/p/Picture-Family-139e42c8c5e2805fb10ef82d662a750c) | [`😊Picture(Family).md`](notion-intelligence/😊Picture(Family).md) |
+| **책(🀄AI)** | 2,358자 | [노션 열기](https://app.notion.com/p/AI-235e42c8c5e280b59799c4385526b065) | [`책(🀄AI).md`](notion-intelligence/책(🀄AI).md) |
+| **J+110 #PSB  #電腦星  오늘의 키워드 #G2** | 2,320자 | [노션 열기](https://app.notion.com/p/J-110-PSB-G2-2e3e42c8c5e280e09f48f458fcdeb6e0) | [`J+110 #PSB  #電腦星  오늘의 키워드 #G2.md`](notion-intelligence/J+110 #PSB  #電腦星  오늘의 키워드 #G2.md) |
+| **김병주(기업인)** | 2,315자 | [노션 열기](https://app.notion.com/p/24ae42c8c5e280c3a2b2d1b9df281b7d) | [`김병주(기업인).md`](notion-intelligence/김병주(기업인).md) |
+| **프랑스** | 2,230자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280d78b46f5ff18581680) | [`프랑스.md`](notion-intelligence/프랑스.md) |
+| **F+128 #PSB  #電腦星  오늘의 키워드 - #작심삼일** | 2,187자 | [노션 열기](https://app.notion.com/p/F-128-PSB-173e42c8c5e28029a52aff1e498ad1e8) | [`F+128 #PSB  #電腦星  오늘의 키워드 - #작심삼일.md`](notion-intelligence/F+128 #PSB  #電腦星  오늘의 키워드 - #작심삼일.md) |
+| **🔑Pension/Insurance** | 2,146자 | [노션 열기](https://app.notion.com/p/Pension-Insurance-1b5e42c8c5e28023ba68e5f846e84dba) | [`🔑Pension_Insurance.md`](notion-intelligence/🔑Pension_Insurance.md) |
+| **우크라이나** | 2,072자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280049036f8ef8ec07242) | [`우크라이나.md`](notion-intelligence/우크라이나.md) |
+| **🔠Contents** | 2,041자 | [노션 열기](https://app.notion.com/p/Contents-263e42c8c5e280fa9a1bef7809818cf7) | [`🔠Contents.md`](notion-intelligence/🔠Contents.md) |
+| **참고자료(미국영화)** | 1,972자 | [노션 열기](https://app.notion.com/p/264e42c8c5e2800abc72c5fdd536bd9a) | [`참고자료(미국영화).md`](notion-intelligence/참고자료(미국영화).md) |
+| **책(🛍️소비자학)** | 1,820자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e280959e0bce3b890c7ed4) | [`책(🛍️소비자학).md`](notion-intelligence/책(🛍️소비자학).md) |
+| **북유럽** | 1,805자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2806ca1b9f944283bd135) | [`북유럽.md`](notion-intelligence/북유럽.md) |
+| **Pop** | 1,793자 | [노션 열기](https://app.notion.com/p/Pop-10fe42c8c5e28004a2d2c4dbb8e532c4) | [`Pop.md`](notion-intelligence/Pop.md) |
+| **제국의 설계자 : 테일러 스위프트의 비즈니스 레슨 (ing)** | 1,755자 | [노션 열기](https://app.notion.com/p/ing-150e42c8c5e28005b402f0ae035527f1) | [`제국의 설계자 _ 테일러 스위프트의 비즈니스 레슨 (ing).md`](notion-intelligence/제국의 설계자 _ 테일러 스위프트의 비즈니스 레슨 (ing).md) |
+| **🇪🇨동남아시아** | 1,714자 | [노션 열기](https://app.notion.com/p/bfbf9a2f09e0472fb5fc46737bb0c658) | [`🇪🇨동남아시아.md`](notion-intelligence/🇪🇨동남아시아.md) |
+| **손 마사요시/소프트뱅크** | 1,675자 | [노션 열기](https://app.notion.com/p/1f2e42c8c5e28005a09fee694c19c1d1) | [`손 마사요시_소프트뱅크.md`](notion-intelligence/손 마사요시_소프트뱅크.md) |
+| **🧛‍♂️Government** | 1,651자 | [노션 열기](https://app.notion.com/p/Government-132e42c8c5e280f8bde3e12c40198d71) | [`🧛‍♂️Government.md`](notion-intelligence/🧛‍♂️Government.md) |
+| **D+117 #PSB  #電腦星  오늘의 키워드 - #태극기** | 1,533자 | [노션 열기](https://app.notion.com/p/D-117-PSB-1a8e42c8c5e280a7a871c5714c5b2754) | [`D+117 #PSB  #電腦星  오늘의 키워드 - #태극기.md`](notion-intelligence/D+117 #PSB  #電腦星  오늘의 키워드 - #태극기.md) |
+| **모리스창(장중머우)** | 1,520자 | [노션 열기](https://app.notion.com/p/1dbe42c8c5e280ab846fed9f20519a70) | [`모리스창(장중머우).md`](notion-intelligence/모리스창(장중머우).md) |
+| **🏘️Real Estate/Construction** | 1,499자 | [노션 열기](https://app.notion.com/p/Real-Estate-Construction-9eece6e111c74c5cbe94f4ed97224a7a) | [`🏘️Real Estate_Construction.md`](notion-intelligence/🏘️Real Estate_Construction.md) |
+| **삼국지&** | 1,448자 | [노션 열기](https://app.notion.com/p/15de42c8c5e280d1b51cdcc077d618dd) | [`삼국지&.md`](notion-intelligence/삼국지&.md) |
+| **참고자료(Exchange)** | 1,378자 | [노션 열기](https://app.notion.com/p/Exchange-2a7e42c8c5e280999aa5e08cef21d8d9) | [`참고자료(Exchange).md`](notion-intelligence/참고자료(Exchange).md) |
+| **책(🎬Movie)** | 1,241자 | [노션 열기](https://app.notion.com/p/Movie-24de42c8c5e280119326cb6bc00c636e) | [`책(🎬Movie).md`](notion-intelligence/책(🎬Movie).md) |
+| **🔫Defence & shipbuilding** | 1,231자 | [노션 열기](https://app.notion.com/p/Defence-shipbuilding-3eae509a35674d4e9570406a786d6f8c) | [`🔫Defence & shipbuilding.md`](notion-intelligence/🔫Defence & shipbuilding.md) |
+| **책(Exchange)** | 1,229자 | [노션 열기](https://app.notion.com/p/Exchange-2a7e42c8c5e28020804bc35921bae3e7) | [`책(Exchange).md`](notion-intelligence/책(Exchange).md) |
+| **🇧🇦인도&남아시아** | 1,198자 | [노션 열기](https://app.notion.com/p/55f1a277c74b457fb7b05f9e61659678) | [`🇧🇦인도&남아시아.md`](notion-intelligence/🇧🇦인도&남아시아.md) |
+| **🎆Project** | 1,159자 | [노션 열기](https://app.notion.com/p/Project-dfcd6d37697e4d6b82f2d875f769dd79) | [`🎆Project.md`](notion-intelligence/🎆Project.md) |
+| **🔍Economy** | 1,155자 | [노션 열기](https://app.notion.com/p/Economy-10be42c8c5e280d48560e3cb53c7f02e) | [`🔍Economy.md`](notion-intelligence/🔍Economy.md) |
+| **정유** | 1,139자 | [노션 열기](https://app.notion.com/p/13ee42c8c5e28055b64bee68e5cb9836) | [`정유.md`](notion-intelligence/정유.md) |
+| **스포츠** | 1,115자 | [노션 열기](https://app.notion.com/p/13ce42c8c5e280ac833fea0bd531742c) | [`스포츠.md`](notion-intelligence/스포츠.md) |
+| **책(범현대그룹)** | 1,094자 | [노션 열기](https://app.notion.com/p/2bbe42c8c5e280779777e9b80d74dcfd) | [`책(범현대그룹).md`](notion-intelligence/책(범현대그룹).md) |
+| **정보통신기기** | 1,088자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280fba2e9d71003b93c04) | [`정보통신기기.md`](notion-intelligence/정보통신기기.md) |
+| **철강** | 1,072자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28058a558ee4cadd0b135) | [`철강.md`](notion-intelligence/철강.md) |
+| **참고자료(중앙아시아)** | 1,043자 | [노션 열기](https://app.notion.com/p/235e42c8c5e280f79dc3d1b8715c871c) | [`참고자료(중앙아시아).md`](notion-intelligence/참고자료(중앙아시아).md) |
+| **🇰🇷대한민국** | 1,008자 | [노션 열기](https://app.notion.com/p/8f480b864ec04411b56b013fbe8ae985) | [`🇰🇷대한민국.md`](notion-intelligence/🇰🇷대한민국.md) |
+| **🎧Music** | 980자 | [노션 열기](https://app.notion.com/p/Music-6e09befcabdb4adaa41e6fca702af6a4) | [`🎧Music.md`](notion-intelligence/🎧Music.md) |
+| **🎧Music** | 980자 | [노션 열기](https://app.notion.com/p/Music-23ce42c8c5e280abadd3e87a7008680a) | [`🎧Music.md`](notion-intelligence/🎧Music.md) |
+| **유통** | 978자 | [노션 열기](https://app.notion.com/p/13ce42c8c5e2809bbffbe121c5aa169a) | [`유통.md`](notion-intelligence/유통.md) |
+| **D+233 #PSB #電腦星 오늘의 키워드 #주당의하루** | 963자 | [노션 열기](https://app.notion.com/p/D-233-PSB-39ee42c8c5e28048829ad65a68f73364) | [`D+233 #PSB #電腦星 오늘의 키워드 #주당의하루.md`](notion-intelligence/D+233 #PSB #電腦星 오늘의 키워드 #주당의하루.md) |
+| **IT(Information Technology  정보통신 기술)** | 963자 | [노션 열기](https://app.notion.com/p/IT-Information-Technology-1f7e42c8c5e2806d9731e1cc579beef0) | [`IT(Information Technology  정보통신 기술).md`](notion-intelligence/IT(Information Technology  정보통신 기술).md) |
+| **참고자료(🪆양자 컴퓨터)** | 959자 | [노션 열기](https://app.notion.com/p/21fe42c8c5e280098e4ee28227d4a32d) | [`참고자료(🪆양자 컴퓨터).md`](notion-intelligence/참고자료(🪆양자 컴퓨터).md) |
+| **🏃Health** | 955자 | [노션 열기](https://app.notion.com/p/Health-633b37c611974dd29a17cf8f5a52426d) | [`🏃Health.md`](notion-intelligence/🏃Health.md) |
+| **Chemistry** | 950자 | [노션 열기](https://app.notion.com/p/Chemistry-208e42c8c5e2801a9da3d6db34a4eb42) | [`Chemistry.md`](notion-intelligence/Chemistry.md) |
+| **일반기계** | 922자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280b2bc86c5fa24501b8f) | [`일반기계.md`](notion-intelligence/일반기계.md) |
+| **🔮AX/DX** | 913자 | [노션 열기](https://app.notion.com/p/AX-DX-282e42c8c5e2805da7daff48fb16c98b) | [`🔮AX_DX.md`](notion-intelligence/🔮AX_DX.md) |
+| **이차전지** | 912자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280efae26c2fc1b73161c) | [`이차전지.md`](notion-intelligence/이차전지.md) |
+| **몰도바** | 909자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2803aaae6df0f078481ea) | [`몰도바.md`](notion-intelligence/몰도바.md) |
+| **참고자료(한국 영화)** | 909자 | [노션 열기](https://app.notion.com/p/252e42c8c5e2806abbbcf353be5dffa2) | [`참고자료(한국 영화).md`](notion-intelligence/참고자료(한국 영화).md) |
+| **🐴Civil Engineering** | 904자 | [노션 열기](https://app.notion.com/p/Civil-Engineering-27fe42c8c5e280d0a4c7f5987671bc53) | [`🐴Civil Engineering.md`](notion-intelligence/🐴Civil Engineering.md) |
+| **책(🔫Defence&War)** | 897자 | [노션 열기](https://app.notion.com/p/Defence-War-235e42c8c5e280c7823bdccf3b88249e) | [`책(🔫Defence&War).md`](notion-intelligence/책(🔫Defence&War).md) |
+| **책(Chips)** | 894자 | [노션 열기](https://app.notion.com/p/Chips-235e42c8c5e2808488a3c4b631a8e239) | [`책(Chips).md`](notion-intelligence/책(Chips).md) |
+| **이재명** | 882자 | [노션 열기](https://app.notion.com/p/769d59a7d6854f34b79ec36d1b29f3e2) | [`이재명.md`](notion-intelligence/이재명.md) |
+| **💰Biz** | 878자 | [노션 열기](https://app.notion.com/p/Biz-f4ade78e7dd74d0eb097dfd8c380fe21) | [`💰Biz.md`](notion-intelligence/💰Biz.md) |
+| **🎬Movie** | 856자 | [노션 열기](https://app.notion.com/p/Movie-e532781cfb4a44ab8908447412f30275) | [`🎬Movie.md`](notion-intelligence/🎬Movie.md) |
+| **🎬Movie** | 856자 | [노션 열기](https://app.notion.com/p/Movie-24ee42c8c5e280aab824f4f38a3cd40c) | [`🎬Movie.md`](notion-intelligence/🎬Movie.md) |
+| **참고자료(STEM)** | 835자 | [노션 열기](https://app.notion.com/p/STEM-208e42c8c5e2800ab83ffc3558763c61) | [`참고자료(STEM).md`](notion-intelligence/참고자료(STEM).md) |
+| **책(🚗Mobility&로봇)** | 818자 | [노션 열기](https://app.notion.com/p/Mobility-235e42c8c5e280c39f5ed3385a3ba39d) | [`책(🚗Mobility&로봇).md`](notion-intelligence/책(🚗Mobility&로봇).md) |
+| **💥Debt** | 812자 | [노션 열기](https://app.notion.com/p/Debt-252e42c8c5e280b696f0d2a0aad8bfbd) | [`💥Debt.md`](notion-intelligence/💥Debt.md) |
+| **💥Debt** | 812자 | [노션 열기](https://app.notion.com/p/Debt-252e42c8c5e280c6b21bcf4df4bc2bcd) | [`💥Debt.md`](notion-intelligence/💥Debt.md) |
+| **📈Stock/Corporation** | 786자 | [노션 열기](https://app.notion.com/p/Stock-Corporation-3820608ec1bd4493b49d04bc87f8d18b) | [`📈Stock_Corporation.md`](notion-intelligence/📈Stock_Corporation.md) |
+| **책(STEM)** | 766자 | [노션 열기](https://app.notion.com/p/STEM-240e42c8c5e280e39c94e29818bb0a54) | [`책(STEM).md`](notion-intelligence/책(STEM).md) |
+| **디스플레이** | 752자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28083a019f83ed0e1157a) | [`디스플레이.md`](notion-intelligence/디스플레이.md) |
+| **J-pop** | 703자 | [노션 열기](https://app.notion.com/p/J-pop-10fe42c8c5e280698106de9e64d923c1) | [`J-pop.md`](notion-intelligence/J-pop.md) |
+| **가전** | 700자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28024915eca268074bd99) | [`가전.md`](notion-intelligence/가전.md) |
+| **바이오헬스** | 695자 | [노션 열기](https://app.notion.com/p/137e42c8c5e2803388e4e1cc962966c2) | [`바이오헬스.md`](notion-intelligence/바이오헬스.md) |
+| **조선** | 694자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280d48dc0d0acff1c66cd) | [`조선.md`](notion-intelligence/조선.md) |
+| **🎓인문학** | 682자 | [노션 열기](https://app.notion.com/p/52ca760174ca4ee996ced58488407481) | [`🎓인문학.md`](notion-intelligence/🎓인문학.md) |
+| **💥Power** | 674자 | [노션 열기](https://app.notion.com/p/Power-1fee42c8c5e28005ba54cc682eb584b3) | [`💥Power.md`](notion-intelligence/💥Power.md) |
+| **참고자료(Petrochemical )** | 664자 | [노션 열기](https://app.notion.com/p/Petrochemical-277e42c8c5e280409707fb7c2c0cabd1) | [`참고자료(Petrochemical ).md`](notion-intelligence/참고자료(Petrochemical ).md) |
+| **🎭Tax/Inheritance** | 660자 | [노션 열기](https://app.notion.com/p/Tax-Inheritance-135e42c8c5e2804881eed283189735b3) | [`🎭Tax_Inheritance.md`](notion-intelligence/🎭Tax_Inheritance.md) |
+| **참고자료(러시아&동유럽&중앙아시아)** | 654자 | [노션 열기](https://app.notion.com/p/1fbe42c8c5e28076af11d2b24d35bcee) | [`참고자료(러시아&동유럽&중앙아시아).md`](notion-intelligence/참고자료(러시아&동유럽&중앙아시아).md) |
+| **카자흐스탄** | 650자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280429a88db658221ba4c) | [`카자흐스탄.md`](notion-intelligence/카자흐스탄.md) |
+| **🎰금융** | 647자 | [노션 열기](https://app.notion.com/p/264e42c8c5e2803f99d6debd4853de61) | [`🎰금융.md`](notion-intelligence/🎰금융.md) |
+| **🎰금융** | 647자 | [노션 열기](https://app.notion.com/p/264e42c8c5e28077a39cca66e572a179) | [`🎰금융.md`](notion-intelligence/🎰금융.md) |
+| **✒️글쓰기** | 636자 | [노션 열기](https://app.notion.com/p/dbb41c3734f649feb63e5819cfc99dbd) | [`✒️글쓰기.md`](notion-intelligence/✒️글쓰기.md) |
+| **🚗Mobility** | 635자 | [노션 열기](https://app.notion.com/p/Mobility-39cea5baaee5404c9ccf5759ce279b78) | [`🚗Mobility.md`](notion-intelligence/🚗Mobility.md) |
+| **✌Big4** | 632자 | [노션 열기](https://app.notion.com/p/Big4-20de42c8c5e280f2837ef3eb6a6b1e4e) | [`✌Big4.md`](notion-intelligence/✌Big4.md) |
+| **ICT** | 625자 | [노션 열기](https://app.notion.com/p/ICT-2d7e42c8c5e280679533dbc10626ed05) | [`ICT.md`](notion-intelligence/ICT.md) |
+| **우즈베키스탄** | 616자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280789e77e6b52345af08) | [`우즈베키스탄.md`](notion-intelligence/우즈베키스탄.md) |
+| **조지아(그루지야)** | 604자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280cfa40fe2032828f816) | [`조지아(그루지야).md`](notion-intelligence/조지아(그루지야).md) |
+| **섬유** | 579자 | [노션 열기](https://app.notion.com/p/137e42c8c5e2802592aed750341b2090) | [`섬유.md`](notion-intelligence/섬유.md) |
+| **🔐Cryptocurrency** | 577자 | [노션 열기](https://app.notion.com/p/Cryptocurrency-145e42c8c5e280b6aecfdf0f417b108c) | [`🔐Cryptocurrency.md`](notion-intelligence/🔐Cryptocurrency.md) |
+| **벨라루스** | 559자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280398e21e30ee250fdc0) | [`벨라루스.md`](notion-intelligence/벨라루스.md) |
+| **Mathmatics** | 549자 | [노션 열기](https://app.notion.com/p/Mathmatics-208e42c8c5e280cf9176d4394435a50c) | [`Mathmatics.md`](notion-intelligence/Mathmatics.md) |
+| **동유럽** | 547자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280bcb5ead7972fed59cc) | [`동유럽.md`](notion-intelligence/동유럽.md) |
+| **Agriculture** | 546자 | [노션 열기](https://app.notion.com/p/Agriculture-2ade42c8c5e28067b297c5d3499a61dc) | [`Agriculture.md`](notion-intelligence/Agriculture.md) |
+| **Agriculture** | 546자 | [노션 열기](https://app.notion.com/p/Agriculture-2ade42c8c5e28037898cc1d82d9ee258) | [`Agriculture.md`](notion-intelligence/Agriculture.md) |
+| **Delivery** | 531자 | [노션 열기](https://app.notion.com/p/Delivery-235e42c8c5e280b28d1ccb7f35646551) | [`Delivery.md`](notion-intelligence/Delivery.md) |
+| **Delivery** | 531자 | [노션 열기](https://app.notion.com/p/Delivery-284e42c8c5e280f288fdd2d48340d3dd) | [`Delivery.md`](notion-intelligence/Delivery.md) |
+| **타지키스탄** | 522자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280918770d19002773411) | [`타지키스탄.md`](notion-intelligence/타지키스탄.md) |
+| **🎬Movie(영화배우)** | 515자 | [노션 열기](https://app.notion.com/p/Movie-27ce42c8c5e2803885ade2cc9ad3f64e) | [`🎬Movie(영화배우).md`](notion-intelligence/🎬Movie(영화배우).md) |
+| **아르메니아** | 510자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e28028ac27e2cdb5f04762) | [`아르메니아.md`](notion-intelligence/아르메니아.md) |
+| **책(Agriculture)** | 509자 | [노션 열기](https://app.notion.com/p/Agriculture-2ade42c8c5e2809ca839de4b7851d72a) | [`책(Agriculture).md`](notion-intelligence/책(Agriculture).md) |
+| **🪆Quantum** | 504자 | [노션 열기](https://app.notion.com/p/Quantum-21ee42c8c5e280fa9efbd8dfefe14652) | [`🪆Quantum.md`](notion-intelligence/🪆Quantum.md) |
+| **참고자료(Civil Engineering)** | 502자 | [노션 열기](https://app.notion.com/p/Civil-Engineering-28ee42c8c5e280798e9dc298d8837ecd) | [`참고자료(Civil Engineering).md`](notion-intelligence/참고자료(Civil Engineering).md) |
+| **래리페이지&세르게이브린(구글)** | 497자 | [노션 열기](https://app.notion.com/p/1dbe42c8c5e280d1abb7de35ed83c790) | [`래리페이지&세르게이브린(구글).md`](notion-intelligence/래리페이지&세르게이브린(구글).md) |
+| **🕹️비디오 게임** | 496자 | [노션 열기](https://app.notion.com/p/283e42c8c5e280babf3bda7fa0014fb7) | [`🕹️비디오 게임.md`](notion-intelligence/🕹️비디오 게임.md) |
+| **✌Gold** | 489자 | [노션 열기](https://app.notion.com/p/Gold-145e42c8c5e28096ba50c9611d777cb8) | [`✌Gold.md`](notion-intelligence/✌Gold.md) |
+| **💵Bond** | 472자 | [노션 열기](https://app.notion.com/p/Bond-44da00ae4f584bbfad87fba8e6244ccd) | [`💵Bond.md`](notion-intelligence/💵Bond.md) |
+| **💵Bond** | 472자 | [노션 열기](https://app.notion.com/p/Bond-22fe42c8c5e28017b598e3c8fcfd7591) | [`💵Bond.md`](notion-intelligence/💵Bond.md) |
+| **삼성** | 469자 | [노션 열기](https://app.notion.com/p/b82f7910533c4469aed06a6f4f2174e7) | [`삼성.md`](notion-intelligence/삼성.md) |
+| **삼성** | 469자 | [노션 열기](https://app.notion.com/p/23be42c8c5e280a08c1af95e3ec2de7f) | [`삼성.md`](notion-intelligence/삼성.md) |
+| **🛍️소비자학** | 468자 | [노션 열기](https://app.notion.com/p/5149e65761e942b6803a56253796a30a) | [`🛍️소비자학.md`](notion-intelligence/🛍️소비자학.md) |
+| **✈️Commerce** | 466자 | [노션 열기](https://app.notion.com/p/Commerce-222e42c8c5e280b693c9cd20f7154b5e) | [`✈️Commerce.md`](notion-intelligence/✈️Commerce.md) |
+| **🎣Metaverse** | 466자 | [노션 열기](https://app.notion.com/p/Metaverse-21fe42c8c5e280ab9872c54274a95fe2) | [`🎣Metaverse.md`](notion-intelligence/🎣Metaverse.md) |
+| **🔬Petrochemical ** | 464자 | [노션 열기](https://app.notion.com/p/Petrochemical-277e42c8c5e2800fbc2ccb98c1bdf555) | [`🔬Petrochemical.md`](notion-intelligence/🔬Petrochemical.md) |
+| **🎴AI** | 460자 | [노션 열기](https://app.notion.com/p/AI-216e42c8c5e2806d8eb5eff452d228fb) | [`🎴AI.md`](notion-intelligence/🎴AI.md) |
+| **🎿Chips** | 426자 | [노션 열기](https://app.notion.com/p/Chips-216e42c8c5e2805d97fdf77fa025193d) | [`🎿Chips.md`](notion-intelligence/🎿Chips.md) |
+| **Exchange** | 419자 | [노션 열기](https://app.notion.com/p/Exchange-2a7e42c8c5e280ffbd10f3fad47953a5) | [`Exchange.md`](notion-intelligence/Exchange.md) |
+| **범현대그룹** | 366자 | [노션 열기](https://app.notion.com/p/2a4e5788e26944e8be2ab19c1f562475) | [`범현대그룹.md`](notion-intelligence/범현대그룹.md) |
+| **Old(💻Global)** | 351자 | [노션 열기](https://app.notion.com/p/Old-Global-235e42c8c5e2803bb635fffa728ab11b) | [`Old(💻Global).md`](notion-intelligence/Old(💻Global).md) |
+| **책(Petrochemical )** | 348자 | [노션 열기](https://app.notion.com/p/Petrochemical-277e42c8c5e280a9b8b7d81768586b1e) | [`책(Petrochemical ).md`](notion-intelligence/책(Petrochemical ).md) |
+| **loan** | 334자 | [노션 열기](https://app.notion.com/p/loan-2b5e42c8c5e28078a35bfbbff91e8a39) | [`loan.md`](notion-intelligence/loan.md) |
+| **World Music** | 334자 | [노션 열기](https://app.notion.com/p/World-Music-10fe42c8c5e28066a2abe4895c32e6ee) | [`World Music.md`](notion-intelligence/World Music.md) |
+| **체코** | 314자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e28074bb7de94d736ad9e1) | [`체코.md`](notion-intelligence/체코.md) |
+| **💥Debt(책)** | 306자 | [노션 열기](https://app.notion.com/p/Debt-3fde42c8c5e2808fa528e07b1d8d84c9) | [`💥Debt(책).md`](notion-intelligence/💥Debt(책).md) |
+| **책(러시아&동유럽&중앙아시아)** | 301자 | [노션 열기](https://app.notion.com/p/28ae42c8c5e280fab3f0ee949d15ba1f) | [`책(러시아&동유럽&중앙아시아).md`](notion-intelligence/책(러시아&동유럽&중앙아시아).md) |
+| **책(🪆Quantum)** | 301자 | [노션 열기](https://app.notion.com/p/Quantum-235e42c8c5e280ce8761feda7e42a955) | [`책(🪆Quantum).md`](notion-intelligence/책(🪆Quantum).md) |
+| **고우영 가루지기뎐** | 290자 | [노션 열기](https://app.notion.com/p/104e42c8c5e280efb9b9d2ab1e7330e6) | [`고우영 가루지기뎐.md`](notion-intelligence/고우영 가루지기뎐.md) |
+| **🇯🇵일본** | 272자 | [노션 열기](https://app.notion.com/p/f4584121bf154ab2acf137857de5e96e) | [`🇯🇵일본.md`](notion-intelligence/🇯🇵일본.md) |
+| **폴란드** | 270자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280f3bb94db94b219632e) | [`폴란드.md`](notion-intelligence/폴란드.md) |
+| **🗽미국(+캐나다&멕시코)** | 268자 | [노션 열기](https://app.notion.com/p/6b7369d6943042368788ac6dcd60d0db) | [`🗽미국(+캐나다&멕시코).md`](notion-intelligence/🗽미국(+캐나다&멕시코).md) |
+| **참고(🎰금융)** | 255자 | [노션 열기](https://app.notion.com/p/297e42c8c5e2805292daf28b4c20a60e) | [`참고(🎰금융).md`](notion-intelligence/참고(🎰금융).md) |
+| **Pintech** | 239자 | [노션 열기](https://app.notion.com/p/Pintech-382e42c8c5e280e3b169c31706cff63b) | [`Pintech.md`](notion-intelligence/Pintech.md) |
+| **투르크메니스탄** | 196자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280f7abeec6fe8db7b640) | [`투르크메니스탄.md`](notion-intelligence/투르크메니스탄.md) |
+| **아제르바이잔** | 196자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280e1b886ddfdd489a24f) | [`아제르바이잔.md`](notion-intelligence/아제르바이잔.md) |
+| **에스토니아** | 196자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280e28045e8838842ccec) | [`에스토니아.md`](notion-intelligence/에스토니아.md) |
+| **리투아니아** | 196자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2803ba767f6b1568ccefd) | [`리투아니아.md`](notion-intelligence/리투아니아.md) |
+| **라트비아** | 196자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280c8aecee9ee205ca7f1) | [`라트비아.md`](notion-intelligence/라트비아.md) |
+| **하워드 막스 투자와 마켓 사이클의 법칙 주식시장의 흐름을 꿰뚫어보는 단 하나의 투자 바이블** | 172자 | [노션 열기](https://app.notion.com/p/2ade42c8c5e28055822ccb7fe8f5286d) | [`하워드 막스 투자와 마켓 사이클의 법칙 주식시장의 흐름을 꿰뚫어보는 단 하나의 투자 바이블.md`](notion-intelligence/하워드 막스 투자와 마켓 사이클의 법칙 주식시장의 흐름을 꿰뚫어보는 단 하나의 투자 바이블.md) |
+| **투자의 기술 글로벌 IB 7개사에서 30년 동안 투자 경험을 축적한 트레이더** | 172자 | [노션 열기](https://app.notion.com/p/IB-7-30-2ade42c8c5e280dc9eb5c8f4ea09bd89) | [`투자의 기술 글로벌 IB 7개사에서 30년 동안 투자 경험을 축적한 트레이더.md`](notion-intelligence/투자의 기술 글로벌 IB 7개사에서 30년 동안 투자 경험을 축적한 트레이더.md) |
+| **Classic** | 166자 | [노션 열기](https://app.notion.com/p/Classic-10fe42c8c5e2802699ddf6bcdf12a4ef) | [`Classic.md`](notion-intelligence/Classic.md) |
+| **책(Commerce)** | 165자 | [노션 열기](https://app.notion.com/p/Commerce-235e42c8c5e2805fad35f961a62f5e7a) | [`책(Commerce).md`](notion-intelligence/책(Commerce).md) |
+| **H+319 #PSB #電腦星 오늘의 키워드 #지구촌** | 160자 | [노션 열기](https://app.notion.com/p/H-319-PSB-1b1e42c8c5e28051983cf7bb1c8c54d1) | [`H+319 #PSB #電腦星 오늘의 키워드 #지구촌.md`](notion-intelligence/H+319 #PSB #電腦星 오늘의 키워드 #지구촌.md) |
+| **참고자료(Agriculture)** | 151자 | [노션 열기](https://app.notion.com/p/Agriculture-2ade42c8c5e280b39829d12b077bdc02) | [`참고자료(Agriculture).md`](notion-intelligence/참고자료(Agriculture).md) |
+| **참고자료(홍콩 영화/중국 영화)** | 145자 | [노션 열기](https://app.notion.com/p/24fe42c8c5e280a89e15fa1ae100f0fc) | [`참고자료(홍콩 영화_중국 영화).md`](notion-intelligence/참고자료(홍콩 영화_중국 영화).md) |
+| **책(Civil Engineering)** | 137자 | [노션 열기](https://app.notion.com/p/Civil-Engineering-28ee42c8c5e280b0a916cc2689130339) | [`책(Civil Engineering).md`](notion-intelligence/책(Civil Engineering).md) |
+| **동양사(&북아프리카)** | 133자 | [노션 열기](https://app.notion.com/p/15de42c8c5e280919607d4d51a79bd28) | [`동양사(&북아프리카).md`](notion-intelligence/동양사(&북아프리카).md) |
+| **이나모리 가즈오** | 130자 | [노션 열기](https://app.notion.com/p/267e42c8c5e280eb8d62e70d13405016) | [`이나모리 가즈오.md`](notion-intelligence/이나모리 가즈오.md) |
+| **이나모리 가즈오** | 130자 | [노션 열기](https://app.notion.com/p/267e42c8c5e280e9b6e6d7fdfd8a44b2) | [`이나모리 가즈오.md`](notion-intelligence/이나모리 가즈오.md) |
+| **마크 저커버그** | 129자 | [노션 열기](https://app.notion.com/p/1f4e42c8c5e28072a818fc0a086e186c) | [`마크 저커버그.md`](notion-intelligence/마크 저커버그.md) |
+| **제이미 다이먼** | 129자 | [노션 열기](https://app.notion.com/p/264e42c8c5e280d0a3c5f6ae3648ae82) | [`제이미 다이먼.md`](notion-intelligence/제이미 다이먼.md) |
+| **레이 달리오** | 128자 | [노션 열기](https://app.notion.com/p/210e42c8c5e280b4b1aeca4901bb75eb) | [`레이 달리오.md`](notion-intelligence/레이 달리오.md) |
+| **책(🎰금융)** | 128자 | [노션 열기](https://app.notion.com/p/297e42c8c5e28004b091c76b0ea74eb4) | [`책(🎰금융).md`](notion-intelligence/책(🎰금융).md) |
+| **반도체** | 125자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280f2a1cdd48f51e973f6) | [`반도체.md`](notion-intelligence/반도체.md) |
+| **자동차** | 125자 | [노션 열기](https://app.notion.com/p/137e42c8c5e280ada434cd331b55deee) | [`자동차.md`](notion-intelligence/자동차.md) |
+| **특허** | 124자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e2801fae17c2b3513ccb88) | [`특허.md`](notion-intelligence/특허.md) |
+| **한국국방연구원한국국방연구원(KIDA)** | 116자 | [노션 열기](https://app.notion.com/p/KIDA-236e42c8c5e280d69880e946d172a0af) | [`한국국방연구원한국국방연구원(KIDA).md`](notion-intelligence/한국국방연구원한국국방연구원(KIDA).md) |
+| **참고자료(Delivery)** | 106자 | [노션 열기](https://app.notion.com/p/Delivery-284e42c8c5e2803eb01dde9f815bccb2) | [`참고자료(Delivery).md`](notion-intelligence/참고자료(Delivery).md) |
+| **CT(Culture Technology 문화관광 컨텐츠 기술)** | 82자 | [노션 열기](https://app.notion.com/p/CT-Culture-Technology-1f7e42c8c5e28047aad2ca25dcc71010) | [`CT(Culture Technology 문화관광 컨텐츠 기술).md`](notion-intelligence/CT(Culture Technology 문화관광 컨텐츠 기술).md) |
+| **책(🎣Metaverse)** | 0자 | [노션 열기](https://app.notion.com/p/Metaverse-235e42c8c5e280429bb4ca684cab16a6) | [`책(🎣Metaverse).md`](notion-intelligence/책(🎣Metaverse).md) |
+| **책(Delivery)** | 0자 | [노션 열기](https://app.notion.com/p/Delivery-284e42c8c5e280569dbafe7079020b42) | [`책(Delivery).md`](notion-intelligence/책(Delivery).md) |
+| **F+195 #PSB  #電腦星 오늘의 키워드 #명품** | 0자 | [노션 열기](https://app.notion.com/p/F-195-PSB-1b3e42c8c5e2807b9ecacfebd4e17579) | [`F+195 #PSB  #電腦星 오늘의 키워드 #명품.md`](notion-intelligence/F+195 #PSB  #電腦星 오늘의 키워드 #명품.md) |
+| **E+81 #PSB  #電腦星 오늘의 키워드 - #큰바위얼굴** | 0자 | [노션 열기](https://app.notion.com/p/E-81-PSB-15ee42c8c5e280388cc5e9087c48edff) | [`E+81 #PSB  #電腦星 오늘의 키워드 - #큰바위얼굴.md`](notion-intelligence/E+81 #PSB  #電腦星 오늘의 키워드 - #큰바위얼굴.md) |
+| **E+104 #PSB  #電腦星 오늘의 키워드 - #인격자산** | 0자 | [노션 열기](https://app.notion.com/p/E-104-PSB-129e42c8c5e280fa861ff0765817132d) | [`E+104 #PSB  #電腦星 오늘의 키워드 - #인격자산.md`](notion-intelligence/E+104 #PSB  #電腦星 오늘의 키워드 - #인격자산.md) |
+| **E+168 #PSB #電腦星 오늘의 키워드 #소니** | 0자 | [노션 열기](https://app.notion.com/p/E-168-PSB-21ce42c8c5e280218ec1f470c93f8680) | [`E+168 #PSB #電腦星 오늘의 키워드 #소니.md`](notion-intelligence/E+168 #PSB #電腦星 오늘의 키워드 #소니.md) |
+| **H+344 #PSB #電腦星 오늘의 키워드 #공간의탄생** | 0자 | [노션 열기](https://app.notion.com/p/H-344-PSB-26ee42c8c5e28025b8d6f7225b8ace9a) | [`H+344 #PSB #電腦星 오늘의 키워드 #공간의탄생.md`](notion-intelligence/H+344 #PSB #電腦星 오늘의 키워드 #공간의탄생.md) |
+| **H+319 #PSB #電腦星 오늘의 키워드 #지구촌** | 0자 | [노션 열기](https://app.notion.com/p/H-319-PSB-26ee42c8c5e280d0a09ecc454fe54835) | [`H+319 #PSB #電腦星 오늘의 키워드 #지구촌.md`](notion-intelligence/H+319 #PSB #電腦星 오늘의 키워드 #지구촌.md) |
+| **로봇** | 0자 | [노션 열기](https://app.notion.com/p/23ce42c8c5e280f7b9baf0d545fbd336) | [`로봇.md`](notion-intelligence/로봇.md) |
+| **참고자료(인도 영화)** | 0자 | [노션 열기](https://app.notion.com/p/265e42c8c5e28098aa71e4a17728aaa7) | [`참고자료(인도 영화).md`](notion-intelligence/참고자료(인도 영화).md) |
+| **F+207 #PSB #電腦星 오늘의 키워드 #상차림** | 0자 | [노션 열기](https://app.notion.com/p/F-207-PSB-267e42c8c5e28035a0f3e7ec2a96b075) | [`F+207 #PSB #電腦星 오늘의 키워드 #상차림.md`](notion-intelligence/F+207 #PSB #電腦星 오늘의 키워드 #상차림.md) |
+| **[피라미드의 원래 모습: 광을 낸 석회석으로 마감해 수십Km 거리서도 빛을 받아 번쩍번쩍했다. 첨탑은 금장식이었을 것으로 추정]** | 0자 | [노션 열기](https://app.notion.com/p/Km-14ee42c8c5e280af8e5ef01af7c00706) | [`[피라미드의 원래 모습_ 광을 낸 석회석으로 마감해 수십Km 거리서도 빛을 받아 번쩍번쩍했다. 첨탑은 금장식이었을 것으로 추정].md`](notion-intelligence/[피라미드의 원래 모습_ 광을 낸 석회석으로 마감해 수십Km 거리서도 빛을 받아 번쩍번쩍했다. 첨탑은 금장식이었을 것으로 추정].md) |
+| **I+353 #PSB  #電腦星  오늘의 키워드 #G2** | 0자 | [노션 열기](https://app.notion.com/p/I-353-PSB-G2-267e42c8c5e280e58e08c113c976b12b) | [`I+353 #PSB  #電腦星  오늘의 키워드 #G2.md`](notion-intelligence/I+353 #PSB  #電腦星  오늘의 키워드 #G2.md) |
+| **I+179•180 #PSB  #電腦星  오늘의 키워드 #아톰 #비트** | 0자 | [노션 열기](https://app.notion.com/p/I-179-180-PSB-267e42c8c5e28093b973fd6bf62f7db0) | [`I+179•180 #PSB  #電腦星  오늘의 키워드 #아톰 #비트.md`](notion-intelligence/I+179•180 #PSB  #電腦星  오늘의 키워드 #아톰 #비트.md) |
+| **경영, 이나모리 가즈오 원점을 말하다(원서 : 經營 稻盛和夫,原点を語る)** | 0자 | [노션 열기](https://app.notion.com/p/22be42c8c5e2808e883ce69bb0637671) | [`경영, 이나모리 가즈오 원점을 말하다(원서 _ 經營 稻盛和夫,原点を語る).md`](notion-intelligence/경영, 이나모리 가즈오 원점을 말하다(원서 _ 經營 稻盛和夫,原点を語る).md) |
+| **이나모리 가즈오, 부러지지 않는 마음 당신은 끝까지 해내는 사람인가 ** | 0자 | [노션 열기](https://app.notion.com/p/22be42c8c5e2808cb6c0ee9d58e611ec) | [`이나모리 가즈오, 부러지지 않는 마음 당신은 끝까지 해내는 사람인가.md`](notion-intelligence/이나모리 가즈오, 부러지지 않는 마음 당신은 끝까지 해내는 사람인가.md) |
+| **드라마** | 0자 | [노션 열기](https://app.notion.com/p/251e42c8c5e280b39548e2d38a04da28) | [`드라마.md`](notion-intelligence/드라마.md) |
+| **죽기 전에 꼭 봐야 할 한국영화 1001** | 0자 | [노션 열기](https://app.notion.com/p/1001-4de945a5f2784c8fb089f6f4156ba529) | [`죽기 전에 꼭 봐야 할 한국영화 1001.md`](notion-intelligence/죽기 전에 꼭 봐야 할 한국영화 1001.md) |
+| **책(일본 영화)** | 0자 | [노션 열기](https://app.notion.com/p/252e42c8c5e28098a8ece7f7e454caef) | [`책(일본 영화).md`](notion-intelligence/책(일본 영화).md) |
+| **특허** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e28027a79bd631c582c316) | [`특허.md`](notion-intelligence/특허.md) |
+| **신용평가방법론** | 0자 | [노션 열기](https://app.notion.com/p/c53b8a36756448a2b78a38f6c76d9e1a) | [`신용평가방법론.md`](notion-intelligence/신용평가방법론.md) |
+| **AX 100배의 법칙 나와 조직의 능력을 100배 높이는 AI 경영의 실제** | 0자 | [노션 열기](https://app.notion.com/p/AX-100-100-AI-264e42c8c5e280769bf9e130e228ebbc) | [`AX 100배의 법칙 나와 조직의 능력을 100배 높이는 AI 경영의 실제.md`](notion-intelligence/AX 100배의 법칙 나와 조직의 능력을 100배 높이는 AI 경영의 실제.md) |
+| **AI 혁명을 이끈 천재들 인공지능의 과거, 현재, 미래를 읽다** | 0자 | [노션 열기](https://app.notion.com/p/AI-264e42c8c5e2807b9075d6ebefb34888) | [`AI 혁명을 이끈 천재들 인공지능의 과거, 현재, 미래를 읽다.md`](notion-intelligence/AI 혁명을 이끈 천재들 인공지능의 과거, 현재, 미래를 읽다.md) |
+| **대한민국 국부펀드가 만난 자본의 설계자들 자본은 어떻게 기업을 다시 움직이게 하는가** | 0자 | [노션 열기](https://app.notion.com/p/263e42c8c5e2800dbb38cf9c780f735d) | [`대한민국 국부펀드가 만난 자본의 설계자들 자본은 어떻게 기업을 다시 움직이게 하는가.md`](notion-intelligence/대한민국 국부펀드가 만난 자본의 설계자들 자본은 어떻게 기업을 다시 움직이게 하는가.md) |
+| **단 3개의 미국 ETF로 은퇴하라 원하는 삶을 앞당기는 돈 자동 사냥 시스템** | 0자 | [노션 열기](https://app.notion.com/p/3-ETF-261e42c8c5e2801b91f4ce814e98c1c1) | [`단 3개의 미국 ETF로 은퇴하라 원하는 삶을 앞당기는 돈 자동 사냥 시스템.md`](notion-intelligence/단 3개의 미국 ETF로 은퇴하라 원하는 삶을 앞당기는 돈 자동 사냥 시스템.md) |
+| **아들아, 주식 공부해야 한다 1~2권 세트** | 0자 | [노션 열기](https://app.notion.com/p/1-2-25ae42c8c5e280cfafc1d69f34c5eda0) | [`아들아, 주식 공부해야 한다 1~2권 세트.md`](notion-intelligence/아들아, 주식 공부해야 한다 1~2권 세트.md) |
+| **AI와 디지털경제 시대에서의 경영전략(유영선)** | 0자 | [노션 열기](https://app.notion.com/p/AI-25ae42c8c5e280b3af87c71e417dca73) | [`AI와 디지털경제 시대에서의 경영전략(유영선).md`](notion-intelligence/AI와 디지털경제 시대에서의 경영전략(유영선).md) |
+| **차세대 반도체** | 0자 | [노션 열기](https://app.notion.com/p/25ae42c8c5e280daad24d3d98328b5cf) | [`차세대 반도체.md`](notion-intelligence/차세대 반도체.md) |
+| **한국인의 눈으로 본 근대 일본의 역사 메이지 유신부터 패전까지, 근대 일본의 도약과 몰락을 돌아보다** | 0자 | [노션 열기](https://app.notion.com/p/258e42c8c5e280368c52f413b9f4d844) | [`한국인의 눈으로 본 근대 일본의 역사 메이지 유신부터 패전까지, 근대 일본의 도약과 몰락을 돌아보다.md`](notion-intelligence/한국인의 눈으로 본 근대 일본의 역사 메이지 유신부터 패전까지, 근대 일본의 도약과 몰락을 돌아보다.md) |
+| **KAIST 이상엽 교수의 세상을 바꾸는 공학기술 인류의 난제를 해결하는 최전선의 기술들** | 0자 | [노션 열기](https://app.notion.com/p/KAIST-258e42c8c5e28017befdd5ed9aba87d1) | [`KAIST 이상엽 교수의 세상을 바꾸는 공학기술 인류의 난제를 해결하는 최전선의 기술들.md`](notion-intelligence/KAIST 이상엽 교수의 세상을 바꾸는 공학기술 인류의 난제를 해결하는 최전선의 기술들.md) |
+| **4차 산업혁명의 A to Z(김창경)** | 0자 | [노션 열기](https://app.notion.com/p/4-A-to-Z-257e42c8c5e280cba7baf029d98ebe0b) | [`4차 산업혁명의 A to Z(김창경).md`](notion-intelligence/4차 산업혁명의 A to Z(김창경).md) |
+| **📈Population** | 0자 | [노션 열기](https://app.notion.com/p/Population-246e42c8c5e280bf9e09d572f021602c) | [`📈Population.md`](notion-intelligence/📈Population.md) |
+| **4차산업혁명 속 디자인(이호영, 김현성, 박유진)** | 0자 | [노션 열기](https://app.notion.com/p/4-257e42c8c5e28096917cd71b28541c7f) | [`4차산업혁명 속 디자인(이호영, 김현성, 박유진).md`](notion-intelligence/4차산업혁명 속 디자인(이호영, 김현성, 박유진).md) |
+| **4차산업과 예술(여운승)** | 0자 | [노션 열기](https://app.notion.com/p/4-257e42c8c5e2802baa80dfc21addb4af) | [`4차산업과 예술(여운승).md`](notion-intelligence/4차산업과 예술(여운승).md) |
+| **미래기술의 두 기둥(조성배, 김승주, 남호성)** | 0자 | [노션 열기](https://app.notion.com/p/257e42c8c5e280b6a3bbcb366334bde3) | [`미래기술의 두 기둥(조성배, 김승주, 남호성).md`](notion-intelligence/미래기술의 두 기둥(조성배, 김승주, 남호성).md) |
+| **4차 산업혁명을 대비하라(전승환)** | 0자 | [노션 열기](https://app.notion.com/p/4-257e42c8c5e28031a8b3dff973e68812) | [`4차 산업혁명을 대비하라(전승환).md`](notion-intelligence/4차 산업혁명을 대비하라(전승환).md) |
+| **4차산업혁명, 초연결 시대의 시작(윤성로, 장병탁, 최재붕, 윤건호)** | 0자 | [노션 열기](https://app.notion.com/p/4-257e42c8c5e280eea6e1c7c6df0c162d) | [`4차산업혁명, 초연결 시대의 시작(윤성로, 장병탁, 최재붕, 윤건호).md`](notion-intelligence/4차산업혁명, 초연결 시대의 시작(윤성로, 장병탁, 최재붕, 윤건호).md) |
+| **박소연의 투자의 원칙** | 0자 | [노션 열기](https://app.notion.com/p/257e42c8c5e2808a812ded537e1f83c0) | [`박소연의 투자의 원칙.md`](notion-intelligence/박소연의 투자의 원칙.md) |
+| **주식투자 가이드라인(유영선)** | 0자 | [노션 열기](https://app.notion.com/p/222e42c8c5e28055b658d24f305ba60e) | [`주식투자 가이드라인(유영선).md`](notion-intelligence/주식투자 가이드라인(유영선).md) |
+| **성공적인 투자를 위한 현명한 안내서: 불확실한 시장을 이기는 필승 전략(유영선)** | 0자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e280c6992ff6ce572e3bb8) | [`성공적인 투자를 위한 현명한 안내서_ 불확실한 시장을 이기는 필승 전략(유영선).md`](notion-intelligence/성공적인 투자를 위한 현명한 안내서_ 불확실한 시장을 이기는 필승 전략(유영선).md) |
+| **주식에서 살아남기(이효석)** | 0자 | [노션 열기](https://app.notion.com/p/256e42c8c5e28055b8c0d30b233c9dc4) | [`주식에서 살아남기(이효석).md`](notion-intelligence/주식에서 살아남기(이효석).md) |
+| **주식 투자의 기쁨 89세 현역 트레이더 시게루 할아버지의 흔들리지 않는 투자 철학** | 0자 | [노션 열기](https://app.notion.com/p/89-254e42c8c5e280c09617dd3bbee865a4) | [`주식 투자의 기쁨 89세 현역 트레이더 시게루 할아버지의 흔들리지 않는 투자 철학.md`](notion-intelligence/주식 투자의 기쁨 89세 현역 트레이더 시게루 할아버지의 흔들리지 않는 투자 철학.md) |
+| **구로사와 아키라 자서전 비슷한 것** | 0자 | [노션 열기](https://app.notion.com/p/147e42c8c5e2802da057dcaecac5eb31) | [`구로사와 아키라 자서전 비슷한 것.md`](notion-intelligence/구로사와 아키라 자서전 비슷한 것.md) |
+| **주도주 투자 수익의 정석 20년간 연간손실 0원, 국가대표 프랍 트레이더의 완벽한 ‘손익비’ 전략** | 0자 | [노션 열기](https://app.notion.com/p/20-0-251e42c8c5e280c0bd64f8618b94982d) | [`주도주 투자 수익의 정석 20년간 연간손실 0원, 국가대표 프랍 트레이더의 완벽한 ‘손익비’ 전략.md`](notion-intelligence/주도주 투자 수익의 정석 20년간 연간손실 0원, 국가대표 프랍 트레이더의 완벽한 ‘손익비’ 전략.md) |
+| **주식 투자 잘하는 사람들의 7가지 무기** | 0자 | [노션 열기](https://app.notion.com/p/7-251e42c8c5e280819a73d5bfde83e9a0) | [`주식 투자 잘하는 사람들의 7가지 무기.md`](notion-intelligence/주식 투자 잘하는 사람들의 7가지 무기.md) |
+| **트렌드 코리아 2025 ** | 0자 | [노션 열기](https://app.notion.com/p/2025-112e42c8c5e2800a9c16e77051686c5a) | [`트렌드 코리아 2025.md`](notion-intelligence/트렌드 코리아 2025.md) |
+| **기술창업 36계 내 기술을 지키고 내 기술로 돈을 버는 습관** | 0자 | [노션 열기](https://app.notion.com/p/36-24ee42c8c5e28080a72ceb838b1a916b) | [`기술창업 36계 내 기술을 지키고 내 기술로 돈을 버는 습관.md`](notion-intelligence/기술창업 36계 내 기술을 지키고 내 기술로 돈을 버는 습관.md) |
+| **현업 변리사가 알려주는 지식재산권 스쿨 쉽게 배워 바로 쓰는 특허, 상표, 디자인, 저작권 전략** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e28090890ec8418bac73fd) | [`현업 변리사가 알려주는 지식재산권 스쿨 쉽게 배워 바로 쓰는 특허, 상표, 디자인, 저작권 전략.md`](notion-intelligence/현업 변리사가 알려주는 지식재산권 스쿨 쉽게 배워 바로 쓰는 특허, 상표, 디자인, 저작권 전략.md) |
+| **지식재산경영의 미래 비즈니스 전쟁에서 이기는 전략** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e2809aaf1eec8cf8819a4b) | [`지식재산경영의 미래 비즈니스 전쟁에서 이기는 전략.md`](notion-intelligence/지식재산경영의 미래 비즈니스 전쟁에서 이기는 전략.md) |
+| **지식재산 전쟁 한국의 특허경쟁력과 대응전략** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e280a5832fc257b992f406) | [`지식재산 전쟁 한국의 특허경쟁력과 대응전략.md`](notion-intelligence/지식재산 전쟁 한국의 특허경쟁력과 대응전략.md) |
+| **쉽게 풀어 쓴 지식재산 입문** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e280158f8afc8a83841f44) | [`쉽게 풀어 쓴 지식재산 입문.md`](notion-intelligence/쉽게 풀어 쓴 지식재산 입문.md) |
+| **책(특허)** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e280e294d6f1534406249a) | [`책(특허).md`](notion-intelligence/책(특허).md) |
+| **참고자료(특허)** | 0자 | [노션 열기](https://app.notion.com/p/24ee42c8c5e280cb845ac95978723c57) | [`참고자료(특허).md`](notion-intelligence/참고자료(특허).md) |
+| **애프터 넷플릭스 한국 콘텐츠 비즈니스의 글로벌 생존 해법** | 0자 | [노션 열기](https://app.notion.com/p/1b5e42c8c5e280258b9cd5f1759fd85d) | [`애프터 넷플릭스 한국 콘텐츠 비즈니스의 글로벌 생존 해법.md`](notion-intelligence/애프터 넷플릭스 한국 콘텐츠 비즈니스의 글로벌 생존 해법.md) |
+| **불온한 영화를 위하여** | 0자 | [노션 열기](https://app.notion.com/p/24de42c8c5e28094af6dfba54d60c5ec) | [`불온한 영화를 위하여.md`](notion-intelligence/불온한 영화를 위하여.md) |
+| **죽기 전에 꼭 봐야 할 영화 1001 [ 7th Edtion, 양장, 개정판 ] ** | 0자 | [노션 열기](https://app.notion.com/p/1001-7th-Edtion-831bdf6c2d1b407ea13438f408b7055a) | [`죽기 전에 꼭 봐야 할 영화 1001 [ 7th Edtion, 양장, 개정판 ].md`](notion-intelligence/죽기 전에 꼭 봐야 할 영화 1001 [ 7th Edtion, 양장, 개정판 ].md) |
+| **달러 자산 1억으로 평생 월급 완성하라 집 한 채에 갇힐 것인가, 현금 부자로 살 것인가 [ 부록 : 이재명 시대 자산 시장 대전환 가이드북지금 사야 할 주식·ETF 비공개 강의 ] ** | 0자 | [노션 열기](https://app.notion.com/p/1-ETF-24ce42c8c5e280f6b36bf9ca638a1859) | [`달러 자산 1억으로 평생 월급 완성하라 집 한 채에 갇힐 것인가, 현금 부자로 살 것인가 [ 부록 _ 이재명 시대 자산 시장 대전환 가이드북지금 사야 할 주식·ETF 비공개 강의 ].md`](notion-intelligence/달러 자산 1억으로 평생 월급 완성하라 집 한 채에 갇힐 것인가, 현금 부자로 살 것인가 [ 부록 _ 이재명 시대 자산 시장 대전환 가이드북지금 사야 할 주식·ETF 비공개 강의 ].md) |
+| **I+20 #PSB #電腦星 오늘의 키워드 #아톰 #비트** | 0자 | [노션 열기](https://app.notion.com/p/I-20-PSB-129e42c8c5e28047a738e680ae6a84ae) | [`I+20 #PSB #電腦星 오늘의 키워드 #아톰 #비트.md`](notion-intelligence/I+20 #PSB #電腦星 오늘의 키워드 #아톰 #비트.md) |
+| **I+23 #PSB #電腦星 오늘의 키워드 #플랫폼** | 0자 | [노션 열기](https://app.notion.com/p/I-23-PSB-129e42c8c5e28057adefeeca1431c17b) | [`I+23 #PSB #電腦星 오늘의 키워드 #플랫폼.md`](notion-intelligence/I+23 #PSB #電腦星 오늘의 키워드 #플랫폼.md) |
+| **I+60 #PSB  #電腦星  오늘의 키워드 #라스베가스** | 0자 | [노션 열기](https://app.notion.com/p/I-60-PSB-14ee42c8c5e2809a9d8add3ffb27932d) | [`I+60 #PSB  #電腦星  오늘의 키워드 #라스베가스.md`](notion-intelligence/I+60 #PSB  #電腦星  오늘의 키워드 #라스베가스.md) |
+| **I+102.103 #PSB  #電腦星  오늘의 키워드 #SFO** | 0자 | [노션 열기](https://app.notion.com/p/I-102-103-PSB-SFO-173e42c8c5e280099ec4f55b2f2d1bf9) | [`I+102.103 #PSB  #電腦星  오늘의 키워드 #SFO.md`](notion-intelligence/I+102.103 #PSB  #電腦星  오늘의 키워드 #SFO.md) |
+| **I+108 #PSB  #電腦星  오늘의 키워드 #MZ** | 0자 | [노션 열기](https://app.notion.com/p/I-108-PSB-MZ-173e42c8c5e28054906bf373e36e3c36) | [`I+108 #PSB  #電腦星  오늘의 키워드 #MZ.md`](notion-intelligence/I+108 #PSB  #電腦星  오늘의 키워드 #MZ.md) |
+| **I+172 #PSB  #電腦星  오늘의 키워드 #CI** | 0자 | [노션 열기](https://app.notion.com/p/I-172-PSB-CI-1b2e42c8c5e2802c8aaef849b2bee019) | [`I+172 #PSB  #電腦星  오늘의 키워드 #CI.md`](notion-intelligence/I+172 #PSB  #電腦星  오늘의 키워드 #CI.md) |
+| **I+74 #PSB  #電腦星  오늘의 키워드 #드론복원** | 0자 | [노션 열기](https://app.notion.com/p/I-74-PSB-15ee42c8c5e280628453d9abf42db24a) | [`I+74 #PSB  #電腦星  오늘의 키워드 #드론복원.md`](notion-intelligence/I+74 #PSB  #電腦星  오늘의 키워드 #드론복원.md) |
+| **I+93 #PSB  #電腦星  오늘의 키워드 #Unthinkable** | 0자 | [노션 열기](https://app.notion.com/p/I-93-PSB-Unthinkable-164e42c8c5e2806bbf44c8efe6c83d5b) | [`I+93 #PSB  #電腦星  오늘의 키워드 #Unthinkable.md`](notion-intelligence/I+93 #PSB  #電腦星  오늘의 키워드 #Unthinkable.md) |
+| **H+178 #PSB  #電腦星  오늘의 키워드 - #뇌섹남** | 0자 | [노션 열기](https://app.notion.com/p/H-178-PSB-12ae42c8c5e28001ba29fe822bd920e2) | [`H+178 #PSB  #電腦星  오늘의 키워드 - #뇌섹남.md`](notion-intelligence/H+178 #PSB  #電腦星  오늘의 키워드 - #뇌섹남.md) |
+| **G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵** | 0자 | [노션 열기](https://app.notion.com/p/G-7-PSB-16fe42c8c5e280c480aef584f14dc7ff) | [`G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵.md`](notion-intelligence/G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵.md) |
+| **G+346 #PSB  #電腦星  오늘의 키워드 - #레드헤링** | 0자 | [노션 열기](https://app.notion.com/p/G-346-PSB-173e42c8c5e2801998d0d5b950c57d92) | [`G+346 #PSB  #電腦星  오늘의 키워드 - #레드헤링.md`](notion-intelligence/G+346 #PSB  #電腦星  오늘의 키워드 - #레드헤링.md) |
+| **G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵** | 0자 | [노션 열기](https://app.notion.com/p/G-7-PSB-173e42c8c5e2804b9761d7eb90d2124e) | [`G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵.md`](notion-intelligence/G+7 #PSB  #電腦星  오늘의 키워드 - #로드맵.md) |
+| **E+322 #PSB #電腦星 오늘의 키워드 #고독사** | 0자 | [노션 열기](https://app.notion.com/p/E-322-PSB-170e42c8c5e280c18386c7a3ec688045) | [`E+322 #PSB #電腦星 오늘의 키워드 #고독사.md`](notion-intelligence/E+322 #PSB #電腦星 오늘의 키워드 #고독사.md) |
+| **H+169 #PSB  #電腦星  오늘의 키워드 - #怪力亂神** | 0자 | [노션 열기](https://app.notion.com/p/H-169-PSB-14ee42c8c5e280c1ae40e0e84bf50ea7) | [`H+169 #PSB  #電腦星  오늘의 키워드 - #怪力亂神.md`](notion-intelligence/H+169 #PSB  #電腦星  오늘의 키워드 - #怪力亂神.md) |
+| **I+86.87 #PSB  #電腦星  오늘의 키워드 #탄핵연대** | 0자 | [노션 열기](https://app.notion.com/p/I-86-87-PSB-15ee42c8c5e2808faa6fdb76275e4a0e) | [`I+86.87 #PSB  #電腦星  오늘의 키워드 #탄핵연대.md`](notion-intelligence/I+86.87 #PSB  #電腦星  오늘의 키워드 #탄핵연대.md) |
+| **F+42 #PSB  #電腦星  오늘의 키워드 #CT** | 0자 | [노션 열기](https://app.notion.com/p/F-42-PSB-CT-14ee42c8c5e280dd91ced9a283fbc1cc) | [`F+42 #PSB  #電腦星  오늘의 키워드 #CT.md`](notion-intelligence/F+42 #PSB  #電腦星  오늘의 키워드 #CT.md) |
+| **I+178 #PSB  #電腦星  오늘의 키워드 #사회공학** | 0자 | [노션 열기](https://app.notion.com/p/I-178-PSB-1b9e42c8c5e280cbbd44ee17f1b262c9) | [`I+178 #PSB  #電腦星  오늘의 키워드 #사회공학.md`](notion-intelligence/I+178 #PSB  #電腦星  오늘의 키워드 #사회공학.md) |
+| **I+189 #PSB  #電腦星  오늘의 키워드 #Attention** | 0자 | [노션 열기](https://app.notion.com/p/I-189-PSB-Attention-1c3e42c8c5e280d4aeccfdd43e5942f3) | [`I+189 #PSB  #電腦星  오늘의 키워드 #Attention.md`](notion-intelligence/I+189 #PSB  #電腦星  오늘의 키워드 #Attention.md) |
+| **I+191.192 #PSB  #電腦星  오늘의 키워드 #아바타** | 0자 | [노션 열기](https://app.notion.com/p/I-191-192-PSB-1c6e42c8c5e280a9aecad2b4a573a808) | [`I+191.192 #PSB  #電腦星  오늘의 키워드 #아바타.md`](notion-intelligence/I+191.192 #PSB  #電腦星  오늘의 키워드 #아바타.md) |
+| **I+226.227 #PSB  #電腦星  오늘의 키워드 #MAD** | 0자 | [노션 열기](https://app.notion.com/p/I-226-227-PSB-MAD-1ece42c8c5e2804d8356f6749c370a1f) | [`I+226.227 #PSB  #電腦星  오늘의 키워드 #MAD.md`](notion-intelligence/I+226.227 #PSB  #電腦星  오늘의 키워드 #MAD.md) |
+| **I+247.248.249 #PSB  #電腦星  오늘의 키워드 #SFO** | 0자 | [노션 열기](https://app.notion.com/p/I-247-248-249-PSB-SFO-207e42c8c5e2805286abe3f161d8249e) | [`I+247.248.249 #PSB  #電腦星  오늘의 키워드 #SFO.md`](notion-intelligence/I+247.248.249 #PSB  #電腦星  오늘의 키워드 #SFO.md) |
+| **I+285 #PSB  #電腦星  오늘의 키워드 #공화당** | 0자 | [노션 열기](https://app.notion.com/p/I-285-PSB-229e42c8c5e2807580eae9ecd6a6a67e) | [`I+285 #PSB  #電腦星  오늘의 키워드 #공화당.md`](notion-intelligence/I+285 #PSB  #電腦星  오늘의 키워드 #공화당.md) |
+| **I+304.305 #PSB  #電腦星  오늘의 키워드 #G2** | 0자 | [노션 열기](https://app.notion.com/p/I-304-305-PSB-G2-23de42c8c5e280419a56e1a6f906eea4) | [`I+304.305 #PSB  #電腦星  오늘의 키워드 #G2.md`](notion-intelligence/I+304.305 #PSB  #電腦星  오늘의 키워드 #G2.md) |
+| **I+323.324 #PSB  #電腦星  오늘의 키워드 #애자일** | 0자 | [노션 열기](https://app.notion.com/p/I-323-324-PSB-24be42c8c5e2800287f4d3239af16add) | [`I+323.324 #PSB  #電腦星  오늘의 키워드 #애자일.md`](notion-intelligence/I+323.324 #PSB  #電腦星  오늘의 키워드 #애자일.md) |
+| **G+228 #PSB  #電腦星  오늘의 키워드 - #도플갱어** | 0자 | [노션 열기](https://app.notion.com/p/G-228-PSB-12ae42c8c5e2800085b0ca8d110bd6a5) | [`G+228 #PSB  #電腦星  오늘의 키워드 - #도플갱어.md`](notion-intelligence/G+228 #PSB  #電腦星  오늘의 키워드 - #도플갱어.md) |
+| **한 권으로 끝내는 디지털 경제 10가지 미래 키워드로 완성한 IT 비즈니스 바이블 ** | 0자 | [노션 열기](https://app.notion.com/p/10-IT-24ae42c8c5e28084843bc96d9c87200f) | [`한 권으로 끝내는 디지털 경제 10가지 미래 키워드로 완성한 IT 비즈니스 바이블.md`](notion-intelligence/한 권으로 끝내는 디지털 경제 10가지 미래 키워드로 완성한 IT 비즈니스 바이블.md) |
+| **디지털 경제의 이해** | 0자 | [노션 열기](https://app.notion.com/p/24ae42c8c5e2802a9552dd69f42d0875) | [`디지털 경제의 이해.md`](notion-intelligence/디지털 경제의 이해.md) |
+| **세계 경영학 필독서 50** | 0자 | [노션 열기](https://app.notion.com/p/50-248e42c8c5e280679ea8e4bb6a81dccd) | [`세계 경영학 필독서 50.md`](notion-intelligence/세계 경영학 필독서 50.md) |
+| **책(삼성)** | 0자 | [노션 열기](https://app.notion.com/p/23be42c8c5e280089382d427a944b114) | [`책(삼성).md`](notion-intelligence/책(삼성).md) |
+| **이론과 실전을 모두 담아 새로 쓴 한국형 가치투자** | 0자 | [노션 열기](https://app.notion.com/p/248e42c8c5e2807e9ceced9db8481ae2) | [`이론과 실전을 모두 담아 새로 쓴 한국형 가치투자.md`](notion-intelligence/이론과 실전을 모두 담아 새로 쓴 한국형 가치투자.md) |
+| **결국 당신은 아파트를 사게 된다 국민 경제 멘토 김경필의 똘똘한 내 집 마련 필승법** | 0자 | [노션 열기](https://app.notion.com/p/242e42c8c5e280beae72ebc780187f42) | [`결국 당신은 아파트를 사게 된다 국민 경제 멘토 김경필의 똘똘한 내 집 마련 필승법.md`](notion-intelligence/결국 당신은 아파트를 사게 된다 국민 경제 멘토 김경필의 똘똘한 내 집 마련 필승법.md) |
+| **사이언스툰 과학자들 세트** | 0자 | [노션 열기](https://app.notion.com/p/3bb2e76372b748f3b9fa0720d1b6edf0) | [`사이언스툰 과학자들 세트.md`](notion-intelligence/사이언스툰 과학자들 세트.md) |
+| **조선이 만난 아인슈타인 100년 전 우리 조상들의 과학 탐사기** | 0자 | [노션 열기](https://app.notion.com/p/100-4005d58edc264366b7e2a8c108f89429) | [`조선이 만난 아인슈타인 100년 전 우리 조상들의 과학 탐사기.md`](notion-intelligence/조선이 만난 아인슈타인 100년 전 우리 조상들의 과학 탐사기.md) |
+| **문과 남자의 과학 공부** | 0자 | [노션 열기](https://app.notion.com/p/95732920677f463cbf5f04c7e1e2897f) | [`문과 남자의 과학 공부.md`](notion-intelligence/문과 남자의 과학 공부.md) |
+| **방위산업(체)** | 0자 | [노션 열기](https://app.notion.com/p/23fe42c8c5e280328fa0d9f0702575d4) | [`방위산업(체).md`](notion-intelligence/방위산업(체).md) |
+| **중앙아시아** | 0자 | [노션 열기](https://app.notion.com/p/235e42c8c5e280b4af14c1cea4e4de27) | [`중앙아시아.md`](notion-intelligence/중앙아시아.md) |
+| **스탄으로 끝나는 나라** | 0자 | [노션 열기](https://app.notion.com/p/12ce42c8c5e2806086b8f3881dadca25) | [`스탄으로 끝나는 나라.md`](notion-intelligence/스탄으로 끝나는 나라.md) |
+| **중앙아시아** | 0자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2808bb49bf973c3d4fec6) | [`중앙아시아.md`](notion-intelligence/중앙아시아.md) |
+| **책(중앙아시아)** | 0자 | [노션 열기](https://app.notion.com/p/235e42c8c5e2803ea0efc7fa3e9b1201) | [`책(중앙아시아).md`](notion-intelligence/책(중앙아시아).md) |
+| **쉽게 읽는 중앙아시아 이야기 역사·문명·이슬람** | 0자 | [노션 열기](https://app.notion.com/p/63bcd3d46eeb4531b6a5b31bdf4c782e) | [`쉽게 읽는 중앙아시아 이야기 역사·문명·이슬람.md`](notion-intelligence/쉽게 읽는 중앙아시아 이야기 역사·문명·이슬람.md) |
+| **현대 무기체계론 ** | 0자 | [노션 열기](https://app.notion.com/p/0ca61a66d5074567a0e69bc99454cec7) | [`현대 무기체계론.md`](notion-intelligence/현대 무기체계론.md) |
+| **무기 돌도끼에서 기관총까지 무기의 모든 것을 담은 무기 대백과사전 ** | 0자 | [노션 열기](https://app.notion.com/p/eb48b15e91a94cb18f4a1963bb445c68) | [`무기 돌도끼에서 기관총까지 무기의 모든 것을 담은 무기 대백과사전.md`](notion-intelligence/무기 돌도끼에서 기관총까지 무기의 모든 것을 담은 무기 대백과사전.md) |
+| **군사전략론 국가대전략과 작전술의 원천 ** | 0자 | [노션 열기](https://app.notion.com/p/f76da9740efc4d4986da80b93a2f36ec) | [`군사전략론 국가대전략과 작전술의 원천.md`](notion-intelligence/군사전략론 국가대전략과 작전술의 원천.md) |
+| **자동차 세계사 100** | 0자 | [노션 열기](https://app.notion.com/p/100-094690a161c84e4891359a4cf987ff89) | [`자동차 세계사 100.md`](notion-intelligence/자동차 세계사 100.md) |
+| **박병일 명장의 벤츠부터 람보르기니까지 명차가 궁금해! 세계 명품 자동차에 숨겨진 흥미진진 이야기** | 0자 | [노션 열기](https://app.notion.com/p/329c326426ea4f1abdeeef73a3adfd20) | [`박병일 명장의 벤츠부터 람보르기니까지 명차가 궁금해! 세계 명품 자동차에 숨겨진 흥미진진 이야기.md`](notion-intelligence/박병일 명장의 벤츠부터 람보르기니까지 명차가 궁금해! 세계 명품 자동차에 숨겨진 흥미진진 이야기.md) |
+| **자동차 엠블럼 사전 위대한 영감과 테크놀로지로 탄생한 전설의 명차 브랜드 라이브러리** | 0자 | [노션 열기](https://app.notion.com/p/f1546fe7e9714f68bff3affcd212cd28) | [`자동차 엠블럼 사전 위대한 영감과 테크놀로지로 탄생한 전설의 명차 브랜드 라이브러리.md`](notion-intelligence/자동차 엠블럼 사전 위대한 영감과 테크놀로지로 탄생한 전설의 명차 브랜드 라이브러리.md) |
+| **반도체 패권전쟁 10년 후 한국 반도체는 살아남을 수 있을까** | 0자 | [노션 열기](https://app.notion.com/p/10-1efe42c8c5e28000955ac7d930f17fae) | [`반도체 패권전쟁 10년 후 한국 반도체는 살아남을 수 있을까.md`](notion-intelligence/반도체 패권전쟁 10년 후 한국 반도체는 살아남을 수 있을까.md) |
+| **AI 반도체 혁명 3차 반도체 전쟁, 최후의 승자는 누가 될 것인가** | 0자 | [노션 열기](https://app.notion.com/p/AI-3-87ff72e900934a3c8adf5488a7572251) | [`AI 반도체 혁명 3차 반도체 전쟁, 최후의 승자는 누가 될 것인가.md`](notion-intelligence/AI 반도체 혁명 3차 반도체 전쟁, 최후의 승자는 누가 될 것인가.md) |
+| **양자컴퓨터의 미래** | 0자 | [노션 열기](https://app.notion.com/p/21fe42c8c5e28022aee8f05a36dc9aa7) | [`양자컴퓨터의 미래.md`](notion-intelligence/양자컴퓨터의 미래.md) |
+| **지금 당장 양자컴퓨터에 투자하라 AI를 넘어설 퀀텀 혁명** | 0자 | [노션 열기](https://app.notion.com/p/AI-21fe42c8c5e280b4acf5feb61dd6275d) | [`지금 당장 양자컴퓨터에 투자하라 AI를 넘어설 퀀텀 혁명.md`](notion-intelligence/지금 당장 양자컴퓨터에 투자하라 AI를 넘어설 퀀텀 혁명.md) |
+| **AI 전쟁 : 글로벌 인공지능 시대 한국의 미래 ** | 0자 | [노션 열기](https://app.notion.com/p/AI-13be42c8c5e280f39a70f5a0c15bdb48) | [`AI 전쟁 _ 글로벌 인공지능 시대 한국의 미래.md`](notion-intelligence/AI 전쟁 _ 글로벌 인공지능 시대 한국의 미래.md) |
+| **AGI의 시대 인간을 초월한 인공지능, AGI를 논하다** | 0자 | [노션 열기](https://app.notion.com/p/AGI-AGI-145e42c8c5e2806182e2e385f3e8ef58) | [`AGI의 시대 인간을 초월한 인공지능, AGI를 논하다.md`](notion-intelligence/AGI의 시대 인간을 초월한 인공지능, AGI를 논하다.md) |
+| **엑스트로피, 기술은 어떻게 비즈니스를 바꾸는가 포스트 AI 시대를 준비하는 미래 시나리오** | 0자 | [노션 열기](https://app.notion.com/p/AI-1f4e42c8c5e280f688b5d35967418402) | [`엑스트로피, 기술은 어떻게 비즈니스를 바꾸는가 포스트 AI 시대를 준비하는 미래 시나리오.md`](notion-intelligence/엑스트로피, 기술은 어떻게 비즈니스를 바꾸는가 포스트 AI 시대를 준비하는 미래 시나리오.md) |
+| **인공지능은 생각하지 않는다 인공지능에 관한 꼭 알아야 할 오해와 진실 ** | 0자 | [노션 열기](https://app.notion.com/p/1fae42c8c5e2800babbfddf975a60a4f) | [`인공지능은 생각하지 않는다 인공지능에 관한 꼭 알아야 할 오해와 진실.md`](notion-intelligence/인공지능은 생각하지 않는다 인공지능에 관한 꼭 알아야 할 오해와 진실.md) |
+| **HR 테크 혁명 AI 면접관부터 심리상담 챗봇까지, 기술이 이끄는 디지털 인사관리** | 0자 | [노션 열기](https://app.notion.com/p/HR-AI-216e42c8c5e2807499bbccc4bae3e2a8) | [`HR 테크 혁명 AI 면접관부터 심리상담 챗봇까지, 기술이 이끄는 디지털 인사관리.md`](notion-intelligence/HR 테크 혁명 AI 면접관부터 심리상담 챗봇까지, 기술이 이끄는 디지털 인사관리.md) |
+| **새로운 질서 AI 이후의 생존 전략** | 0자 | [노션 열기](https://app.notion.com/p/AI-234e42c8c5e280459ddbeda83fd97855) | [`새로운 질서 AI 이후의 생존 전략.md`](notion-intelligence/새로운 질서 AI 이후의 생존 전략.md) |
+| **박태웅의 AI 강의 2025 인공지능의 출현부터 일상으로의 침투까지 우리와 미래를 함께할 새로운 지능의 모든 것** | 0자 | [노션 열기](https://app.notion.com/p/AI-2025-927a49f7a7cd4ff89dd1ffbb64648fc8) | [`박태웅의 AI 강의 2025 인공지능의 출현부터 일상으로의 침투까지 우리와 미래를 함께할 새로운 지능의 모든 것.md`](notion-intelligence/박태웅의 AI 강의 2025 인공지능의 출현부터 일상으로의 침투까지 우리와 미래를 함께할 새로운 지능의 모든 것.md) |
+| **한국사(&역사관)** | 0자 | [노션 열기](https://app.notion.com/p/104e42c8c5e2802ca02ac009265b609e) | [`한국사(&역사관).md`](notion-intelligence/한국사(&역사관).md) |
+| **동양사(&북아프리카)** | 0자 | [노션 열기](https://app.notion.com/p/104e42c8c5e2806fa2e9c85c98bca3b2) | [`동양사(&북아프리카).md`](notion-intelligence/동양사(&북아프리카).md) |
+| **역사(압축파일)** | 0자 | [노션 열기](https://app.notion.com/p/15de42c8c5e28098bda1c02d6c788d88) | [`역사(압축파일).md`](notion-intelligence/역사(압축파일).md) |
+| **서양사(&중남아프리카)** | 0자 | [노션 열기](https://app.notion.com/p/8df001d6acc142fb97721cea612ce9fa) | [`서양사(&중남아프리카).md`](notion-intelligence/서양사(&중남아프리카).md) |
+| **소비자학의 기초 ** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e28023a76bf4229c555667) | [`소비자학의 기초.md`](notion-intelligence/소비자학의 기초.md) |
+| **소비자경제학 이론과 실제** | 0자 | [노션 열기](https://app.notion.com/p/218e42c8c5e280b1a8a6c5c3d29fd760) | [`소비자경제학 이론과 실제.md`](notion-intelligence/소비자경제학 이론과 실제.md) |
+| **시장경제와 소비자정책** | 0자 | [노션 열기](https://app.notion.com/p/218e42c8c5e280c09ab3dbbe3303b8e4) | [`시장경제와 소비자정책.md`](notion-intelligence/시장경제와 소비자정책.md) |
+| **소비자 재무설계 [ 제2판 ]** | 0자 | [노션 열기](https://app.notion.com/p/2-218e42c8c5e280d5b29fe4c4b9b57ef0) | [`소비자 재무설계 [ 제2판 ].md`](notion-intelligence/소비자 재무설계 [ 제2판 ].md) |
+| **소비자교육의 기초** | 0자 | [노션 열기](https://app.notion.com/p/218e42c8c5e280fe8ed2f9e6bf580ea0) | [`소비자교육의 기초.md`](notion-intelligence/소비자교육의 기초.md) |
+| **소비자학개론** | 0자 | [노션 열기](https://app.notion.com/p/fac074f1d3c2404e9aeabaefffe5c7c7) | [`소비자학개론.md`](notion-intelligence/소비자학개론.md) |
+| **소비트렌드** | 0자 | [노션 열기](https://app.notion.com/p/fef48bfaca06480ca82574d325972f88) | [`소비트렌드.md`](notion-intelligence/소비트렌드.md) |
+| **일본 경제 30년사 : 버블에서 아베노믹스까지** | 0자 | [노션 열기](https://app.notion.com/p/30-07aded488aa647d2bec59dcbeb34a371) | [`일본 경제 30년사 _ 버블에서 아베노믹스까지.md`](notion-intelligence/일본 경제 30년사 _ 버블에서 아베노믹스까지.md) |
+| **일본의 30년 경험에서 무엇을 배울 것인가 초호황에서 버블 붕괴, 금융위기, 슈퍼 엔고, 고령화에 인구 감소까지 ** | 0자 | [노션 열기](https://app.notion.com/p/30-12ce42c8c5e280b28051f8ae22b4c775) | [`일본의 30년 경험에서 무엇을 배울 것인가 초호황에서 버블 붕괴, 금융위기, 슈퍼 엔고, 고령화에 인구 감소까지.md`](notion-intelligence/일본의 30년 경험에서 무엇을 배울 것인가 초호황에서 버블 붕괴, 금융위기, 슈퍼 엔고, 고령화에 인구 감소까지.md) |
+| **여행하는 일본사 ** | 0자 | [노션 열기](https://app.notion.com/p/131e42c8c5e280689a8bd580081e6706) | [`여행하는 일본사.md`](notion-intelligence/여행하는 일본사.md) |
+| **일본을 알아야 한국이 보인다 한국과 일본의 역전과 역전** | 0자 | [노션 열기](https://app.notion.com/p/143e42c8c5e280b5bf73e8c1c48a67be) | [`일본을 알아야 한국이 보인다 한국과 일본의 역전과 역전.md`](notion-intelligence/일본을 알아야 한국이 보인다 한국과 일본의 역전과 역전.md) |
+| **30개 도시로 읽는 일본사 익숙하고 낯선 도시가 들려주는 일본의 진짜 역사 이야기** | 0자 | [노션 열기](https://app.notion.com/p/30-1a9e42c8c5e28066b8dcf21ff0f0ff50) | [`30개 도시로 읽는 일본사 익숙하고 낯선 도시가 들려주는 일본의 진짜 역사 이야기.md`](notion-intelligence/30개 도시로 읽는 일본사 익숙하고 낯선 도시가 들려주는 일본의 진짜 역사 이야기.md) |
+| **일본의 굴레** | 0자 | [노션 열기](https://app.notion.com/p/1a9e42c8c5e280d6ad38c2c0f957caaa) | [`일본의 굴레.md`](notion-intelligence/일본의 굴레.md) |
+| **신냉전 한일전 : 동아시아 신냉전 시대에 마주한 결정과 갈등과 대립의 순간들** | 0자 | [노션 열기](https://app.notion.com/p/20de42c8c5e280728eb8d12f107c461d) | [`신냉전 한일전 _ 동아시아 신냉전 시대에 마주한 결정과 갈등과 대립의 순간들.md`](notion-intelligence/신냉전 한일전 _ 동아시아 신냉전 시대에 마주한 결정과 갈등과 대립의 순간들.md) |
+| **지금 다시, 일본 정독 국뽕과 친일, 혐오를 뺀 냉정한 일본 읽기 ** | 0자 | [노션 열기](https://app.notion.com/p/44ec0039b11a4807826ef6b22de705ef) | [`지금 다시, 일본 정독 국뽕과 친일, 혐오를 뺀 냉정한 일본 읽기.md`](notion-intelligence/지금 다시, 일본 정독 국뽕과 친일, 혐오를 뺀 냉정한 일본 읽기.md) |
+| **사카모토 료마와 메이지 유신 ** | 0자 | [노션 열기](https://app.notion.com/p/4afe2a2d24a54bab8c04c65a37544113) | [`사카모토 료마와 메이지 유신.md`](notion-intelligence/사카모토 료마와 메이지 유신.md) |
+| **일본이 선진국에서 탈락하는 날 : '마약 같은 엔저 효과'에 의존한 탓에 가난해진 일본을 파헤친다 ** | 0자 | [노션 열기](https://app.notion.com/p/9d94e504bb9d475ba7e4ff838c2f1343) | [`일본이 선진국에서 탈락하는 날 _ '마약 같은 엔저 효과'에 의존한 탓에 가난해진 일본을 파헤친다.md`](notion-intelligence/일본이 선진국에서 탈락하는 날 _ '마약 같은 엔저 효과'에 의존한 탓에 가난해진 일본을 파헤친다.md) |
+| **일본관찰 30년 (염종순)** | 0자 | [노션 열기](https://app.notion.com/p/30-a23566d9725c45e1952e8387af6e7933) | [`일본관찰 30년 (염종순).md`](notion-intelligence/일본관찰 30년 (염종순).md) |
+| **자민당 정권과 전후 체제의 변용** | 0자 | [노션 열기](https://app.notion.com/p/c91276466440404688013ca7308c5213) | [`자민당 정권과 전후 체제의 변용.md`](notion-intelligence/자민당 정권과 전후 체제의 변용.md) |
+| **1940년 체제 : 일본 전후경제사의 멍에를 해부하다 ** | 0자 | [노션 열기](https://app.notion.com/p/1940-cc7271cf9f4849529c0290a1ebdf5a47) | [`1940년 체제 _ 일본 전후경제사의 멍에를 해부하다.md`](notion-intelligence/1940년 체제 _ 일본 전후경제사의 멍에를 해부하다.md) |
+| **일본인들이 증언하는 한일역전 ** | 0자 | [노션 열기](https://app.notion.com/p/e06f98fb63ed45a1850ff9afc00140d4) | [`일본인들이 증언하는 한일역전.md`](notion-intelligence/일본인들이 증언하는 한일역전.md) |
+| **처음 읽는 일본사** | 0자 | [노션 열기](https://app.notion.com/p/f59defb0f78a4edfb79034e08519c775) | [`처음 읽는 일본사.md`](notion-intelligence/처음 읽는 일본사.md) |
+| **일본 제국 패망사 태평양전쟁 1936~1945 ** | 0자 | [노션 열기](https://app.notion.com/p/1936-1945-227e42c8c5e280bba9ede51361f541d2) | [`일본 제국 패망사 태평양전쟁 1936~1945.md`](notion-intelligence/일본 제국 패망사 태평양전쟁 1936~1945.md) |
+| **그랜드 퀘스트 2024 대한민국 과학기술과 산업의 미래에 ‘질문’을 던지다 ** | 0자 | [노션 열기](https://app.notion.com/p/2024-13be42c8c5e28048aabfe92c9fe8f137) | [`그랜드 퀘스트 2024 대한민국 과학기술과 산업의 미래에 ‘질문’을 던지다.md`](notion-intelligence/그랜드 퀘스트 2024 대한민국 과학기술과 산업의 미래에 ‘질문’을 던지다.md) |
+| **2025 글로벌 테크 트렌드 트리플 레볼루션이 온다** | 0자 | [노션 열기](https://app.notion.com/p/2025-156e42c8c5e280d39238f05d15fec346) | [`2025 글로벌 테크 트렌드 트리플 레볼루션이 온다.md`](notion-intelligence/2025 글로벌 테크 트렌드 트리플 레볼루션이 온다.md) |
+| **40일간의 산업일주 
+미래시장의 통찰력을 키우는 산업견문록** | 0자 | [노션 열기](https://app.notion.com/p/40-169e42c8c5e280ddb1e9c6cea8007006) | [`40일간의 산업일주 
+미래시장의 통찰력을 키우는 산업견문록.md`](notion-intelligence/40일간의 산업일주 
+미래시장의 통찰력을 키우는 산업견문록.md) |
+| **2025 상장기업 업종 지도 주식 투자자를 위한 종목 발굴 내비게이션 [ 별책부록 : 한눈에 들어오는 종목 발굴 사슬 지도 ] ** | 0자 | [노션 열기](https://app.notion.com/p/2025-1fbe42c8c5e280c9bfdae5a0cffd505a) | [`2025 상장기업 업종 지도 주식 투자자를 위한 종목 발굴 내비게이션 [ 별책부록 _ 한눈에 들어오는 종목 발굴 사슬 지도 ].md`](notion-intelligence/2025 상장기업 업종 지도 주식 투자자를 위한 종목 발굴 내비게이션 [ 별책부록 _ 한눈에 들어오는 종목 발굴 사슬 지도 ].md) |
+| **제4차 산업혁명과 한국경제의 미래 : IGE BRIE McKinsey & Company 국제회의** | 0자 | [노션 열기](https://app.notion.com/p/4-IGE-BRIE-McKinsey-Company-218e42c8c5e280a1b4fdfbfc193fed25) | [`제4차 산업혁명과 한국경제의 미래 _ IGE BRIE McKinsey & Company 국제회의.md`](notion-intelligence/제4차 산업혁명과 한국경제의 미래 _ IGE BRIE McKinsey & Company 국제회의.md) |
+| **4차산업혁명의 이해 ** | 0자 | [노션 열기](https://app.notion.com/p/4-766be9e0749641c09e5072d90ae6e3c5) | [`4차산업혁명의 이해.md`](notion-intelligence/4차산업혁명의 이해.md) |
+| **2024~2025 대한민국 산업지도 투자자를 위한 업종별 투자 가이드** | 0자 | [노션 열기](https://app.notion.com/p/2024-2025-c23f99d0f41b4fc48193fe4cd81d0622) | [`2024~2025 대한민국 산업지도 투자자를 위한 업종별 투자 가이드.md`](notion-intelligence/2024~2025 대한민국 산업지도 투자자를 위한 업종별 투자 가이드.md) |
+| **한국의 기업 가문** | 0자 | [노션 열기](https://app.notion.com/p/10be42c8c5e280da9a90fc078af0a2f0) | [`한국의 기업 가문.md`](notion-intelligence/한국의 기업 가문.md) |
+| **기업 성장史(2012)** | 0자 | [노션 열기](https://app.notion.com/p/2012-10be42c8c5e280fe9ab5c8f17125eb78) | [`기업 성장史(2012).md`](notion-intelligence/기업 성장史(2012).md) |
+| **이한구의 한국재벌사(2019~2020)** | 0자 | [노션 열기](https://app.notion.com/p/2019-2020-12be42c8c5e2802aae41e430c0e608a2) | [`이한구의 한국재벌사(2019~2020).md`](notion-intelligence/이한구의 한국재벌사(2019~2020).md) |
+| **망해도 잘사는 부자들(2018) ** | 0자 | [노션 열기](https://app.notion.com/p/2018-12be42c8c5e280f5a734dd7a73bc6176) | [`망해도 잘사는 부자들(2018).md`](notion-intelligence/망해도 잘사는 부자들(2018).md) |
+| **100대 그룹 지배구조 대해부(2014)** | 0자 | [노션 열기](https://app.notion.com/p/100-2014-16be42c8c5e2803195acdb4bc9e01fc0) | [`100대 그룹 지배구조 대해부(2014).md`](notion-intelligence/100대 그룹 지배구조 대해부(2014).md) |
+| **한국 CEO 대탐험 ** | 0자 | [노션 열기](https://app.notion.com/p/CEO-1a8e42c8c5e2805a8bc5d33c881b4a57) | [`한국 CEO 대탐험.md`](notion-intelligence/한국 CEO 대탐험.md) |
+| **한국 재벌 흑역사 3 신세계, 두산, 대한항공 외** | 0자 | [노션 열기](https://app.notion.com/p/3-1b9e42c8c5e28002af90d14dfe8ef490) | [`한국 재벌 흑역사 3 신세계, 두산, 대한항공 외.md`](notion-intelligence/한국 재벌 흑역사 3 신세계, 두산, 대한항공 외.md) |
+| **재벌 3세 한국 경제의 또 다른 거대한 문 ** | 0자 | [노션 열기](https://app.notion.com/p/3-1f07ea450a614ec59184909ef72c9786) | [`재벌 3세 한국 경제의 또 다른 거대한 문.md`](notion-intelligence/재벌 3세 한국 경제의 또 다른 거대한 문.md) |
+| **벌거벗은 재벌님 위기의 한국 경제와 재벌개혁, 올바른 해법을 찾아서 ** | 0자 | [노션 열기](https://app.notion.com/p/207e42c8c5e280a69142c6b7452095fe) | [`벌거벗은 재벌님 위기의 한국 경제와 재벌개혁, 올바른 해법을 찾아서.md`](notion-intelligence/벌거벗은 재벌님 위기의 한국 경제와 재벌개혁, 올바른 해법을 찾아서.md) |
+| **대한민국 2025 재계 지도 읽기만 해도 투자의 맥이 잡히는 대한민국** | 0자 | [노션 열기](https://app.notion.com/p/2025-20ce42c8c5e280cd8a3acbbada03b0e6) | [`대한민국 2025 재계 지도 읽기만 해도 투자의 맥이 잡히는 대한민국.md`](notion-intelligence/대한민국 2025 재계 지도 읽기만 해도 투자의 맥이 잡히는 대한민국.md) |
+| **아! 대한민국, 재벌공화국 한국경제, 재벌개혁에 칼을 뽑다** | 0자 | [노션 열기](https://app.notion.com/p/380a261fe07b4917b15740604a715cc1) | [`아! 대한민국, 재벌공화국 한국경제, 재벌개혁에 칼을 뽑다.md`](notion-intelligence/아! 대한민국, 재벌공화국 한국경제, 재벌개혁에 칼을 뽑다.md) |
+| **툭 까놓고 재벌 그토록 숨겨두고 싶었던 대한민국 재벌의 탄생과 성장 이야기** | 0자 | [노션 열기](https://app.notion.com/p/3977104b551648d9a27932b75f2bc7d0) | [`툭 까놓고 재벌 그토록 숨겨두고 싶었던 대한민국 재벌의 탄생과 성장 이야기.md`](notion-intelligence/툭 까놓고 재벌 그토록 숨겨두고 싶었던 대한민국 재벌의 탄생과 성장 이야기.md) |
+| **재계 3세 대해부 매경 기자들이 현장에서 전하는 주요 그룹 오너3세 이야기** | 0자 | [노션 열기](https://app.notion.com/p/3-3-5c8c6d0c38e242d281102a560aea667d) | [`재계 3세 대해부 매경 기자들이 현장에서 전하는 주요 그룹 오너3세 이야기.md`](notion-intelligence/재계 3세 대해부 매경 기자들이 현장에서 전하는 주요 그룹 오너3세 이야기.md) |
+| **이종락의 재계인맥 대해부(2019)** | 0자 | [노션 열기](https://app.notion.com/p/2019-77f3b5fdc2f54ababc16cc74f5147528) | [`이종락의 재계인맥 대해부(2019).md`](notion-intelligence/이종락의 재계인맥 대해부(2019).md) |
+| **대한민국 인맥지도 대한민국 주류사회 파워엘리트 그룹 인맥관계 해부도** | 0자 | [노션 열기](https://app.notion.com/p/7d3bcc9fe7f14f7a81501f2bdecb90a1) | [`대한민국 인맥지도 대한민국 주류사회 파워엘리트 그룹 인맥관계 해부도.md`](notion-intelligence/대한민국 인맥지도 대한민국 주류사회 파워엘리트 그룹 인맥관계 해부도.md) |
+| **2024 재계 인맥 대탐구 + 2019 재계 인맥 대탐구** | 0자 | [노션 열기](https://app.notion.com/p/2024-2019-88a0a4706f944014993a4d3d77a04d3d) | [`2024 재계 인맥 대탐구 + 2019 재계 인맥 대탐구.md`](notion-intelligence/2024 재계 인맥 대탐구 + 2019 재계 인맥 대탐구.md) |
+| **재계3·4세 B!z watch(2020)** | 0자 | [노션 열기](https://app.notion.com/p/3-4-B-z-watch-2020-9eb6bdad28e44ce2810cc37c59e687bb) | [`재계3·4세 B!z watch(2020).md`](notion-intelligence/재계3·4세 B!z watch(2020).md) |
+| **한국의 숨겨진 재벌가 1** | 0자 | [노션 열기](https://app.notion.com/p/1-b983a2a87ecc4fcb9a1c35d685234aec) | [`한국의 숨겨진 재벌가 1.md`](notion-intelligence/한국의 숨겨진 재벌가 1.md) |
+| **망해도 잘사는 부자들 대한민국 불량기업 불량총수** | 0자 | [노션 열기](https://app.notion.com/p/d6b6bfb8867b46d5847d67566b22f212) | [`망해도 잘사는 부자들 대한민국 불량기업 불량총수.md`](notion-intelligence/망해도 잘사는 부자들 대한민국 불량기업 불량총수.md) |
+| **한국 최고 부자들의 금맥과 혼맥 ** | 0자 | [노션 열기](https://app.notion.com/p/e25fca0bc9ec4f629a3b8311c9f48aa8) | [`한국 최고 부자들의 금맥과 혼맥.md`](notion-intelligence/한국 최고 부자들의 금맥과 혼맥.md) |
+| **한국재벌사연구 ** | 0자 | [노션 열기](https://app.notion.com/p/e4bc95162a3a445e844cec7796307d39) | [`한국재벌사연구.md`](notion-intelligence/한국재벌사연구.md) |
+| **재벌 공화국 대한민국을 쥐고 흔드는 재벌, 민주주의와 시장경제는 무사할 수 있을까?** | 0자 | [노션 열기](https://app.notion.com/p/fffaa822d3b54f778c65a9ee85d4ce09) | [`재벌 공화국 대한민국을 쥐고 흔드는 재벌, 민주주의와 시장경제는 무사할 수 있을까_.md`](notion-intelligence/재벌 공화국 대한민국을 쥐고 흔드는 재벌, 민주주의와 시장경제는 무사할 수 있을까_.md) |
+| **한국 자본권력의 불량한 역사 정권은 재벌을 만들고 재벌은 권력을 지배한다** | 0자 | [노션 열기](https://app.notion.com/p/fffe42c8c5e280e9a3e2da1dcdbf3875) | [`한국 자본권력의 불량한 역사 정권은 재벌을 만들고 재벌은 권력을 지배한다.md`](notion-intelligence/한국 자본권력의 불량한 역사 정권은 재벌을 만들고 재벌은 권력을 지배한다.md) |
+| **책(💵Bond)** | 0자 | [노션 열기](https://app.notion.com/p/Bond-22fe42c8c5e280f294bacd4ac3fccd16) | [`책(💵Bond).md`](notion-intelligence/책(💵Bond).md) |
+| **나의 첫 채권투자 교과서(최석원) ** | 0자 | [노션 열기](https://app.notion.com/p/20d23dd0095747d89bd801c150551bf0) | [`나의 첫 채권투자 교과서(최석원).md`](notion-intelligence/나의 첫 채권투자 교과서(최석원).md) |
+| **채권 투자 무작정 따라하기 기초부터 실전까지 한 권으로 끝내는 채권 투자의 모든 것** | 0자 | [노션 열기](https://app.notion.com/p/705065fe164c420a81bf5bd33a923db0) | [`채권 투자 무작정 따라하기 기초부터 실전까지 한 권으로 끝내는 채권 투자의 모든 것.md`](notion-intelligence/채권 투자 무작정 따라하기 기초부터 실전까지 한 권으로 끝내는 채권 투자의 모든 것.md) |
+| **거버넌스 트렌드 2025 K-기업 거버넌스의 원년** | 0자 | [노션 열기](https://app.notion.com/p/2025-K-218e42c8c5e28067abdcd08e85106000) | [`거버넌스 트렌드 2025 K-기업 거버넌스의 원년.md`](notion-intelligence/거버넌스 트렌드 2025 K-기업 거버넌스의 원년.md) |
+| **초기업의 시대 그들은 어떻게 독점시장을 만드는가** | 0자 | [노션 열기](https://app.notion.com/p/218e42c8c5e2809ab75ccfb1dbd476ab) | [`초기업의 시대 그들은 어떻게 독점시장을 만드는가.md`](notion-intelligence/초기업의 시대 그들은 어떻게 독점시장을 만드는가.md) |
+| **주식투자 필독서 40 가치 투자부터 인덱스 펀드까지, 세계 주식 명저 40권을 한 권에** | 0자 | [노션 열기](https://app.notion.com/p/40-40-21de42c8c5e280bd89c2e63e592d784f) | [`주식투자 필독서 40 가치 투자부터 인덱스 펀드까지, 세계 주식 명저 40권을 한 권에.md`](notion-intelligence/주식투자 필독서 40 가치 투자부터 인덱스 펀드까지, 세계 주식 명저 40권을 한 권에.md) |
+| **현명한 투자자(이론)** | 0자 | [노션 열기](https://app.notion.com/p/24618ae86b08451cb02dbb590c94ac62) | [`현명한 투자자(이론).md`](notion-intelligence/현명한 투자자(이론).md) |
+| **전설로 떠나는 월가의 영웅 주식투자에서 상식으로 성공하는 법 [ 개정3판, 양장 ] ** | 0자 | [노션 열기](https://app.notion.com/p/3-39f5ec67490a411d96e79ad923aedbd5) | [`전설로 떠나는 월가의 영웅 주식투자에서 상식으로 성공하는 법 [ 개정3판, 양장 ].md`](notion-intelligence/전설로 떠나는 월가의 영웅 주식투자에서 상식으로 성공하는 법 [ 개정3판, 양장 ].md) |
+| **박 회계사의 사업보고서 분석법 업종별 핵심 포인트 : 제조업, 제약·바이오, 도·소매, 수주업** | 0자 | [노션 열기](https://app.notion.com/p/583c1032c2104ba889d16f9985397146) | [`박 회계사의 사업보고서 분석법 업종별 핵심 포인트 _ 제조업, 제약·바이오, 도·소매, 수주업.md`](notion-intelligence/박 회계사의 사업보고서 분석법 업종별 핵심 포인트 _ 제조업, 제약·바이오, 도·소매, 수주업.md) |
+| **하마터면 또 회계를 모르고 일할 뻔했다! 투자에서 비즈니스까지 한칼로 끝내는** | 0자 | [노션 열기](https://app.notion.com/p/5dd8815a290f40e789c8fba451754254) | [`하마터면 또 회계를 모르고 일할 뻔했다! 투자에서 비즈니스까지 한칼로 끝내는.md`](notion-intelligence/하마터면 또 회계를 모르고 일할 뻔했다! 투자에서 비즈니스까지 한칼로 끝내는.md) |
+| **현명한 투자자(해제)** | 0자 | [노션 열기](https://app.notion.com/p/7613f70785f14c1d960a37d1c27b0e17) | [`현명한 투자자(해제).md`](notion-intelligence/현명한 투자자(해제).md) |
+| **윤제성의 월가의 투자 뉴욕 주식 시장 빅샷들이 찾은 금융 투자의 해법** | 0자 | [노션 열기](https://app.notion.com/p/dc301e972c3240a28f5ad40e85fb1d65) | [`윤제성의 월가의 투자 뉴욕 주식 시장 빅샷들이 찾은 금융 투자의 해법.md`](notion-intelligence/윤제성의 월가의 투자 뉴욕 주식 시장 빅샷들이 찾은 금융 투자의 해법.md) |
+| **주식 시장의 흐름을 바꾼 11대 사건 : 대한민국 돈의 역사** | 0자 | [노션 열기](https://app.notion.com/p/11-ea3adb41275e4c3c8170538216d55e48) | [`주식 시장의 흐름을 바꾼 11대 사건 _ 대한민국 돈의 역사.md`](notion-intelligence/주식 시장의 흐름을 바꾼 11대 사건 _ 대한민국 돈의 역사.md) |
+| **Stock** | 0자 | [노션 열기](https://app.notion.com/p/Stock-22fe42c8c5e280678e89eb5fec0153c5) | [`Stock.md`](notion-intelligence/Stock.md) |
+| **Corporation** | 0자 | [노션 열기](https://app.notion.com/p/Corporation-22fe42c8c5e280f79c81c3dbe315acf4) | [`Corporation.md`](notion-intelligence/Corporation.md) |
+| **키르기스스탄** | 0자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2805890ffcf06995f0bca) | [`키르기스스탄.md`](notion-intelligence/키르기스스탄.md) |
+| **산업** | 0자 | [노션 열기](https://app.notion.com/p/216e42c8c5e28006b7e8f0d51ebd44d6) | [`산업.md`](notion-intelligence/산업.md) |
+| ** 6T : IT, BT, NT, ET, ST, CT** | 0자 | [노션 열기](https://app.notion.com/p/6T-IT-BT-NT-ET-ST-CT-137e42c8c5e280678d39d29e5f24a56c) | [`6T _ IT, BT, NT, ET, ST, CT.md`](notion-intelligence/6T _ IT, BT, NT, ET, ST, CT.md) |
+| **1차 산업(primary sector of the economy)** | 0자 | [노션 열기](https://app.notion.com/p/1-primary-sector-of-the-economy-1f7e42c8c5e280248fccc81fc29d65a8) | [`1차 산업(primary sector of the economy).md`](notion-intelligence/1차 산업(primary sector of the economy).md) |
+| **2차 산업(secondary sector of the economy)** | 0자 | [노션 열기](https://app.notion.com/p/2-secondary-sector-of-the-economy-1f7e42c8c5e280849339d0327c3ae7fe) | [`2차 산업(secondary sector of the economy).md`](notion-intelligence/2차 산업(secondary sector of the economy).md) |
+| **3차 산업(tertiary sector of the economy)** | 0자 | [노션 열기](https://app.notion.com/p/3-tertiary-sector-of-the-economy-1f7e42c8c5e280f3a1a6ee94fcbaa261) | [`3차 산업(tertiary sector of the economy).md`](notion-intelligence/3차 산업(tertiary sector of the economy).md) |
+| **산업 혁명** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280fdaff1d49c2ce5ded9) | [`산업 혁명.md`](notion-intelligence/산업 혁명.md) |
+| **명품** | 0자 | [노션 열기](https://app.notion.com/p/220e42c8c5e280eda414ccab5deff1d3) | [`명품.md`](notion-intelligence/명품.md) |
+| **참고자료(트렌드)** | 0자 | [노션 열기](https://app.notion.com/p/214e42c8c5e280ca80fcd1fab6c8a542) | [`참고자료(트렌드).md`](notion-intelligence/참고자료(트렌드).md) |
+| **소비자심리학** | 0자 | [노션 열기](https://app.notion.com/p/214e42c8c5e280ef97d4e5cd3987c63c) | [`소비자심리학.md`](notion-intelligence/소비자심리학.md) |
+| **트렌드** | 0자 | [노션 열기](https://app.notion.com/p/214e42c8c5e280de9c86ef9e3f70c209) | [`트렌드.md`](notion-intelligence/트렌드.md) |
+| **소비자트렌드의 이해** | 0자 | [노션 열기](https://app.notion.com/p/218e42c8c5e280d3bddcc0a45e9d8598) | [`소비자트렌드의 이해.md`](notion-intelligence/소비자트렌드의 이해.md) |
+| **반도체** | 0자 | [노션 열기](https://app.notion.com/p/216e42c8c5e2801cad8af93ff0276ff8) | [`반도체.md`](notion-intelligence/반도체.md) |
+| **한국 반도체의 미래 3년 2027년 반도체 골든 타임, 무엇을 준비하고 실현할 것인가** | 0자 | [노션 열기](https://app.notion.com/p/3-2027-216e42c8c5e2801290b2cd1508667262) | [`한국 반도체의 미래 3년 2027년 반도체 골든 타임, 무엇을 준비하고 실현할 것인가.md`](notion-intelligence/한국 반도체의 미래 3년 2027년 반도체 골든 타임, 무엇을 준비하고 실현할 것인가.md) |
+| **자동차** | 0자 | [노션 열기](https://app.notion.com/p/216e42c8c5e280d684c6e29ccdbbbb38) | [`자동차.md`](notion-intelligence/자동차.md) |
+| **소비트렌드 예측의 이론과 방법 ** | 0자 | [노션 열기](https://app.notion.com/p/22d0e73df0c342138e7f0eb63043be9f) | [`소비트렌드 예측의 이론과 방법.md`](notion-intelligence/소비트렌드 예측의 이론과 방법.md) |
+| **Industrial Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Industrial-Engineering-213e42c8c5e280dbb098cbbb94f4cb61) | [`Industrial Engineering.md`](notion-intelligence/Industrial Engineering.md) |
+| **수학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e2805b822accb9ea2ed8d2) | [`수학.md`](notion-intelligence/수학.md) |
+| **생물학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280f8ad5ff99f3abe70af) | [`생물학.md`](notion-intelligence/생물학.md) |
+| **해양학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e2806e92eac2a7c57aa0b2) | [`해양학.md`](notion-intelligence/해양학.md) |
+| **지질학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e28095b324d96736d19ca4) | [`지질학.md`](notion-intelligence/지질학.md) |
+| **대기과학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280c2a6fdc4aab4abeb97) | [`대기과학.md`](notion-intelligence/대기과학.md) |
+| **Earth Science** | 0자 | [노션 열기](https://app.notion.com/p/Earth-Science-208e42c8c5e2804081fae9d53f044ace) | [`Earth Science.md`](notion-intelligence/Earth Science.md) |
+| **지구과학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280299706f7b493827e24) | [`지구과학.md`](notion-intelligence/지구과학.md) |
+| **천문학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280518137cec19010ae21) | [`천문학.md`](notion-intelligence/천문학.md) |
+| **화학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280149e4ad2877b7c3a15) | [`화학.md`](notion-intelligence/화학.md) |
+| **Astronomy** | 0자 | [노션 열기](https://app.notion.com/p/Astronomy-208e42c8c5e28059bc26dc07449ff83e) | [`Astronomy.md`](notion-intelligence/Astronomy.md) |
+| **Biology** | 0자 | [노션 열기](https://app.notion.com/p/Biology-208e42c8c5e280b8ad4cfdf10660cbf4) | [`Biology.md`](notion-intelligence/Biology.md) |
+| **Physics** | 0자 | [노션 열기](https://app.notion.com/p/Physics-208e42c8c5e280bba3b0fe6bd06c6d0f) | [`Physics.md`](notion-intelligence/Physics.md) |
+| **물리학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280d3b6d6f65ee60db819) | [`물리학.md`](notion-intelligence/물리학.md) |
+| **원자력공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e2802ebf83eeb0ea8c09fb) | [`원자력공학.md`](notion-intelligence/원자력공학.md) |
+| **Nuclear Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Nuclear-Engineering-213e42c8c5e28081a5cbff41d42c59c0) | [`Nuclear Engineering.md`](notion-intelligence/Nuclear Engineering.md) |
+| **Computer Science & Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Computer-Science-Engineering-213e42c8c5e280638c37ec4fa1d6defa) | [`Computer Science & Engineering.md`](notion-intelligence/Computer Science & Engineering.md) |
+| **Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Engineering-213e42c8c5e280949048f39d4b155ced) | [`Engineering.md`](notion-intelligence/Engineering.md) |
+| **Electrical Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Electrical-Engineering-208e42c8c5e28086a9e7e5a4844cf3a5) | [`Electrical Engineering.md`](notion-intelligence/Electrical Engineering.md) |
+| **전기전자공학과** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280fd88eff9931525ec72) | [`전기전자공학과.md`](notion-intelligence/전기전자공학과.md) |
+| **전자공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280758f7cefa3473ac797) | [`전자공학.md`](notion-intelligence/전자공학.md) |
+| **컴퓨터공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280a49dbecb47010d20f6) | [`컴퓨터공학.md`](notion-intelligence/컴퓨터공학.md) |
+| **기계공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e2805ebdbfd67c65f0cd9c) | [`기계공학.md`](notion-intelligence/기계공학.md) |
+| **Mechanical Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Mechanical-Engineering-208e42c8c5e28036a4b4ee131c9bb4df) | [`Mechanical Engineering.md`](notion-intelligence/Mechanical Engineering.md) |
+| **화학공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e28031ac5ee743e28d3a2a) | [`화학공학.md`](notion-intelligence/화학공학.md) |
+| **Chemical Engineering** | 0자 | [노션 열기](https://app.notion.com/p/Chemical-Engineering-208e42c8c5e280818967ce36a5ab4e9f) | [`Chemical Engineering.md`](notion-intelligence/Chemical Engineering.md) |
+| **전기공학** | 0자 | [노션 열기](https://app.notion.com/p/213e42c8c5e280bf9f9ec016f9adbb45) | [`전기공학.md`](notion-intelligence/전기공학.md) |
+| **헝가리** | 0자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e28071a507eb4206cd70eb) | [`헝가리.md`](notion-intelligence/헝가리.md) |
+| **태어난 김에 생물 공부 : 한번 보면 결코 잊을 수 없는 필수 생물 개념 ** | 0자 | [노션 열기](https://app.notion.com/p/3698130f8f864971952f8adcd73da81b) | [`태어난 김에 생물 공부 _ 한번 보면 결코 잊을 수 없는 필수 생물 개념.md`](notion-intelligence/태어난 김에 생물 공부 _ 한번 보면 결코 잊을 수 없는 필수 생물 개념.md) |
+| **하늘과 바람과 별과 인간 (큰글자책)** | 0자 | [노션 열기](https://app.notion.com/p/fffe42c8c5e28047a433d5d32a43b583) | [`하늘과 바람과 별과 인간 (큰글자책).md`](notion-intelligence/하늘과 바람과 별과 인간 (큰글자책).md) |
+| **코스모스 특별판** | 0자 | [노션 열기](https://app.notion.com/p/c2ac4855ae724dadb54bdb5a8d260027) | [`코스모스 특별판.md`](notion-intelligence/코스모스 특별판.md) |
+| **사피엔스 (양장 특별판) [ 양장 ] ** | 0자 | [노션 열기](https://app.notion.com/p/16be42c8c5e280f8b3c2cae88a371c0b) | [`사피엔스 (양장 특별판) [ 양장 ].md`](notion-intelligence/사피엔스 (양장 특별판) [ 양장 ].md) |
+| **태어난 김에 물리 공부 : 한번 보면 결코 잊을 수 없는 필수 물리 개념 ** | 0자 | [노션 열기](https://app.notion.com/p/2484b5ead3cd4684a361b5d4215f3445) | [`태어난 김에 물리 공부 _ 한번 보면 결코 잊을 수 없는 필수 물리 개념.md`](notion-intelligence/태어난 김에 물리 공부 _ 한번 보면 결코 잊을 수 없는 필수 물리 개념.md) |
+| **5개 원소로 읽는 결정적 세계사 세상 가장 작은 단위로 단숨에 읽는 6000년의 시간** | 0자 | [노션 열기](https://app.notion.com/p/5-6000-d4bae5e1915947dea4a4b86cfa618105) | [`5개 원소로 읽는 결정적 세계사 세상 가장 작은 단위로 단숨에 읽는 6000년의 시간.md`](notion-intelligence/5개 원소로 읽는 결정적 세계사 세상 가장 작은 단위로 단숨에 읽는 6000년의 시간.md) |
+| **물질의 세계** | 0자 | [노션 열기](https://app.notion.com/p/89310c58a79943879e545db6dba4a35a) | [`물질의 세계.md`](notion-intelligence/물질의 세계.md) |
+| **태어난 김에 화학 공부 : 한번 보면 결코 잊을 수 없는 필수 화학 개념 ** | 0자 | [노션 열기](https://app.notion.com/p/2d6f2ff2c5d24b0182d3117d1fd50fb7) | [`태어난 김에 화학 공부 _ 한번 보면 결코 잊을 수 없는 필수 화학 개념.md`](notion-intelligence/태어난 김에 화학 공부 _ 한번 보면 결코 잊을 수 없는 필수 화학 개념.md) |
+| **이기적 유전자 The Selfish Gene** | 0자 | [노션 열기](https://app.notion.com/p/The-Selfish-Gene-6209d605d134461a93f28c9f0ff5e2fe) | [`이기적 유전자 The Selfish Gene.md`](notion-intelligence/이기적 유전자 The Selfish Gene.md) |
+| **불확실성의 시대 찬란하고 어두웠던 물리학의 시대 1900~1945 ** | 0자 | [노션 열기](https://app.notion.com/p/1900-1945-156e42c8c5e2801cb462e4f0e2709814) | [`불확실성의 시대 찬란하고 어두웠던 물리학의 시대 1900~1945.md`](notion-intelligence/불확실성의 시대 찬란하고 어두웠던 물리학의 시대 1900~1945.md) |
+| **다시, 수학이 필요한 순간** | 0자 | [노션 열기](https://app.notion.com/p/c1661aab151144358fc19279c3f83070) | [`다시, 수학이 필요한 순간.md`](notion-intelligence/다시, 수학이 필요한 순간.md) |
+| **수학이 필요한 순간** | 0자 | [노션 열기](https://app.notion.com/p/61aa9d459aa747d790b50212c7511b63) | [`수학이 필요한 순간.md`](notion-intelligence/수학이 필요한 순간.md) |
+| **석유화학** | 0자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28020abd1f1334ce1d1a0) | [`석유화학.md`](notion-intelligence/석유화학.md) |
+| **채권(기초)** | 0자 | [노션 열기](https://app.notion.com/p/136e42c8c5e280b59bedfb133e5fe6bf) | [`채권(기초).md`](notion-intelligence/채권(기초).md) |
+| **전복과 반전의 순간 Vol.1, 2 세트 강헌이 주목한 음악사의 역사적 장면들** | 0자 | [노션 열기](https://app.notion.com/p/Vol-1-2-fb42dc1977784cb799f84bcaac1684e3) | [`전복과 반전의 순간 Vol.1, 2 세트 강헌이 주목한 음악사의 역사적 장면들.md`](notion-intelligence/전복과 반전의 순간 Vol.1, 2 세트 강헌이 주목한 음악사의 역사적 장면들.md) |
+| **강헌의 한국대중문화사** | 0자 | [노션 열기](https://app.notion.com/p/cb40d74885714ae49871f5dacec97476) | [`강헌의 한국대중문화사.md`](notion-intelligence/강헌의 한국대중문화사.md) |
+| **💽MusicDB** | 0자 | [노션 열기](https://app.notion.com/p/MusicDB-1d3e42c8c5e2805b8368f3369c8a2240) | [`💽MusicDB.md`](notion-intelligence/💽MusicDB.md) |
+| **제4차 산업 혁명** | 0자 | [노션 열기](https://app.notion.com/p/4-1f7e42c8c5e280349c4bd31bdec3a521) | [`제4차 산업 혁명.md`](notion-intelligence/제4차 산업 혁명.md) |
+| **제3차 산업 혁명** | 0자 | [노션 열기](https://app.notion.com/p/3-1f7e42c8c5e2809ea1d8ee17cf17ed78) | [`제3차 산업 혁명.md`](notion-intelligence/제3차 산업 혁명.md) |
+| **제2차 산업 혁명** | 0자 | [노션 열기](https://app.notion.com/p/2-1f7e42c8c5e2809199bacac99e3b8c37) | [`제2차 산업 혁명.md`](notion-intelligence/제2차 산업 혁명.md) |
+| **제1차 산업 혁명** | 0자 | [노션 열기](https://app.notion.com/p/1-1f7e42c8c5e280d8a908fe152b0c217a) | [`제1차 산업 혁명.md`](notion-intelligence/제1차 산업 혁명.md) |
+| **연구개발(R&D)** | 0자 | [노션 열기](https://app.notion.com/p/R-D-1f7e42c8c5e2805bb296c8c75bf72396) | [`연구개발(R&D).md`](notion-intelligence/연구개발(R&D).md) |
+| **관광업(호스피탈리티)** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e28030a74bed087075d34a) | [`관광업(호스피탈리티).md`](notion-intelligence/관광업(호스피탈리티).md) |
+| **외식, 호텔 및 관광업(호스피탈리티)** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280eeb1cbe7bff322c921) | [`외식, 호텔 및 관광업(호스피탈리티).md`](notion-intelligence/외식, 호텔 및 관광업(호스피탈리티).md) |
+| **호텔 ** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2809fa30bd1279cd11c03) | [`호텔.md`](notion-intelligence/호텔.md) |
+| **외식** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280afb71ceceaa8ac3979) | [`외식.md`](notion-intelligence/외식.md) |
+| **물류 및 국제무역(상업)** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e28082bf03c9f3e4053651) | [`물류 및 국제무역(상업).md`](notion-intelligence/물류 및 국제무역(상업).md) |
+| **운송업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280788e89dfd442a9eaf7) | [`운송업.md`](notion-intelligence/운송업.md) |
+| **유통업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2808fbc02c8ec7f582132) | [`유통업.md`](notion-intelligence/유통업.md) |
+| **금융** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e28044bf26f66858cfddec) | [`금융.md`](notion-intelligence/금융.md) |
+| **서비스업** | 0자 | [노션 열기](https://app.notion.com/p/137e42c8c5e2803da28ae519eb2bd680) | [`서비스업.md`](notion-intelligence/서비스업.md) |
+| **엔테인먼트** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280e48748e4c581330688) | [`엔테인먼트.md`](notion-intelligence/엔테인먼트.md) |
+| **언론** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2800982ace8f97200e48a) | [`언론.md`](notion-intelligence/언론.md) |
+| **교육** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280c3ad7dc1d7d4c9472a) | [`교육.md`](notion-intelligence/교육.md) |
+| **의료** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280feb830ce51c2aa7f6d) | [`의료.md`](notion-intelligence/의료.md) |
+| **보험** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280118208daa79df99cb5) | [`보험.md`](notion-intelligence/보험.md) |
+| **통신** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280dc8f30fbb17741ff2e) | [`통신.md`](notion-intelligence/통신.md) |
+| **광업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e28058b939f3204e6742bc) | [`광업.md`](notion-intelligence/광업.md) |
+| **공업(제조업)** | 0자 | [노션 열기](https://app.notion.com/p/137e42c8c5e28024bc3af3769b14a2fc) | [`공업(제조업).md`](notion-intelligence/공업(제조업).md) |
+| **중공업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e28035820cf559a3297161) | [`중공업.md`](notion-intelligence/중공업.md) |
+| **경공업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2805ab36ac86b0f812a38) | [`경공업.md`](notion-intelligence/경공업.md) |
+| **수산업(어업)** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280adbea6e0a5b42898d3) | [`수산업(어업).md`](notion-intelligence/수산업(어업).md) |
+| **임업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2807d81d7f47e05ebfb00) | [`임업.md`](notion-intelligence/임업.md) |
+| **축산업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e2803899b8fee4288ca95e) | [`축산업.md`](notion-intelligence/축산업.md) |
+| **농업** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280abb954e24542d9f3da) | [`농업.md`](notion-intelligence/농업.md) |
+| **✈️항공(ST : Space Technology  우주항공기술)** | 0자 | [노션 열기](https://app.notion.com/p/ST-Space-Technology-13ce42c8c5e28045b2b1c9e9f3b5ec44) | [`✈️항공(ST _ Space Technology  우주항공기술).md`](notion-intelligence/✈️항공(ST _ Space Technology  우주항공기술).md) |
+| **BT(Biology Technology 생명공학 기술)** | 0자 | [노션 열기](https://app.notion.com/p/BT-Biology-Technology-1f7e42c8c5e28002a02fefc1acfab9a6) | [`BT(Biology Technology 생명공학 기술).md`](notion-intelligence/BT(Biology Technology 생명공학 기술).md) |
+| **바이오 머니가 온다 
+당신의 미래 자산을 결정할 키워드** | 0자 | [노션 열기](https://app.notion.com/p/1f7e42c8c5e280749b70de29a598e9db) | [`바이오 머니가 온다 
+당신의 미래 자산을 결정할 키워드.md`](notion-intelligence/바이오 머니가 온다 
+당신의 미래 자산을 결정할 키워드.md) |
+| **2030 바이오 지도 
+인류의 미래를 바꾸는 바이오 산업** | 0자 | [노션 열기](https://app.notion.com/p/2030-1f7e42c8c5e28030857aead22e71993f) | [`2030 바이오 지도 
+인류의 미래를 바꾸는 바이오 산업.md`](notion-intelligence/2030 바이오 지도 
+인류의 미래를 바꾸는 바이오 산업.md) |
+| **5년 후 10배 오를 바이오 기업에 투자하라** | 0자 | [노션 열기](https://app.notion.com/p/5-10-1f7e42c8c5e280e184fbe5f9f7a4add2) | [`5년 후 10배 오를 바이오 기업에 투자하라.md`](notion-intelligence/5년 후 10배 오를 바이오 기업에 투자하라.md) |
+| **ET(Environment Technology 환경공학 기술)** | 0자 | [노션 열기](https://app.notion.com/p/ET-Environment-Technology-1f7e42c8c5e2800ea0b0f97ece077ddb) | [`ET(Environment Technology 환경공학 기술).md`](notion-intelligence/ET(Environment Technology 환경공학 기술).md) |
+| **ST(Space Technology  우주항공기술)** | 0자 | [노션 열기](https://app.notion.com/p/ST-Space-Technology-1f7e42c8c5e2809b8d8ae849ecc88810) | [`ST(Space Technology  우주항공기술).md`](notion-intelligence/ST(Space Technology  우주항공기술).md) |
+| **NT(Nano Technology 초정밀 원자세계 기술)** | 0자 | [노션 열기](https://app.notion.com/p/NT-Nano-Technology-1f7e42c8c5e2803fa967f05a7420c6b6) | [`NT(Nano Technology 초정밀 원자세계 기술).md`](notion-intelligence/NT(Nano Technology 초정밀 원자세계 기술).md) |
+| **장승용의 음악 여행: 월드뮤직 ** | 0자 | [노션 열기](https://app.notion.com/p/138e42c8c5e280eba80fc6efe55e6ea8) | [`장승용의 음악 여행_ 월드뮤직.md`](notion-intelligence/장승용의 음악 여행_ 월드뮤직.md) |
+| **입소스 마켓 트렌드 2025 
+마켓 리서치 글로벌 리더의 대한민국 트렌드 보고서** | 0자 | [노션 열기](https://app.notion.com/p/2025-12ae42c8c5e280d891e0e018a9a21e2d) | [`입소스 마켓 트렌드 2025 
+마켓 리서치 글로벌 리더의 대한민국 트렌드 보고서.md`](notion-intelligence/입소스 마켓 트렌드 2025 
+마켓 리서치 글로벌 리더의 대한민국 트렌드 보고서.md) |
+
+---
+
 ## 1. 📊 거시경제 & 글로벌 금융
 
 ### 📂 경사연 (33개)
