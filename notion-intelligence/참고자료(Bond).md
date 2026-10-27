@@ -1,0 +1,21 @@
+# 참고자료(Bond)
+
+> Notion URL: https://app.notion.com/p/Bond-1f5e42c8c5e280d7bd69f6c9d575cfc4
+> Last Edited: 2026-10-13T12:14:00.000Z
+
+---
+
+[미국10년물 5.2%의 '섬뜩한 경고'ㅣ美국채금리가 폭등하면 우리에게 벌어지는 일ㅣ인사이트플러스](https://youtu.be/ZFOdteFzKQw?si=dEG8w6tOtagwhWNx)
+[지금 미 국채금리에 대한 가장 쉬운 설명](https://youtu.be/GLnc-Hr0s14?si=4Qh0IcRgsupvHwvF)
+<page url="https://app.notion.com/p/136e42c8c5e280b59bedfb133e5fe6bf">채권(기초)</page>
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/e0dec817-2aaa-4bc8-a5a6-7dffdc018af0/%EC%B1%84%EA%B6%8C%EA%B0%80%EA%B2%A9%EA%B3%BC%EC%9D%B4%EC%9E%90%EC%9C%A8%EC%9D%80%EC%97%AD%EA%B4%80%EA%B3%84%28%ED%95%9C%EA%B5%AD%EC%9D%80%ED%96%89%29.jpg#notion_record=block.1fee42c8-c5e2-80b3-afd9-dbf20ec71ade.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/bc72ffee-8f4d-4f81-9878-94a398698725/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.11.54.png#notion_record=block.246e42c8-c5e2-8027-b47e-d8af9b2a7132.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/4897d6f3-34bc-4efc-b44f-8c1e57a114e1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.12.43.png#notion_record=block.246e42c8-c5e2-800f-b63a-d878c8c5de8d.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/4b46415f-1f56-4a4c-919f-65436eedb929/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.13.29.png#notion_record=block.246e42c8-c5e2-807e-9c4f-f9d10a9780f1.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/4acb18f1-453a-4268-850b-5acdc5df91c1/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.14.08.png#notion_record=block.246e42c8-c5e2-80fe-9a2b-d7aed2dffb65.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/6e800705-2232-44f1-9a06-c75275dc5681/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.15.55.png#notion_record=block.246e42c8-c5e2-8036-85d6-c50ba33e4033.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/06254fa7-6b7b-40a5-b03f-405fa9a5df10/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.17.11.png#notion_record=block.246e42c8-c5e2-800a-b084-c0afebfb2231.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/acb0f1b0-7fed-4b95-9fc0-2cc52fa27e9f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.17.45.png#notion_record=block.246e42c8-c5e2-8037-9476-d286e094a5ba.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/8aedd72c-199e-4d44-ab71-d3fcc9abb6ad/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.19.39.png#notion_record=block.246e42c8-c5e2-80e0-9f42-f687f71b4b2c.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/fbb40f29-86d8-4a36-88bd-1118946ce5da/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-08-06_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_1.20.08.png#notion_record=block.246e42c8-c5e2-8054-b5df-cdc20861de7d.7be33d85-c406-423e-987e-fee09081c416)
+![](notion-file://1f5e42c8-c5e2-80d7-bd69-f6c9d575cfc4/4e79f29d-89f0-498d-9209-0e01167c466d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2025-07-13_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_1.13.59.png#notion_record=block.22fe42c8-c5e2-8099-9388-c781483a48fc.7be33d85-c406-423e-987e-fee09081c416)

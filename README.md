@@ -2,7 +2,7 @@
 
 > **수석 전략기획관 & 연구자 유영선(wakary1)**의 거시경제, 산업 분석, 글로벌 지정학 및 문화 콘텐츠 통합 원장 아카이브입니다.
 
-- **총 수록 자산**: 1,821개 핵심 데이터 & 전문 포털 링크
+- **총 수록 자산**: 1,869개 (북마크 1,821개 + 노션 심층 칼럼 48편) 핵심 데이터 & 전문 포털 링크
 - **분류 체계**: 5대 대분류, 97개 전문 연구 테마
 - **연계 시스템**: 노션(Know-tion)  &  + 크롬 전문 북마크 원장
 
@@ -15,6 +15,63 @@
 3. [🌍 글로벌 지정학 & 국가별 DB](#3-글로벌-지정학--국가별-db)
 4. [🔠 문화·미디어 & 노션 콘텐츠](#4-문화미디어--노션-콘텐츠)
 5. [⚡ AI & 업무 생산성 도구](#5-ai--업무-생산성-도구)
+
+---
+
+## 📚 노션 전략 연구 & 칼럼 아카이브 (Notion Intelligence Monographs - 48편)
+
+> 영선 님의 노션(`유영선의 Know-tion`)에 집필·정리된 방대한 심층 연구 분석서, 거시경제 및 산업 분석 모노그래프 전문 아카이브입니다.
+
+| 연구 테마 / 칼럼 명칭 | 분량 (글자 수) | 원문 노션 링크 | 깃허브 마크다운 파일 |
+| :--- | :---: | :---: | :---: |
+| **🌏PSB(Planet Size Brain)** | 142,014자 | [노션 열기](https://app.notion.com/p/PSB-Planet-Size-Brain-129e42c8c5e280b49a27edd7780cd316) | [`🌏PSB(Planet Size Brain).md`](notion-intelligence/🌏PSB(Planet Size Brain).md) |
+| **AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법 ** | 125,023자 | [노션 열기](https://app.notion.com/p/AI-3fde42c8c5e2805787eac978ca95983e) | [`AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법.md`](notion-intelligence/AI 버블이 만드는 부채의 종말 빅 사이클의 마지막 국면에서 살아남는 법.md) |
+| **shipbuilding** | 59,432자 | [노션 열기](https://app.notion.com/p/shipbuilding-2a9e42c8c5e2805da54bfc4b7e21b427) | [`shipbuilding.md`](notion-intelligence/shipbuilding.md) |
+| **일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까?** | 37,858자 | [노션 열기](https://app.notion.com/p/3f7e42c8c5e2808a912cedd3b82acd34) | [`일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까_.md`](notion-intelligence/일본의 몰락 반도체 패권, 일본은 왜 스스로 무너졌을까_.md) |
+| **참고자료(일본)** | 30,160자 | [노션 열기](https://app.notion.com/p/1f4e42c8c5e2805c8a74dbc7f78f6460) | [`참고자료(일본).md`](notion-intelligence/참고자료(일본).md) |
+| **전쟁 대행 주식회사** | 19,727자 | [노션 열기](https://app.notion.com/p/3f9e42c8c5e280d5b846c7269e7e73be) | [`전쟁 대행 주식회사.md`](notion-intelligence/전쟁 대행 주식회사.md) |
+| **참고자료(🎧Music)** | 14,160자 | [노션 열기](https://app.notion.com/p/Music-475024cdf0674f6186db18375bfd3466) | [`참고자료(🎧Music).md`](notion-intelligence/참고자료(🎧Music).md) |
+| **♿Failed company** | 13,258자 | [노션 열기](https://app.notion.com/p/Failed-company-1e4e42c8c5e28067b46ef02f64331bf5) | [`♿Failed company.md`](notion-intelligence/♿Failed company.md) |
+| **참고자료(🀄인공지능)** | 10,873자 | [노션 열기](https://app.notion.com/p/216e42c8c5e280a0bd4cfeeaf3205b28) | [`참고자료(🀄인공지능).md`](notion-intelligence/참고자료(🀄인공지능).md) |
+| **국가부채/국가채무/가계부채** | 10,657자 | [노션 열기](https://app.notion.com/p/252e42c8c5e280cbba24f162479b7469) | [`국가부채_국가채무_가계부채.md`](notion-intelligence/국가부채_국가채무_가계부채.md) |
+| **참고자료(🚗Mobility&로봇)** | 10,317자 | [노션 열기](https://app.notion.com/p/Mobility-1fbe42c8c5e2809fbc06d601ca50cd3c) | [`참고자료(🚗Mobility&로봇).md`](notion-intelligence/참고자료(🚗Mobility&로봇).md) |
+| **참고자료(🔠문화콘텐츠)** | 9,886자 | [노션 열기](https://app.notion.com/p/263e42c8c5e28059b49fef618af94474) | [`참고자료(🔠문화콘텐츠).md`](notion-intelligence/참고자료(🔠문화콘텐츠).md) |
+| **러시아** | 9,728자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2805f9427db90e1ad84bd) | [`러시아.md`](notion-intelligence/러시아.md) |
+| **참고자료(현대)** | 9,615자 | [노션 열기](https://app.notion.com/p/208e42c8c5e2809782cad281c74d90a3) | [`참고자료(현대).md`](notion-intelligence/참고자료(현대).md) |
+| **👨‍🦳참고자료(Global)** | 8,143자 | [노션 열기](https://app.notion.com/p/Global-f5dc92ab291d4ab5a211eef00cbdfbec) | [`👨‍🦳참고자료(Global).md`](notion-intelligence/👨‍🦳참고자료(Global).md) |
+| **참고자료(🎬Movie)** | 6,558자 | [노션 열기](https://app.notion.com/p/Movie-1f2e42c8c5e280948f54fe359439b64e) | [`참고자료(🎬Movie).md`](notion-intelligence/참고자료(🎬Movie).md) |
+| **참고자료(🔫Defence&War)** | 5,984자 | [노션 열기](https://app.notion.com/p/Defence-War-1fbe42c8c5e280a7875bc4c76eecebd3) | [`참고자료(🔫Defence&War).md`](notion-intelligence/참고자료(🔫Defence&War).md) |
+| **참고자료(이재명)** | 5,600자 | [노션 열기](https://app.notion.com/p/229e42c8c5e28000a086ea6c3541fb04) | [`참고자료(이재명).md`](notion-intelligence/참고자료(이재명).md) |
+| **💥Debt(참고자료)** | 5,181자 | [노션 열기](https://app.notion.com/p/Debt-3fde42c8c5e280a8847fdd6ed1933c3c) | [`💥Debt(참고자료).md`](notion-intelligence/💥Debt(참고자료).md) |
+| **참고자료(유럽)** | 4,410자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280b9894cc597c7aa55ab) | [`참고자료(유럽).md`](notion-intelligence/참고자료(유럽).md) |
+| **책(일본)** | 4,298자 | [노션 열기](https://app.notion.com/p/22fe42c8c5e2806eb94df757722d6771) | [`책(일본).md`](notion-intelligence/책(일본).md) |
+| **참고자료(Bond)** | 4,067자 | [노션 열기](https://app.notion.com/p/Bond-1f5e42c8c5e280d7bd69f6c9d575cfc4) | [`참고자료(Bond).md`](notion-intelligence/참고자료(Bond).md) |
+| **참고자료(반도체)** | 3,554자 | [노션 열기](https://app.notion.com/p/216e42c8c5e28049813ed698dcf8a4a2) | [`참고자료(반도체).md`](notion-intelligence/참고자료(반도체).md) |
+| **참고자료(Commerce)** | 3,538자 | [노션 열기](https://app.notion.com/p/Commerce-223e42c8c5e2808aa1b3c75edb30d987) | [`참고자료(Commerce).md`](notion-intelligence/참고자료(Commerce).md) |
+| **D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝** | 3,367자 | [노션 열기](https://app.notion.com/p/D-73-PSB-3eae42c8c5e2804db7face21ecbecf6d) | [`D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝.md`](notion-intelligence/D+73 #PSB #電腦星 오늘의 키워드 #소셜리스닝.md) |
+| **💻GlobalDB** | 3,101자 | [노션 열기](https://app.notion.com/p/GlobalDB-399eb558d9b0469fbb3a66babad567a4) | [`💻GlobalDB.md`](notion-intelligence/💻GlobalDB.md) |
+| **노래방** | 2,951자 | [노션 열기](https://app.notion.com/p/0a5fa889c62941288fe1bd61fc1119e5) | [`노래방.md`](notion-intelligence/노래방.md) |
+| **🚕Industry** | 2,934자 | [노션 열기](https://app.notion.com/p/Industry-e46c920bca324d18bf5a928c8cedd35e) | [`🚕Industry.md`](notion-intelligence/🚕Industry.md) |
+| **💰Consumers** | 2,610자 | [노션 열기](https://app.notion.com/p/Consumers-d4355bc16aef4e898d6654f37c4feaab) | [`💰Consumers.md`](notion-intelligence/💰Consumers.md) |
+| **😊Picture(Family)** | 2,373자 | [노션 열기](https://app.notion.com/p/Picture-Family-139e42c8c5e2805fb10ef82d662a750c) | [`😊Picture(Family).md`](notion-intelligence/😊Picture(Family).md) |
+| **프랑스** | 2,105자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280d78b46f5ff18581680) | [`프랑스.md`](notion-intelligence/프랑스.md) |
+| **🔠Contents** | 1,901자 | [노션 열기](https://app.notion.com/p/Contents-263e42c8c5e280fa9a1bef7809818cf7) | [`🔠Contents.md`](notion-intelligence/🔠Contents.md) |
+| **북유럽** | 1,680자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e2806ca1b9f944283bd135) | [`북유럽.md`](notion-intelligence/북유럽.md) |
+| **🧛‍♂️Government** | 1,504자 | [노션 열기](https://app.notion.com/p/Government-132e42c8c5e280f8bde3e12c40198d71) | [`🧛‍♂️Government.md`](notion-intelligence/🧛‍♂️Government.md) |
+| **🏘️Real Estate/Construction** | 1,326자 | [노션 열기](https://app.notion.com/p/Real-Estate-Construction-9eece6e111c74c5cbe94f4ed97224a7a) | [`🏘️Real Estate_Construction.md`](notion-intelligence/🏘️Real Estate_Construction.md) |
+| **참고자료(Exchange)** | 1,233자 | [노션 열기](https://app.notion.com/p/Exchange-2a7e42c8c5e280999aa5e08cef21d8d9) | [`참고자료(Exchange).md`](notion-intelligence/참고자료(Exchange).md) |
+| **🎆Project** | 1,021자 | [노션 열기](https://app.notion.com/p/Project-dfcd6d37697e4d6b82f2d875f769dd79) | [`🎆Project.md`](notion-intelligence/🎆Project.md) |
+| **🔍Economy** | 1,017자 | [노션 열기](https://app.notion.com/p/Economy-10be42c8c5e280d48560e3cb53c7f02e) | [`🔍Economy.md`](notion-intelligence/🔍Economy.md) |
+| **참고자료(중앙아시아)** | 910자 | [노션 열기](https://app.notion.com/p/235e42c8c5e280f79dc3d1b8715c871c) | [`참고자료(중앙아시아).md`](notion-intelligence/참고자료(중앙아시아).md) |
+| **이재명** | 757자 | [노션 열기](https://app.notion.com/p/769d59a7d6854f34b79ec36d1b29f3e2) | [`이재명.md`](notion-intelligence/이재명.md) |
+| **💰Biz** | 748자 | [노션 열기](https://app.notion.com/p/Biz-f4ade78e7dd74d0eb097dfd8c380fe21) | [`💰Biz.md`](notion-intelligence/💰Biz.md) |
+| **책(🔫Defence&War)** | 748자 | [노션 열기](https://app.notion.com/p/Defence-War-235e42c8c5e280c7823bdccf3b88249e) | [`책(🔫Defence&War).md`](notion-intelligence/책(🔫Defence&War).md) |
+| **🎬Movie** | 722자 | [노션 열기](https://app.notion.com/p/Movie-e532781cfb4a44ab8908447412f30275) | [`🎬Movie.md`](notion-intelligence/🎬Movie.md) |
+| **💥Debt** | 680자 | [노션 열기](https://app.notion.com/p/Debt-252e42c8c5e280b696f0d2a0aad8bfbd) | [`💥Debt.md`](notion-intelligence/💥Debt.md) |
+| **카자흐스탄** | 523자 | [노션 열기](https://app.notion.com/p/1ebe42c8c5e280429a88db658221ba4c) | [`카자흐스탄.md`](notion-intelligence/카자흐스탄.md) |
+| **✒️글쓰기** | 509자 | [노션 열기](https://app.notion.com/p/dbb41c3734f649feb63e5819cfc99dbd) | [`✒️글쓰기.md`](notion-intelligence/✒️글쓰기.md) |
+| **💵Bond** | 340자 | [노션 열기](https://app.notion.com/p/Bond-44da00ae4f584bbfad87fba8e6244ccd) | [`💵Bond.md`](notion-intelligence/💵Bond.md) |
+| **💥Debt(책)** | 171자 | [노션 열기](https://app.notion.com/p/Debt-3fde42c8c5e2808fa528e07b1d8d84c9) | [`💥Debt(책).md`](notion-intelligence/💥Debt(책).md) |
 
 ---
 

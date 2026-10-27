@@ -1,0 +1,83 @@
+# 참고자료(🎬Movie)
+
+> Notion URL: https://app.notion.com/p/Movie-1f2e42c8c5e280948f54fe359439b64e
+> Last Edited: 2026-10-24T03:30:00.000Z
+
+---
+
+<page url="https://app.notion.com/p/24ee42c8c5e280aab824f4f38a3cd40c">[🎬Movie](https://namu.wiki/w/%EC%98%81%ED%99%94)</page>
+<page url="https://app.notion.com/p/251e42c8c5e280b39548e2d38a04da28">[**드라마**](https://namu.wiki/w/%EB%93%9C%EB%9D%BC%EB%A7%88)</page>
+<page url="https://app.notion.com/p/264e42c8c5e2800abc72c5fdd536bd9a">참고자료(미국영화)</page>
+<page url="https://app.notion.com/p/252e42c8c5e2806abbbcf353be5dffa2">**참고자료(**[**한국 영화**](https://namu.wiki/w/%ED%95%9C%EA%B5%AD%20%EC%98%81%ED%99%94)**)**</page>
+<page url="https://app.notion.com/p/1ffe42c8c5e28090ad6dd3c5c3c77fa8">참고자료([**일본 영화**](https://namu.wiki/w/%EC%9D%BC%EB%B3%B8%20%EC%98%81%ED%99%94)**)**</page>
+<page url="https://app.notion.com/p/24fe42c8c5e280a89e15fa1ae100f0fc">**참고자료(**[**홍콩 영화**](https://namu.wiki/w/%ED%99%8D%EC%BD%A9%20%EC%98%81%ED%99%94)**/**[**중국 영화**](https://namu.wiki/w/%EC%A4%91%EA%B5%AD%20%EC%98%81%ED%99%94)**)**</page>
+<page url="https://app.notion.com/p/265e42c8c5e28098aa71e4a17728aaa7">참고자료([**인도 영화**](https://namu.wiki/w/%EC%9D%B8%EB%8F%84%20%EC%98%81%ED%99%94)**)**</page>
+트랜스퍼 : 미국의 완구회사 헤즈브로가  일본의 타카로부터 구입
+["한국배우 출연료" 본 일본 톱배우가 깜짝놀란 이유](https://youtu.be/KTTLyjFZvrc?si=fhZfdflYxS3T8b5_)
+[AI 시대에 왜 '필름'이 인기? 코닥이 다시 뜨는 이유⎜핵심만 3분](https://youtu.be/7Fi0MnoQvDQ?si=qXHCnnPgSLAqr2L9)
+[21세기 최고의 애니메이션! 센과 치히로의 행방불명 리뷰 : 일당백 플러스 센과 치히로의 행방불명편](https://youtu.be/m3yarZXIRx0?si=8D66X-glydAkowfk)
+[특유의 색감과 미장센을 보여준 왕가위의 홍콩 로맨스 영화 모음.zip｜방구석1열｜JTBC 211114 방송 외](https://youtu.be/vpB9CYjRLv0?si=aVGSgIaiUCt8pAq_)
+[이건 꼭 보고 가세요. ≪어벤져스: 둠스데이≫ 보기 전 꼭 봐야할 필수 내용 + 엔드게임 이후 모든 스토리 & 캐릭터 개념 총정리](https://youtu.be/LMtoL902Ddo?si=zlZ4Hrwq6roTyR7q)
+[낭만 합격! 우리를 설레게 했던 변신 장면 총집합 / 무비쀼 EP.145](https://youtu.be/GioIMqVdWy4?si=6VdkcRAvktr68hDM)
+[오디세이·스파이더맨까지🎬 넷플릭스 위협 속 부활한 영화관 일등공신 Z세대 \| 🌊딥다이브🌊](https://youtu.be/BxsqS9ocOIc?si=uAlNKCPgc1pM50Bm)
+[우리나라에 진짜 아이맥스 극장이 하나도 없는 이유](https://youtu.be/5ddxR_REAOQ?si=qrIubz48YQcEla0L)
+[영웅본색이 쏘아올린 홍콩의 전성기 \| 8090 홍콩영화의 시대 2](https://youtu.be/2ca3xVjPJAY?si=rZwpqrlQXvRCLbI3)
+[\[감독열전\] 구로사와 아키라 \| 세계가 훔치고, 일본이 버린 감독](https://www.youtube.com/watch?v=_-UW5dlHLVc&pp=ugUEEgJrb9IHCQmjCwGHKiGM7w%3D%3D)
+[쿠키 영상은 어디에서 시작되었을까? 쿠키가 망친 것들](https://youtu.be/EgmkgbWKwWA?si=oTmUQ7Hye8QS1bkO)
+[남자들을 열광시켰던 무술영화 최강의 여전사들 / 무비쀼 EP.137](https://youtu.be/nOpD9DkriYA?si=uV-AjA8zaJEhcbqW)
+[\[에반게리온 신극장판 전편 몰아보기\] 서\~다카포까지 3시간 몰아보기ㅣ장면 해석& 분석 포함](https://www.youtube.com/watch?v=vZHt0wqEd7U&t=42s&pp=ygUZ7Iug7IS46riwIOyXkOuwmOqyjOumrOyYqA%3D%3D)
+[쉬어가려 들어간 클럽, 하지만 나갈 수가 없게 됐다? 명배우들의 수작! \[영화리뷰/결말포함\]](https://www.youtube.com/watch?v=VV0WZrNAvao)
+[드디어 스파이더맨 베놈 본격화ㄷㄷ ≪스파이더맨≫ 소니 스파이더맨 MCU 판권 정리 루머 총정리](https://youtu.be/Puq2vRqto9M?si=pVpx0E5Q-zdG7f_c)
+[게임엔진으로 영화를 만들면 일어나는 일](https://youtu.be/cmZBStFoZRk?si=rbYyU3DPyy3x75V4)
+[진짜 말로만 들었던 그 작품들 다 정리해봤습니다.. 《전설의 망작 총정리》](https://www.youtube.com/watch?v=qkBRYKXOxkA)
+[진짜 영화의 모든 사이다 장면을 모아봤습니다.. 《사이다 참교육 총정리》](https://www.youtube.com/watch?v=gt1foB4kGGc)
+[진짜 너무 예뻤던 여배우들 명장면 탈탈 털어서 모아봤습니다..](https://www.youtube.com/watch?v=WSjLR8It718)
+[진짜 140분 내내 개웃기네ㅋㅋㅋㅋㅋ 《한국영화 웃긴장면 총정리 1-6》](https://www.youtube.com/watch?v=WMQsWEPkuUg)
+[진짜 너무 웃겼던 한국영화 《웃긴 장면 총정리 - 4편》ㅋㅋㅋㅋㅋ](https://youtu.be/dUo_AbMNA14?si=7bPV-IzQ5YblQz1-)
+[소리의 제국 돌비: 그들이 시장을 지배한 방법 (돌비 편)](https://youtu.be/u9QBVEjUV4c?si=WQVOzYdCjFNE1ZrE)
+[워너브라더스 요직 출신 썬킴의 '홍콩 느와르 영화' 30분 특강🇭🇰](https://youtu.be/dguOlg7IQT8?si=Jo7iXlEXwb4SK6xO)
+[\[이동진, 김중혁의 영화당 #25\] 위대한 걸작, '대부' 1,2 (The Godfather 1 & 2)](https://youtu.be/UCp_DTV0_9M?si=FGAXp6zIhVi3eFTp)
+["사랑에도 유통기한이 있다면..." 영화 '중경삼림' 명대사에 투영된 홍콩의 시대상 🎞️](https://www.youtube.com/watch?v=gf6t-eZ2aMk)
+[워너브라더스 요직 출신 썬킴의 '홍콩 느와르 영화' 30분 특강🇭🇰](https://www.youtube.com/watch?v=dguOlg7IQT8&pp=ygUW7J206rCV66-87J2YIOyeoeyngOyCrA%3D%3D)
+[스타워즈 얘기에 역대급으로 신이 난 썬킴🎬 (영화 안 봤어도 재밌음)](https://www.youtube.com/watch?v=OJHtLTpyxxs&pp=ygUW7J206rCV66-87J2YIOyeoeyngOyCrA%3D%3D)
+[시네필들을 위한 숨은 명작 플레이리스트?!🔥 방구석픽 고퀄 독립영화 2시간 모음｜방구석1열｜JTBC 190728 방송 외](https://www.youtube.com/watch?v=jcgj4Msx5qQ)
+[🤿 이야기에 기술을 음각하는 '흥행의 신' \| 라플위클리 S4 특별편 2화 - 제임스 카메론 #궤도 #안현모 #이동진 \[LIFEPLUS\]](https://youtu.be/r9HZCdW4mL4?si=ZF5kEmPMrLcK3CXU)
+[\[추모영상\] 하늘의 별이 된 우리들의 1호 개그맨 故전유성 추모 영상 \| KBS 방송](https://youtu.be/h9mght023ss?si=Xc1Uz3ucvitEU_nP)
+[\[다시보는 전설의시대\] 세상에서 가장 빠른 카메라잡이 영화 감독 남기남의 촬영 비하인드](https://www.youtube.com/watch?v=vxAvUHW4GgQ)
+[😱그럼 얼마나 망하고 있는가!?\[극장몰락 4부작 통합\]😡](https://youtu.be/lS1qGgUZ7FA?si=E6yoRFugHjh3YjZ3)
+[👊강호의 도리가 살아있다는 걸,, 좋댓구알로 보여주게! \| 라플위클리 토크 시즌2 7화 - 무술 #궤도 #안현모 #이동진 \| LIFEPLUS TV \[ENG SUB\]](https://youtu.be/iIUvBp-Zqoo?si=7xvJ8gOfN94_rJHW)
+[한국영상자료원(KOFA)](https://www.youtube.com/@koreanfilmarchive)
+[소개해주는 남자](https://www.youtube.com/@sogae_nam)
+[머빈의 콘텐츠리뷰](https://www.youtube.com/@mvcrv7)(스포)
+[이지무비: Easy Movie](https://www.youtube.com/@easymovie9027)
+[지무비 : G Movie](https://www.youtube.com/@G-movie)
+[김시선](https://www.youtube.com/user/13neye)
+[드림텔러 DREAM TELLER](https://www.youtube.com/@dreamteller407)
+[Movie RedMonster](https://www.youtube.com/@red12734)
+[발없는새](https://www.youtube.com/@nofeetbird)
+[B급 리뷰](https://www.youtube.com/@B%EA%B8%89%EB%A6%AC%EB%B7%B0)
+[구불](https://www.youtube.com/@9bulmovie)
+[고몽](https://www.youtube.com/@%EA%B3%A0%EB%AA%BD)
+[KIMSISEON](https://www.youtube.com/@%EA%B9%80%EC%8B%9C%EC%84%A0)
+[All about the movie, zoom in centre](https://www.youtube.com/@zoom.in.centre)
+[정오비디오](https://www.youtube.com/@%EC%A0%95%EC%98%A4%EB%B9%84%EB%94%94%EC%98%A4)
+[무비띵크_Movie Think](https://www.youtube.com/@moviethink)
+[요약왕 두억시니](https://www.youtube.com/@dooksini)
+[리뷰엉이: Owl's Review](https://www.youtube.com/@%EB%A6%AC%EB%B7%B0%EC%97%89%EC%9D%B4)
+[달빛뮤즈](https://www.youtube.com/@DALBITMUSE)
+[B Man 삐맨](https://www.youtube.com/@%EC%82%90%EB%A7%A8)
+[드림텔러 DREAM TELLER](https://www.youtube.com/@dreamteller407)
+[Movie RedMonster](https://www.youtube.com/@red12734)
+[홍시네마](https://www.youtube.com/@HONG_CINEMA)
+[BBACKDRA - SBS OLD DRAMA](https://www.youtube.com/@BBACKDRA)
+[수상한아재](https://www.youtube.com/@Mr.X_creative)
+[곽씨네](https://www.youtube.com/@%EA%B3%BD%EC%94%A8%EB%84%A4)
+[Gundam Holic TV](https://www.youtube.com/@Gundam_Holic)
+[Gunpla Lab\[건프라 연구소\]](https://www.youtube.com/@GunplaLab)
+[Iron Castle](https://www.youtube.com/@Iron_Castle)
+[MBCentertainment](https://www.youtube.com/@MBCentertainment)
+[전기현의 씨네 뮤직](https://www.youtube.com/@CINE_MUSIC2024)
+[달빛부부](https://www.youtube.com/@moon_couple)
+[www.youtube.com](https://www.youtube.com/@sogae_nam) 소개해주는 남자
+[그렌라간에 영향을 준 만화 (허무전기 2부 미륵왕편) KYOMU SENKI-Kyomu Senshi Miroku Storyline](https://youtu.be/hvmj9OiETeM?si=QYKLujm4KlYAaAgc)
+[왜 겟타로보는 광기의 화신이라 불릴까?｜최초의 합체 로봇과 이시카와 켄](https://youtu.be/GvkgHWX3OgI?si=Did67nlyn0BMcqPj)
