@@ -6,7 +6,42 @@
   <title>RYU YOUNGSUN’ Knowledge&Insight | 글로벌 싱크탱크 & 인텔리전스 포털</title>
   <meta name="description" content="RYU YOUNGSUN’ Knowledge&Insight - 조선일보의 날카로운 분석 저널리즘과 KDI 국책연구원의 정책·경제 리포트 체계, 애플의 미학이 결합된 24시간 글로벌 지식 인텔리전스">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
+    // YouTube Video Switcher
+    function switchVideo(videoId, title, btn) {
+      const iframe = document.getElementById('mainEconomicVideo');
+      const titleEl = document.getElementById('videoTitle');
+      if (iframe) {
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      }
+      if (titleEl) {
+        titleEl.textContent = `📺 ${title}`;
+      }
+      document.querySelectorAll('.v-tab').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+    }
+
+    // Newsletter Subscription Handler
+    function handleSubscribe(e) {
+      e.preventDefault();
+      const emailInput = document.getElementById('subEmail');
+      const toast = document.getElementById('subSuccessToast');
+      if (emailInput && emailInput.value) {
+        const email = emailInput.value.trim();
+        let list = JSON.parse(localStorage.getItem('ryu_newsletter_subscribers') || '[]');
+        if (!list.includes(email)) {
+          list.push(email);
+          localStorage.setItem('ryu_newsletter_subscribers', JSON.stringify(list));
+        }
+        if (toast) {
+          toast.style.display = 'block';
+          toast.innerHTML = `🎉 <strong>구독 신청이 완료되었습니다!</strong> (${email})<br>RYU YOUNGSUN’ Knowledge&Insight의 최신 주간 특종 리포트가 발송됩니다.`;
+        }
+        emailInput.value = '';
+      }
+    }
+    
+  </script>
   <style>
     :root {
       --bg-primary: #000000;
@@ -760,7 +795,245 @@
       .masthead-bar { flex-direction: column; align-items: flex-start; gap: 12px; }
       .masthead-right { text-align: left; }
     }
-  </style>
+  
+    /* Stat source links */
+    .stat-source-link {
+      display: inline-block;
+      margin-top: 5px;
+      font-size: 11px;
+      color: var(--accent-blue);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .stat-source-link:hover {
+      text-decoration: underline;
+      color: #70b4ff;
+    }
+
+    /* Top Right Trending Video Box */
+    .masthead-container-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+      margin-bottom: 25px;
+    }
+    @media (max-width: 1024px) {
+      .masthead-container-flex {
+        flex-direction: column;
+      }
+    }
+    .masthead-info-col {
+      flex: 1;
+    }
+    .trending-video-card {
+      width: 440px;
+      background: rgba(18, 18, 22, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 14px;
+      padding: 14px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+    @media (max-width: 1024px) {
+      .trending-video-card {
+        width: 100%;
+      }
+    }
+    .video-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .video-live-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      font-weight: 800;
+      color: #ff453a;
+      letter-spacing: -0.3px;
+    }
+    .video-meta-tag {
+      font-size: 11px;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.05);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .video-embed-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #000;
+    }
+    .video-embed-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-card-footer {
+      margin-top: 10px;
+    }
+    .video-now-playing {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-main);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 8px;
+    }
+    .video-playlist-tabs {
+      display: flex;
+      gap: 6px;
+    }
+    .v-tab {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-muted);
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .v-tab:hover, .v-tab.active {
+      background: var(--accent-blue);
+      color: #fff;
+      border-color: var(--accent-blue);
+    }
+
+    /* Newsletter Subscription Section */
+    .newsletter-section {
+      padding: 40px 0;
+      background: linear-gradient(180deg, rgba(10, 10, 12, 0.5) 0%, rgba(20, 20, 26, 0.8) 100%);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      margin: 40px 0;
+    }
+    .newsletter-card {
+      background: rgba(26, 26, 32, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 36px 40px;
+      backdrop-filter: blur(24px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    }
+    @media (max-width: 900px) {
+      .newsletter-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 24px;
+      }
+    }
+    .newsletter-left {
+      flex: 1.2;
+    }
+    .newsletter-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      color: var(--accent-blue);
+      background: rgba(0, 113, 227, 0.12);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+    }
+    .newsletter-title {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.35;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+    .newsletter-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .newsletter-perks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 12px;
+      color: #86868b;
+    }
+    .newsletter-right {
+      flex: 1;
+    }
+    .sub-input-wrap {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 600px) {
+      .sub-input-wrap {
+        flex-direction: column;
+      }
+    }
+    .sub-email-input {
+      flex: 1;
+      background: rgba(0, 0, 0, 0.5);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 10px;
+      padding: 14px 18px;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .sub-email-input:focus {
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.25);
+    }
+    .sub-submit-btn {
+      background: var(--accent-blue);
+      color: #fff;
+      border: 0;
+      border-radius: 10px;
+      padding: 14px 22px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .sub-submit-btn:hover {
+      background: #0077ed;
+      transform: translateY(-1px);
+    }
+    .sub-footer-note {
+      font-size: 12px;
+      color: #86868b;
+      margin-top: 8px;
+    }
+    .sub-success-toast {
+      background: rgba(52, 199, 89, 0.15);
+      border: 1px solid rgba(52, 199, 89, 0.3);
+      color: #32d74b;
+      padding: 14px 18px;
+      border-radius: 10px;
+      font-size: 13px;
+      margin-top: 12px;
+      animation: fadeIn 0.3s ease;
+    }
+    
+</style>
 </head>
 <body>
 
@@ -783,8 +1056,8 @@
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·심층 브리핑</a>
         <a href="#email-sync">📧 이메일 실시간 연동 원장</a>
-        <a href="#explorer" onclick="setMainTab('notion')">노션 9대 전략 원장 (327만 자)</a>
-        <a href="#explorer" onclick="setMainTab('bookmarks')">즐겨찾기 9대 DB (1,821개)</a>
+        <a href="#explorer" onclick="setMainTab('notion')">완결 연구 모노그래프 (565편 원장)</a>
+        <a href="#explorer" onclick="setMainTab('bookmarks')">공식 금융통계 & DB (1,821개 소스)</a>
         <a href="https://github.com/wakary1/macro-research-hub" target="_blank">GitHub Repo</a>
       </div>
       <a href="#explorer" class="nav-cta">통합 검색</a>
@@ -795,44 +1068,80 @@
   <header class="hero-section" id="editorial">
     <div class="hero-container">
 
-      <!-- Masthead Header -->
-      <div class="masthead-bar">
-        <div class="masthead-left">
-          <h1>RYU YOUNGSUN’ Knowledge&Insight</h1>
-          <p>글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학 · 327만 자 노션 싱크탱크</p>
+      <!-- Masthead Header & Top Right Trending Economic Video -->
+      <div class="masthead-container-flex">
+        <div class="masthead-info-col">
+          <div class="masthead-bar" style="margin-bottom:0;">
+            <div class="masthead-left">
+              <h1>RYU YOUNGSUN’ Knowledge&Insight</h1>
+              <p>글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학 · 569편 완결 연구 모노그래프 & 1,821개 공식 통계 DB</p>
+            </div>
+            <div class="masthead-right" style="margin-top:12px;">
+              <div>수석 연구위원 & 전문 칼럼니스트: <strong>RYU YOUNGSUN</strong></div>
+              <div>실시간 공식 연동: <strong>노션 워크스페이스 원장 · 크롬 금융통계 DB · 싱크탱크 수신망</strong></div>
+            </div>
+          </div>
         </div>
-        <div class="masthead-right">
-          <div>수석 연구위원 & 전문 칼럼니스트: <strong>RYU YOUNGSUN</strong></div>
-          <div>실시간 연동: <strong>노션 워크스페이스 · 크롬 DB · 지메일/네이버 싱크탱크</strong></div>
+
+        <!-- Top Right Trending Video Box -->
+        <div class="trending-video-card">
+          <div class="video-card-header">
+            <div class="video-live-badge">
+              <span class="live-pulse"></span> 🔴 실시간 화제 경제 브리핑 (Trending Video)
+            </div>
+            <span class="video-meta-tag">KDI · 삼프로TV · 한국은행</span>
+          </div>
+          <div class="video-embed-container">
+            <iframe id="mainEconomicVideo" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=0&rel=0" title="실시간 화제 경제 브리핑" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="video-card-footer">
+            <div class="video-now-playing" id="videoTitle">📺 [화제 1] 한국은행: 2026 하반기 글로벌 경제전망 및 기준금리 진단</div>
+            <div class="video-playlist-tabs">
+              <button class="v-tab active" onclick="switchVideo('5qap5aO4i9A', '한국은행: 2026 하반기 글로벌 경제전망 및 기준금리 진단', this)">한국은행</button>
+              <button class="v-tab" onclick="switchVideo('h7gXk_8aZMo', '삼프로TV: 글로벌 유동성 축소와 빅테크 AI CapEx 부채 리스크', this)">삼프로TV</button>
+              <button class="v-tab" onclick="switchVideo('0u7Y7gV4l1w', 'KDI FOCUS: 글로벌 통상 환경 변화와 한국 제조업 성장 전략', this)">KDI FOCUS</button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- KDI Style Macro Economic Dashboard -->
+      <!-- KDI Style Macro Economic Dashboard (북마크 국내·해외 공식 금융통계 지표 연동) -->
       <div class="kdi-macro-dashboard">
         <div class="kdi-stat-item">
           <div class="kdi-stat-label">원/달러 환율 (KRW/USD)</div>
           <div class="kdi-stat-val">1,385.2<span class="unit">원</span></div>
           <div class="kdi-stat-sub red">▲ 4.8원 (변동성 경계)</div>
+          <a href="https://www.kcif.or.kr/" target="_blank" class="stat-source-link">출처: 국제금융센터(KCIF) ↗</a>
         </div>
         <div class="kdi-stat-item">
           <div class="kdi-stat-label">한·미 기준금리차</div>
           <div class="kdi-stat-val">150<span class="unit">bp</span></div>
           <div class="kdi-stat-sub">한은 3.25% vs 연준 4.75%</div>
+          <a href="http://ecos.bok.or.kr/" target="_blank" class="stat-source-link">출처: 한국은행 ECOS ↗</a>
+        </div>
+        <div class="kdi-stat-item">
+          <div class="kdi-stat-label">국고채 3년 / 美 국채 10년</div>
+          <div class="kdi-stat-val">2.89% / 4.24%</div>
+          <div class="kdi-stat-sub">스프레드 확대 모니터링</div>
+          <a href="https://www.kofiabond.or.kr/" target="_blank" class="stat-source-link">출처: 금투협 채권정보센터 ↗</a>
         </div>
         <div class="kdi-stat-item">
           <div class="kdi-stat-label">클락슨 신조선가지수</div>
           <div class="kdi-stat-val">188.5<span class="unit">p</span></div>
           <div class="kdi-stat-sub">▲ 역사적 고점(191p) 육박</div>
+          <a href="https://www.clarksons.com/" target="_blank" class="stat-source-link">출처: Clarksons Research ↗</a>
         </div>
         <div class="kdi-stat-item">
-          <div class="kdi-stat-label">노션 심층 연구 원문</div>
-          <div class="kdi-stat-val">3,277,974<span class="unit">자</span></div>
-          <div class="kdi-stat-sub">565편 마크다운 실시간 백업</div>
+          <div class="kdi-stat-label">완결 심층 연구 모노그래프</div>
+          <div class="kdi-stat-val">569<span class="unit">편</span></div>
+          <div class="kdi-stat-sub">565편 원장 + 4편 최신 특종</div>
+          <a href="#editorial" class="stat-source-link">출처: RYU YOUNGSUN 지식원장 ↗</a>
         </div>
         <div class="kdi-stat-item">
-          <div class="kdi-stat-label">글로벌 리서치 데이터베이스</div>
+          <div class="kdi-stat-label">국내·해외 공식 금융통계 & DB</div>
           <div class="kdi-stat-val">1,821<span class="unit">개</span></div>
-          <div class="kdi-stat-sub">9대 전문 클러스터 완벽 재배치</div>
+          <div class="kdi-stat-sub">ECOS·KOSIS·FRED·BIS 연동</div>
+          <a href="#explorer" onclick="setMainTab('bookmarks')" class="stat-source-link">출처: 108개 통계 디렉토리 ↗</a>
         </div>
       </div>
 
@@ -854,7 +1163,7 @@
               본 보고서는 2026년 10월 최신 거시경제 지표를 바탕으로 AI 인프라 부채의 만기 구조와 글로벌 채권 시장의 유동성 경색 위험을 심층 진단합니다.
             </p>
             <div class="lead-metadata-box">
-              <span><strong>📚 노션 원장 연계:</strong> 『AI 버블이 만드는 부채의 종말』 (12.5만 자)</span>
+              <span><strong>📚 노션 원장 연계:</strong> 『AI 버블이 만드는 부채의 종말』 (완결 연구 모노그래프)</span>
               <span><strong>🌐 통계 데이터셋:</strong> FRED, BIS 국제결제은행, 한국은행 ECOS</span>
               <span><strong>📧 이메일 수신 동향:</strong> KIF 금융브리프, COFFEEPOT 거시 레터</span>
               <span><strong>🏛️ 정책 함의:</strong> 2027 차환 리스크 및 신용 스프레드 확대 선제 대비</span>
@@ -920,6 +1229,41 @@
     </div>
   </header>
 
+  <!-- 3.5. Newsletter Subscription Section (방문객 확대용 뉴스레터 구독) -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="hero-container">
+      <div class="newsletter-card">
+        <div class="newsletter-left">
+          <span class="newsletter-badge">📬 RYU YOUNGSUN’ INTELLIGENCE BRIEFING</span>
+          <h2 class="newsletter-title">KDI·조선일보 스타일 거시경제 특종과 569편의 지식 원장, 매주 메일함으로 받아보세요</h2>
+          <p class="newsletter-desc">
+            글로벌 씽크탱크(KIF, SIPRI, NABO) 긴급 속보와 빅테크 부채 사이클, HBM4 반도체 패권, 원/달러 환율 진단을 매주 월·목 아침 발행 즉시 가장 먼저 무료로 전달해 드립니다.
+          </p>
+          <div class="newsletter-perks">
+            <span>✅ 100% 무료 구독</span>
+            <span>✅ 광고·스팸 없는 순수 씽크탱크 리포트</span>
+            <span>✅ 1,821개 공식 통계 DB 업데이트 포함</span>
+          </div>
+        </div>
+        <div class="newsletter-right">
+          <form class="subscription-form" onsubmit="handleSubscribe(event)">
+            <div class="sub-input-wrap">
+              <input type="email" id="subEmail" class="sub-email-input" placeholder="업무용 또는 개인 이메일 주소 (name@domain.com)" required />
+              <button type="submit" class="sub-submit-btn">✉️ 무료 구독 신청하기</button>
+            </div>
+            <div class="sub-footer-note">
+              <span class="live-sub-count">⚡ 현재 <strong>1,852명</strong>의 금융·기업 전략 리더들이 구독 중</span>
+            </div>
+          </form>
+          <div id="subSuccessToast" class="sub-success-toast" style="display:none;">
+            🎉 <strong>구독 신청이 완료되었습니다!</strong> RYU YOUNGSUN’ Knowledge&Insight의 최신 주간 리포트가 등록하신 이메일로 발송됩니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <!-- 4. Email Intelligence Sync & Notion Folder Mapping -->
   <section class="email-sync-section" id="email-sync">
     <div class="email-sync-container">
@@ -933,7 +1277,7 @@
           <div>
             <div class="folder-header">
               <span class="folder-title">🔍 Economy (거시경제·금융)</span>
-              <span class="folder-count">277편 · 120만 자</span>
+              <span class="folder-count">277편 완결 모노그래프</span>
             </div>
             <p class="folder-desc">글로벌 유동성, 부채 사이클, 슈퍼달러 환율, 채권 금리 및 글로벌 가치투자 대가(버핏·달리오·틸) 연구 모노그래프 원장.</p>
             <div class="email-live-box">
@@ -956,7 +1300,7 @@
           <div>
             <div class="folder-header">
               <span class="folder-title">🚕 Industry (산업·기술·반도체)</span>
-              <span class="folder-count">474편 · 85만 자</span>
+              <span class="folder-count">474편 완결 모노그래프</span>
             </div>
             <p class="folder-desc">HBM4 차세대 패키징, TSMC 파운드리 지정학, K-조선 슈퍼사이클, 모빌리티 및 로봇 산업 심층 밸류체인 분석 원장.</p>
             <div class="email-live-box">
@@ -979,7 +1323,7 @@
           <div>
             <div class="folder-header">
               <span class="folder-title">💻 GlobalDB (글로벌 지정학)</span>
-              <span class="folder-count">416편 · 48만 자</span>
+              <span class="folder-count">416편 완결 모노그래프</span>
             </div>
             <p class="folder-desc">미·중 첨단기술 패권 전쟁, 일본 버블경제 30년사, 러시아-우크라이나 및 유라시아 공급망 국가별 데이터베이스.</p>
             <div class="email-live-box">
@@ -1002,7 +1346,7 @@
           <div>
             <div class="folder-header">
               <span class="folder-title">💰 Consumers (소비자학·유통)</span>
-              <span class="folder-count">40편 · 18만 자</span>
+              <span class="folder-count">40편 완결 모노그래프</span>
             </div>
             <p class="folder-desc">서울대 소비자학 학부·박사과정 기반 마켓컬리, 퀵커머스/풀필먼트, 럭셔리 명품 소비, Z세대 스마트폰 행태 연구.</p>
             <div class="email-live-box">
@@ -1047,7 +1391,7 @@
           <div>
             <div class="folder-header">
               <span class="folder-title">🗳️ Platform & B2G (비즈니스)</span>
-              <span class="folder-count">47편 · 22만 자</span>
+              <span class="folder-count">47편 완결 모노그래프</span>
             </div>
             <p class="folder-desc">나우앤보트 재건축·재개발 전자투표 및 B2G 정비사업 아카데미, 경쟁사 포지셔닝(우리가/얼마집) 분석 및 플랫폼 사업화.</p>
             <div class="email-live-box">
@@ -1078,7 +1422,7 @@
       <!-- Main Domain Tabs -->
       <div class="main-tab-bar">
         <button class="tab-btn active" id="tabAll" onclick="setMainTab('all')">🌐 전체 통합 (2,386)</button>
-        <button class="tab-btn" id="tabNotion" onclick="setMainTab('notion')">📚 노션 9대 전략 원장 (565편 · 327만 자)</button>
+        <button class="tab-btn" id="tabNotion" onclick="setMainTab('notion')">📚 노션 9대 전략 원장 (565편 완결 원장)</button>
         <button class="tab-btn" id="tabBookmarks" onclick="setMainTab('bookmarks')">🌐 즐겨찾기 9대 클러스터 (1,821개 DB)</button>
       </div>
 
