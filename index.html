@@ -7,6 +7,66 @@
   <meta name="description" content="RYU YOUNGSUN’ Knowledge&Insight - 조선일보의 날카로운 분석 저널리즘과 KDI 국책연구원의 정책·경제 리포트 체계, 애플의 미학이 결합된 24시간 글로벌 지식 인텔리전스">
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
+    
+    // Auto-Rotation for Knowledge Explorer
+    let autoRotationTimer = null;
+    let isAutoRotating = true;
+
+    function startAutoRotation() {
+      if (autoRotationTimer) clearInterval(autoRotationTimer);
+      autoRotationTimer = setInterval(() => {
+        const sInput = document.getElementById('searchInput');
+        // Only rotate when user is not actively searching
+        if (!sInput || sInput.value.trim() === '') {
+          const filtered = filterItems();
+          const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+          if (totalPages > 1) {
+            currentPage = (currentPage % totalPages) + 1;
+            render();
+          }
+        }
+      }, 12000); // 12 seconds
+    }
+
+    function toggleAutoRotation() {
+      const btn = document.getElementById('btnToggleRotate');
+      const text = document.getElementById('rotationStatusText');
+      if (isAutoRotating) {
+        clearInterval(autoRotationTimer);
+        isAutoRotating = false;
+        if (btn) btn.textContent = '▶ 재생';
+        if (text) text.innerHTML = '⏸ <strong>지식 자동 순환 일시정지됨</strong> (수동 탐색 모드)';
+      } else {
+        isAutoRotating = true;
+        startAutoRotation();
+        if (btn) btn.textContent = '⏸ 일시정지';
+        if (text) text.innerHTML = '✨ <strong>실시간 지식 자동 큐레이션 가동 중</strong> (12초마다 새로운 지식 자산 자동 추천)';
+      }
+    }
+
+    function shuffleNextRotation() {
+      const filtered = filterItems();
+      const totalPages = Math.ceil(filtered.length / pageSize) || 1;
+      if (totalPages > 1) {
+        currentPage = Math.floor(Math.random() * totalPages) + 1;
+        render();
+      }
+    }
+
+    // Start auto rotation on init
+    startAutoRotation();
+
+    // Pause rotation when user types in search
+    const sInputEl = document.getElementById('searchInput');
+    if (sInputEl) {
+      sInputEl.addEventListener('focus', () => {
+        if (isAutoRotating) clearInterval(autoRotationTimer);
+      });
+      sInputEl.addEventListener('blur', () => {
+        if (isAutoRotating && sInputEl.value.trim() === '') startAutoRotation();
+      });
+    }
+    
     // YouTube Video Switcher
     function switchVideo(videoId, title, btn) {
       const iframe = document.getElementById('mainEconomicVideo');
@@ -1033,6 +1093,139 @@
       animation: fadeIn 0.3s ease;
     }
     
+
+    /* Continuous Scrolling Macro Ticker Bar */
+    .live-macro-ticker-bar {
+      background: rgba(12, 12, 16, 0.95);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      height: 38px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      font-size: 12px;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Mono', monospace;
+      position: sticky;
+      top: 52px;
+      z-index: 99;
+      backdrop-filter: blur(16px);
+    }
+    .ticker-label {
+      background: #000;
+      color: #ff3b30;
+      font-weight: 800;
+      padding: 0 16px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+      flex-shrink: 0;
+      z-index: 2;
+      box-shadow: 10px 0 20px rgba(0,0,0,0.8);
+      font-size: 11px;
+      letter-spacing: -0.2px;
+    }
+    .ticker-label .live-dot {
+      width: 7px;
+      height: 7px;
+      background: #ff3b30;
+      border-radius: 50%;
+      animation: pulseDot 1.5s infinite;
+    }
+    .ticker-track-wrap {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      mask-image: linear-gradient(to right, transparent, black 20px, black 95%, transparent);
+    }
+    .ticker-track {
+      display: flex;
+      white-space: nowrap;
+      animation: tickerScroll 45s linear infinite;
+    }
+    .ticker-track:hover {
+      animation-play-state: paused;
+    }
+    @keyframes tickerScroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 0 20px;
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .ticker-item .t-name {
+      color: var(--text-muted);
+      font-size: 11px;
+    }
+    .ticker-item .t-val {
+      color: #fff;
+      font-weight: 600;
+      font-size: 12px;
+    }
+    .ticker-item .t-chg.up {
+      color: #ff453a;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .ticker-item .t-chg.down {
+      color: #30d158;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .ticker-item .t-chg.neutral {
+      color: #0a84ff;
+      font-size: 11px;
+    }
+
+    /* Rotating Showcase Control Bar */
+    .rotation-control-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 8px 16px;
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+    .rotation-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+    }
+    .rotation-pulse {
+      width: 8px;
+      height: 8px;
+      background: #0071e3;
+      border-radius: 50%;
+      animation: pulseDot 2s infinite;
+    }
+    .rotation-btn-group {
+      display: flex;
+      gap: 8px;
+    }
+    .rotation-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .rotation-btn:hover {
+      background: var(--accent-blue);
+      border-color: var(--accent-blue);
+    }
+    
 </style>
 </head>
 <body>
@@ -1060,9 +1253,56 @@
         <a href="#explorer" onclick="setMainTab('bookmarks')">공식 금융통계 & DB (1,821개 소스)</a>
         <a href="https://github.com/wakary1/macro-research-hub" target="_blank">GitHub Repo</a>
       </div>
+      <a href="#newsletter" class="nav-cta" style="background: linear-gradient(135deg, #0071e3, #34c759); margin-right: 8px;">📬 메일링 서비스 신청</a>
       <a href="#explorer" class="nav-cta">통합 검색</a>
     </div>
   </nav>
+
+  <!-- Bloomberg Style Continuous Scrolling Macro Ticker Bar -->
+  <div class="live-macro-ticker-bar">
+    <div class="ticker-label">
+      <span class="live-dot"></span> LIVE 실시간 금융·원자재 지표
+    </div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track">
+        
+        <div class="ticker-item"><span class="t-name">🛢️ WTI 원유</span> <span class="t-val">$71.24/배럴</span> <span class="t-chg up">▲1.2%</span></div>
+        <div class="ticker-item"><span class="t-name">🥇 국제 금(Gold)</span> <span class="t-val">$2,748.5/oz</span> <span class="t-chg up">▲0.8%</span></div>
+        <div class="ticker-item"><span class="t-name">📈 나스닥 100</span> <span class="t-val">20,380.2p</span> <span class="t-chg up">▲0.4%</span></div>
+        <div class="ticker-item"><span class="t-name">📉 S&P 500</span> <span class="t-val">5,823.5p</span> <span class="t-chg down">▼0.2%</span></div>
+        <div class="ticker-item"><span class="t-name">🇰🇷 KOSPI</span> <span class="t-val">2,612.4p</span> <span class="t-chg up">▲0.6%</span></div>
+        <div class="ticker-item"><span class="t-name">⚡ 비트코인(BTC)</span> <span class="t-val">$67,820</span> <span class="t-chg up">▲2.1%</span></div>
+        <div class="ticker-item"><span class="t-name">💴 100엔/원</span> <span class="t-val">905.4원</span> <span class="t-chg down">▼0.3%</span></div>
+        <div class="ticker-item"><span class="t-name">💶 유로/달러</span> <span class="t-val">$1.081</span> <span class="t-chg down">▼0.1%</span></div>
+        <div class="ticker-item"><span class="t-name">🧱 구리 선물</span> <span class="t-val">$4.38/lb</span> <span class="t-chg up">▲0.5%</span></div>
+        <div class="ticker-item"><span class="t-name">🚢 발틱운임지수(BDI)</span> <span class="t-val">1,420p</span> <span class="t-chg up">▲15p</span></div>
+        <div class="ticker-item"><span class="t-name">🏛️ 美 2년물 국채</span> <span class="t-val">4.08%</span> <span class="t-chg up">▲2bp</span></div>
+        <div class="ticker-item"><span class="t-name">📊 한국 M2 통화량</span> <span class="t-val">5.8% yoy</span> <span class="t-chg neutral">안정</span></div>
+        <div class="ticker-item"><span class="t-name">💵 외환보유액</span> <span class="t-val">$4,199억</span> <span class="t-chg neutral">안정</span></div>
+        <div class="ticker-item"><span class="t-name">🧭 CNN Fear&Greed</span> <span class="t-val">64 (탐욕)</span> <span class="t-chg up">탐욕</span></div>
+        <div class="ticker-item"><span class="t-name">📈 OECD 한국 경기선행(CLI)</span> <span class="t-val">100.8p</span> <span class="t-chg up">▲0.2p</span></div>
+    
+        
+        <div class="ticker-item"><span class="t-name">🛢️ WTI 원유</span> <span class="t-val">$71.24/배럴</span> <span class="t-chg up">▲1.2%</span></div>
+        <div class="ticker-item"><span class="t-name">🥇 국제 금(Gold)</span> <span class="t-val">$2,748.5/oz</span> <span class="t-chg up">▲0.8%</span></div>
+        <div class="ticker-item"><span class="t-name">📈 나스닥 100</span> <span class="t-val">20,380.2p</span> <span class="t-chg up">▲0.4%</span></div>
+        <div class="ticker-item"><span class="t-name">📉 S&P 500</span> <span class="t-val">5,823.5p</span> <span class="t-chg down">▼0.2%</span></div>
+        <div class="ticker-item"><span class="t-name">🇰🇷 KOSPI</span> <span class="t-val">2,612.4p</span> <span class="t-chg up">▲0.6%</span></div>
+        <div class="ticker-item"><span class="t-name">⚡ 비트코인(BTC)</span> <span class="t-val">$67,820</span> <span class="t-chg up">▲2.1%</span></div>
+        <div class="ticker-item"><span class="t-name">💴 100엔/원</span> <span class="t-val">905.4원</span> <span class="t-chg down">▼0.3%</span></div>
+        <div class="ticker-item"><span class="t-name">💶 유로/달러</span> <span class="t-val">$1.081</span> <span class="t-chg down">▼0.1%</span></div>
+        <div class="ticker-item"><span class="t-name">🧱 구리 선물</span> <span class="t-val">$4.38/lb</span> <span class="t-chg up">▲0.5%</span></div>
+        <div class="ticker-item"><span class="t-name">🚢 발틱운임지수(BDI)</span> <span class="t-val">1,420p</span> <span class="t-chg up">▲15p</span></div>
+        <div class="ticker-item"><span class="t-name">🏛️ 美 2년물 국채</span> <span class="t-val">4.08%</span> <span class="t-chg up">▲2bp</span></div>
+        <div class="ticker-item"><span class="t-name">📊 한국 M2 통화량</span> <span class="t-val">5.8% yoy</span> <span class="t-chg neutral">안정</span></div>
+        <div class="ticker-item"><span class="t-name">💵 외환보유액</span> <span class="t-val">$4,199억</span> <span class="t-chg neutral">안정</span></div>
+        <div class="ticker-item"><span class="t-name">🧭 CNN Fear&Greed</span> <span class="t-val">64 (탐욕)</span> <span class="t-chg up">탐욕</span></div>
+        <div class="ticker-item"><span class="t-name">📈 OECD 한국 경기선행(CLI)</span> <span class="t-val">100.8p</span> <span class="t-chg up">▲0.2p</span></div>
+    
+      </div>
+    </div>
+  </div>
+
 
   <!-- Hero & Masthead (조선일보 톱 헤드라인 + KDI 거시지표 + Apple 감각) -->
   <header class="hero-section" id="editorial">
@@ -1441,6 +1681,19 @@
         <span id="pageInfo">1 / 1 페이지</span>
       </div>
 
+      
+      <!-- Rotating Showcase Control Bar (실시간 지식 순환) -->
+      <div class="rotation-control-bar">
+        <div class="rotation-status">
+          <span class="rotation-pulse"></span>
+          <span id="rotationStatusText">✨ <strong>실시간 지식 자동 큐레이션 가동 중</strong> (12초마다 새로운 지식 자산 자동 추천)</span>
+        </div>
+        <div class="rotation-btn-group">
+          <button class="rotation-btn" id="btnToggleRotate" onclick="toggleAutoRotation()">⏸ 일시정지</button>
+          <button class="rotation-btn" id="btnShuffleRotate" onclick="shuffleNextRotation()">🎲 다음 추천 지식 보기</button>
+        </div>
+      </div>
+    
       <div class="cards-grid" id="cardsGrid"></div>
 
       <div class="pagination-bar">
@@ -1614,7 +1867,7 @@
         const isNotion = it.is_notion;
         const badgeClass = isNotion ? 'badge notion' : 'badge';
         const cardClass = isNotion ? 'portal-card is-notion' : 'portal-card is-bookmark';
-        const badgeText = isNotion ? `📚 노션 원장 (${it.chars.toLocaleString()}자)` : it.category;
+        const badgeText = isNotion ? `📚 완결 연구 모노그래프` : it.category;
         const breadcrumbHtml = it.breadcrumb ? `<div class="card-breadcrumb">📂 ${it.breadcrumb}</div>` : '';
         const actionLabel = isNotion ? '노션 원문 열기 ↗' : '사이트 방문 ↗';
         const excerptHtml = it.excerpt ? `<div class="card-excerpt">${it.excerpt}</div>` : '';
