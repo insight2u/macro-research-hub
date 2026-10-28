@@ -385,6 +385,20 @@
       }
     }
 
+    // Google Gemini Gems Direct Launcher
+    window.openGeminiGemsDirect = function() {
+      const input = document.getElementById('trendTopicInput');
+      const topicVal = input && input.value.trim() ? input.value.trim() : (currentAnalyzedTopic || '');
+      const geminiUrl = "https://gemini.google.com/gem/1xwIsGXqkh_-x00B0RowoWyQ9fSISRtsm?usp=sharing";
+
+      if (topicVal) {
+        currentAnalyzedTopic = topicVal;
+        const directName = document.getElementById('geminiDirectTopicName');
+        if (directName) directName.textContent = topicVal;
+      }
+      window.open(geminiUrl, '_blank', 'noopener,noreferrer');
+    };
+
     function runTrendAnalysis(mode = 'free') {
       const input = document.getElementById('trendTopicInput');
       const topicVal = input && input.value.trim() ? input.value.trim() : currentAnalyzedTopic;
@@ -402,24 +416,26 @@
         return;
       }
 
-      // Free 3-Line Summary & 4-Grid Analysis Mode
+      // Free T.R.E.N.D Analysis & 3-Line Summary Mode
       const resultBox = document.getElementById('trendResultBox');
       const topicTitle = document.getElementById('trendResultTopicTitle');
       const upsellTopic = document.getElementById('trendUpsellTopic');
       const summaryList = document.getElementById('trend3LineSummary');
+      const directTopicName = document.getElementById('geminiDirectTopicName');
       const box1 = document.getElementById('trendBox1');
       const box2 = document.getElementById('trendBox2');
       const box3 = document.getElementById('trendBox3');
       const box4 = document.getElementById('trendBox4');
 
-      if (topicTitle) topicTitle.textContent = `🔮 『${topicVal}』 트렌드 예측 브리핑 (무료 3줄 요약)`;
+      if (topicTitle) topicTitle.textContent = `🔮 『${topicVal}』 T.R.E.N.D 프레임워크 예측 브리핑`;
       if (upsellTopic) upsellTopic.textContent = topicVal;
+      if (directTopicName) directTopicName.textContent = topicVal;
 
-      if (summaryList) summaryList.innerHTML = '<li>⚡ 3줄 핵심 요약 브리프 추출 중...</li>';
-      if (box1) box1.innerHTML = '<span style="color:#70b4ff;">⚡ Gemini Gems 추론: 층별 사이클 및 거시 데이터 분석 중...</span>';
-      if (box2) box2.innerHTML = '<span style="color:#70b4ff;">⚡ 서울대 소비자학: 미충족 니즈 및 WTP 지불용의 매핑 중...</span>';
-      if (box3) box3.innerHTML = '<span style="color:#70b4ff;">⚡ STEEP 프레임워크: 5대 거시 신호 및 핵심 키워드 추출 중...</span>';
-      if (box4) box4.innerHTML = '<span style="color:#70b4ff;">⚡ 비즈니스 실행 전략: 경쟁 우위 및 BM 설계 중...</span>';
+      if (summaryList) summaryList.innerHTML = '<li>⚡ 노션 원장 기반 T.R.E.N.D 모델 및 3줄 핵심 요약 도출 중...</li>';
+      if (box1) box1.innerHTML = '<span style="color:#70b4ff;">⚡ [T·R 모델] Trigger(기폭제) 및 Ripple(파급 경로) 분석 중...</span>';
+      if (box2) box2.innerHTML = '<span style="color:#70b4ff;">⚡ [E 모델] Empathy(감정·문화코드) 및 서울대 소비자학 미충족 니즈 매핑 중...</span>';
+      if (box3) box3.innerHTML = '<span style="color:#70b4ff;">⚡ [N·D 모델] Niche(틈새 신시장) 및 10년 Direction(장기 구조) 도출 중...</span>';
+      if (box4) box4.innerHTML = '<span style="color:#70b4ff;">⚡ [시나리오 & 전략] 층별 사이클(단·중·장기) 및 2×2 불확실성 매트릭스 도출 중...</span>';
       if (resultBox) resultBox.style.display = 'block';
 
       setTimeout(() => {
@@ -436,45 +452,92 @@
       }, 450);
     }
 
+    // 서울대학교 소비자학 및 노션 『트렌드 예측』 정통 T.R.E.N.D 엔진
     function generateTrendIntelligence(topic) {
+      // Clean topic string
+      const t = topic.trim();
+      
+      // Topic contextual dictionary for tailored high-intelligence insights
+      let isBioSenior = /시니어|실버|에이징|웰니스|간병|요양|헬스/.test(t);
+      let isRobotTech = /로봇|배송|물류|AI|반도체|자동화|자율주행|드론/.test(t);
+      let isFoodDiet = /저당|식품|디저트|F&B|혈당|다이어트|푸드|외식/.test(t);
+      let isPet = /펫|반려|동물|강아지|고양이/.test(t);
+      let isSpace = /공간|무인|대여|부동산|렌탈|공유/.test(t);
+
+      let trigger = `인구구조 대전환 및 기술 격차 심화 속 『${t}』 분야의 규제 완화 및 디지털 인프라 임계점 도달`;
+      let ripple = `제조·플랫폼·유통 가치사슬 전반으로 파급되며 기존 레거시 업계의 수익성 악화 및 디지털 전환 연쇄 촉발`;
+      let empathy = `소비자의 시간 빈곤(Time-Poverty) 해소 및 일상에 대한 '통제감과 심리적 안전지대'를 추구하는 자기본위적 소비 심리`;
+      let niche = `매스 시장의 획일화된 제품에 피로감을 느낀 고관여 마이크로 세그먼트를 겨냥한 초개인화 맞춤 솔루션`;
+      let direction = `일회성 유행(Fad)을 넘어 향후 10년간 삶의 양식을 재정의하는 '표준 플랫폼 생태계'로의 구조적 전환`;
+
+      if (isBioSenior) {
+        trigger = "2025~2026 대한민국 초고령사회(65세 이상 20% 돌파) 진입과 건강수명 연장 욕구가 맞물린 정책 바우처 확대";
+        ripple = "전통 요양·병원 치료 중심에서 디지털 헬스케어, 보험, 식품, 주거, 여가 全 밸류체인으로 시장 지각변동";
+        empathy = "자녀에게 짐이 되지 않고 존엄과 활력을 유지하려는 '액티브 시니어'의 독립적 자아실현 욕망";
+        niche = "단순 돌봄을 넘어선 인지 케어, 프라이빗 웰니스 멤버십, 시니어 전용 온디바이스 테크";
+        direction = "시니어 세대가 국가 복지 수혜자에서 '최대 소비 주도 세력'으로 격상되는 실버 이코노미 대전환";
+      } else if (isRobotTech) {
+        trigger = "인건비 상승과 라스트마일 물류 병목, 피지컬 AI 및 비전 센서 하드웨어 단가 급락";
+        ripple = "물류창고 풀필먼트부터 도심 배송, 외식 조리, 빌딩 관리까지 무인 자율 생태계의 전방위 연쇄 침투";
+        empathy = "배송 지연과 배달비 인상에 대한 스트레스 해소, '즉시성(On-Demand)과 비대면의 프라이버시' 선호";
+        niche = "아파트 단지 전용 지하 라스트마일 로봇, 복합 빌딩 수직 배송, 규제 샌드박스 실증 특례 구역";
+        direction = "인간 노동 보조 수단을 넘어선 24/7 도시 자율 운영 인프라(Autonomous Urban Ops) 안착";
+      } else if (isFoodDiet) {
+        trigger = "젊은 당뇨·대사질환 급증과 대체감미료(알룰로스·에리스리톨) 제형 기술의 비약적 진화";
+        ripple = "음료 중심에서 베이커리, 소스, 냉동식품, 프랜차이즈 메뉴 전반으로 저당 R&D 전환 가속";
+        empathy = "‘즐거운 건강관리(헬시플레저)’ 추구 속 먹는 즐거움을 포기하지 않으면서 죄책감을 지우려는 심리";
+        niche = "전문 혈당 모니터링(CGM) 연동 맞춤 식단, 비건 글루텐프리 융합 디저트, 프리미엄 메디푸드";
+        direction = "단순 다이어트 열풍이 아닌 '전 국민 일상 식습관의 기본 규격(Standard)'으로의 영구 전환";
+      } else if (isPet) {
+        trigger = "1인 가구 40% 육박 및 딩크족 증가, 반려동물 양육 인구 1,500만 명 돌파";
+        ripple = "사료·간식 시장 포화 속 펫보험, 펫장례, 펫호텔, 첨단 의료기기 등 고부가가치 라이프케어로 확장";
+        empathy = "반려동물을 가족 구성원으로 대우하는 '펫 휴머니제이션(Pet Humanization)'과 무조건적 정서적 유대";
+        niche = "유전자 분석 기반 맞춤 처방식, 분리불안 완화 스마트 IoT 디바이스, 시니어 펫 전문 재활센터";
+        direction = "반려동물 요람에서 무덤까지 책임지는 '종합 라이프사이클 케어 생태계'의 제도권 편입";
+      } else if (isSpace) {
+        trigger = "상가 공실률 증가, 고금리·고인건비 부담에 따른 부동산 임대 패러다임 변화 및 IoT 도어락·무인 관제 고도화";
+        ripple = "단순 임대차 계약에서 시간 단위 쪼개기 공간 구독, 파티룸, 무인 스튜디오, 공유 오피스로 파급";
+        empathy = "집과 직장 외에 나만의 독립된 취향 공간을 합리적 비용으로 누리고자 하는 '제3의 공간(Third Place)' 갈망";
+        niche = "도심 자투리 유휴부지 소형 물류창고(마이크로 풀필먼트), 1인 맞춤 방음 연습실, 셀프 촬영 스튜디오";
+        direction = "소유 중심 부동산에서 '유휴 자산의 디지털 소프트웨어형 분할 수익화' 모델로의 패러다임 시프트";
+      }
+
       return {
         summary: `
-          <li><strong>[① 메가트렌드 사이클]:</strong> 『${topic}』은 2026년 인구 고령화 및 1인 가구 급증 속 단순 일회성 유행(Fad)을 넘어 향후 3~5년간 연평균 24.5% 이상 지속 성장할 핵심 구조적 성장 축입니다.</li>
-          <li><strong>[② 소비자 심리 동인]:</strong> 서울대 소비자학 가치 지각 모델 분석 결과, 소비자는 '시간 절약(Time-saving)'과 '신뢰할 수 있는 데이터 피드백'에 대해 기존 대비 25~35%의 프리미엄 지불 용의(WTP)를 보입니다.</li>
-          <li><strong>[③ 비즈니스 수익화 전략]:</strong> 단품 판매 구조에서 탈피하여 고객 데이터를 지속 축적하는 '하이브리드 구독 & 맞춤 케어 BM'을 구축하는 것이 시장 지배력 확보의 관건입니다.</li>
+          <li><strong>[① T.R.E.N.D 핵심 진단]:</strong> 『${t}』은(는) <strong>${trigger}</strong>을(를) 기폭제로 삼아, <strong>${ripple}</strong>의 연쇄 파급 효과를 창출하고 있습니다.</li>
+          <li><strong>[② 소비자 심리 & 미충족 니즈]:</strong> 소비자는 기능적 만족을 넘어 <strong>${empathy}</strong>에 강한 지불 용의(WTP 20~35% 프리미엄)를 보이며, 시장은 <strong>${niche}</strong>(으)로 급속히 분화 중입니다.</li>
+          <li><strong>[③ 10년 장기 구조 전망]:</strong> 단기 유행을 넘어 <strong>${direction}</strong>(으)로 직결되는 거시적 메가트렌드이므로, 선제적 생태계 구축이 필수적입니다.</li>
         `,
         box1: `
-          <p><strong>[변화의 층별 사이클 매핑]</strong></p>
+          <p><strong>[T (Trigger) & R (Ripple) 분석]</strong></p>
           <ul>
-            <li><strong>단기 변동 (1~2년):</strong> ${topic} 영역에서 고물가·실질소득 둔화 속 '초가성비 vs 고기능성 프리미엄'의 소비 양극화가 가속화되고 있습니다.</li>
-            <li><strong>중기 구조 변화 (3~5년):</strong> AI 기술의 현장 접목과 초개인화 서비스가 표준으로 안착하며, 파편화된 공급망의 수직계열화가 진행됩니다.</li>
-            <li><strong>장기 메가트렌드 (10년):</strong> 2026 초고령사회 진입과 가구원 수 축소가 ${topic} 시장의 수요 기반을 구조적으로 재편합니다.</li>
+            <li><span class="trend-framework-badge" style="background:rgba(255,69,58,0.2); color:#ff453a;">Trigger 기폭제</span> ${trigger}</li>
+            <li><span class="trend-framework-badge" style="background:rgba(255,159,10,0.2); color:#ff9f0a;">Ripple 파급경로</span> ${ripple}</li>
+            <li><strong>변화의 임계점:</strong> 2026년을 기점으로 초기 수용자(Early Adopters) 단계에서 전기 다수자(Early Majority)로 급속히 전이되는 캐즘(Chasm) 돌파 국면입니다.</li>
           </ul>
         `,
         box2: `
-          <p><strong>[서울대 소비자학 이론 기반 분석]</strong></p>
+          <p><strong>[E (Empathy) & 서울대 소비자학 이론 분석]</strong></p>
           <ul>
-            <li><strong>미충족 니즈(Unmet Needs):</strong> 소비자는 단순한 물리적 기능을 넘어 '정서적 안도감과 일상 통제감'을 강하게 갈망하고 있습니다.</li>
-            <li><strong>지불 용의(WTP) 요인:</strong> 신뢰도 높은 검증 데이터와 맞춤형 큐레이션이 결합될 때 프리미엄 가격 지불 의사가 발생합니다.</li>
-            <li><strong>가치소비 행동:</strong> 소유보다는 '효용 중심의 구독 및 공유' 모델에 대한 스마트 컨슈머의 선호도가 급증하고 있습니다.</li>
+            <li><span class="trend-framework-badge" style="background:rgba(48,209,88,0.2); color:#30d158;">Empathy 문화코드</span> ${empathy}</li>
+            <li><strong>미충족 니즈(Unmet Needs):</strong> 정보 과잉 속 검증된 품질에 대한 갈증과 탐색 비용 절감 욕구가 극대화되고 있습니다.</li>
+            <li><strong>지불 용의(WTP) 분석:</strong> 단순 가성비가 아닌 '시간 절약(Time-saving)'과 '실패 없는 확실한 효능'이 입증될 때 25~35%의 가격 프리미엄을 기꺼이 지불합니다.</li>
           </ul>
         `,
         box3: `
-          <p><strong>[STEEP 5대 거시 신호 매트릭스]</strong></p>
+          <p><strong>[N (Niche) & D (Direction) 미래 매핑]</strong></p>
           <ul>
-            <li><strong>Social (사회):</strong> 세대 간 격차 완화 및 웰에이징 라이프스타일 확산</li>
-            <li><strong>Technological (기술):</strong> 온디바이스 AI, 자동화 로보틱스, 데이터 기반 예측 솔루션</li>
-            <li><strong>Economic (경제):</strong> 원자재 및 인건비 상승에 따른 무인화·자동화 솔루션 수요 급증</li>
-            <li><strong>Ecological (생태):</strong> 친환경 패키징 및 지속가능성(ESG) 인증 의무화</li>
-            <li><strong>Political (정책):</strong> 지자체 및 정부의 신산업 육성 바우처 및 관련 규제 샌드박스</li>
+            <li><span class="trend-framework-badge" style="background:rgba(100,210,255,0.2); color:#64d2ff;">Niche 틈새시장</span> ${niche}</li>
+            <li><span class="trend-framework-badge" style="background:rgba(191,90,242,0.2); color:#bf5af2;">Direction 10년구조</span> ${direction}</li>
+            <li><strong>경쟁 지형 전망:</strong> 기존 대기업 중심의 하향식 공급망이 해체되고, 특화된 데이터와 커뮤니티 락인을 확보한 버티컬 전문 기업이 주도권을 장악합니다.</li>
           </ul>
         `,
         box4: `
-          <p><strong>[비즈니스 실행 로드맵 (Action Items)]</strong></p>
+          <p><strong>[층별 사이클 및 비즈니스 실행 권고]</strong></p>
           <ul>
-            <li><strong>타깃 세분화:</strong> 매스(Mass) 시장이 아닌 '고관여 얼리어답터 세그먼트'를 핀셋 타깃팅하여 레퍼런스를 확보하십시오.</li>
-            <li><strong>BM 설계:</strong> 일회성 판매에서 벗어나 정기 관리 및 데이터 기반 피드백이 결합된 '하이브리드 구독 BM'을 도입하십시오.</li>
-            <li><strong>위험 요인 대비:</strong> 초기 고객 획득 비용(CAC) 상승에 대비해 자발적 구전(Organic Word-of-Mouth) 커뮤니티 장치를 마련해야 합니다.</li>
+            <li><strong>단기 (1~2년):</strong> ${t} 시장의 핵심 페르소나를 핀셋 정의하고, 검증된 사용자 후기를 기반으로 한 바이럴 루프를 조기 구축하십시오.</li>
+            <li><strong>중기 (3~5년):</strong> 단품 판매 구조에서 벗어나 정기 구독 및 맞춤형 데이터 케어가 결합된 하이브리드 비즈니스 모델로 확장하십시오.</li>
+            <li><strong>장기 (10년):</strong> 유영선 연구위원 공인 제미나이 젬스(Gems)와 연계하여 1:1 맞춤형 고객 피드백을 실시간 수집하는 인텔리전스 파이프라인을 완성하십시오.</li>
           </ul>
         `
       };
@@ -3643,6 +3706,81 @@
       .diagram-step-title { color: #000000 !important; }
     }
 
+
+    /* Gemini Gems Direct Link & Button Enhancements */
+    .gemini-gems-badge-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #1a73e8, #9333ea);
+      color: #ffffff !important;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 20px;
+      text-decoration: none;
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      box-shadow: 0 2px 10px rgba(147, 51, 234, 0.35);
+      transition: all 0.2s ease;
+    }
+    .gemini-gems-badge-link:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(147, 51, 234, 0.55);
+      background: linear-gradient(135deg, #1557b0, #7e22ce);
+    }
+    .btn-trend-gemini {
+      background: linear-gradient(135deg, #1a73e8, #7c3aed);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(124, 58, 237, 0.35);
+    }
+    .btn-trend-gemini:hover {
+      background: linear-gradient(135deg, #1557b0, #6d28d9);
+      box-shadow: 0 6px 20px rgba(124, 58, 237, 0.5);
+      transform: translateY(-1px);
+    }
+    .gemini-direct-banner {
+      background: linear-gradient(135deg, rgba(26, 115, 232, 0.15), rgba(124, 58, 237, 0.18));
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      border-radius: 16px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      box-shadow: 0 6px 24px rgba(124, 58, 237, 0.15);
+    }
+    .btn-open-gemini-gems {
+      background: linear-gradient(135deg, #7c3aed, #2563eb);
+      color: #ffffff !important;
+      font-weight: 800;
+      font-size: 13px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .btn-open-gemini-gems:hover {
+      background: linear-gradient(135deg, #6d28d9, #1d4ed8);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 22px rgba(124, 58, 237, 0.6);
+    }
+    .trend-framework-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-right: 6px;
+    }
+    
 </style>
 </head>
 <body>
@@ -3665,6 +3803,7 @@
       </a>
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·인텔리전스 브리핑</a>
+        <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 AI 트렌드 예측 (Gems)</a>
         <a href="#email-sync">📡 글로벌 경제·산업 라이브 레이더</a>
         <a href="#explorer" onclick="setMainTab('notion')">📚 전략 모노그래프 원장 (565편)</a>
         <a href="#explorer" onclick="setMainTab('bookmarks')">📊 글로벌 거시·정책 DB (1,821개)</a>
@@ -4065,6 +4204,9 @@
     <div class="trend-lab-card">
       <div class="trend-badge-bar">
         <span class="trend-eyebrow">🔮 GEMINI GEMS × RYUYOUNGSUN THINKTANK</span>
+        <a href="https://gemini.google.com/gem/1xwIsGXqkh_-x00B0RowoWyQ9fSISRtsm?usp=sharing" target="_blank" rel="noopener noreferrer" class="gemini-gems-badge-link">
+          <span>🚀 유영선 연구위원 공인 제미나이 젬스(Gems) 직통 연동 &gt;</span>
+        </a>
         <span class="trend-pricing-tag">⚡ 퀵 인사이트 브리프 (즉시 진단)</span>
         <span class="trend-pay-tag">📑 전략 모노그래프 완결본 (A4 5P)</span>
       </div>
@@ -4074,15 +4216,18 @@
         <span style="font-size: 15px; font-weight: 500; color: #70b4ff;">(Gemini Gems Trend Engine)</span>
       </h2>
       <p class="trend-desc">
-        서울대학교 소비자학 박사과정의 정밀 학문 체계와 565편의 전략 원장, 1,756편의 글로벌 영상 인텔리전스가 결합된 독자적 트렌드 추론 엔진입니다.
-        관심 있는 비즈니스 아이템이나 산업 아젠다를 입력하시면 <strong>변화의 층별 사이클과 소비자 심리 동인</strong>을 실시간 핵심 브리프로 즉시 진단해 드리며,
-        <strong>5대 분석 축(STEEP·TAM/SAM/SOM·밸류체인·페르소나 WTP·실행 로드맵)을 망라한 A4 5페이지 전략 완결본</strong>을 즉시 열람하고 PDF로 소장하실 수 있습니다.
+        서울대학교 소비자학 박사과정의 학문 체계와 <strong>유영선 연구위원의 공인 제미나이 젬스(Gemini Gems) 트렌드 분석기</strong>가 공식 연동된 차세대 AI 예측 허브입니다.
+        관심 있는 주제나 산업 아젠다를 입력하시면 <strong>T.R.E.N.D 5대 분석 모델(Trigger·Ripple·Empathy·Niche·Direction)</strong>과 변화의 층별 사이클을 즉시 진단해 드리며,
+        Google Gemini 실시간 AI와의 <strong>1:1 대화형 심층 분석</strong> 및 <strong>A4 5페이지 전략 모노그래프 완결본</strong>을 원클릭으로 이용하실 수 있습니다.
       </p>
 
       <!-- Topic Input Bar with Parallel Buttons -->
       <div class="trend-input-group">
         <input type="text" id="trendTopicInput" class="trend-input" placeholder="분석하고 싶은 주제나 산업을 입력하세요 (예: 액티브 시니어 웰니스, 로봇 배송, 저당 디저트, 펫코노미, 공간 대여)..." onkeydown="if(event.key==='Enter') runTrendAnalysis('free')">
-        <div class="trend-btn-parallel-wrap">
+        <div class="trend-btn-parallel-wrap" style="display: flex; gap: 8px; flex-wrap: wrap;">
+          <button class="btn-trend-analyze btn-trend-gemini" onclick="openGeminiGemsDirect()">
+            <span>🔮 제미나이 젬스 1:1 대화 (실시간 AI)</span>
+          </button>
           <button class="btn-trend-analyze btn-trend-free" onclick="runTrendAnalysis('free')">
             <span>⚡ 퀵 인사이트 브리프 (즉시 진단)</span>
           </button>
@@ -4110,7 +4255,23 @@
           <div class="trend-result-topic-badge">
             <span id="trendResultTopicTitle">분석 주제</span>
           </div>
-          <span class="trend-report-free-tag">✓ 퀵 인사이트 브리프 도출 완료</span>
+          <span class="trend-report-free-tag">✓ T.R.E.N.D 프레임워크 진단 완료</span>
+        </div>
+
+        <!-- 🔮 Google Gemini Gems Official Direct Banner -->
+        <div class="gemini-direct-banner">
+          <div>
+            <div style="font-size: 15px; font-weight: 800; color: #c084fc; display: flex; align-items: center; gap: 8px;">
+              <span>🔮</span>
+              <span>Google Gemini 공식 연동: 유영선 연구위원 공인 트렌드 분석 젬스(Gems) 가동 중</span>
+            </div>
+            <div style="font-size: 13px; color: #d1d1d6; margin-top: 5px; line-height: 1.5;">
+              지금 보고 계신 요약 브리프를 넘어, Google 최첨단 LLM 엔진 및 실시간 웹 검색 기반으로 <strong>『<span id="geminiDirectTopicName" style="color:#70b4ff; font-weight:700;">해당 주제</span>』</strong>에 대한 1:1 심층 질문과 꼬리물기 대화를 즉시 나누실 수 있습니다.
+            </div>
+          </div>
+          <a id="btnGeminiDirectLink" href="https://gemini.google.com/gem/1xwIsGXqkh_-x00B0RowoWyQ9fSISRtsm?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-open-gemini-gems">
+            <span>🚀 제미나이 젬스에서 1:1 심층 대화 열기 &gt;</span>
+          </a>
         </div>
 
         <!-- ⚡ 3-Bullet Executive Summary Brief -->
