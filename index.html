@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%27100%27%20y2%3D%27100%27%3E%3Cstop%20offset%3D%270%25%27%20stop-color%3D%27%230071E3%27/%3E%3Cstop%20offset%3D%2750%25%27%20stop-color%3D%27%2338BDF8%27/%3E%3Cstop%20offset%3D%27100%25%27%20stop-color%3D%27%23FEE500%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpolygon%20points%3D%2750%2C6%2088%2C28%2088%2C72%2050%2C94%2012%2C72%2012%2C28%27%20fill%3D%27%230A0D14%27%20stroke%3D%27url%28%23g%29%27%20stroke-width%3D%274%27/%3E%3Cpath%20d%3D%27M33%2028%20V72%27%20stroke%3D%27%23FFF%27%20stroke-width%3D%277%27%20stroke-linecap%3D%27round%27/%3E%3Cpath%20d%3D%27M33%2028%20H54%20C63%2028%2068%2034%2068%2041%20C68%2048%2063%2053%2054%2053%20H33%27%20stroke%3D%27url%28%23g%29%27%20stroke-width%3D%277%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27/%3E%3Cpath%20d%3D%27M49%2053%20L69%2072%27%20stroke%3D%27%23FEE500%27%20stroke-width%3D%277%27%20stroke-linecap%3D%27round%27/%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%274%27%20fill%3D%27%23FEE500%27/%3E%3C/svg%3E">
-  <meta name="theme-color" content="#0A0D14">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%278%27%20fill%3D%27%231C1C1E%27/%3E%3Cpath%20d%3D%27M10%208V24%27%20stroke%3D%27%23FFF%27%20stroke-width%3D%272.6%27%20stroke-linecap%3D%27round%27/%3E%3Cpath%20d%3D%27M10%208.2H16.8C19.6%208.2%2021.8%2010.4%2021.8%2013.2C21.8%2016%2019.6%2018.2%2016.8%2018.2H10%27%20stroke%3D%27%23FFF%27%20stroke-width%3D%272.6%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27/%3E%3Cpath%20d%3D%27M15.8%2017.8L22%2024%27%20stroke%3D%27%23FFF%27%20stroke-width%3D%272.6%27%20stroke-linecap%3D%27round%27/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#000000">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RYUYOUNGSUN‘s Knowledge & Insight | 글로벌 싱크탱크 & 인텔리전스 포털</title>
   <meta name="description" content="RYUYOUNGSUN‘s Knowledge & Insight - 글로벌 거시경제와 첨단 산업 지형을 꿰뚫는 독보적 씽크탱크 인텔리전스 프레임워크">
@@ -4794,7 +4794,55 @@
   background: rgba(56, 189, 248, 0.05);
 }
 
-</style>
+
+    /* Apple Design System Upgrade (Clean, Minimal, Matte Titanium, SF Pro) */
+    body {
+      background-color: #000000 !important;
+      color: #F5F5F7 !important;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Pretendard Variable", -apple-system-subheadline, sans-serif !important;
+      -webkit-font-smoothing: antialiased;
+      letter-spacing: -0.012em;
+    }
+    .pro-nav {
+      background: rgba(0, 0, 0, 0.78) !important;
+      backdrop-filter: saturate(180%) blur(20px) !important;
+      -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    .kdi-metric-card, .forecast-card, .sub-report-card, .radar-card {
+      background: #141416 !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 16px !important;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    }
+    .kdi-metric-card:hover, .forecast-card:hover, .sub-report-card:hover {
+      border-color: rgba(255, 255, 255, 0.2) !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6) !important;
+    }
+    .apple-tab-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #86868B;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 980px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .apple-tab-btn:hover {
+      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.12);
+    }
+    .apple-tab-btn.active {
+      background: #0071E3;
+      color: #FFFFFF;
+      border-color: #0071E3;
+      box-shadow: 0 2px 10px rgba(0, 113, 227, 0.4);
+    }
+
+  </style>
 </head>
 <body>
 
@@ -4809,72 +4857,26 @@
   <!-- Floating Glass Pro Navigation -->
   <nav class="pro-nav">
     <div class="nav-inner">
-      <a href="#" class="nav-brand-bx">
-        <div class="bi-emblem-wrap">
-          <svg class="bi-emblem-svg" width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="nav_sapphire" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="45%" stop-color="#0071E3" />
-      <stop offset="100%" stop-color="#6366F1" />
-    </linearGradient>
-    <linearGradient id="nav_gold" x1="20" y1="20" x2="90" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFF066" />
-      <stop offset="60%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#D97706" />
-    </linearGradient>
-    <linearGradient id="nav_titanium" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1E293B" />
-      <stop offset="100%" stop-color="#090D16" />
-    </linearGradient>
-    <linearGradient id="nav_border" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.8" />
-    </linearGradient>
-    <filter id="nav_glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="3.5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
-
-  <!-- Ambient Glow -->
-  <circle cx="50" cy="50" r="42" fill="url(#nav_sapphire)" opacity="0.22" filter="url(#nav_glow)" />
-
-  <!-- Shield Geometry -->
-  <polygon points="50,4 85,18 96,50 85,82 50,96 15,82 4,50 15,18" 
-           fill="url(#nav_titanium)" 
-           stroke="url(#nav_border)" 
-           stroke-width="2.4" 
-           stroke-linejoin="round" />
-
-  <!-- Inset Prism Line -->
-  <polygon points="50,11 80,23 89,50 80,77 50,89 20,77 11,50 20,23" 
-           fill="none" 
-           stroke="rgba(255, 255, 255, 0.16)" 
-           stroke-width="1" />
-
-  <!-- Monogram R & Y -->
-  <path d="M31 25 V75" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
-  <path d="M31 25 H53 C64 25 71 31 71 40 C71 49 64 54 53 54 H31" 
-        stroke="url(#nav_sapphire)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M48 54 L72 75" stroke="url(#nav_gold)" stroke-width="6" stroke-linecap="round" />
-  <circle cx="50" cy="54" r="3.8" fill="#FFF066" filter="url(#nav_glow)" />
-  <circle cx="50" cy="54" r="1.8" fill="#FFFFFF" />
-  <line x1="20" y1="54" x2="80" y2="54" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="2 3" />
+      <a href="#" class="nav-brand-bx" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+        <div class="apple-emblem-wrap" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 9px; transition: transform 0.2s;">
+          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#1C1C1E" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
+  <path d="M10 8 V24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M10 8.2 H16.8 C19.6 8.2 21.8 10.4 21.8 13.2 C21.8 16.0 19.6 18.2 16.8 18.2 H10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.8 17.8 L22 24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
 </svg>
         </div>
-        <div class="bi-typography-wrap">
-          <div class="bi-primary-name">RYUYOUNGSUN</div>
-          <div class="bi-secondary-title">
-            <span class="bi-tag-insight">KNOWLEDGE &amp; INSIGHT</span>
-            <span class="bi-divider-dot">●</span>
-            <span class="bi-sub-badge">RESEARCH HUB</span>
+        <div class="apple-typography-wrap" style="display: flex; flex-direction: column;">
+          <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', sans-serif; font-size: 14.5px; font-weight: 800; letter-spacing: 0.16em; color: #F5F5F7; line-height: 1.15;">RYUYOUNGSUN</div>
+          <div style="display: flex; align-items: center; gap: 6px; margin-top: 2px;">
+            <span style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; font-size: 8.5px; font-weight: 600; letter-spacing: 0.22em; color: #86868B;">RESEARCH &amp; INTELLIGENCE</span>
+            <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.12); color: #A1A1A6; border-radius: 980px; padding: 1px 5px; font-size: 8px; font-weight: 700; letter-spacing: 0.05em;">PRO</span>
           </div>
         </div>
       </a>
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·인텔리전스 브리핑</a>
+        <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 700;">🗳️ 정치·선거 여론조사</a>
         <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 트렌드 분석 랩</a>
       <a href="#econometrics-lab" class="nav-link">🔬 계량통계 분석 랩</a>
         <a href="#email-sync">📡 글로벌 경제·산업 라이브 레이더</a>
@@ -4950,98 +4952,27 @@
         <div class="masthead-info-col">
           <div class="masthead-bar" style="margin-bottom:16px;">
             <div class="hero-brand-monument">
-              <div class="hero-brand-logo-container">
-                <svg class="hero-signature-logo" viewBox="0 0 520 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <linearGradient id="hl_sapphire" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stop-color="#38BDF8" />
-                      <stop offset="50%" stop-color="#0071E3" />
-                      <stop offset="100%" stop-color="#6366F1" />
-                    </linearGradient>
-                    <linearGradient id="hl_gold" x1="10" y1="10" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stop-color="#FFF066" />
-                      <stop offset="60%" stop-color="#F59E0B" />
-                      <stop offset="100%" stop-color="#D97706" />
-                    </linearGradient>
-                    <linearGradient id="hl_titanium" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stop-color="#1E293B" />
-                      <stop offset="100%" stop-color="#090D16" />
-                    </linearGradient>
-                    <linearGradient id="hl_border" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
-                      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
-                      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.8" />
-                    </linearGradient>
-                    <linearGradient id="hl_text_grad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stop-color="#FFFFFF" />
-                      <stop offset="65%" stop-color="#F1F5F9" />
-                      <stop offset="100%" stop-color="#94A3B8" />
-                    </linearGradient>
-                    <filter id="hl_glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
-                      <feGaussianBlur stdDeviation="3" result="blur" />
-                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-                    </filter>
-                  </defs>
-
-                  <!-- Icon Emblem (80x80 scaled) -->
-                  <g transform="translate(2, 2)">
-                    <!-- Outer Aura -->
-                    <circle cx="40" cy="40" r="38" fill="url(#hl_sapphire)" opacity="0.2" filter="url(#hl_glow)" />
-
-                    <!-- Outer Architectural Shield / Octagon -->
-                    <polygon points="40,3 69,15 78,40 69,65 40,77 11,65 2,40 11,15" 
-                             fill="url(#hl_titanium)" 
-                             stroke="url(#hl_border)" 
-                             stroke-width="2.2" 
-                             stroke-linejoin="round" />
-
-                    <!-- Inner Bevel Prism -->
-                    <polygon points="40,9 64,19 71,40 64,61 40,71 16,61 9,40 16,19" 
-                             fill="none" 
-                             stroke="rgba(255,255,255,0.18)" 
-                             stroke-width="1" />
-
-                    <!-- Monogram RY Geometry -->
-                    <!-- R Vertical Pillar -->
-                    <path d="M25 21 V59" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
-                    <!-- R Arch -->
-                    <path d="M25 21 H43 C52 21 57 26 57 33 C57 40 52 44 43 44 H25" 
-                          stroke="url(#hl_sapphire)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
-                    <!-- R/Y Ascending Gold Vector Leg -->
-                    <path d="M39 44 L58 60" stroke="url(#hl_gold)" stroke-width="5" stroke-linecap="round" />
-                    <!-- Central Insight Pulsar Core -->
-                    <circle cx="40" cy="44" r="3.2" fill="#FFF066" filter="url(#hl_glow)" />
-                    <circle cx="40" cy="44" r="1.5" fill="#FFFFFF" />
-                    <!-- Horizon Coordinate Line -->
-                    <line x1="16" y1="44" x2="64" y2="44" stroke="rgba(255,255,255,0.2)" stroke-width="0.9" stroke-dasharray="2 2" />
-                  </g>
-
-                  <!-- Brand Typography System -->
-                  <g transform="translate(98, 8)">
-                    <!-- Pro Pill -->
-                    <g transform="translate(0, 10)">
-                      <rect x="0" y="-11" width="160" height="17" rx="4" fill="rgba(0, 113, 227, 0.15)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
-                      <circle cx="7" cy="-2.5" r="2.5" fill="#38BDF8" />
-                      <text x="14" y="0.5" fill="#7DD3FC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard', sans-serif" font-size="9" font-weight="800" letter-spacing="1.4">GLOBAL THINKTANK PRO</text>
-                    </g>
-
-                    <!-- Main Brand Name: RYUYOUNGSUN -->
-                    <text x="0" y="38" fill="url(#hl_text_grad)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Montserrat', 'Pretendard', sans-serif" font-size="28" font-weight="900" letter-spacing="2">RYUYOUNGSUN</text>
-
-                    <!-- Sub-Brand: Knowledge & Insight -->
-                    <g transform="translate(0, 62)">
-                      <text x="0" y="0" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14.5" font-weight="800" letter-spacing="2.8">KNOWLEDGE</text>
-                      <text x="114" y="0" fill="#FEE500" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="900">&amp;</text>
-                      <text x="132" y="0" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14.5" font-weight="800" letter-spacing="2.8">INSIGHT</text>
-                      <circle cx="218" cy="-4" r="2" fill="#64748B" />
-                      <text x="228" y="0" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="11" font-weight="700" letter-spacing="1">RESEARCH HUB</text>
-                    </g>
-                  </g>
-                </svg>
+              <div class="hero-apple-lockup" style="display: flex; align-items: center; gap: 18px; margin-bottom: 12px; flex-wrap: wrap;">
+                <div style="width: 58px; height: 58px; background: #1C1C1E; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(0,0,0,0.5); flex-shrink: 0;">
+                  <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.5 7.5 V24.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M9.5 7.8 H17 C20 7.8 22.5 10.3 22.5 13.3 C22.5 16.3 20 18.8 17 18.8 H9.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 18.5 L22.5 24.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                    <span style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', sans-serif; font-size: 2.2rem; font-weight: 900; letter-spacing: 0.12em; color: #FFFFFF; line-height: 1.1;">RYUYOUNGSUN</span>
+                    <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #86868B; border-radius: 980px; padding: 3px 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.08em;">THINKTANK PRO</span>
+                  </div>
+                  <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; font-size: 12.5px; font-weight: 600; letter-spacing: 0.2em; color: #86868B; margin-top: 4px;">
+                    KNOWLEDGE &amp; INSIGHT &bull; GLOBAL INTELLIGENCE HUB
+                  </div>
+                </div>
               </div>
-              <p class="hero-monument-desc" style="margin-top: 10px;">
+              <p class="hero-monument-desc" style="margin-top: 6px; font-size: 14px; color: #A1A1A6; line-height: 1.55;">
                 글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학을 관통하는 <strong>4,142개 글로벌 통합 인텔리전스 DB</strong>
-                <br><span style="font-size:13px; color:#94A3B8;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편)</span>
+                <br><span style="font-size:12px; color:#86868B;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편)</span>
               </p>
             </div>
 
@@ -5391,6 +5322,282 @@
   </header>
 
   
+  
+  <!-- ===================================================
+       3.35. Political & Election Opinion Polls Radar Section
+       중앙여심위 공직선거 기준 준수 · NBS 4사 공동조사 vs 갤럽·리얼미터 단독 정례조사 & 여론M
+       =================================================== -->
+  
+  <!-- ===================================================
+       3.35. Political & Election Opinion Polls Intelligence & 33-Year Historical Archive
+       중앙여심위 공직선거 기준 준수 · NBS 4사 공동조사 vs 갤럽·리얼미터 & 역대 정권(1993~2026) 전수 시계열
+       =================================================== -->
+  <section id="political-polls" class="political-polls-section" style="padding: 70px 0; background: #08080A; border-top: 1px solid rgba(255, 255, 255, 0.08); border-bottom: 1px solid rgba(255, 255, 255, 0.08); position: relative;">
+    <div class="container" style="max-width: 1240px; margin: 0 auto; padding: 0 20px;">
+      
+      <!-- Section Header -->
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0, 113, 227, 0.1); border: 1px solid rgba(0, 113, 227, 0.3); padding: 4px 12px; border-radius: 980px; font-size: 0.78rem; font-weight: 700; color: #2997FF; margin-bottom: 10px; letter-spacing: 0.02em;">
+            <span>🗳️ 2026 정치·선거 여론조사 &amp; 33개년 전수 시계열 아카이브 (1993~2026)</span>
+          </div>
+          <h2 style="font-size: 2.1rem; font-weight: 800; color: #F5F5F7; letter-spacing: -0.03em; margin: 0 0 8px 0; line-height: 1.2;">
+            민심의 지형과 선거의 역사를 관측하다: <span style="color: #2997FF;">최신 정례조사 &amp; 역대 정권 지지율 궤적</span>
+          </h2>
+          <p style="font-size: 0.95rem; color: #86868B; margin: 0; line-height: 1.55; max-width: 920px;">
+            중앙선거여론조사심의위원회(NESDC) 공직선거 등록 기준에 따라, 4개 리서치사 공동의 <strong>NBS 전국지표조사</strong>와 <strong>한국갤럽</strong>, <strong>리얼미터</strong>, <strong>MBC 여론M 베이지안 모델</strong>의 최신 결과를 실시간 비교하고, <strong>1993년 김영삼 정부부터 2026년 현재까지 33년간 역대 정권별 분기 지지율 궤적과 역대 총선 프레임 데이터</strong>를 전수 탐색할 수 있습니다.
+          </p>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <a href="https://www.nesdc.go.kr/portal/main.do" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12); padding: 8px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; color: #F5F5F7; text-decoration: none;">
+            <span>🏛️ 중앙여심위 전수 원장 ↗</span>
+          </a>
+          <a href="https://poll-mbc.co.kr/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(0, 113, 227, 0.15); border: 1px solid rgba(0, 113, 227, 0.4); padding: 8px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; color: #2997FF; text-decoration: none;">
+            <span>📊 여론M 메타 분석 ↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Live Polls Framework Chips Bar -->
+      <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 12px 18px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: 0.82rem; color: #CBD5E1;">
+        <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+          <span><strong>🤝 공동 정례조사</strong>: NBS (엠브레인·케이스탯·코리아·한국리서치 격주 전화면접 100%)</span>
+          <span style="color: rgba(255,255,255,0.15);">|</span>
+          <span><strong>👤 단독 정례조사</strong>: 한국갤럽(자체 전화면접) · 리얼미터(무선 97% ARS)</span>
+          <span style="color: rgba(255,255,255,0.15);">|</span>
+          <span><strong>🧮 메타 종합</strong>: MBC 여론M (하우스이펙트 보정)</span>
+        </div>
+        <div style="font-size: 0.75rem; color: #2997FF; font-weight: 600;">
+          ※ 표본오차 95% 신뢰수준 ±3.1%p (전국 만 18세 이상 1,000~1,005명)
+        </div>
+      </div>
+
+      <!-- 4 Core Polls Comparison Grid (Presidential Approval) -->
+      <div style="margin-bottom: 28px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: #F5F5F7; margin: 0; display: flex; align-items: center; gap: 8px;">
+            <span>🇰🇷 대통령 국정운영 직무수행 평가 (4대 조사체계 최신 비교)</span>
+          </h3>
+          <span style="font-size: 0.8rem; color: #86868B;">2026년 10월 최신 공표치 기준</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+          
+          <!-- NBS Card (Joint 4 Agencies) -->
+          <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 20px; position: relative;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span style="font-size: 0.72rem; font-weight: 700; color: #2997FF; background: rgba(0, 113, 227, 0.15); padding: 2px 8px; border-radius: 4px;">🤝 4사 공동 정례조사</span>
+              <span style="font-size: 0.75rem; color: #86868B;">10월 4주</span>
+            </div>
+            <div style="font-size: 1.15rem; font-weight: 800; color: #F5F5F7; margin-bottom: 2px;">NBS 전국지표조사</div>
+            <div style="font-size: 0.78rem; color: #86868B; margin-bottom: 14px;">전화면접 100% · 4개 리서치사 공동</div>
+
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+              <div>
+                <span style="font-size: 0.8rem; color: #2997FF; font-weight: 600;">긍정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #2997FF; line-height: 1.1;">28<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #FF453A; font-weight: 700;">▼1%p</span>
+              </div>
+              <div style="text-align: right;">
+                <span style="font-size: 0.8rem; color: #FF453A; font-weight: 600;">부정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #FF453A; line-height: 1.1;">64<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #FF453A; font-weight: 700;">▲2%p</span>
+              </div>
+            </div>
+
+            <!-- Ratio Bar -->
+            <div style="height: 6px; background: #2C2C2E; border-radius: 3px; overflow: hidden; display: flex; margin-bottom: 12px;">
+              <div style="width: 28%; background: #2997FF;"></div>
+              <div style="width: 8%; background: #636366;"></div>
+              <div style="width: 64%; background: #FF453A;"></div>
+            </div>
+            <div style="font-size: 0.75rem; color: #86868B; display: flex; justify-content: space-between;">
+              <span>응답률 15.7%</span>
+              <span>모름/무응답 8%</span>
+            </div>
+          </div>
+
+          <!-- Gallup Card (Solo Phone Interview) -->
+          <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span style="font-size: 0.72rem; font-weight: 700; color: #64D2FF; background: rgba(100, 210, 255, 0.15); padding: 2px 8px; border-radius: 4px;">👤 자체 정례조사</span>
+              <span style="font-size: 0.75rem; color: #86868B;">10월 4주</span>
+            </div>
+            <div style="font-size: 1.15rem; font-weight: 800; color: #F5F5F7; margin-bottom: 2px;">한국갤럽 (Gallup)</div>
+            <div style="font-size: 0.78rem; color: #86868B; margin-bottom: 14px;">전화면접 100% · 데일리 오피니언</div>
+
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+              <div>
+                <span style="font-size: 0.8rem; color: #2997FF; font-weight: 600;">긍정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #2997FF; line-height: 1.1;">22<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #30D158; font-weight: 700;">▲1%p</span>
+              </div>
+              <div style="text-align: right;">
+                <span style="font-size: 0.8rem; color: #FF453A; font-weight: 600;">부정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #FF453A; line-height: 1.1;">69<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #30D158; font-weight: 700;">▼1%p</span>
+              </div>
+            </div>
+
+            <!-- Ratio Bar -->
+            <div style="height: 6px; background: #2C2C2E; border-radius: 3px; overflow: hidden; display: flex; margin-bottom: 12px;">
+              <div style="width: 22%; background: #2997FF;"></div>
+              <div style="width: 9%; background: #636366;"></div>
+              <div style="width: 69%; background: #FF453A;"></div>
+            </div>
+            <div style="font-size: 0.75rem; color: #86868B; display: flex; justify-content: space-between;">
+              <span>응답률 12.4%</span>
+              <span>모름/무응답 9%</span>
+            </div>
+          </div>
+
+          <!-- Realmeter Card (ARS Automated) -->
+          <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span style="font-size: 0.72rem; font-weight: 700; color: #BF5AF2; background: rgba(191, 90, 242, 0.15); padding: 2px 8px; border-radius: 4px;">📞 미디어 의뢰 ARS</span>
+              <span style="font-size: 0.75rem; color: #86868B;">10월 4주</span>
+            </div>
+            <div style="font-size: 1.15rem; font-weight: 800; color: #F5F5F7; margin-bottom: 2px;">리얼미터 (Realmeter)</div>
+            <div style="font-size: 0.78rem; color: #86868B; margin-bottom: 14px;">무선 97% 유선 3% ARS 자동응답</div>
+
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+              <div>
+                <span style="font-size: 0.8rem; color: #2997FF; font-weight: 600;">긍정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #2997FF; line-height: 1.1;">24.6<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #FF453A; font-weight: 700;">▼2.5%p</span>
+              </div>
+              <div style="text-align: right;">
+                <span style="font-size: 0.8rem; color: #FF453A; font-weight: 600;">부정 평가</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #FF453A; line-height: 1.1;">71.4<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #FF453A; font-weight: 700;">▲2.6%p</span>
+              </div>
+            </div>
+
+            <!-- Ratio Bar -->
+            <div style="height: 6px; background: #2C2C2E; border-radius: 3px; overflow: hidden; display: flex; margin-bottom: 12px;">
+              <div style="width: 24.6%; background: #2997FF;"></div>
+              <div style="width: 4%; background: #636366;"></div>
+              <div style="width: 71.4%; background: #FF453A;"></div>
+            </div>
+            <div style="font-size: 0.75rem; color: #86868B; display: flex; justify-content: space-between;">
+              <span>응답률 3.1%</span>
+              <span>잘모름 4.0%</span>
+            </div>
+          </div>
+
+          <!-- MBC Poll M (Bayesian Meta Model) -->
+          <div style="background: #141416; border: 1px solid rgba(0, 113, 227, 0.4); border-radius: 16px; padding: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span style="font-size: 0.72rem; font-weight: 700; color: #2997FF; background: rgba(0, 113, 227, 0.15); padding: 2px 8px; border-radius: 4px;">🧮 베이지안 메타 종합</span>
+              <span style="font-size: 0.75rem; color: #2997FF;">실시간 앙상블</span>
+            </div>
+            <div style="font-size: 1.15rem; font-weight: 800; color: #F5F5F7; margin-bottom: 2px;">MBC 여론M (Poll-M)</div>
+            <div style="font-size: 0.78rem; color: #86868B; margin-bottom: 14px;">하우스 이펙트 보정 상태공간 모형</div>
+
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px;">
+              <div>
+                <span style="font-size: 0.8rem; color: #2997FF; font-weight: 600;">보정 긍정</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #2997FF; line-height: 1.1;">24.8<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #86868B;">신뢰구간 23~26%</span>
+              </div>
+              <div style="text-align: right;">
+                <span style="font-size: 0.8rem; color: #FF453A; font-weight: 600;">보정 부정</span>
+                <div style="font-size: 1.85rem; font-weight: 900; color: #FF453A; line-height: 1.1;">68.2<span style="font-size: 1rem; font-weight: 700;">%</span></div>
+                <span style="font-size: 0.75rem; color: #86868B;">신뢰구간 66~70%</span>
+              </div>
+            </div>
+
+            <!-- Ratio Bar -->
+            <div style="height: 6px; background: #2C2C2E; border-radius: 3px; overflow: hidden; display: flex; margin-bottom: 12px;">
+              <div style="width: 24.8%; background: #2997FF;"></div>
+              <div style="width: 7%; background: #636366;"></div>
+              <div style="width: 68.2%; background: #FF453A;"></div>
+            </div>
+            <div style="font-size: 0.75rem; color: #86868B; display: flex; justify-content: space-between;">
+              <span>조사기관 편향 보정</span>
+              <span>종합 안정치</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ===================================================
+           HISTORICAL ARCHIVE SECTION (33 YEARS & ELECTION DYNAMICS)
+           =================================================== -->
+      <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 18px; padding: 24px; margin-bottom: 28px;">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <div style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 700; color: #2997FF; margin-bottom: 4px;">
+              <span>📜 1993 ~ 2026 전수 시계열 아카이브 (33개년)</span>
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: #F5F5F7; margin: 0;">
+              역대 정권 분기별 국정 지지율 궤적 &amp; 역대 총선·대선 전수 데이터
+            </h3>
+          </div>
+
+          <!-- Main Explorer Category Switcher -->
+          <div style="display: flex; gap: 6px; background: rgba(0, 0, 0, 0.4); padding: 4px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.08);">
+            <button id="pollHistBtn1" class="apple-tab-btn active" onclick="switchHistoricalPollView('presidents')">🏛️ 역대 정권 궤적 비교 (YS~현재)</button>
+            <button id="pollHistBtn2" class="apple-tab-btn" onclick="switchHistoricalPollView('elections')">🗳️ 역대 총선 프레임 &amp; 정당 지지율</button>
+            <button id="pollHistBtn3" class="apple-tab-btn" onclick="switchHistoricalPollView('current_term')">📅 현 정권 2022~2026 전수 주간</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Content Box for Historical Polls -->
+        <div id="historicalPollContentBox">
+          <!-- Rendered via JS -->
+        </div>
+
+      </div>
+
+      <!-- 8 Official Portals Links Grid (From Bookmarks) -->
+      <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 18px; padding: 20px;">
+        <div style="font-size: 0.85rem; font-weight: 700; color: #F5F5F7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+          <span>🏛️ 대한민국 및 글로벌 8대 공식 정치·선거 여론조사 포털 (원문 직통 링크)</span>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+          <a href="https://www.nesdc.go.kr/portal/main.do" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #2997FF;">중앙선거여론조사심의위 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">공직선거법 등록 전수 원장 DB</div>
+          </a>
+          <a href="https://poll-mbc.co.kr/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #64D2FF;">MBC 여론M 메타분석 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">베이지안 하우스이펙트 보정</div>
+          </a>
+          <a href="http://nbssurvey.co.kr/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #30D158;">NBS 전국지표조사 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">4개사 공동 정례 전화면접 리포트</div>
+          </a>
+          <a href="https://www.gallup.co.kr/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #BF5AF2;">한국갤럽 데일리 오피니언 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">주간 자체조사 &amp; 30년사 연감</div>
+          </a>
+          <a href="https://www.realmeter.net/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #FF9F0A;">리얼미터 주간 동향 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">주간 ARS 정례조사 보고서</div>
+          </a>
+          <a href="https://polymarket.com/ko" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #2997FF;">Polymarket 예측시장 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">글로벌 1위 정치 예측시장</div>
+          </a>
+          <a href="https://kalshi.com/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #30D158;">Kalshi 미 연방규제 마켓 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">미 CFTC 공인 합법 선거 마켓</div>
+          </a>
+          <a href="http://issue.nec.go.kr/" target="_blank" rel="noopener noreferrer" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px; text-decoration: none; color: #FFFFFF; display: block; transition: all 0.2s;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #F5F5F7;">선관위 정책공약 알리미 ↗</div>
+            <div style="font-size: 0.72rem; color: #86868B; margin-top: 2px;">중앙선관위 후보자 공약 데이터</div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
   <!-- ===================================================
        3.4. Gemini Gems AI Trend Intelligence Lab Section
        =================================================== -->
@@ -6163,70 +6370,20 @@
   <!-- Prestige Thinktank Footer with Full BI Signature -->
   <footer class="pro-footer">
     <div class="footer-inner">
-      <div class="footer-brand-lockup">
-        <div class="footer-emblem-wrap">
-          <svg class="bi-emblem" width="52" height="52" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="shieldGrad_footer" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0071E3" />
-      <stop offset="50%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#6366F1" />
-    </linearGradient>
-    <linearGradient id="goldGrad_footer" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FEE500" />
-      <stop offset="100%" stop-color="#F59E0B" />
-    </linearGradient>
-    <linearGradient id="titaniumPlate_footer" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1E2330" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#0A0D14" stop-opacity="0.98" />
-    </linearGradient>
-    <filter id="biGlow_footer" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
-
-  <!-- Ambient Glow Background -->
-  <circle cx="50" cy="50" r="42" fill="url(#shieldGrad_footer)" opacity="0.25" filter="url(#biGlow_footer)" />
-
-  <!-- Outer Architectural Beveled Hexagon (Defense & Sovereign Authority) -->
-  <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" 
-           fill="url(#titaniumPlate_footer)" 
-           stroke="url(#shieldGrad_footer)" 
-           stroke-width="2.5" 
-           stroke-linejoin="round" />
-
-  <!-- Precision Inset Facet Line (Glass Prism Reflection) -->
-  <polygon points="50,13 82,31 82,69 50,87 18,69 18,31" 
-           fill="none" 
-           stroke="rgba(255,255,255,0.12)" 
-           stroke-width="1" />
-
-  <!-- Monogram Glyph: Architectural 'R' fused with 'Y' Foresight Vector -->
-  <!-- Left Pillar of R -->
-  <path d="M33 28 V72" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" />
-  
-  <!-- Upper Loop of R intersecting Y split -->
-  <path d="M33 28 H54 C63 28 68 34 68 41 C68 48 63 53 54 53 H33" 
-        stroke="url(#shieldGrad_footer)" 
-        stroke-width="5.5" 
-        stroke-linecap="round" 
-        stroke-linejoin="round" />
-        
-  <!-- Dynamic Ascending Right Leg of R (Strategic Horizon Vector) -->
-  <path d="M49 53 L69 72" stroke="url(#goldGrad_footer)" stroke-width="5.5" stroke-linecap="round" />
-
-  <!-- Y-Foresight Central Lens Node (Pulsing Center of Strategic Gravity) -->
-  <circle cx="50" cy="50" r="3.5" fill="#FEE500" filter="url(#biGlow_footer)" />
-  
-  <!-- Subtle Horizon Beam -->
-  <line x1="24" y1="50" x2="76" y2="50" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="2 2" />
+      <div class="footer-brand-lockup" style="display: flex; align-items: center; gap: 14px;">
+        <div class="apple-footer-emblem">
+          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="8" fill="#1C1C1E" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
+  <path d="M10 8 V24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M10 8.2 H16.8 C19.6 8.2 21.8 10.4 21.8 13.2 C21.8 16.0 19.6 18.2 16.8 18.2 H10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15.8 17.8 L22 24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
 </svg>
         </div>
-        <div class="footer-brand-info">
-          <div class="footer-brand-title">RYUYOUNGSUN‘s Knowledge &amp; Insight</div>
-          <div class="footer-brand-sub">GLOBAL MACRO RESEARCH &amp; STRATEGIC FORESIGHT GROUP</div>
+        <div>
+          <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif; font-size: 16px; font-weight: 800; letter-spacing: 0.16em; color: #F5F5F7;">RYUYOUNGSUN</div>
+          <div style="font-size: 11px; color: #86868B; letter-spacing: 0.12em; margin-top: 2px;">글로벌 싱크탱크 &amp; 인텔리전스 리서치 포털</div>
         </div>
+      </div>
       </div>
       <p class="footer-subtitle">565편의 심층 모노그래프, 1,821개 공식 통계 DB, 1,756편의 글로벌 유튜브 영상이 집대성된 4,142개 매머드급 글로벌 인텔리전스 허브</p>
       <div class="footer-legal">
@@ -7612,6 +7769,439 @@ window.renderOfficialSites = renderOfficialSites;
 window.jumpToEconometricsLab = jumpToEconometricsLab;
 
 </script>
+
+
+  <script>
+    // Political Polls Interactive SVG Chart Engine
+    const pollChartData = {
+      pres: {
+        title: "대통령 국정운영 평가 추이 (긍정 vs 부정, %)",
+        dates: ["26/05", "26/06", "26/07", "26/08", "26/09", "26/10"],
+        series: [
+          { name: "긍정 평가 (NBS/갤럽 평균)", color: "#38BDF8", values: [31, 29, 26, 27, 24, 25] },
+          { name: "부정 평가 (NBS/갤럽 평균)", color: "#F87171", values: [61, 63, 67, 66, 68, 66.5] }
+        ]
+      },
+      party: {
+        title: "주요 정당 지지도 월별 추이 (더불어민주당 vs 국민의힘, %)",
+        dates: ["26/05", "26/06", "26/07", "26/08", "26/09", "26/10"],
+        series: [
+          { name: "더불어민주당", color: "#60A5FA", values: [31, 32, 29, 31, 32, 32.5] },
+          { name: "국민의힘", color: "#F87171", values: [32, 30, 31, 31, 29, 29.0] },
+          { name: "조국혁신당", color: "#38BDF8", values: [11, 10, 9, 8, 8, 7.5] },
+          { name: "무당층", color: "#FCD34D", values: [20, 22, 24, 24, 26, 25.5] }
+        ]
+      },
+      frame: {
+        title: "선거 프레임 대결 추이 (국정 안정론 vs 정권 심판론, %)",
+        dates: ["26/05", "26/06", "26/07", "26/08", "26/09", "26/10"],
+        series: [
+          { name: "국정 안정론 (정부 지원)", color: "#3B82F6", values: [42, 40, 37, 39, 36, 38] },
+          { name: "정권 심판론 (정부 견제)", color: "#EF4444", values: [49, 51, 54, 52, 55, 53] }
+        ]
+      }
+    };
+
+    function renderPollChart(mode) {
+      const container = document.getElementById('pollChartContainer');
+      if (!container) return;
+      const data = pollChartData[mode] || pollChartData.pres;
+
+      const w = 1160;
+      const h = 200;
+      const padL = 50;
+      const padR = 40;
+      const padT = 30;
+      const padB = 35;
+      const plotW = w - padL - padR;
+      const plotH = h - padT - padB;
+
+      const allVals = data.series.flatMap(s => s.values);
+      const minV = Math.max(0, Math.floor(Math.min(...allVals) / 10) * 10 - 5);
+      const maxV = Math.min(100, Math.ceil(Math.max(...allVals) / 10) * 10 + 5);
+
+      const getX = i => padL + (i / (data.dates.length - 1)) * plotW;
+      const getY = v => padT + (1 - (v - minV) / (maxV - minV)) * plotH;
+
+      let svg = `<svg viewBox="0 0 ${w} ${h}" style="width: 100%; height: 100%; overflow: visible;" xmlns="http://www.w3.org/2000/svg">`;
+
+      // Grid Lines & Y-axis labels
+      for (let step = 0; step <= 4; step++) {
+        const val = Math.round(minV + (step / 4) * (maxV - minV));
+        const y = getY(val);
+        svg += `
+          <line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="rgba(255, 255, 255, 0.08)" stroke-dasharray="3,3" />
+          <text x="${padL - 10}" y="${y + 4}" fill="#64748B" font-size="11" text-anchor="end" font-weight="600">${val}%</text>
+        `;
+      }
+
+      // Dates X-axis labels
+      data.dates.forEach((d, i) => {
+        const x = getX(i);
+        svg += `
+          <text x="${x}" y="${h - 10}" fill="#94A3B8" font-size="11" text-anchor="middle" font-weight="700">${d}</text>
+        `;
+      });
+
+      // Series Paths & Points
+      data.series.forEach((s, sIdx) => {
+        let d = '';
+        s.values.forEach((v, i) => {
+          const x = getX(i);
+          const y = getY(v);
+          if (i === 0) d += `M ${x} ${y}`;
+          else {
+            const prevX = getX(i - 1);
+            const prevY = getY(s.values[i - 1]);
+            const cpX = (prevX + x) / 2;
+            d += ` C ${cpX} ${prevY}, ${cpX} ${y}, ${x} ${y}`;
+          }
+        });
+
+        // Path
+        svg += `
+          <path d="${d}" fill="none" stroke="${s.color}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        `;
+
+        // Dots & Value labels
+        s.values.forEach((v, i) => {
+          const x = getX(i);
+          const y = getY(v);
+          svg += `
+            <circle cx="${x}" cy="${y}" r="4.5" fill="#0F172A" stroke="${s.color}" stroke-width="2.5" />
+            <text x="${x}" y="${y - 9}" fill="${s.color}" font-size="11" font-weight="800" text-anchor="middle">${v}%</text>
+          `;
+        });
+      });
+
+      // Legend
+      let legX = padL;
+      data.series.forEach(s => {
+        svg += `
+          <rect x="${legX}" y="10" width="10" height="10" rx="2" fill="${s.color}" />
+          <text x="${legX + 15}" y="19" fill="#E2E8F0" font-size="11" font-weight="700">${s.name}</text>
+        `;
+        legX += s.name.length * 11 + 35;
+      });
+
+      svg += `</svg>`;
+      container.innerHTML = svg;
+    }
+
+    window.switchPollChart = function(mode) {
+      document.querySelectorAll('.poll-tab-btn').forEach(btn => {
+        btn.style.background = 'transparent';
+        btn.style.color = '#94A3B8';
+        btn.style.fontWeight = '700';
+      });
+
+      const activeBtnMap = {
+        pres: document.getElementById('pollChartBtnPres'),
+        party: document.getElementById('pollChartBtnParty'),
+        frame: document.getElementById('pollChartBtnFrame')
+      };
+
+      if (activeBtnMap[mode]) {
+        activeBtnMap[mode].style.background = '#F59E0B';
+        activeBtnMap[mode].style.color = '#000000';
+        activeBtnMap[mode].style.fontWeight = '800';
+      }
+
+      renderPollChart(mode);
+    };
+
+    // Auto-init on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      renderPollChart('pres');
+    });
+    // In case DOM is already loaded:
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(() => renderPollChart('pres'), 50);
+    }
+  </script>
+
+
+  <script>
+    // Historical Polls Data: 1993 ~ 2026 (Presidents Quarterly Approval Ratings)
+    const historicalPresidentsData = {
+      labels: ["1년1Q", "1년2Q", "1년3Q", "1년4Q", "2년2Q", "2년4Q", "3년2Q", "3년4Q", "4년2Q", "4년4Q", "5년2Q", "5년4Q"],
+      presidents: [
+        { name: "김영삼 (YS)", color: "#2997FF", points: [83, 83, 80, 71, 55, 44, 34, 41, 28, 28, 14, 6], peak: "83% (취임 금융실명제)", low: "6% (외환위기)" },
+        { name: "김대중 (DJ)", color: "#30D158", points: [71, 62, 56, 63, 56, 46, 45, 30, 29, 28, 26, 24], peak: "71% (외환위기 극복)", low: "24% (임기말)" },
+        { name: "노무현", color: "#FF9F0A", points: [60, 40, 29, 22, 27, 27, 34, 28, 12, 12, 24, 27], peak: "60% (취임)", low: "12% (부동산·대연정)" },
+        { name: "이명박 (MB)", color: "#BF5AF2", points: [52, 21, 24, 32, 27, 36, 44, 47, 39, 32, 25, 24], peak: "52% (취임)", low: "21% (광우병 파동)" },
+        { name: "박근혜", color: "#FF375F", points: [60, 60, 60, 53, 40, 40, 42, 43, 32, 4, null, null], peak: "63% (외교 순방)", low: "4% (탄핵 정국)" },
+        { name: "문재인", color: "#64D2FF", points: [81, 75, 73, 72, 58, 45, 47, 47, 44, 38, 38, 45], peak: "84% (남북정상회담)", low: "38% (퇴임 45% 최고)" },
+        { name: "현 정부", color: "#F59E0B", points: [52, 28, 28, 36, 35, 33, 34, 23, 22, 24, null, null], peak: "52% (취임)", low: "22% (의대증원·총선)" }
+      ]
+    };
+
+    // Historical Elections Dynamics Data
+    const historicalElectionsData = [
+      { name: "22대 총선 (2024)", frame: "정권심판 54% vs 국정안정 38%", outcome: "야당 압승 (민주·비례 175석 vs 국힘 108석)", note: "정권 심판론이 16%p 앞서며 야권 압승 견인" },
+      { name: "21대 총선 (2020)", frame: "국정안정 55% vs 정권심판 35%", outcome: "여당 압승 (민주·시민 180석 vs 통합 103석)", note: "코로나 방역 성공과 정부 지원론 20%p 우세로 헌정사상 최대 여당 과반" },
+      { name: "20대 총선 (2016)", frame: "야당심판 32% vs 정권심판 48%", outcome: "여소야대 (민주 123석 vs 새누리 122석)", note: "공천 파동과 심판론으로 16년 만의 여소야대 탄생" },
+      { name: "19대 총선 (2012)", frame: "정권안정 45% vs 정권심판 43%", outcome: "여당 단독과반 (새누리 152석 vs 민주 127석)", note: "박근혜 비대위의 경제민주화 쇄신으로 정권 심판론 극복" },
+      { name: "18대 총선 (2008)", frame: "국정안정 58% vs 정권심판 28%", outcome: "여당 압승 (한나라 153석 vs 통합민주 81석)", note: "MB 취임 직후 허니문 효과로 보수 압승" },
+      { name: "17대 총선 (2004)", frame: "탄핵심판 68% vs 탄핵지지 24%", outcome: "여당 단독과반 (열린우리 152석 vs 한나라 121석)", note: "노무현 대통령 탄핵소추 역풍으로 창당 6개월 신당 과반 달성" }
+    ];
+
+    let currentHistView = 'presidents';
+    let selectedPresidentIdx = 'ALL';
+
+    window.switchHistoricalPollView = function(view) {
+      currentHistView = view;
+      ['pollHistBtn1', 'pollHistBtn2', 'pollHistBtn3'].forEach(id => {
+        const el = document.getElementById(id);
+        if (el) el.classList.remove('active');
+      });
+      if (view === 'presidents') document.getElementById('pollHistBtn1').classList.add('active');
+      if (view === 'elections') document.getElementById('pollHistBtn2').classList.add('active');
+      if (view === 'current_term') document.getElementById('pollHistBtn3').classList.add('active');
+
+      renderHistoricalPollBox();
+    };
+
+    function renderHistoricalPollBox() {
+      const box = document.getElementById('historicalPollContentBox');
+      if (!box) return;
+
+      if (currentHistView === 'presidents') {
+        renderPresidentsTrajectory(box);
+      } else if (currentHistView === 'elections') {
+        renderElectionsDynamics(box);
+      } else if (currentHistView === 'current_term') {
+        renderCurrentTermTimeline(box);
+      }
+    }
+
+    function renderPresidentsTrajectory(box) {
+      const data = historicalPresidentsData;
+      let filterBtns = `<div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px;">`;
+      filterBtns += `<button class="apple-tab-btn ${selectedPresidentIdx === 'ALL' ? 'active' : ''}" onclick="selectPresidentFilter('ALL')">전체 정권 오버레이</button>`;
+      data.presidents.forEach((p, idx) => {
+        filterBtns += `<button class="apple-tab-btn ${selectedPresidentIdx === idx ? 'active' : ''}" onclick="selectPresidentFilter(${idx})" style="${selectedPresidentIdx === idx ? 'background: ' + p.color + ';' : ''}">${p.name}</button>`;
+      });
+      filterBtns += `</div>`;
+
+      // SVG Chart
+      const w = 1140;
+      const h = 260;
+      const padL = 50;
+      const padR = 40;
+      const padT = 30;
+      const padB = 40;
+      const plotW = w - padL - padR;
+      const plotH = h - padT - padB;
+
+      const getX = i => padL + (i / (data.labels.length - 1)) * plotW;
+      const getY = v => padT + (1 - v / 100) * plotH;
+
+      let svg = `<svg viewBox="0 0 ${w} ${h}" style="width: 100%; height: 260px; overflow: visible;" xmlns="http://www.w3.org/2000/svg">`;
+
+      // Y-axis grid
+      [0, 25, 50, 75, 100].forEach(val => {
+        const y = getY(val);
+        svg += `
+          <line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="rgba(255, 255, 255, 0.08)" stroke-dasharray="3,3" />
+          <text x="${padL - 10}" y="${y + 4}" fill="#86868B" font-size="11" text-anchor="end" font-weight="600">${val}%</text>
+        `;
+      });
+
+      // X-axis labels
+      data.labels.forEach((lbl, i) => {
+        const x = getX(i);
+        svg += `<text x="${x}" y="${h - 12}" fill="#86868B" font-size="11" text-anchor="middle" font-weight="700">${lbl}</text>`;
+      });
+
+      // Series lines
+      data.presidents.forEach((p, pIdx) => {
+        if (selectedPresidentIdx !== 'ALL' && selectedPresidentIdx !== pIdx) return;
+        const opacity = (selectedPresidentIdx === 'ALL') ? 0.85 : 1;
+        const strokeW = (selectedPresidentIdx === pIdx) ? 3.5 : 2.2;
+
+        let d = '';
+        let validPoints = [];
+        p.points.forEach((v, i) => {
+          if (v !== null) validPoints.push({ v, i, x: getX(i), y: getY(v) });
+        });
+
+        validPoints.forEach((pt, idx) => {
+          if (idx === 0) d += `M ${pt.x} ${pt.y}`;
+          else {
+            const prev = validPoints[idx - 1];
+            const cpX = (prev.x + pt.x) / 2;
+            d += ` C ${cpX} ${prev.y}, ${cpX} ${pt.y}, ${pt.x} ${pt.y}`;
+          }
+        });
+
+        svg += `<path d="${d}" fill="none" stroke="${p.color}" stroke-width="${strokeW}" stroke-opacity="${opacity}" stroke-linecap="round" stroke-linejoin="round" />`;
+
+        validPoints.forEach(pt => {
+          svg += `<circle cx="${pt.x}" cy="${pt.y}" r="3.5" fill="#141416" stroke="${p.color}" stroke-width="2" />`;
+        });
+      });
+
+      svg += `</svg>`;
+
+      // Detail Table
+      let tableHtml = `
+        <div style="margin-top: 18px; overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.82rem; text-align: left;">
+            <thead>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.12); color: #86868B;">
+                <th style="padding: 8px;">정권</th>
+                <th style="padding: 8px;">취임 초기 지지율</th>
+                <th style="padding: 8px;">역대 최고치</th>
+                <th style="padding: 8px;">역대 최저치</th>
+                <th style="padding: 8px;">퇴임 시 지지율</th>
+                <th style="padding: 8px;">주요 역사적 변곡점</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #2997FF;">김영삼 정부</td>
+                <td style="padding: 9px;">83%</td>
+                <td style="padding: 9px; color: #2997FF; font-weight: 700;">83% (금융실명제)</td>
+                <td style="padding: 9px; color: #FF453A;">6% (외환위기)</td>
+                <td style="padding: 9px;">6%</td>
+                <td style="padding: 9px; color: #86868B;">군 사조직 하나회 척결 및 OECD 가입 후 IMF 구제금융</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #30D158;">김대중 정부</td>
+                <td style="padding: 9px;">71%</td>
+                <td style="padding: 9px; color: #30D158; font-weight: 700;">71% (IMF 조기극복)</td>
+                <td style="padding: 9px; color: #FF453A;">24% (임기말)</td>
+                <td style="padding: 9px;">24%</td>
+                <td style="padding: 9px; color: #86868B;">외환위기 조기졸업, IT 벤처 육성, 6·15 남북정상회담</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #FF9F0A;">노무현 정부</td>
+                <td style="padding: 9px;">60%</td>
+                <td style="padding: 9px; color: #FF9F0A; font-weight: 700;">60% (취임)</td>
+                <td style="padding: 9px; color: #FF453A;">12% (대연정 제안)</td>
+                <td style="padding: 9px;">27%</td>
+                <td style="padding: 9px; color: #86868B;">2004 국회 탄핵안 가결 역풍, 한미 FTA 타결, 부동산 급등</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #BF5AF2;">이명박 정부</td>
+                <td style="padding: 9px;">52%</td>
+                <td style="padding: 9px; color: #BF5AF2; font-weight: 700;">52% (취임)</td>
+                <td style="padding: 9px; color: #FF453A;">21% (광우병 파동)</td>
+                <td style="padding: 9px;">24%</td>
+                <td style="padding: 9px; color: #86868B;">취임 100일 촛불시위, 글로벌 금융위기 극복, G20 서울정상회의</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #FF375F;">박근혜 정부</td>
+                <td style="padding: 9px;">60%</td>
+                <td style="padding: 9px; color: #FF375F; font-weight: 700;">63% (방미 성과)</td>
+                <td style="padding: 9px; color: #FF453A;">4% (국정농단)</td>
+                <td style="padding: 9px;">4% (탄핵)</td>
+                <td style="padding: 9px; color: #86868B;">세월호 참사, 메르스 사태, 2016 국정농단 사태 및 탄핵</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #64D2FF;">문재인 정부</td>
+                <td style="padding: 9px;">81%</td>
+                <td style="padding: 9px; color: #64D2FF; font-weight: 700;">84% (판문점 회담)</td>
+                <td style="padding: 9px; color: #FF453A;">38% (LH 사태)</td>
+                <td style="padding: 9px; font-weight: 700; color: #64D2FF;">45% (역대 최고)</td>
+                <td style="padding: 9px; color: #86868B;">2018 남북미 대화, 2020 코로나 방역, 부동산 가격 급등</td>
+              </tr>
+              <tr style="border-bottom: 1px solid rgba(255, 255, 255, 0.06);">
+                <td style="padding: 9px; font-weight: 700; color: #F59E0B;">현 정부</td>
+                <td style="padding: 9px;">52%</td>
+                <td style="padding: 9px; color: #F59E0B; font-weight: 700;">52% (취임)</td>
+                <td style="padding: 9px; color: #FF453A;">22% (총선·의대)</td>
+                <td style="padding: 9px; color: #F59E0B;">22~28% (진행)</td>
+                <td style="padding: 9px; color: #86868B;">청와대 용산 이전, 한미일 캠프데이비드, 22대 총선 여소야대</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      box.innerHTML = filterBtns + svg + tableHtml;
+    }
+
+    window.selectPresidentFilter = function(idx) {
+      selectedPresidentIdx = idx;
+      renderPresidentsTrajectory(document.getElementById('historicalPollContentBox'));
+    };
+
+    function renderElectionsDynamics(box) {
+      let html = `
+        <div style="font-size: 0.9rem; color: #CBD5E1; margin-bottom: 14px;">
+          역대 총선 직전 공표된 <strong>'국정 안정론(정부 지원)' vs '정권 심판론(정부 견제)'</strong>의 프레임 격차와 실제 선거 결과의 상관관계를 전수 분석한 원장입니다.
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px;">
+      `;
+
+      historicalElectionsData.forEach(e => {
+        html += `
+          <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 14px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+              <span style="font-size: 0.95rem; font-weight: 800; color: #FFFFFF;">${e.name}</span>
+              <span style="font-size: 0.75rem; color: #2997FF; font-weight: 700;">실제 의석수 연동</span>
+            </div>
+            <div style="font-size: 0.82rem; color: #F59E0B; font-weight: 700; margin-bottom: 4px;">⚖️ 프레임: ${e.frame}</div>
+            <div style="font-size: 0.85rem; color: #F5F5F7; font-weight: 800; margin-bottom: 6px;">결과: ${e.outcome}</div>
+            <div style="font-size: 0.76rem; color: #86868B; line-height: 1.4;">${e.note}</div>
+          </div>
+        `;
+      });
+
+      html += `</div>`;
+      box.innerHTML = html;
+    }
+
+    function renderCurrentTermTimeline(box) {
+      box.innerHTML = `
+        <div style="font-size: 0.88rem; color: #CBD5E1; margin-bottom: 12px;">
+          <strong>2022년 5월 취임부터 2026년 10월 현재까지</strong> 한국갤럽 및 NBS의 주간/격주 국정 지지율 변곡점 원장입니다.
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; font-size: 0.8rem;">
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #2997FF; font-weight: 800;">2022.05 취임 초기</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">긍정 52% · 부정 37%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">대통령실 용산 이전 및 6·1 지방선거 국민의힘 압승</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #FF453A; font-weight: 800;">2022.08 인사·외교 논란</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">긍정 24% · 부정 66%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">첫 데드크로스 발생 및 만 5세 입학 추진 혼선</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #30D158; font-weight: 800;">2023.08 캠프데이비드 순방</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">긍정 36% · 부정 57%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">한미일 정상회의 및 대미·대일 외교 협력 강화</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #FF453A; font-weight: 800;">2023.10 강서구청장 보선</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">긍정 30% · 부정 61%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">수도권 민심 경고음 및 여당 지도부 개편 착수</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #FF453A; font-weight: 800;">2024.04 22대 총선 여소야대</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">긍정 23% · 부정 68%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">의대 정원 증원 갈등 및 물가 부담 속 정권심판론 우세</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); padding: 12px; border-radius: 10px;">
+            <div style="color: #2997FF; font-weight: 800;">2026.10 현재 최신치</div>
+            <div style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 4px 0;">NBS 28% · 갤럽 22%</div>
+            <div style="color: #86868B; font-size: 0.74rem;">리얼미터 24.6% · 여론M 베이지안 앙상블 24.8% 안착</div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Auto-init
+    document.addEventListener('DOMContentLoaded', () => {
+      renderHistoricalPollBox();
+    });
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(renderHistoricalPollBox, 50);
+    }
+  </script>
 
 </body>
 </html>
