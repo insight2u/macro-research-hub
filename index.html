@@ -4842,6 +4842,152 @@
       box-shadow: 0 2px 10px rgba(0, 113, 227, 0.4);
     }
 
+  
+    /* ===================================================
+       AI Editorial Cartoon Showcase & Prestige Sponsor Band
+       =================================================== */
+    .cartoon-showcase-section {
+      background: #050508;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 60px 0;
+      position: relative;
+    }
+    .cartoon-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 36px;
+      align-items: start;
+    }
+    @media (max-width: 992px) {
+      .cartoon-grid { grid-template-columns: 1fr; }
+    }
+    .cartoon-img-card {
+      background: #0F0F12;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 16px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .cartoon-img-card:hover {
+      border-color: rgba(16, 185, 129, 0.4);
+      transform: translateY(-2px);
+    }
+    .cartoon-img-wrap {
+      width: 100%;
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+      background: #000;
+      cursor: pointer;
+    }
+    .cartoon-img-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+    .cartoon-img-wrap:hover img {
+      transform: scale(1.02);
+    }
+    .cartoon-img-zoom-hint {
+      position: absolute;
+      bottom: 14px;
+      right: 14px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 980px;
+      pointer-events: none;
+    }
+    .cartoon-meta-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      font-size: 0.82rem;
+      color: #8E8E93;
+    }
+    
+    /* Sponsor Marquee Band Styles */
+    .sponsor-marquee-section {
+      background: #09090D;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 32px 0 36px 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .sponsor-track-wrap {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+    .sponsor-marquee-track {
+      display: flex;
+      gap: 20px;
+      width: max-content;
+      animation: marqueeSponsor 45s linear infinite;
+    }
+    .sponsor-marquee-track:hover {
+      animation-play-state: paused;
+    }
+    @keyframes marqueeSponsor {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .sponsor-banner-card {
+      background: rgba(28, 28, 30, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      white-space: nowrap;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .sponsor-banner-card:hover {
+      background: rgba(44, 44, 46, 0.9);
+      border-color: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+    .sponsor-tag {
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .sponsor-tag.corp { background: rgba(0, 122, 255, 0.15); color: #0A84FF; border: 1px solid rgba(0, 122, 255, 0.3); }
+    .sponsor-tag.party { background: rgba(255, 69, 58, 0.15); color: #FF453A; border: 1px solid rgba(255, 69, 58, 0.3); }
+    .sponsor-tag.media { background: rgba(255, 159, 10, 0.15); color: #FF9F0A; border: 1px solid rgba(255, 159, 10, 0.3); }
+    .sponsor-tag.public { background: rgba(48, 209, 88, 0.15); color: #30D158; border: 1px solid rgba(48, 209, 88, 0.3); }
+    
+    .sponsor-name {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+    .sponsor-slogan {
+      font-size: 0.82rem;
+      color: #A1A1AA;
+    }
+
   </style>
 </head>
 <body>
@@ -4876,6 +5022,8 @@
       </a>
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·인텔리전스 브리핑</a>
+        <a href="#editorial-cartoon" class="hot-link" style="color: #10B981; font-weight: 700;">🎨 AI 시사·경제 만평</a>
+        <a href="#sponsor-band" class="nav-link" style="color: #A1A1AA;">🏢 파트너 띠배너</a>
         <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 700;">🗳️ 정치·선거 여론조사</a>
         <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 트렌드 분석 랩</a>
       <a href="#econometrics-lab" class="nav-link">🔬 계량통계 분석 랩</a>
@@ -5320,6 +5468,341 @@
 
     </div>
   </header>
+
+  <!-- ===================================================
+       ✦ AI Real-Time Editorial Cartoon Showcase
+       매일 정기(조·석간) & 거시경제·정치 실시간 특급 변곡점 연동 만평
+       =================================================== -->
+  <section id="editorial-cartoon" class="cartoon-showcase-section">
+    <div class="container" style="max-width: 1240px; margin: 0 auto; padding: 0 20px;">
+      
+      <!-- Section Header -->
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 28px; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.35); padding: 4px 14px; border-radius: 980px; font-size: 0.78rem; font-weight: 800; color: #10B981; margin-bottom: 10px; letter-spacing: 0.03em;">
+            <span>🎨 AI REAL-TIME EDITORIAL CARTOON · 시사·경제 만평</span>
+            <span style="background: #10B981; color: #000; font-size: 0.65rem; padding: 1px 6px; border-radius: 4px; font-weight: 900;">2026.10.28 석간 특급</span>
+          </div>
+          <h2 style="font-size: 2.1rem; font-weight: 800; color: #F5F5F7; letter-spacing: -0.03em; margin: 0 0 8px 0; line-height: 1.2;">
+            민심과 시장의 변곡점을 꿰뚫다: <span style="color: #10B981;">오늘의 AI 시사·경제 만평</span>
+          </h2>
+          <p style="font-size: 0.95rem; color: #86868B; margin: 0; line-height: 1.55; max-width: 920px;">
+            매일 <strong>07:00 조간 이슈 만평</strong>과 <strong>18:30 장 마감 결산 만평</strong>을 정기 발행하며, 환율 급변·금리 발표·총선 여론 변곡점 등 특급 거시 데이터가 감지될 때마다 <strong>실시간 인텔리전스 카툰</strong>으로 자동 생성·갱신합니다.
+          </p>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <button onclick="openCartoonLightbox()" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2); color: #fff; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
+            🔍 원본 고화질 확대
+          </button>
+          <a href="images/editorial_cartoon_today.png" download="RYUYOUNGSUN_Editorial_Cartoon_20261028.png" style="background: #10B981; color: #000; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+            💾 만평 저장
+          </a>
+        </div>
+      </div>
+
+      <!-- Cartoon Content Grid -->
+      <div class="cartoon-grid">
+        
+        <!-- Left Column: Editorial Cartoon Image -->
+        <div class="cartoon-img-card">
+          <div class="cartoon-img-wrap" onclick="openCartoonLightbox()">
+            <picture>
+              <source srcset="images/editorial_cartoon_today.webp" type="image/webp">
+              <img src="images/editorial_cartoon_today.png" alt="오늘의 AI 시사경제 만평: 한미 기준금리차와 1,336원 환율 줄다리기" id="currentCartoonImg">
+            </picture>
+            <div class="cartoon-img-zoom-hint">🔍 클릭하여 고해상도 확대보기</div>
+          </div>
+          
+          <div class="cartoon-meta-bar">
+            <div>
+              <strong style="color: #F5F5F7;">제작:</strong> RYUYOUNGSUN AI 인텔리전스 엔진 × Gemini
+            </div>
+            <div>
+              <strong style="color: #F5F5F7;">화풍:</strong> 퓰리처상 스타일 정통 수채화 &amp; 펜화 풍자화
+            </div>
+            <div>
+              <strong style="color: #10B981;">실시간 갱신 완료</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Editorial Analysis & Real-Time Facts -->
+        <div style="display: flex; flex-direction: column; gap: 18px;">
+          
+          <!-- Satirical Analysis Card -->
+          <div style="background: rgba(28, 28, 30, 0.6); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 22px; backdrop-filter: blur(20px);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+              <span style="font-size: 0.8rem; font-weight: 800; color: #10B981; letter-spacing: 0.05em; text-transform: uppercase;">EDITORIAL INSIGHT</span>
+              <span style="font-size: 0.75rem; color: #86868B;">2026.10.28 16:30 마감 종가 반영</span>
+            </div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: #FFFFFF; margin: 0 0 14px 0; line-height: 1.35;">
+              『1,336원의 팽팽한 줄다리기와 바닥의 HBM4 실탄』
+            </h3>
+            
+            <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.9rem; color: #D1D5DB; line-height: 1.6;">
+              <div style="display: flex; gap: 10px;">
+                <span style="color: #10B981; font-weight: 800;">①</span>
+                <div><strong>한·미 100bp 금리차의 저울질:</strong> 한은 3.00%(부엉이) vs 연준 4.00%(독수리)의 역전 구도 속에서, 원/달러 1,336원선 저울이 팽팽한 줄다리기를 이어갑니다.</div>
+              </div>
+              <div style="display: flex; gap: 10px;">
+                <span style="color: #10B981; font-weight: 800;">②</span>
+                <div><strong>3분기 GDP 1.0% 서프라이즈 vs 내수 온기:</strong> 거시 지표는 분기 1.0% 반등의 서프라이즈를 알렸으나, 무거운 달러 보따리가 여전히 원화의 날개를 누르고 있습니다.</div>
+              </div>
+              <div style="display: flex; gap: 10px;">
+                <span style="color: #10B981; font-weight: 800;">③</span>
+                <div><strong>원화를 받치는 진짜 방패, AI 반도체:</strong> 저울 바닥에서 빛나는 차세대 HBM4 16단 실리콘 웨이퍼만이 대한민국 통화 주권의 가장 든든한 수출 실탄임을 극명히 웅변합니다.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real-Time Data Factsheet Linked to Cartoon -->
+          <div style="background: rgba(18, 18, 22, 0.7); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 22px;">
+            <div style="font-size: 0.75rem; font-weight: 700; color: #86868B; margin-bottom: 12px; letter-spacing: 0.03em;">
+              📊 만평 팩트체크: 실시간 거시경제 지표 확정치
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                <div style="font-size: 0.72rem; color: #86868B;">원/달러 환율</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #FF453A;">1,336.10원</div>
+                <div style="font-size: 0.68rem; color: #FF453A;">▲8.10원 (마감)</div>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                <div style="font-size: 0.72rem; color: #86868B;">한·미 금리차</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #FF9F0A;">100bp</div>
+                <div style="font-size: 0.68rem; color: #A1A1AA;">한 3.0% / 미 4.0%</div>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                <div style="font-size: 0.72rem; color: #86868B;">3분기 실질 GDP</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #30D158;">1.0% q/q</div>
+                <div style="font-size: 0.68rem; color: #30D158;">▲서프라이즈</div>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                <div style="font-size: 0.72rem; color: #86868B;">클락슨 신조선가</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #0A84FF;">188.5p</div>
+                <div style="font-size: 0.68rem; color: #0A84FF;">▲고점 육박</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cartoon Series Navigation & Archive -->
+          <div style="display: flex; gap: 10px; align-items: center; justify-content: space-between; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06); padding: 10px 16px; border-radius: 12px; font-size: 0.82rem;">
+            <span style="color: #A1A1AA;">📅 역대 만평 시리즈 아카이브:</span>
+            <div style="display: flex; gap: 8px;">
+              <button style="background: rgba(16, 185, 129, 0.2); border: 1px solid #10B981; color: #10B981; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;">10/28 환율 줄다리기</button>
+              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;" onclick="alert('10/27 [일본 자민당 총선 참패와 153엔 엔저의 역습] 만평 아카이브를 불러옵니다.')">10/27 日엔저 역습</button>
+              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;" onclick="alert('10/26 [미 대선 D-8 관세 폭풍 vs 공급망] 만평 아카이브를 불러옵니다.')">10/26 美대선 관세</button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================================================
+       🏢 국내 주요 기업 · 주요 정당 · 주요 언론사 · 주요 공공기관 프레스티지 띠배너
+       Prestige Partner & Sponsorship Continuous Marquee Band
+       =================================================== -->
+  <section id="sponsor-band" class="sponsor-marquee-section">
+    <div class="container" style="max-width: 1240px; margin: 0 auto; padding: 0 20px 16px 20px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 0.72rem; font-weight: 800; color: #A1A1AA; letter-spacing: 0.08em; text-transform: uppercase;">✦ PRESTIGE STRATEGIC PARTNERSHIP BAND</span>
+          <span style="font-size: 0.72rem; color: #52525B;">|</span>
+          <span style="font-size: 0.78rem; color: #86868B;">국내 주요 기업 · 주요 정당 · 주요 언론사 · 공공·금융기관 공식 스폰서십 띠배너</span>
+        </div>
+        <div style="font-size: 0.72rem; color: #71717A;">
+          ※ 실시간 공식 파트너 네트워크 연동 중 (마우스 오버 시 일시정지)
+        </div>
+      </div>
+    </div>
+
+    <!-- Infinite Scrolling Marquee Track -->
+    <div class="sponsor-track-wrap">
+      <div class="sponsor-marquee-track">
+        
+        <!-- [1] 기업: 삼성전자 -->
+        <a class="sponsor-banner-card" href="https://www.samsung.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">삼성전자</span>
+          <span class="sponsor-slogan">글로벌 AI 혁신의 중심 · 갤럭시 &amp; 차세대 파운드리 2nm GAA</span>
+        </a>
+
+        <!-- [2] 정당: 더불어민주당 -->
+        <a class="sponsor-banner-card" href="https://theminjoo.kr" target="_blank">
+          <span class="sponsor-tag party">주요정당</span>
+          <span class="sponsor-name">더불어민주당</span>
+          <span class="sponsor-slogan">민생회복 경제 대전환 · 국민과 함께 도약하는 미래 대한민국</span>
+        </a>
+
+        <!-- [3] 언론: 매일경제 -->
+        <a class="sponsor-banner-card" href="https://www.mk.co.kr" target="_blank">
+          <span class="sponsor-tag media">주요언론</span>
+          <span class="sponsor-name">매일경제</span>
+          <span class="sponsor-slogan">No.1 경제 저널리즘 · 지식 강국을 이끄는 세계지식포럼</span>
+        </a>
+
+        <!-- [4] 기관: 한국은행 -->
+        <a class="sponsor-banner-card" href="https://www.bok.or.kr" target="_blank">
+          <span class="sponsor-tag public">주요기관</span>
+          <span class="sponsor-name">한국은행</span>
+          <span class="sponsor-slogan">물가 안정과 금융 안정을 선도하는 대한민국 중앙은행</span>
+        </a>
+
+        <!-- [5] 기업: SK하이닉스 -->
+        <a class="sponsor-banner-card" href="https://www.skhynix.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">SK하이닉스</span>
+          <span class="sponsor-slogan">글로벌 No.1 AI 메모리 · HBM4 16단 적층 패키징의 절대 패권</span>
+        </a>
+
+        <!-- [6] 정당: 국민의힘 -->
+        <a class="sponsor-banner-card" href="https://www.peoplepowerparty.kr" target="_blank">
+          <span class="sponsor-tag party">주요정당</span>
+          <span class="sponsor-name">국민의힘</span>
+          <span class="sponsor-slogan">자유와 역동적 혁신 · 따뜻한 동행으로 완성하는 글로벌 중추국가</span>
+        </a>
+
+        <!-- [7] 언론: 한국경제 -->
+        <a class="sponsor-banner-card" href="https://www.hankyung.com" target="_blank">
+          <span class="sponsor-tag media">주요언론</span>
+          <span class="sponsor-name">한국경제신문</span>
+          <span class="sponsor-slogan">성공을 부르는 습관 · 자본시장을 움직이는 글로벌 마켓 레이더</span>
+        </a>
+
+        <!-- [8] 기관: KDI 한국개발연구원 -->
+        <a class="sponsor-banner-card" href="https://www.kdi.re.kr" target="_blank">
+          <span class="sponsor-tag public">주요기관</span>
+          <span class="sponsor-name">KDI 한국개발연구원</span>
+          <span class="sponsor-slogan">대한민국 경제발전의 역사와 미래 정책을 설계하는 국책 싱크탱크</span>
+        </a>
+
+        <!-- [9] 기업: 현대자동차그룹 -->
+        <a class="sponsor-banner-card" href="https://www.hyundai.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">현대자동차그룹</span>
+          <span class="sponsor-slogan">스마트 모빌리티 디바이스 &amp; 휴머노이드 로보틱스 생태계</span>
+        </a>
+
+        <!-- [10] 정당: 조국혁신당 -->
+        <a class="sponsor-banner-card" href="https://www.innovativeparty.kr" target="_blank">
+          <span class="sponsor-tag party">주요정당</span>
+          <span class="sponsor-name">조국혁신당</span>
+          <span class="sponsor-slogan">사회권 선진국과 검찰개혁 · 더 빠르게 더 강하게 정치개혁</span>
+        </a>
+
+        <!-- [11] 언론: 연합뉴스 -->
+        <a class="sponsor-banner-card" href="https://www.yna.co.kr" target="_blank">
+          <span class="sponsor-tag media">주요언론</span>
+          <span class="sponsor-name">연합뉴스</span>
+          <span class="sponsor-slogan">신속·정확·공정한 대한민국 국가기간뉴스통신사</span>
+        </a>
+
+        <!-- [12] 기관: 금융감독원 -->
+        <a class="sponsor-banner-card" href="https://www.fss.or.kr" target="_blank">
+          <span class="sponsor-tag public">주요기관</span>
+          <span class="sponsor-name">금융감독원</span>
+          <span class="sponsor-slogan">금융소비자 보호와 공정하고 투명한 금융시장 질서 확립</span>
+        </a>
+
+        <!-- [13] 기업: NAVER -->
+        <a class="sponsor-banner-card" href="https://www.naver.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">NAVER</span>
+          <span class="sponsor-slogan">소버린 AI의 프론티어 · 팀네이버 하이퍼클로바X 생태계</span>
+        </a>
+
+        <!-- [14] 기업: LG에너지솔루션 -->
+        <a class="sponsor-banner-card" href="https://www.lgensol.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">LG에너지솔루션</span>
+          <span class="sponsor-slogan">배터리를 넘어 에너지 생태계로 · 글로벌 배터리 기술 표준</span>
+        </a>
+
+        <!-- Duplicate track for seamless infinite marquee loop -->
+        <!-- [1] 기업: 삼성전자 -->
+        <a class="sponsor-banner-card" href="https://www.samsung.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">삼성전자</span>
+          <span class="sponsor-slogan">글로벌 AI 혁신의 중심 · 갤럭시 &amp; 차세대 파운드리 2nm GAA</span>
+        </a>
+        <!-- [2] 정당: 더불어민주당 -->
+        <a class="sponsor-banner-card" href="https://theminjoo.kr" target="_blank">
+          <span class="sponsor-tag party">주요정당</span>
+          <span class="sponsor-name">더불어민주당</span>
+          <span class="sponsor-slogan">민생회복 경제 대전환 · 국민과 함께 도약하는 미래 대한민국</span>
+        </a>
+        <!-- [3] 언론: 매일경제 -->
+        <a class="sponsor-banner-card" href="https://www.mk.co.kr" target="_blank">
+          <span class="sponsor-tag media">주요언론</span>
+          <span class="sponsor-name">매일경제</span>
+          <span class="sponsor-slogan">No.1 경제 저널리즘 · 지식 강국을 이끄는 세계지식포럼</span>
+        </a>
+        <!-- [4] 기관: 한국은행 -->
+        <a class="sponsor-banner-card" href="https://www.bok.or.kr" target="_blank">
+          <span class="sponsor-tag public">주요기관</span>
+          <span class="sponsor-name">한국은행</span>
+          <span class="sponsor-slogan">물가 안정과 금융 안정을 선도하는 대한민국 중앙은행</span>
+        </a>
+        <!-- [5] 기업: SK하이닉스 -->
+        <a class="sponsor-banner-card" href="https://www.skhynix.com" target="_blank">
+          <span class="sponsor-tag corp">주요기업</span>
+          <span class="sponsor-name">SK하이닉스</span>
+          <span class="sponsor-slogan">글로벌 No.1 AI 메모리 · HBM4 16단 적층 패키징의 절대 패권</span>
+        </a>
+        <!-- [6] 정당: 국민의힘 -->
+        <a class="sponsor-banner-card" href="https://www.peoplepowerparty.kr" target="_blank">
+          <span class="sponsor-tag party">주요정당</span>
+          <span class="sponsor-name">국민의힘</span>
+          <span class="sponsor-slogan">자유와 역동적 혁신 · 따뜻한 동행으로 완성하는 글로벌 중추국가</span>
+        </a>
+        <!-- [7] 언론: 한국경제 -->
+        <a class="sponsor-banner-card" href="https://www.hankyung.com" target="_blank">
+          <span class="sponsor-tag media">주요언론</span>
+          <span class="sponsor-name">한국경제신문</span>
+          <span class="sponsor-slogan">성공을 부르는 습관 · 자본시장을 움직이는 글로벌 마켓 레이더</span>
+        </a>
+        <!-- [8] 기관: KDI 한국개발연구원 -->
+        <a class="sponsor-banner-card" href="https://www.kdi.re.kr" target="_blank">
+          <span class="sponsor-tag public">주요기관</span>
+          <span class="sponsor-name">KDI 한국개발연구원</span>
+          <span class="sponsor-slogan">대한민국 경제발전의 역사와 미래 정책을 설계하는 국책 싱크탱크</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Cartoon -->
+  <div id="cartoonLightboxModal" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.92); z-index: 999999; backdrop-filter: blur(15px); align-items: center; justify-content: center; padding: 20px;" onclick="closeCartoonLightbox()">
+    <div style="position: relative; max-width: 1100px; width: 100%; text-align: center;" onclick="event.stopPropagation()">
+      <button onclick="closeCartoonLightbox()" style="position: absolute; top: -45px; right: 0; background: rgba(255, 255, 255, 0.2); border: none; color: #fff; font-size: 24px; width: 36px; height: 36px; border-radius: 50%; cursor: pointer;">✕</button>
+      <img src="images/editorial_cartoon_today.png" style="max-width: 100%; max-height: 80vh; border-radius: 12px; box-shadow: 0 25px 60px rgba(0,0,0,0.8); border: 1px solid rgba(255,255,255,0.2);">
+      <div style="margin-top: 14px; color: #E5E7EB; font-size: 1rem; font-weight: 700;">
+        [2026.10.28 석간 AI 시사·경제 만평] 한은 vs 연준: 1,336원 환율 줄다리기와 차세대 HBM4 파운드리
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openCartoonLightbox() {
+      const modal = document.getElementById('cartoonLightboxModal');
+      if (modal) {
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+      }
+    }
+    function closeCartoonLightbox() {
+      const modal = document.getElementById('cartoonLightboxModal');
+      if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+      }
+    }
+  </script>
+
 
   
   
