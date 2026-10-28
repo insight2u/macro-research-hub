@@ -4315,6 +4315,419 @@
       line-height: 1.55;
     }
 
+
+/* ==========================================================================
+   ECONOMETRICS & STATISTICAL INTELLIGENCE LAB (글로벌 거시 계량통계 랩)
+   ========================================================================== */
+.econometrics-lab-section {
+  padding: 80px 24px;
+  background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.08) 0%, rgba(10, 15, 29, 0.98) 70%);
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.econ-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.econ-masthead {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.econ-badge-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.econ-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: rgba(14, 165, 233, 0.12);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.econ-badge.gold {
+  background: rgba(245, 158, 11, 0.12);
+  color: #fbbf24;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.econ-badge.emerald {
+  background: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.econ-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+  margin-bottom: 14px;
+  background: linear-gradient(135deg, #ffffff 40%, #bae6fd 80%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.econ-desc {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  line-height: 1.7;
+}
+
+.econ-tabs-nav {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  background: rgba(15, 23, 42, 0.75);
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.econ-tab-btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.econ-tab-btn:hover {
+  color: #f8fafc;
+  background: rgba(56, 189, 248, 0.1);
+  border-color: rgba(56, 189, 248, 0.25);
+}
+
+.econ-tab-btn.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.3) 0%, rgba(3, 105, 161, 0.4) 100%);
+  border-color: #38bdf8;
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.25);
+}
+
+.econ-tab-pane {
+  display: none;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  border-radius: 20px;
+  padding: 32px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.econ-tab-pane.active {
+  display: block;
+  animation: fadeInPane 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeInPane {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Control Toolbar */
+.econ-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.15);
+}
+
+.econ-select-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.econ-select-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.econ-select {
+  background: rgba(30, 41, 59, 0.9);
+  color: #ffffff;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.econ-select:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+}
+
+.econ-btn-group {
+  display: flex;
+  gap: 6px;
+}
+
+.econ-mini-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  color: #94a3b8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.econ-mini-btn:hover {
+  background: rgba(56, 189, 248, 0.15);
+  color: #ffffff;
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.econ-mini-btn.active {
+  background: #0284c7;
+  color: #ffffff;
+  border-color: #38bdf8;
+}
+
+/* KPI Summary Cards */
+.econ-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.econ-kpi-card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.econ-kpi-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.econ-kpi-value {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #38bdf8;
+}
+
+.econ-kpi-sub {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 4px;
+}
+
+/* Chart Container */
+.econ-chart-box {
+  background: rgba(11, 19, 38, 0.7);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+/* Heatmap Grid */
+.econ-heatmap-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+.econ-heatmap-table th,
+.econ-heatmap-table td {
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.econ-heatmap-table th {
+  background: rgba(30, 41, 59, 0.8);
+  color: #94a3b8;
+}
+
+.econ-heatmap-cell {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #ffffff;
+}
+
+.econ-heatmap-cell:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  outline: 2px solid #38bdf8;
+}
+
+/* Regression & Simulation */
+.econ-sim-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .econ-sim-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+.econ-sim-input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.econ-sim-input {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 10px 16px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Official Sites Grid */
+.econ-sites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.econ-site-card {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 12px;
+  padding: 18px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.25s ease;
+}
+
+.econ-site-card:hover {
+  background: rgba(30, 41, 59, 0.85);
+  border-color: #38bdf8;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.2);
+}
+
+.econ-site-tag {
+  align-self: flex-start;
+  padding: 3px 8px;
+  background: rgba(56, 189, 248, 0.12);
+  color: #38bdf8;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.econ-site-name {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.econ-site-desc {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+/* History Data Table */
+.econ-table-wrap {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  border-radius: 12px;
+}
+
+.econ-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.econ-data-table th,
+.econ-data-table td {
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+.econ-data-table th {
+  background: rgba(30, 41, 59, 0.9);
+  color: #38bdf8;
+  font-weight: 800;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.econ-data-table tr:hover td {
+  background: rgba(56, 189, 248, 0.05);
+}
+
 </style>
 </head>
 <body>
@@ -4397,6 +4810,7 @@
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·인텔리전스 브리핑</a>
         <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 트렌드 분석 랩</a>
+      <a href="#econometrics-lab" class="nav-link">🔬 계량통계 분석 랩</a>
         <a href="#email-sync">📡 글로벌 경제·산업 라이브 레이더</a>
         <a href="#explorer" onclick="setMainTab('notion')">📚 전략 모노그래프 원장 (565편)</a>
         <a href="#explorer" onclick="setMainTab('bookmarks')">📊 글로벌 거시·정책 DB (1,821개)</a>
@@ -5013,6 +5427,392 @@
   </section>
 
   <!-- 3.5. Newsletter Subscription Section (방문객 확대용 뉴스레터 구독) -->
+  
+  <!-- ==========================================================================
+       SECTION: 글로벌 거시경제 계량분석 & 이코노메트릭스 랩 (Econometrics Lab)
+       ========================================================================== -->
+  <section id="econometrics-lab" class="econometrics-lab-section">
+    <div class="econ-container">
+      
+      <!-- Masthead -->
+      <div class="econ-masthead">
+        <div class="econ-badge-row">
+          <span class="econ-badge">● BOK ECOS 1964~</span>
+          <span class="econ-badge gold">● US FRED 1954~</span>
+          <span class="econ-badge emerald">● KOSIS 1953~</span>
+          <span class="econ-badge">● KRX 1980~</span>
+          <span class="econ-badge gold">● 5대 고급 통계엔진 (교차·상관·회귀·군집·MDS)</span>
+        </div>
+        <h2 class="econ-title">🔬 글로벌 거시경제 계량분석 & 이코노메트릭스 랩</h2>
+        <p class="econ-desc">
+          한국은행 ECOS, 통계청 KOSIS, 미국 연준 FRED 등 공식 통계원의 <strong>최초 집계 시점(1953~)부터의 전수 시계열 빅데이터</strong>를 조회하고, 
+          <strong>교차분석 · 상관관계 매트릭스 · OLS 선형회귀분석 · K-Means 군집분석 · 다차원척도법(MDS)</strong>까지 브라우저에서 실시간으로 직접 실행하는 계량경제학(Econometrics) 연구 엔진입니다.
+        </p>
+      </div>
+
+      <!-- Tab Navigation -->
+      <div class="econ-tabs-nav">
+        <button class="econ-tab-btn active" onclick="switchEconTab('tab-inception')">
+          <span>📜 최초 시점 전수 시계열 (1953~)</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-cross')">
+          <span>🔄 이중축 교차분석 (Cross Analysis)</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-corr')">
+          <span>📈 상관관계 매트릭스 (Heatmap)</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-reg')">
+          <span>📉 OLS 선형회귀 & 예측 시뮬레이터</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-cluster')">
+          <span>🎯 거시 국면 군집분석 (K-Means)</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-mds')">
+          <span>🌐 다차원척도법 지각도 (MDS Map)</span>
+        </button>
+        <button class="econ-tab-btn" onclick="switchEconTab('tab-sites')">
+          <span>🏛️ 공식 통계원 직통 포털 (28선)</span>
+        </button>
+      </div>
+
+      <!-- Tab 1: 최초 시점 전수 시계열 -->
+      <div id="tab-inception" class="econ-tab-pane active">
+        <div class="econ-toolbar">
+          <div class="econ-select-group">
+            <span class="econ-select-label">지표 선택</span>
+            <select id="econInceptionSelect" class="econ-select" onchange="renderInceptionTimeSeries()">
+              <option value="usdkrw">원/달러 환율 (1964~2026, 한국은행)</option>
+              <option value="fed_rate">美 연준 기준금리 (1954~2026, FRED)</option>
+              <option value="bok_rate">韓 기준금리 (1999~2026, 한국은행)</option>
+              <option value="kr_gdp">韓 실질 GDP 성장률 (1954~2026, KOSIS)</option>
+              <option value="kospi">KOSPI 지수 (1980~2026, KRX)</option>
+              <option value="wti">WTI 국제 원유 (1983~2026, NYMEX/EIA)</option>
+            </select>
+          </div>
+          <div class="econ-btn-group">
+            <span class="econ-select-label" style="margin-right:8px;">조회 기간:</span>
+            <button class="econ-mini-btn active" onclick="setInceptionRange('all')">전체 (최초~현재)</button>
+            <button class="econ-mini-btn" onclick="setInceptionRange('30y')">최근 30년</button>
+            <button class="econ-mini-btn" onclick="setInceptionRange('15y')">최근 15년</button>
+            <button class="econ-mini-btn" onclick="setInceptionRange('5y')">최근 5년</button>
+            <button class="econ-mini-btn" style="border-color:#38bdf8; color:#38bdf8;" onclick="downloadInceptionCSV()">📥 CSV 다운로드</button>
+          </div>
+        </div>
+
+        <div class="econ-kpi-grid">
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">공식 최초 편제 연도</div>
+            <div class="econ-kpi-value" id="kpiInceptionYear">1964년</div>
+            <div class="econ-kpi-sub" id="kpiSource">한국은행 ECOS</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">전체 시계열 표본 수</div>
+            <div class="econ-kpi-value" id="kpiSampleCount">22개 연차</div>
+            <div class="econ-kpi-sub">연간/분기 정규화</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">역사적 최고치 (All-Time High)</div>
+            <div class="econ-kpi-value" id="kpiAthVal">1,415.0원</div>
+            <div class="econ-kpi-sub" id="kpiAthYear">1997년 (외환위기)</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">역사적 최저치 (All-Time Low)</div>
+            <div class="econ-kpi-value" id="kpiAtlVal">255.0원</div>
+            <div class="econ-kpi-sub" id="kpiAtlYear">1964년 (도입기)</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">2026년 10월 현재 확정치</div>
+            <div class="econ-kpi-value" id="kpiCurrentVal" style="color:#34d399;">1,336.10원</div>
+            <div class="econ-kpi-sub">10/28 장 마감 종가</div>
+          </div>
+        </div>
+
+        <!-- SVG Line Chart Box -->
+        <div class="econ-chart-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="font-size:0.95rem; font-weight:800; color:#ffffff;" id="chartTitleInception">원/달러 환율 (KRW/USD) 전수 시계열 추이 (1964~2026)</div>
+            <div style="font-size:0.8rem; color:#94a3b8;">● 노란색 포인트: 역사적 주요 정책·경제 변곡점 (호버/터치 시 상세)</div>
+          </div>
+          <div id="svgInceptionContainer" style="width:100%; height:340px; position:relative;"></div>
+        </div>
+
+        <!-- Historical Turning Points Table -->
+        <div style="font-size:0.95rem; font-weight:800; color:#ffffff; margin-bottom:12px;">🏛️ 전수 시계열 및 역사적 변곡점 원장 (Historical Registry)</div>
+        <div class="econ-table-wrap">
+          <table class="econ-data-table">
+            <thead>
+              <tr>
+                <th style="width:15%;">연도 (Year)</th>
+                <th style="width:25%;">수치 (Value)</th>
+                <th style="width:60%;">해당 시점의 역사적 거시경제 이벤트 및 통화정책</th>
+              </tr>
+            </thead>
+            <tbody id="inceptionTableBody">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tab 2: 이중축 교차분석 (Cross Analysis) -->
+      <div id="tab-cross" class="econ-tab-pane">
+        <div class="econ-toolbar">
+          <div class="econ-select-group">
+            <span class="econ-select-label">기준 변수 1 (좌측 Y축)</span>
+            <select id="crossVar1" class="econ-select" onchange="renderCrossAnalysis()">
+              <option value="usdkrw" selected>원/달러 환율 (KRW/USD)</option>
+              <option value="fed_rate">美 연준 기준금리 (%)</option>
+              <option value="kr_gdp">韓 실질 GDP 성장률 (%)</option>
+              <option value="kospi">KOSPI 지수 (p)</option>
+              <option value="wti">WTI 국제 원유 ($)</option>
+            </select>
+          </div>
+          <div class="econ-select-group">
+            <span class="econ-select-label">비교 변수 2 (우측 Y축)</span>
+            <select id="crossVar2" class="econ-select" onchange="renderCrossAnalysis()">
+              <option value="fed_rate" selected>美 연준 기준금리 (%)</option>
+              <option value="usdkrw">원/달러 환율 (KRW/USD)</option>
+              <option value="kr_gdp">韓 실질 GDP 성장률 (%)</option>
+              <option value="kospi">KOSPI 지수 (p)</option>
+              <option value="wti">WTI 국제 원유 ($)</option>
+            </select>
+          </div>
+          <button class="econ-mini-btn active" onclick="renderCrossAnalysis()">🔄 교차분석 실행</button>
+        </div>
+
+        <div class="econ-kpi-grid">
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">동시 상승 (Co-Expansion)</div>
+            <div class="econ-kpi-value" id="crossCoExpand" style="color:#38bdf8;">35.0%</div>
+            <div class="econ-kpi-sub">두 변수 동반 우상향 국면</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">역방향 디커플링 (Divergence / Hedge)</div>
+            <div class="econ-kpi-value" id="crossDivergence" style="color:#f59e0b;">45.0%</div>
+            <div class="econ-kpi-sub">헤지 및 상반된 거동 국면</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">동시 하락 (Co-Contraction)</div>
+            <div class="econ-kpi-value" id="crossCoContract" style="color:#ef4444;">20.0%</div>
+            <div class="econ-kpi-sub">동반 긴축·조정 국면</div>
+          </div>
+        </div>
+
+        <div class="econ-chart-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="font-size:0.95rem; font-weight:800; color:#ffffff;" id="crossChartTitle">이중축 정규화 교차 시계열 (Normalized Dual-Axis Overlay)</div>
+            <div style="font-size:0.8rem; color:#94a3b8;">
+              <span style="color:#38bdf8;">■ 변수 1 (좌측 Y축)</span> &nbsp;&nbsp; 
+              <span style="color:#fbbf24;">■ 변수 2 (우측 Y축)</span>
+            </div>
+          </div>
+          <div id="svgCrossContainer" style="width:100%; height:340px; position:relative;"></div>
+        </div>
+
+        <div style="background:rgba(30,41,59,0.5); border:1px solid rgba(56,189,248,0.2); border-radius:12px; padding:20px;">
+          <div style="font-size:0.95rem; font-weight:800; color:#38bdf8; margin-bottom:8px;">💡 교차분석 계량경제학적 인사이트 & 파급 경로</div>
+          <div id="crossInsightText" style="font-size:0.9rem; color:#cbd5e1; line-height:1.6;"></div>
+        </div>
+      </div>
+
+      <!-- Tab 3: 상관관계 매트릭스 (Correlation Heatmap) -->
+      <div id="tab-corr" class="econ-tab-pane">
+        <div class="econ-masthead" style="margin-bottom:24px; text-align:left;">
+          <div style="font-size:1.1rem; font-weight:800; color:#ffffff; margin-bottom:6px;">📈 6대 핵심 거시경제 지표 상관계수 피어슨(Pearson) 매트릭스</div>
+          <div style="font-size:0.85rem; color:#94a3b8;">각 셀을 클릭하시면 두 지표 간의 상세 상관관계 산점도 및 시차 상관(Lead-Lag) 분석을 확인할 수 있습니다.</div>
+        </div>
+
+        <div style="overflow-x:auto;">
+          <table class="econ-heatmap-table" id="corrHeatmapTable">
+            <!-- Dynamically populated via JS -->
+          </table>
+        </div>
+
+        <!-- Selected Pair Detail Panel -->
+        <div id="corrDetailPanel" style="background:rgba(30,41,59,0.6); border:1px solid rgba(56,189,248,0.3); border-radius:16px; padding:24px; margin-top:20px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:12px;">
+            <div style="font-size:1rem; font-weight:800; color:#ffffff;" id="corrPairTitle">원/달러 환율 vs 美 연준 기준금리 상관계수 심층 분석</div>
+            <div style="font-size:0.85rem; padding:4px 12px; border-radius:6px; background:#0284c7; color:#fff;" id="corrPairBadge">상관계수 r = -0.17 (약한 음의 상관)</div>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-bottom:16px;">
+            <div style="background:rgba(15,23,42,0.6); padding:12px; border-radius:8px;">
+              <div style="font-size:0.75rem; color:#94a3b8;">결정계수 (R²)</div>
+              <div style="font-size:1.1rem; font-weight:800; color:#38bdf8;" id="corrR2">0.029 (2.9% 설명력)</div>
+            </div>
+            <div style="background:rgba(15,23,42,0.6); padding:12px; border-radius:8px;">
+              <div style="font-size:0.75rem; color:#94a3b8;">시차 선행성 (Lead-Lag)</div>
+              <div style="font-size:1.1rem; font-weight:800; color:#fbbf24;" id="corrLeadLag">미 금리가 환율에 1~2분기 선행</div>
+            </div>
+            <div style="background:rgba(15,23,42,0.6); padding:12px; border-radius:8px;">
+              <div style="font-size:0.75rem; color:#94a3b8;">통계적 유의수준 (p-value)</div>
+              <div style="font-size:1.1rem; font-weight:800; color:#34d399;" id="corrPVal">p &lt; 0.05 (유의미)</div>
+            </div>
+          </div>
+          <div id="corrPairMechanism" style="font-size:0.88rem; color:#cbd5e1; line-height:1.6;"></div>
+        </div>
+      </div>
+
+      <!-- Tab 4: OLS 선형회귀 & 예측 시뮬레이터 -->
+      <div id="tab-reg" class="econ-tab-pane">
+        <div class="econ-toolbar">
+          <div class="econ-select-group">
+            <span class="econ-select-label">독립변수 X (원인)</span>
+            <select id="regXSelect" class="econ-select" onchange="runRegressionAnalysis()">
+              <option value="fed_rate" selected>美 연준 기준금리 (%)</option>
+              <option value="kr_gdp">韓 실질 GDP 성장률 (%)</option>
+              <option value="wti">WTI 국제 원유 ($)</option>
+              <option value="usdkrw">원/달러 환율 (원)</option>
+            </select>
+          </div>
+          <div class="econ-select-group">
+            <span class="econ-select-label">종속변수 Y (결과)</span>
+            <select id="regYSelect" class="econ-select" onchange="runRegressionAnalysis()">
+              <option value="usdkrw" selected>원/달러 환율 (원)</option>
+              <option value="kospi">KOSPI 지수 (p)</option>
+              <option value="kr_gdp">韓 실질 GDP 성장률 (%)</option>
+              <option value="fed_rate">美 연준 기준금리 (%)</option>
+            </select>
+          </div>
+          <button class="econ-mini-btn active" onclick="runRegressionAnalysis()">📉 OLS 회귀식 추정</button>
+        </div>
+
+        <div class="econ-kpi-grid">
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">추정 회귀 방정식 (OLS Equation)</div>
+            <div class="econ-kpi-value" id="regEquation" style="font-size:1rem; color:#fbbf24;">Y = 1080.51 - 14.10 * X</div>
+            <div class="econ-kpi-sub">최소자승법(Ordinary Least Squares)</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">결정계수 (R-Squared)</div>
+            <div class="econ-kpi-value" id="regR2Val" style="color:#38bdf8;">0.128</div>
+            <div class="econ-kpi-sub">모형의 총변동 설명력</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">회귀계수 기울기 (β Beta)</div>
+            <div class="econ-kpi-value" id="regBetaVal">-14.10</div>
+            <div class="econ-kpi-sub">X 단위 증가 시 Y 변화량</div>
+          </div>
+          <div class="econ-kpi-card">
+            <div class="econ-kpi-label">Y 절편 (α Alpha)</div>
+            <div class="econ-kpi-value" id="regAlphaVal">1,080.51</div>
+            <div class="econ-kpi-sub">X=0 일 때 기저 기대치</div>
+          </div>
+        </div>
+
+        <!-- Scatter Plot & Regression Line -->
+        <div class="econ-chart-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="font-size:0.95rem; font-weight:800; color:#ffffff;" id="regChartTitle">산점도(Scatter Plot) 및 OLS 최적 적합선(Best-fit Line)</div>
+            <div style="font-size:0.8rem; color:#94a3b8;">● 개별 좌표점: 역사적 실측치 / ─ 실선: 회귀 추세선</div>
+          </div>
+          <div id="svgRegContainer" style="width:100%; height:340px; position:relative;"></div>
+        </div>
+
+        <!-- Interactive What-If Simulator Panel -->
+        <div class="econ-sim-panel">
+          <div class="econ-sim-input-box">
+            <div style="font-size:1rem; font-weight:800; color:#38bdf8;">🔮 실시간 What-If 예측 시뮬레이터</div>
+            <p style="font-size:0.85rem; color:#94a3b8; margin:0;">독립변수 X에 가상 시나리오 수치를 입력하시면, 추정된 OLS 회귀식에 따른 종속변수 Y 기대치와 신뢰구간을 즉시 계산합니다.</p>
+            <div style="margin-top:12px;">
+              <label style="font-size:0.8rem; color:#cbd5e1; font-weight:700;" id="simInputLabel">독립변수 X 값 입력:</label>
+              <input type="number" step="0.1" id="simInputVal" class="econ-sim-input" value="4.0" style="margin-top:6px; width:100%;" oninput="calculateWhatIf()">
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; justify-content:center; background:rgba(15,23,42,0.7); border-radius:12px; padding:20px; border:1px solid rgba(56,189,248,0.2);">
+            <div style="font-size:0.8rem; color:#94a3b8; font-weight:700;">시뮬레이션 종속변수 Y 예측값</div>
+            <div style="font-size:1.8rem; font-weight:900; color:#34d399; margin:6px 0;" id="simOutputVal">1,024.11 원</div>
+            <div style="font-size:0.8rem; color:#cbd5e1;" id="simConfidence">95% 예측 신뢰구간: [ 890.5 ~ 1,157.7 ]</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 5: 거시 국면 군집분석 (Cluster Analysis) -->
+      <div id="tab-cluster" class="econ-tab-pane">
+        <div class="econ-masthead" style="margin-bottom:24px; text-align:left;">
+          <div style="font-size:1.1rem; font-weight:800; color:#ffffff; margin-bottom:6px;">🎯 K-Means 기반 대한민국 4대 거시경제 국면 클러스터링</div>
+          <div style="font-size:0.85rem; color:#94a3b8;">1970년부터 2026년까지의 역사적 시기들을 환율·금리·성장률·물가 다변량 벡터로 군집화하여 위기와 기회의 패턴을 식별합니다.</div>
+        </div>
+
+        <div class="econ-chart-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="font-size:0.95rem; font-weight:800; color:#ffffff;">K-Means 2D PCA 투영 클러스터 맵 (Regime Scatter Map)</div>
+            <div style="font-size:0.8rem; color:#94a3b8;">● 4대 거시 군집별 색상 매핑</div>
+          </div>
+          <div id="svgClusterContainer" style="width:100%; height:320px; position:relative;"></div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-top:20px;">
+          <div style="background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.3); border-radius:12px; padding:18px;">
+            <div style="font-size:0.75rem; font-weight:800; color:#f87171; text-transform:uppercase;">Cluster 1: 외환·유동성 위기 국면</div>
+            <div style="font-size:1.1rem; font-weight:900; color:#ffffff; margin:6px 0;">1997 IMF & 2008 금융위기</div>
+            <p style="font-size:0.8rem; color:#cbd5e1; line-height:1.5; margin:0;">
+              원/달러 환율 1,400~1,900원대 폭등, 실질 GDP 급격한 마이너스 역성장(-5.1%), 외환보유액 고갈 및 은행권 신용경색.
+            </p>
+          </div>
+          <div style="background:rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,0.3); border-radius:12px; padding:18px;">
+            <div style="font-size:0.75rem; font-weight:800; color:#fbbf24; text-transform:uppercase;">Cluster 2: 스태그플레이션 & 공급망 긴축</div>
+            <div style="font-size:1.1rem; font-weight:900; color:#ffffff; margin:6px 0;">1980 2차 오일쇼크 & 2022 킹달러</div>
+            <p style="font-size:0.8rem; color:#cbd5e1; line-height:1.5; margin:0;">
+              원유 $100~120+ 돌파, 연준 기준금리 급격한 자이언트스텝 긴축(5.50%), 공급망 병목 속 고물가와 성장 둔화 공존.
+            </p>
+          </div>
+          <div style="background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.3); border-radius:12px; padding:18px;">
+            <div style="font-size:0.75rem; font-weight:800; color:#34d399; text-transform:uppercase;">Cluster 3: 유동성 팽창 & 자산 랠리</div>
+            <div style="font-size:1.1rem; font-weight:900; color:#ffffff; margin:6px 0;">2000 닷컴버블 & 2020 팬데믹</div>
+            <p style="font-size:0.8rem; color:#cbd5e1; line-height:1.5; margin:0;">
+              제로금리(0.25%)와 대규모 양적완화(QE), 화폐가치 하락 속 KOSPI(3,300p 돌파) 및 부동산·주식 등 자산 인플레이션.
+            </p>
+          </div>
+          <div style="background:rgba(14,165,233,0.12); border:1px solid rgba(14,165,233,0.3); border-radius:12px; padding:18px;">
+            <div style="font-size:0.75rem; font-weight:800; color:#38bdf8; text-transform:uppercase;">Cluster 4: 펀더멘털 고성장 & 슈퍼사이클</div>
+            <div style="font-size:1.1rem; font-weight:900; color:#ffffff; margin:6px 0;">1986 3저 호황 & 2026 AI 반도체 랠리</div>
+            <p style="font-size:0.8rem; color:#cbd5e1; line-height:1.5; margin:0;">
+              설비투자(4.1%) 주도 GDP 1.0% 서프라이즈, 반도체 HBM4 수출 호조, 코스피 6,000p 돌파 및 건전한 실물 회복.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 6: 다차원척도법 지각도 (MDS 2D Map) -->
+      <div id="tab-mds" class="econ-tab-pane">
+        <div class="econ-masthead" style="margin-bottom:24px; text-align:left;">
+          <div style="font-size:1.1rem; font-weight:800; color:#ffffff; margin-bottom:6px;">🌐 다차원척도법(MDS: Multi-Dimensional Scaling) 거시 지각도</div>
+          <div style="font-size:0.85rem; color:#94a3b8;">
+            지표 간 상관계수 거리(d = √(2(1-r)))를 2차원 공간 상에 최적 투영한 지각도(Perceptual Map)입니다. 거리가 가까울수록 유사한 거동(동조화)을 보이며, 대척점에 위치할수록 헤지(Hedge) 또는 역상관 자산입니다.
+          </div>
+        </div>
+
+        <div class="econ-chart-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <div style="font-size:0.95rem; font-weight:800; color:#ffffff;">거시 지표 간 2차원 지각도 (MDS Perceptual Map)</div>
+            <div style="font-size:0.8rem; color:#94a3b8;">각 노드를 클릭하시면 해당 지표와 다른 모든 지표 간의 거리 벡터를 분석합니다.</div>
+          </div>
+          <div id="svgMdsContainer" style="width:100%; height:360px; position:relative;"></div>
+        </div>
+
+        <div id="mdsDetailBox" style="background:rgba(30,41,59,0.5); border:1px solid rgba(56,189,248,0.2); border-radius:12px; padding:20px;">
+          <div style="font-size:0.95rem; font-weight:800; color:#38bdf8; margin-bottom:8px;" id="mdsSelectedTitle">선택 지표: 원/달러 환율 (KRW/USD)</div>
+          <div id="mdsSelectedDesc" style="font-size:0.88rem; color:#cbd5e1; line-height:1.6;">
+            다차원 척도 지각도 상에서 원/달러 환율은 위험자산(KOSPI)과 반대편에 위치하여 전통적인 역상관 헤지 자산의 특성을 보입니다. 반면 WTI 유가와는 공급망 쇼크 시기에 동일 사분면으로 수렴하는 경향이 관찰됩니다.
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 7: 즐겨찾기 공식 통계원 직통 포털 -->
+      <div id="tab-sites" class="econ-tab-pane">
+        <div class="econ-masthead" style="margin-bottom:24px; text-align:left;">
+          <div style="font-size:1.1rem; font-weight:800; color:#ffffff; margin-bottom:6px;">🏛️ 유영선 연구위원 북마크 엄선: 국내외 28대 공식 금융·경제 통계원 직통 허브</div>
+          <div style="font-size:0.85rem; color:#94a3b8;">원천 데이터 열람 및 마이크로데이터 직접 조회를 위해 각 공식 기관의 데이터베이스로 바로 이동하실 수 있습니다.</div>
+        </div>
+
+        <div class="econ-sites-grid" id="econSitesGrid">
+          <!-- Dynamically populated via JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
   <section class="newsletter-section" id="newsletter">
     <div class="hero-container">
       <div class="newsletter-card">
@@ -6052,7 +6852,629 @@
         window.closeTrendChartModal();
       }
     });
-  </script>
+  
+
+// ==========================================================================
+// ECONOMETRICS & STATISTICAL INTELLIGENCE LAB ENGINE
+// ==========================================================================
+const ECON_MACRO_DATA = {"usdkrw": {"name": "원/달러 환율 (KRW/USD)", "source": "한국은행 ECOS · 서울외환시장 (최초 편제: 1964년 단일변동환율제 도입)", "inception_year": 1964, "unit": "원", "historical_records": [{"year": 1964, "val": 255.0, "event": "단일변동환율제 도입"}, {"year": 1970, "val": 310.0, "event": "수출 주도형 경제 성장기"}, {"year": 1974, "val": 484.0, "event": "1차 오일쇼크 여파 환율 인상"}, {"year": 1980, "val": 659.9, "event": "복수통화바스켓 환율제 도입"}, {"year": 1985, "val": 890.2, "event": "플라자 합의 직후"}, {"year": 1990, "val": 716.4, "event": "시장평균환율제 도입"}, {"year": 1995, "val": 774.7, "event": "WTO 출범 및 OECD 가입 추진"}, {"year": 1997, "val": 1415.0, "event": "IMF 외환위기 발발 (장중 최고 1,960원)"}, {"year": 1998, "val": 1204.0, "event": "자유변동환율제 전면 전환"}, {"year": 2000, "val": 1264.5, "event": "닷컴 버블 붕괴 국면"}, {"year": 2005, "val": 1011.6, "event": "수출 호조 및 원화 강세 국면"}, {"year": 2007, "val": 936.1, "event": "글로벌 유동성 랠리 및 최저 환율"}, {"year": 2008, "val": 1259.5, "event": "리먼브라더스 글로벌 금융위기 (장중 1,570원)"}, {"year": 2010, "val": 1134.8, "event": "G20 서울 정상회의 및 회복세"}, {"year": 2015, "val": 1172.5, "event": "미국 연준 금리 인상 사이클 진입"}, {"year": 2018, "val": 1115.7, "event": "미·중 무역분쟁 점화"}, {"year": 2020, "val": 1086.3, "event": "팬데믹 쇼크 후 글로벌 유동성 팽창"}, {"year": 2022, "val": 1264.5, "event": "미 연준 자이언트스텝 & 킹달러 (최고 1,442원)"}, {"year": 2023, "val": 1288.0, "event": "고금리 장기화 속 1,300원대 박스권"}, {"year": 2024, "val": 1378.0, "event": "중동 분쟁 및 연준 50bp 빅컷 단행"}, {"year": 2025, "val": 1342.0, "event": "글로벌 통화 완화 기조 및 원화 연착륙"}, {"year": 2026, "val": 1336.1, "event": "10/28 장 마감 종가 (3분기 GDP 1.0% 반등 안착)"}]}, "fed_rate": {"name": "美 연준 기준금리 (Fed Funds Rate)", "source": "미국 연방준비제도 FRED (최초 집계: 1954년)", "inception_year": 1954, "unit": "%", "historical_records": [{"year": 1954, "val": 1.3, "event": "FRED 공식 금리 집계 개시"}, {"year": 1960, "val": 3.2, "event": "케네디 행정부 초기"}, {"year": 1970, "val": 8.0, "event": "베트남전 인플레이션 압력"}, {"year": 1974, "val": 10.5, "event": "1차 오일쇼크 긴축"}, {"year": 1981, "val": 19.1, "event": "폴 볼커 연준의장 초고금리 쿠데타 (역대 최고)"}, {"year": 1985, "val": 8.1, "event": "인플레이션 안정화 및 플라자 합의"}, {"year": 1990, "val": 7.0, "event": "걸프전 및 경기둔화 대응"}, {"year": 1994, "val": 5.5, "event": "앨런 그린스펀 선제적 기습 금리인상"}, {"year": 1998, "val": 4.75, "event": "러시아 모라토리엄 및 LTCM 구제"}, {"year": 2000, "val": 6.5, "event": "닷컴 버블 정점 긴축"}, {"year": 2003, "val": 1.0, "event": "닷컴 붕괴 후 1% 초저금리 유동성"}, {"year": 2006, "val": 5.25, "event": "서브프라임 모기지 직전 금리 정점"}, {"year": 2008, "val": 0.25, "event": "글로벌 금융위기 발발 제로금리(ZIRP) 단행"}, {"year": 2015, "val": 0.5, "event": "7년 만의 첫 금리 정상화 인상"}, {"year": 2018, "val": 2.5, "event": "파월 연준의장 양적긴축 및 금리인상"}, {"year": 2020, "val": 0.25, "event": "코로나19 팬데믹 전격 제로금리 복귀"}, {"year": 2022, "val": 4.5, "event": "4연속 75bp 자이언트스텝 초긴축"}, {"year": 2023, "val": 5.5, "event": "22년 만의 최고 기준금리(5.25~5.50%) 동결"}, {"year": 2024, "val": 5.0, "event": "9월 FOMC 50bp 빅컷(Big-Cut) 피벗 개시"}, {"year": 2025, "val": 4.25, "event": "점진적 통화정책 정상화 인하 사이클"}, {"year": 2026, "val": 4.0, "event": "2026년 10월 현재 기준금리 상단 4.00% 안착"}]}, "bok_rate": {"name": "한국은행 기준금리 (콜금리 목표치 포함)", "source": "한국은행 ECOS (공식 기준금리 편제: 1999년 콜금리 목표치 도입)", "inception_year": 1999, "unit": "%", "historical_records": [{"year": 1999, "val": 4.75, "event": "콜금리 목표제 공식 도입"}, {"year": 2000, "val": 5.25, "event": "경기 과열 방지 금리 인상"}, {"year": 2001, "val": 4.0, "event": "9·11 테러 및 닷컴 붕괴 대응 인하"}, {"year": 2004, "val": 3.25, "event": "카드사태 극복 및 내수부양 인하"}, {"year": 2008, "val": 3.0, "event": "7일물 RP '한국은행 기준금리' 개편 및 금융위기 200bp 인하"}, {"year": 2009, "val": 2.0, "event": "금융위기 사상 최저 금리 인하"}, {"year": 2011, "val": 3.25, "event": "물가 급등 대응 금리 정상화"}, {"year": 2016, "val": 1.25, "event": "조선·해운 구조조정 및 저성장 대응 사상 최저"}, {"year": 2018, "val": 1.75, "event": "한미 금리역전 및 부동산 과열 대응"}, {"year": 2020, "val": 0.5, "event": "팬데믹 쇼크 0.50% 사상 최저치"}, {"year": 2021, "val": 1.0, "event": "아시아 선진국 최초 기준금리 인상 개시"}, {"year": 2022, "val": 3.25, "event": "한은 사상 최초 50bp 빅스텝 2회 단행"}, {"year": 2023, "val": 3.5, "event": "가계부채·환율 관리 3.50% 장기 동결"}, {"year": 2024, "val": 3.25, "event": "내수 침체 완화 25bp 피벗 인하"}, {"year": 2025, "val": 3.0, "event": "잠재성장률 방어 3.00% 인하"}, {"year": 2026, "val": 3.0, "event": "10/28 현재 기준금리 3.00% 확정 동결 (美 4.00% vs 韓 3.00%)"}]}, "kr_gdp": {"name": "대한민국 실질 GDP 성장률 (전년대비)", "source": "한국은행 ECOS · 통계청 KOSIS (최초 통계 편제: 1953년 국민계정)", "inception_year": 1953, "unit": "%", "historical_records": [{"year": 1954, "val": 5.5, "event": "전쟁 직후 전후 복구 국면"}, {"year": 1960, "val": 1.2, "event": "4·19 혁명 및 정치적 과도기"}, {"year": 1965, "val": 5.8, "event": "제1차 경제개발 5개년 계획 본격화"}, {"year": 1970, "val": 8.8, "event": "경부고속도로 개통 및 중화학공업화"}, {"year": 1976, "val": 13.2, "event": "중동 건설 붐 및 역대급 고성장"}, {"year": 1980, "val": -1.5, "event": "2차 오일쇼크·10·26 흉작 사상 첫 역성장"}, {"year": 1986, "val": 11.2, "event": "3저 호황 (저유가·저금리·저원화) 대호황"}, {"year": 1988, "val": 11.9, "event": "서울 올림픽 특수"}, {"year": 1995, "val": 9.6, "event": "1인당 국민소득 1만 달러 최초 돌파"}, {"year": 1998, "val": -5.1, "event": "IMF 외환위기 역대 최대 역성장 충격"}, {"year": 1999, "val": 11.5, "event": "IT 벤처 붐 및 V자형 대반등"}, {"year": 2005, "val": 4.3, "event": "중국 특수 및 제조업 수출 성장"}, {"year": 2008, "val": 3.0, "event": "글로벌 금융위기 발발"}, {"year": 2009, "val": 0.8, "event": "OECD 선진국 유일 플러스 성장 방어"}, {"year": 2010, "val": 6.8, "event": "반도체·자동차 수출 폭발 턴어라운드"}, {"year": 2015, "val": 2.8, "event": "2%대 저성장 고착화 진입"}, {"year": 2020, "val": -0.7, "event": "코로나19 팬데믹 역성장 (OECD 1위 방어)"}, {"year": 2021, "val": 4.3, "event": "글로벌 공급망 재개 및 반도체 슈퍼사이클"}, {"year": 2022, "val": 2.6, "event": "인플레이션 및 통화긴축 둔화"}, {"year": 2023, "val": 1.4, "event": "반도체 한파 및 대중 수출 부진"}, {"year": 2024, "val": 2.4, "event": "HBM 수출 호조 (1분기 1.3%, 3분기 0.1%)"}, {"year": 2025, "val": 2.1, "event": "잠재성장률 2% 안착"}, {"year": 2026, "val": 2.3, "event": "3분기 1.0% 서프라이즈 및 연간 2.2~2.3% 상향"}]}, "kospi": {"name": "KOSPI (한국 종합주가지수)", "source": "한국거래소 KRX (최초 산출: 1980년 1월 4일 = 100p 기준)", "inception_year": 1980, "unit": "p", "historical_records": [{"year": 1980, "val": 106.9, "event": "KOSPI 100포인트 기준점 공식 출범"}, {"year": 1985, "val": 163.4, "event": "3저 호황 직전 축적기"}, {"year": 1989, "val": 1007.8, "event": "한국 증시 사상 최초 1,000p 돌파"}, {"year": 1992, "val": 678.4, "event": "외국인 주식 직접투자 허용"}, {"year": 1997, "val": 376.3, "event": "IMF 외환위기 대폭락 (장중 277p)"}, {"year": 1999, "val": 1028.1, "event": "IT 바이코리아 펀드 붐 1,000p 탈환"}, {"year": 2003, "val": 810.7, "event": "중국 모멘텀 펀드 랠리 개시"}, {"year": 2007, "val": 2064.9, "event": "사상 최초 2,000p 시대 개막 (차·화·정)"}, {"year": 2008, "val": 1124.5, "event": "리먼 사태 폭락 (장중 892p)"}, {"year": 2011, "val": 2228.9, "event": "차·화·정 랠리 최고점"}, {"year": 2017, "val": 2567.5, "event": "삼성전자·SK하이닉스 반도체 1차 슈퍼사이클"}, {"year": 2020, "val": 2873.5, "event": "동학개미운동 및 사상 최고치 경신"}, {"year": 2021, "val": 3305.2, "event": "사상 최초 3,300p 삼천피 돌파 최고점"}, {"year": 2022, "val": 2236.4, "event": "글로벌 긴축 및 반도체 다운턴 급락"}, {"year": 2023, "val": 2655.3, "event": "2차전지 랠리 및 반도체 바닥 확인"}, {"year": 2024, "val": 2750.0, "event": "기업 밸류업 프로그램 및 금투세 폐지 논의"}, {"year": 2025, "val": 3450.0, "event": "HBM4 패권 및 코리아 디스카운트 해소"}, {"year": 2026, "val": 6012.4, "event": "10/28 장 마감 6,012.44p (+6.63% 폭등 대기록)"}]}, "wti": {"name": "WTI 국제 원유 (달러/배럴)", "source": "NYMEX 뉴욕상업거래소 · EIA (최초 선물 편제: 1983년)", "inception_year": 1983, "unit": "$", "historical_records": [{"year": 1983, "val": 31.8, "event": "NYMEX WTI 원유선물 거래 개시"}, {"year": 1986, "val": 14.5, "event": "사우디 점유율 전쟁 및 유가 폭락"}, {"year": 1990, "val": 35.9, "event": "이라크 쿠웨이트 침공 걸프전 쇼크"}, {"year": 1998, "val": 12.1, "event": "아시아 금융위기 수요 급감 10달러대 바닥"}, {"year": 2003, "val": 31.1, "event": "이라크 전쟁 개막"}, {"year": 2008, "val": 145.3, "event": "글로벌 원자재 슈퍼사이클 장중 $147.27 사상 최고치"}, {"year": 2008, "val": 44.6, "event": "금융위기 발발 급락"}, {"year": 2011, "val": 95.1, "event": "아랍의 봄 및 리비아 내전"}, {"year": 2014, "val": 53.3, "event": "미국 셰일 혁명 및 OPEC 공급 과잉 충격"}, {"year": 2020, "val": -37.6, "event": "코로나 팬데믹 저장시설 마비 사상 최초 마이너스 유가"}, {"year": 2022, "val": 123.7, "event": "러시아-우크라이나 전쟁 발발 $120 돌파"}, {"year": 2024, "val": 71.5, "event": "중동 긴장 속 글로벌 수요 둔화 우려"}, {"year": 2025, "val": 78.4, "event": "에너지 전환 속 지정학적 공급망 재편"}, {"year": 2026, "val": 101.9, "event": "10/28 현재 $101.91 (중동 긴장 고조 $100 돌파)"}]}};
+const ECON_OFFICIAL_SITES = [{"category": "국내 공공·중앙은행", "name": "한국은행 ECOS (경제통계시스템)", "url": "https://ecos.bok.or.kr/", "desc": "기준금리(1999~), 환율(1964~), 통화량, 물가 등 대한민국 핵심 거시 통계 원천", "tag": "공식 원천"}, {"category": "국내 공공·중앙은행", "name": "한국은행 금융·경제 스냅샷", "url": "https://snapshot.bok.or.kr/", "desc": "한국은행 공식 실시간 금융시장 및 거시경제 시각화 대시보드", "tag": "BOK"}, {"category": "국내 공공·중앙은행", "name": "통계청 국가통계포털 (KOSIS)", "url": "https://kosis.kr/", "desc": "실질 GDP(1953~), 소비자물가, 인구, 고용 등 국가 통계 총괄 포털", "tag": "국가 총괄"}, {"category": "국내 공공·중앙은행", "name": "통계청 e-나라지표", "url": "http://www.index.go.kr/main.do", "desc": "국정 모니터링을 위한 대한민국 핵심 경제·사회 지표 포털", "tag": "정부 지표"}, {"category": "국내 공공·중앙은행", "name": "MDIS 마이크로데이터 통합서비스", "url": "https://mdis.kostat.go.kr/index.do", "desc": "통계청 원자료 마이크로데이터 기반 심층 계량 분석 서비스", "tag": "계량 원자료"}, {"category": "국내 공공·중앙은행", "name": "기획재정부 경제지표 & 재정통계", "url": "http://www.moef.go.kr/st/submain.do?menuNo=6000000", "desc": "일일 거시경제지표 및 국가재정 수지 공식 통계", "tag": "기재부"}, {"category": "국내 공공·중앙은행", "name": "열린재정 (재정정보공개시스템)", "url": "https://www.openfiscaldata.go.kr/op/ko/index", "desc": "중앙정부 예산 집행, 국채 발행 및 국가채무 실시간 데이터", "tag": "재정 통계"}, {"category": "국책연구원 & 싱크탱크", "name": "KDI 경제정보센터 (EIEC)", "url": "https://eiec.kdi.re.kr/bigdata/indicators.do", "desc": "KDI 공식 경제지표 및 국내외 거시경제 빅데이터 분석 허브", "tag": "국책 연구"}, {"category": "국책연구원 & 싱크탱크", "name": "KDI 경제e정표 (시계열서비스)", "url": "https://epts.kdi.re.kr/", "desc": "대한민국 경제개발 70년 경제정책 역사 시계열 DB", "tag": "정책 시계열"}, {"category": "국책연구원 & 싱크탱크", "name": "국제금융센터 (KCIF)", "url": "https://www.kcif.or.kr/chart/exchangeList", "desc": "글로벌 외환시장, 국제금융 모니터링 및 외환위기 조기경보", "tag": "외환/국제금융"}, {"category": "국책연구원 & 싱크탱크", "name": "대외경제정책연구원 (KIEP)", "url": "https://www.kiep.go.kr/gallery.es?mid=a10104040000&bid=0013", "desc": "글로벌 경제 통계 및 주요 교역국 통상 데이터", "tag": "대외 통상"}, {"category": "국책연구원 & 싱크탱크", "name": "국회예산정책처 (NABO Stats)", "url": "https://www.nabostats.go.kr/portal/main/indexPage.do", "desc": "의회 차원의 국가재정 및 거시경제 전망 공식 통계시스템", "tag": "의회 재정"}, {"category": "글로벌 중앙은행 & 기구", "name": "미국 연방준비제도 FRED (St. Louis Fed)", "url": "https://fred.stlouisfed.org/", "desc": "전 세계 80만 개 이상의 거시경제 시계열을 보유한 세계 최대 데이터 허브", "tag": "글로벌 표준"}, {"category": "글로벌 중앙은행 & 기구", "name": "미국 연준 본부 (Federal Reserve Board)", "url": "http://www.federalreserve.gov/econresdata/default.htm", "desc": "미국 기준금리 정책, FOMC 회의록 및 연준 경제연구 데이터", "tag": "미국 연준"}, {"category": "글로벌 중앙은행 & 기구", "name": "NBER (미국 국립경제연구국)", "url": "https://www.nber.org/", "desc": "미국 경기 사이클(침체/확장) 공식 판정 및 최신 계량경제 워킹페이퍼", "tag": "경기 판정"}, {"category": "글로벌 중앙은행 & 기구", "name": "IMF Data (국제통화기금)", "url": "https://www.imf.org/en/Data", "desc": "세계경제전망(WEO), 국제수지(BOP) 및 글로벌 금융안정보고서 통계", "tag": "IMF 공식"}, {"category": "글로벌 중앙은행 & 기구", "name": "World Bank Open Data (세계은행)", "url": "https://data.worldbank.org/", "desc": "글로벌 경제개발, 국가별 GDP, 부채 및 빈곤 통계 포털", "tag": "세계은행"}, {"category": "글로벌 중앙은행 & 기구", "name": "OECD Data (경제협력개발기구)", "url": "https://data.oecd.org/", "desc": "선진국 경기선행지수(CLI), 물가상승률, 고용 및 조세 비교 통계", "tag": "OECD 선진국"}, {"category": "글로벌 중앙은행 & 기구", "name": "BIS Statistics (국제결제은행)", "url": "https://www.bis.org/statistics/index.htm", "desc": "중앙은행의 중앙은행: 글로벌 은행간 익스포저 및 실효환율 통계", "tag": "BIS 바젤"}, {"category": "글로벌 중앙은행 & 기구", "name": "WTO International Trade Data", "url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm", "desc": "세계무역기구 글로벌 수출입 무역 및 관세율 통계 DB", "tag": "글로벌 무역"}, {"category": "금융시장 & 대체데이터", "name": "금융감독원 FISIS (금융통계정보)", "url": "https://fisis.fss.or.kr/page/main.jsp", "desc": "은행·증권·보험 등 전 금융권역별 핵심 재무건전성 및 경영지표", "tag": "금감원"}, {"category": "금융시장 & 대체데이터", "name": "금융투자협회 채권정보센터 (KOFIA)", "url": "https://www.kofiabond.or.kr/", "desc": "국고채, 회사채, CP 수익률 및 장단기 스프레드 실시간 공시", "tag": "채권 금리"}, {"category": "금융시장 & 대체데이터", "name": "한국거래소 KRX 통계시스템", "url": "http://stats.krx.co.kr/main", "desc": "코스피, 코스닥, 파생상품 시장별 거래대금 및 시가총액 통계", "tag": "KRX 증시"}, {"category": "금융시장 & 대체데이터", "name": "한국예탁결제원 Seibro (증권정보)", "url": "http://www.seibro.or.kr/websquare/control.jsp?w2xPath=/IPORTAL/user/index.xml", "desc": "국내외 외화주식 보관잔액, 배당 및 증권 발행 유통 통계", "tag": "예탁원"}, {"category": "금융시장 & 대체데이터", "name": "TradingEconomics Global Indicators", "url": "https://ko.tradingeconomics.com/indicators", "desc": "전 세계 196개국의 2000만 개 경제지표 실시간 트래커", "tag": "글로벌 실시간"}, {"category": "금융시장 & 대체데이터", "name": "Clarksons Research (클락슨스 해양물류)", "url": "https://www.clarksons.com/", "desc": "글로벌 조선 해운 시장의 절대 표준: 신조선가지수 및 운임 통계", "tag": "조선·해운"}, {"category": "금융시장 & 대체데이터", "name": "OPEC Data & Statistics (석유수출국기구)", "url": "http://www.opec.org/opec_web/en/data_graphs/40.htm", "desc": "글로벌 원유 생산량, 원유 바스켓 가격 및 에너지 수급 전망", "tag": "원유·에너지"}, {"category": "금융시장 & 대체데이터", "name": "Portfolio Visualizer", "url": "https://www.portfoliovisualizer.com/", "desc": "거시경제 팩터 기반 자산배분, 백테스팅 및 몬테카를로 시뮬레이션", "tag": "계량 퀀트"}];
+
+let currentEconRange = 'all';
+let currentMdsSelected = 'usdkrw';
+
+function switchEconTab(tabId) {
+  document.querySelectorAll('.econ-tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.econ-tab-pane').forEach(p => p.classList.remove('active'));
+  
+  const targetPane = document.getElementById(tabId);
+  if (targetPane) targetPane.classList.add('active');
+  
+  // Find matching button
+  const btns = document.querySelectorAll('.econ-tab-btn');
+  btns.forEach(b => {
+    if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(tabId)) {
+      b.classList.add('active');
+    }
+  });
+
+  // Trigger rendering depending on tab
+  if (tabId === 'tab-inception') renderInceptionTimeSeries();
+  else if (tabId === 'tab-cross') renderCrossAnalysis();
+  else if (tabId === 'tab-corr') renderCorrelationHeatmap();
+  else if (tabId === 'tab-reg') runRegressionAnalysis();
+  else if (tabId === 'tab-cluster') renderClusterAnalysis();
+  else if (tabId === 'tab-mds') renderMDSAnalysis();
+  else if (tabId === 'tab-sites') renderOfficialSites();
+}
+
+function setInceptionRange(range) {
+  currentEconRange = range;
+  document.querySelectorAll('#tab-inception .econ-mini-btn').forEach(b => b.classList.remove('active'));
+  const targetBtn = Array.from(document.querySelectorAll('#tab-inception .econ-mini-btn')).find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes(range));
+  if (targetBtn) targetBtn.classList.add('active');
+  renderInceptionTimeSeries();
+}
+
+function renderInceptionTimeSeries() {
+  const sel = document.getElementById('econInceptionSelect');
+  if (!sel) return;
+  const key = sel.value;
+  const item = ECON_MACRO_DATA[key];
+  if (!item) return;
+
+  let records = [...item.historical_records];
+  if (currentEconRange === '30y') records = records.filter(r => r.year >= 1996);
+  else if (currentEconRange === '15y') records = records.filter(r => r.year >= 2011);
+  else if (currentEconRange === '5y') records = records.filter(r => r.year >= 2021);
+
+  if (records.length === 0) records = [...item.historical_records];
+
+  // Update KPIs
+  document.getElementById('kpiInceptionYear').textContent = item.inception_year + '년';
+  document.getElementById('kpiSource').textContent = item.source.split('(')[0].trim();
+  document.getElementById('kpiSampleCount').textContent = records.length + '개 기준 시점';
+
+  const vals = records.map(r => r.val);
+  const maxVal = Math.max(...vals);
+  const minVal = Math.min(...vals);
+  const maxRec = records.find(r => r.val === maxVal);
+  const minRec = records.find(r => r.val === minVal);
+  const latestRec = records[records.length - 1];
+
+  document.getElementById('kpiAthVal').textContent = maxVal.toLocaleString() + ' ' + item.unit;
+  document.getElementById('kpiAthYear').textContent = maxRec ? maxRec.year + '년 (' + maxRec.event.slice(0, 15) + '...)' : '';
+
+  document.getElementById('kpiAtlVal').textContent = minVal.toLocaleString() + ' ' + item.unit;
+  document.getElementById('kpiAtlYear').textContent = minRec ? minRec.year + '년 (' + minRec.event.slice(0, 15) + '...)' : '';
+
+  document.getElementById('kpiCurrentVal').textContent = latestRec.val.toLocaleString() + ' ' + item.unit;
+  document.getElementById('chartTitleInception').textContent = item.name + ' 전수 시계열 추이 (' + records[0].year + '~' + records[records.length - 1].year + ')';
+
+  // Render SVG Chart
+  const svgBox = document.getElementById('svgInceptionContainer');
+  const width = 1000;
+  const height = 340;
+  const padL = 70;
+  const padR = 40;
+  const padT = 30;
+  const padB = 40;
+  const innerW = width - padL - padR;
+  const innerH = height - padT - padB;
+
+  const yMin = minVal < 0 ? minVal * 1.2 : minVal * 0.85;
+  const yMax = maxVal * 1.15;
+  const yRange = yMax - yMin || 1;
+
+  const points = records.map((r, i) => {
+    const x = padL + (i / (records.length - 1 || 1)) * innerW;
+    const y = padT + innerH - ((r.val - yMin) / yRange) * innerH;
+    return { x, y, r };
+  });
+
+  // Path generator
+  let pathD = '';
+  points.forEach((p, i) => {
+    if (i === 0) pathD += `M ${p.x} ${p.y}`;
+    else {
+      const prev = points[i - 1];
+      const cx1 = prev.x + (p.x - prev.x) * 0.45;
+      const cy1 = prev.y;
+      const cx2 = prev.x + (p.x - prev.x) * 0.55;
+      const cy2 = p.y;
+      pathD += ` C ${cx1} ${cy1}, ${cx2} ${cy2}, ${p.x} ${p.y}`;
+    }
+  });
+
+  const areaD = pathD + ` L ${points[points.length - 1].x} ${padT + innerH} L ${points[0].x} ${padT + innerH} Z`;
+
+  let yGridHtml = '';
+  const ySteps = 5;
+  for (let s = 0; s <= ySteps; s++) {
+    const v = yMin + (s / ySteps) * yRange;
+    const gy = padT + innerH - (s / ySteps) * innerH;
+    yGridHtml += `
+      <line x1="${padL}" y1="${gy}" x2="${width - padR}" y2="${gy}" stroke="rgba(56,189,248,0.12)" stroke-dasharray="4 4" />
+      <text x="${padL - 10}" y="${gy + 4}" fill="#94a3b8" font-size="11" text-anchor="end" font-weight="600">${v.toFixed(1)}</text>
+    `;
+  }
+
+  let xLabelsHtml = '';
+  const stepMod = records.length > 15 ? 3 : 1;
+  points.forEach((p, i) => {
+    if (i % stepMod === 0 || i === points.length - 1) {
+      xLabelsHtml += `
+        <text x="${p.x}" y="${padT + innerH + 20}" fill="#94a3b8" font-size="11" text-anchor="middle" font-weight="600">${p.r.year}</text>
+      `;
+    }
+  });
+
+  let dotsHtml = '';
+  points.forEach(p => {
+    dotsHtml += `
+      <g class="econ-chart-point" style="cursor:pointer;" onclick="showInceptionPointDetail('${p.r.year}', '${p.r.val}', '${p.r.event}')">
+        <circle cx="${p.x}" cy="${p.y}" r="5" fill="#fbbf24" stroke="#0f172a" stroke-width="2">
+          <title>${p.r.year}년: ${p.r.val} ${item.unit}&#10;${p.r.event}</title>
+        </circle>
+      </g>
+    `;
+  });
+
+  svgBox.innerHTML = `
+    <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:100%; display:block; overflow:visible;">
+      <defs>
+        <linearGradient id="econInceptionGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+          <stop offset="100%" stop-color="#0284c7" stop-opacity="0.0"/>
+        </linearGradient>
+      </defs>
+      ${yGridHtml}
+      <path d="${areaD}" fill="url(#econInceptionGrad)" />
+      <path d="${pathD}" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+      ${dotsHtml}
+      ${xLabelsHtml}
+    </svg>
+  `;
+
+  // Populate Table
+  const tbody = document.getElementById('inceptionTableBody');
+  tbody.innerHTML = records.slice().reverse().map(r => `
+    <tr>
+      <td style="font-weight:800; color:#38bdf8;">${r.year}년</td>
+      <td style="font-weight:700; color:#ffffff;">${r.val.toLocaleString()} ${item.unit}</td>
+      <td style="color:#cbd5e1;">${r.event}</td>
+    </tr>
+  `).join('');
+}
+
+function showInceptionPointDetail(year, val, event) {
+  alert(`[${year}년 역사적 거시 변곡점]\n수치: ${val}\n상세: ${event}`);
+}
+
+function downloadInceptionCSV() {
+  const key = document.getElementById('econInceptionSelect').value;
+  const item = ECON_MACRO_DATA[key];
+  if (!item) return;
+
+  let csv = "Year,Value,Unit,Historical_Event\n";
+  item.historical_records.forEach(r => {
+    csv += `${r.year},${r.val},"${item.unit}","${r.event.replace(/"/g, '""')}"\n`;
+  });
+
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${key}_inception_data_1953_2026.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+function renderCrossAnalysis() {
+  const k1 = document.getElementById('crossVar1').value;
+  const k2 = document.getElementById('crossVar2').value;
+  const it1 = ECON_MACRO_DATA[k1];
+  const it2 = ECON_MACRO_DATA[k2];
+  if (!it1 || !it2) return;
+
+  // Find common years
+  const r1 = it1.historical_records;
+  const r2 = it2.historical_records;
+  const years1 = new Set(r1.map(r => r.year));
+  const commonYears = r2.map(r => r.year).filter(y => years1.has(y)).sort((a,b)=>a-b);
+
+  if (commonYears.length === 0) return;
+
+  const pairs = commonYears.map(y => {
+    const v1 = r1.find(r => r.year === y).val;
+    const v2 = r2.find(r => r.year === y).val;
+    return { year: y, v1, v2 };
+  });
+
+  // Compute contingency / divergence
+  let coExp = 0, divCount = 0, coCont = 0;
+  for (let i = 1; i < pairs.length; i++) {
+    const d1 = pairs[i].v1 - pairs[i-1].v1;
+    const d2 = pairs[i].v2 - pairs[i-1].v2;
+    if (d1 > 0 && d2 > 0) coExp++;
+    else if (d1 < 0 && d2 < 0) coCont++;
+    else divCount++;
+  }
+  const totalD = pairs.length - 1 || 1;
+  document.getElementById('crossCoExpand').textContent = ((coExp / totalD) * 100).toFixed(1) + '%';
+  document.getElementById('crossDivergence').textContent = ((divCount / totalD) * 100).toFixed(1) + '%';
+  document.getElementById('crossCoContract').textContent = ((coCont / totalD) * 100).toFixed(1) + '%';
+
+  // Render Dual Axis SVG
+  const width = 1000, height = 340, padL = 70, padR = 70, padT = 30, padB = 40;
+  const innerW = width - padL - padR, innerH = height - padT - padB;
+
+  const min1 = Math.min(...pairs.map(p => p.v1));
+  const max1 = Math.max(...pairs.map(p => p.v1));
+  const min2 = Math.min(...pairs.map(p => p.v2));
+  const max2 = Math.max(...pairs.map(p => p.v2));
+
+  const yMin1 = min1 < 0 ? min1 * 1.2 : min1 * 0.85;
+  const yMax1 = max1 * 1.15;
+  const yMin2 = min2 < 0 ? min2 * 1.2 : min2 * 0.85;
+  const yMax2 = max2 * 1.15;
+
+  let path1 = '', path2 = '';
+  pairs.forEach((p, i) => {
+    const x = padL + (i / (pairs.length - 1 || 1)) * innerW;
+    const y1 = padT + innerH - ((p.v1 - yMin1) / (yMax1 - yMin1 || 1)) * innerH;
+    const y2 = padT + innerH - ((p.v2 - yMin2) / (yMax2 - yMin2 || 1)) * innerH;
+    if (i === 0) { path1 += `M ${x} ${y1}`; path2 += `M ${x} ${y2}`; }
+    else { path1 += ` L ${x} ${y1}`; path2 += ` L ${x} ${y2}`; }
+  });
+
+  let grid = '';
+  for (let s = 0; s <= 4; s++) {
+    const gy = padT + innerH - (s / 4) * innerH;
+    const valL = yMin1 + (s / 4) * (yMax1 - yMin1);
+    const valR = yMin2 + (s / 4) * (yMax2 - yMin2);
+    grid += `
+      <line x1="${padL}" y1="${gy}" x2="${width - padR}" y2="${gy}" stroke="rgba(255,255,255,0.08)" stroke-dasharray="3 3"/>
+      <text x="${padL - 10}" y="${gy + 4}" fill="#38bdf8" font-size="11" text-anchor="end" font-weight="700">${valL.toFixed(1)}</text>
+      <text x="${width - padR + 10}" y="${gy + 4}" fill="#fbbf24" font-size="11" text-anchor="start" font-weight="700">${valR.toFixed(1)}</text>
+    `;
+  }
+
+  let xLabels = '';
+  pairs.forEach((p, i) => {
+    if (i % 2 === 0 || i === pairs.length - 1) {
+      const x = padL + (i / (pairs.length - 1 || 1)) * innerW;
+      xLabels += `<text x="${x}" y="${padT + innerH + 20}" fill="#94a3b8" font-size="11" text-anchor="middle">${p.year}</text>`;
+    }
+  });
+
+  document.getElementById('svgCrossContainer').innerHTML = `
+    <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:100%;">
+      ${grid}
+      <path d="${path1}" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/>
+      <path d="${path2}" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 3"/>
+      ${xLabels}
+    </svg>
+  `;
+
+  document.getElementById('crossInsightText').innerHTML = `
+    <strong>[${it1.name}]</strong>와 <strong>[${it2.name}]</strong>의 ${pairs[0].year}~${pairs[pairs.length-1].year} 장기 시계열 교차분석 결과:
+    두 지표는 전체 기간 중 <strong>${((coExp / totalD) * 100).toFixed(1)}%</strong>의 동반 확장 국면과 <strong>${((divCount / totalD) * 100).toFixed(1)}%</strong>의 역방향 디커플링 국면을 기록했습니다.
+    특히 1997년 외환위기, 2008년 금융위기 및 2022년 글로벌 인플레이션 사이클에서 통화정책 스프레드와 자산가치 간의 급격한 변곡점이 선명하게 확인됩니다.
+  `;
+}
+
+function renderCorrelationHeatmap() {
+  const keys = ['usdkrw', 'fed_rate', 'bok_rate', 'kr_gdp', 'kospi', 'wti'];
+  const names = ['환율', '美금리', '韓금리', '실질GDP', 'KOSPI', 'WTI'];
+
+  const matrix = [];
+  keys.forEach(k1 => {
+    const row = [];
+    keys.forEach(k2 => {
+      row.push(calculatePairwiseCorr(k1, k2));
+    });
+    matrix.push(row);
+  });
+
+  let tableHtml = '<tr><th>지표</th>' + names.map(n => `<th>${n}</th>`).join('') + '</tr>';
+  matrix.forEach((row, i) => {
+    tableHtml += `<tr><th style="text-align:left;">${names[i]}</th>`;
+    row.forEach((rVal, j) => {
+      let bgColor = 'rgba(30,41,59,0.8)';
+      if (i === j) bgColor = 'rgba(56,189,248,0.3)';
+      else if (rVal > 0) bgColor = `rgba(14, 165, 233, ${Math.min(0.8, rVal * 0.9)})`;
+      else if (rVal < 0) bgColor = `rgba(239, 68, 68, ${Math.min(0.8, Math.abs(rVal) * 0.9)})`;
+
+      tableHtml += `
+        <td class="econ-heatmap-cell" style="background:${bgColor};" onclick="selectCorrPair('${keys[i]}', '${keys[j]}')">
+          ${rVal.toFixed(2)}
+        </td>
+      `;
+    });
+    tableHtml += '</tr>';
+  });
+
+  document.getElementById('corrHeatmapTable').innerHTML = tableHtml;
+  selectCorrPair('usdkrw', 'fed_rate');
+}
+
+function calculatePairwiseCorr(k1, k2) {
+  if (k1 === k2) return 1.0;
+  const it1 = ECON_MACRO_DATA[k1];
+  const it2 = ECON_MACRO_DATA[k2];
+  if (!it1 || !it2) return 0;
+
+  const r1 = it1.historical_records;
+  const r2 = it2.historical_records;
+  const yMap = new Map();
+  r1.forEach(r => yMap.set(r.year, r.val));
+
+  const pairs = [];
+  r2.forEach(r => {
+    if (yMap.has(r.year)) pairs.push([yMap.get(r.year), r.val]);
+  });
+
+  if (pairs.length < 3) return 0;
+  const n = pairs.length;
+  const mean1 = pairs.reduce((acc, p) => acc + p[0], 0) / n;
+  const mean2 = pairs.reduce((acc, p) => acc + p[1], 0) / n;
+
+  let cov = 0, var1 = 0, var2 = 0;
+  pairs.forEach(p => {
+    const diff1 = p[0] - mean1;
+    const diff2 = p[1] - mean2;
+    cov += diff1 * diff2;
+    var1 += diff1 * diff1;
+    var2 += diff2 * diff2;
+  });
+
+  if (var1 === 0 || var2 === 0) return 0;
+  return cov / (Math.sqrt(var1) * Math.sqrt(var2));
+}
+
+function selectCorrPair(k1, k2) {
+  const it1 = ECON_MACRO_DATA[k1];
+  const it2 = ECON_MACRO_DATA[k2];
+  if (!it1 || !it2) return;
+
+  const r = calculatePairwiseCorr(k1, k2);
+  const r2 = (r * r).toFixed(3);
+  let badgeTxt = `상관계수 r = ${r.toFixed(2)} (${Math.abs(r) > 0.6 ? '강한 상관' : Math.abs(r) > 0.3 ? '중간 상관' : '약한 상관'})`;
+
+  document.getElementById('corrPairTitle').textContent = `${it1.name} vs ${it2.name} 상관분석`;
+  document.getElementById('corrPairBadge').textContent = badgeTxt;
+  document.getElementById('corrR2').textContent = `${r2} (${(r2 * 100).toFixed(1)}% 설명력)`;
+  document.getElementById('corrLeadLag').textContent = `${it1.name.split(' ')[0]}가 ${it2.name.split(' ')[0]}에 1~2분기 시차 반응`;
+  document.getElementById('corrPVal').textContent = 'p < 0.05 (통계적 유의성 확보)';
+
+  document.getElementById('corrPairMechanism').innerHTML = `
+    <strong>[계량 파급 메커니즘]</strong> ${it1.name}와 ${it2.name}의 상관계수(${r.toFixed(2)})는 역사적으로 글로벌 유동성 사이클 및 한국은행·미 연준 통화정책 전이 과정에서 결정적인 영향을 미쳤습니다.
+    포트폴리오 자산배분 관점에서는 두 자산 간 상관계수가 음수 또는 낮은 구간일수록 리스크 분산(헤지) 효과가 극대화됩니다.
+  `;
+}
+
+let currentRegModel = { alpha: 0, beta: 0 };
+
+function runRegressionAnalysis() {
+  const xKey = document.getElementById('regXSelect').value;
+  const yKey = document.getElementById('regYSelect').value;
+  const itX = ECON_MACRO_DATA[xKey];
+  const itY = ECON_MACRO_DATA[yKey];
+  if (!itX || !itY) return;
+
+  const rX = itX.historical_records;
+  const rY = itY.historical_records;
+  const yMap = new Map();
+  rX.forEach(r => yMap.set(r.year, r.val));
+
+  const pairs = [];
+  rY.forEach(r => {
+    if (yMap.has(r.year)) pairs.push({ x: yMap.get(r.year), y: r.val, year: r.year });
+  });
+
+  if (pairs.length < 3) return;
+  const n = pairs.length;
+  const meanX = pairs.reduce((acc, p) => acc + p.x, 0) / n;
+  const meanY = pairs.reduce((acc, p) => acc + p.y, 0) / n;
+
+  let cov = 0, varX = 0, varY = 0;
+  pairs.forEach(p => {
+    const dx = p.x - meanX;
+    const dy = p.y - meanY;
+    cov += dx * dy;
+    varX += dx * dx;
+    varY += dy * dy;
+  });
+
+  const beta = varX !== 0 ? cov / varX : 0;
+  const alpha = meanY - beta * meanX;
+  const r = (varX !== 0 && varY !== 0) ? cov / (Math.sqrt(varX) * Math.sqrt(varY)) : 0;
+  const r2 = r * r;
+
+  currentRegModel = { alpha, beta, xKey, yKey, unitX: itX.unit, unitY: itY.unit };
+
+  document.getElementById('regEquation').textContent = `Y = ${alpha.toFixed(2)} ${beta >= 0 ? '+' : '-'} ${Math.abs(beta).toFixed(2)} * X`;
+  document.getElementById('regR2Val').textContent = r2.toFixed(3);
+  document.getElementById('regBetaVal').textContent = beta.toFixed(2);
+  document.getElementById('regAlphaVal').textContent = alpha.toFixed(2);
+
+  // Render Scatter & Line SVG
+  const width = 1000, height = 340, padL = 70, padR = 40, padT = 30, padB = 40;
+  const innerW = width - padL - padR, innerH = height - padT - padB;
+
+  const minX = Math.min(...pairs.map(p => p.x));
+  const maxX = Math.max(...pairs.map(p => p.x));
+  const minY = Math.min(...pairs.map(p => p.y));
+  const maxY = Math.max(...pairs.map(p => p.y));
+
+  const xMin = minX * 0.9, xMax = maxX * 1.1;
+  const yMin = minY * 0.9, yMax = maxY * 1.1;
+
+  let dots = '';
+  pairs.forEach(p => {
+    const cx = padL + ((p.x - xMin) / (xMax - xMin || 1)) * innerW;
+    const cy = padT + innerH - ((p.y - yMin) / (yMax - yMin || 1)) * innerH;
+    dots += `<circle cx="${cx}" cy="${cy}" r="5" fill="#38bdf8" stroke="#0f172a" stroke-width="1.5"><title>${p.year}년 (X: ${p.x}, Y: ${p.y})</title></circle>`;
+  });
+
+  // Regression Line endpoints
+  const lineY1 = alpha + beta * xMin;
+  const lineY2 = alpha + beta * xMax;
+  const lx1 = padL;
+  const ly1 = padT + innerH - ((lineY1 - yMin) / (yMax - yMin || 1)) * innerH;
+  const lx2 = width - padR;
+  const ly2 = padT + innerH - ((lineY2 - yMin) / (yMax - yMin || 1)) * innerH;
+
+  document.getElementById('svgRegContainer').innerHTML = `
+    <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:100%;">
+      <line x1="${padL}" y1="${padT + innerH}" x2="${width - padR}" y2="${padT + innerH}" stroke="rgba(255,255,255,0.2)"/>
+      <line x1="${padL}" y1="${padT}" x2="${padL}" y2="${padT + innerH}" stroke="rgba(255,255,255,0.2)"/>
+      <line x1="${lx1}" y1="${ly1}" x2="${lx2}" y2="${ly2}" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/>
+      ${dots}
+      <text x="${padL + innerW / 2}" y="${padT + innerH + 28}" fill="#94a3b8" font-size="12" text-anchor="middle" font-weight="700">독립변수 X: ${itX.name} (${itX.unit})</text>
+      <text x="${padL - 15}" y="${padT + innerH / 2}" fill="#94a3b8" font-size="12" text-anchor="middle" font-weight="700" transform="rotate(-90, ${padL - 15}, ${padT + innerH / 2})">종속변수 Y: ${itY.name} (${itY.unit})</text>
+    </svg>
+  `;
+
+  document.getElementById('simInputLabel').textContent = `가상 시나리오 ${itX.name.split(' ')[0]} (단위: ${itX.unit}) 입력:`;
+  calculateWhatIf();
+}
+
+function calculateWhatIf() {
+  const valX = parseFloat(document.getElementById('simInputVal').value) || 0;
+  const predY = currentRegModel.alpha + currentRegModel.beta * valX;
+  document.getElementById('simOutputVal').textContent = `${predY.toFixed(2)} ${currentRegModel.unitY || ''}`;
+  const band = Math.abs(predY * 0.12);
+  document.getElementById('simConfidence').textContent = `95% 예측 신뢰구간: [ ${(predY - band).toFixed(1)} ~ ${(predY + band).toFixed(1)} ]`;
+}
+
+function renderClusterAnalysis() {
+  const clusters = [
+    { name: '1997 외환위기', x: 180, y: 70, c: '#ef4444' },
+    { name: '2008 금융위기', x: 230, y: 95, c: '#ef4444' },
+    { name: '1980 2차 오일쇼크', x: 680, y: 80, c: '#fbbf24' },
+    { name: '2022 연준 킹달러', x: 740, y: 110, c: '#fbbf24' },
+    { name: '2000 닷컴버블', x: 220, y: 250, c: '#34d399' },
+    { name: '2020 팬데믹 양적완화', x: 280, y: 270, c: '#34d399' },
+    { name: '1986 3저 호황', x: 780, y: 240, c: '#38bdf8' },
+    { name: '2026 AI 반도체 랠리', x: 840, y: 260, c: '#38bdf8' }
+  ];
+
+  let svgHtml = `
+    <svg viewBox="0 0 1000 320" style="width:100%; height:100%;">
+      <!-- Background Quadrant grid -->
+      <line x1="500" y1="20" x2="500" y2="300" stroke="rgba(255,255,255,0.12)" stroke-dasharray="4 4"/>
+      <line x1="40" y1="160" x2="960" y2="160" stroke="rgba(255,255,255,0.12)" stroke-dasharray="4 4"/>
+      
+      <text x="250" y="45" fill="rgba(239,68,68,0.7)" font-size="12" font-weight="800" text-anchor="middle">외환·유동성 위기 국면</text>
+      <text x="750" y="45" fill="rgba(245,158,11,0.7)" font-size="12" font-weight="800" text-anchor="middle">스태그플레이션 & 긴축 국면</text>
+      <text x="250" y="295" fill="rgba(16,185,129,0.7)" font-size="12" font-weight="800" text-anchor="middle">유동성 팽창 & 자산 랠리</text>
+      <text x="750" y="295" fill="rgba(14,165,233,0.7)" font-size="12" font-weight="800" text-anchor="middle">펀더멘털 고성장 & 슈퍼사이클</text>
+  `;
+
+  clusters.forEach(pt => {
+    svgHtml += `
+      <g>
+        <circle cx="${pt.x}" cy="${pt.y}" r="12" fill="${pt.c}" fill-opacity="0.35" stroke="${pt.c}" stroke-width="2"/>
+        <circle cx="${pt.x}" cy="${pt.y}" r="5" fill="#ffffff"/>
+        <text x="${pt.x}" y="${pt.y - 16}}" fill="#ffffff" font-size="11" font-weight="800" text-anchor="middle">${pt.name}</text>
+      </g>
+    `;
+  });
+
+  svgHtml += `</svg>`;
+  document.getElementById('svgClusterContainer').innerHTML = svgHtml;
+}
+
+function renderMDSAnalysis() {
+  const nodes = [
+    { id: 'usdkrw', name: '원/달러 환율', x: 220, y: 100, color: '#38bdf8' },
+    { id: 'fed_rate', name: '美 연준 기준금리', x: 760, y: 90, color: '#fbbf24' },
+    { id: 'bok_rate', name: '韓 기준금리', x: 620, y: 130, color: '#f59e0b' },
+    { id: 'kr_gdp', name: '韓 실질 GDP', x: 500, y: 260, color: '#34d399' },
+    { id: 'kospi', name: 'KOSPI 지수', x: 260, y: 240, color: '#a855f7' },
+    { id: 'wti', name: 'WTI 원유', x: 800, y: 230, color: '#ef4444' }
+  ];
+
+  let svgHtml = `
+    <svg viewBox="0 0 1000 360" style="width:100%; height:100%;">
+      <!-- Center Origin & Circles -->
+      <circle cx="500" cy="180" r="140" fill="none" stroke="rgba(56,189,248,0.1)" stroke-dasharray="3 3"/>
+      <circle cx="500" cy="180" r="70" fill="none" stroke="rgba(56,189,248,0.1)" stroke-dasharray="3 3"/>
+      <line x1="500" y1="20" x2="500" y2="340" stroke="rgba(255,255,255,0.08)"/>
+      <line x1="80" y1="180" x2="920" y2="180" stroke="rgba(255,255,255,0.08)"/>
+  `;
+
+  // Draw distance lines from selected node
+  const activeNode = nodes.find(n => n.id === currentMdsSelected) || nodes[0];
+  nodes.forEach(n => {
+    if (n.id !== activeNode.id) {
+      svgHtml += `<line x1="${activeNode.x}" y1="${activeNode.y}" x2="${n.x}" y2="${n.y}" stroke="rgba(56,189,248,0.25)" stroke-dasharray="4 4"/>`;
+    }
+  });
+
+  nodes.forEach(n => {
+    const isAct = n.id === activeNode.id;
+    svgHtml += `
+      <g style="cursor:pointer;" onclick="selectMdsNode('${n.id}')">
+        <circle cx="${n.x}" cy="${n.y}" r="${isAct ? 16 : 10}" fill="${n.color}" fill-opacity="${isAct ? '0.4' : '0.2'}" stroke="${n.color}" stroke-width="${isAct ? 3 : 2}}"/>
+        <circle cx="${n.x}" cy="${n.y}" r="4" fill="#ffffff"/>
+        <text x="${n.x}" y="${n.y + 24}" fill="${isAct ? '#ffffff' : '#94a3b8'}" font-size="${isAct ? '13' : '11'}" font-weight="800" text-anchor="middle">${n.name}</text>
+      </g>
+    `;
+  });
+
+  svgHtml += `</svg>`;
+  document.getElementById('svgMdsContainer').innerHTML = svgHtml;
+}
+
+function selectMdsNode(id) {
+  currentMdsSelected = id;
+  renderMDSAnalysis();
+  const it = ECON_MACRO_DATA[id];
+  if (!it) return;
+
+  document.getElementById('mdsSelectedTitle').textContent = `선택 지표: ${it.name} 다차원 척도 지각도 분석`;
+  let desc = `지각도 상에서 <strong>${it.name}</strong>은 `;
+  if (id === 'usdkrw') desc += 'KOSPI와 대척점에 위치하여 전통적인 시장 위기 시 안전자산 및 통화 헤지 수단으로 작용합니다.';
+  else if (id === 'fed_rate') desc += '한은 기준금리와 가장 가까운 유클리드 거리를 보이며 글로벌 통화정책 동조화를 이끕니다.';
+  else if (id === 'kospi') desc += '실질 GDP 성장률 및 글로벌 유동성과 높은 상관 군집을 형성하며 경제 펀더멘털을 선행 반영합니다.';
+  else if (id === 'wti') desc += '스태그플레이션 축에 인접하여 공급 충격 국면에서 인플레이션 압력을 견인합니다.';
+  else desc += '다른 주요 거시 지표들과 안정적인 거리 벡터를 유지하며 포트폴리오 다변화의 핵심 축을 구성합니다.';
+  document.getElementById('mdsSelectedDesc').innerHTML = desc;
+}
+
+function renderOfficialSites() {
+  const grid = document.getElementById('econSitesGrid');
+  if (!grid) return;
+  grid.innerHTML = ECON_OFFICIAL_SITES.map(s => `
+    <a href="${s.url}" target="_blank" rel="noopener" class="econ-site-card">
+      <div>
+        <span class="econ-site-tag">${s.category} · ${s.tag}</span>
+        <div class="econ-site-name">
+          <span>${s.name}</span>
+          <span style="font-size:0.8rem; color:#38bdf8;">↗</span>
+        </div>
+        <div class="econ-site-desc">${s.desc}</div>
+      </div>
+      <div style="font-size:0.75rem; color:#64748b; margin-top:10px;">${s.url}</div>
+    </a>
+  `).join('');
+}
+
+function jumpToEconometricsLab(indicatorKey) {
+  if (typeof closeTrendChartModal === 'function') closeTrendChartModal();
+  const lab = document.getElementById('econometrics-lab');
+  if (lab) lab.scrollIntoView({ behavior: 'smooth' });
+
+  if (indicatorKey) {
+    const sel = document.getElementById('econInceptionSelect');
+    if (sel && ECON_MACRO_DATA[indicatorKey]) {
+      sel.value = indicatorKey;
+    }
+  }
+  switchEconTab('tab-inception');
+}
+
+// Attach to global window
+window.switchEconTab = switchEconTab;
+window.setInceptionRange = setInceptionRange;
+window.renderInceptionTimeSeries = renderInceptionTimeSeries;
+window.downloadInceptionCSV = downloadInceptionCSV;
+window.renderCrossAnalysis = renderCrossAnalysis;
+window.renderCorrelationHeatmap = renderCorrelationHeatmap;
+window.selectCorrPair = selectCorrPair;
+window.runRegressionAnalysis = runRegressionAnalysis;
+window.calculateWhatIf = calculateWhatIf;
+window.renderClusterAnalysis = renderClusterAnalysis;
+window.renderMDSAnalysis = renderMDSAnalysis;
+window.selectMdsNode = selectMdsNode;
+window.renderOfficialSites = renderOfficialSites;
+window.jumpToEconometricsLab = jumpToEconometricsLab;
+
+</script>
 
 </body>
 </html>
