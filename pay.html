@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>카카오페이 3,900원 간편 송금 | RYUYOUNGSUN 씽크탱크</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <style>
+    :root {
+      --kakao-yellow: #FEE500;
+      --kakao-brown: #191919;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+      background: #0f1015;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .pay-card {
+      max-width: 440px;
+      width: 100%;
+      background: #181920;
+      border: 1px solid rgba(254, 229, 0, 0.3);
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+      text-align: center;
+    }
+    .pay-header {
+      background: var(--kakao-yellow);
+      color: var(--kakao-brown);
+      padding: 24px 20px;
+    }
+    .pay-brand {
+      font-size: 24px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+    }
+    .pay-sub {
+      font-size: 13px;
+      font-weight: 600;
+      opacity: 0.85;
+      margin-top: 4px;
+    }
+    .pay-body {
+      padding: 28px 24px;
+    }
+    .qr-frame {
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 16px;
+      display: inline-block;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .qr-frame img {
+      width: 220px;
+      height: auto;
+      display: block;
+    }
+    .pay-info-box {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 8px;
+      color: #a1a1aa;
+    }
+    .info-row:last-child { margin-bottom: 0; }
+    .info-row strong { color: #ffffff; }
+    .price-highlight {
+      color: var(--kakao-yellow);
+      font-size: 18px;
+      font-weight: 900;
+    }
+    .btn-action {
+      display: block;
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      margin-bottom: 10px;
+      transition: all 0.2s;
+    }
+    .btn-kakao {
+      background: var(--kakao-yellow);
+      color: var(--kakao-brown);
+      border: none;
+      box-shadow: 0 4px 15px rgba(254, 229, 0, 0.35);
+    }
+    .btn-kakao:hover {
+      background: #ffde00;
+      transform: translateY(-1px);
+    }
+    .btn-copy {
+      background: rgba(255, 255, 255, 0.08);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .btn-copy:hover {
+      background: rgba(255, 255, 255, 0.14);
+    }
+    .btn-return {
+      background: transparent;
+      color: #71717a;
+      border: none;
+      font-size: 13px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .btn-return:hover { color: #a1a1aa; text-decoration: underline; }
+    #toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #30d158;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 800;
+      display: none;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <div class="pay-card">
+    <div class="pay-header">
+      <div class="pay-brand">kakaopay</div>
+      <div class="pay-sub">RYUYOUNGSUN 씽크탱크 연구 리포트</div>
+    </div>
+    <div class="pay-body">
+      <div class="qr-frame">
+        <img src="kakaopay_qr_ryu.png" alt="카카오페이 송금 QR코드">
+      </div>
+
+      <div class="pay-info-box">
+        <div class="info-row">
+          <span>신청 상품</span>
+          <strong>A4 5페이지 내외 실전 전략 보고서</strong>
+        </div>
+        <div class="info-row">
+          <span>수취인</span>
+          <strong>유영선 (카카오페이 / 카카오뱅크)</strong>
+        </div>
+        <div class="info-row">
+          <span>송금 연락처</span>
+          <strong id="contactNum">010-5480-4905</strong>
+        </div>
+        <div class="info-row">
+          <span>결제 금액</span>
+          <span class="price-highlight">3,900원</span>
+        </div>
+      </div>
+
+      <button class="btn-action btn-copy" onclick="copyContact()">
+        📋 010-5480-4905 연락처 복사
+      </button>
+      <a href="kakaotalk://" class="btn-action btn-kakao">
+        💬 카카오톡 앱 열기 및 송금
+      </a>
+      <a href="./index.html#trend-lab" class="btn-return">
+        ← 메인 연구 포털로 돌아가기
+      </a>
+    </div>
+  </div>
+
+  <div id="toast">✓ 연락처(010-5480-4905)가 복사되었습니다!</div>
+
+  <script>
+    function copyContact() {
+      navigator.clipboard.writeText("010-5480-4905").then(function() {
+        const toast = document.getElementById("toast");
+        toast.style.display = "block";
+        setTimeout(function() { toast.style.display = "none"; }, 2500);
+      });
+    }
+  </script>
+</body>
+</html>
