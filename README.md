@@ -1,7 +1,7 @@
 # 🏛️ 유영선의 글로벌 리서치 & 노션 지식 포털 (Macro Research Hub)
 
-> **공식 웹 포털**: [https://wakary1.github.io/macro-research-hub/](https://wakary1.github.io/macro-research-hub/)  
-> **총 지식 자산**: **2,386개** (노션 9대 대분류 원장 **565편** + 크롬 글로벌 리서치 북마크 **1,821개**)  
+> **공식 웹 포털**: [https://insight2u.github.io/macro-research-hub/](https://insight2u.github.io/macro-research-hub/)  
+> **총 복합 지식 자산**: **4,142개** (노션 9대 전략 원장 **565편** + 크롬 공식 통계 북마크 **1,821개** + 글로벌 경제·산업 엄선 유튜브 영상 **1,756편**)  
 > **영구 아카이브 저장소**: [wakary1/macro-research-hub](https://github.com/wakary1/macro-research-hub)
 
 ---
