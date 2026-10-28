@@ -1158,6 +1158,11 @@
           <p>
             전체 매크로 지표는 '급격한 침체는 없으나, 내수 중심 기업의 양극화'를 시사합니다. B2B 수출 공급망과 글로벌 테크 밸류체인에 편입된 비즈니스는 지속적 확장 국면을 향유할 것이며, 내수 B2C는 초가성비와 초프리미엄의 양극단 전략만이 유효합니다.
           </p>
+          <div style="margin-top:20px; padding:12px 16px; background:rgba(0,113,227,0.12); border:1px solid rgba(56,189,248,0.3); border-radius:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <span style="font-size:13px; font-weight:700; color:#ffffff;">📈 실시간 GDP 성장률 시계열 추세 인터랙티브 차트</span>
+            <button class="btn btn-primary" style="padding:7px 16px; font-size:12px; font-weight:700; cursor:pointer;" onclick="closeForecastModalDirect(); openEconomicTrendChart('gdp')">추세 그래프 보기 ↗</button>
+          </div>
+
         `
       },
       rates: {
@@ -1192,6 +1197,11 @@
           <p>
             국내 장기 회사채 조달 금리는 연말까지 우량물 중심의 안정세를 보일 것이므로, 차환 발행을 앞둔 대기업 및 우량 기업들은 4분기 중 선제적 채권 발행을 통한 차환 완결을 권고합니다.
           </p>
+          <div style="margin-top:20px; padding:12px 16px; background:rgba(0,113,227,0.12); border:1px solid rgba(56,189,248,0.3); border-radius:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <span style="font-size:13px; font-weight:700; color:#ffffff;">📈 한·미 기준금리 및 통화정책 스프레드 시계열 추세 인터랙티브 차트</span>
+            <button class="btn btn-primary" style="padding:7px 16px; font-size:12px; font-weight:700; cursor:pointer;" onclick="closeForecastModalDirect(); openEconomicTrendChart('rate_diff')">추세 그래프 보기 ↗</button>
+          </div>
+
         `
       },
       fx: {
@@ -1226,6 +1236,11 @@
           <p>
             수출 기업은 1,340원선 부근에서 결제 대금 환전 및 선물환 분할 매도를 집행하고, 수입 기업은 결제 통화 다변화를 추진하는 것을 권고합니다.
           </p>
+          <div style="margin-top:20px; padding:12px 16px; background:rgba(0,113,227,0.12); border:1px solid rgba(56,189,248,0.3); border-radius:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <span style="font-size:13px; font-weight:700; color:#ffffff;">📈 원/달러 환율 과거 시계열 추세 인터랙티브 차트</span>
+            <button class="btn btn-primary" style="padding:7px 16px; font-size:12px; font-weight:700; cursor:pointer;" onclick="closeForecastModalDirect(); openEconomicTrendChart('usdkrw')">추세 그래프 보기 ↗</button>
+          </div>
+
         `
       },
       industry: {
@@ -1260,6 +1275,10 @@
           <p>
             조선·원전·전력 인프라와 첨단 AI 하드웨어 밸류체인은 안정적 이익 성장을 이어갈 것이며, 실적 가시성이 확보된 대형주 중심의 압축 대응을 권고합니다.
           </p>
+          <div style="margin-top:20px; padding:12px 16px; background:rgba(0,113,227,0.12); border:1px solid rgba(56,189,248,0.3); border-radius:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+            <span style="font-size:13px; font-weight:700; color:#ffffff;">📈 대한민국 수출액 & 경상수지 시계열 추세 인터랙티브 차트</span>
+            <button class="btn btn-primary" style="padding:7px 16px; font-size:12px; font-weight:700; cursor:pointer;" onclick="closeForecastModalDirect(); openEconomicTrendChart('exports')">추세 그래프 보기 ↗</button>
+          </div>
         `
       }
     };
@@ -4100,6 +4119,52 @@
         padding: 20px 16px;
       }
     }
+    
+    /* Trend Chart Modal Quick Indicator Switcher */
+    .trend-indicator-quick-bar {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 4px 2px 12px 2px;
+      margin-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      scrollbar-width: thin;
+    }
+    .trend-indicator-quick-bar::-webkit-scrollbar {
+      height: 4px;
+    }
+    .trend-indicator-quick-bar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+    }
+    .trend-ind-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #94a3b8;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .trend-ind-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+    .trend-ind-btn.active {
+      background: rgba(0, 113, 227, 0.22);
+      border-color: #38bdf8;
+      color: #38bdf8;
+      font-weight: 700;
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.25);
+    }
+
     .trend-modal-header {
       display: flex;
       justify-content: space-between;
@@ -5059,15 +5124,45 @@
         </div>
       </div>
 
-      <!-- Macro Economic Key Dashboard with Yield Curve Spread -->
+            <!-- Macro Economic Key Dashboard with Yield Curve Spread -->
       <div class="kdi-macro-dashboard">
-        <div class="kdi-stat-item" style="background: rgba(48, 209, 88, 0.08); border-radius: 8px; padding-left: 8px;" onclick="openEconomicTrendChart('us_yield_curve')">
+        <!-- 1. 원/달러 환율 -->
+        <div class="kdi-stat-item" onclick="openEconomicTrendChart('usdkrw')">
+          <div class="kdi-stat-label">원/달러 환율 (KRW/USD)</div>
+          <div class="kdi-stat-val" id="valUsdKrw">1,336.10<span class="unit">원</span></div>
+          <div class="kdi-stat-sub red" id="subUsdKrw">▲ 8.10원 (장 마감 종가 확정)</div>
+          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('usdkrw')">📈 추세를 그래프로 보려면 클릭 ↗</div>
+          <a href="https://m.stock.naver.com/marketindex/exchange/FX_USDKRW" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 네이버페이 증권 (하나은행) ↗</a>
+        </div>
+
+        <!-- 2. 한·미 기준금리차 -->
+        <div class="kdi-stat-item" onclick="openEconomicTrendChart('rate_diff')">
+          <div class="kdi-stat-label">한·미 기준금리차</div>
+          <div class="kdi-stat-val" id="valRateDiff">100<span class="unit">bp</span></div>
+          <div class="kdi-stat-sub" id="subRateDiff">한은 3.00% vs 연준 4.00%</div>
+          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('rate_diff')">📈 추세를 그래프로 보려면 클릭 ↗</div>
+          <a href="https://stock.naver.com/market/marketindex/bondAndInterest/standardInterest" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 네이버 증권 · 한국은행 ↗</a>
+        </div>
+
+        <!-- 3. 美 장단기 금리차 (10Y-2Y) -->
+        <div class="kdi-stat-item" style="background: rgba(0, 113, 227, 0.08); border-radius: 8px; padding-left: 8px;" onclick="openEconomicTrendChart('us_yield_curve')">
+          <div class="kdi-stat-label" style="color: #70b4ff;">📉 美 장단기 금리차 (10Y-2Y)</div>
+          <div class="kdi-stat-val" id="valUsYieldDiff">+26.9<span class="unit">bp</span></div>
+          <div class="kdi-stat-sub blue" id="subUsYieldDiff">▲ 5.028% - 4.749% (역전 해소·정상화)</div>
+          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('us_yield_curve')">📈 추세를 그래프로 보려면 클릭 ↗</div>
+          <a href="https://stock.naver.com/market/marketindex/bondAndInterest/bond/USA" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 네이버 증권 (FRED) ↗</a>
+        </div>
+
+        <!-- 4. 韓 장단기 금리차 (10Y-3Y) -->
+        <div class="kdi-stat-item" style="background: rgba(48, 209, 88, 0.08); border-radius: 8px; padding-left: 8px;" onclick="openEconomicTrendChart('kr_yield_curve')">
           <div class="kdi-stat-label" style="color: #30d158;">🇰🇷 韓 장단기 금리차 (10Y-3Y)</div>
           <div class="kdi-stat-val" id="valKrYieldDiff">+30.9<span class="unit">bp</span></div>
           <div class="kdi-stat-sub" id="subKrYieldDiff">▲ 4.106% - 3.792% (스프레드 확대)</div>
-          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('us_yield_curve')">📈 추세를 그래프로 보려면 클릭 ↗</div>
+          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('kr_yield_curve')">📈 추세를 그래프로 보려면 클릭 ↗</div>
           <a href="https://stock.naver.com/market/marketindex/bondAndInterest/bond/KOR" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 네이버 증권 · 금투협 ↗</a>
         </div>
+
+        <!-- 5. 韓 3분기 실질 GDP 속보치 -->
         <div class="kdi-stat-item" onclick="openEconomicTrendChart('gdp')">
           <div class="kdi-stat-label">韓 3분기 실질 GDP 속보치</div>
           <div class="kdi-stat-val">1.0<span class="unit">%</span></div>
@@ -5075,12 +5170,14 @@
           <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('gdp')">📈 추세를 그래프로 보려면 클릭 ↗</div>
           <a href="http://ecos.bok.or.kr/" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 한국은행 ECOS ↗</a>
         </div>
-        <div class="kdi-stat-item" onclick="openEconomicTrendChart('clarksons')">
-          <div class="kdi-stat-label">클락슨 신조선가지수</div>
+
+        <!-- 6. 수출 & 클락슨 신조선가 -->
+        <div class="kdi-stat-item" onclick="openEconomicTrendChart('exports')">
+          <div class="kdi-stat-label">수출 &amp; 클락슨 신조선가</div>
           <div class="kdi-stat-val">188.5<span class="unit">p</span></div>
-          <div class="kdi-stat-sub">▲ 역사적 고점(191p) 육박</div>
-          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('clarksons')">📈 추세를 그래프로 보려면 클릭 ↗</div>
-          <a href="https://www.clarksons.com/" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: Clarksons Research ↗</a>
+          <div class="kdi-stat-sub">▲ 경상흑자 $750억 돌파 / 최고치 육박</div>
+          <div class="stat-trend-btn-badge" onclick="event.stopPropagation(); openEconomicTrendChart('exports')">📈 추세를 그래프로 보려면 클릭 ↗</div>
+          <a href="https://www.clarksons.com/" target="_blank" class="stat-source-link" onclick="event.stopPropagation()">출처: 관세청 · Clarksons ↗</a>
         </div>
       </div>
       <!-- Real-Time Macroeconomic Forecast & Empirical Evidence Matrix -->
@@ -5097,7 +5194,7 @@
           </div>
         </div>
 
-        <div class="forecast-cards-grid">
+                <div class="forecast-cards-grid">
           <!-- Forecast 1: GDP Growth -->
           <div class="forecast-card" onclick="openForecastModal('gdp')">
             <div class="f-card-top">
@@ -5118,16 +5215,7 @@
               </div>
             </div>
             <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('gdp')">
-              <span>📈 추세를 그래프로 보려면 클릭</span> <span>↗</span>
-            </div>
-            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('rate_diff')">
-              <span>📈 추세를 그래프로 보려면 클릭</span> <span>↗</span>
-            </div>
-            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('usdkrw')">
-              <span>📈 추세를 그래프로 보려면 클릭</span> <span>↗</span>
-            </div>
-            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('clarksons')">
-              <span>📈 추세를 그래프로 보려면 클릭</span> <span>↗</span>
+              <span>📈 경제성장률 추세 그래프 보기</span> <span>↗</span>
             </div>
             <div class="f-card-click-more">예측 근거 상세 분석 ↗</div>
           </div>
@@ -5151,6 +5239,9 @@
                 <strong>4.75% (최종금리 수렴)</strong>
               </div>
             </div>
+            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('rate_diff')">
+              <span>📈 한·미 금리 추세 그래프 보기</span> <span>↗</span>
+            </div>
             <div class="f-card-click-more">예측 근거 상세 분석 ↗</div>
           </div>
 
@@ -5165,13 +5256,16 @@
             <div class="f-card-evidence-box">
               <div class="f-evidence-head">🔍 핵심 예측 근거 지표</div>
               <div class="f-evidence-item">
-                <span>원/달러 실시간</span>
-                <strong>1,339.7원 (▲11.7원)</strong>
+                <span>원/달러 장 마감 확정</span>
+                <strong>1,336.10원 (▲8.10원)</strong>
               </div>
               <div class="f-evidence-item">
                 <span>외환보유액</span>
                 <strong>$4,199억 (방어선 안정)</strong>
               </div>
+            </div>
+            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('usdkrw')">
+              <span>📈 원/달러 환율 추세 그래프 보기</span> <span>↗</span>
             </div>
             <div class="f-card-click-more">예측 근거 상세 분석 ↗</div>
           </div>
@@ -5192,8 +5286,11 @@
               </div>
               <div class="f-evidence-item">
                 <span>코스피 반도체 랠리</span>
-                <strong>6,003.2p (▲6.63%)</strong>
+                <strong>6,012.4p (▲6.63%)</strong>
               </div>
+            </div>
+            <div class="f-card-trend-btn" onclick="event.stopPropagation(); openEconomicTrendChart('exports')">
+              <span>📈 수출 & 경상수지 추세 그래프 보기</span> <span>↗</span>
             </div>
             <div class="f-card-click-more">예측 근거 상세 분석 ↗</div>
           </div>
@@ -6596,6 +6693,18 @@
         <button class="trend-modal-close" onclick="closeTrendChartModal()">&times;</button>
       </div>
 
+      <!-- Indicator Quick Navigation Tabs -->
+      <div class="trend-indicator-quick-bar" id="trendIndicatorQuickBar">
+        <button class="trend-ind-btn" id="indBtn-gdp" onclick="openEconomicTrendChart('gdp')">📊 경제성장률</button>
+        <button class="trend-ind-btn" id="indBtn-rate_diff" onclick="openEconomicTrendChart('rate_diff')">🏛️ 한미 금리</button>
+        <button class="trend-ind-btn" id="indBtn-usdkrw" onclick="openEconomicTrendChart('usdkrw')">💵 원/달러 환율</button>
+        <button class="trend-ind-btn" id="indBtn-exports" onclick="openEconomicTrendChart('exports')">🚢 수출·경상수지</button>
+        <button class="trend-ind-btn" id="indBtn-us_yield_curve" onclick="openEconomicTrendChart('us_yield_curve')">📉 美 10Y-2Y</button>
+        <button class="trend-ind-btn" id="indBtn-kr_yield_curve" onclick="openEconomicTrendChart('kr_yield_curve')">🇰🇷 韓 10Y-3Y</button>
+        <button class="trend-ind-btn" id="indBtn-kospi" onclick="openEconomicTrendChart('kospi')">📈 코스피 6,000p</button>
+        <button class="trend-ind-btn" id="indBtn-clarksons" onclick="openEconomicTrendChart('clarksons')">⚓ 클락슨 조선가</button>
+      </div>
+
       <!-- Controls & Summary Bar -->
       <div class="trend-controls-bar">
         <div class="trend-tf-tabs" id="trendTfTabs">
@@ -6650,7 +6759,7 @@
 
 
   <script>
-    const economicTrendData = {"usdkrw": {"title": "원/달러 환율 (KRW/USD) 과거 시계열 추이", "category": "외환 & 글로벌 통화", "current": "1,336.10원", "unit": "원", "high": "1,400.00원 (2024.04)", "low": "1,278.50원 (2023.01)", "chg": "+4.5%", "timeframes": {"1M": [{"date": "10/01", "val": 1318.5, "event": ""}, {"date": "10/08", "val": 1334.2, "event": "한은 금통위"}, {"date": "10/15", "val": 1352.0, "event": "美 지표 호조"}, {"date": "10/22", "val": 1378.5, "event": "대선 리스크"}, {"date": "10/27", "val": 1385.0, "event": "日 총선 쇼크"}, {"date": "10/28", "val": 1336.1, "event": "GDP 서프라이즈"}], "3M": [{"date": "08/01", "val": 1372.0, "event": "엔캐리 청산"}, {"date": "08/15", "val": 1360.5, "event": ""}, {"date": "09/01", "val": 1338.0, "event": ""}, {"date": "09/18", "val": 1324.5, "event": "美 빅컷 50bp"}, {"date": "10/01", "val": 1318.5, "event": "저점 형성"}, {"date": "10/15", "val": 1352.0, "event": ""}, {"date": "10/28", "val": 1336.1, "event": "장 마감 확정"}], "1Y": [{"date": "23/11", "val": 1305.0, "event": ""}, {"date": "24/01", "val": 1335.0, "event": ""}, {"date": "24/04", "val": 1400.0, "event": "중동 1차 충격"}, {"date": "24/07", "val": 1380.0, "event": ""}, {"date": "24/09", "val": 1324.0, "event": "연준 피벗"}, {"date": "25/03", "val": 1350.0, "event": ""}, {"date": "26/10", "val": 1336.1, "event": "1,336원 안정"}], "ALL": [{"date": "2022.01", "val": 1190.0, "event": "저금리 국면"}, {"date": "2022.10", "val": 1442.0, "event": "연준 75bp 자이언트스텝"}, {"date": "2023.01", "val": 1220.0, "event": "반등 조정"}, {"date": "2023.10", "val": 1355.0, "event": "고금리 장기화"}, {"date": "2024.04", "val": 1400.0, "event": "환율 1,400원선 공방"}, {"date": "2024.09", "val": 1324.0, "event": "미국 기준금리 인하 개시"}, {"date": "2026.10", "val": 1336.1, "event": "1,336.10원 장 마감"}]}, "inflections": [{"date": "2022.10", "event": "美 연준 자이언트스텝 (1,442원 돌파)", "desc": "글로벌 킹달러 국면에서 외환위기 이후 최고치 경신"}, {"date": "2024.04", "event": "이란-이스라엘 중동 위기 (1,400원 재진입)", "desc": "한·미·일 재무장관 공동 구두개입 및 외환당국 미세조정 단행"}, {"date": "2024.09", "event": "美 연준 50bp 빅컷 단행 (1,320원대 하락)", "desc": "금리 인하 사이클 진입으로 달러 약세 압력 가시화"}, {"date": "2026.10", "event": "韓 3분기 GDP 1.0% 서프라이즈 (1,336.10원 마감)", "desc": "견조한 성장률과 반도체 수출 호조로 원화 가치 안정화 안착"}], "insight": "원/달러 환율은 2024년 4월의 1,400원 고점을 거쳐 2026년 하반기 현재 1,320~1,360원 박스권 안에서 안정적인 하방 경직성을 유지하고 있습니다. 반도체 수출 호조(10월 130억 달러)와 3분기 GDP 1.0% 서프라이즈가 원화 펀더멘털을 단단히 지지하고 있습니다."}, "rate_diff": {"title": "한·미 기준금리차 및 통화정책 경로 시계열", "category": "통화정책 & 중앙은행", "current": "100bp (한은 3.00% vs 연준 4.00%)", "unit": "bp", "high": "200bp (2023.07~2024.08 역대 최대)", "low": "0bp (2022.06 역전 직전)", "chg": "-100bp (역전폭 대폭 축소)", "timeframes": {"1M": [{"date": "10/01", "val": 100, "event": "금리차 100bp"}, {"date": "10/11", "val": 100, "event": "한은 3.00% 동결"}, {"date": "10/28", "val": 100, "event": "한은 3.00% vs 美 4.00%"}], "1Y": [{"date": "23/12", "val": 200, "event": "한은 3.50% vs 美 5.50%"}, {"date": "24/06", "val": 200, "event": "역대 최대 200bp 유지"}, {"date": "24/09", "val": 150, "event": "美 빅컷 50bp (5.00%)"}, {"date": "24/10", "val": 175, "event": "한은 피벗 (3.25%)"}, {"date": "25/06", "val": 125, "event": "연준 추가 인하"}, {"date": "26/10", "val": 100, "event": "한은 3.00% vs 美 4.00%"}], "ALL": [{"date": "2022.01", "val": -100, "event": "한은 금리 우위 (+100bp)"}, {"date": "2022.07", "val": 0, "event": "한·미 금리 역전"}, {"date": "2023.07", "val": 200, "event": "200bp 역대 최대 역전"}, {"date": "2024.09", "val": 150, "event": "美 연준 50bp 빅컷"}, {"date": "2026.10", "val": 100, "event": "100bp로 스프레드 정상화"}]}, "inflections": [{"date": "2022.07", "event": "한·미 기준금리 역사적 역전", "desc": "미 연준의 가파른 자이언트스텝으로 1999년 이후 최장기 금리 역전 시작"}, {"date": "2023.07", "event": "역대 최대 200bp 역전 도달", "desc": "연준 5.50% vs 한은 3.50% 격차 발생했으나 자본 유출 우려 완충"}, {"date": "2024.09", "event": "美 연준 50bp 빅컷 단행", "desc": "파월 의장의 금리 인하 피벗으로 한미 금리차가 150bp로 축소"}, {"date": "2026.10", "event": "100bp 차이 안착 (한은 3.00% vs 연준 4.00%)", "desc": "통화정책 정상화 국면에서 금리차로 인한 금융시장 왜곡 해소"}], "insight": "역대 최대였던 200bp의 금리 역전이 100bp 수준으로 축소되면서, 환율 방어와 자본 유출에 대한 한국은행의 통화정책 운용 숨통이 크게 트였습니다. 11월 금통위에서는 현 3.00% 동결이 매우 유력합니다."}, "us_yield_curve": {"title": "美 국채 10년-2년 장단기 금리차 (10Y-2Y) 추이", "category": "채권 & 경기 사이클", "current": "+26.9bp (정상화 안착)", "unit": "bp", "high": "+26.9bp (2026.10 현재)", "low": "-108bp (2023.03 SVB 사태)", "chg": "+134.9bp (역사적 침체 경고 해소)", "timeframes": {"1Y": [{"date": "23/11", "val": -45, "event": "역전 지속"}, {"date": "24/03", "val": -38, "event": ""}, {"date": "24/07", "val": -15, "event": "역전 해소 임박"}, {"date": "24/09", "val": 12, "event": "금리차 플러스 전환"}, {"date": "25/03", "val": 18, "event": "스티프닝"}, {"date": "26/10", "val": 26.9, "event": "+26.9bp 정상화"}], "ALL": [{"date": "2021.01", "val": 85, "event": "코로나 경기 부양"}, {"date": "2022.07", "val": -10, "event": "장단기 금리 역전 진입"}, {"date": "2023.03", "val": -108, "event": "역대 최장 역전 심화 (-108bp)"}, {"date": "2024.09", "val": 8, "event": "793일 만의 역전 종료"}, {"date": "2026.10", "val": 26.9, "event": "수익률 곡선 완전 정상화"}]}, "inflections": [{"date": "2022.07", "event": "미 10Y-2Y 금리차 공식 역전 진입", "desc": "1980년대 이후 가장 확실한 경기 침체 선행지표로 월가 긴장"}, {"date": "2023.03", "event": "SVB 은행 파산 쇼크 (-108bp 극단치)", "desc": "단기금리 급등과 은행 위기가 결합하여 역대 최장기 역전 기록"}, {"date": "2024.09", "event": "793일 만에 플러스 전환 (Disinversion)", "desc": "연준의 금리 인하로 2년물 금리가 급락하며 수익률 곡선 정상화"}, {"date": "2026.10", "event": "+26.9bp 안착 (10Y 5.028% vs 2Y 4.749%)", "desc": "소프트랜딩(연착륙) 기대감 속에 건강한 기간 프리미엄 복원"}], "insight": "과거 50년간 장단기 금리 역전 해소 국면에서 경기 침체가 발생했던 전례와 달리, 2026년의 금리차 정상화는 견조한 미국 고용과 M7 AI 설비투자가 결합된 '무침체 연착륙(No-Landing Soft-Landing)' 패턴을 보이고 있습니다."}, "gdp": {"title": "韓 분기별 실질 GDP 성장률 추이 (전기대비 속보치)", "category": "거시 성장률 & 실물경제", "current": "1.0% q/q (3분기 속보치 서프라이즈)", "unit": "%", "high": "1.3% (2024.1Q)", "low": "-0.2% (2024.2Q)", "chg": "+0.9%p (전분기 0.1% 대비 대반등)", "timeframes": {"ALL": [{"date": "2023.1Q", "val": 0.3, "event": "바닥 통과"}, {"date": "2023.2Q", "val": 0.6, "event": ""}, {"date": "2023.3Q", "val": 0.6, "event": ""}, {"date": "2023.4Q", "val": 0.6, "event": ""}, {"date": "2024.1Q", "val": 1.3, "event": "깜짝 1.3% 성장"}, {"date": "2024.2Q", "val": -0.2, "event": "기저효과 역성장"}, {"date": "2024.3Q", "val": 0.1, "event": "0.1% 쇼크"}, {"date": "2024.4Q", "val": 0.4, "event": "회복"}, {"date": "2025.2Q", "val": 0.6, "event": ""}, {"date": "2026.3Q", "val": 1.0, "event": "1.0% 서프라이즈"}]}, "inflections": [{"date": "2024.1Q", "event": "1.3% 서프라이즈 성장", "desc": "건설 투자와 민간 소비의 일시적 반등으로 연간 성장 기대 급증"}, {"date": "2024.2Q", "event": "-0.2% 역성장 쇼크", "desc": "1분기 급증에 따른 역기저 효과 및 고금리 지속에 따른 내수 부진"}, {"date": "2024.3Q", "event": "0.1% 쇼크 (한은 전망치 0.5% 대폭 하회)", "desc": "수출 둔화 우려와 내수 침체가 겹치며 연간 2.4% 달성 경고음"}, {"date": "2026.3Q", "event": "1.0% 대반등 (한은 10/27 공식 발표)", "desc": "설비투자(4.1%)와 반도체 HBM 수출 폭발로 한은 전망치 3배 초과 달성"}], "insight": "2024년 3분기 0.1% 쇼크로 얼어붙었던 국내 실물경기가 2026년 3분기 1.0%라는 경이로운 성장률로 부활했습니다. 이는 단순 정부 재정이 아닌 SK하이닉스·삼성전자 등의 대규모 첨단 반도체 설비투자가 이끈 질적으로 건강한 성장입니다."}, "clarksons": {"title": "클락슨 신조선가지수 (Newbuilding Price Index) 추이", "category": "조선 & 해운 인프라", "current": "188.5p (역사적 신고가 육박)", "unit": "p", "high": "191.6p (2008년 역사적 최고점)", "low": "125.0p (2020년 코로나 저점)", "chg": "+50.8% (슈퍼사이클 가속)", "timeframes": {"ALL": [{"date": "2020", "val": 125.6, "event": "장기 불황 저점"}, {"date": "2021", "val": 153.6, "event": "컨테이너선 발주"}, {"date": "2022", "val": 162.5, "event": "카타르 LNG 1차"}, {"date": "2023", "val": 178.4, "event": "슬롯 선점 경쟁"}, {"date": "2024", "val": 189.2, "event": "LNG·암모니아 독점"}, {"date": "2026.10", "val": 188.5, "event": "188.5p 안착"}]}, "inflections": [{"date": "2020", "event": "조선업 10년 불황의 바닥 (125p)", "desc": "글로벌 물동량 정체로 선박 발주가 극도로 위축되었던 국면"}, {"date": "2022", "event": "카타르 초대형 LNG 프로젝트 (162p)", "desc": "친환경 선박 교체와 LNG 운반선 척당 2억 5천만 달러 시대 진입"}, {"date": "2024", "event": "2008년 이후 최고치 189p 터치", "desc": "국내 대형 조선 3사의 도크 슬롯이 3.5년 치 이상 매진"}, {"date": "2026.10", "event": "188.5p 유지 및 미 해군 MRO 진출", "desc": "단순 신조선을 넘어 미 군함 유지보수 MRO까지 밸류에이션 확장"}], "insight": "신조선가지수가 188.5p로 유지되는 것은 선주들이 프리미엄 가격을 지불하고서라도 국내 조선소의 슬롯을 확보하려 한다는 강력한 증거입니다. 2026~2028년 인도되는 물량은 100% 고수익 선박으로 구성되어 조선 3사의 사상 최대 실적을 담보합니다."}};
+    const economicTrendData = {"usdkrw": {"title": "원/달러 환율 (KRW/USD) 과거 시계열 추이", "category": "외환 & 글로벌 통화", "current": "1,336.10원", "unit": "원", "high": "1,442.00원 (2022.10)", "low": "1,190.00원 (2022.01)", "chg": "+8.10원 (10/28 장 마감 종가 확정)", "timeframes": {"1M": [{"date": "10/01", "val": 1318.5, "event": ""}, {"date": "10/08", "val": 1334.2, "event": "한은 금통위"}, {"date": "10/15", "val": 1352.0, "event": "美 지표 호조"}, {"date": "10/22", "val": 1378.5, "event": "대선 리스크"}, {"date": "10/27", "val": 1385.0, "event": "日 총선 쇼크"}, {"date": "10/28", "val": 1336.1, "event": "GDP 1.0% 발표 1,336.10원 마감"}], "3M": [{"date": "08/01", "val": 1372.0, "event": "엔캐리 청산"}, {"date": "08/15", "val": 1360.5, "event": ""}, {"date": "09/01", "val": 1338.0, "event": ""}, {"date": "09/18", "val": 1324.5, "event": "美 빅컷 50bp"}, {"date": "10/01", "val": 1318.5, "event": "저점 형성"}, {"date": "10/15", "val": 1352.0, "event": ""}, {"date": "10/28", "val": 1336.1, "event": "장 마감 확정"}], "1Y": [{"date": "23/11", "val": 1305.0, "event": ""}, {"date": "24/01", "val": 1335.0, "event": ""}, {"date": "24/04", "val": 1400.0, "event": "중동 1차 충격"}, {"date": "24/07", "val": 1380.0, "event": ""}, {"date": "24/09", "val": 1324.0, "event": "연준 피벗"}, {"date": "25/03", "val": 1350.0, "event": ""}, {"date": "26/10", "val": 1336.1, "event": "1,336원 안정"}], "ALL": [{"date": "2022.01", "val": 1190.0, "event": "저금리 국면"}, {"date": "2022.10", "val": 1442.0, "event": "연준 75bp 자이언트스텝"}, {"date": "2023.01", "val": 1220.0, "event": "반등 조정"}, {"date": "2023.10", "val": 1355.0, "event": "고금리 장기화"}, {"date": "2024.04", "val": 1400.0, "event": "환율 1,400원선 공방"}, {"date": "2024.09", "val": 1324.0, "event": "미국 기준금리 인하 개시"}, {"date": "2026.10", "val": 1336.1, "event": "1,336.10원 장 마감"}]}, "inflections": [{"date": "2022.10", "event": "美 연준 자이언트스텝 (1,442원 돌파)", "desc": "글로벌 킹달러 국면에서 외환위기 이후 최고치 경신"}, {"date": "2024.04", "event": "이란-이스라엘 중동 위기 (1,400원 재진입)", "desc": "한·미·일 재무장관 공동 구두개입 및 외환당국 미세조정 단행"}, {"date": "2024.09", "event": "美 연준 50bp 빅컷 단행 (1,320원대 하락)", "desc": "금리 인하 사이클 진입으로 달러 약세 압력 가시화"}, {"date": "2026.10", "event": "韓 3분기 GDP 1.0% 서프라이즈 (1,336.10원 마감)", "desc": "견조한 성장률과 반도체 수출 호조로 원화 가치 안정화 안착"}], "insight": "원/달러 환율은 2024년 4월의 1,400원 고점을 거쳐 2026년 하반기 현재 1,320~1,360원 박스권 안에서 안정적인 하방 경직성을 유지하고 있습니다. 반도체 수출 호조(10월 130억 달러)와 3분기 GDP 1.0% 서프라이즈가 원화 펀더멘털을 단단히 지지하고 있습니다."}, "rate_diff": {"title": "한·미 기준금리차 및 통화정책 경로 시계열", "category": "통화정책 & 중앙은행", "current": "100bp (한은 3.00% vs 연준 4.00%)", "unit": "bp", "high": "200bp (2023.07~2024.08 역대 최대)", "low": "0bp (2022.06 역전 직전)", "chg": "-100bp (역전폭 대폭 축소)", "timeframes": {"1M": [{"date": "10/01", "val": 100, "event": "금리차 100bp"}, {"date": "10/11", "val": 100, "event": "한은 3.00% 동결"}, {"date": "10/28", "val": 100, "event": "한은 3.00% vs 美 4.00%"}], "1Y": [{"date": "23/12", "val": 200, "event": "한은 3.50% vs 美 5.50%"}, {"date": "24/06", "val": 200, "event": "역대 최대 200bp 유지"}, {"date": "24/09", "val": 150, "event": "美 빅컷 50bp (5.00%)"}, {"date": "24/10", "val": 175, "event": "한은 피벗 (3.25%)"}, {"date": "25/06", "val": 125, "event": "연준 추가 인하"}, {"date": "26/10", "val": 100, "event": "한은 3.00% vs 美 4.00%"}], "ALL": [{"date": "2022.01", "val": -100, "event": "한은 금리 우위 (+100bp)"}, {"date": "2022.07", "val": 0, "event": "한·미 금리 역전"}, {"date": "2023.07", "val": 200, "event": "200bp 역대 최대 역전"}, {"date": "2024.09", "val": 150, "event": "美 연준 50bp 빅컷"}, {"date": "2026.10", "val": 100, "event": "100bp로 스프레드 정상화"}]}, "inflections": [{"date": "2022.07", "event": "한·미 기준금리 역사적 역전", "desc": "미 연준의 가파른 자이언트스텝으로 1999년 이후 최장기 금리 역전 시작"}, {"date": "2023.07", "event": "역대 최대 200bp 역전 도달", "desc": "연준 5.50% vs 한은 3.50% 격차 발생했으나 자본 유출 우려 완충"}, {"date": "2024.09", "event": "美 연준 50bp 빅컷 단행", "desc": "파월 의장의 금리 인하 피벗으로 한미 금리차가 150bp로 축소"}, {"date": "2026.10", "event": "100bp 차이 안착 (한은 3.00% vs 연준 4.00%)", "desc": "통화정책 정상화 국면에서 금리차로 인한 금융시장 왜곡 해소"}], "insight": "역대 최대였던 200bp의 금리 역전이 100bp 수준으로 축소되면서, 환율 방어와 자본 유출에 대한 한국은행의 통화정책 운용 숨통이 크게 트였습니다. 11월 금통위에서는 현 3.00% 동결이 매우 유력합니다."}, "gdp": {"title": "韓 분기별 실질 GDP 성장률 추이 (전기대비 속보치)", "category": "거시 성장률 & 실물경제", "current": "1.0% q/q (3분기 속보치 서프라이즈)", "unit": "%", "high": "1.3% (2024.1Q)", "low": "-0.2% (2024.2Q)", "chg": "+0.9%p (전분기 0.1% 대비 대반등)", "timeframes": {"ALL": [{"date": "2023.1Q", "val": 0.3, "event": "바닥 통과"}, {"date": "2023.2Q", "val": 0.6, "event": ""}, {"date": "2023.3Q", "val": 0.6, "event": ""}, {"date": "2023.4Q", "val": 0.6, "event": ""}, {"date": "2024.1Q", "val": 1.3, "event": "깜짝 1.3% 성장"}, {"date": "2024.2Q", "val": -0.2, "event": "기저효과 역성장"}, {"date": "2024.3Q", "val": 0.1, "event": "0.1% 쇼크"}, {"date": "2024.4Q", "val": 0.4, "event": "회복"}, {"date": "2025.2Q", "val": 0.6, "event": ""}, {"date": "2026.3Q", "val": 1.0, "event": "1.0% 서프라이즈"}]}, "inflections": [{"date": "2024.1Q", "event": "1.3% 서프라이즈 성장", "desc": "건설 투자와 민간 소비의 일시적 반등으로 연간 성장 기대 급증"}, {"date": "2024.2Q", "event": "-0.2% 역성장 쇼크", "desc": "1분기 급증에 따른 역기저 효과 및 고금리 지속에 따른 내수 부진"}, {"date": "2024.3Q", "event": "0.1% 쇼크 (한은 전망치 0.5% 대폭 하회)", "desc": "수출 둔화 우려와 내수 침체가 겹치며 연간 2.4% 달성 경고음"}, {"date": "2026.3Q", "event": "1.0% 대반등 (한은 10/27 공식 발표)", "desc": "설비투자(4.1%)와 반도체 HBM 수출 폭발로 한은 전망치 3배 초과 달성"}], "insight": "2024년 3분기 0.1% 쇼크로 얼어붙었던 국내 실물경기가 2026년 3분기 1.0%라는 경이로운 성장률로 부활했습니다. 이는 단순 정부 재정이 아닌 SK하이닉스·삼성전자 등의 대규모 첨단 반도체 설비투자가 이끈 질적으로 건강한 성장입니다."}, "exports": {"title": "대한민국 월별 수출액 & 경상수지 시계열 추이", "category": "수출 & 경상수지 사이클", "current": "$582.5억 / 흑자 $750억 돌파 (2026.10 잠정)", "unit": "억$", "high": "$608.2억 (2022.03 사상 최고)", "low": "$463.8억 (2023.01 반도체 혹한기)", "chg": "+18.5% (수출 13개월 연속 플러스 행진)", "timeframes": {"1M": [{"date": "10/01", "val": 560.0, "event": "10월 수출 호조세"}, {"date": "10/10", "val": 568.5, "event": "조업일수 감안 증가"}, {"date": "10/20", "val": 575.2, "event": "반도체 100억$ 돌파"}, {"date": "10/28", "val": 582.5, "event": "반도체 130억$ · 총수출 582억$ 달성"}], "1Y": [{"date": "23/11", "val": 558.0, "event": "수출 플러스 전환"}, {"date": "24/03", "val": 565.6, "event": "반도체 117억$ 회복"}, {"date": "24/06", "val": 570.7, "event": "상반기 수출 역대 2위"}, {"date": "24/09", "val": 587.7, "event": "9월 역대 1위 수출액"}, {"date": "25/03", "val": 572.0, "event": "HBM3E 전면 양산"}, {"date": "26/10", "val": 582.5, "event": "연간 경상흑자 $750억 달성"}], "ALL": [{"date": "2022.03", "val": 608.2, "event": "코로나 특수 고점 ($608억)"}, {"date": "2022.12", "val": 549.0, "event": "무역적자 심화"}, {"date": "2023.01", "val": 463.8, "event": "반도체 다운사이클 저점 ($463억)"}, {"date": "2023.10", "val": 550.0, "event": "13개월 만의 수출 플러스"}, {"date": "2024.09", "val": 587.7, "event": "반도체 136억$ 사상 최대"}, {"date": "2026.10", "val": 582.5, "event": "연간 경상흑자 750억 달성"}]}, "inflections": [{"date": "2023.01", "event": "반도체 한파 및 무역적자 저점 ($463억)", "desc": "메모리 가격 폭락과 대중 수출 급감으로 월간 무역수지 -127억 달러 충격"}, {"date": "2023.10", "event": "13개월 만의 수출 플러스 전환", "desc": "AI 붐으로 HBM 수요 폭발하며 반도체 수출 턴어라운드 개시"}, {"date": "2024.09", "event": "역대 9월 1위 수출 ($587.7억)", "desc": "반도체 월 수출 136억 달러 사상 최대 및 대미 수출 호조"}, {"date": "2026.10", "event": "연간 경상수지 흑자 $750억 돌파 안착", "desc": "SK하이닉스·삼성전자 HBM4 공급망 패권 및 친환경 고부가 LNG선 인도"}], "insight": "한국 수출은 2023년 초의 반도체 불황 바닥을 완벽히 탈출하여, AI 메모리(HBM)와 친환경 고부가 선박이 견인하는 구조적 슈퍼사이클에 진입했습니다. 연간 경상수지 흑자 750억 달러 돌파는 대외 통상 압박을 상쇄하는 강력한 방파제 역할을 하고 있습니다."}, "us_yield_curve": {"title": "美 국채 10년-2년 장단기 금리차 (10Y-2Y) 추이", "category": "채권 & 경기 사이클", "current": "+26.9bp (정상화 안착)", "unit": "bp", "high": "+26.9bp (2026.10 현재)", "low": "-108bp (2023.03 SVB 사태)", "chg": "+134.9bp (역사적 침체 경고 해소)", "timeframes": {"1Y": [{"date": "23/11", "val": -45, "event": "역전 지속"}, {"date": "24/03", "val": -38, "event": ""}, {"date": "24/07", "val": -15, "event": "역전 해소 임박"}, {"date": "24/09", "val": 12, "event": "금리차 플러스 전환"}, {"date": "25/03", "val": 18, "event": "스티프닝"}, {"date": "26/10", "val": 26.9, "event": "+26.9bp 정상화"}], "ALL": [{"date": "2021.01", "val": 85, "event": "코로나 경기 부양"}, {"date": "2022.07", "val": -10, "event": "장단기 금리 역전 진입"}, {"date": "2023.03", "val": -108, "event": "역대 최장 역전 심화 (-108bp)"}, {"date": "2024.09", "val": 8, "event": "793일 만의 역전 종료"}, {"date": "2026.10", "val": 26.9, "event": "수익률 곡선 완전 정상화"}]}, "inflections": [{"date": "2022.07", "event": "미 10Y-2Y 금리차 공식 역전 진입", "desc": "1980년대 이후 가장 확실한 경기 침체 선행지표로 월가 긴장"}, {"date": "2023.03", "event": "SVB 은행 파산 쇼크 (-108bp 극단치)", "desc": "단기금리 급등과 은행 위기가 결합하여 역대 최장기 역전 기록"}, {"date": "2024.09", "event": "793일 만에 플러스 전환 (Disinversion)", "desc": "연준의 금리 인하로 2년물 금리가 급락하며 수익률 곡선 정상화"}, {"date": "2026.10", "event": "+26.9bp 안착 (10Y 5.028% vs 2Y 4.749%)", "desc": "소프트랜딩(연착륙) 기대감 속에 건강한 기간 프리미엄 복원"}], "insight": "과거 50년간 장단기 금리 역전 해소 국면에서 경기 침체가 발생했던 전례와 달리, 2026년의 금리차 정상화는 견조한 미국 고용과 M7 AI 설비투자가 결합된 '무침체 연착륙(No-Landing Soft-Landing)' 패턴을 보이고 있습니다."}, "kr_yield_curve": {"title": "韓 국고채 10년-3년 장단기 스프레드 추이", "category": "채권 & 통화정책", "current": "+30.9bp (스프레드 정상 우상향)", "unit": "bp", "high": "+42.5bp (2024.05)", "low": "-25.0bp (2022.10 레고랜드 사태 역전)", "chg": "+55.9bp (자금시장 안정)", "timeframes": {"1Y": [{"date": "23/11", "val": 15.2, "event": ""}, {"date": "24/03", "val": 22.0, "event": ""}, {"date": "24/07", "val": 28.5, "event": ""}, {"date": "24/10", "val": 32.0, "event": "한은 인하 기대"}, {"date": "25/03", "val": 29.5, "event": ""}, {"date": "26/10", "val": 30.9, "event": "10Y 4.106% vs 3Y 3.792%"}], "ALL": [{"date": "2021.01", "val": 75.0, "event": "확장기"}, {"date": "2022.10", "val": -25.0, "event": "단기 자금경색 역전"}, {"date": "2023.06", "val": 10.0, "event": "플러스 회복"}, {"date": "2024.06", "val": 30.0, "event": "정상화 안착"}, {"date": "2026.10", "val": 30.9, "event": "+30.9bp 안정적 스프레드"}]}, "inflections": [{"date": "2022.10", "event": "국고채 10Y-3Y 역전 (-25bp)", "desc": "레고랜드 발 부동산 PF 자금경색으로 3년물 단기금리가 10년물 상회"}, {"date": "2023.06", "event": "정부 50조 유동성 지원 및 정상화", "desc": "자금시장 안정화 펀드 가동으로 단기 금리 급등세 진정"}, {"date": "2026.10", "event": "+30.9bp 건강한 스프레드 유지", "desc": "10년물 4.106%와 3년물 3.792%로 정상적인 우상향 기간구조 확립"}], "insight": "한국 국고채 시장의 10Y-3Y 스프레드가 +30.9bp로 건강하게 유지되고 있어 금융시장 내 시스템 리스크나 단기 자금 경색 가능성은 매우 낮습니다."}, "kospi": {"title": "KOSPI 코스피 지수 과거 시계열 추이", "category": "자본시장 & 주식", "current": "6,012.44p (2026.10.28 장 마감)", "unit": "p", "high": "6,012.44p (역사적 신고가)", "low": "2,134.77p (2022.09 저점)", "chg": "+374.10p (+6.63%, 6,000선 돌파)", "timeframes": {"1M": [{"date": "10/01", "val": 5620.5, "event": ""}, {"date": "10/10", "val": 5710.2, "event": "외인 순매수"}, {"date": "10/18", "val": 5830.0, "event": "하이닉스 호실적"}, {"date": "10/25", "val": 5890.5, "event": "6천선 임박"}, {"date": "10/28", "val": 6012.4, "event": "6,012.44p 사상 최고치"}], "1Y": [{"date": "23/11", "val": 2500.0, "event": "공매도 금지"}, {"date": "24/03", "val": 2750.0, "event": "밸류업 프로그램"}, {"date": "24/07", "val": 2890.0, "event": ""}, {"date": "24/08", "val": 2440.0, "event": "8/5 블랙먼데이"}, {"date": "25/03", "val": 3200.0, "event": "HBM 실적 랠리"}, {"date": "26/10", "val": 6012.4, "event": "6,012p 대기록"}], "ALL": [{"date": "2021.07", "val": 3305.2, "event": "동학개미 고점"}, {"date": "2022.09", "val": 2134.8, "event": "긴축 저점"}, {"date": "2023.12", "val": 2655.2, "event": "회복"}, {"date": "2024.08", "val": 2441.5, "event": "단기 급락"}, {"date": "2026.10", "val": 6012.4, "event": "6,012p 사상 최고치"}]}, "inflections": [{"date": "2022.09", "event": "코스피 2,134p 저점", "desc": "글로벌 급격한 금리 인상과 레고랜드 사태로 침체 바닥 통과"}, {"date": "2024.08", "event": "8/5 블랙먼데이 쇼크 (2,441p)", "desc": "엔캐리 트레이드 청산 쇼크로 일일 8.77% 급락 후 V자 반등"}, {"date": "2026.10", "event": "코스피 6,000선 역사적 돌파 (6,012.44p)", "desc": "SK하이닉스·삼성전자 HBM4 파운드리 패권과 K-조선 슈퍼사이클 견인"}], "insight": "코스피 6,000선 돌파는 단순 유동성 장세가 아니라, 글로벌 AI 인프라의 핵심인 HBM 반도체와 친환경 조선의 압도적 영업이익에 기반한 재평가(Re-rating)입니다."}, "clarksons": {"title": "클락슨 신조선가지수 (Newbuilding Price Index) 추이", "category": "조선 & 해운 인프라", "current": "188.5p (역사적 신고가 육박)", "unit": "p", "high": "191.6p (2008년 역사적 최고점)", "low": "125.0p (2020년 코로나 저점)", "chg": "+50.8% (슈퍼사이클 가속)", "timeframes": {"ALL": [{"date": "2020", "val": 125.6, "event": "장기 불황 저점"}, {"date": "2021", "val": 153.6, "event": "컨테이너선 발주"}, {"date": "2022", "val": 162.5, "event": "카타르 LNG 1차"}, {"date": "2023", "val": 178.4, "event": "슬롯 선점 경쟁"}, {"date": "2024", "val": 189.2, "event": "LNG·암모니아 독점"}, {"date": "2026.10", "val": 188.5, "event": "188.5p 안착"}]}, "inflections": [{"date": "2020", "event": "조선업 10년 불황의 바닥 (125p)", "desc": "글로벌 물동량 정체로 선박 발주가 극도로 위축되었던 국면"}, {"date": "2022", "event": "카타르 초대형 LNG 프로젝트 (162p)", "desc": "친환경 선박 교체와 LNG 운반선 척당 2억 5천만 달러 시대 진입"}, {"date": "2024", "event": "2008년 이후 최고치 189p 터치", "desc": "국내 대형 조선 3사의 도크 슬롯이 3.5년 치 이상 매진"}, {"date": "2026.10", "event": "188.5p 유지 및 미 해군 MRO 진출", "desc": "단순 신조선을 넘어 미 군함 유지보수 MRO까지 밸류에이션 확장"}], "insight": "신조선가지수가 188.5p로 유지되는 것은 선주들이 프리미엄 가격을 지불하고서라도 국내 조선소의 슬롯을 확보하려 한다는 강력한 증거입니다. 2026~2028년 인도되는 물량은 100% 고수익 선박으로 구성되어 조선 3사의 사상 최대 실적을 담보합니다."}};
 
     let currentTrendKey = 'usdkrw';
     let currentTrendTf = 'ALL';
@@ -6665,6 +6774,14 @@
         currentTrendTf = availableTfs.includes('ALL') ? 'ALL' : availableTfs[availableTfs.length - 1];
       } else {
         currentTrendTf = tf;
+      }
+
+            // Update Quick Indicator Switcher Buttons
+      document.querySelectorAll('.trend-ind-btn').forEach(b => b.classList.remove('active'));
+      const activeBtn = document.getElementById('indBtn-' + key);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+        try { activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }); } catch(e){}
       }
 
       document.getElementById('trendModalTitle').textContent = data.title;
@@ -7460,11 +7577,16 @@ function jumpToEconometricsLab(indicatorKey) {
   const lab = document.getElementById('econometrics-lab');
   if (lab) lab.scrollIntoView({ behavior: 'smooth' });
 
-  if (indicatorKey) {
-    const sel = document.getElementById('econInceptionSelect');
-    if (sel && ECON_MACRO_DATA[indicatorKey]) {
-      sel.value = indicatorKey;
-    }
+  let targetEconKey = indicatorKey;
+  if (indicatorKey === 'rate_diff') targetEconKey = 'bok_rate';
+  else if (indicatorKey === 'us_yield_curve') targetEconKey = 'fed_rate';
+  else if (indicatorKey === 'kr_yield_curve') targetEconKey = 'bok_rate';
+  else if (indicatorKey === 'gdp') targetEconKey = 'kr_gdp';
+  else if (indicatorKey === 'exports' || indicatorKey === 'clarksons') targetEconKey = 'kospi';
+
+  const sel = document.getElementById('econInceptionSelect');
+  if (sel && ECON_MACRO_DATA[targetEconKey]) {
+    sel.value = targetEconKey;
   }
   switchEconTab('tab-inception');
 }
