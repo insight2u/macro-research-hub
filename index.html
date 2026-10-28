@@ -3950,56 +3950,36 @@
       50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 6px #FEE500); }
     }
 
-    /* Grand Hero Masthead Brand Architecture */
+    
+    /* Brand Signature Logo Styling */
     .hero-brand-monument {
       display: flex;
+      flex-direction: column;
       align-items: flex-start;
-      gap: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
-    .hero-emblem-monolith {
-      position: relative;
-      flex-shrink: 0;
-      width: 72px;
-      height: 72px;
+    .hero-brand-logo-container {
+      width: 100%;
+      max-width: 520px;
       display: flex;
       align-items: center;
-      justify-content: center;
     }
-    .hero-emblem-monolith svg {
+    .hero-signature-logo {
       width: 100%;
-      height: 100%;
-      filter: drop-shadow(0 8px 24px rgba(0, 113, 227, 0.55)) drop-shadow(0 0 8px rgba(56, 189, 248, 0.6));
+      height: auto;
+      max-height: 84px;
+      filter: drop-shadow(0 6px 20px rgba(0, 113, 227, 0.35));
+      transition: filter 0.3s ease;
     }
-    .hero-title-group {
-      flex: 1;
+    .hero-signature-logo:hover {
+      filter: drop-shadow(0 8px 28px rgba(0, 113, 227, 0.6)) drop-shadow(0 0 10px rgba(56, 189, 248, 0.8));
     }
-    .hero-monument-h1 {
-      font-size: 38px !important;
-      font-weight: 900 !important;
-      line-height: 1.12 !important;
-      letter-spacing: -0.02em !important;
-      margin: 0 0 8px 0 !important;
-      display: flex;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 12px;
+    @media (max-width: 600px) {
+      .hero-brand-logo-container {
+        max-width: 360px;
+      }
     }
-    .hero-h1-primary {
-      background: linear-gradient(135deg, #FFFFFF 30%, #E2E8F0 70%, #94A3B8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-    .hero-h1-secondary {
-      font-size: 26px !important;
-      font-weight: 700 !important;
-      background: linear-gradient(135deg, #38BDF8 0%, #0071E3 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      letter-spacing: 0.04em;
-    }
+
     .hero-monument-desc {
       font-size: 15px !important;
       color: #CBD5E1 !important;
@@ -4064,62 +4044,57 @@
     <div class="nav-inner">
       <a href="#" class="nav-brand-bx">
         <div class="bi-emblem-wrap">
-          <svg class="bi-emblem" width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="bi-emblem-svg" width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="shieldGrad_nav" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0071E3" />
-      <stop offset="50%" stop-color="#38BDF8" />
+    <linearGradient id="nav_sapphire" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="45%" stop-color="#0071E3" />
       <stop offset="100%" stop-color="#6366F1" />
     </linearGradient>
-    <linearGradient id="goldGrad_nav" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FEE500" />
-      <stop offset="100%" stop-color="#F59E0B" />
+    <linearGradient id="nav_gold" x1="20" y1="20" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF066" />
+      <stop offset="60%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
     </linearGradient>
-    <linearGradient id="titaniumPlate_nav" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1E2330" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#0A0D14" stop-opacity="0.98" />
+    <linearGradient id="nav_titanium" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#090D16" />
     </linearGradient>
-    <filter id="biGlow_nav" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <linearGradient id="nav_border" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.8" />
+    </linearGradient>
+    <filter id="nav_glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
   </defs>
 
-  <!-- Ambient Glow Background -->
-  <circle cx="50" cy="50" r="42" fill="url(#shieldGrad_nav)" opacity="0.25" filter="url(#biGlow_nav)" />
+  <!-- Ambient Glow -->
+  <circle cx="50" cy="50" r="42" fill="url(#nav_sapphire)" opacity="0.22" filter="url(#nav_glow)" />
 
-  <!-- Outer Architectural Beveled Hexagon (Defense & Sovereign Authority) -->
-  <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" 
-           fill="url(#titaniumPlate_nav)" 
-           stroke="url(#shieldGrad_nav)" 
-           stroke-width="2.5" 
+  <!-- Shield Geometry -->
+  <polygon points="50,4 85,18 96,50 85,82 50,96 15,82 4,50 15,18" 
+           fill="url(#nav_titanium)" 
+           stroke="url(#nav_border)" 
+           stroke-width="2.4" 
            stroke-linejoin="round" />
 
-  <!-- Precision Inset Facet Line (Glass Prism Reflection) -->
-  <polygon points="50,13 82,31 82,69 50,87 18,69 18,31" 
+  <!-- Inset Prism Line -->
+  <polygon points="50,11 80,23 89,50 80,77 50,89 20,77 11,50 20,23" 
            fill="none" 
-           stroke="rgba(255,255,255,0.12)" 
+           stroke="rgba(255, 255, 255, 0.16)" 
            stroke-width="1" />
 
-  <!-- Monogram Glyph: Architectural 'R' fused with 'Y' Foresight Vector -->
-  <!-- Left Pillar of R -->
-  <path d="M33 28 V72" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" />
-  
-  <!-- Upper Loop of R intersecting Y split -->
-  <path d="M33 28 H54 C63 28 68 34 68 41 C68 48 63 53 54 53 H33" 
-        stroke="url(#shieldGrad_nav)" 
-        stroke-width="5.5" 
-        stroke-linecap="round" 
-        stroke-linejoin="round" />
-        
-  <!-- Dynamic Ascending Right Leg of R (Strategic Horizon Vector) -->
-  <path d="M49 53 L69 72" stroke="url(#goldGrad_nav)" stroke-width="5.5" stroke-linecap="round" />
-
-  <!-- Y-Foresight Central Lens Node (Pulsing Center of Strategic Gravity) -->
-  <circle cx="50" cy="50" r="3.5" fill="#FEE500" filter="url(#biGlow_nav)" />
-  
-  <!-- Subtle Horizon Beam -->
-  <line x1="24" y1="50" x2="76" y2="50" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="2 2" />
+  <!-- Monogram R & Y -->
+  <path d="M31 25 V75" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+  <path d="M31 25 H53 C64 25 71 31 71 40 C71 49 64 54 53 54 H31" 
+        stroke="url(#nav_sapphire)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M48 54 L72 75" stroke="url(#nav_gold)" stroke-width="6" stroke-linecap="round" />
+  <circle cx="50" cy="54" r="3.8" fill="#FFF066" filter="url(#nav_glow)" />
+  <circle cx="50" cy="54" r="1.8" fill="#FFFFFF" />
+  <line x1="20" y1="54" x2="80" y2="54" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="2 3" />
 </svg>
         </div>
         <div class="bi-typography-wrap">
@@ -4127,13 +4102,13 @@
           <div class="bi-secondary-title">
             <span class="bi-tag-insight">KNOWLEDGE &amp; INSIGHT</span>
             <span class="bi-divider-dot">●</span>
-            <span class="bi-sub-badge">THINKTANK PRO</span>
+            <span class="bi-sub-badge">RESEARCH HUB</span>
           </div>
         </div>
       </a>
       <div class="nav-menu">
         <a href="#editorial" class="hot-link">🔥 특종·인텔리전스 브리핑</a>
-        <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 국가·산업 전략 AI 랩</a>
+        <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 트렌드 분석 랩</a>
         <a href="#email-sync">📡 글로벌 경제·산업 라이브 레이더</a>
         <a href="#explorer" onclick="setMainTab('notion')">📚 전략 모노그래프 원장 (565편)</a>
         <a href="#explorer" onclick="setMainTab('bookmarks')">📊 글로벌 거시·정책 DB (1,821개)</a>
@@ -4205,83 +4180,101 @@
       <!-- Masthead Header & Top Right Diverse Economic Intel Hub -->
       <div class="masthead-container-flex">
         <div class="masthead-info-col">
-          <div class="award-accreditation-pill">
-            <span class="award-star">✦</span>
-            <span>RED DOT · iF DESIGN · GOOD DESIGN BENCHMARK · PRESTIGE BX ARCHITECTURE</span>
-            <span class="award-star">✦</span>
-          </div>
-
           <div class="masthead-bar" style="margin-bottom:16px;">
             <div class="hero-brand-monument">
-              <div class="hero-emblem-monolith">
-                <svg class="bi-emblem" width="72" height="72" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="shieldGrad_hero" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0071E3" />
-      <stop offset="50%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#6366F1" />
-    </linearGradient>
-    <linearGradient id="goldGrad_hero" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FEE500" />
-      <stop offset="100%" stop-color="#F59E0B" />
-    </linearGradient>
-    <linearGradient id="titaniumPlate_hero" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#1E2330" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#0A0D14" stop-opacity="0.98" />
-    </linearGradient>
-    <filter id="biGlow_hero" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-  </defs>
+              <div class="hero-brand-logo-container">
+                <svg class="hero-signature-logo" viewBox="0 0 520 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="hl_sapphire" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#38BDF8" />
+                      <stop offset="50%" stop-color="#0071E3" />
+                      <stop offset="100%" stop-color="#6366F1" />
+                    </linearGradient>
+                    <linearGradient id="hl_gold" x1="10" y1="10" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#FFF066" />
+                      <stop offset="60%" stop-color="#F59E0B" />
+                      <stop offset="100%" stop-color="#D97706" />
+                    </linearGradient>
+                    <linearGradient id="hl_titanium" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#1E293B" />
+                      <stop offset="100%" stop-color="#090D16" />
+                    </linearGradient>
+                    <linearGradient id="hl_border" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+                      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.7" />
+                      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.8" />
+                    </linearGradient>
+                    <linearGradient id="hl_text_grad" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#FFFFFF" />
+                      <stop offset="65%" stop-color="#F1F5F9" />
+                      <stop offset="100%" stop-color="#94A3B8" />
+                    </linearGradient>
+                    <filter id="hl_glow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+                      <feGaussianBlur stdDeviation="3" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
 
-  <!-- Ambient Glow Background -->
-  <circle cx="50" cy="50" r="42" fill="url(#shieldGrad_hero)" opacity="0.25" filter="url(#biGlow_hero)" />
+                  <!-- Icon Emblem (80x80 scaled) -->
+                  <g transform="translate(2, 2)">
+                    <!-- Outer Aura -->
+                    <circle cx="40" cy="40" r="38" fill="url(#hl_sapphire)" opacity="0.2" filter="url(#hl_glow)" />
 
-  <!-- Outer Architectural Beveled Hexagon (Defense & Sovereign Authority) -->
-  <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" 
-           fill="url(#titaniumPlate_hero)" 
-           stroke="url(#shieldGrad_hero)" 
-           stroke-width="2.5" 
-           stroke-linejoin="round" />
+                    <!-- Outer Architectural Shield / Octagon -->
+                    <polygon points="40,3 69,15 78,40 69,65 40,77 11,65 2,40 11,15" 
+                             fill="url(#hl_titanium)" 
+                             stroke="url(#hl_border)" 
+                             stroke-width="2.2" 
+                             stroke-linejoin="round" />
 
-  <!-- Precision Inset Facet Line (Glass Prism Reflection) -->
-  <polygon points="50,13 82,31 82,69 50,87 18,69 18,31" 
-           fill="none" 
-           stroke="rgba(255,255,255,0.12)" 
-           stroke-width="1" />
+                    <!-- Inner Bevel Prism -->
+                    <polygon points="40,9 64,19 71,40 64,61 40,71 16,61 9,40 16,19" 
+                             fill="none" 
+                             stroke="rgba(255,255,255,0.18)" 
+                             stroke-width="1" />
 
-  <!-- Monogram Glyph: Architectural 'R' fused with 'Y' Foresight Vector -->
-  <!-- Left Pillar of R -->
-  <path d="M33 28 V72" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" />
-  
-  <!-- Upper Loop of R intersecting Y split -->
-  <path d="M33 28 H54 C63 28 68 34 68 41 C68 48 63 53 54 53 H33" 
-        stroke="url(#shieldGrad_hero)" 
-        stroke-width="5.5" 
-        stroke-linecap="round" 
-        stroke-linejoin="round" />
-        
-  <!-- Dynamic Ascending Right Leg of R (Strategic Horizon Vector) -->
-  <path d="M49 53 L69 72" stroke="url(#goldGrad_hero)" stroke-width="5.5" stroke-linecap="round" />
+                    <!-- Monogram RY Geometry -->
+                    <!-- R Vertical Pillar -->
+                    <path d="M25 21 V59" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+                    <!-- R Arch -->
+                    <path d="M25 21 H43 C52 21 57 26 57 33 C57 40 52 44 43 44 H25" 
+                          stroke="url(#hl_sapphire)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                    <!-- R/Y Ascending Gold Vector Leg -->
+                    <path d="M39 44 L58 60" stroke="url(#hl_gold)" stroke-width="5" stroke-linecap="round" />
+                    <!-- Central Insight Pulsar Core -->
+                    <circle cx="40" cy="44" r="3.2" fill="#FFF066" filter="url(#hl_glow)" />
+                    <circle cx="40" cy="44" r="1.5" fill="#FFFFFF" />
+                    <!-- Horizon Coordinate Line -->
+                    <line x1="16" y1="44" x2="64" y2="44" stroke="rgba(255,255,255,0.2)" stroke-width="0.9" stroke-dasharray="2 2" />
+                  </g>
 
-  <!-- Y-Foresight Central Lens Node (Pulsing Center of Strategic Gravity) -->
-  <circle cx="50" cy="50" r="3.5" fill="#FEE500" filter="url(#biGlow_hero)" />
-  
-  <!-- Subtle Horizon Beam -->
-  <line x1="24" y1="50" x2="76" y2="50" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-dasharray="2 2" />
-</svg>
+                  <!-- Brand Typography System -->
+                  <g transform="translate(98, 8)">
+                    <!-- Pro Pill -->
+                    <g transform="translate(0, 10)">
+                      <rect x="0" y="-11" width="160" height="17" rx="4" fill="rgba(0, 113, 227, 0.15)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+                      <circle cx="7" cy="-2.5" r="2.5" fill="#38BDF8" />
+                      <text x="14" y="0.5" fill="#7DD3FC" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard', sans-serif" font-size="9" font-weight="800" letter-spacing="1.4">GLOBAL THINKTANK PRO</text>
+                    </g>
+
+                    <!-- Main Brand Name: RYUYOUNGSUN -->
+                    <text x="0" y="38" fill="url(#hl_text_grad)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Montserrat', 'Pretendard', sans-serif" font-size="28" font-weight="900" letter-spacing="2">RYUYOUNGSUN</text>
+
+                    <!-- Sub-Brand: Knowledge & Insight -->
+                    <g transform="translate(0, 62)">
+                      <text x="0" y="0" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14.5" font-weight="800" letter-spacing="2.8">KNOWLEDGE</text>
+                      <text x="114" y="0" fill="#FEE500" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="900">&amp;</text>
+                      <text x="132" y="0" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14.5" font-weight="800" letter-spacing="2.8">INSIGHT</text>
+                      <circle cx="218" cy="-4" r="2" fill="#64748B" />
+                      <text x="228" y="0" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="11" font-weight="700" letter-spacing="1">RESEARCH HUB</text>
+                    </g>
+                  </g>
+                </svg>
               </div>
-              <div class="hero-title-group">
-                <h1 class="hero-monument-h1">
-                  <span class="hero-h1-primary">RYUYOUNGSUN</span>
-                  <span class="hero-h1-secondary">Knowledge &amp; Insight</span>
-                </h1>
-                <p class="hero-monument-desc">
-                  글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학을 관통하는 <strong>4,142개 글로벌 통합 인텔리전스 DB</strong>
-                  <br><span style="font-size:13px; color:#94A3B8;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편)</span>
-                </p>
-              </div>
+              <p class="hero-monument-desc" style="margin-top: 10px;">
+                글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학을 관통하는 <strong>4,142개 글로벌 통합 인텔리전스 DB</strong>
+                <br><span style="font-size:13px; color:#94A3B8;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편)</span>
+              </p>
             </div>
 
             <div class="masthead-right" style="margin-top:6px;">
@@ -4611,7 +4604,7 @@
   <section id="trend-lab" class="trend-lab-section">
     <div class="trend-lab-card">
       <div class="trend-badge-bar">
-        <span class="trend-eyebrow">🔮 소비트렌드 예측 7단계 혼합 연구 모델 × GEMINI GEMS</span>
+        <span class="trend-eyebrow">🔮 AI 실전 트렌드 분석 랩 × GEMINI GEMS</span>
         <a href="https://gemini.google.com/gem/1xwIsGXqkh_-x00B0RowoWyQ9fSISRtsm?usp=sharing" target="_blank" rel="noopener noreferrer" class="gemini-gems-badge-link">
           <span>🚀 젬스 1:1 심층 시나리오 대화 &gt;</span>
         </a>
@@ -4620,13 +4613,12 @@
       </div>
 
       <h2 class="trend-title">
-        <span>🔮 《소비트렌드 예측의 이론과 방법》 기반 실전 전략 예측 랩</span>
-        <span style="font-size: 15px; font-weight: 500; color: #70b4ff;">(Strategic Foresight Engine · Gemini Gems 연동)</span>
+        <span>🔮 관심 분야 AI 실전 트렌드 분석 랩</span>
+        <span style="font-size: 15px; font-weight: 500; color: #70b4ff;">(실시간 트렌드 진단 &amp; 1:1 심층 시나리오 분석)</span>
       </h2>
       <p class="trend-desc">
-        수석 연구위원 유영선 공인 <strong>변화의 층별 사이클(단·중·장기)</strong>과 <strong>실증주의·자연주의 7단계 혼합 연구 디자인(Mixed-Method Research)</strong> 프레임워크를 탑재한 전략 예측 인프라입니다.
-        외삽법(5년 시계열), 생활교차분석, ZMET/사다리기법(15샘플), 델파이(전문가 10인), 2×2 불확실성 시나리오를 통해 
-        <strong>[1P One-Pager 핵심 요약서]</strong>와 <strong>[A4 5P 완결 전략 모노그래프]</strong>를 즉각 산출하며, Gemini Gems 실시간 AI와의 <strong>1:1 심층 시나리오 확장</strong>을 지원합니다.
+        분석하고 싶은 주제나 산업 분야를 입력하시면, <strong>소비트렌드 7단계 예측 모델</strong>을 기반으로 즉시 핵심 인사이트를 도출해 드립니다.
+        <strong>[1P One-Pager 요약서]</strong>와 <strong>[A4 5P 전략 모노그래프]</strong>로 한눈에 진단하고, 필요 시 <strong>Gemini Gems AI와의 1:1 대화</strong>로 심층 시나리오까지 확장해 활용해 보세요.
       </p>
 
       <!-- Topic Input Bar with Parallel Buttons -->
@@ -4671,10 +4663,10 @@
           <div>
             <div style="font-size: 15px; font-weight: 800; color: #c084fc; display: flex; align-items: center; gap: 8px;">
               <span>🏛️</span>
-              <span>《소비트렌드 예측의 이론과 방법》 Gemini Gems AI 전략 엔진 직통 연동</span>
+              <span>Gemini Gems AI 트렌드 분석 엔진 직통 연동</span>
             </div>
             <div style="font-size: 13px; color: #d1d1d6; margin-top: 5px; line-height: 1.5;">
-              현재 분석 중인 <strong>『<span id="geminiDirectTopicName" style="color:#70b4ff; font-weight:700;">해당 주제</span>』</strong>를 바탕으로, 기업·기관 의사결정권자를 위한 1:1 심층 시나리오 분석 및 전략 Q&A를 Gemini AI와 실시간으로 확장하실 수 있습니다.
+              현재 분석 중인 <strong>『<span id="geminiDirectTopicName" style="color:#70b4ff; font-weight:700;">해당 주제</span>』</strong>를 바탕으로, 해당 분야의 시장 기회, 타깃 페르소나, 2×2 시나리오 등 심층 질의응답을 Gemini AI와 실시간으로 이어가실 수 있습니다.
             </div>
           </div>
           <a id="btnGeminiDirectLink" href="https://gemini.google.com/gem/1xwIsGXqkh_-x00B0RowoWyQ9fSISRtsm?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-open-gemini-gems">
