@@ -5564,6 +5564,311 @@
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
 
+
+/* ==========================================================================
+   NOTION 30-SECOND AMBIENT PHOTO SLIDE & YOUTUBE MUSIC 10S HIGHLIGHT SYSTEM
+   ========================================================================== */
+
+/* 1. Notion Moments 30-Second Ambient Overlay */
+.notion-ambient-widget {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 330px;
+  max-width: calc(100vw - 40px);
+  background: rgba(15, 23, 42, 0.94);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 18px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.75), 0 0 25px rgba(56, 189, 248, 0.18);
+  z-index: 9995;
+  overflow: hidden;
+  cursor: pointer;
+  transform: translateX(125%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.75s ease;
+}
+.notion-ambient-widget.active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.ambient-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.ambient-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #38BDF8;
+  letter-spacing: 0.04em;
+}
+.ambient-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #38BDF8;
+  box-shadow: 0 0 8px #38BDF8;
+  animation: ambientPulse 2s infinite;
+}
+@keyframes ambientPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.85); }
+}
+.ambient-close-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #94A3B8;
+  font-size: 16px;
+  line-height: 1;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.ambient-close-btn:hover {
+  background: rgba(239, 68, 68, 0.3);
+  color: #EF4444;
+}
+.ambient-body {
+  padding: 10px 12px 12px;
+}
+.ambient-img-box {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: #0B0F19;
+}
+.ambient-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.notion-ambient-widget:hover .ambient-img-box img {
+  transform: scale(1.03);
+}
+.ambient-info {
+  margin-top: 10px;
+}
+.ambient-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #F1F5F9;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.ambient-sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #94A3B8;
+}
+.ambient-tag {
+  background: rgba(56, 189, 248, 0.15);
+  color: #38BDF8;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+.ambient-cnt {
+  color: #CBD5E1;
+  font-variant-numeric: tabular-nums;
+}
+.ambient-progress {
+  height: 3px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+.ambient-progress-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #38BDF8, #818CF8);
+  transform-origin: left;
+}
+
+/* Notion Photo Modal */
+.notion-photo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  z-index: 10000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.notion-photo-modal-content {
+  background: #0F172A;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.85);
+  position: relative;
+}
+.notion-photo-modal-img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  background: #020617;
+  display: block;
+}
+.notion-photo-modal-footer {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0B0F19;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 2. YouTube Music 10-Second Highlight Mode */
+.music-10s-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  background: rgba(15, 23, 42, 0.94);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(236, 72, 153, 0.45);
+  border-radius: 12px;
+  padding: 10px 14px;
+  z-index: 10;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.65);
+  pointer-events: none;
+  animation: musicBadgeSlideDown 0.4s ease;
+}
+@keyframes musicBadgeSlideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.music-10s-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.music-wave-anim {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.music-wave-anim span {
+  width: 3.5px;
+  background: #F472B6;
+  border-radius: 2px;
+  animation: waveBar 0.9s ease-in-out infinite alternate;
+}
+.music-wave-anim span:nth-child(1) { height: 30%; animation-delay: 0.1s; }
+.music-wave-anim span:nth-child(2) { height: 80%; animation-delay: 0.3s; }
+.music-wave-anim span:nth-child(3) { height: 50%; animation-delay: 0.2s; }
+.music-wave-anim span:nth-child(4) { height: 100%; animation-delay: 0.4s; }
+.music-wave-anim span:nth-child(5) { height: 40%; animation-delay: 0.15s; }
+@keyframes waveBar {
+  0% { transform: scaleY(0.3); }
+  100% { transform: scaleY(1); }
+}
+.music-badge-text {
+  flex: 1;
+  min-width: 0;
+}
+.music-badge-text strong {
+  display: block;
+  font-size: 13px;
+  color: #FDF2F8;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.music-badge-text span {
+  display: block;
+  font-size: 11px;
+  color: #F472B6;
+  margin-top: 1px;
+}
+.music-10s-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(236, 72, 153, 0.2);
+  border: 1.5px solid #F472B6;
+  color: #FDF2F8;
+  font-size: 11px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.music-progress-line {
+  margin-top: 8px;
+  height: 3px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.music-progress-line-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, #F472B6, #EC4899);
+  transform-origin: left;
+}
+
+/* Music Playlist Strip */
+.music-playlist-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px 0;
+  margin-bottom: 12px;
+  scrollbar-width: thin;
+}
+.music-track-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(236, 72, 153, 0.12);
+  border: 1px solid rgba(236, 72, 153, 0.35);
+  color: #FBCFE8;
+  padding: 5px 12px;
+  border-radius: 980px;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.music-track-chip:hover, .music-track-chip.active {
+  background: rgba(236, 72, 153, 0.3);
+  border-color: #F472B6;
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
 </style>
 </head>
 <body>
@@ -5600,6 +5905,8 @@
         <a href="#editorial" class="hot-link" style="color: #FF453A; font-weight: 700;">⚡ 4대 특종</a>
         <a href="#editorial-cartoon" class="hot-link" style="color: #10B981; font-weight: 700;">🎨 AI 만평</a>
         <a href="#masters-wisdom" class="hot-link" style="color: #EAB308; font-weight: 700;">🏛️ 거인의 지혜</a>
+                <a href="javascript:void(0)" onclick="triggerNotionAmbientSlide(true)" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.15); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.4);">📸 노션 사진 (30초)</a>
+        <a href="javascript:void(0)" onclick="startMusic10sHighlights()" class="hot-link" style="color: #EC4899; font-weight: 700; background: rgba(236, 72, 153, 0.15); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.4);">🎵 음악 10초 하이라이트</a>
         <a href="#executive-books" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.12); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">📚 전문도서 203선</a>
         <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 600;">🗳️ 지지율 33년</a>
         <a href="#trend-lab" class="hot-link" style="color: #60A5FA; font-weight: 600;">🔮 미래 랩</a>
@@ -5834,6 +6141,7 @@
           </div>
 
           <div class="hub-sources-pills" onclick="event.stopPropagation()">
+            <button class="pill-btn music-mode-pill" id="btnMusicHighlightToggle" onclick="startMusic10sHighlights(this)" style="background: rgba(236, 72, 153, 0.16); border: 1px solid rgba(236, 72, 153, 0.4); color: #F472B6; font-weight: 700;">🎵 10초 음악 하이라이트 모드</button>
             <button class="pill-btn active" onclick="switchIntel(0, this)">한국은행</button>
             <button class="pill-btn" onclick="switchIntel(1, this)">국책연구기관</button>
             <button class="pill-btn" onclick="switchIntel(2, this)">IMF</button>
@@ -5842,9 +6150,29 @@
             <button class="pill-btn" onclick="switchIntel(5, this)">Bloomberg</button>
             <button class="pill-btn" onclick="switchIntel(6, this)">CNN</button>
           </div>
+          <!-- Music Playlist Quick Chips Strip (10s Highlight Player) -->
+          <div class="music-playlist-strip" id="musicTracksStrip"></div>
 
           <!-- Actual Embedded Live YouTube Video Player (Autoplay Enabled) -->
           <div class="video-hub-player-wrap" id="hubVideoContainer" onclick="event.stopPropagation()">
+            <!-- Music 10s Highlight Live HUD Overlay -->
+            <div id="music10sBadge" class="music-10s-badge" style="display: none;">
+              <div class="music-10s-content">
+                <div class="music-wave-anim">
+                  <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="music-badge-text">
+                  <strong id="musicTrackName">🎵 숲 산책 힐링음악</strong>
+                  <span id="musicTimeWindow">중간 하이라이트 (02:00 ~ 02:10) 재생 중</span>
+                </div>
+                <div class="music-10s-countdown">
+                  <span id="musicCountdownSec">10</span>
+                </div>
+              </div>
+              <div class="music-progress-line">
+                <div id="musicProgressLineFill" class="music-progress-line-fill"></div>
+              </div>
+            </div>
             <iframe id="hubVideoIframe" src="https://www.youtube.com/embed/QKtj8DJu_PY?autoplay=1&mute=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1" title="실시간 경제 브리핑 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 
@@ -13362,15 +13690,327 @@ function initThinkTankEmailRadar() {
 document.addEventListener('DOMContentLoaded', function() {
   renderGlobalDebtPirLab();
   initThinkTankEmailRadar();
+  initNotionAmbientEngine();
+  renderMusicTracksStrip();
 });
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
   setTimeout(() => {
     renderGlobalDebtPirLab();
     initThinkTankEmailRadar();
+  initNotionAmbientEngine();
+  renderMusicTracksStrip();
   }, 50);
 }
 
+
+/* ==========================================================================
+   NOTION 30-SECOND AMBIENT MOMENTS & YOUTUBE MUSIC 10S HIGHLIGHTS ENGINE
+   ========================================================================== */
+
+const NOTION_MOMENTS = [
+  { src: 'images/notion_moments/photo_1.jpg', caption: '가족과 함께한 따뜻한 겨울날의 기록 (2024)', tag: 'Family Memories' },
+  { src: 'images/notion_moments/photo_2.jpg', caption: '소중한 사람들과 나누는 일상의 따스한 온기', tag: 'Family Memories' },
+  { src: 'images/notion_moments/photo_3.jpg', caption: '밝은 미소와 함께 머무는 소중한 추억의 장면', tag: 'Family Memories' },
+  { src: 'images/notion_moments/photo_4.jpg', caption: '편안한 휴식과 따뜻한 대화가 피어나는 시간', tag: 'Daily Life' },
+  { src: 'images/notion_moments/photo_5.jpg', caption: '함께 걸어온 시간들이 차곡차곡 쌓아올린 온기', tag: 'Daily Life' },
+  { src: 'images/notion_moments/photo_6.jpg', caption: '일상을 조용히 밝혀주는 소중하고 아름다운 순간', tag: 'Life Archive' },
+  { src: 'images/notion_moments/photo_7.jpg', caption: '유영선 님의 노션 아카이브 속 간직된 이야기', tag: 'Life Archive' },
+  { src: 'images/notion_moments/photo_8.jpg', caption: '기억하고 싶은 삶의 찬란하고 소중한 한 페이지', tag: 'Life Archive' }
+];
+
+let currentAmbientPhotoIdx = 0;
+let ambientIntervalTimer = null;
+let ambientDismissTimeout = null;
+
+function triggerNotionAmbientSlide(force = false) {
+  const widget = document.getElementById('notionAmbientWidget');
+  const img = document.getElementById('ambientImg');
+  const cap = document.getElementById('ambientCaption');
+  const tag = document.getElementById('ambientPhotoTag');
+  const cnt = document.getElementById('ambientPhotoCounter');
+  const bar = document.getElementById('ambientProgressBar');
+  if (!widget || !img) return;
+
+  if (force) {
+    currentAmbientPhotoIdx = (currentAmbientPhotoIdx + 1) % NOTION_MOMENTS.length;
+  }
+
+  const item = NOTION_MOMENTS[currentAmbientPhotoIdx];
+  img.src = item.src;
+  if (cap) cap.textContent = item.caption;
+  if (tag) tag.textContent = item.tag;
+  if (cnt) cnt.textContent = `${currentAmbientPhotoIdx + 1} / ${NOTION_MOMENTS.length}`;
+
+  // Reset bar animation
+  if (bar) {
+    bar.style.transition = 'none';
+    bar.style.transform = 'scaleX(1)';
+    setTimeout(() => {
+      bar.style.transition = 'transform 7s linear';
+      bar.style.transform = 'scaleX(0)';
+    }, 50);
+  }
+
+  widget.classList.add('active');
+
+  if (ambientDismissTimeout) clearTimeout(ambientDismissTimeout);
+  // Stays for 7.5 seconds, then smoothly glides away
+  ambientDismissTimeout = setTimeout(() => {
+    dismissNotionAmbient();
+  }, 7500);
+
+  currentAmbientPhotoIdx = (currentAmbientPhotoIdx + 1) % NOTION_MOMENTS.length;
+}
+
+function dismissNotionAmbient() {
+  const widget = document.getElementById('notionAmbientWidget');
+  if (widget) widget.classList.remove('active');
+}
+
+function openNotionPhotoModal() {
+  dismissNotionAmbient();
+  const modal = document.getElementById('notionPhotoModal');
+  const mImg = document.getElementById('modalNotionPhotoImg');
+  const mCap = document.getElementById('modalNotionPhotoCap');
+  const item = NOTION_MOMENTS[(currentAmbientPhotoIdx - 1 + NOTION_MOMENTS.length) % NOTION_MOMENTS.length];
+  if (modal && mImg) {
+    mImg.src = item.src;
+    if (mCap) mCap.textContent = item.caption;
+    modal.style.display = 'flex';
+  }
+}
+
+function closeNotionPhotoModal() {
+  const modal = document.getElementById('notionPhotoModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function initNotionAmbientEngine() {
+  // Trigger first ambient slide 2.5s after load
+  setTimeout(() => {
+    triggerNotionAmbientSlide();
+  }, 2500);
+
+  // Every 30 seconds thereafter
+  if (ambientIntervalTimer) clearInterval(ambientIntervalTimer);
+  ambientIntervalTimer = setInterval(() => {
+    triggerNotionAmbientSlide();
+  }, 30000);
+}
+
+
+/* ==========================================================================
+   YOUTUBE MUSIC 10-SECOND HIGHLIGHT PLAYBACK ENGINE
+   ========================================================================== */
+
+const YOUTUBE_MUSIC_TRACKS = [
+  {
+    id: "7_-x2zLPCQU",
+    title: "10분 만에 머리가 맑아져요 🌳 숲 산책 효과 힐링음악 & 새소리",
+    highlightStart: 120, // 2분 00초 (중간 하이라이트)
+    duration: 10,
+    tag: "힐링 사운드",
+    artist: "자연음악 아카이브"
+  },
+  {
+    id: "HZJQiDXIIgI",
+    title: "딥슬립 뮤직 ★︎ 즉각 졸음 유도 & 멜라토닌 분비",
+    highlightStart: 180, // 3분 00초
+    duration: 10,
+    tag: "숙면 & 뇌파",
+    artist: "슬립 테라피"
+  },
+  {
+    id: "Mv6Det6TuUU",
+    title: "남자들 사춘기를 책임진 그 노래 - 'Endless Rain' 이야기",
+    highlightStart: 145, // 2분 25초
+    duration: 10,
+    tag: "록 발라드 명곡",
+    artist: "X-Japan 레전드"
+  },
+  {
+    id: "JbwpG_aQnKc",
+    title: "“음악과 삶의 자세가 일치한” 가수 故 신해철 10주기",
+    highlightStart: 210, // 3분 30초
+    duration: 10,
+    tag: "한국 대중음악",
+    artist: "마왕 신해철"
+  },
+  {
+    id: "IV7lOTILnok",
+    title: "노래만 잘 쓰던 사람, 가사만 잘 쓰던 사람 - 엘튼 존 (Elton John)",
+    highlightStart: 135, // 2분 15초
+    duration: 10,
+    tag: "팝의 거장",
+    artist: "엘튼 존"
+  },
+  {
+    id: "tCTZP7Kc3i0",
+    title: "김현식 20주기 특집 다큐 - 비처럼 음악처럼",
+    highlightStart: 155, // 2분 35초
+    duration: 10,
+    tag: "한국 대중음악",
+    artist: "김현식"
+  },
+  {
+    id: "Ymrfa1MmkZc",
+    title: "위대한 마법사의 성으로 숙면여행 몽환적 수면 음악",
+    highlightStart: 180, // 3분 00초
+    duration: 10,
+    tag: "몽환 ASMR",
+    artist: "판타지 수면 음악"
+  }
+];
+
+let currentMusicIdx = 0;
+let musicHighlightTimer = null;
+let musicCountdownInterval = null;
+let isMusicHighlightMode = false;
+
+function renderMusicTracksStrip() {
+  const strip = document.getElementById('musicTracksStrip');
+  if (!strip) return;
+  strip.innerHTML = YOUTUBE_MUSIC_TRACKS.map((tr, i) => `
+    <button class="music-track-chip ${i === currentMusicIdx && isMusicHighlightMode ? 'active' : ''}" onclick="playMusicTrackHighlight(${i})">
+      <span>🎵</span>
+      <span>${tr.title.length > 22 ? tr.title.slice(0, 22) + '...' : tr.title}</span>
+      <span style="font-size: 9.5px; opacity: 0.75; background: rgba(255,255,255,0.15); padding: 1px 5px; border-radius: 4px;">10초</span>
+    </button>
+  `).join('');
+}
+
+function formatSecToMin(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m < 10 ? '0' + m : m}:${s < 10 ? '0' + s : s}`;
+}
+
+function playMusicTrackHighlight(idx, scroll = false) {
+  isMusicHighlightMode = true;
+  currentMusicIdx = idx;
+  const track = YOUTUBE_MUSIC_TRACKS[idx];
+  const iframe = document.getElementById('hubVideoIframe');
+  const badge = document.getElementById('music10sBadge');
+  const nameEl = document.getElementById('musicTrackName');
+  const timeEl = document.getElementById('musicTimeWindow');
+  const countEl = document.getElementById('musicCountdownSec');
+  const fillEl = document.getElementById('musicProgressLineFill');
+  const headEl = document.getElementById('hubHeadline');
+  const sumEl = document.getElementById('hubSummary');
+  const subEl = document.getElementById('hubSubtitleText');
+
+  if (!iframe || !track) return;
+
+  const startSec = track.highlightStart;
+  const endSec = startSec + track.duration;
+
+  // Set YouTube embed to exact middle highlight 10 seconds
+  iframe.src = `https://www.youtube.com/embed/${track.id}?start=${startSec}&end=${endSec}&autoplay=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1`;
+
+  // Update HUD badge
+  if (badge) badge.style.display = 'block';
+  if (nameEl) nameEl.textContent = `🎵 [10초 하이라이트] ${track.title}`;
+  if (timeEl) timeEl.textContent = `중간 하이라이트 (${formatSecToMin(startSec)} ~ ${formatSecToMin(endSec)}) 재생 중 · 10초 후 자동 다음 곡`;
+
+  if (headEl) headEl.textContent = `🎵 [10초 음악 하이라이트] ${track.title}`;
+  if (sumEl) sumEl.textContent = `${track.artist} · ${track.tag} · 중간 10초 핵심 하이라이트 구간 연속 재생 모드`;
+  if (subEl) subEl.textContent = `🎵 10초 하이라이트 감상 중: ${formatSecToMin(startSec)} ~ ${formatSecToMin(endSec)} 구간 | 다음 명곡으로 10초마다 자동 순환됩니다.`;
+
+  renderMusicTracksStrip();
+
+  // 10s countdown animation
+  let remain = 10;
+  if (countEl) countEl.textContent = remain;
+  if (fillEl) {
+    fillEl.style.transition = 'none';
+    fillEl.style.transform = 'scaleX(1)';
+    setTimeout(() => {
+      fillEl.style.transition = 'transform 10s linear';
+      fillEl.style.transform = 'scaleX(0)';
+    }, 50);
+  }
+
+  if (musicCountdownInterval) clearInterval(musicCountdownInterval);
+  musicCountdownInterval = setInterval(() => {
+    remain -= 1;
+    if (remain >= 0 && countEl) {
+      countEl.textContent = remain;
+    }
+    if (remain <= 0) {
+      clearInterval(musicCountdownInterval);
+    }
+  }, 1000);
+
+  if (musicHighlightTimer) clearTimeout(musicHighlightTimer);
+  // After 10.5 seconds, auto-advance to next music track
+  musicHighlightTimer = setTimeout(() => {
+    if (isMusicHighlightMode) {
+      const nextIdx = (currentMusicIdx + 1) % YOUTUBE_MUSIC_TRACKS.length;
+      playMusicTrackHighlight(nextIdx, false);
+    }
+  }, 10500);
+
+  if (scroll) {
+    const container = document.getElementById('hubVideoContainer');
+    if (container) container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function startMusic10sHighlights(btn) {
+  isMusicHighlightMode = true;
+  document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  playMusicTrackHighlight(0, true);
+}
+
 </script>
+
+
+  <!-- Notion Moments 30-Second Ambient Overlay Widget -->
+  <div id="notionAmbientWidget" class="notion-ambient-widget" onclick="openNotionPhotoModal()">
+    <div class="ambient-header">
+      <div class="ambient-badge">
+        <span class="ambient-live-dot"></span>
+        <span>📸 NOTION MOMENTS · 30초 앰비언트</span>
+      </div>
+      <button class="ambient-close-btn" onclick="event.stopPropagation(); dismissNotionAmbient();" title="닫기">×</button>
+    </div>
+    <div class="ambient-body">
+      <div class="ambient-img-box">
+        <img id="ambientImg" src="images/notion_moments/photo_1.jpg" alt="노션 가족·일상 아카이브" />
+      </div>
+      <div class="ambient-info">
+        <div id="ambientCaption" class="ambient-title">가족과 함께한 따뜻한 겨울날의 기록 (2024)</div>
+        <div class="ambient-sub">
+          <span id="ambientPhotoTag" class="ambient-tag">Family Memories</span>
+          <span id="ambientPhotoCounter" class="ambient-cnt">1 / 8</span>
+        </div>
+      </div>
+    </div>
+    <div class="ambient-progress">
+      <div id="ambientProgressBar" class="ambient-progress-fill"></div>
+    </div>
+  </div>
+
+  <!-- Notion Photo Full Modal -->
+  <div id="notionPhotoModal" class="notion-photo-modal" onclick="closeNotionPhotoModal()">
+    <div class="notion-photo-modal-content" onclick="event.stopPropagation()">
+      <div style="position: relative;">
+        <img id="modalNotionPhotoImg" src="images/notion_moments/photo_1.jpg" alt="노션 고해상도 사진" class="notion-photo-modal-img" />
+        <button onclick="closeNotionPhotoModal()" style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.2); color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px;">×</button>
+      </div>
+      <div class="notion-photo-modal-footer">
+        <div>
+          <div id="modalNotionPhotoCap" style="color: #F1F5F9; font-weight: 700; font-size: 15px;">가족과 함께한 따뜻한 겨울날의 기록 (2024)</div>
+          <div style="color: #94A3B8; font-size: 12px; margin-top: 3px;">유영선 님의 노션 아카이브 · 30초 앰비언트 슬라이드 연동</div>
+        </div>
+        <div style="display: flex; gap: 8px;">
+          <button onclick="triggerNotionAmbientSlide(true); openNotionPhotoModal();" style="background: rgba(56, 189, 248, 0.2); border: 1px solid rgba(56, 189, 248, 0.4); color: #38BDF8; padding: 6px 14px; border-radius: 8px; font-weight: 600; cursor: pointer;">다음 사진 ❯</button>
+          <button onclick="closeNotionPhotoModal()" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #E2E8F0; padding: 6px 14px; border-radius: 8px; font-weight: 600; cursor: pointer;">닫기</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
