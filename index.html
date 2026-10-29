@@ -13358,6 +13358,18 @@ function initThinkTankEmailRadar() {
   ttSpotlightTimer = setInterval(nextThinkTankSpotlight, 12000); // 12 seconds auto rotation
 }
 
+// Auto-initialize Global Debt/PIR Lab and Think Tank Email Radar
+document.addEventListener('DOMContentLoaded', function() {
+  renderGlobalDebtPirLab();
+  initThinkTankEmailRadar();
+});
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+  setTimeout(() => {
+    renderGlobalDebtPirLab();
+    initThinkTankEmailRadar();
+  }, 50);
+}
+
 </script>
 
 </body>
