@@ -6233,6 +6233,60 @@
     }
 
 </style>
+<style>
+    /* 📈 Dynamic Poll Graph Animations & Inflection Modal Styles */
+    @keyframes drawPollLine {
+      0% { stroke-dashoffset: 2000; opacity: 0.2; }
+      100% { stroke-dashoffset: 0; opacity: 1; }
+    }
+    .animated-poll-path {
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      animation: drawPollLine 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    @keyframes pulsePollRing {
+      0% { r: 6; opacity: 0.9; stroke-width: 2px; }
+      50% { r: 14; opacity: 0.3; stroke-width: 1.5px; }
+      100% { r: 20; opacity: 0; stroke-width: 0.5px; }
+    }
+    .poll-pulse-ring {
+      animation: pulsePollRing 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite;
+      transform-origin: center;
+      pointer-events: none;
+    }
+    .poll-view-mode-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #94A3B8;
+      padding: 6px 14px;
+      border-radius: 980px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .poll-view-mode-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #FFF;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+    .poll-view-mode-pill.active {
+      background: #2997FF;
+      color: #FFFFFF;
+      border-color: #2997FF;
+      box-shadow: 0 0 15px rgba(41, 151, 255, 0.4);
+    }
+    .inflection-event-tag {
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+    }
+    </style>
 </head>
 <body>
 
@@ -6875,20 +6929,20 @@
         <div>
           <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.35); padding: 4px 14px; border-radius: 980px; font-size: 0.78rem; font-weight: 800; color: #10B981; margin-bottom: 10px; letter-spacing: 0.03em;">
             <span>🎨 AI REAL-TIME EDITORIAL CARTOON · 시사·경제 만평</span>
-            <span style="background: #10B981; color: #000; font-size: 0.65rem; padding: 1px 6px; border-radius: 4px; font-weight: 900;">2026.10.29 조간 특급</span>
+            <span style="background: #10B981; color: #000; font-size: 0.65rem; padding: 1px 6px; border-radius: 4px; font-weight: 900;">2026.10.30 조간 특급</span>
           </div>
           <h2 style="font-size: 2.1rem; font-weight: 800; color: #F5F5F7; letter-spacing: -0.03em; margin: 0 0 8px 0; line-height: 1.2;">
             민심과 시장의 변곡점을 꿰뚫다: <span style="color: #10B981;">오늘의 AI 시사·경제 만평</span>
           </h2>
           <p style="font-size: 0.95rem; color: #86868B; margin: 0; line-height: 1.55; max-width: 920px;">
-            매일 <strong>07:00 조간 이슈 만평</strong>과 <strong>18:30 장 마감 결산 만평</strong>을 정기 발행하며, 환율 급변·금리 발표·총선 여론 변곡점 등 특급 거시 데이터가 감지될 때마다 <strong>실시간 인텔리전스 카툰</strong>으로 자동 생성·갱신합니다.
+            매일 <strong>07:00 조간 이슈 만평</strong>과 <strong>18:30 장 마감 결산 만평</strong>을 정기 발행하며, 글로벌 빅테크 실적 충격·금리·환율·정치 변곡점 발생 시 <strong>실시간 인텔리전스 카툰</strong>으로 자동 생성·게재합니다.
           </p>
         </div>
         <div style="display: flex; gap: 10px; align-items: center;">
           <button onclick="openCartoonLightbox()" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2); color: #fff; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
             🔍 원본 고화질 확대
           </button>
-          <a href="images/editorial_cartoon_today.png" download="RYUYOUNGSUN_Editorial_Cartoon_20261029.png" style="background: #10B981; color: #000; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+          <a id="cartoonDownloadBtn" href="images/editorial_cartoon_today.png" download="RYUYOUNGSUN_Editorial_Cartoon_20261030.png" style="background: #10B981; color: #000; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
             💾 만평 저장
           </a>
         </div>
@@ -6901,8 +6955,8 @@
         <div class="cartoon-img-card">
           <div class="cartoon-img-wrap" onclick="openCartoonLightbox()">
             <picture>
-              <source srcset="images/editorial_cartoon_today.webp" type="image/webp">
-              <img src="images/editorial_cartoon_today.png" alt="오늘의 AI 시사경제 만평: 코스피 9,200선 고점 돌파 후 6,000선 숨고르기와 1,336원 환율 줄다리기" id="currentCartoonImg">
+              <source id="currentCartoonWebp" srcset="images/editorial_cartoon_today.webp" type="image/webp">
+              <img src="images/editorial_cartoon_today.png" alt="오늘의 AI 시사경제 만평: 구글의 1,950억 달러 늪과 제국을 삼키는 AI 자기잠식의 저주" id="currentCartoonImg">
             </picture>
             <div class="cartoon-img-zoom-hint">🔍 클릭하여 고해상도 확대보기</div>
           </div>
@@ -6915,7 +6969,7 @@
               <strong style="color: #F5F5F7;">화풍:</strong> 퓰리처상 스타일 정통 수채화 &amp; 펜화 풍자화
             </div>
             <div>
-              <strong style="color: #10B981;">07:00 조간 갱신 완료</strong>
+              <strong style="color: #10B981;">2026.10.30 07:00 조간 갱신 완료</strong>
             </div>
           </div>
         </div>
@@ -6924,67 +6978,69 @@
         <div style="display: flex; flex-direction: column; gap: 18px;">
           
           <!-- Satirical Analysis Card -->
-          <div style="background: rgba(28, 28, 30, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 22px; backdrop-filter: blur(20px); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
+          <div id="cartoonInsightCard" style="background: rgba(28, 28, 30, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; padding: 22px; backdrop-filter: blur(20px); box-shadow: 0 10px 30px rgba(0,0,0,0.4);">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
-              <span style="font-size: 0.8rem; font-weight: 800; color: #10B981; letter-spacing: 0.05em; text-transform: uppercase;">EDITORIAL INSIGHT · 팩트체크</span>
-              <span style="font-size: 0.75rem; color: #86868B;">2026.10.29 16:30 장 마감 정밀 팩트 확정치 반영</span>
+              <span style="font-size: 0.8rem; font-weight: 800; color: #10B981; letter-spacing: 0.05em; text-transform: uppercase;">EDITORIAL INSIGHT · 10/30 특급 분석</span>
+              <span id="cartoonFactDate" style="font-size: 0.75rem; color: #86868B;">2026.10.30 07:00 조간 정밀 팩트 확정치 반영</span>
             </div>
-            <h3 style="font-size: 1.3rem; font-weight: 800; color: #FFFFFF; margin: 0 0 14px 0; line-height: 1.35;">
-              『코스피 9,200선 고점 돌파 후 6,000선 숨고르기와 1,336원 환율 수급 밸런스』
+            <h3 id="cartoonMainTitle" style="font-size: 1.3rem; font-weight: 800; color: #FFFFFF; margin: 0 0 14px 0; line-height: 1.35;">
+              『구글의 1,950억 달러 늪과 제국을 삼키는 AI 자기잠식(Cannibalization)의 저주』
             </h3>
             
-            <div style="display: flex; flex-direction: column; gap: 12px; font-size: 0.9rem; color: #D1D5DB; line-height: 1.6;">
+            <div id="cartoonMainPoints" style="display: flex; flex-direction: column; gap: 12px; font-size: 0.9rem; color: #D1D5DB; line-height: 1.6;">
               <div style="display: flex; gap: 10px;">
                 <span style="color: #10B981; font-weight: 800;">①</span>
-                <div><strong>코스피 6,000선 안착 공방 안착과 반도체 실적 차별화:</strong> 역사적 사상 최고치 9,200선을 돌파했던 코스피는 대세 상승 랠리 이후 건강한 차익 실현과 리밸런싱을 거쳐 5,937.66p(▼74.78p, -1.24%)로 6,000선 안착과 새로운 펀더멘털 지지력을 차분히 다지고 있습니다. SK하이닉스의 고부가 HBM 출하 견조와 삼성전자의 턴키 반격 기대감이 교차하며 건강한 박스권 숨고르기가 이어집니다.</div>
+                <div><strong>사상 최대 실적의 허울과 90억 달러 현금 증발:</strong> 3분기 매출 1,276억 달러(+25%), 클라우드 158억 달러(+103%)라는 외형 성장 이면에서, 잉여현금흐름(FCF)은 마이너스 90억 7,000만 달러(-9.07B$)로 시장 예상을 처참히 박살 냈습니다. 연간 최대 2,050억 달러(1,950~2,050억 달러)에 달하는 천문학적 AI 설비투자(CapEx) 블랙홀이 제국의 현금을 집어삼키며 알파벳 주가는 -12.64% 폭락했습니다.</div>
               </div>
               <div style="display: flex; gap: 10px;">
                 <span style="color: #10B981; font-weight: 800;">②</span>
-                <div><strong>원/달러 1,336~1,337원의 팽팽한 수급 균형:</strong> 미 대선 리스크와 글로벌 달러 인덱스(DXY 104pt) 강세 압력 속에서도 월말 수출업체 네고물량 출회와 외환당국의 미세조정 경계감이 상단을 단단히 제한하며 1,336원대에서 안정적인 수급 균형을 형성하고 있습니다.</div>
+                <div><strong>AI 검색의 역설: 자신의 젖줄을 난도질하는 '자기잠식(Cannibalization)':</strong> 생성형 AI 에이전트가 답을 직접 해결할수록, 10개 파란 링크 클릭당 과금하던 기존 검색광고(매출 비중 74.2%) 모델은 스스로 해체될 운명입니다. AI 검색을 고도화할수록 최대 캐시카우의 수익성이 곤두박질치는 진퇴양난의 사지에 갇혔습니다.</div>
               </div>
               <div style="display: flex; gap: 10px;">
                 <span style="color: #10B981; font-weight: 800;">③</span>
-                <div><strong>연준 연착륙 기조와 글로벌 자산 리밸런싱:</strong> 제롬 파월 미 연준 의장의 데이터 기반 점진적 피벗 스탠스 하에서 다우 42,200선, S&P 5,800선이 안착 국면에 진입했으며, 글로벌 유동성은 단기 테마성 장세에서 실질 잉여현금흐름(FCF)이 입증된 퀄리티 펀더멘털 자산군으로 재편되고 있습니다.</div>
+                <div><strong>클라우드의 역설: 경쟁자에게 무기를 대주는 하청 유틸리티 전락:</strong> 구글 TPU와 클라우드 인프라를 대량 구매한 핵심 고객은 숙적인 오픈AI와 앤트로픽입니다. 플랫폼 독점자가 경쟁자들에게 연산 파워를 공급하는 단순 하청 유틸리티로 밀려나며 제국의 해자가 흔들리고 있습니다.</div>
               </div>
             </div>
           </div>
 
-          <!-- Real-Time Data Factsheet Linked to Cartoon -->
+          <!-- Real-Time Data Factsheet Linked to Cartoon (상단 지표와 중복 완전 제거: 구글 실적 고유 팩트체크) -->
           <div style="background: rgba(18, 18, 22, 0.7); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 18px 22px;">
             <div style="font-size: 0.75rem; font-weight: 700; color: #86868B; margin-bottom: 12px; letter-spacing: 0.03em;">
-              📊 만평 팩트체크: 10/29 조간·장중 거시경제 확정치
+              📊 만평 팩트체크: 구글 알파벳 3분기 실적 긴급 진단 확정치
             </div>
-            <div class="responsive-4col-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
+            <div id="cartoonFactGrid" class="responsive-4col-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;">
               <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
-                <div style="font-size: 0.72rem; color: #86868B;">원/달러 환율</div>
-                <div style="font-size: 1.05rem; font-weight: 800; color: #FF9F0A;">1,336.80원</div>
-                <div style="font-size: 0.68rem; color: #FF9F0A;">상단 경직 수급 균형</div>
+                <div style="font-size: 0.72rem; color: #86868B;">알파벳 3분기 FCF</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #FF453A;">-90.7억 달러</div>
+                <div style="font-size: 0.68rem; color: #FF453A;">▼ 시장 충격 적자 전환</div>
               </div>
               <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
-                <div style="font-size: 0.72rem; color: #86868B;">KOSPI 지수</div>
-                <div style="font-size: 1.05rem; font-weight: 800; color: #38bdf8;">5,937.66p</div>
-                <div style="font-size: 0.68rem; color: #38bdf8;">▼74.78p (-1.24%)</div>
+                <div style="font-size: 0.72rem; color: #86868B;">연간 CapEx 설비투자</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #FF9F0A;">1,950~2,050억$</div>
+                <div style="font-size: 0.68rem; color: #FF9F0A;">AI 인프라 블랙홀</div>
               </div>
               <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
-                <div style="font-size: 0.72rem; color: #86868B;">美 연준 기준금리</div>
-                <div style="font-size: 1.05rem; font-weight: 800; color: #0A84FF;">4.75~5.00%</div>
-                <div style="font-size: 0.68rem; color: #A1A1AA;">점진적 인하 경로 유지</div>
+                <div style="font-size: 0.72rem; color: #86868B;">알파벳A 실적발표 주가</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #FF453A;">▼ 12.64%</div>
+                <div style="font-size: 0.68rem; color: #FF453A;">2년 만의 최대 낙폭</div>
               </div>
               <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
-                <div style="font-size: 0.72rem; color: #86868B;">美 다우지수</div>
-                <div style="font-size: 1.05rem; font-weight: 800; color: #10B981;">42,200선</div>
-                <div style="font-size: 0.68rem; color: #10B981;">연착륙 기대 안착</div>
+                <div style="font-size: 0.72rem; color: #86868B;">검색광고 매출 비중</div>
+                <div style="font-size: 1.05rem; font-weight: 800; color: #0A84FF;">74.2%</div>
+                <div style="font-size: 0.68rem; color: #A1A1AA;">AI 자기잠식 노출도</div>
               </div>
             </div>
           </div>
 
           <!-- Cartoon Series Navigation & Archive -->
-          <div style="display: flex; gap: 10px; align-items: center; justify-content: space-between; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06); padding: 10px 16px; border-radius: 12px; font-size: 0.82rem;">
+          <div style="display: flex; gap: 10px; align-items: center; justify-content: space-between; background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.06); padding: 10px 16px; border-radius: 12px; font-size: 0.82rem; flex-wrap: wrap;">
             <span style="color: #A1A1AA;">📅 역대 만평 시리즈 아카이브:</span>
-            <div style="display: flex; gap: 8px;">
-              <button style="background: rgba(16, 185, 129, 0.2); border: 1px solid #10B981; color: #10B981; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;">10/29 코스피 6,000선 안착 공방</button><button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;" onclick="alert('10/28 [한은 vs 연준: 1,336원 환율 줄다리기] 만평 아카이브를 불러옵니다.')">10/28 환율 줄다리기</button>
-              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;" onclick="alert('10/27 [일본 자민당 총선 참패와 153엔 엔저의 역습] 만평 아카이브를 불러옵니다.')">10/27 日엔저 역습</button>
-              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem;" onclick="alert('10/26 [미 대선 D-8 관세 폭풍 vs 공급망] 만평 아카이브를 불러옵니다.')">10/26 美대선 관세</button>
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <button id="btnCartoon20261030" style="background: rgba(16, 185, 129, 0.2); border: 1px solid #10B981; color: #10B981; font-weight: 700; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;" onclick="loadArchiveCartoon('20261030')">10/30 구글 AI 자기잠식 늪</button>
+              <button id="btnCartoon20261029" style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;" onclick="loadArchiveCartoon('20261029')">10/29 코스피 6,000선 안착 공방</button>
+              <button id="btnCartoon20261028" style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;" onclick="loadArchiveCartoon('20261028')">10/28 환율 줄다리기</button>
+              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;" onclick="alert('10/27 [일본 자민당 총선 참패와 153엔 엔저의 역습] 만평 아카이브를 불러옵니다.')">10/27 日엔저 역습</button>
+              <button style="background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); color: #86868B; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;" onclick="alert('10/26 [미 대선 D-8 관세 폭풍 vs 공급망] 만평 아카이브를 불러옵니다.')">10/26 美대선 관세</button>
             </div>
           </div>
 
@@ -9172,41 +9228,72 @@
         </div>
 
         
-      <!-- 4 Core Polls Dynamic Trajectory Controller -->
-      <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 10px 16px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-        <div style="display: flex; align-items: center; gap: 8px;">
-          <span style="font-size: 0.78rem; font-weight: 700; color: #86868B;">시계열 변동 재생:</span>
-          <button class="poll-time-pill" onclick="setPresidentTermPoint(0)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">22.05 취임</button>
-          <button class="poll-time-pill" onclick="setPresidentTermPoint(1)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">23.04 방미</button>
-          <button class="poll-time-pill" onclick="setPresidentTermPoint(2)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">24.04 총선</button>
-          <button class="poll-time-pill" onclick="setPresidentTermPoint(3)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">25.04 4년차</button>
-          <button class="poll-time-pill active" onclick="setPresidentTermPoint(4)" style="background: #2997FF; border: none; color:#FFFFFF; font-weight:700; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">26.10 현재</button>
-        </div>
-        <button onclick="playPresidentTrajectory()" style="background: rgba(0, 113, 227, 0.2); border: 1px solid #2997FF; color: #2997FF; padding: 4px 12px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; cursor: pointer;">
-          ▶️ 정권 초기~현재 궤적 재생
-        </button>
-      </div>
-
-                <!-- 📈 Dynamic Interactive Multi-Line Poll Graph -->
-        <div style="background: #10141E; border: 1px solid rgba(0, 113, 227, 0.35); border-radius: 16px; padding: 20px 24px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
-            <div style="display: flex; align-items: center; gap: 10px;">
-              <span style="font-size: 0.8rem; font-weight: 800; color: #2997FF; background: rgba(0, 113, 227, 0.15); padding: 3px 10px; border-radius: 6px;">📈 시계열 실시간 연동 인터랙티브 그래프</span>
-              <span style="font-size: 0.95rem; font-weight: 800; color: #F8FAFC;">현 정권 4대 조사 직무수행 평가 지지율 궤적 (2022.05 취임 ~ 2026.10 현재)</span>
-            </div>
-            <!-- Legend -->
-            <div style="display: flex; gap: 14px; font-size: 0.78rem; font-weight: 700; flex-wrap: wrap;">
-              <span style="color: #2997FF; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #2997FF; display: inline-block;"></span> NBS (28%)</span>
-              <span style="color: #64D2FF; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #64D2FF; display: inline-block;"></span> 갤럽 (22%)</span>
-              <span style="color: #BF5AF2; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #BF5AF2; display: inline-block;"></span> 리얼미터 (24.6%)</span>
-              <span style="color: #FF9F0A; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #FF9F0A; display: inline-block;"></span> 여론M (24.8%)</span>
-            </div>
+      <!-- 4 Core Polls Dynamic Trajectory & Multi-View Controller -->
+      <div style="background: #141416; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; padding: 14px 18px; margin-bottom: 16px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 12px;">
+          <!-- 4 View Mode Switcher -->
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="poll-view-mode-pill active" id="btnPollModeAll" onclick="setPollViewMode('all')">
+              📊 4대 조사 종합 비교
+            </button>
+            <button class="poll-view-mode-pill" id="btnPollModeSpread" onclick="setPollViewMode('spread')">
+              ⚡ 긍정 vs 부정 격차 (데드크로스)
+            </button>
+            <button class="poll-view-mode-pill" id="btnPollModeHistorical" onclick="setPollViewMode('historical')">
+              🏛️ 역대 정권 동 시기 비교
+            </button>
+            <button class="poll-view-mode-pill" id="btnPollModeEvents" onclick="setPollViewMode('events')">
+              🔍 변곡점 사건 타임라인
+            </button>
           </div>
           
-          <div id="fourPollsInteractiveSvgContainer" style="width: 100%; height: 230px; position: relative;">
-            <!-- Rendered via JS -->
+          <!-- Animation Trajectory Button -->
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <button onclick="playPresidentTrajectory()" id="btnPlayTrajectory" style="background: rgba(0, 113, 227, 0.2); border: 1px solid #2997FF; color: #2997FF; padding: 6px 14px; border-radius: 8px; font-size: 0.78rem; font-weight: 700; cursor: pointer; transition: all 0.2s ease;">
+              ▶️ 정권 초기~현재 궤적 애니메이션 재생
+            </button>
+            <button onclick="openInflectionModal(currentInflectionIdx)" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2); color: #FFF; padding: 6px 14px; border-radius: 8px; font-size: 0.78rem; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;">
+              🔍 변곡점 심층 팩트체크
+            </button>
           </div>
         </div>
+
+        <!-- Milestone Timeline Pills -->
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 10px;">
+          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <span style="font-size: 0.78rem; font-weight: 700; color: #86868B;">5대 핵심 변곡점:</span>
+            <button class="poll-time-pill" onclick="setPresidentTermPoint(0)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">22.05 취임</button>
+            <button class="poll-time-pill" onclick="setPresidentTermPoint(1)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">23.04 방미</button>
+            <button class="poll-time-pill" onclick="setPresidentTermPoint(2)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">24.04 총선</button>
+            <button class="poll-time-pill" onclick="setPresidentTermPoint(3)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color:#94A3B8; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">25.04 4년차</button>
+            <button class="poll-time-pill active" onclick="setPresidentTermPoint(4)" style="background: #2997FF; border: none; color:#FFFFFF; font-weight:700; padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor:pointer;">26.10 현재</button>
+          </div>
+          <span style="font-size: 0.75rem; color: #86868B;">※ 그래프의 변곡점 점을 클릭하면 당시 정치 사건 팝업이 표시됩니다.</span>
+        </div>
+      </div>
+
+      <!-- 📈 Dynamic Interactive Animated SVG Poll Graph -->
+      <div style="background: #10141E; border: 1px solid rgba(0, 113, 227, 0.35); border-radius: 16px; padding: 20px 24px; margin-bottom: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span id="pollGraphBadge" style="font-size: 0.8rem; font-weight: 800; color: #2997FF; background: rgba(0, 113, 227, 0.15); padding: 3px 10px; border-radius: 6px;">📈 시계열 동적 애니메이션 그래프</span>
+            <span id="pollGraphTitle" style="font-size: 0.95rem; font-weight: 800; color: #F8FAFC;">현 정권 4대 조사 직무수행 평가 지지율 궤적 (2022.05 취임 ~ 2026.10 현재)</span>
+          </div>
+          <!-- Dynamic Legend -->
+          <div id="fourPollsLegendContainer" style="display: flex; gap: 14px; font-size: 0.78rem; font-weight: 700; flex-wrap: wrap;">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+        
+        <div id="fourPollsInteractiveSvgContainer" style="width: 100%; height: 260px; position: relative;">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+
+      <!-- 📌 Inflection Live Event Brief Card (실시간 동기화 변곡점 사건 브리프) -->
+      <div id="inflectionBriefCard" style="background: #141416; border: 1px solid rgba(41, 151, 255, 0.25); border-radius: 14px; padding: 18px 22px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <!-- Populated via updateInflectionBriefCard(idx) -->
+      </div>
 
         <div id="fourPollsGridContainer" class="four-polls-responsive-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
           
@@ -13908,7 +13995,7 @@ window.jumpToEconometricsLab = jumpToEconometricsLab;
       if (view === 'current_term') document.getElementById('pollHistBtn3').classList.add('active');
 
       renderHistoricalPollBox();
-    renderFourPollsChart(4);
+    if (window.renderFourPollsChart) window.renderFourPollsChart(4);
     };
 
     function renderHistoricalPollBox() {
@@ -14146,7 +14233,7 @@ window.jumpToEconometricsLab = jumpToEconometricsLab;
     // Auto-init
     document.addEventListener('DOMContentLoaded', () => {
       renderHistoricalPollBox();
-    renderFourPollsChart(4);
+    if (window.renderFourPollsChart) window.renderFourPollsChart(4);
     });
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
       setTimeout(renderHistoricalPollBox, 50);
@@ -16982,29 +17069,408 @@ function playCustomVideo(videoId, title) {
     }
 
     // =========================================================================
-    // 📈 현 정권 4대 조사 인터랙티브 SVG 시계열 그래프 렌더링 엔진
+    // 📈 현 정권 4대 조사 인터랙티브 SVG 시계열 그래프 & 변곡점 심층 팝업 엔진 (v2026.10.30)
     // =========================================================================
-    window.renderFourPollsChart = function(activeIdx = 4) {
+    
+    // 5대 핵심 변곡점 심층 팩트체크 데이터베이스
+    window.INFLECTION_EVENTS_DATA = [
+      {
+        idx: 0,
+        date: "2022.05 (취임 & 용산 이전)",
+        shortLabel: "22.05 취임",
+        period: "제20대 대통령 취임 및 정부 출범 초기",
+        approval: { nbs: [52, 34], gallup: [52, 37], realm: [52.1, 40.6], mbc: [51.8, 38.2], avgPos: 52.0, avgNeg: 37.5 },
+        events: [
+          { tag: "정부 출범", tagBg: "rgba(0, 113, 227, 0.15)", tagColor: "#2997FF", title: "제20대 대통령 취임식 및 74년 만의 청와대 전면 개방", desc: "청와대 국민 개방과 함께 국방부 청사로 대통령실을 전격 이전하며 용산 시대를 개막." },
+          { tag: "외교 안보", tagBg: "rgba(48, 209, 88, 0.15)", tagColor: "#30D158", title: "취임 11일 만의 한미정상회담 (조 바이든 미국 대통령 방한)", desc: "역대 최단기 한미정상회담을 통해 한미동맹을 군사안보를 넘어 기술·공급망 포괄 전략동맹으로 격상." },
+          { tag: "정치 선거", tagBg: "rgba(255, 159, 10, 0.15)", tagColor: "#FF9F0A", title: "제8회 전국동시지방선거 국민의힘 압승", desc: "광역단체장 17곳 중 12곳을 여당이 석권하며 정권 초기 강력한 국정 드라이브 동력을 확보." }
+        ],
+        partySupport: "국민의힘 43~45% vs 더불어민주당 30~32%",
+        analysis: "정권 교체 열망과 전통적 허니문(Honeymoon) 효과가 결합되어 임기 중 최고 지지율(52~53%)을 기록함. 그러나 집무실 이전 졸속 추진 논란, 1기 내각 인사 청문 잡음이 초기 불안 요인으로 잠복함."
+      },
+      {
+        idx: 1,
+        date: "2023.04 (방미 & 외교 국면)",
+        shortLabel: "23.04 방미",
+        period: "집권 2년차 전반기 외교 안보 드라이브",
+        approval: { nbs: [30, 60], gallup: [30, 63], realm: [34.5, 62.6], mbc: [32.1, 61.4], avgPos: 31.7, avgNeg: 61.8 },
+        events: [
+          { tag: "외교 국빈", tagBg: "rgba(0, 113, 227, 0.15)", tagColor: "#2997FF", title: "미국 국빈 방문 및 워싱턴 선언(Washington Declaration) 채택", desc: "한미 핵협의그룹(NCG) 신설, 미 상·하원 합동연설, 하버드대 특강 등 확장억제 제도화 성과." },
+          { tag: "과거사 해법", tagBg: "rgba(255, 69, 58, 0.15)", tagColor: "#FF453A", title: "일제 강제동원 제3자 변제안 발표", desc: "한일관계 전격 복원과 기시다 총리 방한(셔틀외교) 계기 마련 vs 야당의 굴욕외교 총공세 격돌." },
+          { tag: "정치 파장", tagBg: "rgba(191, 90, 242, 0.15)", tagColor: "#BF5AF2", title: "2022년 가을 비속어 논란 및 당 내홍 여파 지속", desc: "이준석 전 대표 징계 이후 당정 일체화 드라이브, 지지율은 30%대 초반 박스권으로 고착." }
+        ],
+        partySupport: "국민의힘 34~36% vs 더불어민주당 33~35%",
+        analysis: "2022년 하반기 비속어 논란과 영빈관 신축 논란으로 20%대 중반까지 급락했던 지지율이 국빈 방미 외교 성과로 30%대 초반으로 소폭 반등함. 그러나 강제징용 해법 반발로 부정 평가가 60%선을 굳히는 양극화 심화."
+      },
+      {
+        idx: 2,
+        date: "2024.04 (제22대 총선 참패)",
+        shortLabel: "24.04 총선",
+        period: "집권 2년차 말~3년차 총선 국면",
+        approval: { nbs: [27, 64], gallup: [23, 68], realm: [32.3, 64.3], mbc: [26.4, 66.8], avgPos: 27.2, avgNeg: 65.9 },
+        events: [
+          { tag: "선거 결과", tagBg: "rgba(255, 69, 58, 0.15)", tagColor: "#FF453A", title: "4·10 제22대 총선 참패 (여권 108석 vs 범야권 192석)", desc: "개헌저지선(100석)만 겨우 지킨 참패로, 1987년 민주화 이후 집권 여당 기준 사상 최소 의석 기록." },
+          { tag: "사회 갈등", tagBg: "rgba(255, 159, 10, 0.15)", tagColor: "#FF9F0A", title: "의대 정원 2,000명 증원 발표 및 전공의 집단 사직", desc: "초기 여론 호응을 얻었으나 전공의 사직 장기화 및 의료 공백으로 정부 책임론 역풍 초래." },
+          { tag: "인사 논란", tagBg: "rgba(191, 90, 242, 0.15)", tagColor: "#BF5AF2", title: "이종섭 호주대사 출국 논란 & 황상무 수석 발언", desc: "총선 직전 핵심 인사 악재들이 겹치며 수도권 및 중도층 민심 이반을 결정적으로 가속화." }
+        ],
+        partySupport: "국민의힘 30~32% vs 더불어민주당 37~39% (조국혁신당 비례 돌풍)",
+        analysis: "정권 심판론이 여론 전반을 압도함. 총선 직후 한국갤럽 23%, NBS 27%로 취임 후 최저치를 경신했으며, 여소야대 의회 권력 고착으로 국정 4대 개혁 동력이 급격히 상실되고 레임덕 우려가 현실화됨."
+      },
+      {
+        idx: 3,
+        date: "2025.04 (집권 4년차 / 특검 대치)",
+        shortLabel: "25.04 4년차",
+        period: "집권 4년차 전반기 정치 사법 대충돌",
+        approval: { nbs: [25, 66], gallup: [20, 71], realm: [26.8, 69.2], mbc: [23.5, 68.9], avgPos: 23.8, avgNeg: 68.8 },
+        events: [
+          { tag: "사법 특검", tagBg: "rgba(255, 69, 58, 0.15)", tagColor: "#FF453A", title: "김건희 여사 특검법 & 채상병 특검법 거부권 연쇄 행사", desc: "야당 주도의 특검법 통과와 대통령 거부권 행사가 반복되며 극한의 정치적 교착 상태 지속." },
+          { tag: "의혹 파문", tagBg: "rgba(255, 159, 10, 0.15)", tagColor: "#FF9F0A", title: "명태균 공천 개입 의혹 및 녹취록 공방", desc: "여론조사 조작 및 여권 공천 개입 의혹이 불거지며 핵심 지지 기반인 대구·경북(TK) 보수층 균열 심화." },
+          { tag: "당정 갈등", tagBg: "rgba(191, 90, 242, 0.15)", tagColor: "#BF5AF2", title: "한동훈 지도부와의 당정 충돌 및 특별감찰관 대립", desc: "용산 대통령실과 여당 지도부 간의 쇄신안 이견이 노출되며 국정 운영의 불안정성 증폭." }
+        ],
+        partySupport: "국민의힘 28~30% vs 더불어민주당 38~40%",
+        analysis: "부정 평가가 70%선에 육박하고 긍정 평가는 20%선 턱걸이 박스권에 갇힘. 보수 텃밭 영남권과 70대 이상 고령층에서도 이탈 조짐이 뚜렷해졌으며, 민생 고물가와 환율 불안이 겹쳐 지지율 바닥 탐색 국면 지속."
+      },
+      {
+        idx: 4,
+        date: "2026.10 (현재 / 정권 후반기 지형)",
+        shortLabel: "26.10 현재",
+        period: "집권 후반기 4대 개혁 완수 및 차기 지형 형성기",
+        approval: { nbs: [28, 64], gallup: [22, 69], realm: [24.6, 71.4], mbc: [24.8, 68.2], avgPos: 24.8, avgNeg: 68.2 },
+        events: [
+          { tag: "국정 개혁", tagBg: "rgba(48, 209, 88, 0.15)", tagColor: "#30D158", title: "연금·의료·교육·노동 4대 개혁 후반기 완수 드라이브", desc: "국민연금 모수개혁 정부안 국회 논의 촉구 및 의정 갈등 출구 전략 모색." },
+          { tag: "사법 격돌", tagBg: "rgba(255, 69, 58, 0.15)", tagColor: "#FF453A", title: "조희대 대법원장 국정조사 요구서 제출 및 특검 충돌", desc: "선관위 특검의 투표지 반출 등 선거 사법 쟁점화 속 여야의 전방위 정면 대치 지속." },
+          { tag: "정치 판세", tagBg: "rgba(0, 113, 227, 0.15)", tagColor: "#2997FF", title: "2026 지방선거 및 차기 대선 구도 조기 태동", desc: "오세훈 무죄 후 여권 '장동혁·한동훈·오세훈' 3각 축 형성 vs 야권 이재명 중심 진영 결집." }
+        ],
+        partySupport: "국민의힘 25~28% vs 더불어민주당 36~38%",
+        analysis: "NBS 28%(+2%p), 갤럽 22%, 리얼미터 24.6%, 여론M 24.8%로 20%대 중반 횡보세. 부정 평가는 64~71% 수준으로 견고함. 후반기 개혁 과제 추진과 사법 공방 속에서 양대 진영 간 콘크리트 결집 양상이 뚜렷하게 전개됨."
+      }
+    ];
+
+    window.FOUR_POLLS_HISTORY = window.INFLECTION_EVENTS_DATA.map(d => ({
+      date: d.date,
+      nbs: d.approval.nbs,
+      gallup: d.approval.gallup,
+      realm: d.approval.realm,
+      mbc: d.approval.mbc
+    }));
+
+    window.HISTORICAL_PRESIDENT_DATA = [
+      { name: "문재인", color: "#3B82F6", pts: [81, 52, 47, 45, 42] },
+      { name: "박근혜", color: "#EF4444", pts: [54, 42, 34, 29, 12] },
+      { name: "이명박", color: "#10B981", pts: [52, 27, 44, 33, 24] },
+      { name: "노무현", color: "#F59E0B", pts: [60, 25, 27, 23, 24] },
+      { name: "현 정권", color: "#2997FF", width: 3.5, pts: [52, 31.7, 27.2, 23.8, 24.8] }
+    ];
+
+    window.currentPollViewMode = 'all';
+    window.currentInflectionIdx = 4;
+    window.isPollTrajectoryPlaying = false;
+
+    // 뷰 모드 전환 함수
+    window.setPollViewMode = function(mode) {
+      window.currentPollViewMode = mode;
+      
+      const pills = [
+        { id: 'btnPollModeAll', mode: 'all' },
+        { id: 'btnPollModeSpread', mode: 'spread' },
+        { id: 'btnPollModeHistorical', mode: 'historical' },
+        { id: 'btnPollModeEvents', mode: 'events' }
+      ];
+
+      pills.forEach(p => {
+        const btn = document.getElementById(p.id);
+        if (btn) btn.classList.toggle('active', p.mode === mode);
+      });
+
+      const titleEl = document.getElementById('pollGraphTitle');
+      const badgeEl = document.getElementById('pollGraphBadge');
+
+      if (mode === 'all') {
+        if (badgeEl) badgeEl.innerText = '📈 시계열 동적 4대 조사 궤적';
+        if (titleEl) titleEl.innerText = '현 정권 4대 조사 직무수행 평가 지지율 궤적 (2022.05 취임 ~ 2026.10 현재)';
+      } else if (mode === 'spread') {
+        if (badgeEl) badgeEl.innerText = '⚡ 긍정 vs 부정 격차 분석';
+        if (titleEl) titleEl.innerText = '대통령 직무수행 긍정(24.8%) vs 부정(68.2%) 데드크로스 및 격차(-43.4%p) 궤적';
+      } else if (mode === 'historical') {
+        if (badgeEl) badgeEl.innerText = '🏛️ 역대 5대 정권 동 시기 비교';
+        if (titleEl) titleEl.innerText = '역대 대통령 취임~집권 후반기(5개 분기점) 지지율 비교 궤적 (문재인·박근혜·이명박·노무현 vs 현 정권)';
+      } else if (mode === 'events') {
+        if (badgeEl) badgeEl.innerText = '🔍 5대 변곡점 핵심 사건 연동 뷰';
+        if (titleEl) titleEl.innerText = '정권 지지율 급락·반등 5대 변곡점 및 결정적 정치사건 타임라인 연동';
+      }
+
+      window.renderFourPollsChart(window.currentInflectionIdx, mode);
+    };
+
+    // 변곡점 선택 함수
+    window.setPresidentTermPoint = function(idx) {
+      window.currentInflectionIdx = idx;
+      window.renderFourPollsChart(idx, window.currentPollViewMode);
+
+      document.querySelectorAll('.poll-time-pill').forEach((btn, i) => {
+        btn.classList.toggle('active', i === idx);
+        if (i === idx) {
+          btn.style.background = '#2997FF';
+          btn.style.color = '#FFF';
+          btn.style.fontWeight = '700';
+          btn.style.border = 'none';
+        } else {
+          btn.style.background = 'rgba(255,255,255,0.06)';
+          btn.style.color = '#94A3B8';
+          btn.style.fontWeight = 'normal';
+          btn.style.border = '1px solid rgba(255,255,255,0.12)';
+        }
+      });
+
+      // 4대 조사 하단 카드 업데이트
+      const data = window.FOUR_POLLS_HISTORY[idx];
+      const grid = document.getElementById('fourPollsGridContainer');
+      if (grid && grid.children.length >= 4) {
+        updatePollCardVal(grid.children[0], "NBS 전국지표조사", data.nbs[0], data.nbs[1]);
+        updatePollCardVal(grid.children[1], "한국갤럽 (Gallup)", data.gallup[0], data.gallup[1]);
+        updatePollCardVal(grid.children[2], "리얼미터 (Realmeter)", data.realm[0], data.realm[1]);
+        updatePollCardVal(grid.children[3], "MBC 여론M (메타)", data.mbc[0], data.mbc[1]);
+      }
+
+      // 하단 변곡점 브리프 카드 업데이트
+      window.updateInflectionBriefCard(idx);
+    };
+
+    function updatePollCardVal(card, title, pos, neg) {
+      if (!card) return;
+      const divs = card.querySelectorAll('div');
+      divs.forEach(d => {
+        if (d.style.fontSize && d.style.fontSize.includes('1.85rem')) {
+          if (d.style.color && d.style.color.includes('2997FF')) {
+            d.innerHTML = `${pos}<span style="font-size: 1rem; font-weight: 700;">%</span>`;
+          } else if (d.style.color && d.style.color.includes('FF453A')) {
+            d.innerHTML = `${neg}<span style="font-size: 1rem; font-weight: 700;">%</span>`;
+          }
+        }
+      });
+      const ratioBars = card.querySelectorAll('div[style*="height: 6px"] > div');
+      if (ratioBars.length >= 3) {
+        ratioBars[0].style.width = `${pos}%`;
+        ratioBars[2].style.width = `${neg}%`;
+        const mid = 100 - pos - neg;
+        ratioBars[1].style.width = `${mid > 0 ? mid : 0}%`;
+      }
+    }
+
+    // 하단 변곡점 사건 실시간 브리프 카드 동기화
+    window.updateInflectionBriefCard = function(idx) {
+      const card = document.getElementById('inflectionBriefCard');
+      if (!card) return;
+
+      const data = window.INFLECTION_EVENTS_DATA[idx];
+      if (!data) return;
+
+      let eventsHtml = '';
+      data.events.forEach(ev => {
+        eventsHtml += `
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 10px 14px; border-radius: 8px;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+              <span class="inflection-event-tag" style="background: ${ev.tagBg}; color: ${ev.tagColor};">${ev.tag}</span>
+              <strong style="font-size: 0.85rem; color: #F5F5F7;">${ev.title}</strong>
+            </div>
+            <div style="font-size: 0.78rem; color: #94A3B8; line-height: 1.45;">${ev.desc}</div>
+          </div>
+        `;
+      });
+
+      card.innerHTML = `
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span style="font-size: 0.78rem; font-weight: 800; color: #2997FF; background: rgba(0, 113, 227, 0.15); padding: 2px 8px; border-radius: 4px;">📌 선택 변곡점 팩트 브리프</span>
+            <strong style="font-size: 1.05rem; color: #FFFFFF;">${data.date}</strong>
+            <span style="font-size: 0.82rem; color: #2997FF; font-weight: 700;">평균 긍정 ${data.approval.avgPos}% / 부정 ${data.approval.avgNeg}%</span>
+          </div>
+          <button onclick="openInflectionModal(${idx})" style="background: #2997FF; color: #FFF; border: none; padding: 4px 14px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 4px;">
+            🔍 변곡점 심층 팩트체크 팝업 열기 ↗
+          </button>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 10px;">
+          ${eventsHtml}
+        </div>
+
+        <div style="font-size: 0.8rem; color: #D1D5DB; line-height: 1.5; background: rgba(0,0,0,0.25); padding: 8px 12px; border-radius: 6px; border-left: 3px solid #2997FF;">
+          <strong>💡 싱크탱크 분석 요약:</strong> ${data.analysis}
+        </div>
+      `;
+    };
+
+    // 팝업 모달 열기 / 닫기
+    window.openInflectionModal = function(idx) {
+      window.currentInflectionIdx = idx;
+      const modal = document.getElementById('inflectionEventModal');
+      if (!modal) return;
+
+      const data = window.INFLECTION_EVENTS_DATA[idx];
+      if (!data) return;
+
+      document.getElementById('modalInflectionBadge').innerText = `변곡점 ${idx + 1} / 5`;
+      document.getElementById('modalInflectionTitle').innerText = data.date;
+      document.getElementById('modalInflectionPeriod').innerText = data.period;
+
+      const statsGrid = document.getElementById('modalPollStatsGrid');
+      statsGrid.innerHTML = `
+        <div style="background: rgba(0, 113, 227, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+          <div style="font-size: 0.72rem; color: #2997FF; font-weight: 700;">NBS 지표조사</div>
+          <div style="font-size: 1.1rem; font-weight: 800; color: #FFF;">${data.approval.nbs[0]}%</div>
+          <div style="font-size: 0.68rem; color: #FF453A;">부정 ${data.approval.nbs[1]}%</div>
+        </div>
+        <div style="background: rgba(100, 210, 255, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+          <div style="font-size: 0.72rem; color: #64D2FF; font-weight: 700;">한국갤럽</div>
+          <div style="font-size: 1.1rem; font-weight: 800; color: #FFF;">${data.approval.gallup[0]}%</div>
+          <div style="font-size: 0.68rem; color: #FF453A;">부정 ${data.approval.gallup[1]}%</div>
+        </div>
+        <div style="background: rgba(191, 90, 242, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+          <div style="font-size: 0.72rem; color: #BF5AF2; font-weight: 700;">리얼미터</div>
+          <div style="font-size: 1.1rem; font-weight: 800; color: #FFF;">${data.approval.realm[0]}%</div>
+          <div style="font-size: 0.68rem; color: #FF453A;">부정 ${data.approval.realm[1]}%</div>
+        </div>
+        <div style="background: rgba(255, 159, 10, 0.1); padding: 10px; border-radius: 8px; text-align: center;">
+          <div style="font-size: 0.72rem; color: #FF9F0A; font-weight: 700;">여론M 메타</div>
+          <div style="font-size: 1.1rem; font-weight: 800; color: #FFF;">${data.approval.mbc[0]}%</div>
+          <div style="font-size: 0.68rem; color: #FF453A;">부정 ${data.approval.mbc[1]}%</div>
+        </div>
+      `;
+
+      const eventsList = document.getElementById('modalEventsList');
+      let eventsHtml = '';
+      data.events.forEach(ev => {
+        eventsHtml += `
+          <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 14px 16px; border-radius: 10px;">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+              <span class="inflection-event-tag" style="background: ${ev.tagBg}; color: ${ev.tagColor};">${ev.tag}</span>
+              <strong style="font-size: 0.95rem; color: #FFF;">${ev.title}</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: #94A3B8; margin: 0; line-height: 1.55;">${ev.desc}</p>
+          </div>
+        `;
+      });
+      eventsList.innerHTML = eventsHtml;
+
+      document.getElementById('modalPartySupport').innerText = data.partySupport;
+      document.getElementById('modalAnalysisText').innerText = data.analysis;
+
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    };
+
+    window.closeInflectionModal = function() {
+      const modal = document.getElementById('inflectionEventModal');
+      if (modal) modal.style.display = 'none';
+      document.body.style.overflow = '';
+    };
+
+    window.changeInflectionModal = function(step) {
+      let nextIdx = window.currentInflectionIdx + step;
+      if (nextIdx < 0) nextIdx = 0;
+      if (nextIdx > 4) nextIdx = 4;
+      window.setPresidentTermPoint(nextIdx);
+      window.openInflectionModal(nextIdx);
+    };
+
+    // 정권 초기~현재 궤적 애니메이션 재생
+    window.playPresidentTrajectory = function() {
+      if (window.isPollTrajectoryPlaying) return;
+      window.isPollTrajectoryPlaying = true;
+      const btn = document.getElementById('btnPlayTrajectory');
+      if (btn) btn.innerHTML = '⏳ 궤적 재생 중...';
+
+      let step = 0;
+      window.setPresidentTermPoint(0);
+
+      const interval = setInterval(() => {
+        step++;
+        if (step <= 4) {
+          window.setPresidentTermPoint(step);
+        } else {
+          clearInterval(interval);
+          window.isPollTrajectoryPlaying = false;
+          if (btn) btn.innerHTML = '▶️ 정권 초기~현재 궤적 애니메이션 재생';
+        }
+      }, 900);
+    };
+
+    // =========================================================================
+    // 📈 핵심 SVG 동적 렌더링 엔진 (4대 모드 지원)
+    // =========================================================================
+    window.renderFourPollsChart = function(activeIdx = 4, mode = window.currentPollViewMode || 'all') {
       const container = document.getElementById('fourPollsInteractiveSvgContainer');
+      const legendContainer = document.getElementById('fourPollsLegendContainer');
       if (!container) return;
 
       const w = 1140;
-      const h = 230;
+      const h = 260;
       const padL = 60;
-      const padR = 50;
-      const padT = 25;
-      const padB = 40;
+      const padR = 60;
+      const padT = 30;
+      const padB = 45;
       const plotW = w - padL - padR;
       const plotH = h - padT - padB;
 
-      const dates = FOUR_POLLS_HISTORY.map(d => d.date);
+      const dates = window.INFLECTION_EVENTS_DATA.map(d => d.shortLabel);
       const getX = i => padL + (i / (dates.length - 1)) * plotW;
-      const getY = val => padT + (1 - (val - 15) / 45) * plotH; // range 15% to 60%
+
+      // Update Legend depending on mode
+      if (legendContainer) {
+        if (mode === 'all') {
+          legendContainer.innerHTML = `
+            <span style="color: #2997FF; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #2997FF; display: inline-block;"></span> NBS (28%)</span>
+            <span style="color: #64D2FF; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #64D2FF; display: inline-block;"></span> 갤럽 (22%)</span>
+            <span style="color: #BF5AF2; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #BF5AF2; display: inline-block;"></span> 리얼미터 (24.6%)</span>
+            <span style="color: #FF9F0A; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #FF9F0A; display: inline-block;"></span> 여론M (24.8%)</span>
+          `;
+        } else if (mode === 'spread') {
+          legendContainer.innerHTML = `
+            <span style="color: #30D158; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #30D158; display: inline-block;"></span> 평균 긍정 평가 (24.8%)</span>
+            <span style="color: #FF453A; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 10px; border-radius: 50%; background: #FF453A; display: inline-block;"></span> 평균 부정 평가 (68.2%)</span>
+            <span style="color: #FF9F0A; display: inline-flex; align-items: center; gap: 4px;">⚡ 격차: -43.4%p (데드크로스 고착)</span>
+          `;
+        } else if (mode === 'historical') {
+          legendContainer.innerHTML = `
+            <span style="color: #2997FF; display: inline-flex; align-items: center; gap: 4px; font-weight: 900;"><span style="width: 12px; height: 4px; background: #2997FF; display: inline-block;"></span> 현 정권 (24.8%)</span>
+            <span style="color: #3B82F6; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 2px; background: #3B82F6; display: inline-block;"></span> 문재인 (45%)</span>
+            <span style="color: #EF4444; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 2px; background: #EF4444; display: inline-block;"></span> 박근혜 (29%)</span>
+            <span style="color: #10B981; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 2px; background: #10B981; display: inline-block;"></span> 이명박 (33%)</span>
+            <span style="color: #F59E0B; display: inline-flex; align-items: center; gap: 4px;"><span style="width: 10px; height: 2px; background: #F59E0B; display: inline-block;"></span> 노무현 (23%)</span>
+          `;
+        } else if (mode === 'events') {
+          legendContainer.innerHTML = `
+            <span style="color: #2997FF; display: inline-flex; align-items: center; gap: 4px;">💡 변곡점 클릭 시 사건 상세 팝업 오픈</span>
+          `;
+        }
+      }
+
+      let minVal = 15;
+      let maxVal = 75;
+      if (mode === 'historical') { minVal = 10; maxVal = 85; }
+      else if (mode === 'spread') { minVal = 15; maxVal = 75; }
+
+      const getY = val => padT + (1 - (val - minVal) / (maxVal - minVal)) * plotH;
 
       let svg = `<svg viewBox="0 0 ${w} ${h}" style="width:100%; height:100%; overflow:visible;" xmlns="http://www.w3.org/2000/svg">`;
 
-      // Y-axis grid lines (20%, 30%, 40%, 50%, 60%)
-      [20, 30, 40, 50, 60].forEach(val => {
+      // Defs: Gradients and Markers
+      svg += `
+        <defs>
+          <linearGradient id="spreadAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FF453A" stop-opacity="0.25" />
+            <stop offset="100%" stop-color="#30D158" stop-opacity="0.05" />
+          </linearGradient>
+          <filter id="glowEffect" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          </filter>
+        </defs>
+      `;
+
+      // Y-axis grid lines
+      const yTicks = (mode === 'historical') ? [20, 35, 50, 65, 80] : [20, 30, 40, 50, 60, 70];
+      yTicks.forEach(val => {
         const y = getY(val);
         svg += `
           <line x1="${padL}" y1="${y}" x2="${w - padR}" y2="${y}" stroke="rgba(255, 255, 255, 0.08)" stroke-dasharray="3,3" />
@@ -17012,33 +17478,28 @@ function playCustomVideo(videoId, title) {
         `;
       });
 
-      // X-axis milestone labels
+      // X-axis milestone labels & vertical reference guides
       dates.forEach((d, i) => {
         const x = getX(i);
         const isActive = (i === activeIdx);
         const color = isActive ? '#2997FF' : '#86868B';
         const weight = isActive ? '800' : '600';
-        svg += `<text x="${x}" y="${h - 14}" fill="${color}" font-size="11.5" text-anchor="middle" font-weight="${weight}">${d}</text>`;
+        svg += `
+          <line x1="${x}" y1="${padT}" x2="${x}" y2="${h - padB}" stroke="${isActive ? 'rgba(41, 151, 255, 0.35)' : 'rgba(255, 255, 255, 0.04)'}" stroke-dasharray="${isActive ? 'none' : '2,2'}" stroke-width="${isActive ? 2 : 1}" />
+          <text x="${x}" y="${h - 14}" fill="${color}" font-size="11.5" text-anchor="middle" font-weight="${weight}" style="cursor: pointer;" onclick="setPresidentTermPoint(${i})">${d}</text>
+        `;
       });
 
-      // Active Vertical Scrubber Line
+      // Active Vertical Scrubber Line & Pulsing Ring
       const activeX = getX(activeIdx);
       svg += `
-        <line x1="${activeX}" y1="${padT}" x2="${activeX}" y2="${h - padB}" stroke="rgba(41, 151, 255, 0.4)" stroke-width="2" stroke-dasharray="4,4" />
-        <circle cx="${activeX}" cy="${padT}" r="4" fill="#2997FF" />
+        <line x1="${activeX}" y1="${padT - 6}" x2="${activeX}" y2="${h - padB}" stroke="#2997FF" stroke-width="2.5" stroke-dasharray="4,3" />
+        <circle cx="${activeX}" cy="${padT - 6}" r="5" fill="#2997FF" />
+        <circle cx="${activeX}" cy="${padT - 6}" r="12" fill="none" stroke="#2997FF" class="poll-pulse-ring" />
       `;
 
-      // Define 4 series
-      const series = [
-        { key: 'nbs', label: 'NBS', color: '#2997FF', width: 3.5 },
-        { key: 'gallup', label: '갤럽', color: '#64D2FF', width: 2.5 },
-        { key: 'realm', label: '리얼미터', color: '#BF5AF2', width: 2.5 },
-        { key: 'mbc', label: '여론M', color: '#FF9F0A', width: 2.5 }
-      ];
-
-      series.forEach(s => {
-        let pts = FOUR_POLLS_HISTORY.map((d, i) => ({ x: getX(i), y: getY(d[s.key][0]), val: d[s.key][0] }));
-        
+      // Helper function to draw curved paths
+      const makeCurvedPath = pts => {
         let pathD = '';
         pts.forEach((pt, idx) => {
           if (idx === 0) pathD += `M ${pt.x} ${pt.y}`;
@@ -17048,41 +17509,373 @@ function playCustomVideo(videoId, title) {
             pathD += ` C ${cpX} ${prev.y}, ${cpX} ${pt.y}, ${pt.x} ${pt.y}`;
           }
         });
+        return pathD;
+      };
 
-        svg += `<path d="${pathD}" fill="none" stroke="${s.color}" stroke-width="${s.width}" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" />`;
+      // -----------------------------------------------------------------------
+      // MODE 1: ALL 4 AGENCIES COMPARISON (4대 조사 종합 궤적)
+      // -----------------------------------------------------------------------
+      if (mode === 'all' || mode === 'events') {
+        const series = [
+          { key: 'nbs', label: 'NBS', color: '#2997FF', width: 3.5 },
+          { key: 'gallup', label: '갤럽', color: '#64D2FF', width: 2.5 },
+          { key: 'realm', label: '리얼미터', color: '#BF5AF2', width: 2.5 },
+          { key: 'mbc', label: '여론M', color: '#FF9F0A', width: 2.5 }
+        ];
+
+        series.forEach(s => {
+          let pts = window.FOUR_POLLS_HISTORY.map((d, i) => ({ x: getX(i), y: getY(d[s.key][0]), val: d[s.key][0] }));
+          let pathD = makeCurvedPath(pts);
+
+          svg += `<path d="${pathD}" fill="none" stroke="${s.color}" stroke-width="${s.width}" stroke-linecap="round" stroke-linejoin="round" class="animated-poll-path" opacity="0.9" />`;
+
+          // Points
+          pts.forEach((pt, idx) => {
+            const isActive = (idx === activeIdx);
+            const r = isActive ? 7 : 4;
+            svg += `
+              <circle cx="${pt.x}" cy="${pt.y}" r="${r}" fill="#10141E" stroke="${s.color}" stroke-width="${isActive ? 3.5 : 2}" style="cursor: pointer;" onclick="setPresidentTermPoint(${idx})" />
+            `;
+            
+            if (isActive) {
+              svg += `
+                <rect x="${pt.x - 22}" y="${pt.y - 25}" width="44" height="18" rx="4" fill="#10141E" stroke="${s.color}" stroke-width="1.5" />
+                <text x="${pt.x}" y="${pt.y - 12}" fill="#FFFFFF" font-size="10.5" font-weight="800" text-anchor="middle">${pt.val}%</text>
+              `;
+            }
+          });
+        });
+
+        // Event callout flags in 'events' mode
+        if (mode === 'events') {
+          window.INFLECTION_EVENTS_DATA.forEach((d, i) => {
+            const x = getX(i);
+            const y = getY(d.approval.avgPos);
+            svg += `
+              <g style="cursor: pointer;" onclick="openInflectionModal(${i})">
+                <rect x="${x - 55}" y="${padT + 10 + (i % 2) * 35}" width="110" height="24" rx="6" fill="#1A1F2C" stroke="#2997FF" stroke-width="1" />
+                <text x="${x}" y="${padT + 26 + (i % 2) * 35}" fill="#FFF" font-size="10" font-weight="700" text-anchor="middle">📌 ${d.events[0].tag}</text>
+              </g>
+            `;
+          });
+        }
+      }
+
+      // -----------------------------------------------------------------------
+      // MODE 2: SPREAD (긍정 vs 부정 평가 격차 & 데드크로스)
+      // -----------------------------------------------------------------------
+      else if (mode === 'spread') {
+        let posPts = window.INFLECTION_EVENTS_DATA.map((d, i) => ({ x: getX(i), y: getY(d.approval.avgPos), val: d.approval.avgPos }));
+        let negPts = window.INFLECTION_EVENTS_DATA.map((d, i) => ({ x: getX(i), y: getY(d.approval.avgNeg), val: d.approval.avgNeg }));
+
+        // Shaded Gap Area
+        let areaD = makeCurvedPath(posPts);
+        for (let i = negPts.length - 1; i >= 0; i--) {
+          areaD += ` L ${negPts[i].x} ${negPts[i].y}`;
+        }
+        areaD += ' Z';
+        svg += `<path d="${areaD}" fill="url(#spreadAreaGrad)" />`;
+
+        // Draw Pos & Neg Lines
+        svg += `<path d="${makeCurvedPath(posPts)}" fill="none" stroke="#30D158" stroke-width="3.5" class="animated-poll-path" />`;
+        svg += `<path d="${makeCurvedPath(negPts)}" fill="none" stroke="#FF453A" stroke-width="3.5" class="animated-poll-path" />`;
 
         // Points
-        pts.forEach((pt, idx) => {
+        posPts.forEach((pt, idx) => {
           const isActive = (idx === activeIdx);
-          const r = isActive ? 6 : 3.5;
-          svg += `<circle cx="${pt.x}" cy="${pt.y}" r="${r}" fill="#10141E" stroke="${s.color}" stroke-width="${isActive ? 3 : 2}" style="cursor: pointer;" onclick="setPresidentTermPoint(${idx})" />`;
-          
+          svg += `<circle cx="${pt.x}" cy="${pt.y}" r="${isActive ? 7 : 4}" fill="#10141E" stroke="#30D158" stroke-width="2.5" style="cursor:pointer;" onclick="setPresidentTermPoint(${idx})" />`;
           if (isActive) {
-            svg += `
-              <rect x="${pt.x - 22}" y="${pt.y - 25}" width="44" height="18" rx="4" fill="#10141E" stroke="${s.color}" stroke-width="1.5" />
-              <text x="${pt.x}" y="${pt.y - 12}" fill="#FFFFFF" font-size="10.5" font-weight="800" text-anchor="middle">${pt.val}%</text>
-            `;
+            svg += `<text x="${pt.x}" y="${pt.y - 12}" fill="#30D158" font-size="11" font-weight="800" text-anchor="middle">긍정 ${pt.val}%</text>`;
           }
         });
-      });
+        negPts.forEach((pt, idx) => {
+          const isActive = (idx === activeIdx);
+          svg += `<circle cx="${pt.x}" cy="${pt.y}" r="${isActive ? 7 : 4}" fill="#10141E" stroke="#FF453A" stroke-width="2.5" style="cursor:pointer;" onclick="setPresidentTermPoint(${idx})" />`;
+          if (isActive) {
+            svg += `<text x="${pt.x}" y="${pt.y - 12}" fill="#FF453A" font-size="11" font-weight="800" text-anchor="middle">부정 ${pt.val}%</text>`;
+          }
+        });
+
+        // Dead Cross Marker (approx between index 0 and 1, around 2022.07)
+        const dcX = getX(0) + (getX(1) - getX(0)) * 0.45;
+        const dcY = getY(44);
+        svg += `
+          <g>
+            <circle cx="${dcX}" cy="${dcY}" r="6" fill="#FF453A" stroke="#FFF" stroke-width="2" />
+            <rect x="${dcX - 45}" y="${dcY - 32}" width="90" height="20" rx="4" fill="#FF453A" />
+            <text x="${dcX}" y="${dcY - 18}" fill="#FFF" font-size="10" font-weight="800" text-anchor="middle">⚡ 데드크로스 (22.07)</text>
+          </g>
+        `;
+      }
+
+      // -----------------------------------------------------------------------
+      // MODE 3: HISTORICAL PRESIDENTS COMPARISON (역대 정권 동 시기 비교)
+      // -----------------------------------------------------------------------
+      else if (mode === 'historical') {
+        window.HISTORICAL_PRESIDENT_DATA.forEach(p => {
+          let pts = p.pts.map((val, i) => ({ x: getX(i), y: getY(val), val }));
+          let pathD = makeCurvedPath(pts);
+          const isCurrent = (p.name === "현 정권");
+
+          svg += `
+            <path d="${pathD}" fill="none" stroke="${p.color}" stroke-width="${isCurrent ? 4 : 1.8}" stroke-dasharray="${isCurrent ? 'none' : '4,3'}" class="animated-poll-path" opacity="${isCurrent ? 1 : 0.6}" />
+          `;
+
+          // Label at end of line
+          const lastPt = pts[pts.length - 1];
+          svg += `
+            <text x="${lastPt.x + 8}" y="${lastPt.y + 4}" fill="${p.color}" font-size="11" font-weight="${isCurrent ? '800' : '600'}">${p.name} (${lastPt.val}%)</text>
+          `;
+
+          if (isCurrent) {
+            pts.forEach((pt, idx) => {
+              const isActive = (idx === activeIdx);
+              svg += `<circle cx="${pt.x}" cy="${pt.y}" r="${isActive ? 7 : 4}" fill="#10141E" stroke="${p.color}" stroke-width="3" style="cursor:pointer;" onclick="setPresidentTermPoint(${idx})" />`;
+              if (isActive) {
+                svg += `
+                  <rect x="${pt.x - 24}" y="${pt.y - 25}" width="48" height="18" rx="4" fill="#10141E" stroke="${p.color}" stroke-width="1.5" />
+                  <text x="${pt.x}" y="${pt.y - 12}" fill="#FFFFFF" font-size="11" font-weight="800" text-anchor="middle">${pt.val}%</text>
+                `;
+              }
+            });
+          }
+        });
+      }
 
       svg += `</svg>`;
       container.innerHTML = svg;
-    }
+    };
 
-    // Auto-render Four Polls Interactive Chart on initialization
+    // =========================================================================
+    // 🎨 역대 만평 아카이브 실시간 전환 로더
+    // =========================================================================
+    window.loadArchiveCartoon = function(dateStr) {
+      const img = document.getElementById('currentCartoonImg');
+      const webp = document.getElementById('currentCartoonWebp');
+      const title = document.getElementById('cartoonMainTitle');
+      const points = document.getElementById('cartoonMainPoints');
+      const dateEl = document.getElementById('cartoonFactDate');
+      const downloadBtn = document.getElementById('cartoonDownloadBtn');
+      const factGrid = document.getElementById('cartoonFactGrid');
+
+      // Update active button styles
+      ['20261030', '20261029', '20261028'].forEach(d => {
+        const btn = document.getElementById('btnCartoon' + d);
+        if (btn) {
+          if (d === dateStr) {
+            btn.style.background = 'rgba(16, 185, 129, 0.2)';
+            btn.style.border = '1px solid #10B981';
+            btn.style.color = '#10B981';
+            btn.style.fontWeight = '700';
+          } else {
+            btn.style.background = 'rgba(255, 255, 255, 0.06)';
+            btn.style.border = '1px solid rgba(255, 255, 255, 0.12)';
+            btn.style.color = '#86868B';
+            btn.style.fontWeight = 'normal';
+          }
+        }
+      });
+
+      if (dateStr === '20261030') {
+        if (img) img.src = 'images/editorial_cartoon_today.png';
+        if (webp) webp.srcset = 'images/editorial_cartoon_today.webp';
+        if (downloadBtn) {
+          downloadBtn.href = 'images/editorial_cartoon_today.png';
+          downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261030.png';
+        }
+        if (dateEl) dateEl.innerText = '2026.10.30 07:00 조간 정밀 팩트 확정치 반영';
+        if (title) title.innerText = '『구글의 1,950억 달러 늪과 제국을 삼키는 AI 자기잠식(Cannibalization)의 저주』';
+        if (points) {
+          points.innerHTML = `
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">①</span>
+              <div><strong>사상 최대 실적의 허울과 90억 달러 현금 증발:</strong> 3분기 매출 1,276억 달러(+25%), 클라우드 158억 달러(+103%)에도 잉여현금흐름(FCF)이 -90.7억 달러로 적자 전환하며 알파벳 주가는 -12.64% 폭락했습니다.</div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">②</span>
+              <div><strong>AI 검색의 역설과 '자기잠식(Cannibalization)':</strong> 생성형 AI 에이전트가 답을 직접 해결할수록, 10개 파란 링크 클릭당 과금하던 기존 검색광고(비중 74.2%) 모델은 스스로 해체될 운명입니다.</div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">③</span>
+              <div><strong>클라우드의 역설:</strong> 구글 TPU와 클라우드를 대량 구매한 핵심 고객은 숙적인 오픈AI와 앤트로픽으로, 플랫폼 독점자가 하청 유틸리티로 밀려났습니다.</div>
+            </div>
+          `;
+        }
+        if (factGrid) {
+          factGrid.innerHTML = `
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">알파벳 3분기 FCF</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #FF453A;">-90.7억 달러</div>
+              <div style="font-size: 0.68rem; color: #FF453A;">▼ 시장 충격 적자 전환</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">연간 CapEx 설비투자</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #FF9F0A;">1,950~2,050억$</div>
+              <div style="font-size: 0.68rem; color: #FF9F0A;">AI 인프라 블랙홀</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">알파벳A 실적발표 주가</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #FF453A;">▼ 12.64%</div>
+              <div style="font-size: 0.68rem; color: #FF453A;">2년 만의 최대 낙폭</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">검색광고 매출 비중</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #0A84FF;">74.2%</div>
+              <div style="font-size: 0.68rem; color: #A1A1AA;">AI 자기잠식 노출도</div>
+            </div>
+          `;
+        }
+      } else if (dateStr === '20261029') {
+        if (img) img.src = 'images/editorial_cartoon_20261029.png';
+        if (webp) webp.srcset = 'images/editorial_cartoon_20261029.webp';
+        if (downloadBtn) {
+          downloadBtn.href = 'images/editorial_cartoon_20261029.png';
+          downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261029.png';
+        }
+        if (dateEl) dateEl.innerText = '2026.10.29 16:30 장 마감 정밀 팩트 확정치';
+        if (title) title.innerText = '『코스피 9,200선 고점 돌파 후 6,000선 숨고르기와 1,336원 환율 수급 밸런스』';
+        if (points) {
+          points.innerHTML = `
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">①</span>
+              <div><strong>코스피 6,000선 안착 공방:</strong> 사상 최고치 돌파 후 차익 실현을 거쳐 5,937.66p로 6,000선 안착과 새로운 지지력을 다지고 있습니다.</div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">②</span>
+              <div><strong>원/달러 1,336원의 균형:</strong> 월말 네고물량과 당국 경계감으로 1,336원대에서 안정적인 수급 균형을 유지하고 있습니다.</div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <span style="color: #10B981; font-weight: 800;">③</span>
+              <div><strong>글로벌 펀더멘털 재편:</strong> 연준의 점진적 피벗 하에서 실질 FCF가 검증된 퀄리티 자산군으로 유동성이 재편되고 있습니다.</div>
+            </div>
+          `;
+        }
+        if (factGrid) {
+          factGrid.innerHTML = `
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">코스피 종가</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #38bdf8;">5,937.66p</div>
+              <div style="font-size: 0.68rem; color: #38bdf8;">▼ 74.78p (-1.24%)</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">원/달러 마감</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #FF9F0A;">1,336.80원</div>
+              <div style="font-size: 0.68rem; color: #FF9F0A;">수급 균형 안정</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">한은 기준금리</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #0A84FF;">3.00%</div>
+              <div style="font-size: 0.68rem; color: #A1A1AA;">10월 동결 확정</div>
+            </div>
+            <div style="background: rgba(255, 255, 255, 0.03); padding: 10px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+              <div style="font-size: 0.72rem; color: #86868B;">국고채 10Y-3Y</div>
+              <div style="font-size: 1.05rem; font-weight: 800; color: #10B981;">+31.5bp</div>
+              <div style="font-size: 0.68rem; color: #10B981;">우상향 정상화</div>
+            </div>
+          `;
+        }
+      } else if (dateStr === '20261028') {
+        if (img) img.src = 'images/editorial_cartoon_20261028.png';
+        if (webp) webp.srcset = 'images/editorial_cartoon_20261028.webp';
+        if (downloadBtn) {
+          downloadBtn.href = 'images/editorial_cartoon_20261028.png';
+          downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261028.png';
+        }
+        if (dateEl) dateEl.innerText = '2026.10.28 특급 아카이브';
+        if (title) title.innerText = '『한은 vs 연준: 1,336원 환율 줄다리기와 한미 금리차 100bp 공방』';
+      }
+    };
+
+    // 초기화 시 렌더링
     try {
-      window.renderFourPollsChart(4);
-    } catch(e) { console.error('Error rendering initial poll chart:', e); }
+      window.renderFourPollsChart(4, 'all');
+      window.updateInflectionBriefCard(4);
+    } catch(e) { console.error('Poll chart init error:', e); }
 
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
-      setTimeout(() => { try { window.renderFourPollsChart(4); } catch(e){} }, 100);
+      setTimeout(() => { try { window.renderFourPollsChart(4, 'all'); window.updateInflectionBriefCard(4); } catch(e){} }, 100);
     } else {
       document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => { try { window.renderFourPollsChart(4); } catch(e){} }, 100);
+        setTimeout(() => { try { window.renderFourPollsChart(4, 'all'); window.updateInflectionBriefCard(4); } catch(e){} }, 100);
       });
     }
-
+    
 </script>
+
+  <!-- ===================================================
+       🏛️ 변곡점 심층 팩트체크 & 정치사적 사건 팝업 모달
+       =================================================== -->
+  <div id="inflectionEventModal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(15px); z-index: 100050; align-items: center; justify-content: center; padding: 20px;">
+    <div style="background: #16181F; border: 1px solid rgba(41, 151, 255, 0.35); border-radius: 20px; max-width: 780px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 32px; box-shadow: 0 25px 60px rgba(0,0,0,0.8); position: relative;">
+      
+      <!-- Close Button -->
+      <button onclick="closeInflectionModal()" style="position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #FFF; width: 36px; height: 36px; border-radius: 50%; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;">✕</button>
+      
+      <!-- Modal Header -->
+      <div style="margin-bottom: 24px;">
+        <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0, 113, 227, 0.15); border: 1px solid rgba(0, 113, 227, 0.4); padding: 4px 12px; border-radius: 980px; font-size: 0.78rem; font-weight: 800; color: #2997FF; margin-bottom: 8px;">
+          <span>🏛️ 국정 지지율 핵심 변곡점 심층 분석</span>
+          <span id="modalInflectionBadge" style="background: #2997FF; color: #FFF; padding: 1px 6px; border-radius: 4px; font-size: 0.68rem;">Point 4</span>
+        </div>
+        <h2 id="modalInflectionTitle" style="font-size: 1.6rem; font-weight: 800; color: #FFF; margin: 0 0 6px 0; line-height: 1.3;">
+          2026.10 현재 (정권 후반기 지형)
+        </h2>
+        <p id="modalInflectionPeriod" style="font-size: 0.88rem; color: #86868B; margin: 0;">
+          집권 후반기 4대 개혁 완수 및 차기 지형 형성기
+        </p>
+      </div>
+
+      <!-- Poll Ratings Summary Box -->
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 16px; margin-bottom: 22px;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: #86868B; margin-bottom: 10px;">📊 당시 4대 조사 공표치 비교</div>
+        <div id="modalPollStatsGrid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+
+      <!-- 3 Crucial Events Section -->
+      <div style="margin-bottom: 24px;">
+        <h3 style="font-size: 1.05rem; font-weight: 800; color: #F5F5F7; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">
+          <span>📌 당시 3대 결정적 사건 (정치·사법·외교·선거)</span>
+        </h3>
+        <div id="modalEventsList" style="display: flex; flex-direction: column; gap: 12px;">
+          <!-- Populated via JS -->
+        </div>
+      </div>
+
+      <!-- Party Support Landscape -->
+      <div style="background: rgba(0, 113, 227, 0.06); border: 1px solid rgba(0, 113, 227, 0.2); border-radius: 12px; padding: 14px 18px; margin-bottom: 22px;">
+        <div style="font-size: 0.78rem; font-weight: 800; color: #2997FF; margin-bottom: 6px;">🗳️ 당시 정당 지지율 지형</div>
+        <div id="modalPartySupport" style="font-size: 0.9rem; color: #CBD5E1; font-weight: 600;">
+          국민의힘 25~28% vs 더불어민주당 36~38%
+        </div>
+      </div>
+
+      <!-- In-Depth Think Tank Analysis -->
+      <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; padding: 18px; margin-bottom: 26px;">
+        <div style="font-size: 0.78rem; font-weight: 800; color: #10B981; margin-bottom: 8px;">💡 싱크탱크 심층 인과관계 분석</div>
+        <p id="modalAnalysisText" style="font-size: 0.88rem; color: #D1D5DB; line-height: 1.65; margin: 0;">
+          <!-- Populated via JS -->
+        </p>
+      </div>
+
+      <!-- Navigation & Close Buttons -->
+      <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 18px;">
+        <div style="display: flex; gap: 10px;">
+          <button onclick="changeInflectionModal(-1)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); color: #FFF; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; cursor: pointer;">
+            ◀️ 이전 변곡점
+          </button>
+          <button onclick="changeInflectionModal(1)" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.15); color: #FFF; padding: 8px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; cursor: pointer;">
+            다음 변곡점 ▶️
+          </button>
+        </div>
+        <button onclick="closeInflectionModal()" style="background: #2997FF; border: none; color: #FFF; padding: 8px 24px; border-radius: 8px; font-size: 0.85rem; font-weight: 700; cursor: pointer;">
+          확인 완료
+        </button>
+      </div>
+
+    </div>
+  </div>
+    
 </body>
 </html>
