@@ -16725,7 +16725,7 @@ function playCustomVideo(videoId, title) {
     // =========================================================================
     // 📈 현 정권 4대 조사 인터랙티브 SVG 시계열 그래프 렌더링 엔진
     // =========================================================================
-    function renderFourPollsChart(activeIdx = 4) {
+    window.renderFourPollsChart = function(activeIdx = 4) {
       const container = document.getElementById('fourPollsInteractiveSvgContainer');
       if (!container) return;
 
@@ -16810,6 +16810,20 @@ function playCustomVideo(videoId, title) {
       svg += `</svg>`;
       container.innerHTML = svg;
     }
+
+    // Auto-render Four Polls Interactive Chart on initialization
+    try {
+      window.renderFourPollsChart(4);
+    } catch(e) { console.error('Error rendering initial poll chart:', e); }
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(() => { try { window.renderFourPollsChart(4); } catch(e){} }, 100);
+    } else {
+      document.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => { try { window.renderFourPollsChart(4); } catch(e){} }, 100);
+      });
+    }
+
 </script>
 </body>
 </html>
