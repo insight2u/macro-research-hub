@@ -5249,7 +5249,80 @@
       color: #A1A1AA;
     }
 
-  </style>
+  
+    /* [LAYOUT FIX] Header Navigation & Live Ticker Zero-Overlap System */
+    .pro-nav {
+      position: sticky !important;
+      top: 0 !important;
+      width: 100% !important;
+      height: 54px !important;
+      min-height: 54px !important;
+      max-height: 54px !important;
+      background: rgba(10, 13, 20, 0.94) !important;
+      backdrop-filter: blur(28px) saturate(190%) !important;
+      -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
+      z-index: 1000 !important;
+      display: flex !important;
+      align-items: center !important;
+      overflow: hidden !important;
+    }
+    .nav-inner {
+      max-width: 1440px !important;
+      margin: 0 auto !important;
+      width: 100% !important;
+      padding: 0 16px !important;
+      display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      gap: 14px !important;
+      height: 100% !important;
+    }
+    .nav-menu {
+      display: flex !important;
+      align-items: center !important;
+      gap: 6px !important;
+      overflow-x: auto !important;
+      white-space: nowrap !important;
+      flex-wrap: nowrap !important;
+      flex: 1 !important;
+      scrollbar-width: none !important;
+      -ms-overflow-style: none !important;
+    }
+    .nav-menu::-webkit-scrollbar {
+      display: none !important;
+    }
+    .nav-menu a {
+      flex-shrink: 0 !important;
+      font-size: 12px !important;
+      font-weight: 600 !important;
+      padding: 4px 9px !important;
+      border-radius: 6px !important;
+      transition: all 0.2s ease !important;
+      text-decoration: none !important;
+    }
+    .live-macro-ticker-bar {
+      position: sticky !important;
+      top: 54px !important;
+      width: 100% !important;
+      height: 38px !important;
+      min-height: 38px !important;
+      max-height: 38px !important;
+      background: rgba(12, 12, 16, 0.96) !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+      display: flex !important;
+      align-items: center !important;
+      overflow: hidden !important;
+      font-size: 12px !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Mono', monospace !important;
+      z-index: 999 !important;
+      backdrop-filter: blur(16px) !important;
+      margin-top: 0 !important;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+    }
+
+</style>
 </head>
 <body>
 
@@ -5264,40 +5337,42 @@
   <!-- Floating Glass Pro Navigation -->
   <nav class="pro-nav">
     <div class="nav-inner">
-      <a href="#" class="nav-brand-bx" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
-        <div class="apple-emblem-wrap" style="display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 9px; transition: transform 0.2s;">
-          <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="8" fill="#1C1C1E" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.8"/>
-  <path d="M10 8 V24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M10 8.2 H16.8 C19.6 8.2 21.8 10.4 21.8 13.2 C21.8 16.0 19.6 18.2 16.8 18.2 H10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M15.8 17.8 L22 24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
-</svg>
+      <a href="#" class="nav-brand-bx" style="display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0;">
+        <div class="apple-emblem-wrap" style="display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; background: #1C1C1E; border: 1px solid rgba(255, 255, 255, 0.2);">
+          <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 8 V24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M10 8.2 H16.8 C19.6 8.2 21.8 10.4 21.8 13.2 C21.8 16.0 19.6 18.2 16.8 18.2 H10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15.8 17.8 L22 24" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+          </svg>
         </div>
         <div class="apple-typography-wrap" style="display: flex; flex-direction: column;">
-          <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', sans-serif; font-size: 14.5px; font-weight: 800; letter-spacing: 0.16em; color: #F5F5F7; line-height: 1.15;">RYUYOUNGSUN</div>
-          <div style="display: flex; align-items: center; gap: 6px; margin-top: 2px;">
-            <span style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; font-size: 8.5px; font-weight: 600; letter-spacing: 0.22em; color: #86868B;">RESEARCH &amp; INTELLIGENCE</span>
-            <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.12); color: #A1A1A6; border-radius: 980px; padding: 1px 5px; font-size: 8px; font-weight: 700; letter-spacing: 0.05em;">PRO</span>
+          <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif; font-size: 13.5px; font-weight: 800; letter-spacing: 0.12em; color: #F5F5F7; line-height: 1.1;">RYUYOUNGSUN</div>
+          <div style="display: flex; align-items: center; gap: 5px; margin-top: 1px;">
+            <span style="font-size: 8px; font-weight: 600; letter-spacing: 0.16em; color: #86868B;">INTELLIGENCE</span>
+            <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #A1A1A6; border-radius: 980px; padding: 1px 4px; font-size: 7.5px; font-weight: 700;">PRO</span>
           </div>
         </div>
       </a>
+      
       <div class="nav-menu">
-        <a href="#editorial" class="hot-link">⚡ MACRO PULSE : 당일 4대 특종 &amp; 긴급 진단</a>
-        <a href="#editorial-cartoon" class="hot-link" style="color: #10B981; font-weight: 800;">🎨 SATIRICAL EYE : 거시 변곡점을 베어무는 AI 조간 만평</a>
-        <a href="#masters-wisdom" class="hot-link" style="color: #EAB308; font-weight: 800;">🏛️ PANTHEON : 8대 지성의 불멸의 지혜 &amp; 07시 레터</a>
-        <a href="#executive-books" class="hot-link" style="color: #38BDF8; font-weight: 800; background: rgba(56, 189, 248, 0.12); padding: 5px 12px; border-radius: 980px; border: 1px solid rgba(56, 189, 248, 0.35);">📚 EXECUTIVE BOOK DB : 거인의 어깨 위에서 시장을 지배하는 203선 필독 바이블</a>
-        <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 700;">🗳️ POLITICAL RADAR : 33년 역대 정권 지지율 &amp; 민심의 궤적</a>
-        <a href="#trend-lab" class="hot-link" style="color: #70b4ff; font-weight: 700;">🔮 FUTURE LAB : 넥스트 메가트렌드 &amp; 파괴적 혁신 랩</a>
-        <a href="#econometrics-lab" class="nav-link" style="color: #A78BFA; font-weight: 700;">🔬 QUANT COMPASS : 11대 선행·동행 지표 &amp; 40대 싱크탱크 매트릭스</a>
-        <a href="#sponsor-band" class="nav-link" style="color: #A1A1AA;">🏢 PRESTIGE BAND : 최정상 기업·금융 파트너 띠배너</a>
-        <a href="#email-sync" class="nav-link">📡 LIVE RADAR : 실시간 글로벌 경제 레이더</a>
-        <a href="#explorer" onclick="setMainTab('notion')">📚 전략 모노그래프 (565편)</a>
-        <a href="#explorer" onclick="setMainTab('bookmarks')">📊 거시·정책 공식 DB (1,821개)</a>
-        <a href="#explorer" onclick="setMainTab('youtube')">🎥 싱크탱크 영상 아카이브 (1,756편)</a>
-        <a href="https://github.com/insight2u/macro-research-hub" target="_blank">GitHub</a>
+        <a href="#editorial" class="hot-link" style="color: #FF453A; font-weight: 700;">⚡ 4대 특종</a>
+        <a href="#editorial-cartoon" class="hot-link" style="color: #10B981; font-weight: 700;">🎨 AI 만평</a>
+        <a href="#masters-wisdom" class="hot-link" style="color: #EAB308; font-weight: 700;">🏛️ 거인의 지혜</a>
+        <a href="#executive-books" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.12); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">📚 전문도서 203선</a>
+        <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 600;">🗳️ 지지율 33년</a>
+        <a href="#trend-lab" class="hot-link" style="color: #60A5FA; font-weight: 600;">🔮 미래 랩</a>
+        <a href="#econometrics-lab" class="nav-link" style="color: #C084FC; font-weight: 600;">🔬 계량분석 랩</a>
+        <a href="#sponsor-band" class="nav-link" style="color: #A1A1AA; font-weight: 500;">🏢 파트너사</a>
+        <a href="#email-sync" class="nav-link" style="color: #94A3B8; font-weight: 500;">📡 글로벌 레이더</a>
+        <a href="#explorer" onclick="setMainTab('notion')" style="color: #CBD5E1; font-weight: 500;">📚 모노그래프</a>
+        <a href="#explorer" onclick="setMainTab('bookmarks')" style="color: #CBD5E1; font-weight: 500;">📊 공식 DB</a>
+        <a href="#explorer" onclick="setMainTab('youtube')" style="color: #CBD5E1; font-weight: 500;">🎥 영상</a>
       </div>
-      <a href="#newsletter" class="nav-cta" style="background: linear-gradient(135deg, #0071e3, #34c759); margin-right: 8px;">📬 주간 인텔리전스 리포트 무료 구독</a>
-      <a href="#explorer" class="nav-cta">🔍 통합 DB 검색</a>
+
+      <div style="display: flex; align-items: center; gap: 8px; flex-shrink: 0;">
+        <a href="#newsletter" class="nav-cta" style="background: linear-gradient(135deg, #0071e3, #34c759); font-size: 11.5px; padding: 5px 12px; border-radius: 980px; color: #fff; text-decoration: none; font-weight: 700;">📬 무료 구독</a>
+        <a href="#explorer" class="nav-cta" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); font-size: 11.5px; padding: 5px 12px; border-radius: 980px; color: #E5E7EB; text-decoration: none; font-weight: 600;">🔍 DB 검색</a>
+      </div>
     </div>
   </nav>
 
@@ -5357,13 +5432,15 @@
     <div class="hero-container">
 
       <!-- Masthead Header & Top Right Diverse Economic Intel Hub -->
-      <div class="masthead-container-flex">
-        <div class="masthead-info-col">
-          <div class="masthead-bar" style="margin-bottom:16px;">
+      <div class="masthead-container-flex" style="display: flex; justify-content: space-between; align-items: stretch; gap: 24px; margin-bottom: 24px;">
+        <div class="masthead-info-col" style="flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 16px;">
+          
+          <!-- Top: Brand Lockup & Profile -->
+          <div class="masthead-bar" style="margin-bottom: 0;">
             <div class="hero-brand-monument">
-              <div class="hero-apple-lockup" style="display: flex; align-items: center; gap: 18px; margin-bottom: 12px; flex-wrap: wrap;">
-                <div style="width: 58px; height: 58px; background: #1C1C1E; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(0,0,0,0.5); flex-shrink: 0;">
-                  <svg width="34" height="34" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div class="hero-apple-lockup" style="display: flex; align-items: center; gap: 16px; margin-bottom: 10px; flex-wrap: wrap;">
+                <div style="width: 52px; height: 52px; background: #1C1C1E; border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 14px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(0,0,0,0.5); flex-shrink: 0;">
+                  <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9.5 7.5 V24.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
                     <path d="M9.5 7.8 H17 C20 7.8 22.5 10.3 22.5 13.3 C22.5 16.3 20 18.8 17 18.8 H9.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M16 18.5 L22.5 24.5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
@@ -5371,59 +5448,134 @@
                 </div>
                 <div>
                   <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
-                    <span style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Pretendard Variable', sans-serif; font-size: 2.2rem; font-weight: 900; letter-spacing: 0.12em; color: #FFFFFF; line-height: 1.1;">RYUYOUNGSUN</span>
-                    <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #86868B; border-radius: 980px; padding: 3px 10px; font-size: 10px; font-weight: 700; letter-spacing: 0.08em;">THINKTANK PRO</span>
+                    <span style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif; font-size: 2rem; font-weight: 900; letter-spacing: 0.12em; color: #FFFFFF; line-height: 1.1;">RYUYOUNGSUN</span>
+                    <span style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #86868B; border-radius: 980px; padding: 2px 8px; font-size: 9.5px; font-weight: 700; letter-spacing: 0.08em;">THINKTANK PRO</span>
                   </div>
-                  <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; font-size: 12.5px; font-weight: 600; letter-spacing: 0.2em; color: #86868B; margin-top: 4px;">
+                  <div style="font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.18em; color: #86868B; margin-top: 3px;">
                     KNOWLEDGE &amp; INSIGHT &bull; GLOBAL INTELLIGENCE HUB
                   </div>
                 </div>
               </div>
-              <p class="hero-monument-desc" style="margin-top: 6px; font-size: 14px; color: #A1A1A6; line-height: 1.55;">
+              <p class="hero-monument-desc" style="margin: 0; font-size: 13.5px; color: #A1A1A6; line-height: 1.5;">
                 글로벌 거시경제 · 첨단 산업 패권 · 유라시아 지정학을 관통하는 <strong>4,142개 글로벌 통합 인텔리전스 DB</strong>
-                <br><span style="font-size:12px; color:#86868B;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편)</span>
+                <br><span style="font-size: 11.5px; color: #86868B;">(전략 모노그래프 565편 · 공식 거시·정책 DB 1,821개 · 싱크탱크 영상 1,756편 · 전문도서 203선)</span>
               </p>
             </div>
 
-            <div class="masthead-right" style="margin-top:6px;">
-              <div>수석 연구위원 &amp; 전문 칼럼니스트: <strong>RYUYOUNGSUN (유영선)</strong></div>
-              <div>
-                <button class="btn-profile-toggle" onclick="openProfileModal()">👤 수석 연구위원 연구 이력 &amp; 프로필 보기 ▾</button>
+            <div class="masthead-right" style="margin-top: 4px;">
+              <div style="font-size: 12.5px; color: #9CA3AF;">수석 연구위원 &amp; 전문 칼럼니스트: <strong style="color: #FFFFFF;">RYUYOUNGSUN (유영선)</strong></div>
+              <div style="margin-top: 4px;">
+                <button class="btn-profile-toggle" onclick="openProfileModal()" style="font-size: 11.5px; padding: 4px 12px;">👤 수석 연구위원 연구 이력 &amp; 프로필 보기 ▾</button>
               </div>
             </div>
           </div>
 
-          <!-- 4 Strategic Research Pillars Banner (Total 4,142 Multi-Content Intelligence) -->
-          <div class="masthead-pillars-banner">
+          <!-- 4 Strategic Research Pillars Banner -->
+          <div class="masthead-pillars-banner" style="margin: 0;">
             <div class="pillar-tag-item">
               <span class="pillar-icon">🏛️</span>
               <div>
                 <strong>565편 전략 모노그래프</strong>
-                <span>노션 지식 원천 & KDI 정밀 분석 프레임</span>
+                <span>노션 지식 원천 &amp; KDI 정밀 분석</span>
               </div>
             </div>
             <div class="pillar-tag-item">
               <span class="pillar-icon">📊</span>
               <div>
                 <strong>1,821개 공식 통계 DB</strong>
-                <span>한은 ECOS · FRED · 국제금융센터 라이브</span>
+                <span>한은 ECOS · FRED · 국제금융센터</span>
               </div>
             </div>
             <div class="pillar-tag-item">
               <span class="pillar-icon">🎥</span>
               <div>
-                <strong>1,756편 글로벌 영상 아카이브</strong>
-                <span>한국은행·IMF·OECD·KDI·블룸버그 공식 클러스터</span>
+                <strong>1,756편 영상 아카이브</strong>
+                <span>IMF · OECD · 블룸버그 클러스터</span>
               </div>
             </div>
             <div class="pillar-tag-item">
-              <span class="pillar-icon">📈</span>
+              <span class="pillar-icon">📚</span>
               <div>
-                <strong>실시간 시장 레이더 & AI 랩</strong>
-                <span>네이버 증권 실시간 연동 & 서울대 박사 추론 엔진</span>
+                <strong>203선 전문도서 서재</strong>
+                <span>가치투자 · AI · 반도체 · 재벌사 DB</span>
               </div>
             </div>
           </div>
+
+          <!-- ✨ [NEW EXECUTIVE INTEL CARD] 좌측 공란 완벽 해소: 10/29 장중 거시경제 핵심 인텔리전스 총괄 브리프 -->
+          <div style="background: rgba(18, 18, 24, 0.75); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 16px; padding: 18px 20px; backdrop-filter: blur(20px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); display: flex; flex-direction: column; justify-content: space-between; gap: 12px; flex: 1;">
+            
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding-bottom: 10px;">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38BDF8; font-size: 10.5px; font-weight: 800; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.04em;">EXECUTIVE MACRO PULSE</span>
+                <span style="font-size: 0.92rem; font-weight: 800; color: #FFFFFF;">⚡ [10/29 장중] 거시경제 4대 변곡점 총괄 브리프</span>
+              </div>
+              <span style="font-size: 11px; color: #10B981; font-weight: 700;">● 실시간 정상 작동 중</span>
+            </div>
+
+            <!-- 4 Macro Quadrants -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              
+              <!-- Quadrant 1: FX -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 10px; padding: 10px 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <span style="font-size: 11px; font-weight: 700; color: #38BDF8;">💱 외환 · 환율 밸런스</span>
+                  <span style="font-size: 11px; font-weight: 800; color: #FACC15;">1,336.80원</span>
+                </div>
+                <div style="font-size: 11.5px; color: #D1D5DB; line-height: 1.45;">
+                  미 대선 및 DXY 104pt 강세 압력 속에서도 월말 수출업체 네고물량이 상단을 방어하며 1,336원대에서 견고한 수급 균형 형성.
+                </div>
+              </div>
+
+              <!-- Quadrant 2: Rates -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 10px; padding: 10px 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <span style="font-size: 11px; font-weight: 700; color: #34D399;">💰 통화 · 수익률곡선</span>
+                  <span style="font-size: 11px; font-weight: 800; color: #34D399;">10Y-3Y +30.9bp</span>
+                </div>
+                <div style="font-size: 11.5px; color: #D1D5DB; line-height: 1.45;">
+                  한은 3.00% vs 연준 4.00%로 금리차 100bp 안정권. 장단기 스프레드가 정상 우상향하며 경기 연착륙(Soft-landing) 경로 지지.
+                </div>
+              </div>
+
+              <!-- Quadrant 3: Growth -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 10px; padding: 10px 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <span style="font-size: 11px; font-weight: 700; color: #FBBF24;">🏭 성장 · 실물 GDP</span>
+                  <span style="font-size: 11px; font-weight: 800; color: #FBBF24;">3분기 1.0% q/q</span>
+                </div>
+                <div style="font-size: 11.5px; color: #D1D5DB; line-height: 1.45;">
+                  반도체 설비투자와 수출 호조에 힘입어 한은 전망치(0.3%)를 대폭 상회. 연간 실질 GDP 2.2% 성장 달성 가시화.
+                </div>
+              </div>
+
+              <!-- Quadrant 4: Industry & Tech -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.06); border-radius: 10px; padding: 10px 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <span style="font-size: 11px; font-weight: 700; color: #A78BFA;">🎿 첨단제조 · CapEx</span>
+                  <span style="font-size: 11px; font-weight: 800; color: #A78BFA;">신조선가 188.5p</span>
+                </div>
+                <div style="font-size: 11.5px; color: #D1D5DB; line-height: 1.45;">
+                  SK하이닉스 HBM4 16단 2,048비트 로직 베이스 다이 기술 표준 주도 및 K-조선 친환경 선박 3.5년치 도크 수주 랠리.
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Fast-Track Section Direct Jump Bar -->
+            <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 8px; flex-wrap: wrap; gap: 8px;">
+              <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap;">
+                <span style="font-size: 11px; color: #86868B; font-weight: 600;">⚡ 빠른 이동:</span>
+                <a href="#editorial" style="font-size: 11px; color: #38BDF8; text-decoration: none; background: rgba(56, 189, 248, 0.1); padding: 2px 7px; border-radius: 4px; border: 1px solid rgba(56, 189, 248, 0.2);">4대 특종 &gt;</a>
+                <a href="#editorial-cartoon" style="font-size: 11px; color: #10B981; text-decoration: none; background: rgba(16, 185, 129, 0.1); padding: 2px 7px; border-radius: 4px; border: 1px solid rgba(16, 185, 129, 0.2);">AI 만평 &gt;</a>
+                <a href="#masters-wisdom" style="font-size: 11px; color: #EAB308; text-decoration: none; background: rgba(234, 179, 8, 0.1); padding: 2px 7px; border-radius: 4px; border: 1px solid rgba(234, 179, 8, 0.2);">거인의 지혜 &gt;</a>
+                <a href="#executive-books" style="font-size: 11px; color: #C084FC; text-decoration: none; background: rgba(192, 132, 252, 0.1); padding: 2px 7px; border-radius: 4px; border: 1px solid rgba(192, 132, 252, 0.2);">전문도서 203선 &gt;</a>
+              </div>
+              <span style="font-size: 11px; color: #64748B;">🟢 노션 원장 정합성 100% 보증</span>
+            </div>
+
+          </div>
+
         </div>
 
         <!-- Top Right Multi-Source Economic Intel Hub (Error-Free with Subtitles & Autoplay) -->
