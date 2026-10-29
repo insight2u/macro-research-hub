@@ -5322,6 +5322,134 @@
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
     }
 
+
+    /* [CHAEBOL INTELLIGENCE LAB] Apple OLED Dark Glassmorphism Styles */
+    .chaebol-lab-section {
+      padding: 75px 0;
+      background: #060709;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+    .chaebol-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .chaebol-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(244, 63, 94, 0.15);
+      border: 1px solid rgba(244, 63, 94, 0.35);
+      color: #FB7185;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 980px;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+    .chaebol-header-title {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #FFFFFF;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      line-height: 1.25;
+    }
+    .chaebol-header-desc {
+      font-size: 14px;
+      color: #9CA3AF;
+      line-height: 1.6;
+      max-width: 900px;
+      margin-bottom: 24px;
+    }
+    .chaebol-subtab-bar {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      scrollbar-width: none;
+    }
+    .chaebol-subtab-bar::-webkit-scrollbar { display: none; }
+    .chaebol-tab-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #9CA3AF;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .chaebol-tab-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      color: #FFFFFF;
+    }
+    .chaebol-tab-btn.active {
+      background: linear-gradient(135deg, rgba(244, 63, 94, 0.25), rgba(225, 29, 72, 0.15));
+      border-color: #F43F5E;
+      color: #FFFFFF;
+      box-shadow: 0 4px 15px rgba(244, 63, 94, 0.25);
+    }
+    
+    /* Auto Rotating Briefing Card */
+    .chaebol-rotating-card {
+      background: rgba(18, 18, 24, 0.85);
+      border: 1px solid rgba(244, 63, 94, 0.25);
+      border-radius: 20px;
+      padding: 24px 28px;
+      backdrop-filter: blur(24px);
+      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6);
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .chaebol-progress-bar-bg {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 980px;
+      overflow: hidden;
+      margin-bottom: 18px;
+    }
+    .chaebol-progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #F43F5E, #FB7185, #38BDF8);
+      border-radius: 980px;
+      transition: width 0.1s linear;
+    }
+    
+    /* Conglomerate Grid Cards */
+    .chaebol-group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .chaebol-group-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 18px;
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .chaebol-group-card:hover {
+      border-color: rgba(244, 63, 94, 0.5);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
 </style>
 </head>
 <body>
@@ -5361,6 +5489,7 @@
         <a href="#executive-books" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.12); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">📚 전문도서 203선</a>
         <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 600;">🗳️ 지지율 33년</a>
         <a href="#trend-lab" class="hot-link" style="color: #60A5FA; font-weight: 600;">🔮 미래 랩</a>
+        <a href="#chaebol-lab" class="hot-link" style="color: #F43F5E; font-weight: 700; background: rgba(244, 63, 94, 0.12); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(244, 63, 94, 0.35);">🏛️ 재벌 지배구조 랩</a>
         <a href="#econometrics-lab" class="nav-link" style="color: #C084FC; font-weight: 600;">🔬 계량분석 랩</a>
         <a href="#sponsor-band" class="nav-link" style="color: #A1A1AA; font-weight: 500;">🏢 파트너사</a>
         <a href="#email-sync" class="nav-link" style="color: #94A3B8; font-weight: 500;">📡 글로벌 레이더</a>
@@ -6950,6 +7079,351 @@
   <!-- ==========================================================================
        SECTION: 글로벌 거시경제 계량분석 & 이코노메트릭스 랩 (Econometrics Lab)
        ========================================================================== -->
+  
+  <!-- ==========================================================================
+       SECTION: 대한민국 재벌·대기업 지배구조 & 경영전략 전문 랩 (Chaebol Intelligence Lab)
+       ========================================================================== -->
+  <section id="chaebol-lab" class="chaebol-lab-section">
+    <div class="chaebol-container">
+      
+      <!-- Top Title Monument -->
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; margin-bottom: 20px;">
+        <div>
+          <div class="chaebol-badge">
+            <span>🏛️ CHAEBOL &amp; CONGLOMERATE INTELLIGENCE LAB</span>
+            <span>&bull;</span>
+            <span>노션 💰Biz 원장 100% 실시간 연동</span>
+          </div>
+          <h2 class="chaebol-header-title">
+            대한민국 재벌·대기업 지배구조 &amp; 경영전략 전문 랩
+          </h2>
+          <p class="chaebol-header-desc">
+            한국 경제 고용의 26%, 수출의 83%를 지탱하는 <strong>88대 공시대기업집단</strong>의 지배구조 지형도, 
+            오너 3·4세 경영권 승계, M&amp;A 및 계열분리 전략, 그리고 부도·해체사의 뼈아픈 교훈을 총망라한 
+            <strong>전문 인텔리전스 분석 허브</strong>입니다. 노션 💰Biz 최상위 원장(162편)과 26권 전문도서(31만 자), 95편 영상 아카이브를 결합하여 심층 리포트를 정기 발간 및 순환 노출합니다.
+          </p>
+        </div>
+        <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 24px;">
+          <a href="#explorer" onclick="setMainTab('notion')" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); color: #E5E7EB; text-decoration: none; font-size: 12.5px; font-weight: 700; padding: 7px 14px; border-radius: 980px;">📚 노션 Biz 원장 보기 &gt;</a>
+        </div>
+      </div>
+
+      <!-- ⚡ DYNAMIC AUTO-ROTATING BRIEFING CARD (기존자료 순환 노출 & 정기 보고서 쇼케이스) -->
+      <div class="chaebol-rotating-card" id="chaebolRotatingCard">
+        
+        <!-- Neon Progress Bar -->
+        <div class="chaebol-progress-bar-bg">
+          <div class="chaebol-progress-bar-fill" id="chaebolProgressFill"></div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 14px;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="background: rgba(244, 63, 94, 0.2); border: 1px solid rgba(244, 63, 94, 0.5); color: #FB7185; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px;" id="chaebolReportBadge">REPORT #1</span>
+            <span style="font-size: 12px; color: #9CA3AF;" id="chaebolReportCategory">Big 4 지배구조 &amp; 첨단제조</span>
+            <span style="color: #6B7280;">|</span>
+            <span style="font-size: 11.5px; color: #10B981; font-weight: 700;">● 8초 자동 순환 브리핑 가동 중</span>
+          </div>
+
+          <!-- Controls -->
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <button onclick="prevChaebolReport()" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #D1D5DB; padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer;">◀ 이전</button>
+            <button onclick="toggleChaebolPause()" id="btnChaebolPause" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #D1D5DB; padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer;">⏸ 일시정지</button>
+            <button onclick="nextChaebolReport()" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #D1D5DB; padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer;">다음 ▶</button>
+            <button onclick="randomChaebolReport()" style="background: rgba(244, 63, 94, 0.15); border: 1px solid rgba(244, 63, 94, 0.3); color: #FB7185; padding: 4px 10px; border-radius: 6px; font-size: 11px; cursor: pointer; font-weight: 700;">🎲 랜덤</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Content Area -->
+        <div id="chaebolReportContentArea" style="transition: opacity 0.25s ease;">
+          <h3 style="font-size: 1.35rem; font-weight: 800; color: #FFFFFF; line-height: 1.35; margin-bottom: 10px;" id="chaebolReportTitle">
+            [삼성 지배구조 &amp; AI 반격] 삼성물산 중심의 지배력 안정화와 HBM4 턴키 패키징 반격 전략
+          </h3>
+          <p style="font-size: 13.5px; color: #D1D5DB; line-height: 1.65; margin-bottom: 16px;" id="chaebolReportSummary">
+            이재용 회장의 사법 리스크 완화 속에서 삼성물산(19.33%)을 정점으로 삼성생명(8.51%)과 삼성전자(20.7%)로 이어지는 핵심 지배구조 고리를 재정비했습니다. 파운드리 2nm GAA 및 HBM4 16단 적층 패키징의 턴키 솔루션을 통해 차세대 AI 칩 시장에서 빅테크 수주 랠리를 정조준합니다.
+          </p>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-bottom: 16px;" id="chaebolReportMetrics">
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 8px 12px; border-radius: 8px;">
+              <div style="font-size: 11px; color: #86868B;">핵심 지배회사</div>
+              <div style="font-size: 13px; font-weight: 800; color: #38BDF8;">삼성물산 &bull; 지분율 19.3%</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 8px 12px; border-radius: 8px;">
+              <div style="font-size: 11px; color: #86868B;">전략 캐시카우</div>
+              <div style="font-size: 13px; font-weight: 800; color: #34D399;">메모리 반도체 &bull; 바이오로직스</div>
+            </div>
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 8px 12px; border-radius: 8px;">
+              <div style="font-size: 11px; color: #86868B;">차세대 성장 동력</div>
+              <div style="font-size: 13px; font-weight: 800; color: #FBBF24;">HBM4 턴키 &bull; 휴머노이드 로봇</div>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 12px; flex-wrap: wrap; gap: 8px;">
+            <div style="display: flex; gap: 6px;" id="chaebolReportTags">
+              <span style="font-size: 11px; color: #9CA3AF; background: rgba(255,255,255,0.04); padding: 2px 7px; border-radius: 4px;">#삼성물산</span>
+              <span style="font-size: 11px; color: #9CA3AF; background: rgba(255,255,255,0.04); padding: 2px 7px; border-radius: 4px;">#HBM4</span>
+              <span style="font-size: 11px; color: #9CA3AF; background: rgba(255,255,255,0.04); padding: 2px 7px; border-radius: 4px;">#이재용</span>
+            </div>
+            <button onclick="openChaebolReportModal()" style="background: linear-gradient(135deg, #F43F5E, #E11D48); border: none; color: #FFFFFF; font-size: 12px; font-weight: 800; padding: 6px 14px; border-radius: 6px; cursor: pointer; box-shadow: 0 4px 12px rgba(244,63,94,0.3);">📖 심층 분석 보고서 전문 열기 &gt;</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation Tabs (Big4, Big5~30, Big31~, Failed Company, Books, Videos) -->
+      <div class="chaebol-subtab-bar">
+        <button class="chaebol-tab-btn active" onclick="switchChaebolTab('big4', this)">✌ Big 4 지배구조 (삼성·SK·현대차·LG)</button>
+        <button class="chaebol-tab-btn" onclick="switchChaebolTab('big5', this)">🧙 Big 5~30 (한화·포스코·두산·쿠팡 등)</button>
+        <button class="chaebol-tab-btn" onclick="switchChaebolTab('big31', this)">⚠️ Big 31~ &amp; 경영권 분쟁 격전지</button>
+        <button class="chaebol-tab-btn" onclick="switchChaebolTab('failed', this)">♿ 부도·해체 재벌사 교훈 (대우·한보·거평)</button>
+        <button class="chaebol-tab-btn" onclick="switchChaebolTab('books', this)">📚 재벌 필독 전문도서 (26선)</button>
+        <button class="chaebol-tab-btn" onclick="switchChaebolTab('videos', this)">🎥 재벌 다큐 &amp; 영상 아카이브 (95선)</button>
+      </div>
+
+      <!-- Tab Content 1: Big 4 -->
+      <div id="chaebol-pane-big4" class="chaebol-pane" style="display: block;">
+        <div class="chaebol-group-grid">
+          
+          <!-- 삼성 -->
+          <div class="chaebol-group-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-size: 11px; font-weight: 800; color: #38BDF8; background: rgba(56, 189, 248, 0.12); padding: 2px 7px; border-radius: 4px;">재계 서열 1위</span>
+                <span style="font-size: 11.5px; color: #9CA3AF;">총수: <strong>이재용 회장</strong></span>
+              </div>
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">삼성그룹 (SAMSUNG)</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">
+                이재용 &rarr; 삼성물산(19.33%) &rarr; 삼성생명(8.51%) &rarr; 삼성전자(20.7%)로 이어지는 핵심 지배구조 고리. 반도체 턴키 솔루션과 바이오 투톱 체제.
+              </p>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 11px; color: #86868B;">계열사 63개 &bull; 자산 480조</span>
+              <a href="#explorer" onclick="setMainTab('notion')" style="font-size: 11.5px; color: #38BDF8; text-decoration: none; font-weight: 700;">원장 보기 &gt;</a>
+            </div>
+          </div>
+
+          <!-- SK -->
+          <div class="chaebol-group-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-size: 11px; font-weight: 800; color: #FB7185; background: rgba(251, 113, 133, 0.12); padding: 2px 7px; border-radius: 4px;">재계 서열 2위</span>
+                <span style="font-size: 11.5px; color: #9CA3AF;">총수: <strong>최태원 회장</strong></span>
+              </div>
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">SK그룹 (SK GROUP)</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">
+                최태원 &rarr; SK㈜(17.73%) &rarr; SK이노베이션, SK텔레콤, SK스퀘어 &rarr; SK하이닉스로 이어지는 순수 지주사 체제. AI 메모리와 에너지 합병 리밸런싱.
+              </p>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 11px; color: #86868B;">계열사 219개 &bull; 자산 334조</span>
+              <a href="#explorer" onclick="setMainTab('notion')" style="font-size: 11.5px; color: #FB7185; text-decoration: none; font-weight: 700;">원장 보기 &gt;</a>
+            </div>
+          </div>
+
+          <!-- 현대차 -->
+          <div class="chaebol-group-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-size: 11px; font-weight: 800; color: #34D399; background: rgba(52, 211, 153, 0.12); padding: 2px 7px; border-radius: 4px;">재계 서열 3위</span>
+                <span style="font-size: 11.5px; color: #9CA3AF;">총수: <strong>정의선 회장</strong></span>
+              </div>
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">현대자동차그룹 (HYUNDAI)</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">
+                현대모비스(21.43%) &rarr; 현대차(33.88%) &rarr; 기아(17.42%) &rarr; 현대모비스 4대 순환출자 구조. 글로벌 Top 3 전기차 및 보스턴다이내믹스 휴머노이드 로봇.
+              </p>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 11px; color: #86868B;">계열사 70개 &bull; 자산 283조</span>
+              <a href="#explorer" onclick="setMainTab('notion')" style="font-size: 11.5px; color: #34D399; text-decoration: none; font-weight: 700;">원장 보기 &gt;</a>
+            </div>
+          </div>
+
+          <!-- LG & GS -->
+          <div class="chaebol-group-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                <span style="font-size: 11px; font-weight: 800; color: #C084FC; background: rgba(192, 132, 252, 0.12); padding: 2px 7px; border-radius: 4px;">재계 서열 4위 &amp; 8위</span>
+                <span style="font-size: 11.5px; color: #9CA3AF;">총수: <strong>구광모 / 허태수</strong></span>
+              </div>
+              <h4 style="font-size: 1.15rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">LG그룹 &amp; GS그룹 (범LG가)</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">
+                ㈜LG(구광모 15.95%) 중심 순수 지주사 체제. 배터리(LG에너지솔루션), 화학, 전장 중심. 2004년 구씨-허씨 아름다운 계열분리 성공 모델.
+              </p>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 10px; display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 11px; color: #86868B;">계열사 60개+ &bull; 자산 171조</span>
+              <a href="#explorer" onclick="setMainTab('notion')" style="font-size: 11.5px; color: #C084FC; text-decoration: none; font-weight: 700;">원장 보기 &gt;</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Big 5~30 -->
+      <div id="chaebol-pane-big5" class="chaebol-pane" style="display: none;">
+        <div class="chaebol-group-grid">
+          
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #F59E0B; margin-bottom: 4px;">서열 5위 &bull; 한화그룹 (김승연)</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">한화에어로스페이스 &amp; 방산 3형제 승계</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">방산(김동관), 금융(김동원), 유통·로봇(김동선) 삼각 후계 구도 확립 및 K-방산 수출 잭팟.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #60A5FA; margin-bottom: 4px;">서열 6위 &bull; 포스코그룹 (장인화)</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">포스코홀딩스 &amp; 2차전지 소재 밸류체인</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">소유분산 기업 지배구조와 탄소중립 수소환원제철, 리튬·양극재 글로벌 풀체인 구축.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #EC4899; margin-bottom: 4px;">서열 7위 &bull; 롯데그룹 (신동빈)</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">롯데지주 중심 석유화학 &amp; 유통 구조조정</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">롯데케미칼 시황 둔화 방어 및 호텔롯데 상장 잔여 과제, 신유열 전무 3세 승계 시험대.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #10B981; margin-bottom: 4px;">서열 9위 &bull; HD현대 (정몽준/정기선)</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">HD현대 조선 3사 3.5년치 도크 수주</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">친환경 LNG/암모니아선 신조선가(188.5p) 수혜 및 스마트 조선소 디지털 트랜스포메이션.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #A78BFA; margin-bottom: 4px;">신흥 테크 &bull; 쿠팡 &amp; 카카오 &amp; 네이버</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">빅테크 플랫폼 대기업집단의 빛과 그림자</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">전통 재벌을 위협하는 e커머스·모바일 지배력과 골목상권 침해 및 내부 거버넌스 과제.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <div style="font-size: 11px; font-weight: 800; color: #FBBF24; margin-bottom: 4px;">중견 도약 &bull; 두산 &amp; 한진 &amp; 하림</div>
+              <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">체코 원전 잭팟(두산)과 항공 통합(대한항공)</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">원전·로보틱스로 체질 개선한 두산, 아시아나 통합 완성 앞둔 한진 조원태 회장 리더십.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Big 31~ & Conflicts -->
+      <div id="chaebol-pane-big31" class="chaebol-pane" style="display: none;">
+        <div class="chaebol-group-grid">
+          
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #EF4444; background: rgba(239,68,68,0.12); padding: 2px 6px; border-radius: 4px;">경영권 분쟁</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">영풍 &bull; 고려아연 75년 동업의 파국</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">장형진 영풍 고문-MBK 파트너스 연합 vs 최윤범 고려아연 회장의 백기사 총력전. 한국 자본시장 역사상 최대 규모의 적대적 M&amp;A 및 공개매수 대전.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #38BDF8; background: rgba(56,189,248,0.12); padding: 2px 6px; border-radius: 4px;">형제 분리</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">효성그룹 조현준 &bull; HS효성 조현상 독자 경영</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">조석래 명예회장 별세 후 ㈜효성과 HS효성으로 인적분할 완료. 분쟁 없는 선진 승계 분할 모델 확립.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #F59E0B; background: rgba(245,158,11,0.12); padding: 2px 6px; border-radius: 4px;">M&amp;A 후폭풍</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">하림 HMM 인수 무산과 승자의 저주 경계</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">팬오션을 품은 하림의 HMM 인수 시도와 자금 조달 리스크. 무리한 레버리지에 대한 자본시장의 엄격한 잣대.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tab Content 4: Failed Company -->
+      <div id="chaebol-pane-failed" class="chaebol-pane" style="display: none;">
+        <div class="chaebol-group-grid">
+          
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #9CA3AF; background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px;">1999 해체</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">대우그룹 (김우중) : 세계경영의 신화와 침몰</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">자산 41조 재계 2위 대우의 분식회계 41조 원과 몰락. 외환위기 차입경영의 종말을 고한 대한민국 자본사 최대 비극.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #9CA3AF; background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px;">1997 부도</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">한보철강 (정태수) : 정경유착 대출 특혜의 말로</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">5조 7천억 원에 달하는 부실 대출과 한보 사태. 1997년 IMF 외환위기의 뇌관을 터뜨린 정경유착의 대표적 흑역사.</p>
+            </div>
+          </div>
+
+          <div class="chaebol-group-card">
+            <div>
+              <span style="font-size: 10.5px; font-weight: 800; color: #9CA3AF; background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 4px;">1998 부도</span>
+              <h4 style="font-size: 1.1rem; font-weight: 800; color: #FFFFFF; margin: 6px 0;">거평그룹 (나승렬) : 고래 삼킨 새우의 파멸</h4>
+              <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5;">대한중석, 포스코 계열사 등 무차별 M&amp;A로 재계 28위까지 치솟았으나 단 5일 만에 전 계열사가 부도 처리된 사상 최악의 인수합병 거품.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tab Content 5: Books (26선) -->
+      <div id="chaebol-pane-books" class="chaebol-pane" style="display: none;">
+        <div style="margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 13px; color: #9CA3AF;">노션 💰Biz 폴더 엄선 <strong>26권의 재벌·지배구조 필독 바이블</strong></span>
+          <span style="font-size: 11.5px; color: #38BDF8;">총 31만 자 핵심 원장 수록</span>
+        </div>
+        <div class="chaebol-group-grid" id="chaebolBooksGrid">
+          <!-- Populated via script -->
+        </div>
+      </div>
+
+      <!-- Tab Content 6: Videos (95선) -->
+      <div id="chaebol-pane-videos" class="chaebol-pane" style="display: none;">
+        
+        <!-- Video Player Wrap -->
+        <div style="background: rgba(0,0,0,0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 18px; margin-bottom: 20px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+            <div style="font-size: 13.5px; font-weight: 800; color: #FFFFFF;" id="chaebolVideoPlayerTitle">
+              📺 [박상인의 경제브릿지] 재벌의 탄생 (한국 재벌구조의 역사적 기원)
+            </div>
+            <span style="font-size: 11px; color: #38BDF8; background: rgba(56, 189, 248, 0.12); padding: 2px 7px; border-radius: 4px;">공식 권위 싱크탱크 아카이브</span>
+          </div>
+          <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 10px;">
+            <iframe id="chaebolMainIframe" src="https://www.youtube.com/embed/mwTNFLZcY0E" style="position: absolute; top:0; left:0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="chaebol-group-grid" id="chaebolVideosGrid">
+          <!-- Populated via script -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAEBOL REPORT FULL MODAL -->
+  <div id="chaebolReportModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); backdrop-filter: blur(20px); z-index: 9999; justify-content: center; align-items: center; padding: 20px;">
+    <div style="background: #121218; border: 1px solid rgba(244, 63, 94, 0.35); border-radius: 20px; max-width: 850px; width: 100%; max-height: 85vh; overflow-y: auto; padding: 32px; box-shadow: 0 25px 60px rgba(0,0,0,0.8); position: relative;">
+      <button onclick="closeChaebolReportModal()" style="position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.08); border: none; color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 16px;">✕</button>
+      <div style="background: rgba(244, 63, 94, 0.15); color: #FB7185; font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 10px;" id="modalChaebolBadge">EXECUTIVE BRIEFING</div>
+      <h2 style="font-size: 1.6rem; font-weight: 900; color: #FFFFFF; line-height: 1.35; margin-bottom: 14px;" id="modalChaebolTitle">리포트 제목</h2>
+      <div style="font-size: 12.5px; color: #9CA3AF; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 12px; margin-bottom: 18px;" id="modalChaebolMeta">발행: RYUYOUNGSUN AI 인텔리전스 랩 &bull; 노션 💰Biz 원장 연계</div>
+      <div style="font-size: 14px; color: #E5E7EB; line-height: 1.75; white-space: pre-line;" id="modalChaebolBody">
+        리포트 상세 본문 내용...
+      </div>
+    </div>
+  </div>
+
+
   <section id="econometrics-lab" class="econometrics-lab-section">
     <div class="econ-container">
       
@@ -11322,5 +11796,429 @@ try {
 }
 
 </script>
+
+<script>
+/* ==========================================================================
+   CHAEBOL & CONGLOMERATE INTELLIGENCE LAB ENGINE (Dynamic Auto-Rotation)
+   ========================================================================== */
+const chaebolReportsData = [
+  {
+    badge: "REPORT #1",
+    category: "Big 4 지배구조 & 첨단제조",
+    title: "[삼성 지배구조 & AI 반격] 삼성물산 중심의 지배력 안정화와 HBM4 턴키 패키징 반격 전략",
+    summary: "이재용 회장의 사법 리스크 완화 속에서 삼성물산(19.33%)을 정점으로 삼성생명(8.51%)과 삼성전자(20.7%)로 이어지는 핵심 지배구조 고리를 재정비했습니다. 파운드리 2nm GAA 및 HBM4 16단 적층 패키징의 턴키 솔루션을 통해 차세대 AI 칩 시장에서 빅테크 수주 랠리를 정조준합니다.",
+    metrics: [
+      { label: "핵심 지배회사", val: "삼성물산 • 지분율 19.3%" },
+      { label: "전략 캐시카우", val: "메모리 반도체 • 바이오로직스" },
+      { label: "차세대 성장 동력", val: "HBM4 턴키 • 휴머노이드 로봇" }
+    ],
+    tags: ["#삼성물산", "#HBM4", "#이재용", "#턴키파운드리"],
+    body: `■ 1. 지배구조 현황 및 오너십 안정화
+삼성그룹의 지배구조는 이재용 회장을 정점으로 '이재용 등 오너일가(31.63%) → 삼성물산(19.33%) → 삼성생명(8.51%) → 삼성전자(20.70%)'로 이어지는 삼각 지배 축을 형성하고 있습니다. 과거 순환출자 고리를 모두 해소한 상태에서, 삼성물산의 지주회사 격 위상을 확고히 함으로써 외부 공격에 대한 방어벽을 구축했습니다.
+
+■ 2. 반도체 부문 격차 축소와 HBM4 턴키 전략
+엔비디아 HBM3E 공급 지연으로 겪었던 성장통을 극복하기 위해, 삼성전자는 전 세계에서 유일하게 '메모리 설계 + 파운드리 2nm GAA + 어드밴스드 2.5D/3D 패키징'을 일괄 제공하는 'One-Stop 턴키 솔루션'으로 패러다임을 전환했습니다. HBM4부터 도입되는 2,048비트 베이스 다이를 자체 파운드리에서 맞춤형(Custom)으로 제조하여 빅테크 고객사의 TCO(총소유비용)를 20% 이상 절감하는 차별화 승부수를 띄우고 있습니다.
+
+■ 3. 미래 신사업: 로보틱스와 바이오 시너지
+레인보우로보틱스 지분 인수를 통한 제조공장 휴머노이드 투입과 함께, 삼성바이오로직스 제5공장 완공을 통한 CDMO 글로벌 초격차를 결합하여 반도체 다운사이클을 방어할 든든한 포트폴리오 밸런스를 확보했습니다.`
+  },
+  {
+    badge: "REPORT #2",
+    category: "Big 4 거버넌스 & 리밸런싱",
+    title: "[SK 리밸런싱 & 거버넌스] 최태원 회장의 중복 사업 정리와 SK하이닉스 AI 메모리 독주 체제",
+    summary: "SK그룹은 219개에 달하던 계열사를 대대적으로 통폐합하는 리밸런싱(Re-balancing)을 단행했습니다. SK이노베이션과 SK E&S 합병으로 에너지 자생력을 확보하는 한편, SK하이닉스의 분기 7조 원 영업이익을 지렛대 삼아 그룹 전체 재무 구조를 클린 컴퍼니로 탈바꿈하고 있습니다.",
+    metrics: [
+      { label: "지배구조 정점", val: "SK㈜ (최태원 17.7%)" },
+      { label: "실적 견인차", val: "SK하이닉스 (HBM 시장점유율 53%)" },
+      { label: "재무 개선 목표", val: "부채비율 130% 이하 감축" }
+    ],
+    tags: ["#SK리밸런싱", "#SK하이닉스", "#최태원", "#HBM독주"],
+    body: `■ 1. 219개 계열사 군살 빼기: 과감한 리밸런싱
+최태원 회장은 중복 투자와 비효율을 걷어내기 위해 SK그룹 계열사를 신속히 압축·통폐합하는 고강도 리밸런싱을 지휘했습니다. SK이노베이션과 SK E&S를 전격 합병하여 연간 EBITDA 5조 원 이상의 초대형 민간 에너지 기업을 출범시킴으로써 전기차 캐즘(Chasm)으로 고전하던 SK온의 재무 방어선을 완벽히 보강했습니다.
+
+■ 2. SK하이닉스의 독보적 HBM 독주와 현금 창출
+SK하이닉스는 1b D램 기반 HBM3E 12단 및 HBM4 개발 주도권을 쥐며 엔비디아 공급망에서 확고한 1위 지위를 유지하고 있습니다. 분기 영업이익 7조 원, 연간 23조 원에 육박하는 사상 최대 실적을 올리며 SK그룹의 든든한 캐시카우 역할을 완수하고 있으며, 차세대 CXL 및 PIM 메모리 분야에서도 기술 표준을 선도하고 있습니다.
+
+■ 3. 지배구조와 오너십 리스크 관리
+지주사 SK㈜를 통한 포트폴리오 매각과 비핵심 자산 유동화로 순부채를 15조 원 이상 감축하며, 글로벌 사모펀드와의 전략적 파트너십을 통해 주주환원(자사주 소각 등)을 강화하는 선진 거버넌스를 정착시키고 있습니다.`
+  },
+  {
+    badge: "REPORT #3",
+    category: "Big 4 순환출자 & 미래 승계",
+    title: "[현대차그룹 순환출자 & 승계] 정의선 회장의 모빌리티 대전환과 4대 순환출자 고리 개편 시나리오",
+    summary: "현대차그룹은 글로벌 완성차 3위 안착과 영업이익 27조 원 달성이라는 눈부신 성과를 거두었습니다. 정의선 회장의 경영권 안착을 위해 현대모비스를 중심으로 한 4대 순환출자 해소와 보스턴다이내믹스 로보틱스 지분 가치를 활용한 선진 지배구조 개편이 임박했습니다.",
+    metrics: [
+      { label: "순환출자 핵심", val: "현대모비스(21.4%) → 현대차" },
+      { label: "글로벌 지위", val: "글로벌 3위 완성차 (영업익 27조)" },
+      { label: "미래 엔진", val: "SDV • 아틀라스 휴머노이드" }
+    ],
+    tags: ["#현대차그룹", "#정의선", "#순환출자해소", "#보스턴다이내믹스"],
+    body: `■ 1. 4대 그룹 유일의 순환출자 고리
+현대차그룹은 10대 재벌 중 유일하게 '현대모비스 → 현대차 → 기아 → 현대모비스'로 이어지는 4대 순환출자 고리를 유지하고 있습니다. 정의선 회장의 현대모비스 지분율이 0.32%에 불과한 만큼, 향후 현대글로비스와 보스턴다이내믹스 지분 가치를 극대화하여 현대모비스 지분을 확보하는 합법적 지배구조 개편이 핵심 화두입니다.
+
+■ 2. 모빌리티에서 피지컬 AI(로보틱스)로 진화
+정의선 회장은 현대차를 단순 완성차 제조사에서 '스마트 모빌리티 & 피지컬 AI 솔루션 프로바이더'로 체질을 개선했습니다. 전기차 E-GMP 플랫폼의 성공에 이어, 보스턴다이내믹스의 전기식 신형 아틀라스(Atlas) 로봇을 자동차 조립 라인에 전격 투입하는 등 제조 자동화 혁신을 이끌고 있습니다.
+
+■ 3. 주주가치 제고와 밸류업 프로그램
+현대차는 연간 자사주 매입·소각과 최소 배당성향 25% 이상 유지를 골자로 한 밸류업 공시를 선제적으로 발표하며 코리아 디스카운트를 극복하는 모범적 거버넌스를 구축하고 있습니다.`
+  },
+  {
+    badge: "REPORT #4",
+    category: "선진 거버넌스 20년사",
+    title: "[LG·GS 지주사 체제 20년] 구광모 회장의 배터리·전장·ABC 포트폴리오 재편과 상생 분리 모델",
+    summary: "2003년 대한민국 최초로 순수 지주회사 체제로 전환한 LG그룹은 20년간 잡음 없는 경영 승계와 사업 포트폴리오 혁신을 증명했습니다. 구광모 회장의 실용주의 결단으로 비주력 적자 사업을 정리하고 배터리·전장·ABC(AI/Bio/CleanTech)로 미래 50년 동력을 구축했습니다.",
+    metrics: [
+      { label: "지주사 모델", val: "㈜LG 순수 지주사 (구광모 16.0%)" },
+      { label: "전장 수주잔고", val: "100조 원 돌파 (LG전자 VS)" },
+      { label: "계열분리 모범", val: "구씨-허씨 57년 동업 후 평화 분리" }
+    ],
+    tags: ["#㈜LG", "#구광모", "#지주회사20년", "#ABC전략"],
+    body: `■ 1. 대한민국 지주회사 전환의 개척자
+LG그룹은 2003년 복잡한 상호출자를 단숨에 정리하고 국내 최초의 순수 지주회사인 ㈜LG 체제를 출범시켰습니다. ㈜LG가 자회사를 100% 또는 과반 지배하고, 오너 일가가 지주사 주식만을 보유하는 투명한 수직 거버넌스를 완성하여 국내 대기업집단의 롤모델이 되었습니다.
+
+■ 2. 구광모 회장의 실용주의 '선택과 집중'
+2018년 취임한 구광모 회장은 26분기 연속 적자였던 스마트폰(MC사업본부)과 태양광 사업을 과감히 철수하는 결단을 내렸습니다. 대신 LG에너지솔루션을 분할·상장하여 세계 최고의 배터리 기업으로 키웠으며, LG전자의 전장(VS) 사업 수주잔고를 100조 원 이상으로 끌어올렸습니다.
+
+■ 3. 57년 동업과 상생 분리의 유산
+LG와 GS는 1947년 락희화학 창업 이래 57년간 단 한 번의 경영권 분쟁 없이 구씨(전자·화학)와 허씨(에너지·유통)로 평화로운 계열분리를 완수했습니다. 이는 피 튀기는 형제의 난을 겪었던 타 재벌들과 확연히 대비되는 대한민국 자본사의 독보적 상생 자산입니다.`
+  },
+  {
+    badge: "REPORT #5",
+    category: "유통 대격변 & 플랫폼",
+    title: "[88대 대기업집단 지각변동] 쿠팡·카카오·하림의 약진과 전통 유통(신세계·롯데)의 생존 전략",
+    summary: "공정거래위원회가 지정한 88개 대기업집단에서 쿠팡(자산 17.6조) 등 e커머스·플랫폼의 서열 상승이 두드러지고 있습니다. 오프라인 유통의 맹주였던 신세계와 롯데는 책임경영 체제를 강화하고 AI 물류 및 옴니채널로 대전환을 꾀하고 있습니다.",
+    metrics: [
+      { label: "88대 집단 비중", val: "고용 26% • 수출 83% 집중" },
+      { label: "신흥 플랫폼", val: "쿠팡 서열 27위 급상승" },
+      { label: "전통 유통 피벗", val: "정용진 회장 취임 • 롯데 구조조정" }
+    ],
+    tags: ["#쿠팡", "#신세계", "#롯데", "#유통대격변", "#88대대기업"],
+    body: `■ 1. 재계 판도를 뒤흔든 e커머스 로켓배송
+쿠팡은 2021년 뉴욕증시 상장 이후 막대한 잉여현금흐름을 바탕으로 풀필먼트 물류망을 독점하며 자산 17.6조 원으로 대기업집단 서열 27위에 올랐습니다. 알리·테무 등 C-커머스의 공습 속에서도 와우멤버십 1,400만 명을 결집하며 국내 유통 시장의 절대 강자로 자리매김했습니다.
+
+■ 2. 신세계 정용진 회장의 책임경영과 쇄신
+신세계그룹은 정용진 부회장의 회장 승격을 계기로 계열사 대표의 40%를 교체하는 파격 인사를 단행했습니다. 지마켓과 SSG닷컴의 중복 투자를 정리하고, 이마트 본업 경쟁력(스타필드 마켓, 그로서리 혁신)에 집중하는 백투더베이직(Back to the Basic) 전략으로 반격에 나섰습니다.
+
+■ 3. 롯데 신동빈 회장의 자산 유동화
+롯데그룹은 롯데쇼핑의 부실 점포 정리와 코리아세븐(세븐일레븐) 물류센터 매각 등 유휴 부동산을 과감히 유동화하여 바이오와 2차전지 양극재 등 신성장 동력으로 자본을 재배치하고 있습니다.`
+  },
+  {
+    badge: "REPORT #6",
+    category: "부도 재벌사 교훈",
+    title: "[한국 재벌 흑역사와 거평·한보 부도의 교훈] 과도한 부채 레버리지와 문어발 확장의 종말",
+    summary: "IMF 외환위기는 한국 재벌의 무분별한 차입 경영과 정경유착의 민낯을 폭로했습니다. 자산 400%가 넘는 부채비율로 고래를 삼켰던 거평(나승렬)과 5조 7천억 원 특혜 대출의 한보(정태수)가 남긴 뼈아픈 교훈은 선진 거버넌스의 영원한 나침반입니다.",
+    metrics: [
+      { label: "1997 해체 규모", val: "30대 재벌 중 16개 부도 해체" },
+      { label: "부채비율 교훈", val: "과거 400% → 현재 100% 내외 안정" },
+      { label: "선진 거버넌스", val: "사외이사 독립성 • 지주사 규제 확립" }
+    ],
+    tags: ["#재벌흑역사", "#한보철강", "#거평그룹", "#부채사이클", "#거버넌스"],
+    body: `■ 1. 1997년 30대 재벌 절반의 증발
+외환위기 이전 한국 재벌의 평균 부채비율은 396%에 달했습니다. 자기자본의 4배가 넘는 돈을 은행 대출과 종금사 어음으로 끌어와 철강, 자동차, 유통 등 문어발식 확장을 거듭했습니다. 그러나 외환위기 충격파 한 방에 대우, 한보, 기아, 삼미, 진로, 해태 등 30대 재벌 중 무려 16개 그룹이 공중분해되었습니다.
+
+■ 2. 거평그룹과 한보철강의 치명적 오판
+부동산 디벨로퍼로 출발한 거평 나승렬 회장은 종금사 단기 자금을 끌어와 대한중석, 포스코 계열사를 삼키며 재계 28위로 수직 상승했으나, 대출 만기 연장이 막히자 단 5일 만에 19개 전 계열사가 연쇄 부도 처리되었습니다. 정태수 회장의 한보철강 역시 정관계 로비로 끌어들인 5조 원의 빚더미 위에 세워진 사상누각이었습니다.
+
+■ 3. 살아남은 자들의 생존 원칙
+외환위기를 극복하고 오늘날 글로벌 1위로 도약한 삼성, SK, 현대차, LG의 공통점은 과도한 차입을 줄이고 기술력과 글로벌 시장 개척에 올인했다는 점입니다. 무분별한 외형 확장이 아닌, 현금흐름과 주주가치 중심의 경영이 왜 기업 생존의 절대 법칙인지를 증명합니다.`
+  }
+];
+
+let curChaebolIdx = 0;
+let chaebolTimer = null;
+let chaebolProgressTimer = null;
+let chaebolPaused = false;
+let chaebolProgressPercent = 0;
+
+function renderChaebolReport(idx) {
+  const r = chaebolReportsData[idx];
+  const area = document.getElementById('chaebolReportContentArea');
+  if (!area) return;
+  
+  area.style.opacity = '0';
+  setTimeout(() => {
+    document.getElementById('chaebolReportBadge').innerText = r.badge;
+    document.getElementById('chaebolReportCategory').innerText = r.category;
+    document.getElementById('chaebolReportTitle').innerText = r.title;
+    document.getElementById('chaebolReportSummary').innerText = r.summary;
+    
+    // metrics
+    const mWrap = document.getElementById('chaebolReportMetrics');
+    if (mWrap) {
+      mWrap.innerHTML = r.metrics.map(m => `
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 8px 12px; border-radius: 8px;">
+          <div style="font-size: 11px; color: #86868B;">${m.label}</div>
+          <div style="font-size: 13px; font-weight: 800; color: #38BDF8;">${m.val}</div>
+        </div>
+      `).join('');
+    }
+
+    // tags
+    const tWrap = document.getElementById('chaebolReportTags');
+    if (tWrap) {
+      tWrap.innerHTML = r.tags.map(t => `
+        <span style="font-size: 11px; color: #9CA3AF; background: rgba(255,255,255,0.04); padding: 2px 7px; border-radius: 4px;">${t}</span>
+      `).join('');
+    }
+
+    area.style.opacity = '1';
+  }, 150);
+}
+
+function startChaebolAutoRotation() {
+  stopChaebolAutoRotation();
+  chaebolProgressPercent = 0;
+  
+  chaebolProgressTimer = setInterval(() => {
+    if (!chaebolPaused) {
+      chaebolProgressPercent += 1.25; // 8 seconds (100 / 80)
+      const bar = document.getElementById('chaebolProgressFill');
+      if (bar) bar.style.width = Math.min(chaebolProgressPercent, 100) + '%';
+      
+      if (chaebolProgressPercent >= 100) {
+        chaebolProgressPercent = 0;
+        curChaebolIdx = (curChaebolIdx + 1) % chaebolReportsData.length;
+        renderChaebolReport(curChaebolIdx);
+      }
+    }
+  }, 100);
+}
+
+function stopChaebolAutoRotation() {
+  if (chaebolProgressTimer) clearInterval(chaebolProgressTimer);
+}
+
+function nextChaebolReport() {
+  chaebolProgressPercent = 0;
+  curChaebolIdx = (curChaebolIdx + 1) % chaebolReportsData.length;
+  renderChaebolReport(curChaebolIdx);
+}
+
+function prevChaebolReport() {
+  chaebolProgressPercent = 0;
+  curChaebolIdx = (curChaebolIdx - 1 + chaebolReportsData.length) % chaebolReportsData.length;
+  renderChaebolReport(curChaebolIdx);
+}
+
+function randomChaebolReport() {
+  chaebolProgressPercent = 0;
+  let newIdx = Math.floor(Math.random() * chaebolReportsData.length);
+  if (newIdx === curChaebolIdx) newIdx = (newIdx + 1) % chaebolReportsData.length;
+  curChaebolIdx = newIdx;
+  renderChaebolReport(curChaebolIdx);
+}
+
+function toggleChaebolPause() {
+  chaebolPaused = !chaebolPaused;
+  const btn = document.getElementById('btnChaebolPause');
+  if (btn) btn.innerText = chaebolPaused ? "▶ 재생" : "⏸ 일시정지";
+}
+
+function switchChaebolTab(tabName, btn) {
+  document.querySelectorAll('.chaebol-tab-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  
+  const panes = ['big4', 'big5', 'big31', 'failed', 'books', 'videos'];
+  panes.forEach(p => {
+    const el = document.getElementById('chaebol-pane-' + p);
+    if (el) el.style.display = (p === tabName) ? 'block' : 'none';
+  });
+
+  if (tabName === 'books') renderChaebolBooks();
+  if (tabName === 'videos') renderChaebolVideos();
+}
+
+/* Books Data from Notion Biz */
+const chaebolBooksData = [
+  {
+    title: "대한민국 2025 재계 지도",
+    author: "산업연구원 2024",
+    desc: "한국 고용 26%, 수출 83%를 지탱하는 88개 대기업집단의 지배구조와 수직계열화 심층 분석.",
+    url: "https://www.yes24.com/product/goods/144551333"
+  },
+  {
+    title: "한국 재벌 흑역사 3: 신세계, 두산, 대한항공",
+    author: "이종석 저",
+    desc: "신세계 정용진 멸공 논란과 두산, 한진 조현아·조원태 경영권 분쟁과 사법 리스크 대해부.",
+    url: "https://www.yes24.com/Product/Goods/143056671"
+  },
+  {
+    title: "2024 재계 인맥 대탐구 (삼성·SK·현대·LG)",
+    author: "서울신문 특별취재팀",
+    desc: "최태원 회장과 젠슨 황, 빌 게이츠 인맥부터 4대 그룹 오너가의 글로벌 네트워크 전수 추적.",
+    url: "http://www.seoul.co.kr/newsList/plan/corporate-industry-narrative-2024/"
+  },
+  {
+    title: "재벌 3세: 한국 경제의 또 다른 거대한 문",
+    author: "매경 출판",
+    desc: "창업 1세대 이병철·정주영·구인회의 도전정신부터 3·4세 혁신과 승계 과제.",
+    url: "https://www.yes24.com/Product/Goods/30687867"
+  },
+  {
+    title: "재계 3·4세 B!z watch (113명 후계 구도)",
+    author: "비즈워치 특별취재팀",
+    desc: "국내 100대 그룹 3·4세 113명의 지분율, 승계 로드맵, 일감 몰아주기 전수 데이터.",
+    url: "https://news.bizwatch.co.kr/article/real_estate/2020/06/10/0003"
+  },
+  {
+    title: "망해도 잘사는 부자들: 대한민국 불량기업 불량총수",
+    author: "한종해 기자",
+    desc: "거평 나승렬, 한보 정태수, 동아원 신명수 등 부도 후에도 은닉 재산으로 호화 생활을 누리는 총수들의 민낯.",
+    url: "https://www.yes24.com/Product/Goods/16996171"
+  },
+  {
+    title: "한국재벌사연구 (특정 가문 지배의 기원)",
+    author: "이한구 명예교수",
+    desc: "일제 적산 불하부터 군사정권 압축성장까지 한국 재벌의 역사적 탄생과 발전 메커니즘.",
+    url: "https://www.yes24.com/Product/Goods/15376138"
+  },
+  {
+    title: "한국 자본권력의 불량한 역사",
+    author: "이상호 기자",
+    desc: "정권은 재벌을 만들고 재벌은 권력을 지배한다: 100년간 이어진 정경유착의 검은 고리.",
+    url: "https://www.yes24.com/Product/Goods/56772202"
+  },
+  {
+    title: "재벌 공화국: 민주주의와 시장경제의 위기",
+    author: "박상인 서울대 교수",
+    desc: "사법 포획과 불공정 하도급, 경제력 집중에 따른 한국 경제의 성장 잠재력 훼손 경고.",
+    url: "https://www.yes24.com/Product/Goods/109303525"
+  },
+  {
+    title: "벌거벗은 재벌님: 올바른 재벌개혁 해법",
+    author: "김상조 전 공정위원장",
+    desc: "지주회사 제도의 한계와 순환출자 해소, 공익법인 규제 등 실효적 거버넌스 개혁안.",
+    url: "https://www.yes24.com/product/goods/8113952"
+  },
+  {
+    title: "시부사와 에이이치: 일본 자본주의의 설계자",
+    author: "신현암 저",
+    desc: "500개 기업 창업 후 재벌이 되길 거부하고 합본주의와 도덕경영을 실천한 일본 경제의 아버지.",
+    url: "https://www.yes24.com/product/goods/126645856"
+  },
+  {
+    title: "정서적 연봉: 핵심 인재가 머무는 조직",
+    author: "신재용 서울대 경영학과 교수",
+    desc: "성과급 1억을 줘도 떠나는 시대, 삼성전자와 대기업이 인재를 지키는 보상과 조직 문화 혁신.",
+    url: "https://www.yes24.com/product/goods/158856646"
+  }
+];
+
+function renderChaebolBooks() {
+  const grid = document.getElementById('chaebolBooksGrid');
+  if (!grid || grid.children.length > 0) return;
+  grid.innerHTML = chaebolBooksData.map(b => `
+    <div class="chaebol-group-card">
+      <div>
+        <div style="font-size: 11px; font-weight: 800; color: #FB7185; margin-bottom: 4px;">${b.author}</div>
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">${b.title}</h4>
+        <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">${b.desc}</p>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 11px; color: #86868B;">노션 💰Biz 원장 수록</span>
+        <a href="${b.url}" target="_blank" rel="noopener noreferrer" style="font-size: 11px; color: #FB7185; text-decoration: none; font-weight: 700;">도서 정보 ↗</a>
+      </div>
+    </div>
+  `).join('');
+}
+
+/* Videos Data from Notion Biz */
+const chaebolVideosData = [
+  {
+    id: "mwTNFLZcY0E",
+    title: "유명무실해진 재벌규제의 역사와 흐름 [박상인의 경제브릿지]",
+    src: "박상인 교수",
+    desc: "대한민국 30년 재벌 규제와 순환출자 해소 과정의 한계와 실질적 개혁 방향"
+  },
+  {
+    id: "d2TrrneR4ps",
+    title: "[미국 재벌 1부] 찬란했던 석유시대의 종말, 미국 재벌개혁의 역사",
+    src: "박상인의 경제브릿지",
+    desc: "록펠러 스탠더드오일 해체와 셔먼 반트러스트법이 미국 경제에 미친 영향"
+  },
+  {
+    id: "JWutSk2aPrM",
+    title: "[스웨덴 재벌 풀버전] 복지천국의 빛과 그림자, 스웨덴 재벌이 살아남은 이유",
+    src: "박상인의 경제브릿지",
+    desc: "스웨덴 GDP의 30%를 지배하는 발렌베리 가문과 사회적 대타협 모델"
+  },
+  {
+    id: "E86O25po02Y",
+    title: "[이스라엘 재벌 풀버전] 재벌개혁, 이스라엘 경제에서 배워라",
+    src: "박상인의 경제브릿지",
+    desc: "한국과 판박이였던 피라미드 출자구조를 깬 이스라엘 대기업 개혁법"
+  },
+  {
+    id: "MFDTVgMASDY",
+    title: "이병철과 어깨 나란히 했던 남자.. 설경동과 대한전선 이야기",
+    src: "소비더머니",
+    desc: "한국 전선업계의 개척자이자 재계 거물이었던 설경동 창업주와 대한전선의 부침"
+  },
+  {
+    id: "UOWrHULplaY",
+    title: "백희엽, 1959년 명동에서 15원을 100원으로 만든 전설의 큰손",
+    src: "검은기록관",
+    desc: "한국 자본시장 명동 사채시장의 대모 백할머니의 파란만장한 투자 실화"
+  },
+  {
+    id: "9cLeL_bDytI",
+    title: "기업비사: 대성그룹 김수근, 연탄에서 도시가스까지",
+    src: "KBS 기업비사",
+    desc: "대한민국 에너지 변천사를 이끈 대성그룹 창업주의 집념과 경영 철학"
+  },
+  {
+    id: "EQEWxMty_q0",
+    title: "그래프로 보는 대한민국 재벌 순위 25년 변화 (1997~2022)",
+    src: "데이터시각화",
+    desc: "IMF 외환위기부터 2022년까지 30대 대기업집단 순위 역동적 추이"
+  }
+];
+
+function renderChaebolVideos() {
+  const grid = document.getElementById('chaebolVideosGrid');
+  if (!grid || grid.children.length > 0) return;
+  grid.innerHTML = chaebolVideosData.map(v => `
+    <div class="chaebol-group-card" style="cursor: pointer;" onclick="playChaebolVideo('${v.id}', '${v.title.replace(/'/g, "\'")}')">
+      <div>
+        <div style="font-size: 11px; font-weight: 800; color: #38BDF8; margin-bottom: 4px;">${v.src}</div>
+        <h4 style="font-size: 1.05rem; font-weight: 800; color: #FFFFFF; margin-bottom: 6px;">${v.title}</h4>
+        <p style="font-size: 12px; color: #A1A1A6; line-height: 1.5; margin-bottom: 12px;">${v.desc}</p>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 8px; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 11px; color: #10B981;">▶ 플레이어에서 재생</span>
+        <span style="font-size: 12px;">📺</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function playChaebolVideo(id, title) {
+  const iframe = document.getElementById('chaebolMainIframe');
+  const tEl = document.getElementById('chaebolVideoPlayerTitle');
+  if (iframe) iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+  if (tEl) tEl.innerText = '📺 ' + title;
+  const pane = document.getElementById('chaebol-pane-videos');
+  if (pane) pane.scrollIntoView({ behavior: 'smooth' });
+}
+
+function openChaebolReportModal() {
+  const r = chaebolReportsData[curChaebolIdx];
+  document.getElementById('modalChaebolBadge').innerText = r.badge + " • " + r.category;
+  document.getElementById('modalChaebolTitle').innerText = r.title;
+  document.getElementById('modalChaebolBody').innerText = r.body;
+  document.getElementById('chaebolReportModal').style.display = 'flex';
+}
+
+function closeChaebolReportModal() {
+  document.getElementById('chaebolReportModal').style.display = 'none';
+}
+
+// Auto start on page load
+document.addEventListener('DOMContentLoaded', function() {
+  renderChaebolReport(0);
+  startChaebolAutoRotation();
+});
+</script>
+
 </body>
 </html>
