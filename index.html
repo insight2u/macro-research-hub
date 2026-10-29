@@ -5869,6 +5869,200 @@
   transform: translateY(-1px);
 }
 
+
+/* ==========================================================================
+   🎬 CINEMA & 🎧 MUSIC CULTURAL INTELLIGENCE LAB STYLES
+   ========================================================================== */
+
+.music-cinema-lab-section {
+  background: #080C14;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 70px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.mc-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.mc-badge-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(236, 72, 153, 0.14);
+  border: 1px solid rgba(236, 72, 153, 0.35);
+  color: #F472B6;
+  padding: 4px 10px;
+  border-radius: 980px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-bottom: 10px;
+}
+
+.mc-tabs-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 0 16px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  scrollbar-width: thin;
+}
+
+.mc-tab-btn {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94A3B8;
+  padding: 9px 18px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mc-tab-btn:hover {
+  background: rgba(236, 72, 153, 0.15);
+  border-color: rgba(236, 72, 153, 0.4);
+  color: #FDF2F8;
+  transform: translateY(-1px);
+}
+
+.mc-tab-btn.active {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.25), rgba(168, 85, 247, 0.25));
+  border-color: #F472B6;
+  color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(236, 72, 153, 0.25);
+}
+
+.mc-pane {
+  display: none;
+  animation: mcFadeIn 0.35s ease;
+}
+
+.mc-pane.active {
+  display: block;
+}
+
+@keyframes mcFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.mc-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
+}
+
+.mc-card {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 22px;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mc-card:hover {
+  border-color: rgba(236, 72, 153, 0.45);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(236, 72, 153, 0.12);
+}
+
+.mc-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.mc-card-tag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.mc-tag-movie { background: rgba(56, 189, 248, 0.15); color: #38BDF8; border: 1px solid rgba(56, 189, 248, 0.3); }
+.mc-tag-music { background: rgba(236, 72, 153, 0.15); color: #F472B6; border: 1px solid rgba(236, 72, 153, 0.3); }
+.mc-tag-video { background: rgba(239, 68, 68, 0.15); color: #F87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+.mc-tag-book { background: rgba(168, 85, 247, 0.15); color: #C084FC; border: 1px solid rgba(168, 85, 247, 0.3); }
+
+.mc-card-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: #F8FAFC;
+  line-height: 1.45;
+  margin-bottom: 8px;
+}
+
+.mc-card-desc {
+  font-size: 13px;
+  color: #94A3B8;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.mc-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 12px;
+  margin-top: auto;
+  font-size: 12px;
+}
+
+.mc-btn-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(236, 72, 153, 0.15);
+  border: 1px solid rgba(236, 72, 153, 0.4);
+  color: #F472B6;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.mc-btn-play:hover {
+  background: #EC4899;
+  color: #FFFFFF;
+  border-color: #EC4899;
+}
+
+.mc-btn-notion {
+  color: #38BDF8;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.mc-btn-notion:hover {
+  text-decoration: underline;
+  color: #7DD3FC;
+}
+
 </style>
 </head>
 <body>
@@ -5906,6 +6100,7 @@
         <a href="#editorial-cartoon" class="hot-link" style="color: #10B981; font-weight: 700;">🎨 AI 만평</a>
         <a href="#masters-wisdom" class="hot-link" style="color: #EAB308; font-weight: 700;">🏛️ 거인의 지혜</a>
                 <a href="javascript:void(0)" onclick="triggerNotionAmbientSlide(true)" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.15); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.4);">📸 노션 사진 (30초)</a>
+        <a href="#music-cinema-lab" class="hot-link" style="color: #EC4899; font-weight: 700; background: rgba(236, 72, 153, 0.15); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.4);">🎬 영화 & 🎧 음악 랩</a>
         <a href="javascript:void(0)" onclick="startMusic10sHighlights()" class="hot-link" style="color: #EC4899; font-weight: 700; background: rgba(236, 72, 153, 0.15); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(236, 72, 153, 0.4);">🎵 음악 10초 하이라이트</a>
         <a href="#executive-books" class="hot-link" style="color: #38BDF8; font-weight: 700; background: rgba(56, 189, 248, 0.12); padding: 3px 8px; border-radius: 6px; border: 1px solid rgba(56, 189, 248, 0.3);">📚 전문도서 203선</a>
         <a href="#political-polls" class="hot-link" style="color: #F59E0B; font-weight: 600;">🗳️ 지지율 33년</a>
@@ -9416,6 +9611,374 @@
     </div>
   </div>
 
+
+  
+  <!-- ==========================================================================
+       SECTION: 🎬 시네마 & 🎧 음악 문화 예술 인텔리전스 랩 (Music & Cinema Lab)
+       노션 🔠Contents (🎬Movie & 🎧Music) 원장 100% 실시간 연동
+       ========================================================================== -->
+  <section id="music-cinema-lab" class="music-cinema-lab-section">
+    <div class="mc-container">
+      
+      <!-- Top Title Monument -->
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px; margin-bottom: 24px;">
+        <div>
+          <div class="mc-badge-eyebrow">
+            <span>🎬 CINEMA & 🎧 MUSIC CULTURAL INTELLIGENCE LAB</span>
+            <span style="opacity: 0.6;">•</span>
+            <span>노션 🔠Contents 원장 100% 실시간 연동</span>
+          </div>
+          <h2 style="font-size: 2.1rem; font-weight: 900; color: #FFFFFF; margin: 0 0 10px 0; letter-spacing: -0.02em; line-height: 1.25;">
+            시대를 울린 스크린과 불멸의 선율: <span style="background: linear-gradient(135deg, #F472B6, #C084FC); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">🎬 영화 & 🎧 음악 인텔리전스 라운지</span>
+          </h2>
+          <p style="font-size: 0.95rem; color: #94A3B8; max-width: 980px; margin: 0; line-height: 1.65;">
+            영선 님의 노션 원장에 수록된 『죽기 전에 꼭 봐야 할 영화 1001』, 방구석1열 한국영화 황금기, 세계 거장 감독·배우 전작 아카이브부터 『한국 대중음악 명반 100』, 배순탁·강헌의 명저 인사이트, 장르별(K-pop·팝·록·재즈·클래식·월드뮤직) 10초 하이라이트 감상까지 총망라한 프레스티지 문화 예술 라운지입니다.
+          </p>
+        </div>
+        <div style="display: flex; gap: 10px; flex-shrink: 0;">
+          <a href="#explorer" onclick="setMainTab('notion')" style="background: rgba(236, 72, 153, 0.15); border: 1px solid rgba(236, 72, 153, 0.4); color: #F472B6; padding: 7px 15px; border-radius: 8px; font-size: 0.82rem; font-weight: 700; text-decoration: none;">
+            📚 노션 문화 원장 열람 ❯
+          </a>
+          <button onclick="startMusic10sHighlights()" style="background: linear-gradient(135deg, #EC4899, #8B5CF6); border: none; color: #fff; padding: 7px 16px; border-radius: 8px; font-size: 0.82rem; font-weight: 800; cursor: pointer; box-shadow: 0 4px 15px rgba(236, 72, 153, 0.35);">
+            🎵 10초 음악 하이라이트 재생 ▶
+          </button>
+        </div>
+      </div>
+
+      <!-- Tab Buttons Navigation Bar -->
+      <div class="mc-tabs-bar">
+        <button class="mc-tab-btn active" onclick="switchMcTab('tab-cinema', this)">
+          <span>🎬</span> <span>불멸의 명화 & 시네마 컬렉션 (4대 테마)</span>
+        </button>
+        <button class="mc-tab-btn" onclick="switchMcTab('tab-music', this)">
+          <span>🎧</span> <span>불멸의 명반 & 대중음악 라운지 (4대 장르)</span>
+        </button>
+        <button class="mc-tab-btn" onclick="switchMcTab('tab-video', this)">
+          <span>🎥</span> <span>시네마 & 음악 명장면 영상관 (방구석1열·다큐)</span>
+        </button>
+        <button class="mc-tab-btn" onclick="switchMcTab('tab-books', this)">
+          <span>📚</span> <span>영화·음악 공인 명저 서재 (노션 10선 요약)</span>
+        </button>
+      </div>
+
+      <!-- PANE 1: 🎬 불멸의 명화 & 시네마 컬렉션 -->
+      <div class="mc-pane active" id="tab-cinema">
+        <div class="mc-grid-4">
+          
+          <!-- Cinema Card 1 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-movie">🇰🇷 한국영화 황금기</span>
+                <span style="font-size: 11px; color: #64748B;">봉준호 · 박찬욱 · 나홍진</span>
+              </div>
+              <div class="mc-card-title">한국영화 황금기 마스터피스 & K-누아르 명작선</div>
+              <p class="mc-card-desc">
+                『죽기 전에 꼭 봐야 할 한국영화 1001』 원장 연계. 칸 황금종려상·아카데미 4관왕에 빛나는 봉준호의 『기생충』, 『살인의 추억』, 『괴물』부터 『올드보이』, 『신세계』, 『달콤한 인생』까지 한국 영화 르네상스의 뼈대를 해부합니다.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">📽️ KMDb & 방구석1열 연동</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('CNfe-Vw8Wyc', '한국영화 황금기 라인업 130분 몰아보기')">
+                ▶️ 해설 영상 보기
+              </button>
+            </div>
+          </div>
+
+          <!-- Cinema Card 2 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-movie">🇺🇸 할리우드 클래식</span>
+                <span style="font-size: 11px; color: #64748B;">엔니오 모리코네 · 제임스 카메론</span>
+              </div>
+              <div class="mc-card-title">영화 『미션 (The Mission)』 & 불멸의 시네마 클래식</div>
+              <p class="mc-card-desc">
+                『죽기 전에 꼭 봐야 할 영화 1001』 7th Edition 수록. 18세기 남미 이과수 폭포를 배경으로 성 가브리엘 신부의 오보에 선율(넬라 판타지아)이 울려 퍼지는 롤랑 조페 감독의 대작. 대부, 타이타닉, 용서받지 못한 자 등 할리우드 거장 궤적 총람.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🎼 영혼을 울리는 오보에</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('VOAM0mLYL1Y', '명작 영화 미션이 주는 커다란 울림')">
+                ▶️ 명작 토크 보기
+              </button>
+            </div>
+          </div>
+
+          <!-- Cinema Card 3 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-movie">🇯🇵 일본 & 아시아</span>
+                <span style="font-size: 11px; color: #64748B;">구로사와 아키라 · 고레에다</span>
+              </div>
+              <div class="mc-card-title">일본 영화 100년사: 거장의 휴머니즘과 미학</div>
+              <p class="mc-card-desc">
+                『7인의 사무라이』와 『라쇼몽』으로 세계 영화 문법을 창조한 구로사와 아키라부터, 『어느 가족』과 『그렇게 아버지가 된다』로 현대 가족의 본질을 묻는 고레에다 히로카즈, 그리고 이와이 슌지의 감성 미학까지 노션 『참고자료(일본 영화)』 원천을 집대성했습니다.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🏯 베니스·칸 영화제 석권</span>
+              <a href="https://app.notion.com/p/1ffe42c8c5e28090ad6dd3c5c3c77fa8" target="_blank" class="mc-btn-notion">
+                노션 원장 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Cinema Card 4 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-movie">🍿 플랫폼 & 미래</span>
+                <span style="font-size: 11px; color: #64748B;">OTT 생태계 · 비즈니스</span>
+              </div>
+              <div class="mc-card-title">『애프터 넷플릭스』 & 영화관의 미래 지형도</div>
+              <p class="mc-card-desc">
+                극장 관객수 절벽과 스트리밍 플랫폼(Netflix, Disney+, Tving) 지각변동 속에서 한국 영화·드라마 IP가 살아남기 위한 글로벌 생존 전략을 진단합니다. 『당신이 보고 싶은 영화는 영화관에 없다』와 『불온한 영화를 위하여』의 비평적 통찰 결합.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">💡 글로벌 콘텐츠 IP 전략</span>
+              <a href="https://app.notion.com/p/1b5e42c8c5e280258b9cd5f1759fd85d" target="_blank" class="mc-btn-notion">
+                노션 도서 ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANE 2: 🎧 불멸의 명반 & 대중음악 라운지 -->
+      <div class="mc-pane" id="tab-music">
+        <div class="mc-grid-4">
+          
+          <!-- Music Card 1 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-music">🇰🇷 한국 대중음악</span>
+                <span style="font-size: 11px; color: #64748B;">신해철 · 김현식 · 들국화</span>
+              </div>
+              <div class="mc-card-title">한국 대중음악 명반 100 & 마왕 故 신해철 10주기</div>
+              <p class="mc-card-desc">
+                『한국 대중음악사 개론』 및 『명반 100』 원장 연계. 시대를 앞서간 철학자이자 마왕 신해철의 N.EX.T와 솔로 명곡, 가슴을 쥐어짜는 김현식의 『비처럼 음악처럼』, 유재하와 들국화가 남긴 불멸의 멜로디를 심층 큐레이션합니다.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🎸 한국 록 & 발라드 금자탑</span>
+              <button class="mc-btn-play" onclick="playMusicTrackHighlight(3, true)">
+                ▶️ 10초 하이라이트
+              </button>
+            </div>
+          </div>
+
+          <!-- Music Card 2 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-music">🎸 글로벌 록 & 팝</span>
+                <span style="font-size: 11px; color: #64748B;">엘튼 존 · 퀸 · X-Japan</span>
+              </div>
+              <div class="mc-card-title">배순탁의 팝 인문학 & 로켓맨 엘튼 존의 시대</div>
+              <p class="mc-card-desc">
+                『음악이 삶의 전부는 아닙니다만』(배철수의 음악캠프 18년) 원장 연계. 팝의 거장 엘튼 존과 버니 토핀의 영혼의 파트너십, 퀸의 『보헤미안 랩소디』 혁명, 청춘을 울린 X-Japan의 『Endless Rain』 명곡 하이라이트.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🎹 팝 & 록의 황금기 200년</span>
+              <button class="mc-btn-play" onclick="playMusicTrackHighlight(4, true)">
+                ▶️ 10초 하이라이트
+              </button>
+            </div>
+          </div>
+
+          <!-- Music Card 3 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-music">🌍 월드뮤직 아카이브</span>
+                <span style="font-size: 11px; color: #64748B;">탱고 · 플라멩코 · 보사노바</span>
+              </div>
+              <div class="mc-card-title">『월드뮤직 도슨트』: 그리스에서 아르헨티나까지</div>
+              <p class="mc-card-desc">
+                그리스의 애환이 깃든 렘베티카와 부주키, 부에노스아이레스 뒷골목에서 피어난 아스토르 피아졸라의 누에보 탱고, 스페인 안달루시아 집시의 플라멩코, 브라질의 나른한 보사노바까지 세상 모든 음악의 문화적 유전자를 해독합니다.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🪗 20개국 에스닉 음악사</span>
+              <a href="https://app.notion.com/p/138e42c8c5e2801abffdc6af10d33236" target="_blank" class="mc-btn-notion">
+                노션 도서 ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Music Card 4 -->
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-music">🧠 뇌파 안정 & 숙면</span>
+                <span style="font-size: 11px; color: #64748B;">멜라토닌 · 델타파 · ASMR</span>
+              </div>
+              <div class="mc-card-title">신경정신과 숙면 뇌파 테라피 & 숲 산책 사운드</div>
+              <p class="mc-card-desc">
+                스트레스와 불면증을 해소하는 5시간 숲 산책 새소리 힐링 사운드, 신경정신과에서 실제 사용하는 심신 뇌파 안정 블랙스크린, 멜라토닌 분비를 촉진하는 딥슬립 델타파 유도 음악을 메인 플레이어에서 즉시 감상하실 수 있습니다.
+              </p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🌳 숲 자연음 & 멜라토닌</span>
+              <button class="mc-btn-play" onclick="playMusicTrackHighlight(0, true)">
+                ▶️ 10초 하이라이트
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANE 3: 🎥 시네마 & 음악 영상관 -->
+      <div class="mc-pane" id="tab-video">
+        <div class="mc-grid-4">
+          
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-video">JTBC 방구석1열</span>
+                <span style="font-size: 11px; color: #64748B;">음악영화 100분</span>
+              </div>
+              <div class="mc-card-title">Music is My Life...✨ 가슴을 울리는 음악영화 100분 몰아보기</div>
+              <p class="mc-card-desc">보헤미안 랩소디, 비긴 어게인, 라라랜드, 위플래쉬 등 스크린을 가득 채운 전설적 음악영화들의 비하인드 스토리와 명장면 총집합.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🎬 방구석1열 확장판</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('q5CM-g2bAbk', '가슴을 울리는 음악영화 100분 몰아보기')">
+                ▶️ 플레이어 재생
+              </button>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-video">MBC 뉴스 다큐</span>
+                <span style="font-size: 11px; color: #64748B;">신해철 10주기</span>
+              </div>
+              <div class="mc-card-title">“반짝이고, 물러서지 않는”..“음악과 삶이 일치한” 가수 故 신해철</div>
+              <p class="mc-card-desc">1988년 대학가요제 '그대에게'부터 N.EX.T의 철학적 록 음악까지, 한국 사회에 거대한 질문을 던졌던 마왕 신해철의 음악적 유산 총조명.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">⚡ 마왕 신해철 아카이브</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('JbwpG_aQnKc', '음악과 삶의 자세가 일치한 가수 故 신해철 10주기')">
+                ▶️ 플레이어 재생
+              </button>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-video">JTBC 방구석1열</span>
+                <span style="font-size: 11px; color: #64748B;">한국영화 130분</span>
+              </div>
+              <div class="mc-card-title">back to the 2010...✨ 한국영화 황금기 라인업 130분 몰아보기</div>
+              <p class="mc-card-desc">기생충 이전 한국영화의 황금기를 수놓았던 명작들과 변영주·장성규·정재형의 품격 있는 시네마 수다.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🏆 한국영화 르네상스</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('CNfe-Vw8Wyc', '한국영화 황금기 라인업 130분 몰아보기')">
+                ▶️ 플레이어 재생
+              </button>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-video">명작 시네마 토크</span>
+                <span style="font-size: 11px; color: #64748B;">영화 미션</span>
+              </div>
+              <div class="mc-card-title">지금 봐도 전율인 영화 "미션"이 주는 거대한 울림과 가브리엘의 오보에</div>
+              <p class="mc-card-desc">로버트 드 니로와 제레미 아이언스의 명연기, 그리고 인류 역사상 가장 아름다운 선율로 꼽히는 엔니오 모리코네의 음악 분석.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🕊️ 칸 영화제 황금종려상</span>
+              <button class="mc-btn-play" onclick="playCustomVideo('VOAM0mLYL1Y', '명작 영화 미션 시네마 토크')">
+                ▶️ 플레이어 재생
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANE 4: 📚 영화·음악 공인 명저 서재 -->
+      <div class="mc-pane" id="tab-books">
+        <div class="mc-grid-4">
+          
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-book">영화 필독 명저</span>
+                <span style="font-size: 11px; color: #64748B;">전 세계 공인 바이블</span>
+              </div>
+              <div class="mc-card-title">『죽기 전에 꼭 봐야 할 영화 1001』 (7th Edition)</div>
+              <p class="mc-card-desc">영화 탄생 120년 역사상 반드시 거쳐야 할 불멸의 걸작 1001편을 연대기순으로 정리한 시네마 백과사전. 루미에르 형제부터 현대 디지털 시네마까지 완벽 수록.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">📖 슈나이더 엮음 · 마로니에북스</span>
+              <a href="https://app.notion.com/p/831bdf6c2d1b407ea13438f408b7055a" target="_blank" class="mc-btn-notion">노션 원장 ↗</a>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-book">한국영화 바이블</span>
+                <span style="font-size: 11px; color: #64748B;">정성일 · 이동진 큐레이션</span>
+              </div>
+              <div class="mc-card-title">『죽기 전에 꼭 봐야 할 한국영화 1001』</div>
+              <p class="mc-card-desc">1919년 연쇄극 『의리적 구토』부터 봉준호, 박찬욱, 이창동의 현대 걸작까지 한국영화의 굴곡진 역사와 미학적 성취를 집대성한 대한민국 영화사의 정점.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🇰🇷 한국영화 100년사</span>
+              <a href="https://app.notion.com/p/4de945a5f2784c8fb089f6f4156ba529" target="_blank" class="mc-btn-notion">노션 원장 ↗</a>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-book">대중음악 인문학</span>
+                <span style="font-size: 11px; color: #64748B;">배순탁 저 · 10,201자</span>
+              </div>
+              <div class="mc-card-title">『음악이 삶의 전부는 아닙니다만』</div>
+              <p class="mc-card-desc">배철수의 음악캠프 18년 베테랑 작가의 시선으로 100여 곡의 명곡과 인류의 삶, 역사, 철학을 연결한 인문학적 산문집. 퀸, 비틀즈, 엘튼 존의 숨겨진 비하인드.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">📻 배철수의 음악캠프</span>
+              <a href="https://app.notion.com/p/319e42c8c5e2808eb845cafc532f3964" target="_blank" class="mc-btn-notion">노션 원장 ↗</a>
+            </div>
+          </div>
+
+          <div class="mc-card">
+            <div>
+              <div class="mc-card-header">
+                <span class="mc-card-tag mc-tag-book">K-Pop 역사 총론</span>
+                <span style="font-size: 11px; color: #64748B;">신현준 교수 · 50,440자</span>
+              </div>
+              <div class="mc-card-title">『한국 대중음악사 개론 (Introduction to K-pop)』</div>
+              <p class="mc-card-desc">근대 축음기 도입부터 미8군 무대, 통기타 포크, 80년대 조용필과 가요 전성기, 서태지의 충격, 그리고 BTS와 블랙핑크의 글로벌 K-Pop 제국까지 100년사 총괄.</p>
+            </div>
+            <div class="mc-card-meta">
+              <span style="color: #CBD5E1;">🎵 한국 대중음악사 완결판</span>
+              <a href="https://app.notion.com/p/Introduction-to-K-pop-history-285e42c8c5e280dabb33f51256182a71" target="_blank" class="mc-btn-notion">노션 원장 ↗</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- 4. Real-Time Global Economy & Industry Radar -->
   <section class="email-sync-section" id="email-sync">
@@ -13961,6 +14524,42 @@ function startMusic10sHighlights(btn) {
   document.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
   playMusicTrackHighlight(0, true);
+}
+
+
+/* ==========================================================================
+   🎬 CINEMA & 🎧 MUSIC LAB JAVASCRIPT CONTROLLERS
+   ========================================================================== */
+
+function switchMcTab(tabId, btn) {
+  document.querySelectorAll('.mc-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.mc-tab-btn').forEach(b => b.classList.remove('active'));
+  
+  const pane = document.getElementById(tabId);
+  if (pane) pane.classList.add('active');
+  if (btn) btn.classList.add('active');
+}
+
+function playCustomVideo(videoId, title) {
+  const iframe = document.getElementById('hubVideoIframe');
+  const headEl = document.getElementById('hubHeadline');
+  const sumEl = document.getElementById('hubSummary');
+  const subEl = document.getElementById('hubSubtitleText');
+  const container = document.getElementById('hubVideoContainer');
+  const badge = document.getElementById('music10sBadge');
+
+  if (badge) badge.style.display = 'none';
+
+  if (iframe) {
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1`;
+  }
+  if (headEl) headEl.textContent = `🎬 [시네마 & 음악 명장면] ${title}`;
+  if (sumEl) sumEl.textContent = `영선 님의 노션 🔠Contents 아카이브 연계 영상: ${title} 실시간 스트리밍 중`;
+  if (subEl) subEl.textContent = `🎬 문화 예술 아카이브: ${title} | 스크린과 선율이 머무는 지식 인텔리전스`;
+
+  if (container) {
+    container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
 }
 
 </script>
