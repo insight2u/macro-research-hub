@@ -62,4 +62,3 @@
 ---
 
 *본 리포트는 연합뉴스, AP, 로이터, CNBC, 워싱턴포스트, 머니투데이, 아주경제, 연합인포맥스, 한국거래소 데이터를 교차 검증하여 작성되었다.*
-Restore clean content for economy reportRestore clean content for economy report
