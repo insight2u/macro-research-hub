@@ -1,11 +1,12 @@
+
 『매불쇼가 본 블랙 프라이데이의 하루 — 코스피 5,000 붕괴와 반등, 특검 공방, 신천지 정리, 그리고 주말의 영화』
 
 **발행일**: 2026년 11월 8일 | **분야**: 방송 브리핑·정치 경제 문화 | **분석 등급**: 방송 전사 분석
 **핵심 출처**: 최욱의 매불쇼 공식 팟캐스트 음원 전사(2026-11-06 방송분, 팟빵 채널 16898), 교차 검증 보도 병기
 
-<img src="https://img.podbbang.com/pbi/t/430/240/0/755/611/000611755/611755.jpg" alt="최욱의 매불쇼 2026년 11월 6일 방송 공식 이미지" width="560" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Korea_exchange.JPG/960px-Korea_exchange.JPG" alt="한국거래소(부산 본점) 전경 — 11월 6일 코스피 급락과 반등의 현장" width="560" />
 
-*최욱의 매불쇼 2026년 11월 6일 방송 — [1106-1] 화내서 죄송합니다! (미국발 주가 폭락), [1106-2,3] (팟빵 공식 채널 제공 이미지)*
+*한국거래소 본점(부산 동구) — 11월 6일 코스피는 장중 4,911까지 밀렸다가 5,055로 반등 마감했다. 사진: hyolee2, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Korea_exchange.JPG)*
 
 ---
 
@@ -95,5 +96,6 @@
 - 최욱의 매불쇼 공식 팟캐스트: 팟빵 채널 16898 (https://www.podbbang.com/channels/16898), 에피소드 25342314 [1106-1] / 25342315 [1106-2,3] (2026-11-06 방송분, 공식 음원 자체 전사)
 - 교차 인용: 김어준의 뉴스공장 공식 녹취록 12590 (https://humblefactory.co.kr/12590/)
 - 교차 검증: 연합뉴스·이데일리 2026-11-06~08 보도
+- 이미지: 한국거래소 본점 사진, hyolee2, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Korea_exchange.JPG)
 
 *본 리포트는 정보 제공을 목적으로 하며 투자 조언이 아닙니다. 방송 인용 내용의 사실관계는 독립적으로 교차 검증했으나, 최종 판단은 독자의 책임 아래 이뤄져야 합니다.*
