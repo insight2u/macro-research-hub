@@ -3,9 +3,9 @@
 **발행일**: 2026년 11월 9일 | **분야**: 국내 정치·재정 정책 | **분석 등급**: 정책 심층 분석
 **핵심 출처**: 뉴스1·연합뉴스·뉴시스·YTN(2026년 11월 7~9일자), 국회 예산결산특별위원회 일정
 
-![여의도 국회의사당 전경(자료사진)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg/960px-Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
+![여의도 국회의사당 앞 조각상과 본관 돔(자료사진)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg/960px-Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
 
-여의도 국회의사당 전경(자료사진). 예결위는 11월 9일부터 821조 원 규모의 2027년도 예산안 부별심사에 돌입했다. 사진: Alain Seguin, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
+여의도 국회의사당 앞 조각상과 본관 돔(자료사진). 예결위는 11월 9일부터 821조 원 규모의 2027년도 예산안 부별심사에 돌입했다. 사진: Alain Seguin, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
 
 ---
 
