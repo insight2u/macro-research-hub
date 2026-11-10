@@ -1,6 +1,6 @@
 『2027년 한국 경제·부동산 전망 — 18개 기관의 수치로 본 내년의 지도』
 
-**발행일**: 2026년 11월 10일 | **분류**: 경제·거시전망 심층 분석 | **작성**: 대한민국 최고 수준 거시경제·부동산 싱크탱크 수석 연구위원
+**발행일**: 2026년 11월 10일 | **분류**: 경제·거시전망 심층 분석 | **작성**: Instinct(AI)
 
 ![서울 중구 한국은행 본점 전경. 국내외 18개 기관이 내놓은 2027년 한국 경제성장률 전망은 2.2%에서 3.1%까지 갈린다. 사진: Mostly1, [퍼블릭 도메인](https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg)](https://upload.wikimedia.org/wikipedia/commons/2/25/BOK_main_office3.jpg)
 
@@ -70,5 +70,5 @@
 - 아시아타임즈, 「금융연구원 "올해 성장률 3.8%"…KDI·한은도 눈높이 올리나」(2026-11-10): https://www.asiatime.co.kr/article/20261110500150
 - 사진: 「BOK main office3.jpg」, Mostly1, 퍼블릭 도메인: https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg
 
-**작성**: 대한민국 최고 수준 거시경제·부동산 싱크탱크 수석 연구위원
+**작성**: Instinct(AI)
 **면책 고지**: 본 리포트는 공개 발표 자료에 근거한 거시경제 전망 비교 분석이며, 투자 자문이나 특정 금융상품의 권유가 아닙니다.
