@@ -7430,7 +7430,7 @@
   <div class="top-ticker">
     <span class="ticker-badge">LIVE INSIGHT</span>
     <div class="ticker-content" id="topTickerContent">
-      <strong>[2026.11.10 09:30 KST 화요 장중 실시간 호가 인텔리전스]</strong> 코스피 5,278.47p (▲259.62p, +5.17% 급반등) · 코스닥 665.36p (▲26.39p, +4.13%) · 원/달러 1,345.40원 (▲3.40원) · 다우 52,389.75p (+2.15%) · 나스닥 25,253.14p (+2.74%) · 엔비디아 $188.42 (▼4.27%) · 美 10Y 국채 4.88% · WTI $86.85</div>
+      <strong>[2026.11.10 09:30 KST 화요 오전 장중 기준 수치]</strong> 코스피 5,278.47p (▲259.62p, +5.17% 급반등) · 코스닥 665.36p (▲26.39p, +4.13%) · 원/달러 1,345.40원 (▲3.40원) · 다우 52,389.75p (+2.15%) · 나스닥 25,253.14p (+2.74%) · 엔비디아 $188.42 (▼4.27%) · 美 10Y 국채 4.88% · WTI $86.85</div>
   </div>
 
   <!-- Floating Glass Pro Navigation -->
@@ -7484,7 +7484,7 @@
 
   <!-- Bloomberg Style Continuous Scrolling Macro Ticker Bar -->
   <div class="live-macro-ticker-bar">
-    <div class="ticker-label" id="liveTickerLabel"><span class="live-dot"></span> LIVE 2026.11.10 07:00 KST 화요 조간 글로벌 금융·원자재 지표</div>
+    <div class="ticker-label" id="liveTickerLabel">2026.11.10 07:00 KST 조간 작성 금융·원자재 참고 지표</div>
     <div class="ticker-track-wrap">
       <div class="ticker-track">
         <div class="ticker-item"><span class="t-name">💵 원/달러 환율</span> <span class="t-val">1,356.60원</span> <span class="t-chg up">▲14.50원 (+1.08%)</span></div>
@@ -17151,13 +17151,13 @@ window.jumpToEconometricsLab = jumpToEconometricsLab;
         const topTickerEl = document.getElementById('topTickerContent');
         if (topTickerEl) {
           // If top ticker content still has previous date, update to todayStr
-          topTickerEl.innerHTML = topTickerEl.innerHTML.replace(/\d{4}\.\d{2}\.\d{2}/g, todayStr);
+          /* auto date-rewrite removed 2026-11-10: strip keeps its authored vintage; changing the timestamp is not a refresh */
         }
 
         // Dynamically ensure live macro ticker label matches today and current time
         const liveTickerLabel = document.getElementById('liveTickerLabel');
         if (liveTickerLabel) {
-          liveTickerLabel.innerHTML = `<span class="live-dot"></span> LIVE ${todayStr} ${timeStr} KST ${marketStatus} 금융·원자재 지표`;
+          /* live-as-now label rewrite removed 2026-11-10: label keeps its authored vintage */
         }
 
         // Update tooltip date default
