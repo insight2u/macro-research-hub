@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 문화·음악산업 심층 분석 | **작성**: 대한민국 최고 수준 대중음악·콘텐츠산업 싱크탱크 수석 연구위원
 
-![그룹 아일릿(ILLIT)이 2026년 1월 한 포토 행사에 참석한 모습(자료사진). 아일릿의 새 미니앨범 '브레이크 이븐'이 빌보드 200 차트 6위로 진입하며 첫 톱10에 올랐다. 사진: TV10, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Illit_in_January_2026.png)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/960px-Illit_in_January_2026.png)
+![그룹 아일릿(ILLIT)이 2026년 1월 한 포토 행사에 참석한 모습(자료사진). 아일릿의 새 미니앨범 '브레이크 이븐'이 빌보드 200 차트 6위로 진입하며 첫 톱10에 올랐다. 사진: TV10, CC BY 4.0(https://creativecommons.org/licenses/by/4.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Illit_in_January_2026.png)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/960px-Illit_in_January_2026.png)
 
 ---
 

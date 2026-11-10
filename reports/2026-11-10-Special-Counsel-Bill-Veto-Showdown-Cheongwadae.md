@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 국내 정치·헌법제도 심층 분석 | **작성**: 대한민국 최고 수준 정치제도 싱크탱크 수석 연구위원
 
-![여의도 국회의사당 앞 조각상과 본관 돔(자료사진). 조작기소 특검법 공포안의 국무회의 상정 시점을 두고 청와대는 "다음 주 상정 예정"이라고 밝혔고, 국민의힘은 10일 청와대 앞 현장 의원총회로 거부권 행사를 촉구한다. 사진: Alain Seguin, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg/960px-Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
+![여의도 국회의사당 앞 조각상과 본관 돔(자료사진). 조작기소 특검법 공포안의 국무회의 상정 시점을 두고 청와대는 "다음 주 상정 예정"이라고 밝혔고, 국민의힘은 10일 청와대 앞 현장 의원총회로 거부권 행사를 촉구한다. 사진: Alain Seguin, CC BY-SA 3.0(https://creativecommons.org/licenses/by-sa/3.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg/960px-Korea-Seoul-Yeouido-National_Assembly_Building-08.jpg)
 
 ---
 

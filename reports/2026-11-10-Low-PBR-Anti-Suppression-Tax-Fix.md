@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 경제·조세정책 심층 분석 | **작성**: 대한민국 최고 수준 조세·자본시장정책 싱크탱크 수석 연구위원
 
-![한국거래소(부산 본점) 전경(자료사진). 정부의 '주가누르기 방지' 세법 개정안을 두고 적용 대상을 업종별 하위 25%로 넓히고 최소 할증률을 40%로 높이는 보완안이 제시됐다. 사진: hyolee2, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Korea_exchange.JPG)](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Korea_exchange.JPG/960px-Korea_exchange.JPG)
+![한국거래소(부산 본점) 전경(자료사진). 정부의 '주가누르기 방지' 세법 개정안을 두고 적용 대상을 업종별 하위 25%로 넓히고 최소 할증률을 40%로 높이는 보완안이 제시됐다. 사진: hyolee2, CC BY-SA 3.0(https://creativecommons.org/licenses/by-sa/3.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Korea_exchange.JPG)](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Korea_exchange.JPG/960px-Korea_exchange.JPG)
 
 ---
 

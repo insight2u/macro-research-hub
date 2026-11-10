@@ -3,7 +3,7 @@
 **발행일**: 2026년 11월 10일 | **분야**: 방송 브리핑·국제 정치 경제 | **분석 등급**: 방송 전사 분석
 **핵심 출처**: 최욱의 매불쇼 공식 팟캐스트 음원 전사(2026-11-09 방송분, 팟빵 채널 16898), 교차 검증 보도 병기
 
-![호르무즈 해협 위성사진(NASA MODIS). 매불쇼 1부는 카타르가 이란 핵 사찰과 호르무즈 해협 재개방을 묶은 휴전 중재안을 낸 소식을 다뤘다. 사진: NASA MODIS, 퍼블릭 도메인, [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Strait_of_Hormuz_%28MODIS_2020-12-04%29.jpg/960px-Strait_of_Hormuz_%28MODIS_2020-12-04%29.jpg)
+![호르무즈 해협 위성사진(NASA MODIS). 매불쇼 1부는 카타르가 이란 핵 사찰과 호르무즈 해협 재개방을 묶은 휴전 중재안을 낸 소식을 다뤘다. 사진: NASA MODIS, 퍼블릭 도메인, Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Strait_of_Hormuz_%28MODIS_2020-12-04%29.jpg/960px-Strait_of_Hormuz_%28MODIS_2020-12-04%29.jpg)
 
 ---
 

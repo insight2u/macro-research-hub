@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 경제·거시전망 심층 분석 | **작성**: Instinct(AI)
 
-![서울 중구 한국은행 본점 전경. 국내외 18개 기관이 내놓은 2027년 한국 경제성장률 전망은 2.2%에서 3.1%까지 갈린다. 사진: Mostly1, [퍼블릭 도메인](https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg)](https://upload.wikimedia.org/wikipedia/commons/2/25/BOK_main_office3.jpg)
+![서울 중구 한국은행 본점 전경. 국내외 18개 기관이 내놓은 2027년 한국 경제성장률 전망은 2.2%에서 3.1%까지 갈린다. 사진: Mostly1, 퍼블릭 도메인(https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:BOK_main_office3.jpg)](https://upload.wikimedia.org/wikipedia/commons/2/25/BOK_main_office3.jpg)
 
 ---
 

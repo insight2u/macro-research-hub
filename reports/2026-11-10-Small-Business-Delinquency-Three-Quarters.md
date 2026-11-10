@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 경제·서민금융 심층 분석 | **작성**: 대한민국 최고 수준 서민금융·중소상공인정책 싱크탱크 수석 연구위원
 
-![서울 광장시장의 반찬 가판대(자료사진). 3분기 개인사업자 대출 연체액이 16조 4천억 원으로 세 분기 연속 늘었고, 외식·유통업의 매출 부진이 두드러진 것으로 나타났다. 사진: Stck w, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Hong_Lim%27s_Banchan_stall,_Gwangjang_Market,_Seoul_2020-02-01.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Hong_Lim%27s_Banchan_stall%2C_Gwangjang_Market%2C_Seoul_2020-02-01.jpg/960px-Hong_Lim%27s_Banchan_stall%2C_Gwangjang_Market%2C_Seoul_2020-02-01.jpg)
+![서울 광장시장의 반찬 가판대(자료사진). 3분기 개인사업자 대출 연체액이 16조 4천억 원으로 세 분기 연속 늘었고, 외식·유통업의 매출 부진이 두드러진 것으로 나타났다. 사진: Stck w, CC BY-SA 4.0(https://creativecommons.org/licenses/by-sa/4.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Hong_Lim%27s_Banchan_stall,_Gwangjang_Market,_Seoul_2020-02-01.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Hong_Lim%27s_Banchan_stall%2C_Gwangjang_Market%2C_Seoul_2020-02-01.jpg/960px-Hong_Lim%27s_Banchan_stall%2C_Gwangjang_Market%2C_Seoul_2020-02-01.jpg)
 
 ---
 

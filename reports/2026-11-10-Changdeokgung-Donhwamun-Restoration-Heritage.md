@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 문화·국가유산 심층 분석 | **작성**: 대한민국 최고 수준 문화유산정책 싱크탱크 수석 연구위원
 
-![창덕궁 돈화문 지붕의 잡상과 단청(자료사진). 국가유산청은 11월부터 돈화문의 지붕 기와 1만 5천여 장을 모두 해체해 수제 기와로 교체하는 대규모 보수에 착수했다. 사진: Bernard Gagnon, [CC0(퍼블릭 도메인 헌납)](https://creativecommons.org/publicdomain/zero/1.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Donhwamun_Gate_03.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Donhwamun_Gate_03.jpg/960px-Donhwamun_Gate_03.jpg)
+![창덕궁 돈화문 지붕의 잡상과 단청(자료사진). 국가유산청은 11월부터 돈화문의 지붕 기와 1만 5천여 장을 모두 해체해 수제 기와로 교체하는 대규모 보수에 착수했다. 사진: Bernard Gagnon, CC0(퍼블릭 도메인 헌납)(https://creativecommons.org/publicdomain/zero/1.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Donhwamun_Gate_03.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Donhwamun_Gate_03.jpg/960px-Donhwamun_Gate_03.jpg)
 
 ---
 

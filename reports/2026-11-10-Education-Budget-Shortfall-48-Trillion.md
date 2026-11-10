@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 사회·교육재정 심층 분석 | **작성**: 대한민국 최고 수준 교육정책·지방재정 싱크탱크 수석 연구위원
 
-![서울특별시서부교육지원청 청사(자료사진). 전국 16개 시도교육청의 2027년도 세출 편성액이 필요액보다 4조 8천억 원 넘게 부족한 것으로 나타났다. 사진: 95016maphack, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Seoul_Seobu_Office_of_Education.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Seoul_Seobu_Office_of_Education.jpg/960px-Seoul_Seobu_Office_of_Education.jpg)
+![서울특별시서부교육지원청 청사(자료사진). 전국 16개 시도교육청의 2027년도 세출 편성액이 필요액보다 4조 8천억 원 넘게 부족한 것으로 나타났다. 사진: 95016maphack, CC0 1.0(https://creativecommons.org/publicdomain/zero/1.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Seoul_Seobu_Office_of_Education.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Seoul_Seobu_Office_of_Education.jpg/960px-Seoul_Seobu_Office_of_Education.jpg)
 
 ---
 

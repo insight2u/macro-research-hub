@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 사회·청년건강 심층 분석 | **작성**: 대한민국 최고 수준 청년정책·보건복지 싱크탱크 수석 연구위원
 
-![서울의 한 청소년·청년 지원시설(시립서울청소년센터) 내부(자료사진). 자립준비청년의 우울증상 유병률이 일반 청년의 3~4배에 이르는 것으로 나타났다. 사진: Motoko (WMKR), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ko), [Wikimedia Commons 원본](https://commons.wikimedia.org/wiki/File:Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg/960px-Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg)
+![서울의 한 청소년·청년 지원시설(시립서울청소년센터) 내부(자료사진). 자립준비청년의 우울증상 유병률이 일반 청년의 3~4배에 이르는 것으로 나타났다. 사진: Motoko (WMKR), CC BY 4.0(https://creativecommons.org/licenses/by/4.0/deed.ko), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg/960px-Seoul_Youth_Center_Wikipedia-editing_Program_2024-2.jpg)
 
 ---
 
