@@ -19,12 +19,7 @@
 
 ## 제2장: 수량은 용법을 먼저 본다
 
-| 질문 | 확인된 설명 |
-|---|---|
-| 기본 수량 | 정식 허가 의약품 총 6병까지 |
-| 6병 초과 | 용법에 따른 3개월 복용량까지 |
-| 주 1회·1개 자가주사 예시 | 12개 |
-| 온라인 구매·재판매까지 허용? | 이번 휴대 반입 발표로 확대 해석 불가 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">질문</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확인된 설명</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">기본 수량</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">정식 허가 의약품 총 6병까지</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">6병 초과</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">용법에 따른 3개월 복용량까지</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">주 1회·1개 자가주사 예시</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">12개</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">온라인 구매·재판매까지 허용?</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">이번 휴대 반입 발표로 확대 해석 불가</td></tr></tbody></table>
 
 3개월치는 누구에게나 동일한 개수가 아니다. 제품 용법과 포장이 기준이다. 이 글로 개별 제품의 승인 상태나 치료 적합성을 판단해서는 안 된다.
 

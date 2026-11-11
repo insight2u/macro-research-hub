@@ -23,12 +23,7 @@
 
 ## 제3장: 관람 전 체크리스트
 
-| 축 | 확인할 질문 |
-|---|---|
-| 대본 | 시대 설명과 인물 선택의 균형 |
-| 음악 | 새 곡이 드러내는 인물 동기 |
-| 무대·의상 | 두 도시·계층 차이를 표현하는 방식 |
-| 캐스팅 | 같은 배역의 다른 해석 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">축</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확인할 질문</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">대본</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">시대 설명과 인물 선택의 균형</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">음악</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">새 곡이 드러내는 인물 동기</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">무대·의상</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">두 도시·계층 차이를 표현하는 방식</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">캐스팅</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">같은 배역의 다른 해석</td></tr></tbody></table>
 
 발표된 시드니 칼튼 역은 카이·신성록·고은성이다. 특정 날짜 출연진, 가격, 잔여석은 확인하지 않았다. 실제 관람 결정 전 공식 예매 화면의 회차 정보를 다시 확인해야 한다.
 

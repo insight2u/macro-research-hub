@@ -17,12 +17,7 @@
 
 [연합뉴스](https://www.yna.co.kr/view/AKR20261111082500002)에 따르면 제재 대상은 증권사 10곳과 은행 5곳이다. 공정위는 입찰 직전 금리 정보를 공유하거나 금리·물량을 합의해 경쟁을 제한했다고 판단했고 7곳을 중수청에 고발하기로 했다. 행정 제재·고발과 형사 유죄 판결은 구분해야 한다.
 
-| 숫자 | 뜻 | 뜻하지 않는 것 |
-|---|---|---|
-| 15곳 | 제재 대상 | 모든 금융회사 가담 |
-| 150건 | 정보교환 관련 입찰 | 입찰별 손실액 |
-| 약 54조원 | 과징금 산정 관련 매출액 | 국가가 잃은 돈 |
-| 1조6,265억7,500만원 | 과징금 결정액 | 피해 확정 추계 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">숫자</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">뜻</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">뜻하지 않는 것</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">15곳</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">제재 대상</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">모든 금융회사 가담</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">150건</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">정보교환 관련 입찰</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">입찰별 손실액</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">약 54조원</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">과징금 산정 관련 매출액</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">국가가 잃은 돈</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">1조6,265억7,500만원</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">과징금 결정액</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">피해 확정 추계</td></tr></tbody></table>
 
 ## 제2장: 입찰금리는 공공의 비용
 

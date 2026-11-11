@@ -27,11 +27,7 @@
 
 후반 논의는 임무지역 확대와 호르무즈 파병을 구분하고 활동 조건을 따질 필요를 제기했다. [뉴시스 동의안 보도](https://www.newsis.com/view/NISX20261110_0003862861)에서도 오만 남방 외해 확대와 호르무즈 제외라는 정부 설명을 확인했다. 정보 공유·전력 운용의 위험은 국회 심사의 별도 질문이다.
 
-| 방송 질문 | 확인할 자료 |
-|---|---|
-| 생활비 우선순위 | 세제안·예산·수혜자 분포 |
-| 확대 배치 조건 | 동의안 지역·전력·인원 |
-| 불개입의 실효성 | 정보 공유·임무 변경 통제 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">방송 질문</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확인할 자료</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">생활비 우선순위</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">세제안·예산·수혜자 분포</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확대 배치 조건</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">동의안 지역·전력·인원</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">불개입의 실효성</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">정보 공유·임무 변경 통제</td></tr></tbody></table>
 
 ## 제4장: 해석을 사실로 바꾸지 않기
 

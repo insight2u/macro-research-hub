@@ -19,12 +19,7 @@
 
 ## 제2장: 숫자를 더하면 안 되는 이유
 
-| 구분 | 보도된 규모 | 주의점 |
-|---|---:|---|
-| 관련 회사·파일 | 48개사·130여개 | 파일과 정보 항목은 다름 |
-| 행정서식 | 약 200건 | 동의서 샘플 등 |
-| 서식 속 개인정보 | 300여건 | 이름·생년월일 등 |
-| 시스템 이용자 정보 | 350여건 | 마스킹 상태 보도 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">구분</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">보도된 규모</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">주의점</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">관련 회사·파일</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">48개사·130여개</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">파일과 정보 항목은 다름</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">행정서식</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">약 200건</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">동의서 샘플 등</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">서식 속 개인정보</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">300여건</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">이름·생년월일 등</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">시스템 이용자 정보</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">350여건</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">마스킹 상태 보도</td></tr></tbody></table>
 
 이 숫자를 더해 피해자 수로 부를 수 없다. 같은 사람이 여러 문서에 포함될 수도 있다. 금융사 전체 고객의 거래정보가 유출됐다고 확대하는 것도 근거가 없다. 현재의 추정 범위를 최종 조사 결과로 취급하지 않는다.
 

@@ -25,12 +25,7 @@
 
 ## 제3장: 심사할 질문
 
-| 축 | 확인할 내용 |
-|---|---|
-| 지역 | 오만 남방 외해와 호르무즈 경계·이동 조건 |
-| 임무 | 선박 보호·정찰·기뢰 제거의 발동 조건 |
-| 정보 | 공유 상대와 사용 제한 |
-| 통제 | 임무 변경 시 국회 동의·보고 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">축</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확인할 내용</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">지역</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">오만 남방 외해와 호르무즈 경계·이동 조건</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">임무</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">선박 보호·정찰·기뢰 제거의 발동 조건</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">정보</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">공유 상대와 사용 제한</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">통제</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">임무 변경 시 국회 동의·보고</td></tr></tbody></table>
 
 찬반 결론을 미리 정하기보다 이 조건을 문서로 확인해야 한다. 전쟁 불개입의 실효성은 명칭보다 운용과 감독 설계로 평가할 문제다.
 

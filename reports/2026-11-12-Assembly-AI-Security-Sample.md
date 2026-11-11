@@ -25,12 +25,7 @@
 
 ## 제3장: 도입의 더 나은 평가 기준
 
-| 단계 | 본 보고의 점검 제안 |
-|---|---|
-| 입력 전 | 공개·개인정보·비공개 분류 |
-| 선택 | 저장·학습·접근 정책 확인 |
-| 사용 중 | 식별정보 최소화, 권한 제한 |
-| 결과 사용 | 근거 확인, 사람의 검토, 오류 기록 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">단계</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">본 보고의 점검 제안</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">입력 전</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">공개·개인정보·비공개 분류</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">선택</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">저장·학습·접근 정책 확인</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">사용 중</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">식별정보 최소화, 권한 제한</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">결과 사용</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">근거 확인, 사람의 검토, 오류 기록</td></tr></tbody></table>
 
 이는 시행 완료된 정책 목록이 아니다. 로그인 비율보다 업무 품질과 민감정보 취급의 일관성으로 성과를 평가할 필요가 있다.
 

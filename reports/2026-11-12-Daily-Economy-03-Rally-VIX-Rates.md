@@ -17,21 +17,13 @@
 
 > 수출·주식시장 쪽 회복 신호는 강해졌지만, 금리와 가계의 체감 비용까지 개선됐다고 판단할 근거는 아직 부족하다.
 
-| 판단 이력 | 이번 호가 이어받는 질문 |
-|---|---|
-| 11/11 2호, 반등의 내부 | 지수 상승의 구성과 수급을 구분 |
-| 11/12 3호 | 주식·환율 안도와 채권금리 상승을 함께 점검 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">판단 이력</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">이번 호가 이어받는 질문</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/11 2호, 반등의 내부</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">지수 상승의 구성과 수급을 구분</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/12 3호</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">주식·환율 안도와 채권금리 상승을 함께 점검</td></tr></tbody></table>
 
 이 표는 통계기관 판정이 아니라 본 보고의 논점 이력이다. 성장률 추정치를 새로 산출한 것은 아니다.
 
 ## 제2장: 같은 날 다른 방향의 가격
 
-| 지표 | 확인값 | 관측 기준·출처 |
-|---|---:|---|
-| 코스피 | 5,375.36, +136.23p | 11/11 한국 종가, 연합뉴스 |
-| 원/달러 | 1,333.6원 | 11/11 15:30 호가, 연합뉴스. 야간 종가 아님 |
-| 국고채 3년 | 3.729%, +9.6bp | 11/11 채권 마감, 연합뉴스 |
-| VIX | 17.49, -1.97p(-10.12%) | 11/11 미국 종가, Yahoo Finance |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">지표</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">확인값</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">관측 기준·출처</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">코스피</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">5,375.36, +136.23p</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/11 한국 종가, 연합뉴스</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">원/달러</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">1,333.6원</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/11 15:30 호가, 연합뉴스. 야간 종가 아님</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">국고채 3년</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">3.729%, +9.6bp</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/11 채권 마감, 연합뉴스</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">VIX</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">17.49, -1.97p(-10.12%)</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/11 미국 종가, Yahoo Finance</td></tr></tbody></table>
 
 [연합뉴스](https://en.yna.co.kr/view/AEN20261111007152320)는 기술주 상승과 외국인 6,552.6억원 순매수를 전했다. 특정 업종과 수급이 지수에 기여했다는 설명은 가능하지만 가계소득이나 민간소비 개선까지 입증하지는 않는다.
 
@@ -43,11 +35,7 @@
 
 ## 제4장: 발표 캘린더와 판단 전환 조건
 
-| 한국 시각 | 한국은행 공표 예정 통계 | 점검할 내용 |
-|---|---|---|
-| 11/13 금 06:00 | 10월 수출입물가·무역지수(잠정) | 가격과 물량 구분 |
-| 11/13 금 12:00 | 9월 통화 및 유동성 | 시차가 있는 자금량 |
-| 11/18 수 12:00 | 3분기 가계신용(잠정) | 부채 총량과 구성 |
+<table style="width:100%;table-layout:fixed;border-collapse:collapse;font-size:13px;line-height:1.6;"><thead><tr><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">한국 시각</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">한국은행 공표 예정 통계</th><th style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">점검할 내용</th></tr></thead><tbody><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/13 금 06:00</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">10월 수출입물가·무역지수(잠정)</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">가격과 물량 구분</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/13 금 12:00</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">9월 통화 및 유동성</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">시차가 있는 자금량</td></tr><tr><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">11/18 수 12:00</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">3분기 가계신용(잠정)</td><td style="padding:6px;border-bottom:1px solid #334155;white-space:normal;overflow-wrap:anywhere;vertical-align:top;text-align:left;">부채 총량과 구성</td></tr></tbody></table>
 
 [한국은행 일정](https://www.bok.or.kr/portal/submain/submain/sts.do?menuNo=200094)을 11/12 확인했다. 일정은 변경될 수 있다. 다음 호에서는 물량 개선과 금리 부담 완화를 확인한다. 수출 호조가 특정 업종·가격에 집중된다면 신중한 경기판단을 유지한다.
 
