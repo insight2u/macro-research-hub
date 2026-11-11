@@ -2,7 +2,7 @@
 
 **발행일**: 2026년 11월 10일 | **분류**: 정치·국방정책 심층 분석 | **작성**: 대한민국 최고 수준 국방정책·안보전략 싱크탱크 수석 연구위원
 
-![한미 특수작전부대 대원들이 자유의 방패(Freedom Shield) 2025 연습 중 낙하산 공중침투 훈련을 하는 모습(자료사진). 국방부는 내년도 특전사 고공·수중침투물자 예산을 올해의 13배로 편성했다. 사진: U.S. Army, Staff Sgt. Daniel Lee, [퍼블릭 도메인](https://commons.wikimedia.org/wiki/File:U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg/960px-U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg)
+![한미 특수작전부대 대원들이 자유의 방패(Freedom Shield) 2025 연습 중 낙하산 공중침투 훈련을 하는 모습(자료사진). 국방부는 내년도 특전사 고공·수중침투물자 예산을 올해의 13배로 편성했다. 사진: U.S. Army, Staff Sgt. Daniel Lee, 퍼블릭 도메인 (https://commons.wikimedia.org/wiki/File:U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg/960px-U_S_and_ROK_special_operations_forces_conduct_routine_jump_training_during_exercise_Freedom_Shield_2025_(8923410).jpg)
 
 ---
 
