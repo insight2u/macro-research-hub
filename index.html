@@ -19710,6 +19710,20 @@ function playCustomVideo(videoId, title) {
     </div>
   </div>
 
+  <style id="mobile-consultation-flow-fix">
+    @media (max-width: 600px) {
+      #kakaoFloatingWidget {
+        position: static !important;
+        width: fit-content;
+        max-width: calc(100% - 32px);
+        margin: 24px auto calc(24px + env(safe-area-inset-bottom));
+        z-index: auto !important;
+      }
+      #kakaoFloatingWidget .kakao-pulse-btn {
+        max-width: 100%;
+      }
+    }
+  </style>
   <!-- Floating KakaoTalk Messenger Quick Consultation Button -->
   <div id="kakaoFloatingWidget" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
     <button onclick="openKakaoChatModal()" class="kakao-pulse-btn" style="background: #FEE500; color: #191919; border: none; padding: 12px 18px; border-radius: 999px; font-weight: 800; font-size: 13.5px; box-shadow: 0 10px 25px rgba(254, 229, 0, 0.4); cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
