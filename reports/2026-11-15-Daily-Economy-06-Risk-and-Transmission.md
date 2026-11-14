@@ -14,7 +14,7 @@
 - VIX 11/13 종가 19.30, 전일보다 0.60p 상승.
 - 11/18 가계신용·11/20 생산자물가 발표 예정, 결과 아님.
 
-## 제 1장: 오늘의 한 문장 경기판단
+## 제1장: 오늘의 한 문장 경기판단
 
 > 시장의 위험 선호가 업종별로 갈리는 가운데 생활경제의 회복은 아직 별도 확인이 필요하다. 자산가격 하나로 경기 전체를 판정하지 않는다.
 
@@ -24,13 +24,13 @@
 
 주가지수는 해당 거래일 마감 보도, VIX는 Yahoo Finance 일별표의 11월 13일 종가를 사용했다.[1][2][3] 실시간 가격이 아니며 VIX의 단위는 주가지수 포인트다. VIX 상승률을 주가 하락률로 읽거나 특정 날짜의 경기침체 확률로 바꾸지 않는다.
 
-## 제 2장: 가격에 나타난 차이와 원인의 한계
+## 제2장: 가격에 나타난 차이와 원인의 한계
 
 연합인포맥스는 13일 필수소비재 업종이 1.39% 오른 반면 기술 업종은 1.7% 하락했다고 보도했다.[1] 파이낸셜뉴스도 다우의 상승과 기술주의 약세를 함께 전했다.[2] 다만 종가만으로 자금이 어느 계좌에서 어느 업종으로 실제 이동했는지 모두 추적할 수는 없다. 업종 수익률의 차이는 관측 사실이고, 방어적 자산으로의 이동이라는 설명은 해석이다.
 
 한국의 소비와 투자도 이 숫자만으로 설명되지 않는다. 가계대출의 규모와 차주별 부담, 기업이 받는 가격의 변화를 다음 통계에서 나누어 보아야 한다. 미국 기술주 약세를 한국 내수 위축의 직접 증거로 삼는 것은 중간 경로를 생략한다.
 
-## 제 3장: 판단 이력과 점검할 시나리오
+## 제3장: 판단 이력과 점검할 시나리오
 
 <table style="width:100%;table-layout:fixed;font-size:13px"><tr><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">호수</th><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">판단의 연결</th></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">4호·11/13</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">수입비용 완화와 일간 불안의 공존</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">5호·11/14</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">통화 총량보다 주체·상품별 전달 점검</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">6호·11/15</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">업종별 가격 분산과 가계 전달경로 분리</td></tr></table>
 
@@ -40,7 +40,7 @@
 
 한국은행 공식 공표일정을 11월 15일 확인했다.[4] 모두 한국시간이며 변경될 수 있다.
 
-<table style="width:100%;table-layout:fixed;font-size:13px"><tr><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">예정일</th><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">발표</th><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">점검 기준</th></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/18(수)12시</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 가계신용(잠정)</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">증가액·대출과 판매신용 구분</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/19(목)12시</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 국제투자대조표</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">대외 자산·부채 구조</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/20(금)06시</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">10월 생산자물가(잠정)</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">전월비·품목별 비용 전달</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/20(금)12시</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 차주별 가계부채</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">총량과 부담 분포의 차이</td></tr></table>
+<table style="width:100%;table-layout:fixed;font-size:13px"><tr><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">예정일</th><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">발표</th><th style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">점검 기준</th></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/18(수)<br>12:00</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 가계신용(잠정)</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">증가액·대출과 판매신용 구분</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/19(목)<br>12:00</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 국제투자대조표</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">대외 자산·부채 구조</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/20(금)<br>06:00</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">10월 생산자물가(잠정)</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">전월비·품목별 비용 전달</td></tr><tr><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">11/20(금)<br>12:00</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">3분기 차주별 가계부채</td><td style="padding:6px;white-space:normal;overflow-wrap:anywhere;text-align:left;border-bottom:1px solid #334155">총량과 부담 분포의 차이</td></tr></table>
 
 ## 부록: 출처와 확인 범위
 
