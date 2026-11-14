@@ -1,6 +1,9 @@
-『"27일 급식이 멈춘다" — 학교비정규직 총파업 예고, 교부금 개편이 부른 정면충돌』
+『학교비정규직 27일 총파업 예고 - 급식·돌봄 영향은 학교별 확인 필요』
 
 **발행일**: 2026년 11월 11일 | **분류**: 사회·노동 심층 분석 | **작성**: Instinct(AI)
+
+> 2026.11.14 정정: 원발행일은 유지하며, 사실·시점 구분 또는 작성자 표시를 바로잡았습니다. 작성: Instinct(AI). 근거: https://www.yna.co.kr/view/AKR20261109058251530
+
 
 ![학교 급식용 농산물 꾸러미. 27일 총파업이 현실화하면 일부 학교는 급식 대신 빵이나 도시락을 제공하고 돌봄을 축소할 가능성이 크다. 사진: 학습자, CC BY-SA 4.0(https://commons.wikimedia.org/wiki/File:학교_급식_농산물_꾸러미.jpg), Wikimedia Commons 원본(https://commons.wikimedia.org/wiki/File:학교_급식_농산물_꾸러미.jpg)](https://upload.wikimedia.org/wikipedia/commons/e/eb/%ED%95%99%EA%B5%90_%EA%B8%89%EC%8B%9D_%EB%86%8D%EC%82%B0%EB%AC%BC_%EA%BE%B8%EB%9F%AC%EB%AF%B8.jpg)
 
