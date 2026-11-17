@@ -1,148 +1,179 @@
 {
-  "updated_at": "2026-11-17T12:59:59.508135+00:00",
-  "refresh_note": "공개 채널 확인 · 생방송은 제공사 송출 · 녹화 목록은 00:30/21:00 KST 발행 작업에서 갱신",
-  "sources": [
-    {
-      "name": "Bloomberg",
-      "favorite": "https://www.bloomberg.com/asia",
-      "url": "https://www.youtube.com/@markets/streams",
-      "live_only": true
-    },
-    {
-      "name": "연합뉴스",
-      "favorite": "https://www.yna.co.kr/",
-      "url": "https://www.youtube.com/channel/UCj3_t5p4L4aFsvdW3uHjnnw/videos"
-    },
-    {
-      "name": "뉴스타파",
-      "favorite": "https://newstapa.org/",
-      "url": "https://www.youtube.com/channel/UCeFUGS2VCOb6DO3BiUgvwNA/videos"
-    },
-    {
-      "name": "오마이TV",
-      "favorite": "https://www.ohmynews.com/",
-      "url": "https://www.youtube.com/channel/UClAfLVQYZSLrMAQQ_SXPVZw/videos"
-    }
-  ],
+  "version": 2,
+  "updated_at": "2026-11-17T14:35:55.107211+00:00",
+  "slot_seconds": 90,
+  "target_live_ratio": 0.7,
+  "refresh_note": "정기 발행 준비에서 목록 재검증 · 재생 제한/멈춤은 자동 건너뜀 · 실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다.",
+  "mix_note": "편성: 10슬롯 중 생방송 7·주요녹화 3, 각 약90초. 미국30%·한국20%·유럽20%·중국10%·일본10%·기타10%. 국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다. 제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다.",
   "videos": [
     {
-      "id": "QB5BNdBFujE",
-      "source": "Bloomberg",
-      "title": "Bloomberg Business News Live",
-      "url": "https://www.youtube.com/watch?v=QB5BNdBFujE",
-      "channel_url": "https://www.youtube.com/@markets/streams",
-      "favorite_url": "https://www.bloomberg.com/asia",
+      "id": "aZyD6EPl6KU",
+      "source": "YTN",
+      "region": "한국",
+      "title": "[LIVE] 대한민국 24시간 뉴스채널 YTN",
+      "url": "https://www.youtube.com/watch?v=aZyD6EPl6KU",
+      "channel_url": "https://www.youtube.com/user/ytnnews24/live",
       "live": true,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"1.1만명 시청 중\"}, \"accessibilityLabel\": \"1.1만명 시청 중\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.458865+00:00"
+      "verified_at": "2026-11-17T14:35:55.106916+00:00",
+      "published_at": null,
+      "official_channel_id": "UChlgI3UHCOnwUGzWzbJ3H5w",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2026-03-20T06:42:09+00:00"
+      },
+      "embed_verified": true
+    },
+    {
+      "id": "2bJyb9-tnKU",
+      "source": "ABC News",
+      "region": "미국",
+      "title": "LIVE: ABC News Live - Tuesday, November 17",
+      "url": "https://www.youtube.com/c/ABCNews/live?cbrd=1&ucbcb=1",
+      "channel_url": "https://www.youtube.com/c/ABCNews/live?cbrd=1&ucbcb=1",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.106968+00:00",
+      "published_at": null,
+      "official_channel_id": "UCBi2mrWuNuyYy4gbM6fU18Q",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2026-11-17T11:02:59+00:00"
+      },
+      "embed_verified": true
+    },
+    {
+      "id": "LuKwFajn37U",
+      "source": "DW News",
+      "region": "유럽·독일",
+      "title": "DW News livestream | Headline news from around the world",
+      "url": "https://www.youtube.com/watch?v=LuKwFajn37U",
+      "channel_url": "https://www.youtube.com/c/dwnews/live",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.106996+00:00",
+      "published_at": null,
+      "official_channel_id": "UCknLrEdhRCp1aegoMqRaCZg",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2025-03-31T17:50:08+00:00"
+      },
+      "embed_verified": true
+    },
+    {
+      "id": "weSev3qqXG4",
+      "source": "CNN",
+      "region": "미국",
+      "title": "Trump talks tech policy in Asia, downplays US tech outage concerns",
+      "url": "https://www.youtube.com/watch?v=weSev3qqXG4",
+      "channel_url": "https://www.youtube.com/cnn/videos",
+      "live": false,
+      "verified_at": "2026-11-17T14:35:55.107022+00:00",
+      "published_at": "2026-11-17T06:02:27-08:00",
+      "official_channel_id": "UCupvZG-5ko_eiXAupbDfxWw",
+      "live_evidence": null,
+      "embed_verified": true
+    },
+    {
+      "id": "0i7n3r01L2U",
+      "source": "CGTN",
+      "region": "중국",
+      "title": "🔴 Watch CGTN LIVE 24/7 #CGTNLIVE",
+      "url": "https://www.youtube.com/watch?v=0i7n3r01L2U",
+      "channel_url": "https://www.youtube.com/CGTN/streams",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.107057+00:00",
+      "published_at": null,
+      "official_channel_id": "UCgrNz-aDmcr2uuto8_DL2jg",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2026-08-14T01:21:12+00:00"
+      },
+      "embed_verified": true
+    },
+    {
+      "id": "IimtbuqYIE8",
+      "source": "NHK WORLD-JAPAN",
+      "region": "일본",
+      "title": "LIVE: NHK WORLD-JAPAN News",
+      "url": "https://www.youtube.com/watch?v=IimtbuqYIE8",
+      "channel_url": "https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.107083+00:00",
+      "published_at": null,
+      "official_channel_id": "UCSPEjw8F2nQDtmUKPFNF7_A",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2026-09-02T05:10:50+00:00"
+      },
+      "embed_verified": true
+    },
+    {
+      "id": "VlokWDe1ETg",
+      "source": "Bloomberg Television",
+      "region": "미국",
+      "title": "US October Retail Sales Slow, But Beat Estimates",
+      "url": "https://www.youtube.com/watch?v=VlokWDe1ETg",
+      "channel_url": "https://www.youtube.com/@markets/videos",
+      "live": false,
+      "verified_at": "2026-11-17T14:35:55.107105+00:00",
+      "published_at": "2026-11-17T06:24:48-08:00",
+      "official_channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+      "live_evidence": null,
+      "embed_verified": true
+    },
+    {
+      "id": "HvZt-nh9sGg",
+      "source": "FRANCE 24 English",
+      "region": "유럽·프랑스",
+      "title": "FRANCE 24 English – LIVE – International Breaking News & Top stories - 24/7 stream",
+      "url": "https://www.youtube.com/watch?v=HvZt-nh9sGg",
+      "channel_url": "https://www.youtube.com/@France24_en",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.107134+00:00",
+      "published_at": null,
+      "official_channel_id": "UCQfwfsi5VrQ8yKZ-UWmAEFg",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2026-05-27T10:26:21+00:00"
+      },
+      "embed_verified": true
     },
     {
       "id": "BApM_3zPVLA",
       "source": "연합뉴스",
+      "region": "한국",
       "title": "네타냐후 몰락 초읽기?…이란·가자전쟁 영향은(ft.성일광 교수) / 연합뉴스 (Yonhapnews)",
       "url": "https://www.youtube.com/watch?v=BApM_3zPVLA",
       "channel_url": "https://www.youtube.com/channel/UCj3_t5p4L4aFsvdW3uHjnnw/videos",
-      "favorite_url": "https://www.yna.co.kr/",
       "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"3.1천\"}, \"accessibilityLabel\": \"조회수 3.1천회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"3시간 전\"}, \"accessibilityLabel\": \"3시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.507013+00:00",
-      "published_at": "2026-11-17T09:27:20+00:00"
+      "verified_at": "2026-11-17T14:35:55.107172+00:00",
+      "published_at": "2026-11-17T01:27:20-08:00",
+      "official_channel_id": "UCj3_t5p4L4aFsvdW3uHjnnw",
+      "live_evidence": null,
+      "embed_verified": true
     },
     {
-      "id": "Tpc3cUrJDe8",
-      "source": "뉴스타파",
-      "title": "[인사이드 도이체방크] 사상 최대 문건 유출...글로벌 금융의 민낯 - 뉴스타파",
-      "url": "https://www.youtube.com/watch?v=Tpc3cUrJDe8",
-      "channel_url": "https://www.youtube.com/channel/UCeFUGS2VCOb6DO3BiUgvwNA/videos",
-      "favorite_url": "https://newstapa.org/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"1.1만\"}, \"accessibilityLabel\": \"조회수 1.1만회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"6시간 전\"}, \"accessibilityLabel\": \"6시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.450088+00:00",
-      "published_at": "2026-11-17T06:21:22+00:00"
-    },
+      "id": "gCNeDWCI0vo",
+      "source": "Al Jazeera English",
+      "region": "기타·카타르",
+      "title": "🔴 Al Jazeera English | Live",
+      "url": "https://www.youtube.com/watch?v=gCNeDWCI0vo",
+      "channel_url": "https://www.youtube.com/@aljazeeraenglish",
+      "live": true,
+      "verified_at": "2026-11-17T14:35:55.107206+00:00",
+      "published_at": null,
+      "official_channel_id": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+      "live_evidence": {
+        "isLiveNow": true,
+        "startTimestamp": "2023-03-10T00:37:12+00:00"
+      },
+      "embed_verified": true
+    }
+  ],
+  "access_limits": [
     {
-      "id": "y5xWtDhHi9Y",
-      "source": "오마이TV",
-      "title": "[현장] '밥을 지어요' 필리핀 '발칵 뒤집은' K-푸드? 김혜경 여사가 직접 만든 떡갈비",
-      "url": "https://www.youtube.com/watch?v=y5xWtDhHi9Y",
-      "channel_url": "https://www.youtube.com/channel/UClAfLVQYZSLrMAQQ_SXPVZw/videos",
-      "favorite_url": "https://www.ohmynews.com/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"1.5천\"}, \"accessibilityLabel\": \"조회수 1.5천회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"1시간 전\"}, \"accessibilityLabel\": \"1시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.485918+00:00",
-      "published_at": "2026-11-17T11:28:44+00:00"
-    },
-    {
-      "id": "VoJLMrz84f0",
-      "source": "연합뉴스",
-      "title": "\"배트맨이 007?\" 로버트 패틴슨, 제임스 본드 된다…본드걸은? / 연합뉴스 (Yonhapnews)",
-      "url": "https://www.youtube.com/watch?v=VoJLMrz84f0",
-      "channel_url": "https://www.youtube.com/channel/UCj3_t5p4L4aFsvdW3uHjnnw/videos",
-      "favorite_url": "https://www.yna.co.kr/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"6.9천\"}, \"accessibilityLabel\": \"조회수 6.9천회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"4시간 전\"}, \"accessibilityLabel\": \"4시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.507260+00:00",
-      "published_at": "2026-11-17T08:36:44+00:00"
-    },
-    {
-      "id": "dqjzW5KAEww",
-      "source": "뉴스타파",
-      "title": "한강버스는 왜 운항을 서둘렀나…오세훈 시장과 불꽃축제 - 뉴스타파",
-      "url": "https://www.youtube.com/watch?v=dqjzW5KAEww&pp=0gcJCbQAKgI3ePta",
-      "channel_url": "https://www.youtube.com/channel/UCeFUGS2VCOb6DO3BiUgvwNA/videos",
-      "favorite_url": "https://newstapa.org/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"2.5만\"}, \"accessibilityLabel\": \"조회수 2.5만회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"1일 전\"}, \"accessibilityLabel\": \"1일 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.450259+00:00",
-      "published_at": "2026-11-16T11:40:11+00:00"
-    },
-    {
-      "id": "riMudl3Frgk",
-      "source": "오마이TV",
-      "title": "[현장] '버선발' 다카이치, 잼통 보자 손 덥석…회담서 방일 수락도 O.K!",
-      "url": "https://www.youtube.com/watch?v=riMudl3Frgk",
-      "channel_url": "https://www.youtube.com/channel/UClAfLVQYZSLrMAQQ_SXPVZw/videos",
-      "favorite_url": "https://www.ohmynews.com/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"1.6만\"}, \"accessibilityLabel\": \"조회수 1.6만회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"2시간 전\"}, \"accessibilityLabel\": \"2시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.486100+00:00",
-      "published_at": "2026-11-17T10:11:27+00:00"
-    },
-    {
-      "id": "bUTRaVnnHLg",
-      "source": "연합뉴스",
-      "title": "200만 원 자전거 도난…앳된 얼굴의 용의자, 왜 못 잡나? [BlaccTV] / 연합뉴스 (Yonhapnews)",
-      "url": "https://www.youtube.com/watch?v=bUTRaVnnHLg",
-      "channel_url": "https://www.youtube.com/channel/UCj3_t5p4L4aFsvdW3uHjnnw/videos",
-      "favorite_url": "https://www.yna.co.kr/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"6.9천\"}, \"accessibilityLabel\": \"조회수 6.9천회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"4시간 전\"}, \"accessibilityLabel\": \"4시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.507460+00:00",
-      "published_at": "2026-11-17T08:35:13+00:00"
-    },
-    {
-      "id": "CPiGaekDZKo",
-      "source": "뉴스타파",
-      "title": "투명인간과 살아가는 법 - 뉴스타파 목격자들",
-      "url": "https://www.youtube.com/watch?v=CPiGaekDZKo",
-      "channel_url": "https://www.youtube.com/channel/UCeFUGS2VCOb6DO3BiUgvwNA/videos",
-      "favorite_url": "https://newstapa.org/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"5.8만\"}, \"accessibilityLabel\": \"조회수 5.8만회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"6일 전\"}, \"accessibilityLabel\": \"6일 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.450383+00:00",
-      "published_at": "2026-11-11T08:00:09+00:00"
-    },
-    {
-      "id": "pmLIXHjsops",
-      "source": "오마이TV",
-      "title": "[현장] '대인배' 송영길, '자격미달자' 외친 정청래에 \"마음 가라앉는다면 그런 말 언제든지\"",
-      "url": "https://www.youtube.com/watch?v=pmLIXHjsops",
-      "channel_url": "https://www.youtube.com/channel/UClAfLVQYZSLrMAQQ_SXPVZw/videos",
-      "favorite_url": "https://www.ohmynews.com/",
-      "live": false,
-      "published_label": "{\"contentMetadataViewModel\": {\"metadataRows\": [{\"metadataParts\": [{\"text\": {\"content\": \"1.5만\"}, \"accessibilityLabel\": \"조회수 1.5만회\", \"leadingIcon\": {\"name\": \"PLAY_ARROW_OUTLINED\", \"height\": 12, \"width\": 12}}, {\"text\": {\"content\": \"3시간 전\"}, \"accessibilityLabel\": \"3시간 전\"}]}], \"delimiter\": \" \"}}",
-      "verified_at": "2026-11-17T12:59:59.486220+00:00",
-      "published_at": "2026-11-17T09:08:59+00:00"
+      "name": "CNN HLN",
+      "url": "https://www.cnn.com/videos/hln",
+      "policy_url": "https://www.cnn.com/about/tv/",
+      "note": "HLN은 CNN 공식 네트워크TV/제공사 인증 경로입니다. 무료 생방송으로 대체 표시하지 않습니다. CNN 공식 주요녹화는 별도편성."
     }
   ],
   "errors": []
