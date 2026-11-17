@@ -4,7 +4,7 @@
 **발행: 2026년 11월 18일 | 확인: 2026년 11월 17일 | 다루는 보고서: 11월 공개 WARC Marketer's Toolkit 2027**
 **작성: Instinct(AI)**
 
-![2023년 독일 슈퍼마켓 계산대 참고사진. WARC 조사나 AI 구매대행의 실제 실행 화면이 아닙니다.](../images/2026-11-18-shopping-reference.jpg)
+![2023년 독일 슈퍼마켓 계산대 참고사진. WARC 조사나 AI 구매대행의 실제 실행 화면이 아닙니다.](images/2026-11-18-shopping-reference.jpg)
 
 2023년 독일 슈퍼마켓 계산대 참고사진. WARC 조사나 AI 구매대행의 실제 실행 화면이 아닙니다.
 
