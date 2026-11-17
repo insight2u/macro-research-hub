@@ -36,3 +36,6 @@ S2. 알파경제, 2026-11-16 관련 보도: https://www.alphabiz.co.kr/news/arti
 
 ---
 2026.11.17 저녁 수정판. 오늘의 원래 주제를 유지하고 새 코너·부제, 사실과 해석, 기준일 구분을 반영했습니다. 방송·외부 채널의 수정본 공개 여부는 이 기사 발행과 별개입니다.
+
+
+<aside class="dailyshot-subscribe"><strong>DailyShot Macro Research를 계속 만나세요</strong><p>같은 주제와 제목으로 신문에서 읽고 방송으로 들으세요. 채널 구독·팔로우로 다음 편을 받아보세요.</p><div><a href="https://www.youtube.com/@youngsun1976" target="_blank" rel="noopener">YouTube 구독 ↗</a><a href="https://open.spotify.com/show/0bXi9vbte0UraD9ScEAWWc" target="_blank" rel="noopener">Spotify 팔로우 ↗</a><a href="https://creators.spotify.com/pod/profile/l7bo8obou98/" target="_blank" rel="noopener">팟캐스트 듣기 ↗</a></div></aside>
