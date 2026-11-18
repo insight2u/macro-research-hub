@@ -12136,7 +12136,7 @@
     side.setAttribute('aria-label','최신 기사, 메인 다음 발행순');
     const topId=leadStories[0]?.reportId;
     const next=reports.filter(r=>r.id!==topId).slice(0,3);
-    side.innerHTML=next.map(r=>'<div class="sub-report-card"><div><div class="sub-card-top"><span>'+escapeHTML(r.category)+'</span><span>'+escapeHTML(r.date)+' 발행</span></div><h3>'+escapeHTML(r.title)+'</h3><p>'+escapeHTML(r.summary||r.subtitle)+'</p></div><div class="sub-card-foot"><span>'+escapeHTML(r.read_time)+' 읽기</span><button class="btn-read-modal" data-latest-report="'+escapeHTML(r.id)+'" style="padding:4px 12px;font-size:11px;">전문 읽기 &gt;</button></div></div>').join('');
+    side.innerHTML=next.map(r=>'<div class="sub-report-card"><div><div class="sub-card-top"><span>'+escapeHTML(r.category)+(r.field?' ('+escapeHTML(r.field)+')':'')+'</span><span>'+escapeHTML(r.date)+' 발행</span></div><h3>'+escapeHTML(r.title)+'</h3><p>'+escapeHTML(r.summary||r.subtitle)+'</p></div><div class="sub-card-foot"><span>'+escapeHTML(r.read_time)+' 읽기</span><button class="btn-read-modal" data-latest-report="'+escapeHTML(r.id)+'" style="padding:4px 12px;font-size:11px;">전문 읽기 &gt;</button></div></div>').join('');
     side.querySelectorAll('[data-latest-report]').forEach(b=>b.addEventListener('click',()=>openReportModal(b.dataset.latestReport)));
   }
 })();
