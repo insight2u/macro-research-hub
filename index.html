@@ -12318,7 +12318,10 @@ function tick(now){const dt=Math.max(0,Math.min(now-last,100));last=now;if(!paus
 @media(max-width:760px){#daily-newsroom .nr-nav{justify-content:flex-start!important;gap:8px 14px!important;padding:10px 0!important;margin-bottom:16px}#daily-newsroom .nr-nav a{font-size:9px!important}#daily-newsroom #nr-quick-search{flex:1 1 128px!important;margin-left:0!important;max-width:180px}#daily-newsroom #nr-quick-q{width:100%!important;height:27px!important;min-height:27px!important}.nr-utility-dialog{padding:15px}}
 </style><script id="utility-navigation-dialogs">(()=>{
 const search=document.getElementById('archive-search-dialog'),map=document.getElementById('sitemap-dialog');
-for(const d of [search,map])d.querySelector('.nr-utility-close').onclick=()=>d.close();
+for(const d of [search,map]){
+d.querySelector('.nr-utility-close').onclick=()=>d.close();
+d.addEventListener('click',e=>{const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()});
+}
 document.querySelectorAll('a[href="#nr-archive"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();if(!search.open)search.showModal();document.getElementById('ar-query').focus()}));
 document.querySelectorAll('a[href="#nr-sitemap"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();if(!map.open)map.showModal()}));
 document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!search.open)search.showModal();document.getElementById('ar-query').focus()});
@@ -12342,7 +12345,7 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .ds-family-scene .ds-cinema img,#daily-newsroom .ds-family-scene .family-cinema img{display:block;height:100%;width:auto;object-fit:contain}
 #daily-newsroom .nr-edition{flex:0 0 100%;text-align:left;margin-top:10px}
 @media(max-width:760px){#daily-newsroom .ds-first-row{height:auto}#daily-newsroom .ds-family-scene{height:88px;width:auto;flex-basis:auto;margin-left:0}#daily-newsroom .ds-family-scene .ds-cinema,#daily-newsroom .ds-family-scene .family-cinema{height:88px!important;width:auto!important;flex-basis:auto!important;position:static!important;left:auto!important;top:auto!important}}
-</style><style id="masthead-user-backdrop-v1">
+</style><style id="reader-outside-close">@media(max-width:760px){#ar-reader{inset:1.5dvh 0 0;height:98.5dvh;max-height:98.5dvh;border-radius:16px 16px 0 0}}</style><style id="masthead-user-backdrop-v1">
 /* 2026-11-19 04:39 user directive: title slightly left, his character fixed as backdrop between title and World Newsroom, small recolored performers in front */
 #daily-newsroom .nr-name{font-size:clamp(42px,4.4vw,60px)}
 #daily-newsroom .ds-mast-layout{display:grid;grid-template-columns:auto minmax(210px,1fr);grid-template-rows:auto auto;column-gap:26px;align-items:end}
