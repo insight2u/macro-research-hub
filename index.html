@@ -21754,6 +21754,8 @@ function updateMusic(){
   window.__playMusicLang = function(lang, autoplay){
     var mm = MUSIC[lang]; if (!mm || !player) return false;
     if (audio){ audio.pause(); playing = false; }
+    if (window.__musicAutoStop){ clearTimeout(window.__musicAutoStop); window.__musicAutoStop = null; }
+    if (autoplay){ window.__musicAutoStop = setTimeout(function(){ updateMusic(); }, 6000); }
     if (mm.yt){
       player.innerHTML = '<iframe title="music" width="260" height="146" style="max-width:62vw;border:0;border-radius:6px" src="https://www.youtube.com/embed/' + mm.yt + '?rel=0&enablejsapi=1' + (autoplay ? '&autoplay=1' : '') + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
       player.hidden = false;
