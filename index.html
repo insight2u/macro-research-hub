@@ -12447,6 +12447,23 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom #nm-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;margin:6px 0 0!important;font-size:12px!important;line-height:1.35!important}
 #daily-newsroom .nm-settings{margin-top:6px!important;padding-top:5px!important}
 </style>
+<style id="masthead-compact-v1">
+/* 2026-11-19 07:19 user directive: title block is too tall vertically - compact the nameplate while keeping the title+video side-by-side layout and the family characters. */
+#daily-newsroom .nr-mast{padding:18px 0 16px}
+#daily-newsroom .ds-mast-layout{min-height:0;padding:11px 110px 10px 16px}
+#daily-newsroom .nr-edition{margin:0 0 6px!important}
+#daily-newsroom .nr-kicker{margin-bottom:5px}
+#daily-newsroom .nr-name{font-size:clamp(34px,3.4vw,46px);line-height:1.02;letter-spacing:-.05em}
+@media(max-width:760px){
+#daily-newsroom #dailyshot-masthead{grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr);gap:8px;padding:10px 0 8px}
+#daily-newsroom .ds-mast-layout{padding:8px 9px 7px}
+#daily-newsroom .nr-edition{gap:4px;font-size:8.5px;margin:0 0 4px!important}
+#daily-newsroom #family-motion-toggle{padding:2px 8px;font-size:9px;min-height:22px}
+#daily-newsroom .nr-kicker{font-size:10px;margin-bottom:3px;padding:1px 6px}
+#daily-newsroom .nr-name{font-size:18px!important;line-height:1.05}
+#daily-newsroom .nm-player{min-height:88px}
+}
+</style>
 
 
 
