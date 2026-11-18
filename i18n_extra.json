@@ -601,5 +601,59 @@
 "ru": "Подзаголовок",
 "ar": "العنوان الفرعي",
 "sw": "Kichwa kidogo"
+},
+"· 아침판": {
+"en": "· Morning Edition",
+"zh": "· 早报",
+"ja": "· 朝刊",
+"es": "· Edición matutina",
+"ru": "· Утренний выпуск",
+"ar": "· الطبعة الصباحية",
+"sw": "· Toleo la asubuhi"
+},
+" 아침판": {
+"en": " Morning Edition",
+"zh": " 早报",
+"ja": " 朝刊",
+"es": " Edición matutina",
+"ru": " Утренний выпуск",
+"ar": " الطبعة الصباحية",
+"sw": " Toleo la asubuhi"
+},
+"· 기업": {
+"en": "· Business",
+"zh": "· 企业",
+"ja": "· 企業",
+"es": "· Empresas",
+"ru": "· Бизнес",
+"ar": "· الشركات",
+"sw": "· Biashara"
+},
+"· 문화": {
+"en": "· Culture",
+"zh": "· 文化",
+"ja": "· 文化",
+"es": "· Cultura",
+"ru": "· Культура",
+"ar": "· الثقافة",
+"sw": "· Utamaduni"
+},
+"· 세계경제": {
+"en": "· World Economy",
+"zh": "· 世界经济",
+"ja": "· 世界経済",
+"es": "· Economía mundial",
+"ru": "· Мировая экономика",
+"ar": "· الاقتصاد العالمي",
+"sw": "· Uchumi wa dunia"
+},
+"· 생활금융": {
+"en": "· Personal Finance",
+"zh": "· 生活金融",
+"ja": "· 生活金融",
+"es": "· Finanzas personales",
+"ru": "· Личные финансы",
+"ar": "· التمويل الشخصي",
+"sw": "· Fedha binafsi"
 }
 }
