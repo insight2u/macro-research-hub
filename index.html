@@ -21745,12 +21745,32 @@ function updateMusic(){
   btn.setAttribute('aria-pressed','false');
   var openYt = function(autoplay){
     if (!player) return;
-    player.innerHTML = '<iframe title="music" width="260" height="146" style="max-width:62vw;border:0;border-radius:6px" src="https://www.youtube.com/embed/' + m.yt + '?rel=0' + (autoplay ? '&autoplay=1' : '') + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    player.innerHTML = '<iframe title="music" width="260" height="146" style="max-width:62vw;border:0;border-radius:6px" src="https://www.youtube.com/embed/' + m.yt + '?rel=0&enablejsapi=1' + (autoplay ? '&autoplay=1' : '') + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
     player.hidden = false;
     btn.textContent = '\u23f8 ' + m.label;
     btn.setAttribute('aria-pressed','true');
   };
   window.__openMusic = function(autoplay){ if (m.yt) openYt(autoplay); };
+  window.__playMusicLang = function(lang, autoplay){
+    var mm = MUSIC[lang]; if (!mm || !player) return false;
+    if (audio){ audio.pause(); playing = false; }
+    if (mm.yt){
+      player.innerHTML = '<iframe title="music" width="260" height="146" style="max-width:62vw;border:0;border-radius:6px" src="https://www.youtube.com/embed/' + mm.yt + '?rel=0&enablejsapi=1' + (autoplay ? '&autoplay=1' : '') + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+      player.hidden = false;
+      btn.textContent = '\u23f8 ' + mm.label;
+      btn.setAttribute('aria-pressed','true');
+      return true;
+    }
+    if (mm.src){
+      audio = new Audio(mm.src);
+      audio.dataset.lang = lang;
+      audio.onended = function(){ playing=false; };
+      audio.onerror = function(){ playing=false; };
+      if (autoplay){ audio.play().then(function(){ playing=true; }).catch(function(){ playing=false; }); }
+      return true;
+    }
+    return false;
+  };
   btn.onclick = function(){
     if (m.yt){
       if (player && !player.hidden){ player.hidden = true; player.innerHTML = ''; btn.textContent = '\u25b6 ' + m.label; btn.setAttribute('aria-pressed','false'); }
@@ -21970,6 +21990,21 @@ setInterval(tagUntranslated, 700);
 document.querySelectorAll('#lang-bar .lang-btn').forEach(function(b){
   b.addEventListener('click', function(){ applyLang(b.dataset.lang, true); });
 });
+document.querySelectorAll('#lang-bar .lang-btn').forEach(function(b){
+  b.addEventListener('click', function(){
+    setTimeout(function(){ if (window.__playMusicLang) window.__playMusicLang(b.dataset.lang, true); }, 80);
+  });
+});
+if (window.matchMedia && matchMedia('(hover: hover) and (pointer: fine)').matches){
+  var musicHoverTimer = null;
+  document.querySelectorAll('#lang-bar .lang-btn').forEach(function(b){
+    b.addEventListener('mouseenter', function(){
+      clearTimeout(musicHoverTimer);
+      musicHoverTimer = setTimeout(function(){ if (window.__playMusicLang) window.__playMusicLang(b.dataset.lang, true); }, 450);
+    });
+    b.addEventListener('mouseleave', function(){ clearTimeout(musicHoverTimer); });
+  });
+}
 if (cur !== 'ko'){
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ applyLang(cur, false); });
   else applyLang(cur, false);
