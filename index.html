@@ -12464,6 +12464,16 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .nm-player{min-height:88px}
 }
 </style>
+<style id="masthead-compact-v2">
+/* 2026-11-19 07:19 follow-up: masthead height is video-column driven - slim the video widget so the whole title block gets shorter, layout unchanged. */
+#daily-newsroom .nm-player{aspect-ratio:auto;height:140px;min-height:0}
+#daily-newsroom .nm-head{margin-bottom:6px}
+#daily-newsroom .nm-meta{margin-top:6px}
+#daily-newsroom .nm-widget{padding-bottom:10px}
+@media(max-width:760px){
+#daily-newsroom .nm-player{height:68px}
+}
+</style>
 
 
 
