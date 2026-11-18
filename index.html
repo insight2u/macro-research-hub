@@ -21714,12 +21714,16 @@ var obs = new MutationObserver(function(muts){
 function tagUntranslated(){
   if (cur === 'ko') return;
   document.querySelectorAll('[role="dialog"], dialog').forEach(function(d){
-    if (d.querySelector('.i18n-fallback-note')) return;
-    var note = document.createElement('div');
-    note.className = 'i18n-fallback-note';
-    note.style.cssText = 'background:#fff8e1;border:1px solid #d4b45a;color:#6b5a1a;padding:8px 12px;margin:0 0 12px;font-size:12px;border-radius:4px;line-height:1.5';
+    var note = d.querySelector('.i18n-fallback-note');
+    if (note && note.dataset.lang === cur) return;
+    if (!note){
+      note = document.createElement('div');
+      note.className = 'i18n-fallback-note';
+      note.style.cssText = 'background:#fff8e1;border:1px solid #d4b45a;color:#6b5a1a;padding:8px 12px;margin:0 0 12px;font-size:12px;border-radius:4px;line-height:1.5';
+      d.insertBefore(note, d.firstChild);
+    }
+    note.dataset.lang = cur;
     note.textContent = FALLBACK[cur] || FALLBACK.en;
-    d.insertBefore(note, d.firstChild);
   });
 }
 obs.observe(document.body, {childList:true, subtree:true});
