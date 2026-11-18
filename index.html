@@ -21761,11 +21761,15 @@ var greetAudio = null;
 function dressCharacter(lang){
   var img = document.getElementById('ds-cinema-character');
   if (!img) return;
-  if (!img.dataset.origSrc) img.dataset.origSrc = img.getAttribute('src');
+  if (!img.dataset.origMotion){ img.dataset.origMotion = img.dataset.motion || img.getAttribute('src'); img.dataset.origPoster = img.dataset.poster || img.getAttribute('src'); }
   if (lang === 'ko' || !CHAR_IMG[lang]){
-    img.src = img.dataset.origSrc;
+    img.dataset.motion = img.dataset.origMotion;
+    img.dataset.poster = img.dataset.origPoster;
+    img.src = img.dataset.origMotion;
     img.classList.remove('ds-char-sway');
   } else {
+    img.dataset.motion = CHAR_IMG[lang];
+    img.dataset.poster = CHAR_IMG[lang];
     img.src = CHAR_IMG[lang];
     img.classList.add('ds-char-sway');
   }
