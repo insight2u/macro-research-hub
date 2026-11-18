@@ -21713,7 +21713,7 @@ var obs = new MutationObserver(function(muts){
 });
 function tagUntranslated(){
   if (cur === 'ko') return;
-  document.querySelectorAll('[role="dialog"]').forEach(function(d){
+  document.querySelectorAll('[role="dialog"], dialog').forEach(function(d){
     if (d.querySelector('.i18n-fallback-note')) return;
     var note = document.createElement('div');
     note.className = 'i18n-fallback-note';
