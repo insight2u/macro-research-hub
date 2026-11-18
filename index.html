@@ -21773,6 +21773,19 @@ function dressCharacter(lang){
     img.src = CHAR_IMG[lang];
     img.classList.add('ds-char-sway');
   }
+  var lc = document.getElementById('lang-char');
+  var bar = document.getElementById('lang-bar');
+  if (!lc && bar){
+    lc = document.createElement('img');
+    lc.id = 'lang-char';
+    lc.alt = '';
+    lc.style.cssText = 'height:52px;width:auto;margin-left:8px;vertical-align:middle';
+    bar.appendChild(lc);
+  }
+  if (lc){
+    if (lang === 'ko' || !CHAR_IMG[lang]){ lc.style.display = 'none'; }
+    else { lc.src = CHAR_IMG[lang]; lc.style.display = ''; lc.classList.add('ds-char-sway'); }
+  }
 }
 function greetLang(lang){
   try { if (greetAudio){ greetAudio.pause(); greetAudio = null; window.__greetAudio = null; } } catch(e){}
