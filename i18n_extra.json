@@ -538,5 +538,23 @@
 "ru": "Будущее экосистемы кинотеатров и OTT",
 "ar": "مستقبل منظومة دور السينما وOTT",
 "sw": "Mustakabali wa ikolojia ya sinema na OTT"
+},
+"INDEPENDENT KNOWLEDGE JOURNAL": {
+"en": "INDEPENDENT KNOWLEDGE JOURNAL",
+"zh": "独立知识期刊",
+"ja": "独立系ナレッジジャーナル",
+"es": "PUBLICACIÓN INDEPENDIENTE DE CONOCIMIENTO",
+"ru": "НЕЗАВИСИМЫЙ ЖУРНАЛ ЗНАНИЙ",
+"ar": "مجلة معرفية مستقلة",
+"sw": "JARIDA HURU LA MAARIFA"
+},
+"사실과 해석을 나누고, 맥락을 연결합니다": {
+"en": "Separating fact from interpretation, connecting context.",
+"zh": "区分事实与解读，串联背景脉络。",
+"ja": "事実と解釈を分け、文脈をつなぎます。",
+"es": "Separamos los hechos de la interpretación y conectamos el contexto.",
+"ru": "Отделяем факты от интерпретации и связываем контекст.",
+"ar": "نفصل الحقيقة عن التفسير ونربط السياق.",
+"sw": "Tunatofautisha ukweli na tafsiri, na kuunganisha muktadha."
 }
 }
