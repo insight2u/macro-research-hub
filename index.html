@@ -12379,6 +12379,31 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 @media(max-width:760px){
 #daily-newsroom .ds-user-backdrop{left:46px}
 }
+</style><style id="masthead-warroom-port-v1">
+/* 2026-11-19 05:31+05:38 user directives: reuse the War Room header composition for the magazine masthead - title directly on the panel (no plaque backing), his character fixed bottom-right with a bottom fade, small performers playing in front; colored variant of the War Room treatment. Character asset is the already-approved local color portrait (images/family/user-portrait-backdrop.webp). */
+#daily-newsroom .ds-mast-layout{display:block!important;position:relative;min-height:150px;padding:16px 276px 16px 18px;border:1px solid rgba(8,107,112,.32);border-radius:12px;overflow:hidden;isolation:isolate;background:radial-gradient(ellipse at 50% 120%, rgba(8,107,112,.10), transparent 60%),repeating-linear-gradient(0deg, rgba(20,32,39,.05) 0 1px, transparent 1px 26px),repeating-linear-gradient(90deg, rgba(20,32,39,.05) 0 1px, transparent 1px 26px),linear-gradient(180deg,#f2f5f0,#eaefe9)}
+#daily-newsroom .ds-mast-layout::before{content:"";position:absolute;left:50%;top:52%;width:360px;height:360px;margin:-180px 0 0 -180px;border-radius:50%;background:conic-gradient(from 0deg, rgba(8,107,112,.14), transparent 22%);-webkit-mask-image:linear-gradient(100deg,#000 48%,transparent 74%);mask-image:linear-gradient(100deg,#000 48%,transparent 74%);animation:ds-radar-spin 7s linear infinite;z-index:0}
+#daily-newsroom .ds-mast-layout::after{content:"";position:absolute;left:50%;top:52%;width:360px;height:360px;margin:-180px 0 0 -180px;border-radius:50%;background:repeating-radial-gradient(circle, transparent 0 58px, rgba(8,107,112,.10) 58px 59.5px),radial-gradient(circle, transparent 0 178px, rgba(8,107,112,.12) 178px 180px, transparent 181px);-webkit-mask-image:linear-gradient(100deg,#000 48%,transparent 74%);mask-image:linear-gradient(100deg,#000 48%,transparent 74%);z-index:0}
+@keyframes ds-radar-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){#daily-newsroom .ds-mast-layout::before{animation:none}}
+#daily-newsroom .ds-wordmark,#daily-newsroom .nr-edition{position:relative;z-index:2}
+#daily-newsroom .ds-family-scene{position:absolute!important;right:4%;bottom:0;top:auto!important;left:auto!important;display:block;height:132px;width:280px;margin:0;overflow:visible;z-index:1;isolation:isolate}
+#daily-newsroom .ds-user-backdrop{position:absolute;right:0;left:auto;bottom:0;height:118px;width:auto;z-index:1;pointer-events:none;border-radius:16px 16px 0 0;-webkit-mask-image:linear-gradient(180deg,#000 55%,transparent 96%);mask-image:linear-gradient(180deg,#000 55%,transparent 96%)}
+#daily-newsroom .ds-family-scene .ds-cinema{position:absolute!important;left:auto!important;right:56px;bottom:0;top:auto!important;height:96px!important;width:auto!important;flex:none!important;margin:0!important;overflow:visible;background:transparent;z-index:2!important}
+#daily-newsroom .ds-family-scene .family-cinema{position:absolute!important;left:auto!important;right:168px;bottom:0;top:auto!important;height:96px!important;width:auto!important;flex:none!important;margin:0!important;overflow:visible;background:transparent;z-index:2!important}
+#daily-newsroom .ds-family-scene .ds-cinema img,#daily-newsroom .ds-family-scene .family-cinema img{position:static!important;height:100%!important;width:auto!important;max-width:none!important;object-fit:contain;display:block}
+#daily-newsroom .ds-family-scene.ds-hug-turn .ds-cinema{visibility:hidden!important}
+#daily-newsroom .ds-family-scene.ds-hug-turn .family-cinema{right:0!important;left:auto!important;height:112px!important;width:auto!important}
+@media(max-width:760px){
+#daily-newsroom .ds-mast-layout{min-height:120px;padding:12px 148px 12px 14px}
+#daily-newsroom .ds-mast-layout::before,#daily-newsroom .ds-mast-layout::after{width:300px;height:300px;margin:-150px 0 0 -150px}
+#daily-newsroom .ds-family-scene{right:3%;height:92px;width:150px}
+#daily-newsroom .ds-user-backdrop{height:82px}
+#daily-newsroom .ds-family-scene .ds-cinema{right:44px;height:56px!important}
+#daily-newsroom .ds-family-scene .family-cinema{right:92px;height:56px!important}
+#daily-newsroom .ds-family-scene.ds-hug-turn .family-cinema{right:0!important;height:74px!important}
+#daily-newsroom #dailyshot-masthead .nr-edition{margin-top:10px}
+}
 </style>
 
 
