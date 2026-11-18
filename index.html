@@ -5015,8 +5015,8 @@
 /* revamp batch 2: editorial numbering + category chip for Top-10 cards */
 @media (max-width:600px){
   #daily-newsroom #nr-article-grid{counter-reset:art}
-  #daily-newsroom #nr-article-grid .nr-card{counter-increment:art;position:relative;padding-left:46px!important}
-  #daily-newsroom #nr-article-grid .nr-card::before{content:counter(art,decimal-leading-zero);position:absolute;left:0;top:14px;font-size:24px;font-weight:800;color:var(--accent);letter-spacing:-1px}
+  #daily-newsroom #nr-article-grid .nr-card{counter-increment:art;position:relative;padding-inline-start:46px!important}
+  #daily-newsroom #nr-article-grid .nr-card::before{content:counter(art,decimal-leading-zero);position:absolute;inset-inline-start:0;top:14px;font-size:24px;font-weight:800;color:var(--accent);letter-spacing:-1px}
   #daily-newsroom #nr-article-grid .nr-card b{display:inline-block;font-size:10px;letter-spacing:1.2px;border:1px solid var(--accent);border-radius:999px;padding:2px 8px;margin-bottom:2px}
   #kakaoFloatingWidget button{padding:12px!important}
   #kakaoFloatingWidget button span{display:none}
