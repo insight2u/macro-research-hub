@@ -5018,6 +5018,9 @@
   #daily-newsroom #nr-article-grid .nr-card{counter-increment:art;position:relative;padding-left:46px!important}
   #daily-newsroom #nr-article-grid .nr-card::before{content:counter(art,decimal-leading-zero);position:absolute;left:0;top:14px;font-size:24px;font-weight:800;color:var(--accent);letter-spacing:-1px}
   #daily-newsroom #nr-article-grid .nr-card b{display:inline-block;font-size:10px;letter-spacing:1.2px;border:1px solid var(--accent);border-radius:999px;padding:2px 8px;margin-bottom:2px}
+  #kakaoFloatingWidget button{padding:12px!important}
+  #kakaoFloatingWidget button span{display:none}
+  #kakaoFloatingWidget{bottom:calc(16px + env(safe-area-inset-bottom,0px))!important}
 }
 </style>
 </head>
@@ -11562,7 +11565,7 @@
   </style>
 <!-- Floating KakaoTalk Messenger Quick Consultation Button -->
 <div id="kakaoFloatingWidget" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
-<button class="kakao-pulse-btn" onclick="openKakaoChatModal()" style="background: #FEE500; color: #191919; border: none; padding: 12px 18px; border-radius: 999px; font-weight: 800; font-size: 13.5px; box-shadow: 0 10px 25px rgba(254, 229, 0, 0.4); cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+<button class="kakao-pulse-btn" onclick="openKakaoChatModal()" aria-label="카톡 상담 바로 연결" style="background: #FEE500; color: #191919; border: none; padding: 12px 18px; border-radius: 999px; font-weight: 800; font-size: 13.5px; box-shadow: 0 10px 25px rgba(254, 229, 0, 0.4); cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
 <svg fill="#191919" height="22" viewbox="0 0 24 24" width="22">
 <path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.88 5.34 4.72 6.72-.21.78-.77 2.83-.88 3.26-.14.54.2.53.42.39.17-.11 2.76-1.87 3.88-2.64.6.09 1.22.14 1.86.14 5.52 0 10-3.58 10-8s-4.48-8-10-8z"></path>
 </svg>
