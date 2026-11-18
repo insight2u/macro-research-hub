@@ -39,3 +39,9 @@
 - [S3] https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
+
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/cF8lAQbrZEc)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdd6)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659750/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F9094510a-1c94-46c0-5fae-c137340c5167.mp3)

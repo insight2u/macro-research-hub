@@ -37,3 +37,9 @@
 - [S1] https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1&exhId=202609220002094
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
+
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/WWbW2tKmyck)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdm5)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129660037/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F057259c6-0986-1642-d64d-1d740106a3f9.mp3)
