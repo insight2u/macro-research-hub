@@ -21450,13 +21450,17 @@ function openDesk(name,id){const list=reports.filter(r=>matches(r,name));const c
 menu.querySelectorAll('.nr-program').forEach(old=>{const button=old.cloneNode(true);old.replaceWith(button);const name=button.childNodes[0].textContent.trim();button.setAttribute('role','button');button.tabIndex=0;button.onclick=()=>openDesk(name);button.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDesk(name)}}});
 })();
 </script><script id="family-cinema-control">(()=>{
-const baby=document.getElementById('ds-cinema-character'),guest=document.getElementById('family-cinema-active'),button=document.getElementById('family-motion-toggle'),stage=document.getElementById('family-cinema-stage');
-const actors=[{src:'images/family/basic02.webp',poster:'images/family/basic02-still.png',name:'보라 원피스'},{src:'images/family/basic01.webp',poster:'images/family/basic01-still.png',name:'빨간 코트'},{src:'images/family/parody01.webp',poster:'images/family/parody01-still.png',name:'분홍 코트'}];
+const baby=document.getElementById('ds-cinema-character'),guest=document.getElementById('family-cinema-active'),button=document.getElementById('family-motion-toggle'),stage=document.getElementById('family-cinema-stage'),scene=document.querySelector('.ds-family-scene');
+const actors=[{src:'images/family/basic02.webp',poster:'images/family/basic02-still.png',name:'보라 원피스',people:1},{src:'images/family/basic01.webp',poster:'images/family/basic01-still.png',name:'빨간 코트',people:1},{src:'images/family/parody01.webp',poster:'images/family/parody01-still.png',name:'분홍 코트',people:1},{src:'images/family/interaction01.webp',poster:'images/family/interaction01-still.png',name:'회장님과 빨간 코트 포옹',people:2}];
 let paused=matchMedia('(prefers-reduced-motion:reduce)').matches,index=0,elapsed=0,last=performance.now();
-function render(){baby.src=paused?baby.dataset.poster:baby.dataset.motion;guest.src=paused?actors[index].poster:actors[index].src;guest.alt=actors[index].name+' 캐릭터';button.textContent=paused?'동작 재생':'동작 멈추기';button.setAttribute('aria-pressed',String(!paused));stage.dataset.paused=String(paused);stage.dataset.visiblePeople='2';stage.dataset.actor=actors[index].name}
+function render(){const actor=actors[index],hug=actor.people===2;baby.src=paused?baby.dataset.poster:baby.dataset.motion;guest.src=paused?actor.poster:actor.src;guest.alt=actor.name+' 동작';button.textContent=paused?'동작 재생':'동작 멈추기';button.setAttribute('aria-pressed',String(!paused));stage.dataset.paused=String(paused);stage.dataset.visiblePeople='2';stage.dataset.actor=actor.name;stage.dataset.queueIndex=String(index);scene.classList.toggle('ds-hug-turn',hug);stage.setAttribute('aria-label',hug?'먼저 나온 아기가 잠시 퇴장하고 두 사람의 포옹 차례':'아기와 한 명의 가족 캐릭터');baby.closest('.ds-cinema').setAttribute('aria-hidden',String(hug))}
 button.onclick=()=>{paused=!paused;last=performance.now();render()};render();
-function tick(now){const dt=Math.max(0,Math.min(now-last,100));last=now;if(!paused){elapsed+=dt;if(elapsed>=8000){elapsed=0;index=(index+1)%actors.length;guest.src=actors[index].src;guest.alt=actors[index].name+' 캐릭터';stage.dataset.actor=actors[index].name}}requestAnimationFrame(tick)}requestAnimationFrame(tick);
-})();</script><style id="header-design-candidate">
+function tick(now){const dt=Math.max(0,Math.min(now-last,100));last=now;if(!paused&&!document.hidden){elapsed+=dt;if(elapsed>=8000){elapsed=0;index=(index+1)%actors.length;render()}}requestAnimationFrame(tick)}requestAnimationFrame(tick);
+})();</script><style id="family-fifo-hug-layout">
+#daily-newsroom .ds-family-scene.ds-hug-turn .ds-cinema{visibility:hidden!important;position:absolute!important;pointer-events:none}
+#daily-newsroom .ds-family-scene.ds-hug-turn .family-cinema{width:1.05em!important;flex-basis:1.05em!important}
+@media(max-width:760px){#daily-newsroom .ds-family-scene.ds-hug-turn .family-cinema{width:.95em!important;flex-basis:.95em!important}}
+</style><style id="header-design-candidate">
 #daily-newsroom #dailyshot-masthead{display:grid;grid-template-columns:minmax(0,1fr) 400px;align-items:start;gap:32px;padding:26px 0 24px;overflow:visible}
 #daily-newsroom .ds-mast-layout{display:flex;flex-direction:column;align-items:flex-start;gap:0;min-width:0;grid-column:auto;grid-row:auto}
 #daily-newsroom .nr-kicker{font:700 10px/1.4 sans-serif;letter-spacing:.2em;margin-bottom:15px}
