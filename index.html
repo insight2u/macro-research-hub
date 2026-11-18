@@ -5070,6 +5070,7 @@
 <a href="images/cartoon/nov19-cartoon-v4.png" target="_blank" rel="noopener" title="원본 크기로 보기">
 <picture><source media="(max-width:760px)" srcset="images/cartoon/nov19-cartoon-v4-mobile.png"/><img src="images/cartoon/nov19-cartoon-v4.png" alt="따뜻한 햇빛이 드는 학교 복도에서 귀여운 가족 시민들이 종이 발의안 손님과 자, 돋보기, 확인표를 놓고 이야기하는 두 장면. 손님은 처벌을 키우면 공정도 커지는지 묻고 시민은 그것은 형량이며 공정은 이제 확인해야 한다고 답한다. 아래 장면에서 아기는 긴 자로 만든 작은 다리를 바라보고 시민들은 손님을 돋보기로 살핀다." loading="lazy" decoding="async" width="1600" height="2760"/></picture>
 </a>
+<p class="nr-cartoon-zoom">이미지를 누르면 원본 크기로 확대해서 볼 수 있습니다.</p>
 <figcaption>
 <strong>키운 것과 지킨 것 · 생활속 우리들</strong>
 <p style="margin:4px 0 0">벌을 키우는 일과 공정을 지키는 일은 같은 측정이 아닙니다. 수능 부정행위 제재 강화 발의안을 계기로 정확한 적발과 소명 절차의 중요성을 묻는 편집부 풍자입니다. 최대 10년은 발의안이며 시행 확정이 아닙니다.</p>
@@ -12479,6 +12480,16 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .ds-wordmark{position:relative;z-index:2}
 @media(max-width:760px){
 #daily-newsroom .ds-wordmark{max-width:104px}
+}
+</style>
+<style id="cartoon-mobile-zoom-v1">
+/* 2026-11-19: make the editorial cartoon text easier to read on phones - render full viewport width (asset is 390px native) and show the zoom hint. */
+#daily-newsroom .nr-cartoon-zoom{display:none;margin:6px 0 0;font-size:11px;color:#685c56}
+@media(max-width:760px){
+#daily-newsroom .nr-daily-cartoon{width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+#daily-newsroom .nr-daily-cartoon img{border-radius:0;border-left:0;border-right:0}
+#daily-newsroom .nr-cartoon-zoom{display:block;padding:0 18px}
+#daily-newsroom .nr-daily-cartoon figcaption{padding:0 18px}
 }
 </style>
 
