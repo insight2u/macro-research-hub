@@ -292,7 +292,7 @@ function applyLang(lang, save){
   if (window.__nmRelabel) window.__nmRelabel(); if (window.__seriesRerender) window.__seriesRerender();
   dressCharacter(lang);
   updateLangCast(lang);
-  if (save) greetLang(lang);
+  if (save) greetOnce(lang);
 }
 var CHAR_IMG = {"en":"assets/char-en-v2-cut.webp","zh":"assets/char-zh-v2-cut.webp","ja":"assets/char-ja-cut.webp","es":"assets/char-es-v2-cut.webp","ru":"assets/char-ru-v2-cut.webp","ar":"assets/char-ar-cut.webp","sw":"assets/char-sw-cut.webp"};
 var CHAR_ALT = {"en":"Character in regional attire","zh":"\u8eab\u7740\u5730\u533a\u4f20\u7edf\u670d\u9970\u7684\u89d2\u8272","ja":"\u5730\u57df\u306e\u4f1d\u7d71\u8863\u88c5\u3092\u307e\u3068\u3063\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc","es":"Personaje con atuendo tradicional regional","ru":"\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u0436 \u0432 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043e\u0434\u0435\u0436\u0434\u0435","ar":"\u0634\u062e\u0635\u064a\u0629 \u0628\u0632\u064a \u062a\u0642\u0644\u064a\u062f\u064a \u0625\u0642\u0644\u064a\u0645\u064a","sw":"Mhusika aliyevaa mavazi ya jadi ya kikanda"};
@@ -380,7 +380,15 @@ function greetLang(lang){
           for (var i=0;i<voices.length;i++){
             if (voices[i].lang && voices[i].lang.toLowerCase().indexOf(prefix) === 0){ v = voices[i]; break; }
           }
-          if (!v){ return; }
+          if (!v){
+            try {
+              speechSynthesis.cancel();
+              var u2 = new SpeechSynthesisUtterance(g[0]);
+              u2.lang = g[1];
+              speechSynthesis.speak(u2);
+            } catch(e){}
+            return;
+          }
           speechSynthesis.cancel();
           var u = new SpeechSynthesisUtterance(g[0]);
           u.lang = g[1]; u.voice = v;
@@ -429,8 +437,17 @@ function tagUntranslated(){
 }
 obs.observe(document.body, {childList:true, subtree:true});
 setInterval(tagUntranslated, 700);
+var lastGreetLang = '', lastGreetAt = 0;
+function greetOnce(lang){
+  var n = Date.now();
+  if (lang === lastGreetLang && n - lastGreetAt < 2500) return;
+  lastGreetLang = lang; lastGreetAt = n;
+  greetLang(lang);
+}
 document.querySelectorAll('#lang-bar .lang-btn').forEach(function(b){
   b.addEventListener('click', function(){ applyLang(b.dataset.lang, true); });
+  b.addEventListener('mouseenter', function(){ greetOnce(b.dataset.lang); });
+  b.addEventListener('touchstart', function(){ greetOnce(b.dataset.lang); }, {passive:true});
 });
 if (cur !== 'ko'){
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ applyLang(cur, false); });
