@@ -127,18 +127,22 @@ for ko, m in K.items():
 MUSIC = {
  'en': {'src':'https://commons.wikimedia.org/wiki/Special:FilePath/Greensleeves.ogg',
         'label':'♪ Greensleeves (English folk)',
+        'page':'https://commons.wikimedia.org/wiki/File:Greensleeves.ogg',
         'credit':'Greensleeves — CambridgeBayWeather, CC BY 3.0, via Wikimedia Commons',
         'href':'https://commons.wikimedia.org/wiki/File:Greensleeves.ogg'},
  'zh': {'src':'https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%8C%E6%B3%89%E6%98%A0%E6%9C%88.ogg',
         'label':'♪ 二泉映月 (二胡)',
+        'page':'https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E6%B3%89%E6%98%A0%E6%9C%88.ogg',
         'credit':'二泉映月 (The Moon Reflected on the Second Spring) — 张沛坚 Zhang Peijian, CC BY-SA 4.0, via Wikimedia Commons',
         'href':'https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E6%B3%89%E6%98%A0%E6%9C%88.ogg'},
  'es': {'src':'https://commons.wikimedia.org/wiki/Special:FilePath/Romance_An%C3%B3nimo_(Jeux_interdits).ogg',
         'label':'♪ Romance Anónimo (guitarra)',
+        'page':'https://commons.wikimedia.org/wiki/File:Romance_An%C3%B3nimo_(Jeux_interdits).ogg',
         'credit':'Romance Anónimo (Spanish guitar) — CC0, via Wikimedia Commons',
         'href':'https://commons.wikimedia.org/wiki/File:Romance_An%C3%B3nimo_(Jeux_interdits).ogg'},
  'ar': {'src':'https://commons.wikimedia.org/wiki/Special:FilePath/Solo_Oud_and_Ceramic_Darbuka_-_Arab_Instruments.webm',
         'label':'♪ عود ودربوكة',
+        'page':'https://commons.wikimedia.org/wiki/File:Solo_Oud_and_Ceramic_Darbuka_-_Arab_Instruments.webm',
         'credit':'Solo Oud & Ceramic Darbuka — Arab Instruments, CC BY 3.0, via Wikimedia Commons',
         'href':'https://commons.wikimedia.org/wiki/File:Solo_Oud_and_Ceramic_Darbuka_-_Arab_Instruments.webm'},
 }
@@ -308,6 +312,7 @@ function updateMusic(){
     else { audio.play().then(function(){ playing=true; btn.textContent='⏸ '+m.label; btn.setAttribute('aria-pressed','true'); }).catch(function(){ playing=false; }); }
   };
   cr.textContent = m.credit;
+  cr.href = m.page;
   cr.href = m.href;
 }
 function applyLang(lang, save){
