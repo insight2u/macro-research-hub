@@ -21771,23 +21771,23 @@ function dressCharacter(lang){
   }
 }
 function greetLang(lang){
-  try { if (greetAudio){ greetAudio.pause(); greetAudio = null; } } catch(e){}
+  try { if (greetAudio){ greetAudio.pause(); greetAudio = null; window.__greetAudio = null; } } catch(e){}
   var g = GREET[lang];
   var startMusic = function(){
     var m = MUSIC[lang];
     if (!m) return;
     try {
-      greetAudio = new Audio(m.src);
+      greetAudio = new Audio(m.src); window.__greetAudio = greetAudio;
       greetAudio.play().then(function(){
         setTimeout(function(){
           if (!greetAudio) return;
           var a = greetAudio;
           var fade = setInterval(function(){
             if (a.volume > 0.08){ a.volume = Math.max(0, a.volume - 0.08); }
-            else { clearInterval(fade); a.pause(); if (greetAudio === a) greetAudio = null; }
+            else { clearInterval(fade); a.pause(); if (greetAudio === a) greetAudio = null; if (window.__greetAudio === a) window.__greetAudio = null; }
           }, 120);
         }, 15000);
-      }).catch(function(){ greetAudio = null; });
+      }).catch(function(){ greetAudio = null; window.__greetAudio = null; });
     } catch(e){}
   };
   if (g && window.speechSynthesis){
