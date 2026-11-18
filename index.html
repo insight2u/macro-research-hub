@@ -21634,6 +21634,7 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #lang-music-wrap{display:inline-flex;align-items:center;gap:8px;margin-left:auto}
 #lang-music{background:var(--accent);color:#fff;border:none;border-radius:14px;padding:4px 12px;font-size:12px;font-weight:700}
 #lang-music-credit{font-size:10px;color:var(--muted);max-width:340px;line-height:1.3}
+.nr-link-disabled{opacity:.55;cursor:default;text-decoration:none!important}
 @media (max-width:640px){#lang-bar{font-size:12px;gap:4px 8px}#lang-music-wrap{margin-left:0;width:100%}}
 html[data-lang="en"] #daily-newsroom{--paper:#f1f4f7;--accent:#33597f;background-image:repeating-linear-gradient(45deg,rgba(51,89,127,.045) 0 2px,transparent 2px 14px)}
 html[data-lang="zh"] #daily-newsroom{--paper:#f7f0e2;--accent:#a03428;background-image:radial-gradient(rgba(160,52,40,.06) 1px,transparent 1.6px);background-size:22px 22px}
@@ -21826,7 +21827,6 @@ var LANGCAST = {
   "ar": {"links": [{"t": "DailyShot العربية 01", "u": "https://youtu.be/l4W_98fiGlM"}], "pending": ""},
   "sw": {"links": [{"t": "DailyShot Kiswahili 01", "u": "https://youtu.be/m_9GjK6depU"}], "pending": ""}
 };
-<style>.nr-link-disabled{opacity:.55;cursor:default;text-decoration:none!important}</style>
 var NAVLANG = {
   "ko": {"yt": {"t": "YouTube 구독 ↗", "u": "https://www.youtube.com/@youngsun1976"}, "sp": {"t": "Spotify 팔로우 ↗", "u": "https://open.spotify.com/show/0bXi9vbte0UraD9ScEAWWc"}, "pod": {"t": "팿캐스트 제작자 페이지 ↗", "u": "https://creators.spotify.com/pod/profile/l7bo8obou98/"}, "prep": "준비 중"},
   "en": {"yt": {"t": "YouTube: DailyShot English 01 ↗", "u": "https://youtu.be/yRlifvJgfQk"}, "sp": null, "pod": null, "prep": "in preparation"},
