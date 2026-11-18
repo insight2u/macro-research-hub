@@ -19523,7 +19523,7 @@ function playCustomVideo(videoId, title) {
       <svg width="22" height="22" viewBox="0 0 24 24" fill="#191919">
         <path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.88 5.34 4.72 6.72-.21.78-.77 2.83-.88 3.26-.14.54.2.53.42.39.17-.11 2.76-1.87 3.88-2.64.6.09 1.22.14 1.86.14 5.52 0 10-3.58 10-8s-4.48-8-10-8z"/>
       </svg>
-      <span>카카오톡 연결 안내</span>
+      <span>카톡 상담 바로 연결</span>
     </button>
   </div>
 
@@ -19547,8 +19547,9 @@ function playCustomVideo(videoId, title) {
       </div>
 
       <div style="background: rgba(254, 229, 0, 0.08); border: 1px solid rgba(254, 229, 0, 0.25); border-radius: 14px; padding: 16px; margin-bottom: 18px; font-size: 0.88rem; color: #E2E8F0; line-height: 1.6;">
-        💬 <strong>카카오톡 직접 연결 준비 중:</strong><br>
-        현재 버튼은 카카오톡 ID 안내입니다. 1:1 대화방으로 바로 연결되는 링크는 아직 준비되지 않았으며, 실시간 응답을 보장하지 않습니다.
+        💬 <strong>카카오톡 바로 연결:</strong><br>
+        아래 노란 버튼을 누르면 카카오톡 앱이 열리며 유영선 소장 프로필로 연결됩니다. 친구 추가 후 바로 1:1 대화를 시작할 수 있습니다. PC에서는 휴대폰 카메라나 카카오톡으로 이 QR을 스캔하세요.
+        <div style="text-align:center;margin-top:12px"><img src="images/kakao-consult-qr.png" alt="유영선 소장 카카오톡 친구 추가 QR 코드" style="width:180px;max-width:60%;border-radius:10px;background:#fff"></div>
         <div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.4); border-radius: 8px; font-size: 0.82rem; color: #FEE500;">
           🟡 <strong>카카오톡 친구 추가 ID:</strong> <span style="font-family: monospace; font-size: 0.95rem; font-weight: 800; color: #fff;">youngsun1976</span><br>
           📱 <strong>직통 연락처:</strong> <span style="font-family: monospace; font-size: 0.95rem; font-weight: 800; color: #fff;">010-5480-4905</span><br>
@@ -19557,8 +19558,11 @@ function playCustomVideo(videoId, title) {
       </div>
 
       <div style="display: flex; flex-direction: column; gap: 10px;">
-        <button onclick="copyKakaoIdAndOpen()" style="background: #FEE500; color: #191919; border: none; padding: 14px; border-radius: 12px; font-weight: 800; font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(254, 229, 0, 0.3);">
-          <span>카카오톡 ID 복사</span>
+        <a href="http://qr.kakao.com/talk/3LSfUs0_JXP2o9HYneR70HKT.l8-" target="_blank" rel="noopener" style="background: #FEE500; color: #191919; border: none; padding: 14px; border-radius: 12px; font-weight: 800; font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(254, 229, 0, 0.3); text-decoration: none;">
+          <span>카카오톡으로 바로 연결</span>
+        </a>
+        <button onclick="copyKakaoIdAndOpen()" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #F8FAFC; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; cursor: pointer;">
+          <span>ID로 추가하기: youngsun1976 복사</span>
         </button>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
           <a href="tel:010-5480-4905" style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); color: #34D399; text-decoration: none; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;">
@@ -19759,7 +19763,7 @@ function playCustomVideo(videoId, title) {
 
     async function copyKakaoIdAndOpen() {
       try {await navigator.clipboard.writeText('youngsun1976');alert('카카오톡 ID를 복사했습니다. 카카오톡의 친구 추가 > ID로 추가에서 검색할 수 있습니다. ID 검색 허용 여부에 따라 검색되지 않을 수 있으며, 이 버튼은 대화방을 직접 열지 않습니다.');}
-      catch(e){alert('카카오톡 ID: youngsun1976. 직접 복사하여 사용하세요. 현재 직접 채팅 링크는 준비 중입니다.');}
+      catch(e){alert('카카오톡 ID: youngsun1976. 직접 복사하여 사용하세요.');}
     }
 
     // =========================================================================
