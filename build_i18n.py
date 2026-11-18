@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Insert 8-language localization (lang bar, UI dictionary, themes, music, RTL) into index.html."""
-import json, re, sys
+import json, re, sys, os
 
 SRC = 'index.html'
 src = open(SRC, encoding='utf-8').read()
@@ -149,8 +149,12 @@ MUSIC = {
 
 BCAST = {'en': [['확인시점 기준', 'as of verification time'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', 'an editorial allocation weighing international coverage and recognition, not a measured ranking of influence'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', 'restricted or ended streams are skipped, so actual viewing share varies'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', 'actual live availability varies by provider, region and connection'], ['재생 제한/멈춤은 자동 건너뜀', 'playback restrictions/stops are auto-skipped'], ['정기 발행 준비에서 목록 재검증', 'list re-verified during scheduled publishing prep'], ['목록·생방송 확인', 'Playlist & live verified'], ['약 90초씩 순환', 'rotating every ~90s'], ['확인 시점 기준', 'as of verification time'], ['주요녹화', 'recorded'], ['재생 중', 'Now playing'], ['다시보기', 'Replay'], ['생방송', 'Live'], ['슬롯 중', 'slots:'], ['각 약90초', '~90s each'], ['편성', 'Lineup'], ['남은 ', 'left '], ['한국', 'South Korea'], ['중국', 'China'], ['미국', 'US'], ['일본', 'Japan'], ['유럽', 'Europe'], ['카타르', 'Qatar'], ['독일', 'Germany'], ['프랑스', 'France'], ['영국', 'UK'], ['러시아', 'Russia'], ['기타', 'Other'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1s', True]], 'zh': [['확인시점 기준', '以核验时间为准'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', '这是基于国际报道范围与知名度的编辑分配，并非影响力的实测排名'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', '受限或已结束的内容会被跳过，实际观看比例会有所不同'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', '实际直播可用性因提供商/地区/网络环境而异'], ['재생 제한/멈춤은 자동 건너뜀', '播放限制/停止将自动跳过'], ['정기 발행 준비에서 목록 재검증', '在定期发布准备中重新核验列表'], ['목록·생방송 확인', '列表与直播已核验'], ['약 90초씩 순환', '约每90秒轮换'], ['확인 시점 기준', '以核验时间为准'], ['주요녹화', '录播'], ['재생 중', '播放中'], ['다시보기', '回放'], ['생방송', '直播'], ['슬롯 중', '个时段中'], ['각 약90초', '各约90秒'], ['편성', '编排'], ['남은 ', '剩余'], ['한국', '韩国'], ['중국', '中国'], ['미국', '美国'], ['일본', '日本'], ['유럽', '欧洲'], ['카타르', '卡塔尔'], ['독일', '德国'], ['프랑스', '法国'], ['영국', '英国'], ['러시아', '俄罗斯'], ['기타', '其他'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1秒', True]], 'ja': [['확인시점 기준', '確認時点基準'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', '国際報道の範囲と認知度を考慮した編成配分であり、影響力の実測順位ではありません'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', '制限・終了時はスキップされるため、実際の視聴比率は変動します'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', '実際の視聴可否は提供元・地域・接続環境によって異なります'], ['재생 제한/멈춤은 자동 건너뜀', '再生制限・停止は自動でスキップします'], ['정기 발행 준비에서 목록 재검증', '定期発行の準備でリストを再検証しました'], ['목록·생방송 확인', 'リスト・ライブ確認済み'], ['약 90초씩 순환', '約90秒ごとに切り替え'], ['확인 시점 기준', '確認時点基準'], ['주요녹화', '録画'], ['재생 중', '再生中'], ['다시보기', '再放送'], ['생방송', 'ライブ'], ['슬롯 중', '枠のうち'], ['각 약90초', '各約90秒'], ['편성', '編成'], ['남은 ', '残り'], ['한국', '韓国'], ['중국', '中国'], ['미국', '米国'], ['일본', '日本'], ['유럽', '欧州'], ['카타르', 'カタール'], ['독일', 'ドイツ'], ['프랑스', 'フランス'], ['영국', '英国'], ['러시아', 'ロシア'], ['기타', 'その他'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1秒', True]], 'es': [['확인시점 기준', 'según el momento de verificación'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', 'una asignación editorial según cobertura internacional y reconocimiento, no un ranking medido de influencia'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', 'las transmisiones restringidas o finalizadas se omiten, así que el porcentaje real varía'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', 'la disponibilidad real varía según proveedor, región y conexión'], ['재생 제한/멈춤은 자동 건너뜀', 'las restricciones/paradas de reproducción se omiten automáticamente'], ['정기 발행 준비에서 목록 재검증', 'lista reverificada durante la preparación de la publicación programada'], ['목록·생방송 확인', 'Lista y directos verificados'], ['약 90초씩 순환', 'rotando cada ~90 s'], ['확인 시점 기준', 'según el momento de verificación'], ['주요녹화', 'grabado'], ['재생 중', 'Reproduciendo'], ['다시보기', 'Reposición'], ['생방송', 'En vivo'], ['슬롯 중', 'espacios:'], ['각 약90초', '~90 s cada uno'], ['편성', 'Programación'], ['남은 ', 'quedan '], ['한국', 'Corea del Sur'], ['중국', 'China'], ['미국', 'EE. UU.'], ['일본', 'Japón'], ['유럽', 'Europa'], ['카타르', 'Catar'], ['독일', 'Alemania'], ['프랑스', 'Francia'], ['영국', 'Reino Unido'], ['러시아', 'Rusia'], ['기타', 'Otros'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1 s', True]], 'ru': [['확인시점 기준', 'на момент проверки'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', 'редакционное распределение с учётом международного охвата и узнаваемости, а не измеренный рейтинг влияния'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', 'ограниченные или завершённые трансляции пропускаются, поэтому фактическая доля просмотра отличается'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', 'фактическая доступность зависит от провайдера, региона и соединения'], ['재생 제한/멈춤은 자동 건너뜀', 'ограничения/остановки воспроизведения пропускаются автоматически'], ['정기 발행 준비에서 목록 재검증', 'список перепроверен при подготовке очередного выпуска'], ['목록·생방송 확인', 'Список и эфиры проверены'], ['약 90초씩 순환', 'смена каждые ~90 с'], ['확인 시점 기준', 'на момент проверки'], ['주요녹화', 'запись'], ['재생 중', 'Воспроизведение'], ['다시보기', 'Повтор'], ['생방송', 'Эфир'], ['슬롯 중', 'слотов:'], ['각 약90초', 'по ~90 с'], ['편성', 'Сетка'], ['남은 ', 'осталось '], ['한국', 'Корея'], ['중국', 'Китай'], ['미국', 'США'], ['일본', 'Япония'], ['유럽', 'Европа'], ['카타르', 'Катар'], ['독일', 'Германия'], ['프랑스', 'Франция'], ['영국', 'Великобритания'], ['러시아', 'Россия'], ['기타', 'Другое'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1 с', True]], 'ar': [['확인시점 기준', 'حسب وقت التحقق'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', 'توزيع تحريري يراعي نطاق التغطية الدولية والشهرة، وليس ترتيبًا مقاسًا للتأثير'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', 'تُتخطى القنوات المقيّدة أو المنتهية، لذا تختلف نسب المشاهدة الفعلية'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', 'تختلف الإتاحة الفعلية حسب المزوّد والمنطقة وجودة الاتصال'], ['재생 제한/멈춤은 자동 건너뜀', 'تُتخطى قيود/توقفات التشغيل تلقائيًا'], ['정기 발행 준비에서 목록 재검증', 'أُعيد التحقق من القائمة أثناء التحضير للنشر الدوري'], ['목록·생방송 확인', 'تم التحقق من القائمة والبث المباشر'], ['약 90초씩 순환', 'تتبدل كل 90 ثانية تقريبًا'], ['확인 시점 기준', 'حسب وقت التحقق'], ['주요녹화', 'مسجّل'], ['재생 중', 'قيد التشغيل'], ['다시보기', 'إعادة'], ['생방송', 'مباشر'], ['슬롯 중', 'خانات:'], ['각 약90초', '~90 ثانية لكل منها'], ['편성', 'التشكيلة'], ['남은 ', 'المتبقي '], ['한국', 'كوريا'], ['중국', 'الصين'], ['미국', 'الولايات المتحدة'], ['일본', 'اليابان'], ['유럽', 'أوروبا'], ['카타르', 'قطر'], ['독일', 'ألمانيا'], ['프랑스', 'فرنسا'], ['영국', 'بريطانيا'], ['러시아', 'روسيا'], ['기타', 'أخرى'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', '$1 ث', True]], 'sw': [['확인시점 기준', 'kulingana na wakati wa uthibitishaji'], ['국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다', 'ni mgawanyo wa uhariri unaozingatia uwepo wa habari za kimataifa na umaarufu, si nafasi iliyopimwa ya ushawishi'], ['제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다', 'zilizozuiliwa au kumalizika hurukwa, hivyo viwango halisi vya kutazama hutofautiana'], ['실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다', 'upatikanaji halisi hutofautiana kulingana na mtoa huduma, eneo na mtandao'], ['재생 제한/멈춤은 자동 건너뜀', 'vizuizi/visimamizi vya kucheza vinarukwa kiotomatiki'], ['정기 발행 준비에서 목록 재검증', 'orodha ilithibitishwa tena wakati wa maandalizi ya uchapishaji wa kawaida'], ['목록·생방송 확인', 'Orodha na matangazo ya moja kwa moja yamethibitishwa'], ['약 90초씩 순환', 'inazunguka kila ~sekunde 90'], ['확인 시점 기준', 'kulingana na wakati wa uthibitishaji'], ['주요녹화', 'iliyorekodiwa'], ['재생 중', 'Inacheza sasa'], ['다시보기', 'Tazama tena'], ['생방송', 'Moja kwa moja'], ['슬롯 중', 'sehemu:'], ['각 약90초', 'kila moja ~sekunde 90'], ['편성', 'Mpangilio'], ['남은 ', 'zimebaki '], ['한국', 'Korea Kusini'], ['중국', 'China'], ['미국', 'Marekani'], ['일본', 'Japani'], ['유럽', 'Ulaya'], ['카타르', 'Qatar'], ['독일', 'Ujerumani'], ['프랑스', 'Ufaransa'], ['영국', 'Uingereza'], ['러시아', 'Urusi'], ['기타', 'Nyingine'], ['초 KST', ' KST'], ['(\\d+)시 ', '$1:', True], ['(\\d+)분 ', '$1:', True], ['(\\d+)초', 'sekunde $1', True]]}
 
+# full-body translations {report_id: {lang: markdown}}
+body_i18n = {}
+if os.path.exists('body_i18n.json'):
+    body_i18n = json.load(open('body_i18n.json', encoding='utf-8'))
+
 # merge extra translation batches (keyed {ko: {lang: text}})
-import os
 if os.path.exists('i18n_extra.json'):
     extra = json.load(open('i18n_extra.json', encoding='utf-8'))
     for ko, m in extra.items():
@@ -220,6 +224,7 @@ try { cur = localStorage.getItem('magazine-lang') || 'ko'; } catch(e) {}
 if (LANGS.indexOf(cur) < 0) cur = 'ko';
 var origCache = new Map();
 var FALLBACK = __FALLBACK__;
+window.BODY_I18N = __BODYI18N__;
 var audio = null, playing = false;
 
 function norm(t){ return t.replace(/\\s+/g,' ').trim(); }
@@ -336,6 +341,7 @@ function applyLang(lang, save){
   if (save) { try { localStorage.setItem('magazine-lang', lang); } catch(e){} }
   restoreKo();
   document.documentElement.setAttribute('data-lang', lang);
+  if (window.__nrRenderBody && window.__nrCurrent) window.__nrRenderBody(window.__nrCurrent);
   document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
   document.querySelectorAll('#lang-bar .lang-btn').forEach(function(b){
     b.classList.toggle('active', b.dataset.lang === lang);
@@ -352,6 +358,10 @@ var obs = new MutationObserver(function(muts){
 function tagUntranslated(){
   if (cur === 'ko') return;
   document.querySelectorAll('[role="dialog"], dialog').forEach(function(d){
+    if (window.__nrCurrent && window.BODY_I18N && (window.BODY_I18N[window.__nrCurrent.id]||{})[cur]){
+      var ex = d.querySelector('.i18n-fallback-note'); if (ex) ex.remove();
+      return;
+    }
     var note = d.querySelector('.i18n-fallback-note');
     if (note && note.dataset.lang === cur) return;
     if (!note){
@@ -381,7 +391,7 @@ if (cur !== 'ko'){
 </script>
 '''
 
-script = SCRIPT_HEAD.replace('__DICT__', json.dumps(DICT, ensure_ascii=False)).replace('__MUSIC__', json.dumps(MUSIC, ensure_ascii=False)).replace('__FALLBACK__', json.dumps(FALLBACK, ensure_ascii=False)).replace('__BCAST__', json.dumps(BCAST, ensure_ascii=False))
+script = SCRIPT_HEAD.replace('__DICT__', json.dumps(DICT, ensure_ascii=False)).replace('__MUSIC__', json.dumps(MUSIC, ensure_ascii=False)).replace('__FALLBACK__', json.dumps(FALLBACK, ensure_ascii=False)).replace('__BCAST__', json.dumps(BCAST, ensure_ascii=False)).replace('__BODYI18N__', json.dumps(body_i18n, ensure_ascii=False))
 
 anchor = '<nav aria-label="주제 이동" class="nr-nav">'
 assert anchor in src, "nav anchor missing"
