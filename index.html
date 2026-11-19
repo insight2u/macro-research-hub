@@ -12507,7 +12507,7 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .nr-cartoon-ctrl{padding:0 18px}
 }
 </style>
-<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))});setTimeout(function(){if(v.paused&&!f.classList.contains('paused')){set(true)}},1600)})();</script>
+<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))});setTimeout(function(){if(v.paused&&!f.classList.contains('paused')){set(true)}},1600);var LV={en:1,zh:1,ja:1,es:1,ru:1,ar:1,sw:1};function srcFor(l){return 'images/cartoon/nov19-cartoon-scene'+(LV[l]?'.'+l:'')+'.mp4'}function applyV(){var l=(document.documentElement.getAttribute('data-lang')||'ko');var src=srcFor(l);if(v.getAttribute('src')===src)return;var t=v.currentTime||0;var stopped=f.classList.contains('paused')||v.paused;v.setAttribute('src',src);v.load();v.addEventListener('loadedmetadata',function h(){v.removeEventListener('loadedmetadata',h);try{v.currentTime=t}catch(e){}if(!stopped&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}})}new MutationObserver(applyV).observe(document.documentElement,{attributes:true,attributeFilter:['data-lang']});applyV()})();</script>
 
 
 
@@ -12552,7 +12552,7 @@ html[data-lang="sw"] #daily-newsroom{--paper:#f4ecda;--accent:#7a5a20;background
 html[dir="rtl"] #daily-newsroom .nr-nav,html[dir=rtl] #lang-bar{direction:rtl}
 </style>
 
-<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-23"></script>
+<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-24"></script>
 
 <style id="series-modal-style">
 #series-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:flex-end;justify-content:center}
