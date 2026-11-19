@@ -31,14 +31,24 @@ def ensure_font():
     return FONT_PATH
 
 
-def font(size, bold=False):
-    f = ImageFont.truetype(FONT_PATH, size)
-    if bold:
+def font(size, bold=False, path=None):
+    f = ImageFont.truetype(path or FONT_PATH, size)
+    for axes in (([700], [100, 700]) if bold else ([400], [100, 400])):
         try:
-            f.set_variation_by_axes([700])
+            f.set_variation_by_axes(axes)
+            break
         except Exception:
-            pass
+            continue
     return f
+
+
+def shape_text(text, rtl):
+    """Arabic/RTL: reshape and apply bidi so PIL can draw it."""
+    if rtl:
+        import arabic_reshaper
+        from bidi.algorithm import get_display
+        return get_display(arabic_reshaper.reshape(text))
+    return text
 
 
 def ease(t):
@@ -156,6 +166,8 @@ def bilinear(img, xs, ys):
 
 def draw_bubble(spec, scale, alpha):
     """Render one speech bubble to an RGBA layer at full canvas size."""
+    rtl = spec.get('rtl', False)
+    fpath = spec.get('font')
     x0, y0, x1, y1 = spec['box']
     tip = spec['tail']
     cw, ch = spec['_canvas']
@@ -164,6 +176,21 @@ def draw_bubble(spec, scale, alpha):
     bubble = Image.new('RGBA', (bw + 40, bh + 60), (0, 0, 0, 0))
     d = ImageDraw.Draw(bubble)
     a = int(255 * alpha)
+    pad_x = spec.get('pad_x', 30)
+    pad_y = spec.get('pad_y', 22)
+    fs = spec.get('font_size', 46)
+    max_w = bw - 2 * pad_x
+    # auto-fit: shrink font until every line fits the bubble width
+    while fs > 20:
+        fits = True
+        for line in spec['lines']:
+            wline = sum(font(fs, bold, fpath).getlength(shape_text(text, rtl)) for text, bold, color in line)
+            if wline > max_w:
+                fits = False
+                break
+        if fits and fs * 1.5 * len(spec['lines']) <= bh - 2 * pad_y + fs * 0.5:
+            break
+        fs -= 2
     # shadow + body
     d.rounded_rectangle([23, 23, 23 + bw, 23 + bh], radius=26, fill=(37, 31, 33, int(a * 0.10)))
     d.rounded_rectangle([20, 20, 20 + bw, 20 + bh], radius=26, fill=(255, 255, 255, a),
@@ -175,14 +202,17 @@ def draw_bubble(spec, scale, alpha):
     d.line([(bx - 26, 19 + bh), tip_local], fill=(200, 206, 199, a), width=3)
     d.line([(bx + 26, 19 + bh), tip_local], fill=(200, 206, 199, a), width=3)
     # text lines: list of lines, each a list of [text, bold, color]
-    ty = 20 + spec.get('pad_y', 22)
+    ty = 20 + pad_y
     for line in spec['lines']:
-        tx = 20 + spec.get('pad_x', 30)
-        for text, bold, color in line:
-            f = font(spec.get('font_size', 46), bold)
-            d.text((tx, ty), text, font=f, fill=(*color, a))
-            tx += d.textlength(text, font=f)
-        ty += int(spec.get('font_size', 46) * 1.5)
+        spans = list(reversed(line)) if rtl else line
+        wline = sum(font(fs, bold, fpath).getlength(shape_text(text, rtl)) for text, bold, color in line)
+        tx = 20 + (bw - pad_x - wline if rtl else pad_x)
+        for text, bold, color in spans:
+            f = font(fs, bold, fpath)
+            t = shape_text(text, rtl)
+            d.text((tx, ty), t, font=f, fill=(*color, a))
+            tx += d.textlength(t, font=f)
+        ty += int(fs * 1.5)
     if scale != 1.0:
         nw = max(1, int(bubble.width * scale))
         nh = max(1, int(bubble.height * scale))
