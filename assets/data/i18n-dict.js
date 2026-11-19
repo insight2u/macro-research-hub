@@ -468,6 +468,7 @@ obs.observe(document.body, {childList:true, subtree:true});
 setInterval(tagUntranslated, 700);
 var lastGreetLang = '', lastGreetAt = 0;
 function greetOnce(lang){
+  if (document.documentElement.dataset.characterSound !== 'on') return;
   var n = Date.now();
   if (lang === lastGreetLang && n - lastGreetAt < 2500) return;
   lastGreetLang = lang; lastGreetAt = n;
