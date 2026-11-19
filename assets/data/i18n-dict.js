@@ -434,8 +434,9 @@ var LANGCAST = {
   "ar": {"links": [{"t": "DailyShot العربية 01", "u": "https://youtu.be/l4W_98fiGlM"}], "pending": ""},
   "sw": {"links": [{"t": "DailyShot Kiswahili 01", "u": "https://youtu.be/m_9GjK6depU"}], "pending": ""}
 };
-var NAVLANG = {"ko": {"yt": {"t": "YouTube 구독 ↗", "u": "https://www.youtube.com/@youngsun1976"}, "sp": {"t": "Spotify 한국어 팔로우 ↗", "u": "https://open.spotify.com/show/0bXi9vbte0UraD9ScEAWWc"}, "pod": {"t": "팟캐스트 RSS · 앱에 추가 ↗", "u": "https://anchor.fm/s/11a325260/podcast/rss"}, "prep": "준비 중"}, "en": {"yt": {"t": "YouTube: DailyShot English 01 ↗", "u": "https://youtu.be/yRlifvJgfQk"}, "sp": {"t": "Follow English on Spotify ↗", "u": "https://open.spotify.com/show/5iVJZ74aWM18xbqL4026zO"}, "pod": {"t": "Podcast RSS · add in app ↗", "u": "https://anchor.fm/s/11a4e2508/podcast/rss"}, "prep": "in preparation"}, "zh": {"yt": {"t": "YouTube: DailyShot 中文 01 ↗", "u": "https://youtu.be/AbCHCzlJ158"}, "sp": {"t": "关注Spotify中文节目 ↗", "u": "https://open.spotify.com/show/5J3pmjHceGLRzmllXl5kuS"}, "pod": {"t": "播客RSS · 添加到应用 ↗", "u": "https://anchor.fm/s/11a4e37c8/podcast/rss"}, "prep": "准备中"}, "ja": {"yt": {"t": "YouTube: DailyShot 日本語 01 ↗", "u": "https://youtu.be/k7AHVB0yGf8"}, "sp": {"t": "Spotify 日本語をフォロー ↗", "u": "https://open.spotify.com/show/2K6DDWcThKk6FJYTc2Nexy"}, "pod": {"t": "ポッドキャストRSS · アプリに追加 ↗", "u": "https://anchor.fm/s/11a4e2e04/podcast/rss"}, "prep": "準備中"}, "es": {"yt": {"t": "YouTube: DailyShot Español 01 ↗", "u": "https://youtu.be/W7jUWxAEkcs"}, "sp": {"t": "Seguir español en Spotify ↗", "u": "https://open.spotify.com/show/6Xdm2SXNPGksj2TtnkFBK7"}, "pod": {"t": "RSS del podcast · añadir a la app ↗", "u": "https://anchor.fm/s/11a4e3ae8/podcast/rss"}, "prep": "En preparación"}, "ru": {"yt": {"t": "YouTube · плейлист на русском ↗", "u": "https://www.youtube.com/playlist?list=PLecC4lG-tUCE"}, "sp": {"t": "Подписаться в Spotify ↗", "u": "https://open.spotify.com/show/6OwTBpB9NZz6L648EsTCdG"}, "pod": {"t": "RSS подкаста · добавить в приложение ↗", "u": "https://anchor.fm/s/11a5923e0/podcast/rss"}, "prep": "В подготовке"}, "ar": {"yt": {"t": "YouTube: DailyShot العربية 01 ↗", "u": "https://youtu.be/l4W_98fiGlM"}, "sp": {"t": "متابعة العربية على Spotify ↗", "u": "https://open.spotify.com/show/14vpvhQPFiy2ccSYpHJglE"}, "pod": {"t": "RSS للبودكاست · أضف إلى التطبيق ↗", "u": "https://anchor.fm/s/11a5924a8/podcast/rss"}, "prep": "قيد الإعداد"}, "sw": {"yt": {"t": "YouTube: DailyShot Kiswahili 01 ↗", "u": "https://youtu.be/m_9GjK6depU"}, "sp": null, "pod": null, "prep": "Inaandaliwa"}};
+var NAVLANG = {"ko": {"yt": null, "sp": {"t": "Spotify 한국어 팔로우 ↗", "u": "https://open.spotify.com/show/0bXi9vbte0UraD9ScEAWWc"}, "pod": {"t": "팟캐스트 RSS · 앱에 추가 ↗", "u": "https://anchor.fm/s/11a325260/podcast/rss"}, "prep": "준비 중"}, "en": {"yt": {"t": "YouTube · English playlist ↗", "u": "https://www.youtube.com/playlist?list=PLYUTjm6t1k2M"}, "sp": {"t": "Follow English on Spotify ↗", "u": "https://open.spotify.com/show/5iVJZ74aWM18xbqL4026zO"}, "pod": {"t": "Podcast RSS · add in app ↗", "u": "https://anchor.fm/s/11a4e2508/podcast/rss"}, "prep": "in preparation"}, "zh": {"yt": null, "sp": {"t": "关注Spotify中文节目 ↗", "u": "https://open.spotify.com/show/5J3pmjHceGLRzmllXl5kuS"}, "pod": {"t": "播客RSS · 添加到应用 ↗", "u": "https://anchor.fm/s/11a4e37c8/podcast/rss"}, "prep": "准备中"}, "ja": {"yt": {"t": "YouTube · 日本語の再生リスト ↗", "u": "https://www.youtube.com/playlist?list=PLdI99nvwxzOk"}, "sp": {"t": "Spotify 日本語をフォロー ↗", "u": "https://open.spotify.com/show/2K6DDWcThKk6FJYTc2Nexy"}, "pod": {"t": "ポッドキャストRSS · アプリに追加 ↗", "u": "https://anchor.fm/s/11a4e2e04/podcast/rss"}, "prep": "準備中"}, "es": {"yt": null, "sp": {"t": "Seguir español en Spotify ↗", "u": "https://open.spotify.com/show/6Xdm2SXNPGksj2TtnkFBK7"}, "pod": {"t": "RSS del podcast · añadir a la app ↗", "u": "https://anchor.fm/s/11a4e3ae8/podcast/rss"}, "prep": "En preparación"}, "ru": {"yt": {"t": "YouTube · плейлист на русском ↗", "u": "https://www.youtube.com/playlist?list=PLecC4lG-tUCE"}, "sp": {"t": "Подписаться в Spotify ↗", "u": "https://open.spotify.com/show/6OwTBpB9NZz6L648EsTCdG"}, "pod": {"t": "RSS подкаста · добавить в приложение ↗", "u": "https://anchor.fm/s/11a5923e0/podcast/rss"}, "prep": "В подготовке"}, "ar": {"yt": {"t": "YouTube · قائمة التشغيل العربية ↗", "u": "https://www.youtube.com/playlist?list=PLQhsYNXAuEpg"}, "sp": {"t": "متابعة العربية على Spotify ↗", "u": "https://open.spotify.com/show/14vpvhQPFiy2ccSYpHJglE"}, "pod": {"t": "RSS للبودكاست · أضف إلى التطبيق ↗", "u": "https://anchor.fm/s/11a5924a8/podcast/rss"}, "prep": "قيد الإعداد"}, "sw": {"yt": null, "sp": null, "pod": null, "prep": "Inaandaliwa"}};
 function updateLangCast(lang){
+  updateChannelLink(lang);
   var body = document.getElementById('nm-langcast-body');
   if (!body) return;
   var d = LANGCAST[lang] || {links:[],pending:(NEW_LANGUAGE_STATUS[lang]||{}).prep||'In preparation'};
@@ -459,12 +460,19 @@ function updateLangCast(lang){
       el.removeAttribute("aria-disabled");
     } else {
       el.removeAttribute("href");
-      var base = slots[k][1] === "yt" ? "YouTube" : (slots[k][1] === "sp" ? "Spotify" : "Podcast");
+      var base = slots[k][1] === "yt" ? "YouTube playlist" : (slots[k][1] === "sp" ? "Spotify" : "Podcast");
       el.textContent = base + " - " + nv.prep;
       el.classList.add("nr-link-disabled");
       el.setAttribute("aria-disabled", "true");
     }
   }
+}
+
+
+function updateChannelLink(lang){
+ var a=document.getElementById('nr-link-yt-channel');if(!a)return;
+ var labels={ko:'YouTube 채널 구독 ↗',en:'Subscribe to YouTube channel ↗',zh:'订阅YouTube频道 ↗',ja:'YouTubeチャンネル登録 ↗',es:'Suscribirse al canal YouTube ↗',ru:'Подписаться на YouTube-канал ↗',ar:'الاشتراك بقناة YouTube ↗',sw:'Jiunge na chaneli ya YouTube ↗',fr:"S'abonner à la chaîne YouTube ↗",de:'YouTube-Kanal abonnieren ↗',it:'Iscriviti al canale YouTube ↗'};
+ a.textContent=labels[lang]||labels.en;
 }
 
 function fixSubscriptionPanels(){
