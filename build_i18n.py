@@ -270,6 +270,8 @@ add("경제·해외증시","Economy & Global Stock Markets","经济·海外股�
 add("국제·사회","International & Society","国际·社会","国際・社会","Internacional y sociedad","Международное и общество","الدولية والمجتمع","Kimataifa na jamii")
 add("문화·전시","Culture & Exhibitions","文化·展览","文化・展示","Cultura y exposiciones","Культура и выставки","الثقافة والمعارض","Utamaduni na maonyesho")
 add("사회","Society","社会","社会","Sociedad","Общество","المجتمع","Jamii")
+add("순환 멈춤","Pause rotation","停止轮换","切替停止","Pausar rotación","Остановить смену","إيقاف التبديل","Simamisha mzunguko")
+add("확인된 Live","Verified Live","已验证直播","確認済みライブ","En vivo verificado","Проверенный эфир","بث مباشر موثق","Moja kwa moja lililothibitishwa")
 add("📚 🚕 Industry (산업·기술·반도체·모빌리티)","📚 🚕 Industry (Industry, Tech, Chips & Mobility)","📚 🚕 Industry（产业·技术·半导体·出行）","📚 🚕 Industry（産業・技術・半導体・モビリティ）","📚 🚕 Industry (Industria, tecnología, chips y movilidad)","📚 🚕 Industry (промышленность, технологии, чипы, мобильность)","📚 🚕 Industry (الصناعة والتقنية والرقائق والتنقل)","📚 🚕 Industry (Viwanda, teknolojia, chipsi na usafiri)")
 add("📚 🧛‍♂️ Government (정치·정부·정책)","📚 🧛‍♂️ Government (Politics, Government & Policy)","📚 🧛‍♂️ Government（政治·政府·政策）","📚 🧛‍♂️ Government（政治・政府・政策）","📚 🧛‍♂️ Government (Política, gobierno y políticas)","📚 🧛‍♂️ Government (политика, правительство, политика)","📚 🧛‍♂️ Government (السياسة والحكومة والسياسات)","📚 🧛‍♂️ Government (Siasa, serikali na sera)")
 add("🔠 문화·콘텐츠","🔠 Culture & Content","🔠 文化·内容","🔠 文化・コンテンツ","🔠 Cultura y contenidos","🔠 Культура и контент","🔠 الثقافة والمحتوى","🔠 Utamaduni na maudhui")
