@@ -375,6 +375,177 @@
     
     // 핵심 특종 실시간 자동 순환 데이터 (2026.11.05 07:30 KST 목요 조간 정기 갱신)
     const leadStories = [
+ {
+  "tagMain": "11/20 · 경제 체온계",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "수출 1조 달러, 통관 장부와 내 지갑은 다른 시계를 본다",
+  "subheadline": "경제지표",
+  "body": "수출 1조 달러라는 숫자는 크다. 그러나 그 숫자가 정확히 무엇을 셌는지부터 확인해야 기록의 의미도 살아난다. 산업통상부는 11월 19일 오후 2시 9분 38초 기준 연간 누계 수출액이 잠정 집계상 1조 달러에 도달했다고 밝혔다. 12월까지 모두 마친 연간 확정 실적이 아니다. '올해 수출이 얼마로 끝났다'가 아니라 '올해 누적 실적이 이 문턱을 넘었다'가 맞는 문장이다.[1]",
+  "points": [
+   "기록은 도착했고, 결산은 남았다",
+   "주식시장도 같은 날 움직였지만, 같은 통계는 아니다",
+   "매출이 늘어도 월급의 온도는 늦게 오른다",
+   "오늘의 시계표"
+  ],
+  "action": "openReportModal('report-2026-11-20-01-export-ledgers')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-01-export-ledgers",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-01.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 공장장 보고",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "드론 배터리의 경쟁력, 더 오래 나는 셀에서 서로 맞는 부품으로",
+  "subheadline": "산업·ICT",
+  "body": "국방부와 국가기술표준원이 소형드론 배터리의 크기와 성능시험 방법에 관한 한국산업표준(KS) 제정을 추진한다. 19일 발표에 따르면 20일부터 60일간 의견을 듣고 2027년 상반기 제정을 목표로 한다. 지금 이미 모든 드론에 적용되는 규칙이 생겼다는 뜻은 아니다. 이 기사 확인 시점에는 당일 예고고시 절차가 실제 게시됐는지까지 확인하지 않았다.[1]",
+  "points": [
+   "배터리가 좋아도 바꿔 끼울 수 없다면",
+   "군의 수요와 공장의 제품표 사이",
+   "수출 허가증도, 납품 계약서도 아니다",
+   "다음 기사에서 확인할 세 가지"
+  ],
+  "action": "openReportModal('report-2026-11-20-02-drone-battery-standard')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-02-drone-battery-standard",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-02.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 회장님의 도박판",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "가격을 안 올렸는데 왜 묻나, 시장지배력 규율의 새 질문",
+  "subheadline": "기업",
+  "body": "원가가 내려갔는데 판매가격이 그대로라면 어떤 질문을 해야 할까. 공정거래위원회가 입법예고한 공정거래법 시행령 개정안은 시장지배적 사업자의 가격남용 유형에 가격의 부당한 '결정·유지'를 추가하는 방향을 담았다. 현행 규율의 '현저성' 요건을 '상당성'으로 바꾸려는 내용도 있다. 법제처 공고의 의견제출 마감은 12월 16일이다. 이미 시행된 법으로 소개해서는 안 된다.[1]",
+  "points": [
+   "인상률 0%가 모든 설명을 대신하지는 않는다",
+   "가격표 밖으로 넓어지는 질문",
+   "기업이 남겨야 할 것은 가격뿐 아니라 이유",
+   "아직 비어 있는 마지막 칸"
+  ],
+  "action": "openReportModal('report-2026-11-20-03-dominant-price-maintenance')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-03-dominant-price-maintenance",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-03.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 트렌드人체크카드",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "해외 쇼핑몰에 한국어 전화를 걸면, 환불도 바로 끝날까",
+  "subheadline": "소비·유통",
+  "body": "배송이 멈췄거나 결제만 남고 주문이 사라졌을 때, 소비자가 필요한 것은 답변창의 존재보다 문제를 맡아 처리할 창구다. 공정거래위원회는 해외 전자상거래 사업자의 국내대리인 지정 가이드라인을 배포했다. 개정 전자상거래법에 따른 제도 시행일은 2027년 1월 21일이다. 발표일이나 이 기사 발행일부터 모든 해외 쇼핑몰에 의무가 적용된다고 읽어서는 안 된다.[1]",
+  "points": [
+   "챗봇 뒤에 사람이 필요한 순간",
+   "연락할 권리와 환불받을 권리는 다르다",
+   "계도기간을 '아직 안 해도 되는 기간'으로 읽지 말자",
+   "소비자와 판매자의 확인표"
+  ],
+  "action": "openReportModal('report-2026-11-20-04-overseas-shopping-representative')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-04-overseas-shopping-representative",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-04.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 여의도 한 입, 외교 한 접시",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "편의점 약 논쟁, 더 팔자와 더 안전하자 사이의 설계도",
+  "subheadline": "정치·외교",
+  "body": "국무조정실 민관합동 규제합리화추진단과 국회미래연구원이 19일 국회에서 첫 규제갈등 해결토론회를 열었다. 의제는 안전상비의약품의 약국 외 판매제도였다. 전문가·소비자·이해관계자 등 100여 명이 운영 현황과 판매품목·판매처·안전관리·지정절차를 논의했다고 공식 자료는 설명한다. 새 판매품목이나 판매처 확대를 확정했다는 발표는 아니다.[1]",
+  "points": [
+   "토론회가 열렸다고 판매 규칙이 바뀐 것은 아니다",
+   "13개와 11개가 함께 등장하는 이유",
+   "접근성과 안전성은 하나의 축이 아니다",
+   "토론의 성과는 참석자 수 다음에 나온다"
+  ],
+  "action": "openReportModal('report-2026-11-20-05-medicine-policy-deliberation')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-05-medicine-policy-deliberation",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-05.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 글로벌이코노미뉴스",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "사기 사이트 뒤의 임대료, 미국 제재가 겨냥한 범죄의 기반시설",
+  "subheadline": "국제경제",
+  "body": "미국 재무부 해외자산통제국(OFAC)은 19일 동남아시아의 사이버 사기 거점 운영·지원과 관련해 개인 3명과 연계 기업 2곳을 제재했다고 발표했다. 재무부는 미국인을 겨냥한 가상자산 투자사기와 사기단지에 보호·지원을 제공한 무장세력 관계자 등을 대상으로 삼았다고 설명했다. 이는 미국 행정부의 제재 결정과 그 근거에 관한 발표다. 형사재판의 유죄 확정과 같은 말은 아니다.[1][2]",
+  "points": [
+   "화면을 닫아도 건물과 돈의 길은 남는다",
+   "세 명과 두 회사, 그 밖의 차단 범위",
+   "범죄를 서비스망으로 보는 관점",
+   "기업과 독자의 다음 확인"
+  ],
+  "action": "openReportModal('report-2026-11-20-06-scam-infrastructure-sanctions')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-06-scam-infrastructure-sanctions",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-06.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 라이프人정글",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "집의 최저선을 다시 긋는다, 면적 다음에 물어야 할 것",
+  "subheadline": "사회",
+  "body": "국토교통부가 20일 오후 서울에서 최저주거기준 개선과 보편형 공공임대 정책 방향을 논의하는 토론회를 열 계획이다. 공식 일정은 오후 1시 30분부터 5시 10분까지이며 일정은 변동될 수 있다고 안내했다. 이 원고 확인 시각에는 아직 열리지 않은 행사다. 참석자들이 이미 합의했다거나 최저 면적이 특정 수치로 바뀌었다고 전할 수 없다.[1]",
+  "points": [
+   "토론회는 오늘 오후, 새 기준은 아직 아니다",
+   "넓이 한 칸으로 생활 전체를 설명할 수 있을까",
+   "공공임대의 문턱과 거주비는 함께 봐야 한다",
+   "기준 개정 뒤에 남는 실행의 질문"
+  ],
+  "action": "openReportModal('report-2026-11-20-07-housing-minimum-standards')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-07-housing-minimum-standards",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-07.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 마이다스의 Z-Tech",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "잊은 보험금 찾기와 보험 갈아타기, 같은 버튼으로 누르지 말자",
+  "subheadline": "생활·금융",
+  "body": "금융위원회가 19일 발표한 실손보험 정책에는 서로 다른 두 일이 들어 있다. 하나는 과거에 청구하지 않은 보험금을 찾도록 돕는 서비스이고, 다른 하나는 초기 실손보험 가입자가 보험료와 보장내용을 바꾸는 선택지다. 둘을 모두 '보험료 아끼는 방법'으로 묶으면 판단이 흐려진다. 첫 번째는 기존 권리를 확인하는 일이고, 두 번째는 앞으로의 보장을 다시 선택하는 일이다.[1]",
+  "points": [
+   "받을 돈을 찾는 일과 보장을 바꾸는 일",
+   "연결됐다는 숫자도 분모를 봐야 한다",
+   "50% 할인은 누구의 어떤 보험료인가",
+   "되돌리기 조건을 먼저 읽자"
+  ],
+  "action": "openReportModal('report-2026-11-20-08-insurance-claims-and-coverage')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-08-insurance-claims-and-coverage",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-08.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 도파민성애자",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "그림 앞에 서는 대신 그림 안에 선다, 마루야마 오쿄의 공간 실험",
+  "subheadline": "문화",
+  "body": "도쿄도 에도도쿄박물관은 11월 28일부터 특별전 '마루야마 오쿄, 리얼을 넘어 공간혁명'을 열 예정이다. 공식 안내에 따르면 120점 넘는 작품을 통해 초기부터 만년까지의 작업을 소개하고, 다이조지의 장벽화를 중심으로 회화와 공간의 관계를 다룬다. 이 기사는 개막 전 공식 기획을 읽은 프리뷰다. 전시장을 직접 보거나 작품 배치의 실제 효과를 확인한 관람평이 아니다.[1][2]",
+  "points": [
+   "아직 열리지 않은 전시를 읽는 방법",
+   "한 점의 그림과 여러 방의 그림",
+   "대표작 한 점 때문에 날짜가 달라진다",
+   "미술의 오래된 질문이 오늘의 화면과 만날 때"
+  ],
+  "action": "openReportModal('report-2026-11-20-09-okyo-spatial-preview')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-09-okyo-spatial-preview",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-09.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/20 · 역사로 오늘을 읽다",
+  "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
+  "headline": "어린이를 위한 날에서 어린이의 권리로, 11월 20일의 두 문서",
+  "subheadline": "역사",
+  "body": "11월 20일 세계 아동의 날을 이해하려면 같은 날짜에 채택된 두 문서를 함께 읽어야 한다. 유엔 총회는 1959년 11월 20일 아동권리선언을, 1989년 11월 20일 아동권리협약을 채택했다. 유엔 공식 안내가 이 날짜의 배경으로 제시하는 두 사건이다. 다른 나라의 어린이 기념일과 반드시 같은 날짜인 것은 아니다.[1]",
+  "points": [
+   "선물을 주는 날만으로는 설명되지 않는다",
+   "선언과 협약 사이의 차이",
+   "보호받을 권리 옆에 의견을 낼 권리",
+   "화면 속 어린이에게도 남는 질문"
+  ],
+  "action": "openReportModal('report-2026-11-20-10-child-rights-history')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-20-10-child-rights-history",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-10.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+ }
+,
 {"tagMain": "11/19 · 경제 체온계", "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기", "headline": "한국의 반등, 미국의 엇갈림, 회복은 어디까지 왔나", "subheadline": "시황", "body": "국내 주가의 하루 반등을 실물경기 전반의 안정으로 확대하기에는 이르다. 11월18일 코스피는 5,067.44로 98.96포인트 올랐지만, 미국18일 정규장에서는 다우·S&P500 하락과 나스닥 상승이 갈렸다. 반등의 가격과 생산·고용·물가의 서로 다른 관측 달력을 나란히 놓고 읽는다.", "points": ["먼저 숫자에 시계를 붙인다", "VIX 충돌은 공식 원자료로 풀었다", "주가와 다른 달력으로 보는 생산·고용·소비·투자", "물가의 평균 안에서도 온도는 다르다"], "action": "openReportModal('report-2026-11-19-01-market-rebound-us-divergence')", "actionText": "기사 전문 읽기", "reportId": "report-2026-11-19-01-market-rebound-us-divergence", "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/2026-11-19-market-reference.jpg\" alt=\"2012년 부산 동구 한국거래소 건물 참고사진. 현재 사옥이나 2026년11월18일 거래 현장이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>2012년 부산 동구 한국거래소 건물 참고사진. 현재 사옥이나 2026년11월18일 거래 현장이 아닙니다. · 사진 출처·이용조건은 기사 전문에 표기</figcaption></figure>"},
 {"tagMain": "11/19 · 공장장 보고", "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기", "headline": "반도체는 그대로인데 고객이 바뀐다, 원격 연산이 만든 수출통제의 새 경계", "subheadline": "산업·ICT", "body": "반도체를 어디로 보냈는지 확인하는 것과 그 반도체를 누가 쓰는지 확인하는 것은 이제 다른 문제다. 장비는 해외 데이터센터의 같은 자리에 있어도, 연산을 주문하는 고객과 그 고객이 제공하는 서비스는 바뀔 수 있다. 미국이 원격 연산 접근을 겨냥한 규칙을 내놓은 배경도 이 간격에 있다.[1]", "points": ["설치 국가와 사용자의 본사는 다른 좌표다", "다섯 목적지 규칙과 원격 이용 통제는 같은 축이 아니다", "새 규칙이 기존 규칙을 없애는 부분도 있다", "발표일과 발효일 사이의 시간"], "action": "openReportModal('report-2026-11-19-02-remote-compute-export-controls')", "actionText": "기사 전문 읽기", "reportId": "report-2026-11-19-02-remote-compute-export-controls", "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/2026-11-19-industry-reference.jpg\" alt=\"[1] BIS 보도자료,2026-11-16.본문 직접 재확인.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>[1] BIS 보도자료,2026-11-16.본문 직접 재확인. · 사진 출처·이용조건은 기사 전문에 표기</figcaption></figure>"},
 {"tagMain": "11/19 · 회장님의 도박판", "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기", "headline": "의무공개매수, 50과 75 사이에 가려진 주주의 출구", "subheadline": "기업", "body": "경영권이 바뀌는 날, 대주주에게는 거래 상대가 생긴다. 일반주주에게도 같은 출구가 열리는지는 별개의 문제다. 의무공개매수제 논의는 이 차이에서 출발한다. 주식양수도로 지배권을 넘기는 거래에서 일반주주를 어떻게 보호할지, 인수자에게 어느 범위까지 매수 기회를 제공하도록 할지가 쟁점이다. 제도를 단순히 '주가를 올리는 법'으로 부르면 실제 설계를 놓치게 된다.[1]", "points": ["비율보다 먼저, 무엇을 세는 숫자인가", "팔 기회가 있다는 것과, 전량 팔린다는 것은 다르다", "의무를 지는 쪽은 누구인가", "아직 남아 있는 문턱"], "action": "openReportModal('report-2026-11-19-03-mandatory-tender-offer')", "actionText": "기사 전문 읽기", "reportId": "report-2026-11-19-03-mandatory-tender-offer", "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/2026-11-19-company-reference.jpg\" alt=\"[1] 국민참여입법센터, 자본시장법 일부개정법률안 대안 제2221615호.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>[1] 국민참여입법센터, 자본시장법 일부개정법률안 대안 제2221615호. · 사진 출처·이용조건은 기사 전문에 표기</figcaption></figure>"},
