@@ -62,7 +62,7 @@ add("오늘의 경제 체온계","Today's Economy Thermometer","今日经济体�
 add("오늘의 멀미 지수","Today's Economy Thermometer","今日经济体温计","今日の経済体温計","Termómetro económico de hoy","Экономический термометр дня","مقياس حرارة الاقتصاد اليوم","Kipima joto cha uchumi cha leo")
 add("공장장 보고 드립니다","Factory Manager's Report","厂长报告","工場長の報告","Informe del jefe de fábrica","Доклад директора завода","تقرير مدير المصنع","Ripoti ya meneja wa kiwanda")
 add("불 안 꺼지는 공장","Factory Manager's Report","厂长报告","工場長の報告","Informe del jefe de fábrica","Доклад директора завода","تقرير مدير المصنع","Ripoti ya meneja wa kiwanda")
-add("회장님 책상 위","On the Chairman's Desk","会长办公桌上","会長の机の上","Sobre el escritorio del presidente","На столе председателя","على مكتب الرئيس","Juu ya dawati la mwenyekiti")
+add("회장님의 도박판","The Chairman's Gambling Table","会长的赌桌","会長の賭け場","La mesa de apuestas del presidente","Игорный стол председателя","طاولة قمار الرئيس","Meza ya kamari ya mwenyekiti")
 add("계산대 앞 3초","3 Seconds at the Register","收银台前三秒","レジ前3秒","3 segundos en la caja","3 секунды у кассы","3 ثوانٍ عند الصندوق","Sekunde 3 mbele ya kasha")
 add("여의도 한 입, 외교 한 접시","A Bite of Yeouido, a Plate of Diplomacy","汝矣岛一口，外交一盘","汝矣島ひと口、外交ひと皿","Un bocado de Yeouido, un plato de diplomacia","Кусочек Йоидо, блюдо дипломатии","قضمة من يويدو وطبق من الدبلوماسية","Kijiko cha Yeouido, sahani ya diplomasia")
 add("엄마찾아삼만리","Finding Mom Across 30,000 Li","万里寻母记","母をたずねて三千里","En busca de mamá, 30.000 li","В поисках мамы за 30 000 ли","البحث عن أمي عبر 30 ألف لي","Kumtafuta mama maili 30,000")
