@@ -287,6 +287,13 @@ DICT["es"]["사회"] = "Sociedad";
 DICT["ru"]["사회"] = "Общество";
 DICT["ar"]["사회"] = "المجتمع";
 DICT["sw"]["사회"] = "Jamii";
+DICT["en"]["(사회)"] = "(Society)";
+DICT["zh"]["(사회)"] = "(社会)";
+DICT["ja"]["(사회)"] = "(社会)";
+DICT["es"]["(사회)"] = "(Sociedad)";
+DICT["ru"]["(사회)"] = "(Общество)";
+DICT["ar"]["(사회)"] = "(المجتمع)";
+DICT["sw"]["(사회)"] = "(Jamii)";
 function norm(t){ return t.replace(/\s+/g,' ').trim(); }
 function translateText(v, lang){
   var d = DICT[lang]; if(!d) return null;
