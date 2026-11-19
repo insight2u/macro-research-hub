@@ -69,6 +69,7 @@ add("라이프人정글","Life人Jungle","生活人丛林","ライフ人ジャ�
 add("역사·정치지리","History & Political Geography","历史·政治地理","歴史・政治地理","Historia y geografía política","История и политическая география","التاريخ والجغرافيا السياسية","Historia na jiografia ya kisiasa")
 add("(기업)","(Business)","(企业)","(企業)","(Empresas)","(Компании)","(الشركات)","(Makampuni)")
 add("(문화)","(Culture)","(文化)","(文化)","(Cultura)","(Культура)","(الثقافة)","(Utamaduni)")
+add("마이다스의 Z-Tech", "Midas's Z-Tech", "迈达斯的Z-Tech", "マイダスのZ-Tech", "Z-Tech de Midas", "Z-Tech Мидаса", "Z-Tech ميداس", "Z-Tech ya Midasi")
 add("계산대 앞 3초","3 Seconds at the Register","收银台前三秒","レジ前3秒","3 segundos en la caja","3 секунды у кассы","3 ثوانٍ عند الصندوق","Sekunde 3 mbele ya kasha")
 add("여의도 한 입, 외교 한 접시","A Bite of Yeouido, a Plate of Diplomacy","汝矣岛一口，外交一盘","汝矣島ひと口、外交ひと皿","Un bocado de Yeouido, un plato de diplomacia","Кусочек Йоидо, блюдо дипломатии","قضمة من يويدو وطبق من الدبلوماسية","Kijiko cha Yeouido, sahani ya diplomasia")
 add("엄마찾아삼만리","Finding Mom Across 30,000 Li","万里寻母记","母をたずねて三千里","En busca de mamá, 30.000 li","В поисках мамы за 30 000 ли","البحث عن أمي عبر 30 ألف لي","Kumtafuta mama maili 30,000")
