@@ -294,6 +294,13 @@ DICT["es"]["(사회)"] = "(Sociedad)";
 DICT["ru"]["(사회)"] = "(Общество)";
 DICT["ar"]["(사회)"] = "(المجتمع)";
 DICT["sw"]["(사회)"] = "(Jamii)";
+DICT["en"]["키운 것과 지킨 것 · 라이프인정글"] = "What We Grew and What We Protected · Life in Jungle";
+DICT["zh"]["키운 것과 지킨 것 · 라이프인정글"] = "养大的与守护的 · 生活丛林";
+DICT["ja"]["키운 것과 지킨 것 · 라이프인정글"] = "育てたものと守ったもの · ライフ・イン・ジャングル";
+DICT["es"]["키운 것과 지킨 것 · 라이프인정글"] = "Lo que criamos y lo que protegemos · La vida en la jungla";
+DICT["ru"]["키운 것과 지킨 것 · 라이프인정글"] = "Что мы вырастили и что сберегли · Жизнь в джунглях";
+DICT["ar"]["키운 것과 지킨 것 · 라이프인정글"] = "ما ربّيناه وما حميناه · الحياة في الغابة";
+DICT["sw"]["키운 것과 지킨 것 · 라이프인정글"] = "Tulichokikulia na tulichokilinda · Maisha msituni";
 function norm(t){ return t.replace(/\s+/g,' ').trim(); }
 function translateText(v, lang){
   var d = DICT[lang]; if(!d) return null;
