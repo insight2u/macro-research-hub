@@ -12235,16 +12235,25 @@ function openDesk(name,id){const list=reports.filter(r=>matches(r,name));const c
 menu.querySelectorAll('.nr-program').forEach(old=>{const button=old.cloneNode(true);old.replaceWith(button);const name=button.childNodes[0].textContent.trim();button.setAttribute('role','button');button.tabIndex=0;button.onclick=()=>openDesk(name);button.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDesk(name)}}});
 })();
 </script><script id="family-cinema-control">(()=>{
-const baby=document.getElementById('ds-cinema-character'),guest=document.getElementById('family-cinema-active'),guestB=document.getElementById('family-cinema-active-b'),stageB=document.getElementById('family-cinema-stage-b'),button=document.getElementById('family-motion-toggle'),stage=document.getElementById('family-cinema-stage'),scene=document.querySelector('.ds-family-scene');
-const actors=[{src:'images/family/interaction01.webp',poster:'images/family/interaction01-still.png',name:'회장님과 아이 포옹',people:2,pad:0.0222},{src:'images/family/siu-idle.webp',poster:'images/family/siu-still.png',name:'유시우',key:'siu',people:1,pad:0.0667},{src:'images/family/basic02.webp',poster:'images/family/basic02-still.png',name:'보라 원피스',people:1,pad:0.0361},{src:'images/family/basic01.webp',poster:'images/family/basic01-still.png',name:'빨간 코트',people:1,pad:0.0361},{src:'images/family/parody01.webp',poster:'images/family/parody01-still.png',name:'분홍 코트',people:1,pad:0.0361},{src:'images/family/family-01-idle.webp',poster:'images/family/family-01-still.png',name:'가족 01',people:1,pad:0.0639},{src:'images/family/family-06-idle.webp',poster:'images/family/family-06-still.png',name:'가족 06',people:1,pad:0.0639},{src:'images/family/family-11-idle.webp',poster:'images/family/family-11-still.png',name:'가족 11',people:1,pad:0.0639},{src:'images/family/family-12-idle.webp',poster:'images/family/family-12-still.png',name:'가족 12',people:1,pad:0.0639},{src:'images/family/family-13-idle.webp',poster:'images/family/family-13-still.png',name:'가족 13',people:1,pad:0.0639},{src:'images/family/family-02-idle.webp',poster:'images/family/family-02-still.png',name:'가족 02',people:1,pad:0.0639},{src:'images/family/family-07-idle.webp',poster:'images/family/family-07-still.png',name:'가족 07',people:1,pad:0.0639},{src:'images/family/family-14-idle.webp',poster:'images/family/family-14-still.png',name:'가족 14',people:1,pad:0.0639},{src:'images/family/family-03-idle.webp',poster:'images/family/family-03-still.png',name:'가족 03',people:1,pad:0.0639},{src:'images/family/family-08-idle.webp',poster:'images/family/family-08-still.png',name:'가족 08',people:1,pad:0.0639},{src:'images/family/family-04-idle.webp',poster:'images/family/family-04-still.png',name:'가족 04',people:1,pad:0.0639},{src:'images/family/family-09-idle.webp',poster:'images/family/family-09-still.png',name:'가족 09',people:1,pad:0.0639}];
-const solos=actors.filter(a=>a.people!==2);
-let paused=matchMedia('(prefers-reduced-motion:reduce)').matches,index=0,elapsed=0,last=performance.now();
-const BABY_PAD=0.0611;
-function ground(){const gc=baby.closest('.ds-cinema'),fc=guest.closest('.family-cinema'),fb=guestB.closest('.family-cinema');gc.style.bottom=(-BABY_PAD*gc.clientHeight).toFixed(1)+'px';fc.style.bottom=(-(actors[index].pad||0)*fc.clientHeight).toFixed(1)+'px';fb.style.bottom=(-(solos[(index+1)%solos.length].pad||0)*fb.clientHeight).toFixed(1)+'px'}
-addEventListener('resize',ground);
-function render(){const actor=actors[index],hug=actor.people===2,solo=solos[(index+1)%solos.length];baby.src=paused?baby.dataset.poster:baby.dataset.motion;guest.src=paused?actor.poster:actor.src;guest.alt=actor.name+' 동작';guestB.src=paused?solo.poster:solo.src;guestB.alt=solo.name+' 동작';stageB.dataset.actor=solo.name;button.textContent=paused?'동작 재생':'동작 멈추기';button.setAttribute('aria-pressed',String(!paused));stage.dataset.paused=String(paused);stage.dataset.visiblePeople='2';stage.dataset.actor=actor.name;stage.dataset.characterKey=actor.key||'family';stage.dataset.queueIndex=String(index);scene.classList.toggle('ds-hug-turn',hug);stage.setAttribute('aria-label',hug?'왼쪽 가족은 그대로 두고, 아기가 잠시 퇴장하고 두 사람의 포옹 차례':'아기와 두 명의 가족 캐릭터');baby.closest('.ds-cinema').setAttribute('aria-hidden',String(hug));ground()}addEventListener('load',ground);
-button.onclick=()=>{paused=!paused;last=performance.now();render()};render();
-function tick(now){const dt=Math.max(0,Math.min(now-last,100));last=now;if(!paused&&!document.hidden){elapsed+=dt;if(elapsed>=8000){elapsed=0;index=(index+1)%actors.length;render()}}requestAnimationFrame(tick)}requestAnimationFrame(tick);
+const scene=document.querySelector('.ds-family-scene'),button=document.getElementById('family-motion-toggle');
+const ids=['ds-cinema-character','family-cinema-active','family-cinema-active-b'];
+const sources=['assets/baby-poster.png','images/family/basic02-still.png','images/family/basic01-still.png'];
+const mouths=[{x:120,y:141,w:23,h:5},{x:115,y:126,w:23,h:5},{x:119,y:137,w:27,h:5}];
+let paused=matchMedia('(prefers-reduced-motion:reduce)').matches,visible=true,elapsed=0,last=performance.now();
+scene.classList.remove('ds-hug-turn');
+const actors=ids.map((id,i)=>{const img=document.getElementById(id),stage=img.parentElement,c=document.createElement('canvas');c.width=240;c.height=360;c.className='ds-small-performance';c.setAttribute('aria-hidden','true');stage.append(c);stage.style.bottom='0px';const source=new Image();source.src=i===0&&(document.documentElement.dataset.lang||'ko')!=='ko'?img.getAttribute('src'):sources[i];const texture=document.createElement('canvas');texture.width=240;texture.height=360;const actor={img,stage,c,ctx:c.getContext('2d'),source,texture,i};source.onload=()=>{const tc=texture.getContext('2d');tc.clearRect(0,0,240,360);const scale=Math.min(240/source.naturalWidth,360/source.naturalHeight),w=source.naturalWidth*scale,h=source.naturalHeight*scale;tc.drawImage(source,(240-w)/2,360-h,w,h)};if(i===0)new MutationObserver(()=>{const lang=document.documentElement.dataset.lang||'ko',src=lang==='ko'?sources[0]:img.getAttribute('src');if(source.getAttribute('src')!==src)source.src=src}).observe(img,{attributes:true,attributeFilter:['src']});return actor;});
+function sync(){const active=!paused&&visible&&!document.hidden;scene.dataset.performing=String(active);scene.dataset.performanceTime=(elapsed/1000).toFixed(2);scene.dataset.phase=['dance','sing','play'][Math.floor(elapsed/5000)%3];button.textContent=paused?'동작 재생':'동작 멈추기';button.setAttribute('aria-pressed',String(!paused));actors.forEach(a=>{a.c.style.visibility='visible';a.img.style.visibility='hidden'});return active;}
+button.onclick=()=>{paused=!paused;last=performance.now();sync()};
+new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;last=performance.now();sync()},{threshold:.05}).observe(scene);
+document.addEventListener('visibilitychange',()=>{last=performance.now();sync()});
+function draw(a,t){if(!a.source.complete||!a.source.naturalWidth)return;const ctx=a.ctx;ctx.clearRect(0,0,240,360);const phase=Math.floor(t/5000)%3,sec=t/1000+a.i*.55;ctx.save();
+// Feet stay planted. Only the upper body and head move a few source pixels.
+for(let y=0;y<360;y+=2){const upper=Math.max(0,1-y/320),sway=Math.sin(sec*3.2)*upper*(phase===0?6:2.5);const breath=1+Math.sin(sec*2.2)*.004*upper;ctx.drawImage(a.texture,0,y,240,2,120-120*breath+sway,y,240*breath,2);}
+if(phase===1&&(a.i!==0||(document.documentElement.dataset.lang||'ko')==='ko')){const m=mouths[a.i],op=.5+.5*Math.sin(sec*9);ctx.save();ctx.beginPath();ctx.ellipse(m.x,m.y,m.w*.6,6,0,0,Math.PI*2);ctx.clip();ctx.drawImage(a.texture,m.x-18,m.y-5,36,10,m.x-18,m.y-5,36,10+op*10);ctx.restore();}
+// Small hand flourish, clipped inside its own silhouette region, no travelling.
+if(phase===2){const hx=a.i===0?179:175,hy=a.i===0?176:235;ctx.save();ctx.beginPath();ctx.ellipse(hx,hy,15,17,0,0,Math.PI*2);ctx.clip();ctx.translate(hx,hy);ctx.rotate(Math.sin(sec*4)*.16);ctx.drawImage(a.texture,-hx,-hy,240,360);ctx.restore();}
+ctx.restore();}
+function tick(now){const dt=Math.min(Math.max(now-last,0),80);last=now;const active=sync();if(active){elapsed+=dt;actors.forEach(a=>draw(a,elapsed));}else if(!scene.dataset.drawn){actors.forEach(a=>draw(a,0));if(actors.every(a=>a.source.complete))scene.dataset.drawn='true';}requestAnimationFrame(tick)}requestAnimationFrame(tick);
 })();</script><style id="family-fifo-hug-layout">
 #daily-newsroom .ds-family-scene.ds-hug-turn .ds-cinema{visibility:hidden!important;position:absolute!important;pointer-events:none}
 #daily-newsroom .ds-family-scene.ds-hug-turn .family-cinema{width:1.05em!important;flex-basis:1.05em!important}
@@ -12651,5 +12660,17 @@ html[dir="rtl"] #daily-newsroom .nr-nav,html[dir=rtl] #lang-bar{direction:rtl}
   }
 })();
 </script>
-</body>
+<style id="masthead-small-performance-20261119">
+#daily-newsroom .ds-family-scene{overflow:hidden!important;pointer-events:none}
+#daily-newsroom .ds-family-scene .ds-cinema,#daily-newsroom .ds-family-scene .family-cinema{height:76px!important;bottom:0!important;width:51px!important;overflow:hidden!important}
+#daily-newsroom .ds-family-scene .ds-cinema{left:69%!important}
+#daily-newsroom .ds-family-scene .family-cinema{left:calc(69% - 66px)!important}
+#daily-newsroom .ds-family-scene .family-cinema-b{left:calc(69% + 66px)!important}
+#daily-newsroom .ds-family-scene canvas.ds-small-performance{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block}
+@media(max-width:760px){
+#daily-newsroom .ds-family-scene .ds-cinema,#daily-newsroom .ds-family-scene .family-cinema{height:38px!important;width:25px!important}
+#daily-newsroom .ds-family-scene .ds-cinema{left:72%!important}
+#daily-newsroom .ds-family-scene .family-cinema{left:calc(72% - 28px)!important}
+#daily-newsroom .ds-family-scene .family-cinema-b{left:calc(72% + 28px)!important}}
+</style></body>
 </html>
