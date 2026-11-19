@@ -12195,7 +12195,7 @@ const scene=document.querySelector('.ds-family-scene'),button=document.getElemen
 const ids=['ds-cinema-character','family-cinema-active','family-cinema-active-b'];
 const sources=['assets/baby-poster.png','images/family/basic02-still.png','images/family/basic01-still.png'];
 const mouths=[{x:120,y:141,w:23,h:5},{x:115,y:126,w:23,h:5},{x:119,y:137,w:27,h:5}];
-let paused=matchMedia('(prefers-reduced-motion:reduce)').matches,visible=true,elapsed=0,last=performance.now();
+const familyReduced=matchMedia('(prefers-reduced-motion:reduce)').matches;let paused=false,visible=true,elapsed=0,last=performance.now();
 scene.classList.remove('ds-hug-turn');
 const actors=ids.map((id,i)=>{const img=document.getElementById(id),stage=img.parentElement,c=document.createElement('canvas');c.width=240;c.height=360;c.className='ds-small-performance';c.setAttribute('aria-hidden','true');stage.append(c);stage.style.bottom='0px';const source=new Image();source.src=i===0&&(document.documentElement.dataset.lang||'ko')!=='ko'?img.getAttribute('src'):sources[i];const texture=document.createElement('canvas');texture.width=240;texture.height=360;const actor={img,stage,c,ctx:c.getContext('2d'),source,texture,i};source.onload=()=>{const tc=texture.getContext('2d');tc.clearRect(0,0,240,360);const scale=Math.min(240/source.naturalWidth,360/source.naturalHeight),w=source.naturalWidth*scale,h=source.naturalHeight*scale;tc.drawImage(source,(240-w)/2,360-h,w,h)};if(i===0)new MutationObserver(()=>{const lang=document.documentElement.dataset.lang||'ko',src=lang==='ko'?sources[0]:img.getAttribute('src');if(source.getAttribute('src')!==src)source.src=src}).observe(img,{attributes:true,attributeFilter:['src']});return actor;});
 function sync(){const active=!paused&&visible&&!document.hidden;scene.dataset.performing=String(active);scene.dataset.performanceTime=(elapsed/1000).toFixed(2);scene.dataset.phase=['dance','sing','play'][Math.floor(elapsed/5000)%3];button.textContent=paused?'동작 재생':'동작 멈추기';button.setAttribute('aria-pressed',String(!paused));actors.forEach(a=>{a.c.style.visibility='visible';a.img.style.visibility='hidden'});return active;}
@@ -12204,10 +12204,10 @@ new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;last=perfor
 document.addEventListener('visibilitychange',()=>{last=performance.now();sync()});
 function draw(a,t){if(!a.source.complete||!a.source.naturalWidth)return;const ctx=a.ctx;ctx.clearRect(0,0,240,360);const phase=Math.floor(t/5000)%3,sec=t/1000+a.i*.55;ctx.save();
 // Feet stay planted. Only the upper body and head move a few source pixels.
-for(let y=0;y<360;y+=2){const upper=Math.max(0,1-y/320),sway=Math.sin(sec*3.2)*upper*(phase===0?6:2.5);const breath=1+Math.sin(sec*2.2)*.004*upper;ctx.drawImage(a.texture,0,y,240,2,120-120*breath+sway,y,240*breath,2);}
-if(phase===1&&(a.i!==0||(document.documentElement.dataset.lang||'ko')==='ko')){const m=mouths[a.i],op=.5+.5*Math.sin(sec*9);ctx.save();ctx.beginPath();ctx.ellipse(m.x,m.y,m.w*.6,6,0,0,Math.PI*2);ctx.clip();ctx.drawImage(a.texture,m.x-18,m.y-5,36,10,m.x-18,m.y-5,36,10+op*10);ctx.restore();}
+for(let y=0;y<360;y+=2){const upper=Math.max(0,1-y/320),sway=Math.sin(sec*3.2)*upper*(phase===0?6:2.5)*(familyReduced?.18:1);const breath=1+Math.sin(sec*2.2)*.004*upper*(familyReduced?.18:1);ctx.drawImage(a.texture,0,y,240,2,120-120*breath+sway,y,240*breath,2);}
+if(phase===1&&(a.i!==0||(document.documentElement.dataset.lang||'ko')==='ko')){const m=mouths[a.i],op=(.5+.5*Math.sin(sec*9))*(familyReduced?.18:1);ctx.save();ctx.beginPath();ctx.ellipse(m.x,m.y,m.w*.6,6,0,0,Math.PI*2);ctx.clip();ctx.drawImage(a.texture,m.x-18,m.y-5,36,10,m.x-18,m.y-5,36,10+op*10);ctx.restore();}
 // Small hand flourish, clipped inside its own silhouette region, no travelling.
-if(phase===2){const hx=a.i===0?179:175,hy=a.i===0?176:235;ctx.save();ctx.beginPath();ctx.ellipse(hx,hy,15,17,0,0,Math.PI*2);ctx.clip();ctx.translate(hx,hy);ctx.rotate(Math.sin(sec*4)*.16);ctx.drawImage(a.texture,-hx,-hy,240,360);ctx.restore();}
+if(phase===2){const hx=a.i===0?179:175,hy=a.i===0?176:235;ctx.save();ctx.beginPath();ctx.ellipse(hx,hy,15,17,0,0,Math.PI*2);ctx.clip();ctx.translate(hx,hy);ctx.rotate(Math.sin(sec*4)*.16*(familyReduced?.18:1));ctx.drawImage(a.texture,-hx,-hy,240,360);ctx.restore();}
 ctx.restore();}
 function tick(now){const dt=Math.min(Math.max(now-last,0),80);last=now;const active=sync();if(active){elapsed+=dt;actors.forEach(a=>draw(a,elapsed));}else if(!scene.dataset.drawn){actors.forEach(a=>draw(a,0));if(actors.every(a=>a.source.complete))scene.dataset.drawn='true';}requestAnimationFrame(tick)}requestAnimationFrame(tick);
 })();</script><style id="family-fifo-hug-layout">
@@ -12517,7 +12517,7 @@ html[data-lang="sw"] #daily-newsroom{--paper:#f4ecda;--accent:#7a5a20;background
 html[dir="rtl"] #daily-newsroom .nr-nav,html[dir=rtl] #lang-bar{direction:rtl}
 </style>
 
-<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-34"></script>
+<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-35"></script>
 
 <style id="series-modal-style">
 #series-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:flex-end;justify-content:center}
@@ -12649,5 +12649,11 @@ html body #daily-newsroom #nm-empty{color:#fff;font-size:13px;padding:14px;margi
 @media(max-width:760px){html body #daily-newsroom #dailyshot-masthead{grid-template-columns:1fr!important;gap:8px}html body #daily-newsroom .ds-mast-layout{min-height:130px!important}html body #daily-newsroom .ds-wordmark{max-width:62%!important}html body #daily-newsroom .nr-name{font-size:23px!important}html body #daily-newsroom #nr-media{grid-template-columns:minmax(0,1fr) 126px!important;gap:6px 8px}html body #daily-newsroom .nm-player{height:134px!important}html body #daily-newsroom .ds-user-backdrop{height:90%!important}html body #daily-newsroom .nm-controls button{padding:3px 4px;font-size:9px}html body #daily-newsroom #nm-title{font-size:11px!important}html body #daily-newsroom .nm-meta{font-size:9px!important}}
 </style>
 <script src="assets/data/dailyshot-player.js?v=20261119-1"></script>
-</body>
+<style id="large-portrait-motion-preview">
+@keyframes ds-portrait-breathe{0%,100%{transform:translateX(-50%) translateY(0) rotate(-.35deg) scale(1)}50%{transform:translateX(-50%) translateY(-2px) rotate(.35deg) scale(1.012)}}
+@keyframes ds-portrait-breathe-reduced{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-.5px)}}
+html body #daily-newsroom .ds-user-backdrop{transform-origin:50% 95%;animation:ds-portrait-breathe 5.8s ease-in-out infinite!important;will-change:transform}
+@media(prefers-reduced-motion:reduce){html body #daily-newsroom .ds-user-backdrop{animation-name:ds-portrait-breathe-reduced!important;animation-duration:9s!important}}
+html body #daily-newsroom .ds-family-scene[data-performing="false"] .ds-user-backdrop{animation-play-state:paused!important}
+</style></body>
 </html>

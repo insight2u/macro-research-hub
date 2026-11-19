@@ -417,7 +417,7 @@ function applyLang(lang, save){
   fixBroadcast(lang);
   if (window.__nmRelabel) window.__nmRelabel(); if (window.__seriesRerender) window.__seriesRerender();
   dressCharacter(lang);
-  updateLangCast(lang);
+  updateLangCast(lang);fixSubscriptionPanels();
   if (save) greetOnce(lang);
 }
 var CHAR_IMG = {"en":"assets/char-en-v2-cut.webp","zh":"assets/char-zh-v2-cut.webp","ja":"assets/char-ja-cut.webp","es":"assets/char-es-v2-cut.webp","ru":"assets/char-ru-v2-cut.webp","ar":"assets/char-ar-cut.webp","sw":"assets/char-sw-cut.webp"};
@@ -466,6 +466,23 @@ function updateLangCast(lang){
     }
   }
 }
+
+function fixSubscriptionPanels(){
+ var l=document.documentElement.dataset.lang||'ko',nv=NAVLANG[l]||{};
+ var ytLabels={ko:'YouTube 채널 구독 · 전체 언어 ↗',en:'Subscribe to the YouTube channel · all languages ↗',zh:'订阅YouTube频道 · 所有语言 ↗',ja:'YouTubeチャンネル登録 · 全言語 ↗',es:'Suscribirse al canal YouTube · todos los idiomas ↗',ru:'Подписка на канал YouTube · все языки ↗',ar:'الاشتراك بقناة YouTube · كل اللغات ↗',sw:'Jiunge na chaneli ya YouTube · lugha zote ↗'};
+ document.querySelectorAll('.dailyshot-subscribe a').forEach(function(a){
+  if(!a.dataset.subscriptionOriginal)a.dataset.subscriptionOriginal=a.getAttribute('href')||'';
+  var u=a.dataset.subscriptionOriginal,d=null,matched=false;
+  if(u.indexOf('youtube.com/@youngsun1976')>=0){d={u:u,t:ytLabels[l]||'YouTube · all languages'};matched=true;}
+  else if(u.indexOf('open.spotify.com/show/')>=0){d=nv.sp;matched=true;}
+  else if(u.indexOf('creators.spotify.com/pod/profile/')>=0||u.indexOf('anchor.fm/s/')>=0){d=nv.pod;matched=true;}
+  if(!matched)return;
+  if(d){if(a.getAttribute('href')!==d.u)a.setAttribute('href',d.u);if(a.textContent!==d.t)a.textContent=d.t;a.removeAttribute('aria-disabled');}
+  else{a.removeAttribute('href');a.setAttribute('aria-disabled','true');var t=(NEW_LANGUAGE_STATUS[l]||{}).prep||nv.prep||'In preparation';if(a.textContent!==t)a.textContent=t;}
+ });
+}
+window.addEventListener('dailyshot:reader-rendered',function(){setTimeout(fixSubscriptionPanels,0)});
+
 function dressCharacter(lang){
   var img = document.getElementById('ds-cinema-character');
   if (!img) return;
@@ -531,7 +548,7 @@ var pending = null;
 var obs = new MutationObserver(function(muts){
   if (cur === 'ko') return;
   if (pending) clearTimeout(pending);
-  pending = setTimeout(function(){ walk(document.body, cur); translateAttrs(cur); fixBroadcast(cur); }, 180);
+  pending = setTimeout(function(){ walk(document.body, cur); translateAttrs(cur); fixBroadcast(cur); fixSubscriptionPanels(); }, 180);
 });
 function tagUntranslated(){
   // Only the article reader can fall back to a Korean article. Search/site-map
@@ -555,6 +572,7 @@ function tagUntranslated(){
 window.addEventListener('dailyshot:reader-rendered', tagUntranslated);
 obs.observe(document.body, {childList:true, subtree:true});
 setInterval(tagUntranslated, 700);
+updateLangCast(cur);fixSubscriptionPanels();
 var lastGreetLang = '', lastGreetAt = 0;
 function greetOnce(lang){
   if (document.documentElement.dataset.characterSound !== 'on') return;
