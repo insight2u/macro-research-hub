@@ -89,6 +89,11 @@ add("반장님 알림장","The monitor's notice board","班长通知栏","学級
 add("통장 탈출 대작전","The great bank-account escape","存折大逃亡","通帳脱出大作戦","La gran fuga de la cuenta bancaria","Великий побег со счёта","عملية الهروب الكبرى من الحساب البنكي","Operesheni kubwa ya kutoroka akaunti")
 add("감성 과적 주의보","Emotional overload advisory","感性过载警报","感性オーバーロード注意報","Alerta de sobrecarga emocional","Предупреждение: эмоциональная перегрузка","تحذير من زخم عاطفي زائد","Tahadhari ya mzigo wa hisia")
 add("어제가 도착했습니다","Yesterday has arrived","昨天已送达","昨日が届きました","Ayer ha llegado","Вчерашний день доставлен","وصل أمس","Jana imefika")
+add("· 시황","· Markets","· 行情","· 市況","· Mercados","· Рынки","· الأسواق","· Masoko")
+add("뉴스1/파이낸셜뉴스","News1/Financial News","News1/Financial News","News1/Financial News","News1/Financial News","News1/Financial News","News1/Financial News","News1/Financial News")
+add("· 뉴스핌","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim")
+add("한국경제","Korea Economic Daily","韩国经济","韓国経済","Korea Economic Daily","Korea Economic Daily","Korea Economic Daily","Korea Economic Daily")
+add("마이다스의 재테크","Midas's Personal Finance","迈达斯的理财","マイダスの資産運用","Finanzas personales de Midas","Личные финансы Мидаса","التمويل الشخصي من ميداس","Fedha binafsi za Midasi")
 # desk category tags
 add("경제지표","Economic indicators","经济指标","経済指標","Indicadores económicos","Экономические индикаторы","مؤشرات اقتصادية","Viashiria vya uchumi")
 add("산업·ICT","Industry & ICT","产业·ICT","産業・ICT","Industria y TIC","Промышленность и ICT","الصناعة وتقنية المعلومات","Viwanda na ICT")
