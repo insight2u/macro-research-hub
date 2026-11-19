@@ -12472,7 +12472,7 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .nr-cartoon-ctrl{padding:0 18px}
 }
 </style>
-<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))});setTimeout(function(){if(v.paused&&!f.classList.contains('paused')){set(true)}},1600);var LV={en:1,zh:1,ja:1,es:1,ru:1,ar:1,sw:1};function srcFor(l){return 'images/cartoon/nov19-cartoon-scene'+(LV[l]?'.'+l:'')+'.mp4'}function applyV(){var l=(document.documentElement.getAttribute('data-lang')||'ko');var src=srcFor(l);if(v.getAttribute('src')===src)return;var t=v.currentTime||0;var stopped=f.classList.contains('paused')||v.paused;v.setAttribute('src',src);v.load();v.addEventListener('loadedmetadata',function h(){v.removeEventListener('loadedmetadata',h);try{v.currentTime=t}catch(e){}if(!stopped&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}})}new MutationObserver(applyV).observe(document.documentElement,{attributes:true,attributeFilter:['data-lang']});applyV()})();</script>
+<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))});setTimeout(function(){if(v.paused&&!f.classList.contains('paused')){set(true)}},1600);var LV={en:1,zh:1,ja:1,es:1,ru:1,ar:1,sw:1};function srcFor(l){if(l==='ar')return 'images/cartoon/nov19-cartoon-clean.mp4';return 'images/cartoon/nov19-cartoon-scene'+(LV[l]?'.'+l:'')+'.mp4'}function applyV(){var l=(document.documentElement.getAttribute('data-lang')||'ko');var src=srcFor(l);if(v.getAttribute('src')===src)return;var t=v.currentTime||0;var stopped=f.classList.contains('paused')||v.paused;v.setAttribute('src',src);v.load();v.addEventListener('loadedmetadata',function h(){v.removeEventListener('loadedmetadata',h);try{v.currentTime=t}catch(e){}if(!stopped&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}})}new MutationObserver(applyV).observe(document.documentElement,{attributes:true,attributeFilter:['data-lang']});applyV()})();</script>
 
 
 
@@ -12517,7 +12517,7 @@ html[data-lang="sw"] #daily-newsroom{--paper:#f4ecda;--accent:#7a5a20;background
 html[dir="rtl"] #daily-newsroom .nr-nav,html[dir=rtl] #lang-bar{direction:rtl}
 </style>
 
-<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-35"></script>
+<script id="i18n-init" src="assets/data/i18n-dict.js?v=20261119-36"></script>
 
 <style id="series-modal-style">
 #series-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:flex-end;justify-content:center}
@@ -12655,5 +12655,16 @@ html body #daily-newsroom #nm-empty{color:#fff;font-size:13px;padding:14px;margi
 html body #daily-newsroom .ds-user-backdrop{transform-origin:50% 95%;animation:ds-portrait-breathe 5.8s ease-in-out infinite!important;will-change:transform}
 @media(prefers-reduced-motion:reduce){html body #daily-newsroom .ds-user-backdrop{animation-name:ds-portrait-breathe-reduced!important;animation-duration:9s!important}}
 html body #daily-newsroom .ds-family-scene[data-performing="false"] .ds-user-backdrop{animation-play-state:paused!important}
-</style></body>
+</style><style id="cartoon-localization-style">
+#nr-daily-cartoon .nr-cartoon-frame{position:relative}
+.cartoon-ar-overlay{position:absolute;inset:0;pointer-events:none;z-index:2;display:flex;flex-direction:column;justify-content:space-between;padding:2.2%;box-sizing:border-box}
+.cartoon-ar-overlay[hidden],.cartoon-bubble[hidden],.cartoon-language-pending[hidden]{display:none!important}
+.cartoon-bubble{font-family:Arial,sans-serif;font-size:clamp(12px,1.05vw,17px);line-height:1.45;background:rgba(255,255,255,.96);color:#231f1b;border:1px solid #685c56;border-radius:12px;padding:6px 9px;max-width:94%;box-shadow:0 2px 3px #0002}
+.cartoon-bubble strong{color:#1e6f68;margin-inline-end:5px}
+.cartoon-bubble-b{align-self:flex-end}
+#nr-daily-cartoon.cartoon-is-pending .nr-cartoon-frame,#nr-daily-cartoon.cartoon-is-pending .nr-cartoon-ctrl,#nr-daily-cartoon.cartoon-is-pending .nr-cartoon-zoom,#nr-daily-cartoon.cartoon-is-pending figcaption{display:none!important}
+.cartoon-language-pending{font-size:14px;line-height:1.65;padding:14px;border:1px solid #b8c9c4;background:#f3f7f5;color:#215c50}
+@media(max-width:760px){.cartoon-bubble{font-size:14px;line-height:1.4;padding:5px 8px}}
+</style><script defer src="assets/data/cartoon-localization.js?v=20261119-1"></script>
+</body>
 </html>

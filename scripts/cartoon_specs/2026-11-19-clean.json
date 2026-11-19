@@ -1,0 +1,118 @@
+{
+  "image": "images/cartoon/nov19-cartoon-scene.png",
+  "out": "images/cartoon/nov19-cartoon-clean.mp4",
+  "size": [
+    1600,
+    980
+  ],
+  "fps": 24,
+  "duration": 16.0,
+  "camera": [
+    {
+      "t": 0.0,
+      "cx": 0.5,
+      "cy": 0.47,
+      "z": 1.0
+    },
+    {
+      "t": 2.0,
+      "cx": 0.44,
+      "cy": 0.475,
+      "z": 1.1
+    },
+    {
+      "t": 3.0,
+      "cx": 0.415,
+      "cy": 0.47,
+      "z": 1.24
+    },
+    {
+      "t": 6.0,
+      "cx": 0.415,
+      "cy": 0.47,
+      "z": 1.24
+    },
+    {
+      "t": 8.5,
+      "cx": 0.565,
+      "cy": 0.48,
+      "z": 1.15
+    },
+    {
+      "t": 11.5,
+      "cx": 0.565,
+      "cy": 0.48,
+      "z": 1.15
+    },
+    {
+      "t": 16.0,
+      "cx": 0.5,
+      "cy": 0.47,
+      "z": 1.0
+    }
+  ],
+  "regions": [
+    {
+      "name": "paper-guest",
+      "center": [
+        340,
+        500
+      ],
+      "radius": [
+        150,
+        210
+      ],
+      "amp": 5.5,
+      "cycles": 8,
+      "phase": 0.0
+    },
+    {
+      "name": "boy",
+      "center": [
+        690,
+        470
+      ],
+      "radius": [
+        200,
+        250
+      ],
+      "amp": 2.5,
+      "cycles": 4,
+      "phase": 1.0
+    },
+    {
+      "name": "girl",
+      "center": [
+        1085,
+        470
+      ],
+      "radius": [
+        190,
+        250
+      ],
+      "amp": 2.5,
+      "cycles": 4,
+      "phase": 2.0
+    }
+  ],
+  "glow": {
+    "center": [
+      445,
+      380
+    ],
+    "t_from": 1.5,
+    "t_to": 6.5
+  },
+  "glint": {
+    "center": [
+      940,
+      490
+    ],
+    "radius": 55,
+    "t_from": 9.2,
+    "t_to": 11.6
+  },
+  "dust": true,
+  "bubbles": [],
+  "_frames_dir": "/tmp/cartoon_clean_2157"
+}
