@@ -12507,7 +12507,7 @@ document.getElementById('nr-quick-search').addEventListener('submit',()=>{if(!se
 #daily-newsroom .nr-cartoon-ctrl{padding:0 18px}
 }
 </style>
-<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))})})();</script>
+<script>(function(){var f=document.getElementById('nr-daily-cartoon');if(!f)return;var b=f.querySelector('.nr-cartoon-motion');var v=f.querySelector('video.nr-cartoon-video');if(!b||!v)return;function set(p){f.classList.toggle('paused',p);b.textContent=p?'움직임 재생':'움직임 멈추기';b.setAttribute('aria-pressed',p?'true':'false');if(p){v.pause()}else{var pr=v.play();if(pr&&pr.catch){pr.catch(function(){})}}}if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){set(true)}b.addEventListener('click',function(){set(!f.classList.contains('paused'))});setTimeout(function(){if(v.paused&&!f.classList.contains('paused')){set(true)}},1600)})();</script>
 
 
 
