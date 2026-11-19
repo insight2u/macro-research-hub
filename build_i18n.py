@@ -94,6 +94,9 @@ add("뉴스1/파이낸셜뉴스","News1/Financial News","News1/Financial News","
 add("· 뉴스핌","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim","· Newspim")
 add("한국경제","Korea Economic Daily","韩国经济","韓国経済","Korea Economic Daily","Korea Economic Daily","Korea Economic Daily","Korea Economic Daily")
 add("마이다스의 재테크","Midas's Personal Finance","迈达斯的理财","マイダスの資産運用","Finanzas personales de Midas","Личные финансы Мидаса","التمويل الشخصي من ميداس","Fedha binafsi za Midasi")
+add("11/18 보강판 · 물가·고용·실물경제","11/18 Supplement · Prices, Jobs & Real Economy","11/18 补充版 · 物价·就业·实体经济","11/18 補強版 · 物価・雇用・実体経済","11/18 Suplemento · Precios, empleo y economía real","11/18 Дополнение · Цены, занятость, реальная экономика","11/18 ملحق · الأسعار والوظائف والاقتصاد الحقيقي","11/18 Nyongeza · Bei, ajira na uchumi halisi")
+add("11/18 Morning Edition · 시장·환율·VIX","11/18 Morning Edition · Markets, FX & VIX","11/18 Morning Edition · 市场·汇率·VIX","11/18 Morning Edition · 市場・為替・VIX","11/18 Morning Edition · Mercados, divisas y VIX","11/18 Morning Edition · Рынки, валюты, VIX","11/18 Morning Edition · الأسواق والصرف وVIX","11/18 Morning Edition · Masoko, fedha na VIX")
+add("11/18 Morning Edition · 임금·생산성","11/18 Morning Edition · Wages & Productivity","11/18 Morning Edition · 工资·生产率","11/18 Morning Edition · 賃金・生産性","11/18 Morning Edition · Salarios y productividad","11/18 Morning Edition · Зарплаты и производительность","11/18 Morning Edition · الأجور والإنتاجية","11/18 Morning Edition · Mishahara na tija")
 # desk category tags
 add("경제지표","Economic indicators","经济指标","経済指標","Indicadores económicos","Экономические индикаторы","مؤشرات اقتصادية","Viashiria vya uchumi")
 add("산업·ICT","Industry & ICT","产业·ICT","産業・ICT","Industria y TIC","Промышленность и ICT","الصناعة وتقنية المعلومات","Viwanda na ICT")
