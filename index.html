@@ -10601,9 +10601,7 @@ return `<section class="magazine-episode"><h2>같은 제목으로 보고 들으�
 <a href="https://www.facebook.com/youngsun1976" rel="noopener noreferrer" style="flex: 1; background: #1877F2; color: #fff; text-align: center; padding: 10px; border-radius: 8px; font-weight: 700; font-size: 13.5px; text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 6px;" target="_blank">
 <span>📘 페이스북(Facebook) 공식 프로필 바로가기 ↗</span>
 </a>
-<button onclick="openKakaoChatModal()" style="flex: 1; background: #FEE500; color: #191919; border: none; padding: 10px; border-radius: 8px; font-weight: 800; font-size: 13.5px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px;">
-<span>💬 <svg style="height: 22px; width: auto; max-width: 80px; vertical-align: middle; display: inline-block;" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg"><path d="M256 236c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20V20C0 8.954 8.954 0 20 0h216c11.046 0 20 8.954 20 20v216z" fill="#FFE812"></path><path d="M128 36C70.562 36 24 72.713 24 118c0 29.279 19.466 54.97 48.748 69.477-1.593 5.494-10.237 35.344-10.581 37.689 0 0-.207 1.762.934 2.434s2.483.15 2.483.15c3.272-.457 37.943-24.811 43.944-29.04 5.995.849 12.168 1.29 18.472 1.29 57.438 0 104-36.712 104-82 0-45.287-46.562-82-104-82z"></path><path d="M70.5 146.625c-3.309 0-6-2.57-6-5.73V105.25h-9.362c-3.247 0-5.888-2.636-5.888-5.875s2.642-5.875 5.888-5.875h30.724c3.247 0 5.888 2.636 5.888 5.875s-2.642 5.875-5.888 5.875H76.5v35.645c0 3.16-2.691 5.73-6 5.73zM123.112 146.547c-2.502 0-4.416-1.016-4.993-2.65l-2.971-7.778-18.296-.001-2.973 7.783c-.575 1.631-2.488 2.646-4.99 2.646a9.155 9.155 0 0 1-3.814-.828c-1.654-.763-3.244-2.861-1.422-8.52l14.352-37.776c1.011-2.873 4.082-5.833 7.99-5.922 3.919.088 6.99 3.049 8.003 5.928l14.346 37.759c1.826 5.672.236 7.771-1.418 8.532a9.176 9.176 0 0 1-3.814.827c-.001 0 0 0 0 0zm-11.119-21.056L106 108.466l-5.993 17.025h11.986zM138 145.75c-3.171 0-5.75-2.468-5.75-5.5V99.5c0-3.309 2.748-6 6.125-6s6.125 2.691 6.125 6v35.25h12.75c3.171 0 5.75 2.468 5.75 5.5s-2.579 5.5-5.75 5.5H138zM171.334 146.547c-3.309 0-6-2.691-6-6V99.5c0-3.309 2.691-6 6-6s6 2.691 6 6v12.896l16.74-16.74c.861-.861 2.044-1.335 3.328-1.335 1.498 0 3.002.646 4.129 1.772 1.051 1.05 1.678 2.401 1.764 3.804.087 1.415-.384 2.712-1.324 3.653l-13.673 13.671 14.769 19.566a5.951 5.951 0 0 1 1.152 4.445 5.956 5.956 0 0 1-2.328 3.957 5.94 5.94 0 0 1-3.609 1.211 5.953 5.953 0 0 1-4.793-2.385l-14.071-18.644-2.082 2.082v13.091a6.01 6.01 0 0 1-6.002 6.003z" fill="#FFE812"></path></svg> 카카오톡 실시간 1:1 상담창</span>
-</button>
+
 </div>
 </div>
 <!-- 주요 경력 -->
@@ -11464,20 +11462,6 @@ return `<section class="magazine-episode"><h2>같은 제목으로 보고 들으�
       }
     }
 
-    /* Kakao Chat Handlers */
-    function openKakaoChatModal() {
-      const modal = document.getElementById('kakaoChatModal');
-      if (modal) modal.style.display = 'flex';
-    }
-    function closeKakaoChatModalDirect() {
-      const modal = document.getElementById('kakaoChatModal');
-      if (modal) modal.style.display = 'none';
-    }
-    function closeKakaoChatModal(e) {
-      if (e.target && e.target.id === 'kakaoChatModal') {
-        closeKakaoChatModalDirect();
-      }
-    }
 </script>
 <!-- ===================================================
        🗺️ RYUYOUNGSUN INTELLIGENCE 전체 사이트맵 (7대 대주제 디렉토리)
@@ -11573,90 +11557,9 @@ return `<section class="magazine-episode"><h2>같은 제목으로 보고 들으�
 </div>
 </div>
 </div>
-<style id="mobile-consultation-flow-fix">
-    @media (max-width: 600px) {
-      #kakaoFloatingWidget {
-        position: static !important;
-        width: fit-content;
-        max-width: calc(100% - 32px);
-        margin: 24px auto calc(24px + env(safe-area-inset-bottom));
-        z-index: auto !important;
-      }
-      #kakaoFloatingWidget .kakao-pulse-btn {
-        max-width: 100%;
-      }
-    }
-  </style>
+
 <!-- Floating KakaoTalk Messenger Quick Consultation Button -->
-<div id="kakaoFloatingWidget" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
-<button class="kakao-pulse-btn" onclick="openKakaoChatModal()" aria-label="카톡 상담 바로 연결" style="background: #FEE500; color: #191919; border: none; padding: 12px 18px; border-radius: 999px; font-weight: 800; font-size: 13.5px; box-shadow: 0 10px 25px rgba(254, 229, 0, 0.4); cursor: pointer; display: flex; align-items: center; gap: 8px; transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
-<svg fill="#191919" height="22" viewbox="0 0 24 24" width="22">
-<path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.88 5.34 4.72 6.72-.21.78-.77 2.83-.88 3.26-.14.54.2.53.42.39.17-.11 2.76-1.87 3.88-2.64.6.09 1.22.14 1.86.14 5.52 0 10-3.58 10-8s-4.48-8-10-8z"></path>
-</svg>
-<span>카톡 상담 바로 연결</span>
-</button>
-</div>
-<!-- KakaoTalk Direct Connect Modal -->
-<div class="report-modal-overlay" id="kakaoChatModal" onclick="closeKakaoChatModal(event)" style="display:none;">
-<div class="kakaotalk-modal-box" onclick="event.stopPropagation()" style="background: #141416; border: 1.5px solid #FEE500; border-radius: 24px; max-width: 480px; width: 90%; padding: 26px; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95); position: relative;">
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-<div style="display: flex; align-items: center; gap: 10px;">
-<div style="background: #FEE500; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
-<svg fill="#191919" height="22" viewbox="0 0 24 24" width="22">
-<path d="M12 3C6.48 3 2 6.58 2 11c0 2.84 1.88 5.34 4.72 6.72-.21.78-.77 2.83-.88 3.26-.14.54.2.53.42.39.17-.11 2.76-1.87 3.88-2.64.6.09 1.22.14 1.86.14 5.52 0 10-3.58 10-8s-4.48-8-10-8z"></path>
-</svg>
-</div>
-<div>
-<h3 style="font-size: 1.15rem; font-weight: 800; color: #F8FAFC; margin: 0;">데일리샷 매크로 리서치 카카오톡 상담</h3>
-<div style="font-size: 0.8rem; color: #94A3B8;">거시경제 연구 · 산업 전략 · 비즈니스 직통 소통</div>
-</div>
-</div>
-<button onclick="closeKakaoChatModalDirect()" style="background: none; border: none; color: #94A3B8; font-size: 24px; cursor: pointer;">✕</button>
-</div>
-<div style="background: rgba(254, 229, 0, 0.08); border: 1px solid rgba(254, 229, 0, 0.25); border-radius: 14px; padding: 16px; margin-bottom: 18px; font-size: 0.88rem; color: #E2E8F0; line-height: 1.6;">
-        💬 <strong>카카오톡 바로 연결:</strong><br/>
-        아래 노란 버튼으로 상담 오픈채팅을 여세요. 카카오톡 앱 설치·로그인이 필요할 수 있습니다. PC에서 열리지 않으면 휴대폰에서 같은 링크를 여세요.
-<div style="margin-top: 10px; padding: 8px 12px; background: rgba(0,0,0,0.4); border-radius: 8px; font-size: 0.82rem; color: #FEE500;">
-          🟡 <strong>카카오톡 친구 추가 ID:</strong> <span style="font-family: monospace; font-size: 0.95rem; font-weight: 800; color: #fff;">youngsun1976</span><br/>
-          📱 <strong>직통 연락처:</strong> <span style="font-family: monospace; font-size: 0.95rem; font-weight: 800; color: #fff;">010-5480-4905</span><br/>
-          ✉️ <strong>공식 이메일:</strong> <span style="font-family: monospace; font-size: 0.95rem; font-weight: 800; color: #fff;">youngsun1976@gmail.com</span>
-</div>
-</div>
-<div style="display: flex; flex-direction: column; gap: 10px;">
-<a href="https://open.kakao.com/o/sG9RoMXi" rel="noopener" style="background: #FEE500; color: #191919; border: none; padding: 14px; border-radius: 12px; font-weight: 800; font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 15px rgba(254, 229, 0, 0.3); text-decoration: none;" target="_blank">
-<span>카카오톡 오픈채팅 바로 열기</span>
-</a>
-<button onclick="copyKakaoIdAndOpen()" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #F8FAFC; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; cursor: pointer;">
-<span>ID로 추가하기: youngsun1976 복사</span>
-</button>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
-<a href="tel:010-5480-4905" style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); color: #34D399; text-decoration: none; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;">
-<span>📱 직통 전화 걸기</span>
-</a>
-<a href="sms:010-5480-4905" style="background: rgba(56, 189, 248, 0.15); border: 1px solid rgba(56, 189, 248, 0.4); color: #38BDF8; text-decoration: none; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;">
-<span>💬 SMS 문자 보내기</span>
-</a>
-</div>
-<a href="mailto:youngsun1976@gmail.com" style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); color: #F8FAFC; text-decoration: none; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;">
-<span>✉️ 이메일(youngsun1976@gmail.com) 바로 보내기</span>
-</a>
-<a href="https://www.facebook.com/youngsun1976" rel="noopener noreferrer" style="background: #1877F2; color: #fff; text-decoration: none; padding: 12px; border-radius: 10px; font-weight: 700; font-size: 13px; text-align: center; display: flex; align-items: center; justify-content: center; gap: 6px;" target="_blank">
-<span>📘 페이스북 메신저 / 공식 프로필 ↗</span>
-</a>
-</div>
-</div>
-</div>
-<script src="assets/data/polls-data.js?v=20261118-1"></script>
-<!-- ===================================================
-       🏛️ 변곡점 심층 팩트체크 & 정치사적 사건 팝업 모달
-       =================================================== -->
-<div id="inflectionEventModal" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.85); backdrop-filter: blur(15px); z-index: 100050; align-items: center; justify-content: center; padding: 20px;">
-<div style="background: #16181F; border: 1px solid rgba(41, 151, 255, 0.35); border-radius: 20px; max-width: 780px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 32px; box-shadow: 0 25px 60px rgba(0,0,0,0.8); position: relative;">
-<!-- Close Button -->
-<button onclick="closeInflectionModal()" style="position: absolute; top: 20px; right: 20px; background: rgba(255,255,255,0.1); border: none; color: #FFF; width: 36px; height: 36px; border-radius: 50%; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease;">✕</button>
-<!-- Modal Header -->
-<div style="margin-bottom: 24px;">
-<div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0, 113, 227, 0.15); border: 1px solid rgba(0, 113, 227, 0.4); padding: 4px 12px; border-radius: 980px; font-size: 0.78rem; font-weight: 800; color: #2997FF; margin-bottom: 8px;">
+7, 0.15); border: 1px solid rgba(0, 113, 227, 0.4); padding: 4px 12px; border-radius: 980px; font-size: 0.78rem; font-weight: 800; color: #2997FF; margin-bottom: 8px;">
 <span>🏛️ 국정 지지율 핵심 변곡점 심층 분석</span>
 <span id="modalInflectionBadge" style="background: #2997FF; color: #FFF; padding: 1px 6px; border-radius: 4px; font-size: 0.68rem;">Point 4</span>
 </div>
@@ -12049,8 +11952,6 @@ return `<section class="magazine-episode"><h2>같은 제목으로 보고 들으�
     alert('🗺️ RYUYOUNGSUN Knowledge & Insight Hub 전체 사이트맵 및 7대 랩 네비게이션이 활성화되었습니다.');
   };
 
-  // 8. KAKAOTALK DIRECT CONNECTION (영선 님 폰번 연동 및 원클릭 연결)
-  window.openKakaoChatModal=function(){document.getElementById('kakaoChatModal').style.display='flex'};
   // 9. TREND LAB COMPREHENSIVE 5P STRATEGIC MONOGRAPH (결제 차단 없이 즉시 전문 제공)
   window.openKakaoPayModal = function() {
     const input = document.getElementById('trendTopicInput');
@@ -12177,7 +12078,7 @@ return `<section class="magazine-episode"><h2>같은 제목으로 보고 들으�
 <li><a href="https://creators.spotify.com/pod/profile/l7bo8obou98/" rel="noopener" target="_blank">팟캐스트 제작자 페이지 ↗</a><a href="https://www.facebook.com/youngsun1976/" rel="noopener noreferrer" target="_blank">개인 페이스북 ↗</a></li>
 </ul></div>
 <div class="sm-group"><h3>소통 · 문의</h3><ul>
-<li><a href="#kakaoChatModal" onclick="if(typeof openKakaoChatModal==='function'){openKakaoChatModal();return false}">실시간 질문 카톡상담 (우측 아래 노란 버튼)</a></li>
+<li></li>
 <li><a href="mailto:youngsun1976@gmail.com">이메일 문의 겸 사업제휴: youngsun1976@gmail.com ↗</a></li>
 </ul></div>
 </div></section></dialog><script id="newspaper-archive-init">(()=>{const all=typeof reports!=='undefined'?reports:[];const query=document.getElementById('ar-query'),category=document.getElementById('ar-category'),out=document.getElementById('ar-results'),count=document.getElementById('ar-count'),more=document.getElementById('ar-more'),dialog=document.getElementById('ar-reader'),article=document.getElementById('ar-article');let limit=18,last=null;const plain=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/data:image\/[^\s"')]+/g,' ').toLocaleLowerCase();const index=all.map(r=>({r,text:plain([r.title,r.subtitle,r.category,r.summary,r.full_markdown,(/멀미|경제 체온계|임금|생산성|GDP|국내총생산/.test([r.title,r.category].join(' '))?'경제 체온계 오늘의 멀미 지수':'')].join(' '))}));[...new Set(all.map(r=>r.category).filter(Boolean))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;category.append(o)});function articleUrl(id){const u=new URL(location.href);u.searchParams.set('lang',document.documentElement.dataset.lang||new URLSearchParams(location.search).get('lang')||'ko');u.hash='article='+encodeURIComponent(id);return u.href}function open(r,button){last=button||document.activeElement;window.__nrCurrent=r;window.__nrRenderBody=function(rr){const l=document.documentElement.dataset.lang||'ko',translated=((window.BODY_I18N||{})[rr.id]||{})[l],pending={fr:'La traduction intégrale de cet article est en préparation.',de:'Die vollständige Übersetzung dieses Artikels ist in Vorbereitung.',it:'La traduzione integrale di questo articolo è in preparazione.'}[l];article.innerHTML=(pending&&!translated?'<h1>'+({fr:'Traduction en préparation',de:'Übersetzung in Vorbereitung',it:'Traduzione in preparazione'}[l])+'</h1><p>'+pending+'</p>':marked.parse(translated||rr.full_markdown||rr.summary||''))+magazineEpisodeLinks(rr.id);dialog.dataset.articleId=rr.id;window.dispatchEvent(new Event('dailyshot:reader-rendered'))};window.__nrRenderBody(r);if(!article.querySelector('h1')){const h=document.createElement('h1');h.textContent=r.title;article.prepend(h)}const note=document.createElement('p');note.style.cssText='font-size:13px;color:#585254;border-bottom:1px solid #ccc;padding-bottom:15px';note.textContent=(r.date||'기준일 본문 참조')+' · '+(r.author||'작성자 본문 참조')+' · 당시 발행본: 현재 사실과 다를 수 있음';article.prepend(note);article.insertAdjacentHTML('beforeend',"<aside class=\"dailyshot-subscribe\"><strong>DailyShot Macro Research를 계속 만나세요</strong><p>같은 주제와 제목으로 신문에서 읽고 방송으로 들으세요. 채널 구독·팔로우로 다음 편을 받아보세요.</p><div><a href=\"https://www.youtube.com/@youngsun1976\" target=\"_blank\" rel=\"noopener\">YouTube 구독 ↗</a><a href=\"https://open.spotify.com/show/0bXi9vbte0UraD9ScEAWWc\" target=\"_blank\" rel=\"noopener\">Spotify 팔로우 ↗</a><a href=\"https://creators.spotify.com/pod/profile/l7bo8obou98/\" target=\"_blank\" rel=\"noopener\">팟캐스트 제작자 페이지 ↗</a><a href=\"https://www.facebook.com/youngsun1976/\" target=\"_blank\" rel=\"noopener noreferrer\">개인 페이스북 ↗</a></div></aside>");const permalink=document.createElement('a');permalink.href=articleUrl(r.id);permalink.className='ar-direct-link';permalink.textContent='이 기사 직접 링크 ↗';article.prepend(permalink);if(!dialog.open)dialog.showModal();window.dispatchEvent(new Event('dailyshot:reader-rendered'));dialog.scrollTop=0;history.replaceState(null,'',location.pathname+location.search+'#article='+encodeURIComponent(r.id))}function close(){dialog.close();history.replaceState(null,'',location.pathname+location.search+'#nr-archive');last?.focus()}document.getElementById('ar-close').onclick=close;dialog.addEventListener('click',e=>{if(e.target===dialog){const b=dialog.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)close()}});dialog.addEventListener('cancel',e=>{e.preventDefault();close()});function render(){const terms=query.value.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);const found=index.filter(x=>(!category.value||x.r.category===category.value)&&terms.every(t=>(x.text+' '+(window.magazineArchiveText?window.magazineArchiveText(x.r):'')).includes(t)));out.replaceChildren();count.textContent=window.magazineArchiveCount?window.magazineArchiveCount(all.length,found.length,terms.length):all.length+'개 기사 중 '+found.length+'개'+(terms.length?' 검색 결과':'');found.slice(0,limit).forEach(({r})=>{const a=document.createElement('article');a.className='ar-item';const k=document.createElement('small');const localized=window.magazineArchiveRecord?window.magazineArchiveRecord(r):r;k.textContent=(r.date||'날짜 본문 참조')+' · '+(localized.category||r.category||'기사');const h=document.createElement('h3');h.textContent=localized.title||r.title;h.style.cursor='pointer';h.title=window.magazineArchiveLabel?window.magazineArchiveLabel('read'):'전문 읽기';h.onclick=()=>open(r,h);const p=document.createElement('p');p.textContent=localized.summary||r.summary||r.subtitle||'기사 전문에서 내용을 확인하세요.';p.style.cursor='pointer';p.onclick=()=>open(r,p);const b=document.createElement('button');b.type='button';b.textContent=window.magazineArchiveLabel?window.magazineArchiveLabel('read'):'전문 읽기';b.onclick=()=>open(r,b);const direct=document.createElement('a');direct.href=articleUrl(r.id);direct.className='ar-direct-link';direct.textContent=window.magazineArchiveLabel?window.magazineArchiveLabel('direct'):'기사 직접 링크 ↗';direct.onclick=e=>{e.preventDefault();open(r,direct)};a.append(k,h,p,b,direct);out.append(a)});if(!found.length){const p=document.createElement('p');p.textContent=window.magazineArchiveLabel?window.magazineArchiveLabel('empty'):'일치하는 기사가 없습니다. 다른 검색어나 분야를 선택해 주세요.';out.append(p)}more.hidden=found.length<=limit}query.addEventListener('input',()=>{limit=18;render()});category.addEventListener('change',()=>{limit=18;render()});more.onclick=()=>{limit+=18;render()};render();const hash=()=>{if(location.hash.startsWith('#article=')){const id=decodeURIComponent(location.hash.slice(9));const r=all.find(x=>x.id===id);if(r)open(r)}};window.addEventListener('hashchange',hash);hash();const tabs=document.querySelector('.lead-tab-btn')?.parentElement;if(tabs&&typeof leadStories!=='undefined'){tabs.replaceChildren();leadStories.forEach((l,i)=>{let b=document.createElement('button');b.className='lead-tab-btn'+(i===0?' active':'');b.textContent=(i+1)+'. '+l.headline;b.onclick=()=>switchLeadStory(i);tabs.append(b)});switchLeadStory(0)}const recent=document.getElementById('nr-article-grid');if(recent){recent.replaceChildren();all.filter(r=>r.date===all[0]?.date&&/^report-\d{4}-\d{2}-\d{2}-(0[1-9]|10)-/.test(r.id)).sort((a,b)=>a.id.localeCompare(b.id)).forEach(r=>{const a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=r.category+(r.field?(/\)$/.test(r.field)?' '+r.field:' ('+r.field+')'):'')+' · '+r.date;const h=document.createElement('h3');h.textContent=r.title;h.style.cursor='pointer';h.title='전문 읽기';h.onclick=()=>open(r,h);const p=document.createElement('p');p.textContent=r.summary;p.style.cursor='pointer';p.onclick=()=>open(r,p);const b=document.createElement('button');b.className='nr-read';b.textContent='전문 읽기 →';b.onclick=()=>open(r,b);a.append(k,h,p,b);recent.append(a)})}const nav=document.querySelector('#daily-newsroom nav');if(nav){const a=document.createElement('a');a.href='#nr-archive';a.textContent='기사 검색';if(!nav.querySelector('a[href="#nr-archive"]'))nav.append(a)}window.newspaperArchive={count:all.length,openArticle:id=>{const r=all.find(x=>x.id===id);if(r)open(r)},search:render};})();</script><style id="sitemap-quicksearch-style">#nr-sitemap{max-width:1320px;margin:10px auto 40px;padding:30px 24px;border-top:4px solid #251f21;color:#251f21;background:#fff}#nr-sitemap h2{font-size:32px;margin:0 0 12px}#nr-sitemap .sm-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}#nr-sitemap h3{font-size:17px;margin:0 0 10px;border-bottom:1px solid #bfb5ae;padding-bottom:6px}#nr-sitemap ul{list-style:none;margin:0;padding:0}#nr-sitemap li{font-size:14px;line-height:1.9;overflow-wrap:anywhere}#nr-sitemap a{color:#215c50}@media(max-width:900px){#nr-sitemap .sm-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){#nr-sitemap .sm-grid{grid-template-columns:1fr}#daily-newsroom .nr-nav{flex-wrap:wrap}#nr-quick-search{width:100%;margin:10px 0 0;flex:0 0 100%}#nr-quick-search input{width:100%!important}}#daily-newsroom .nr-program{cursor:pointer}#daily-newsroom .nr-program:hover{text-decoration:underline}</style><script id="quick-search-init">(()=>{document.querySelectorAll('#daily-newsroom .nr-program').forEach(d=>{d.setAttribute('role','link');d.tabIndex=0;const name=d.dataset.q||(d.childNodes[0]?d.childNodes[0].textContent.trim():d.textContent.trim());const go=()=>{const t=document.getElementById('ar-query');if(t){const c=document.getElementById('ar-category');if(c)c.value='';t.value=name;t.dispatchEvent(new Event('input',{bubbles:true}))}document.getElementById('nr-archive')?.scrollIntoView({behavior:'smooth'})};d.addEventListener('click',go);d.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});const f=document.getElementById('nr-quick-search'),q=document.getElementById('nr-quick-q');if(!f||!q)return;f.addEventListener('submit',e=>{e.preventDefault();const t=document.getElementById('ar-query');if(t){t.value=q.value;t.dispatchEvent(new Event('input',{bubbles:true}))}document.getElementById('nr-archive')?.scrollIntoView({behavior:'smooth'});setTimeout(()=>t?.focus({preventScroll:true}),400)})})();</script><script>document.querySelectorAll('.nr-pause').forEach(b=>{const r=b.closest('.nr-ribbon');if(matchMedia('(prefers-reduced-motion:reduce)').matches){r.classList.add('paused');b.textContent='움직임 재생';b.setAttribute('aria-pressed','true')}b.onclick=()=>{const p=r.classList.toggle('paused');r.classList.toggle('motion-enabled',!p);b.setAttribute('aria-pressed',String(p));b.textContent=p?'움직임 재생':'움직임 멈춤';b.blur()}});</script><script id="nm-data" type="application/json">{"version": 2, "updated_at": "2026-11-17T14:35:55.107211+00:00", "slot_seconds": 90, "target_live_ratio": 0.7, "refresh_note": "정기 발행 준비에서 목록 재검증 · 재생 제한/멈춤은 자동 건너뜀 · 실제 생방송 이용률은 제공사/지역/접속환경에 따라 달라집니다.", "mix_note": "편성: 10슬롯 중 생방송 7·주요녹화 3, 각 약90초. 미국30%·한국20%·유럽20%·중국10%·일본10%·기타10%. 국제보도 범위와 인지도를 고려한 편집배분이며 영향력의 실측순위는 아닙니다. 제한·종료 시 건너뛰므로 실제 시청 비율은 달라집니다.", "videos": [{"id": "aZyD6EPl6KU", "source": "YTN", "region": "한국", "title": "[LIVE] 대한민국 24시간 뉴스채널 YTN", "url": "https://www.youtube.com/watch?v=aZyD6EPl6KU", "channel_url": "https://www.youtube.com/user/ytnnews24/live", "live": true, "verified_at": "2026-11-17T14:35:55.106916+00:00", "published_at": null, "official_channel_id": "UChlgI3UHCOnwUGzWzbJ3H5w", "live_evidence": {"isLiveNow": true, "startTimestamp": "2026-03-20T06:42:09+00:00"}, "embed_verified": true}, {"id": "2bJyb9-tnKU", "source": "ABC News", "region": "미국", "title": "LIVE: ABC News Live - Tuesday, November 17", "url": "https://www.youtube.com/c/ABCNews/live?cbrd=1&ucbcb=1", "channel_url": "https://www.youtube.com/c/ABCNews/live?cbrd=1&ucbcb=1", "live": true, "verified_at": "2026-11-17T14:35:55.106968+00:00", "published_at": null, "official_channel_id": "UCBi2mrWuNuyYy4gbM6fU18Q", "live_evidence": {"isLiveNow": true, "startTimestamp": "2026-11-17T11:02:59+00:00"}, "embed_verified": true}, {"id": "LuKwFajn37U", "source": "DW News", "region": "유럽·독일", "title": "DW News livestream | Headline news from around the world", "url": "https://www.youtube.com/watch?v=LuKwFajn37U", "channel_url": "https://www.youtube.com/c/dwnews/live", "live": true, "verified_at": "2026-11-17T14:35:55.106996+00:00", "published_at": null, "official_channel_id": "UCknLrEdhRCp1aegoMqRaCZg", "live_evidence": {"isLiveNow": true, "startTimestamp": "2025-03-31T17:50:08+00:00"}, "embed_verified": true}, {"id": "weSev3qqXG4", "source": "CNN", "region": "미국", "title": "Trump talks tech policy in Asia, downplays US tech outage concerns", "url": "https://www.youtube.com/watch?v=weSev3qqXG4", "channel_url": "https://www.youtube.com/cnn/videos", "live": false, "verified_at": "2026-11-17T14:35:55.107022+00:00", "published_at": "2026-11-17T06:02:27-08:00", "official_channel_id": "UCupvZG-5ko_eiXAupbDfxWw", "live_evidence": null, "embed_verified": true}, {"id": "0i7n3r01L2U", "source": "CGTN", "region": "중국", "title": "🔴 Watch CGTN LIVE 24/7 #CGTNLIVE", "url": "https://www.youtube.com/watch?v=0i7n3r01L2U", "channel_url": "https://www.youtube.com/CGTN/streams", "live": true, "verified_at": "2026-11-17T14:35:55.107057+00:00", "published_at": null, "official_channel_id": "UCgrNz-aDmcr2uuto8_DL2jg", "live_evidence": {"isLiveNow": true, "startTimestamp": "2026-08-14T01:21:12+00:00"}, "embed_verified": true}, {"id": "IimtbuqYIE8", "source": "NHK WORLD-JAPAN", "region": "일본", "title": "LIVE: NHK WORLD-JAPAN News", "url": "https://www.youtube.com/watch?v=IimtbuqYIE8", "channel_url": "https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live", "live": true, "verified_at": "2026-11-17T14:35:55.107083+00:00", "published_at": null, "official_channel_id": "UCSPEjw8F2nQDtmUKPFNF7_A", "live_evidence": {"isLiveNow": true, "startTimestamp": "2026-09-02T05:10:50+00:00"}, "embed_verified": true}, {"id": "VlokWDe1ETg", "source": "Bloomberg Television", "region": "미국", "title": "US October Retail Sales Slow, But Beat Estimates", "url": "https://www.youtube.com/watch?v=VlokWDe1ETg", "channel_url": "https://www.youtube.com/@markets/videos", "live": false, "verified_at": "2026-11-17T14:35:55.107105+00:00", "published_at": "2026-11-17T06:24:48-08:00", "official_channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg", "live_evidence": null, "embed_verified": true}, {"id": "HvZt-nh9sGg", "source": "FRANCE 24 English", "region": "유럽·프랑스", "title": "FRANCE 24 English – LIVE – International Breaking News & Top stories - 24/7 stream", "url": "https://www.youtube.com/watch?v=HvZt-nh9sGg", "channel_url": "https://www.youtube.com/@France24_en", "live": true, "verified_at": "2026-11-17T14:35:55.107134+00:00", "published_at": null, "official_channel_id": "UCQfwfsi5VrQ8yKZ-UWmAEFg", "live_evidence": {"isLiveNow": true, "startTimestamp": "2026-05-27T10:26:21+00:00"}, "embed_verified": true}, {"id": "BApM_3zPVLA", "source": "연합뉴스", "region": "한국", "title": "네타냐후 몰락 초읽기?…이란·가자전쟁 영향은(ft.성일광 교수) / 연합뉴스 (Yonhapnews)", "url": "https://www.youtube.com/watch?v=BApM_3zPVLA", "channel_url": "https://www.youtube.com/channel/UCj3_t5p4L4aFsvdW3uHjnnw/videos", "live": false, "verified_at": "2026-11-17T14:35:55.107172+00:00", "published_at": "2026-11-17T01:27:20-08:00", "official_channel_id": "UCj3_t5p4L4aFsvdW3uHjnnw", "live_evidence": null, "embed_verified": true}, {"id": "gCNeDWCI0vo", "source": "Al Jazeera English", "region": "기타·카타르", "title": "🔴 Al Jazeera English | Live", "url": "https://www.youtube.com/watch?v=gCNeDWCI0vo", "channel_url": "https://www.youtube.com/@aljazeeraenglish", "live": true, "verified_at": "2026-11-17T14:35:55.107206+00:00", "published_at": null, "official_channel_id": "UCNye-wNBqNL5ZzHSJj3l8Bg", "live_evidence": {"isLiveNow": true, "startTimestamp": "2023-03-10T00:37:12+00:00"}, "embed_verified": true}], "access_limits": [{"name": "CNN HLN", "url": "https://www.cnn.com/videos/hln", "policy_url": "https://www.cnn.com/about/tv/", "note": "HLN은 CNN 공식 네트워크TV/제공사 인증 경로입니다. 무료 생방송으로 대체 표시하지 않습니다. CNN 공식 주요녹화는 별도편성."}], "errors": []}</script><script id="legacy-visibility-preservation">(()=>{for(const id of ['kakaoFloatingWidget','kakaoChatModal','reportModal']){const e=document.getElementById(id);if(e)document.body.append(e)}const old=document.getElementById('preserved-portal');old.setAttribute('aria-hidden','true');})();</script><script>document.addEventListener('click',e=>{if(e.target.closest('button[onclick="openKakaoChatModal()"]')){e.preventDefault();e.stopImmediatePropagation();document.getElementById('kakaoChatModal').style.display='flex'}},true);</script><script id="desk-related-article-menu">(()=>{
@@ -12652,7 +12553,7 @@ html body #daily-newsroom #nm-empty{color:#fff;font-size:13px;padding:14px;margi
 html body #daily-newsroom .ds-user-backdrop{transform-origin:50% 95%;animation:ds-portrait-breathe 5.8s ease-in-out infinite!important;will-change:transform}
 @media(prefers-reduced-motion:reduce){html body #daily-newsroom .ds-user-backdrop{animation-name:ds-portrait-breathe-reduced!important;animation-duration:9s!important}}
 html body #daily-newsroom .ds-family-scene[data-performing="false"] .ds-user-backdrop{animation-play-state:paused!important}
-</style><style id="contact-localization-fit">#kakaoChatModal .kakaotalk-modal-box{box-sizing:border-box;max-height:94dvh;overflow-y:auto}#kakaoChatModal span[style*="monospace"]{direction:ltr;unicode-bidi:isolate;display:inline-block;overflow-wrap:anywhere}#kakaoChatModal span[style*="monospace"]{font-size:clamp(11px,3.5vw,15px)!important;max-width:100%}#kakaoFloatingWidget{max-width:calc(100vw - 36px)}.kakao-pulse-btn{max-width:100%;text-align:center}@media(max-width:400px){#kakaoChatModal .kakaotalk-modal-box{width:94%;padding:18px!important}}</style><style id="cartoon-localization-style">
+</style><style id="cartoon-localization-style">
 #nr-daily-cartoon .nr-cartoon-frame{position:relative}
 .cartoon-ar-overlay{position:absolute;inset:0;pointer-events:none;z-index:2;display:flex;flex-direction:column;justify-content:space-between;padding:2.2%;box-sizing:border-box}
 .cartoon-ar-overlay[hidden],.cartoon-bubble[hidden],.cartoon-language-pending[hidden]{display:none!important}
