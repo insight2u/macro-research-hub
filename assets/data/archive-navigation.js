@@ -28,7 +28,19 @@ window.magazineArchiveText=r=>{const md=((window.BODY_I18N||{})[r.id]||{})[lang(
 window.magazineArchiveCount=(total,n,search)=>{
  const l=lang();return ({ko:`${total}개 기사 중 ${n}개${search?' 검색 결과':''}`,en:`${n} of ${total} articles${search?' match':''}`,ja:`全${total}件中${n}件${search?'が一致':''}`,zh:`共${total}篇，${n}篇${search?'匹配':''}`,es:`${n} de ${total} artículos${search?' coinciden':''}`,ru:`${n} из ${total} статей${search?' найдено':''}`,ar:`${n} من ${total} مقالًا${search?' مطابقًا':''}`,sw:`Makala ${n} kati ya ${total}${search?' zinalingana':''}`,fr:`${n} articles sur ${total}${search?' correspondent':''}`,de:`${n} von ${total} Artikeln${search?' gefunden':''}`,it:`${n} articoli su ${total}${search?' corrispondono':''}`})[l]||`${n} / ${total}`;
 };
+function dailyEdition(){
+ const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-(0[1-9]|10)-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
+ const dates=[...new Set(eligible.map(r=>r.date))].sort().reverse();
+ const date=dates.find(d=>eligible.filter(r=>r.date===d).length===10);if(!date)return;
+ const selected=eligible.filter(r=>r.date===date).sort((a,b)=>a.id.localeCompare(b.id)),grid=document.getElementById('nr-article-grid');if(!grid)return;
+ const signature=l+':'+date+':'+selected.map(r=>r.id).join(',');if(grid.dataset.editionSignature===signature)return;grid.dataset.editionSignature=signature;grid.replaceChildren();
+ const heading=document.querySelector('#nr-recent h2'),stamp=document.querySelector('#nr-recent small');
+ const titles={ko:'오늘의 기사 Top10',en:'Latest edition · Top 10',ja:'最新号 Top10',zh:'最新一期 Top10',es:'Última edición · Top 10',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
+ if(heading)heading.textContent=titles[l]||titles.en;if(stamp)stamp.textContent=date;
+ selected.forEach(r=>{const local=record(r),a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=local.category+' · '+r.date;const h=document.createElement('h3');h.textContent=local.title;h.style.cursor='pointer';const p=document.createElement('p');p.textContent=local.summary;const b=document.createElement('button');b.className='nr-read';b.textContent=list()[0]+' →';const open=()=>window.newspaperArchive?.openArticle(r.id);h.onclick=open;p.onclick=open;b.onclick=open;a.append(k,h,p,b);grid.append(a)});
+}
 window.magazineArchiveRefresh=()=>{
+ dailyEdition();
  const v=list();for(const [id,index] of [['ar-top',6],['ar-more',3]]){const e=document.getElementById(id);if(e)e.textContent=v[index];}
  const q=document.getElementById('ar-query');if(q){q.placeholder=v[5];q.setAttribute('aria-label',v[5]);}
  const category=document.getElementById('ar-category');if(category){category.options[0].textContent=v[4];const rr=typeof reports!=='undefined'?reports:[];for(const op of [...category.options].slice(1)){const r=rr.find(r=>r.category===op.value&&((window.BODY_I18N||{})[r.id]||{})[lang()]);op.textContent=lang()==='ko'?op.value:r?record(r).category:op.value+' ['+v[7]+']';}}
