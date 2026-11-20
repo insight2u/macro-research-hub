@@ -1383,7 +1383,7 @@ function walk(root, lang){
   var tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode:function(n){
     var p = n.parentElement;
     if (!p || skip[p.tagName]) return NodeFilter.FILTER_REJECT;
-    if (p.closest && p.closest('#lang-bar,#ar-results,#ar-count,#ar-top,#ar-category')) return NodeFilter.FILTER_REJECT;
+    if (p.closest && p.closest('#nr-subscribe-wrap,#nr-subscription-nav,#lang-bar,#ar-results,#ar-count,#ar-top,#ar-category')) return NodeFilter.FILTER_REJECT;
     return NodeFilter.FILTER_ACCEPT;
   }});
   var nodes = [], n;
@@ -1401,7 +1401,7 @@ function translateAttrs(lang){
   var els = document.querySelectorAll('[aria-label],[title],[placeholder]');
   for (var i=0;i<els.length;i++){
     var el = els[i];
-    if (el.closest && el.closest('#lang-bar,#ar-results,#ar-query,#ar-category')) continue;
+    if (el.closest && el.closest('#nr-subscribe-wrap,#nr-subscription-nav,#lang-bar,#ar-results,#ar-query,#ar-category')) continue;
     var rec = attrCache.get(el); if(!rec){ rec={}; attrCache.set(el, rec); }
     ['aria-label','title','placeholder'].forEach(function(a){
       var v = el.getAttribute(a); if(!v) return;
