@@ -7,6 +7,7 @@ Object.keys(NEW_LANGUAGE_STATUS).forEach(function(l){DICT[l]=NEW_LANGUAGE_STATUS
 var LANGS = ['ko','en','zh','ja','es','ru','ar','sw','fr','de','it'];
 var cur = 'ko';
 try { cur = localStorage.getItem('magazine-lang') || 'ko'; } catch(e) {}
+var requestedLang=new URLSearchParams(location.search).get('lang');if(requestedLang)cur=requestedLang;
 if (LANGS.indexOf(cur) < 0) cur = 'ko';
 var origCache = new Map();
 var FALLBACK = {"en": "Full translation of this article is in progress. The Korean original is shown below.", "zh": "本文完整翻译正在准备中，以下为韩语原文。", "ja": "本文の全文翻訳は準備中です。韓国語の原文を表示します。", "es": "La traducción completa de este artículo está en preparación; se muestra el original en coreano.", "ru": "Полный перевод этой статьи готовится; ниже показан корейский оригинал.", "ar": "الترجمة الكاملة لهذا المقال قيد الإعداد؛ يظهر النص الكوري الأصلي أدناه.", "sw": "Tafsiri kamili ya makala hii inaendelea; tunaonyesha asili ya Kikorea hapa chini."};
@@ -1382,7 +1383,7 @@ function walk(root, lang){
   var tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode:function(n){
     var p = n.parentElement;
     if (!p || skip[p.tagName]) return NodeFilter.FILTER_REJECT;
-    if (p.closest && p.closest('#lang-bar')) return NodeFilter.FILTER_REJECT;
+    if (p.closest && p.closest('#lang-bar,#ar-results,#ar-count,#ar-top,#ar-category')) return NodeFilter.FILTER_REJECT;
     return NodeFilter.FILTER_ACCEPT;
   }});
   var nodes = [], n;
@@ -1400,7 +1401,7 @@ function translateAttrs(lang){
   var els = document.querySelectorAll('[aria-label],[title],[placeholder]');
   for (var i=0;i<els.length;i++){
     var el = els[i];
-    if (el.closest && el.closest('#lang-bar')) continue;
+    if (el.closest && el.closest('#lang-bar,#ar-results,#ar-query,#ar-category')) continue;
     var rec = attrCache.get(el); if(!rec){ rec={}; attrCache.set(el, rec); }
     ['aria-label','title','placeholder'].forEach(function(a){
       var v = el.getAttribute(a); if(!v) return;
@@ -1452,6 +1453,7 @@ window.__nmT = function(t){
 };
 function applyLang(lang, save){
   cur = lang;
+  var shareUrl=new URL(location.href);shareUrl.searchParams.set('lang',lang);history.replaceState(null,'',shareUrl.href);
   if (save) { try { localStorage.setItem('magazine-lang', lang); } catch(e){} }
   restoreKo();
   document.documentElement.setAttribute('data-lang', lang);
@@ -1467,7 +1469,7 @@ function applyLang(lang, save){
   fixBroadcast(lang);
   if (window.__nmRelabel) window.__nmRelabel(); if (window.__seriesRerender) window.__seriesRerender();
   dressCharacter(lang);
-  updateLangCast(lang);fixSubscriptionPanels();fixUiLabels();
+  updateLangCast(lang);fixSubscriptionPanels();fixUiLabels();if(window.magazineArchiveRefresh)window.magazineArchiveRefresh();
   if (save) greetOnce(lang);
 }
 var CHAR_IMG = {"en":"assets/char-en-v2-cut.webp","zh":"assets/char-zh-v2-cut.webp","ja":"assets/char-ja-cut.webp","es":"assets/char-es-v2-cut.webp","ru":"assets/char-ru-v2-cut.webp","ar":"assets/char-ar-cut.webp","sw":"assets/char-sw-cut.webp"};
@@ -1630,7 +1632,7 @@ function tagUntranslated(){
 window.addEventListener('dailyshot:reader-rendered', tagUntranslated);
 obs.observe(document.body, {childList:true, subtree:true});
 setInterval(tagUntranslated, 700);
-updateLangCast(cur);fixSubscriptionPanels();fixUiLabels();
+updateLangCast(cur);fixSubscriptionPanels();fixUiLabels();if(window.magazineArchiveRefresh)window.magazineArchiveRefresh();
 var lastGreetLang = '', lastGreetAt = 0;
 function greetOnce(lang){
   if (document.documentElement.dataset.characterSound !== 'on') return;
