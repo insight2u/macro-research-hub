@@ -19,6 +19,16 @@ const css=document.createElement('style');css.textContent=`
 @media(max-width:760px){#daily-newsroom .nr-layout{grid-template-columns:minmax(0,1fr)!important}#daily-newsroom .nr-side{min-width:0;max-width:100%}#nr-daily-cartoon .nr-cartoon-frame{padding:10px 18px}#nr-daily-cartoon .nov20-motion-note{padding:0 18px}#nr-daily-cartoon .nov20-bubble{font-size:15px}#nr-daily-cartoon .nov20-bubble-a,#nr-daily-cartoon .nov20-bubble-b{min-height:78px}}
 @media(prefers-reduced-motion:reduce){#nr-daily-cartoon .nov20-bubble{transition:none}}
 #nr-daily-cartoon .nr-cartoon-image{display:block;width:100%;height:auto;max-width:100%;border:0;border-radius:0}
+
+#nr-daily-cartoon .nr-cartoon-frame{padding:0!important;position:relative;isolation:isolate;overflow:hidden;container-type:inline-size}
+#nr-daily-cartoon .nov20-bubble{position:absolute;z-index:2;margin:0!important;min-height:0!important;padding:7px 8px;border:1.5px solid #382b26;border-radius:48% / 28%;background:#fff!important;box-shadow:1px 2px 0 #382b2626;font-size:clamp(10px,3.1cqw,15px)!important;line-height:1.32;overflow:visible;text-align:center;word-break:normal;overflow-wrap:anywhere}
+#nr-daily-cartoon .nov20-bubble strong{display:none}
+#nr-daily-cartoon[lang=ko] .nov20-bubble{word-break:keep-all;overflow-wrap:normal}
+#nr-daily-cartoon .nov20-bubble-a{left:2%;top:4%;width:25%}
+#nr-daily-cartoon .nov20-bubble-b{right:2%;top:5%;width:39%}
+#nr-daily-cartoon .nov20-bubble:after{content:'';position:absolute;top:calc(100% - 2px);width:15px;height:30px;background:#fff;clip-path:polygon(0 0,100% 0,20% 100%);filter:drop-shadow(1px 1px 0 #382b26);transform-origin:top}
+#nr-daily-cartoon .nov20-bubble-a:after{left:53%;transform:rotate(-9deg)}
+#nr-daily-cartoon .nov20-bubble-b:after{left:48%;transform:rotate(-6deg)}
 `;document.head.append(css);
 function text(sel,t){const e=f.querySelector(sel);if(e&&e.textContent!==t)e.textContent=t;}
 function sync(){c.classList.remove('waiting');c.setAttribute('aria-hidden','false');}
