@@ -390,7 +390,7 @@
   "action": "openReportModal('report-2026-11-21-01-producer-prices-two-speeds')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-01-producer-prices-two-speeds",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-01.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-01-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 마이다스의 Z-Tech",
@@ -407,7 +407,7 @@
   "action": "openReportModal('report-2026-11-21-02-remote-compute-export-controls')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-02-remote-compute-export-controls",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-02.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-02-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 트렌드人체크카드",
@@ -424,7 +424,7 @@
   "action": "openReportModal('report-2026-11-21-03-toss-japan-deal-stages')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-03-toss-japan-deal-stages",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-03.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-03-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 라이프人정글",
@@ -441,7 +441,7 @@
   "action": "openReportModal('report-2026-11-21-04-choroc-creditor-revival')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-04-choroc-creditor-revival",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-04.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-04-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 트렌드人체크카드",
@@ -458,7 +458,7 @@
   "action": "openReportModal('report-2026-11-21-05-han-remand-legal-meaning')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-05-han-remand-legal-meaning",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-05.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-05-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 글로벌이코노미뉴스",
@@ -475,7 +475,7 @@
   "action": "openReportModal('report-2026-11-21-06-china-fta-promise-and-entry')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-06-china-fta-promise-and-entry",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-06.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-06-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 라이프人정글",
@@ -492,7 +492,7 @@
   "action": "openReportModal('report-2026-11-21-07-exam-devices-and-use')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-07-exam-devices-and-use",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-07.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-07-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 마이다스의 Z-Tech",
@@ -509,7 +509,7 @@
   "action": "openReportModal('report-2026-11-21-08-borrower-debt-flow-stock')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-08-borrower-debt-flow-stock",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-08.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-08-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 라이프人정글",
@@ -526,7 +526,7 @@
   "action": "openReportModal('report-2026-11-21-09-snowfall-review-criteria')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-09-snowfall-review-criteria",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-09.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-09-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/21 · 글로벌이코노미뉴스",
@@ -543,7 +543,7 @@
   "action": "openReportModal('report-2026-11-21-10-keynes-enough-and-uncertainty')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-10-keynes-enough-and-uncertainty",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-10.svg\" alt=\"자체 제작 편집 도식. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-10-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  }
 ,
  {
@@ -561,7 +561,7 @@
   "action": "openReportModal('report-2026-11-20-01-export-ledgers')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-01-export-ledgers",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-01.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-01-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 공장장 보고",
@@ -578,7 +578,7 @@
   "action": "openReportModal('report-2026-11-20-02-drone-battery-standard')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-02-drone-battery-standard",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-02.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-02-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 회장님의 도박판",
@@ -595,7 +595,7 @@
   "action": "openReportModal('report-2026-11-20-03-dominant-price-maintenance')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-03-dominant-price-maintenance",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-03.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-03-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 트렌드人체크카드",
@@ -612,7 +612,7 @@
   "action": "openReportModal('report-2026-11-20-04-overseas-shopping-representative')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-04-overseas-shopping-representative",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-04.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-04-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 여의도 한 입, 외교 한 접시",
@@ -629,7 +629,7 @@
   "action": "openReportModal('report-2026-11-20-05-medicine-policy-deliberation')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-05-medicine-policy-deliberation",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-05.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-05-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 글로벌이코노미뉴스",
@@ -646,7 +646,7 @@
   "action": "openReportModal('report-2026-11-20-06-scam-infrastructure-sanctions')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-06-scam-infrastructure-sanctions",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-06.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-06-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 라이프人정글",
@@ -663,7 +663,7 @@
   "action": "openReportModal('report-2026-11-20-07-housing-minimum-standards')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-07-housing-minimum-standards",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-07.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-07-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 마이다스의 Z-Tech",
@@ -680,7 +680,7 @@
   "action": "openReportModal('report-2026-11-20-08-insurance-claims-and-coverage')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-08-insurance-claims-and-coverage",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-08.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-08-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 도파민성애자",
@@ -697,7 +697,7 @@
   "action": "openReportModal('report-2026-11-20-09-okyo-spatial-preview')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-09-okyo-spatial-preview",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-09.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-09-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/20 · 역사로 오늘을 읽다",
@@ -714,7 +714,7 @@
   "action": "openReportModal('report-2026-11-20-10-child-rights-history')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-20-10-child-rights-history",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-10.svg\" alt=\"자체 제작 개념 일러스트. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>자체 제작 개념 일러스트 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov20-10-3d.jpg\" alt=\"Gemini AI 제작 3D 개념 이미지. 실제 사건·제품·인물 사진이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>Gemini AI 제작 3D 개념 이미지 · 실제 현장 사진 아님</figcaption></figure>"
  }
 ,
 {"tagMain": "11/19 · 경제 체온계", "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기", "headline": "한국의 반등, 미국의 엇갈림, 회복은 어디까지 왔나", "subheadline": "시황", "body": "국내 주가의 하루 반등을 실물경기 전반의 안정으로 확대하기에는 이르다. 11월18일 코스피는 5,067.44로 98.96포인트 올랐지만, 미국18일 정규장에서는 다우·S&P500 하락과 나스닥 상승이 갈렸다. 반등의 가격과 생산·고용·물가의 서로 다른 관측 달력을 나란히 놓고 읽는다.", "points": ["먼저 숫자에 시계를 붙인다", "VIX 충돌은 공식 원자료로 풀었다", "주가와 다른 달력으로 보는 생산·고용·소비·투자", "물가의 평균 안에서도 온도는 다르다"], "action": "openReportModal('report-2026-11-19-01-market-rebound-us-divergence')", "actionText": "기사 전문 읽기", "reportId": "report-2026-11-19-01-market-rebound-us-divergence", "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/2026-11-19-market-reference.jpg\" alt=\"2012년 부산 동구 한국거래소 건물 참고사진. 현재 사옥이나 2026년11월18일 거래 현장이 아닙니다.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>2012년 부산 동구 한국거래소 건물 참고사진. 현재 사옥이나 2026년11월18일 거래 현장이 아닙니다. · 사진 출처·이용조건은 기사 전문에 표기</figcaption></figure>"},
