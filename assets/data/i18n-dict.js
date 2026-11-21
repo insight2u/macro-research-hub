@@ -1918,6 +1918,27 @@ function greetLang(lang){
     } catch(e){}
   }
 }
+
+// Approved international desk name, Nov21 23:11 KST.
+DICT["en"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["zh"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["ja"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["es"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["ru"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["ar"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["sw"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["fr"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["de"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["it"]["돈 벌러 세계속으로"]="돈 벌러 세계속으로";
+DICT["zh"]["돈 벌러 세계속으로 | 생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자"]="돈 벌러 세계속으로 | 生产者物价下降0.1%，安心之前先把工厂与田间分开看";
+DICT["zh"]["돈 벌러 세계속으로 | 한중 FTA 실질타결, 문이 열렸다는 말보다 문턱의 규칙을 보자"]="돈 벌러 세계속으로 | 韩中FTA后续谈判实质性达成，与其说门开了，不如先看门槛规则";
+DICT["zh"]["돈 벌러 세계속으로 | 케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지"]="돈 벌러 세계속으로 | 为什么重读凯恩斯：在生产更多之前，先问增长为了什么";
+DICT["en"]["돈 벌러 세계속으로 | 생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자"]="돈 벌러 세계속으로 | Producer prices fell 0.1%. Before taking comfort, separate factories from farms";
+DICT["en"]["돈 벌러 세계속으로 | 한중 FTA 실질타결, 문이 열렸다는 말보다 문턱의 규칙을 보자"]="돈 벌러 세계속으로 | Substantive conclusion of Korea-China FTA talks: look at the threshold's rules, not just an open door";
+DICT["en"]["돈 벌러 세계속으로 | 케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지"]="돈 벌러 세계속으로 | Why reread Keynes? Before making more, ask what growth is for";
+DICT["ja"]["돈 벌러 세계속으로 | 생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자"]="돈 벌러 세계속으로 | 生産者物価は0.1%下落。安心する前に工場と畑を分けて見よう";
+DICT["ja"]["돈 벌러 세계속으로 | 한중 FTA 실질타결, 문이 열렸다는 말보다 문턱의 규칙을 보자"]="돈 벌러 세계속으로 | 韓中FTAの実質妥結、扉が開いたという言葉より入口の規則を見よう";
+DICT["ja"]["돈 벌러 세계속으로 | 케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지"]="돈 벌러 세계속으로 | ケインズを読み直す理由、より多く作る前に成長の目的を問う";
 var pending = null;
 var obs = new MutationObserver(function(muts){
   if (cur === 'ko') return;

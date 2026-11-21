@@ -376,7 +376,7 @@
     // 핵심 특종 실시간 자동 순환 데이터 (2026.11.05 07:30 KST 목요 조간 정기 갱신)
     const leadStories = [
  {
-  "tagMain": "11/21 · 글로벌이코노미뉴스",
+  "tagMain": "11/21 · 돈 벌러 세계속으로",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자",
   "subheadline": "경제지표",
@@ -461,7 +461,7 @@
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-05-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
-  "tagMain": "11/21 · 글로벌이코노미뉴스",
+  "tagMain": "11/21 · 돈 벌러 세계속으로",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "한중 FTA 실질타결, 문이 열렸다는 말보다 문턱의 규칙을 보자",
   "subheadline": "국제경제",
@@ -529,7 +529,7 @@
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-09-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
-  "tagMain": "11/21 · 글로벌이코노미뉴스",
+  "tagMain": "11/21 · 돈 벌러 세계속으로",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지",
   "subheadline": "역사",
