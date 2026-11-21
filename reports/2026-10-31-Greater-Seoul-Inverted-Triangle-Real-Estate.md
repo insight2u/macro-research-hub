@@ -12,7 +12,7 @@
 
 ## 🗺️ [단독 인포그래픽] 대서울 역삼각권 공간 구조 및 광역 급행망 지도
 
-![대서울 역삼각권 공간 구조 인포그래픽 지도](images/greater_seoul_triangle_map.png)
+![대서울 역삼각권 공간 구조 인포그래픽 지도](https://lh3.googleusercontent.com/d/1xJ_tdVobJ9R7G1wOl1fVhaLYTK1j0qOa)
 
 > **💡 지도 판독 가이드 (Spatial Analysis Map Guide):**
 > 1. **황금빛 역삼각권 (Golden Inverted Triangle):** 
@@ -68,7 +68,7 @@
 
 ### 📚 학술·데이터 레퍼런스: 서울대 환경대학원 김경민 교수의 공간경제학 프레임워크
 
-![서울대 김경민 교수 저서 컬렉션](images/kim_kyungmin_books.png)
+![서울대 김경민 교수 저서 컬렉션](https://lh3.googleusercontent.com/d/1FC5NZEDDMcC56yMmlEWf2qAkuEBoHAnd)
 
 > **🏛️ 김경민 교수(서울대학교 환경대학원 도시계획학) 주요 연구 및 핵심 저서:**
 >
