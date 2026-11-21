@@ -1810,7 +1810,15 @@ function updateLangCast(lang){
     var dd = nv[slots[k][1]];
     if (dd){
       el.setAttribute("href", dd.u);
-      el.textContent = dd.t;
+      if(slots[k][1] === 'sp' || slots[k][1] === 'pod'){
+        var isSpotify=slots[k][1] === 'sp';
+        if(!isSpotify && lang==='ko')el.href='https://podcasts.apple.com/kr/podcast/dailyshot-macro-research/id6835334262';
+        var icon=isSpotify?'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1DB954"/><g fill="none" stroke="#102e20" stroke-linecap="round"><path d="M5 8.5Q12 5.7 19 9" stroke-width="2"/><path d="M6 12Q12 9.6 18 12.5" stroke-width="1.8"/><path d="M7 15.3Q12 13.5 17 15.8" stroke-width="1.6"/></g></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#8b40c8"/><g fill="none" stroke="white" stroke-width="1.6"><circle cx="12" cy="9" r="4"/><path d="M5.8 14a7.5 7.5 0 1 1 12.4 0M9 16.5v-1.7a3 3 0 0 1 6 0v1.7c0 2-1.3 4-3 4s-3-2-3-4Z"/></g></svg>';
+        var label=isSpotify?'Spotify':(lang==='ko'?'팟캐스트 앱':'Podcast');
+        el.innerHTML=icon+'<span>'+label+'</span>';
+        el.title=dd.t;
+        el.setAttribute('aria-label',isSpotify?dd.t:(lang==='ko'?'팟캐스트 앱에서 한국어 방송 듣기':dd.t));
+      }else el.textContent = dd.t;
       el.classList.remove("nr-link-disabled");
       el.removeAttribute("aria-disabled");
     } else {
