@@ -15,13 +15,16 @@ it:["Leggi l'articolo completo","Link diretto all'articolo ↗","Nessun articolo
 };
 const lang=()=>document.documentElement.dataset.lang||'ko',list=()=>labels[lang()]||labels.en;
 window.magazineArchiveLabel=k=>list()[{read:0,direct:1,empty:2}[k]];
+// BEGIN NOV22 CATEGORY LABELS
+const nov22CategoryLabels={"en": {"경제 체온계": "Economy Thermometer", "공장장 보고": "Factory Manager's Report", "회장님의 도박판": "The Chairman's Gamble", "트렌드人체크카드": "Trend Check Card", "여의도 한 입, 외교 한 접시": "A Bite of Yeouido, a Plate of Diplomacy", "돈 벌러 세계속으로": "Into the World to Make Money", "라이프人정글": "Life in the Human Jungle", "마이다스의 Z-Tech": "Midas's Z-Tech", "도파민성애자": "Dopamine Lovers", "역사로 오늘을 읽다": "Reading Today Through History"}, "zh": {"경제 체온계": "经济体温计", "공장장 보고": "厂长报告", "회장님의 도박판": "董事长的赌局", "트렌드人체크카드": "趋势人消费卡", "여의도 한 입, 외교 한 접시": "汝矣岛一口，外交一盘", "돈 벌러 세계속으로": "到世界去赚钱", "라이프人정글": "生活丛林", "마이다스의 Z-Tech": "迈达斯的Z-Tech", "도파민성애자": "多巴胺爱好者", "역사로 오늘을 읽다": "用历史读今天"}, "ja": {"경제 체온계": "経済の体温計", "공장장 보고": "工場長レポート", "회장님의 도박판": "会長の賭け", "트렌드人체크카드": "トレンド人チェックカード", "여의도 한 입, 외교 한 접시": "汝矣島を一口、外交を一皿", "돈 벌러 세계속으로": "世界へ稼ぎに行こう", "라이프人정글": "暮らしのジャングル", "마이다스의 Z-Tech": "ミダスのZ-Tech", "도파민성애자": "ドーパミン愛好家", "역사로 오늘을 읽다": "歴史で今日を読む"}};
+// END NOV22 CATEGORY LABELS
 function record(r){
  const md=((window.BODY_I18N||{})[r.id]||{})[lang()];
  if(lang()==='ko')return r;
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:r.category+' ['+list()[7]+']'};
  const lines=md.split('\n');const title=(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,'')||r.title;
  const prose=lines.find(t=>t.trim()&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
- return {title,category:r.date>='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
+ return {title,category:r.date==='2026.11.22'?((nov22CategoryLabels[lang()]||{})[r.category]||r.category):r.date==='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
 }
 window.magazineArchiveRecord=record;
 window.magazineArchiveText=r=>{const md=((window.BODY_I18N||{})[r.id]||{})[lang()]||'';return [record(r).title,md].join(' ').normalize('NFKC').toLocaleLowerCase();};
