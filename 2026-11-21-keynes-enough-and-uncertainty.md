@@ -1,7 +1,7 @@
 # 글로벌이코노미뉴스 | 케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지
 
 **발행: 2026년 11월 21일 | 사건·자료 기준: 2026년 11월 서평·7월 24일 출판사 발췌 | 확인: 11월 21일 00:45 KST**
-**작성: Instinct(AI)**
+****
 
 ![Gemini AI 제작 3D 개념 이미지. 실제 사건이나 인물을 촬영한 사진이 아닙니다.](images/nov21-10-3d.jpg)
 
@@ -31,6 +31,13 @@ EH.Net은 11월 로버트 스키델스키의 『Keynes for Our Times』에 대�
 
 역사 속 경제학자를 다시 읽는 이점은 과거의 문장을 오늘의 정답으로 복사하는 데 있지 않다. 성장을 무엇으로 측정할지, 누가 그 결과를 누리는지, 모르는 미래 앞에서 어떤 선택을 할지를 묻게 한다는 데 있다. 더 많이 만드는 능력에 관한 뉴스가 넘치는 때일수록, 그 능력을 어디에 쓸 것인지라는 질문도 함께 남겨둘 만하다.
 
+## 관련 영상: 생산성의 과실을 소득과 시간으로 나누기
+
+2017년 6월 13일 Follow the Money가 공개한 Rethinking Economics 인터뷰에서 스키델스키는 생산성 향상을 더 많은 소득으로 받을지, 여가로 받을지를 구분한다(4:51~5:55). 이어 생산성의 이익이 소수에게 집중되면 많은 사람은 생활을 유지하려고 장시간 일하게 된다고 주장한다(6:03~6:55). 이는 2026년 책의 직접 소개 영상이나 최신 분배 통계가 아니라 저자의 오래된 문제의식을 확인하는 자료다. 서평·발췌문과 함께 보면 성장률만으로 충분함을 판단하지 말고, 그 성과가 누구의 소득과 시간으로 돌아가는지 물어야 한다는 해석으로 이어진다.[3]
+
+[관련 인터뷰 YouTube에서 보기](https://www.youtube.com/watch?v=Gxo2eiUpQDY)
+
 ## 출처
 [1] EH.Net, Ranjit S. Dighe의 Keynes for Our Times 서평, 2026년 11월. 본문 전체 확인. https://eh.net/book_reviews/keynes-for-our-times/
 [2] Yale University Press, An Excerpt: Keynes for Our Times, 2026-07-24. 출판사 발췌 본문 전체 확인. https://yalebooks.yale.edu/2026/07/24/an-excerpt-keynes-for-our-times/
+[3] Follow the Money / Rethinking Economics, Robert Skidelsky on Basic Income and Leisure, 2017-06-13. YouTube automatic transcript checked at 4:51–6:55. https://www.youtube.com/watch?v=Gxo2eiUpQDY
