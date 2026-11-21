@@ -376,90 +376,90 @@
     // 핵심 특종 실시간 자동 순환 데이터 (2026.11.05 07:30 KST 목요 조간 정기 갱신)
     const leadStories = [
  {
-  "tagMain": "11/21 · 돈 벌러 세계속으로",
+  "tagMain": "11/21 · 경제 체온계",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자",
   "subheadline": "경제지표",
   "body": "한국은행이 20일 발표한 10월 생산자물가지수는 전월보다 0.1% 내렸다. 그러나 지난해 같은 달보다는 7.2% 높다. 앞의 숫자는 9월과 비교한 변화이고 뒤의 숫자는 1년 전과 비교한 수준의 차이다. 두 수치가 서로 모순되는 것은 아니다. 이번 발표를 '물가가 잡혔다' 또는 '모든 가격이 계속 오른다'로 한 줄 처리하면 어느 쪽이든 중요한 정보를 놓친다.[1]",
   "points": [
-   "한 달의 하락과 일 년의 상승",
-   "평균이 지운 비용의 방향",
-   "국내공급과 생산자가격은 같은 지수가 아니다",
-   "다음 발표에서 볼 것은 방향의 확산"
+    "한 달의 하락과 일 년의 상승",
+    "평균이 지운 비용의 방향",
+    "국내공급과 생산자가격은 같은 지수가 아니다",
+    "다음 발표에서 볼 것은 방향의 확산"
   ],
   "action": "openReportModal('report-2026-11-21-01-producer-prices-two-speeds')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-01-producer-prices-two-speeds",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-01-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 마이다스의 Z-Tech",
+  "tagMain": "11/21 · 공장장 보고",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "칩이 국경을 안 넘어도, 연산을 빌리는 거래가 심사대에 오른다",
   "subheadline": "산업·ICT",
   "body": "미국 상무부 산업안보국(BIS)의 새 첨단반도체 규칙은 물리적인 칩의 이동뿐 아니라 제3국 데이터센터를 통해 연산 능력을 원격 제공하는 거래를 겨냥한다. 16일 발표된 정책의 구체적인 규칙은 연방관보에 19일 게재됐고 같은 날 발효됐다. 규칙이 의견수렴을 받는다는 이유로 아직 효력이 없는 단순 제안이라고 읽어서는 안 된다.[1][2]",
   "points": [
-   "서버의 주소만으로 끝나지 않는 질문",
-   "국가 이름과 거래 조건을 분리해야 한다",
-   "파운드리와 데이터센터의 공통 숙제",
-   "규제의 단위가 바뀌고 있다"
+    "서버의 주소만으로 끝나지 않는 질문",
+    "국가 이름과 거래 조건을 분리해야 한다",
+    "파운드리와 데이터센터의 공통 숙제",
+    "규제의 단위가 바뀌고 있다"
   ],
   "action": "openReportModal('report-2026-11-21-02-remote-compute-export-controls')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-02-remote-compute-export-controls",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-02-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 트렌드人체크카드",
+  "tagMain": "11/21 · 회장님의 도박판",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "토스의 일본 증권사 인수, 발표와 영업 성공 사이의 긴 거리",
   "subheadline": "기업",
   "body": "도카이도쿄파이낸셜홀딩스는 10월 30일 연결 자회사 CHEER증권의 모든 주식을 토스글로벌에 넘기는 방침을 결정했다고 공시했다. 토스글로벌은 비바리퍼블리카의 연결 자회사다. 이 발표를 11월에 다시 다룬 기사나 뉴스레터를 읽었다고 해서 거래 발표일이 새로 바뀌는 것은 아니다.[1]",
   "points": [
-   "오늘 읽었다고 오늘 체결된 거래는 아니다",
-   "인수하는 것은 앱의 화면만이 아니다",
-   "등록의 연속성과 새 영업의 허용은 구분된다",
-   "비공개 가격에는 숫자를 채워 넣지 말자"
+    "오늘 읽었다고 오늘 체결된 거래는 아니다",
+    "인수하는 것은 앱의 화면만이 아니다",
+    "등록의 연속성과 새 영업의 허용은 구분된다",
+    "비공개 가격에는 숫자를 채워 넣지 말자"
   ],
   "action": "openReportModal('report-2026-11-21-03-toss-japan-deal-stages')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-03-toss-japan-deal-stages",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-03-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 라이프人정글",
+  "tagMain": "11/21 · 트렌드人체크카드",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "초록마을을 다시 산 채권자들, 회생은 회복의 출발선이다",
   "subheadline": "소비·유통",
   "body": "초록마을의 새 경영진을 다룬 아웃스탠딩의 20일 인터뷰는 통상적인 인수 기사와 다른 질문을 던진다. 이 매체에 따르면 납품업체와 가맹점주들은 외부 투자자와 함께 53억원에 회사를 인수했다. 기존 거래에서 손해를 본 이해관계자들이 사업을 계속하는 쪽에 다시 자원을 투입한 사례다. 금액과 경위는 해당 인터뷰 보도에 따른 것이며 본지가 거래 계약서를 확인한 것은 아니다.[1]",
   "points": [
-   "손해를 본 사람이 새 투자자가 될 때",
-   "옛 매각자료가 오늘의 재무상태는 아니다",
-   "채권 회수와 영업 정상화는 다른 장부다",
-   "소비자는 무엇을 확인하면 될까"
+    "손해를 본 사람이 새 투자자가 될 때",
+    "옛 매각자료가 오늘의 재무상태는 아니다",
+    "채권 회수와 영업 정상화는 다른 장부다",
+    "소비자는 무엇을 확인하면 될까"
   ],
   "action": "openReportModal('report-2026-11-21-04-choroc-creditor-revival')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-04-choroc-creditor-revival",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-04-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 트렌드人체크카드",
+  "tagMain": "11/21 · 여의도 한 입, 외교 한 접시",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "파기사유는 일부, 환송은 전부: 대법원 보도자료를 읽는 순서",
   "subheadline": "정치·외교",
   "body": "대법원이 19일 선고한 2026도7341 사건은 '어느 부분에 법적 잘못이 있었는가'와 '어느 범위의 판결을 다시 재판하는가'를 나누어 읽어야 한다. 대법원 보도자료는 내란중요임무종사 관련 세 가지 행위 중 비상계엄 선포 전 국무회의 심의의 외관을 형성한 부분에만 파기사유가 있다고 밝혔다. 동시에 원심 유죄 부분은 이유무죄 부분을 포함해 전부 파기·환송했다고 설명한다.[1]",
   "points": [
-   "두 문장이 동시에 참일 수 있다",
-   "선포 전과 선포 후를 어떻게 나눴나",
-   "잘못이 없다는 판단과 확정판결은 구분된다",
-   "논평이 먼저 달려갈 때 확인할 것"
+    "두 문장이 동시에 참일 수 있다",
+    "선포 전과 선포 후를 어떻게 나눴나",
+    "잘못이 없다는 판단과 확정판결은 구분된다",
+    "논평이 먼저 달려갈 때 확인할 것"
   ],
   "action": "openReportModal('report-2026-11-21-05-han-remand-legal-meaning')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-05-han-remand-legal-meaning",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-05-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
   "tagMain": "11/21 · 돈 벌러 세계속으로",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
@@ -467,16 +467,16 @@
   "subheadline": "국제경제",
   "body": "정부는 18일 한중 자유무역협정(FTA) 서비스·투자 후속협상의 실질타결을 선언했다. 원협정은 2015년 12월 발효됐고 후속협상은 2018년 3월 시작됐다. 이번 정부합동 보도자료는 협상이 종료됐지만 일부 기술적 문안은 실무 협의로 마무리한다고 설명한다. 법률검토와 정식서명, 발효 절차도 앞으로 추진할 계획이라고 명시했다.[1]",
   "points": [
-   "타결 선언과 발효 사이",
-   "최혜국대우는 무조건 통과증이 아니다",
-   "관광과 금융의 약속도 서로 다르다",
-   "사업계획에는 시계를 하나 더 달자"
+    "타결 선언과 발효 사이",
+    "최혜국대우는 무조건 통과증이 아니다",
+    "관광과 금융의 약속도 서로 다르다",
+    "사업계획에는 시계를 하나 더 달자"
   ],
   "action": "openReportModal('report-2026-11-21-06-china-fta-promise-and-entry')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-06-china-fta-promise-and-entry",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-06-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
   "tagMain": "11/21 · 라이프人정글",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
@@ -484,16 +484,16 @@
   "subheadline": "사회",
   "body": "교육부가 20일 발표한 수능 전자기기 관련 부정행위 적발은 총 111건이다. 이 숫자를 'AI로 시험을 본 111명'으로 바꾸면 발표에 없는 사실을 보태게 된다. 원본 첨부는 위급재난문자와 관련된 스마트기기 적발 54건, 문자와 관계없는 적발 52건, 스마트기기를 활용한 부정행위 5건을 구분한다.[1]",
   "points": [
-   "같은 표 안에 다른 종류의 사건이 있다",
-   "적발 경로와 행위 내용은 다르다",
-   "어제보다 늘어난 숫자를 어떻게 읽을까",
-   "기술 대책보다 먼저 필요한 분류"
+    "같은 표 안에 다른 종류의 사건이 있다",
+    "적발 경로와 행위 내용은 다르다",
+    "어제보다 늘어난 숫자를 어떻게 읽을까",
+    "기술 대책보다 먼저 필요한 분류"
   ],
   "action": "openReportModal('report-2026-11-21-07-exam-devices-and-use')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-07-exam-devices-and-use",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-07-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
   "tagMain": "11/21 · 마이다스의 Z-Tech",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
@@ -501,50 +501,50 @@
   "subheadline": "생활·금융",
   "body": "한국은행이 20일 공개한 3분기 차주별 가계부채 잠정통계에서 차주당 신규 가계대출은 3,028만원으로 전분기보다 386만원 줄었다. 한편 분기 말 차주당 가계대출 잔액은 9,798만원으로 8만원 늘었다. 새로 빌린 규모가 줄었다는 설명과 쌓여 있는 잔액이 늘었다는 설명은 함께 성립한다. 신규 거래와 누적 잔액을 측정하기 때문이다.[1]",
   "points": [
-   "3,028만원과 9,798만원은 다른 질문의 답",
-   "전체 신규대출 감소가 모든 상품의 축소는 아니다",
-   "평균이 변한 이유를 하나로 정하지 말자",
-   "개인의 대출 판단에는 평균보다 현금흐름"
+    "3,028만원과 9,798만원은 다른 질문의 답",
+    "전체 신규대출 감소가 모든 상품의 축소는 아니다",
+    "평균이 변한 이유를 하나로 정하지 말자",
+    "개인의 대출 판단에는 평균보다 현금흐름"
   ],
   "action": "openReportModal('report-2026-11-21-08-borrower-debt-flow-stock')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-08-borrower-debt-flow-stock",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-08-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 라이프人정글",
+  "tagMain": "11/21 · 도파민성애자",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "영화 폭설의 엇갈린 평가, 반전의 세기보다 관점의 약속을 묻자",
   "subheadline": "문화",
   "body": "20일 공개된 매불쇼의 영화 코너는 신작 '폭설'을 두고 서로 다른 평가 기준을 드러냈다. 이번 기사는 해당 방송의 전체 자동 전사문을 검토하고 배급사 예고편의 공개 대사를 대조한 비평 읽기다. 본지의 영화 본편 관람평은 아니다. 자동 전사에는 인명과 고유명사 오류가 있어 발언을 따옴표로 옮기거나 특정 출연자에게 세부 문장을 단정해 배정하지 않았다.[1][2]",
   "points": [
-   "영화를 보았다는 말은 하지 않는다",
-   "단서의 공정성과 긴장의 밀도",
-   "반전의 개수는 평가표가 아니다",
-   "관람 뒤에 남길 두 줄"
+    "영화를 보았다는 말은 하지 않는다",
+    "단서의 공정성과 긴장의 밀도",
+    "반전의 개수는 평가표가 아니다",
+    "관람 뒤에 남길 두 줄"
   ],
   "action": "openReportModal('report-2026-11-21-09-snowfall-review-criteria')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-09-snowfall-review-criteria",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-09-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- },
+},
  {
-  "tagMain": "11/21 · 돈 벌러 세계속으로",
+  "tagMain": "11/21 · 역사로 오늘을 읽다",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "케인스를 다시 읽는 이유, 더 많이 만들기 전에 무엇을 위한 성장인지",
-  "subheadline": "역사",
+  "subheadline": "역사·정치지리",
   "body": "EH.Net은 11월 로버트 스키델스키의 『Keynes for Our Times』에 대한 랜짓 디기의 서평을 실었다. 이 기사는 그 서평과 예일대출판부가 7월 공개한 책의 발췌문을 함께 읽은 해설이다. 책 전체를 읽고 내리는 독자적 서평은 아니다. 서평자의 요약, 저자의 주장, 본지의 해석을 구분한다.[1][2]",
   "points": [
-   "새 책을 다 읽었다는 서평은 아니다",
-   "충분함을 말할 때 빠질 수 없는 분배",
-   "예측을 잘하는 것과 미래를 아는 것은 다르다",
-   "성장의 속도와 목적을 함께 적자"
+    "새 책을 다 읽었다는 서평은 아니다",
+    "충분함을 말할 때 빠질 수 없는 분배",
+    "예측을 잘하는 것과 미래를 아는 것은 다르다",
+    "성장의 속도와 목적을 함께 적자"
   ],
   "action": "openReportModal('report-2026-11-21-10-keynes-enough-and-uncertainty')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-21-10-keynes-enough-and-uncertainty",
   "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov21-10-3d.jpg\" alt=\"기사의 내용을 표현한 3D 삽화. 조건과 출처는 본문 참조.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>기사의 내용을 표현한 3D 삽화 · 실제 현장 사진 아님</figcaption></figure>"
- }
+}
 ,
  {
   "tagMain": "11/20 · 경제 체온계",
