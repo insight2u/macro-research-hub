@@ -21,7 +21,7 @@ function record(r){
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:r.category+' ['+list()[7]+']'};
  const lines=md.split('\n');const title=(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,'')||r.title;
  const prose=lines.find(t=>t.trim()&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
- return {title,category:title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim(),summary:prose.length>330?prose.slice(0,330)+'…':prose};
+ return {title,category:r.date==='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
 }
 window.magazineArchiveRecord=record;
 window.magazineArchiveText=r=>{const md=((window.BODY_I18N||{})[r.id]||{})[lang()]||'';return [record(r).title,md].join(' ').normalize('NFKC').toLocaleLowerCase();};
@@ -37,7 +37,7 @@ function dailyEdition(){
  const heading=document.querySelector('#nr-recent h2'),stamp=document.querySelector('#nr-recent small');
  const titles={ko:'오늘의 기사 Top10',en:'Latest edition · Top 10',ja:'最新号 Top10',zh:'最新一期 Top10',es:'Última edición · Top 10',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
  if(heading)heading.textContent=titles[l]||titles.en;if(stamp)stamp.textContent=date;
- selected.forEach(r=>{const local=record(r),a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=local.category+' · '+r.date;const h=document.createElement('h3');h.textContent=local.title;h.style.cursor='pointer';const p=document.createElement('p');p.textContent=local.summary;const b=document.createElement('button');b.className='nr-read';b.textContent=list()[0]+' →';const open=()=>window.newspaperArchive?.openArticle(r.id);h.onclick=open;p.onclick=open;b.onclick=open;a.append(k,h,p,b);grid.append(a)});
+ selected.forEach(r=>{const local=record(r),a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=local.category+' · '+r.date;const h=document.createElement('h3');h.textContent=r.date==='2026.11.21'?local.title.replace(/^[^|]+\|\s*/,''):local.title;h.style.cursor='pointer';const p=document.createElement('p');p.textContent=local.summary;const b=document.createElement('button');b.className='nr-read';b.textContent=list()[0]+' →';const open=()=>window.newspaperArchive?.openArticle(r.id);h.onclick=open;p.onclick=open;b.onclick=open;a.append(k,h,p,b);grid.append(a)});
 }
 window.magazineArchiveRefresh=()=>{
  dailyEdition();
