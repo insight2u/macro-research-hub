@@ -376,6 +376,177 @@
     // 핵심 특종 실시간 자동 순환 데이터 (2026.11.05 07:30 KST 목요 조간 정기 갱신)
     const leadStories = [
  {
+  "tagMain": "11/22 · 경제 체온계",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "금리의 답보다 먼저, 11월 금통위에서 읽어야 할 세 가지",
+  "subheadline": "경제지표",
+  "body": "한국은행의 올해 마지막 통화정책방향 결정회의는 11월 26일 목요일로 예정돼 있다. 날짜는 한은 공식 일정에서 확인된다. 아직 열리지 않은 회의다. 22일 일요일 현재 인상도 동결도 결과처럼 쓸 수 없다.[1]",
+  "points": [
+   "동결은 방향의 포기가 아니었다",
+   "첫째, 금리보다 문장의 조건을 읽는다",
+   "둘째, 성장률 전망과 체감경기를 나누어 본다",
+   "셋째, 점도표는 약속이 아니다"
+  ],
+  "action": "openReportModal('report-2026-11-22-01-bok-november-decision-checklist')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-01-bok-november-decision-checklist",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-01.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 공장장 보고",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "GPU를 주문한 다음의 경쟁, 울산 데이터센터가 보여준 전력과 사람",
+  "subheadline": "산업·ICT",
+  "body": "21일 대통령의 울산 SK AI데이터센터 방문에서 나온 질문은 반도체 수요에 그치지 않았다. 건설 전문인력이 부족한지, 정전 때 비상발전기가 켜지기 전 전력 공백은 어떻게 메우는지까지 이어졌다. AI 인프라를 발표된 투자금이나 GPU 수량만으로 평가하기 어려운 이유가 여기에 있다.[1]",
+  "points": [
+   "건설현장의 질문이 산업정책이 되는 순간",
+   "3초를 연결하는 설비의 경제학",
+   "지방 분산과 전력 경쟁력은 함께 증명돼야 한다",
+   "속도 경쟁의 다음 지표"
+  ],
+  "action": "openReportModal('report-2026-11-22-02-ulsan-ai-infrastructure-bottleneck')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-02-ulsan-ai-infrastructure-bottleneck",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-02.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 회장님의 도박판",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "보고서는 빨라졌는데 결정은 왜 느려졌나",
+  "subheadline": "기업",
+  "body": "분석 보고서를 만드는 시간이 줄면 경영도 빨라질까. 맥킨지가 10월 15일 공개한 전략 의사결정 기고는 꼭 그렇지 않다고 지적한다. 자료 수집과 시나리오 작성이 빨라져도, 가정을 이해하고 위험을 따지며 실행 책임을 정하는 속도는 같은 비율로 빨라지지 않기 때문이다. 11월 뉴스레터에 다시 소개됐지만 원문 발행일은 10월이다.[1]",
+  "points": [
+   "늘어난 산출물이 늘어난 성과는 아니다",
+   "검토 시간을 없애면 책임이 사라지는가",
+   "신입의 시간을 줄일 때 사라지는 훈련",
+   "이사회의 새 질문"
+  ],
+  "action": "openReportModal('report-2026-11-22-03-ai-strategy-judgment-capacity')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-03-ai-strategy-judgment-capacity",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-03.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 트렌드人체크카드",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "89% 할인보다 먼저 확인할 것, 블랙프라이데이의 진짜 가격",
+  "subheadline": "소비·유통",
+  "body": "할인율은 결제 버튼을 누르기 전 가장 크게 보이는 숫자다. 그러나 물건이 오지 않거나 반품할 수 없다면 그 숫자는 거래의 가치를 설명하지 못한다. 올해 직구 성수기를 앞두고 확인할 것은 가격표와 함께 판매자의 실체, 통관 정보의 사용, 분쟁 때 남길 증거다.",
+  "points": [
+   "싸게 샀다는 판단은 배송 뒤에 완성된다",
+   "오래된 피해사례를 올해 통계로 바꾸지 않는다",
+   "장바구니의 숫자를 세 줄로 나눈다",
+   "통관 정보는 할인 쿠폰이 아니다"
+  ],
+  "action": "openReportModal('report-2026-11-22-04-black-friday-total-cost-and-identity')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-04-black-friday-total-cost-and-identity",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-04.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 여의도 한 입, 외교 한 접시",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "한반도를 논의했다는 말과 한반도 합의 사이",
+  "subheadline": "정치·외교",
+  "body": "21일 KBS는 트럼프 미국 대통령이 미·중·러 정상회담에서 한반도의 위험에 대응하는 문제를 논의했다고 말했다고 보도했다. 그러나 그 위험의 구체적 의미와 어떤 대응이 논의됐는지는 설명하지 않았다고 함께 전했다. 논의했다는 발언이 확인됐다는 것과 구체적인 한반도 합의가 공개됐다는 것은 같은 사실이 아니다.[1]",
+  "points": [
+   "회담의 존재와 합의의 내용은 다르다",
+   "핵 위험 감축과 핵무기 감축을 구분한다",
+   "방송의 해석도 사실과 나란히 검토한다",
+   "한국의 질문은 참석 여부 뒤에 있다"
+  ],
+  "action": "openReportModal('report-2026-11-22-05-trilateral-talks-words-and-commitments')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-05-trilateral-talks-words-and-commitments",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-05.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 돈 벌러 세계속으로",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "유럽은 왜 성장해도 불안한가",
+  "subheadline": "국제경제",
+  "body": "\n유럽의 위기는 성장률 하나로 설명되지 않는다. 일자리가 있어도 집세를 감당하기 어렵고, 기업이 경쟁력을 지키려고 비용을 줄이면 지역의 고용과 세수가 흔들린다. 연금을 지키려는 요구와 연금을 떠받칠 재정을 마련해야 한다는 요구가 충돌한다. 경제가 조금 성장한다고 해서 이 갈등들이 저절로 사라지지는 않는다.",
+  "points": [
+   "1. '유럽 몰락'보다 먼저 확인할 것: 어느 유럽, 어느 시점인가",
+   "2. 프랑스: 연금을 줄일 것인가보다 넓은 재정의 문제",
+   "3. 독일: 폭스바겐의 위기에서 숫자의 범위를 읽는 법",
+   "4. 에너지: 비싼 전기는 사실이지만 원인은 하나가 아니다"
+  ],
+  "action": "openReportModal('report-2026-11-22-06-europe-growth-living-costs')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-06-europe-growth-living-costs",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-06.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 라이프人정글",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "앞치마와 무작위 전화, 시험의 공정성은 어디까지 확인해야 하나",
+  "subheadline": "사회",
+  "body": "21일 경비지도사 국가자격시험 현장에서는 휴대전화 등 전자기기를 감독관이 직접 확인하고 일괄 관리하는 방식이 적용됐다. 고용노동부는 감독관이 전원 차단 여부를 살피고, 응시자에게 무작위로 전화를 걸어 다시 점검한다고 밝혔다. 김영훈 장관은 이날 서울 용산철도고를 찾아 준비 상황과 감독관 교육을 확인했다.[1]",
+  "points": [
+   "전원을 껐다는 안내에서 확인과 보관으로",
+   "앞치마는 보이지만 운영의 품질은 잘 보이지 않는다",
+   "의심의 확대와 검증의 정교함은 다르다",
+   "대책의 성과는 다음 기록에서 확인한다"
+  ],
+  "action": "openReportModal('report-2026-11-22-07-exam-trust-device-controls')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-07-exam-trust-device-controls",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-07.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 마이다스의 Z-Tech",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "내 대출을 안다는 전화, 진짜 은행이라는 증거는 아니다",
+  "subheadline": "생활·금융",
+  "body": "낯선 사람이 자신의 소득과 대출한도를 정확히 말하면 믿음이 생길 수 있다. 금융위원회의 10월 6일 소비자경보는 바로 그 지점을 경고했다. 유출된 개인정보를 조합하면 사기범도 정상적인 대출 상담처럼 접근할 수 있으므로, 정보를 알고 있다는 이유만으로 정상 연락이라고 판단해서는 안 된다는 것이다.[1]",
+  "points": [
+   "유출된 정보가 신뢰의 재료가 될 때",
+   "보상과 보호를 이유로 돈을 보내라는 요구",
+   "안심차단은 무엇을 막는가",
+   "피해가 발생했다면 확인보다 시간을 먼저 지킨다"
+  ],
+  "action": "openReportModal('report-2026-11-22-08-privacy-leak-second-damage')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-08-privacy-leak-second-damage",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-08.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 도파민성애자",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "미술관에서 영화를 보는 이유, 전시와 기록 사이의 시간",
+  "subheadline": "문화",
+  "body": "전시는 작품 앞에 머무는 시간을 관람객이 고를 수 있다. 영화는 정해진 길이를 함께 지나가게 한다. 같은 공간에서 두 매체를 이어 보면 사회와 지역을 바라보는 방식도 달라질 수 있다. 전북도립미술관의 전시 연계 상영 소식은 이 차이를 생각하게 한다.",
+  "points": [
+   "작품을 보고 나온 뒤에도 남는 질문",
+   "갯벌을 풍경이 아니라 시간으로 본다는 것",
+   "참여의 미술이 현재형이 되려면",
+   "방문 정보와 비평의 범위를 나눈다"
+  ],
+  "action": "openReportModal('report-2026-11-22-09-museum-screening-art-social-time')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-09-museum-screening-art-social-time",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-09.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ },
+ {
+  "tagMain": "11/22 · 역사로 오늘을 읽다",
+  "tagSub": "데일리샷 매크로 리서치 · 사건·자료 기준일은 본문 표기",
+  "headline": "대야성의 비극은 어떻게 국제전이 되었나",
+  "subheadline": "역사·정치지리",
+  "body": "대야성이 무너졌을 때 김춘추는 딸 고타소와 사위 김품석을 잃었다. 훗날 태종무열왕이 되는 정치인의 개인적 비극이었다. 동시에 신라는 서쪽 방어의 요충지를 잃었다. 이 두 사실을 함께 보아야 642년의 전투가 왜 648년 나당동맹과 660년 백제 멸망으로 이어지는 역사의 출발점으로 자주 거론되는지 이해할 수 있다.",
+  "points": [
+   "한 가족의 죽음에서 동아시아의 지도까지",
+   "1. 먼저 시간을 나누자: 을지문덕과 김춘추는 같은 전쟁의 인물이 아니다",
+   "2. 대야성은 가족사이면서 국경의 문제였다",
+   "3. 고구려를 먼저 찾았다는 사실이 알려주는 것"
+  ],
+  "action": "openReportModal('report-2026-11-22-10-daeyaseong-alliance-munmu')",
+  "actionText": "기사 전문 읽기",
+  "reportId": "report-2026-11-22-10-daeyaseong-alliance-munmu",
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-10.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+ }
+,
+ {
   "tagMain": "11/21 · 경제 체온계",
   "tagSub": "작성: Instinct(AI) · 사건·자료 기준일은 본문 표기",
   "headline": "생산자물가 -0.1%, 안심하기 전에 공장과 밭을 나눠 보자",

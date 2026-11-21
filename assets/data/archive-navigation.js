@@ -21,7 +21,7 @@ function record(r){
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:r.category+' ['+list()[7]+']'};
  const lines=md.split('\n');const title=(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,'')||r.title;
  const prose=lines.find(t=>t.trim()&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
- return {title,category:r.date==='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
+ return {title,category:r.date>='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
 }
 window.magazineArchiveRecord=record;
 window.magazineArchiveText=r=>{const md=((window.BODY_I18N||{})[r.id]||{})[lang()]||'';return [record(r).title,md].join(' ').normalize('NFKC').toLocaleLowerCase();};
