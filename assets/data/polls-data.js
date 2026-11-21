@@ -1641,10 +1641,10 @@
           `;
         }
       } else if (dateStr === '20261031') {
-        if (img) img.src = 'images/editorial_cartoon_20261031.png';
+        if (img) img.src = 'https://lh3.googleusercontent.com/d/1pMn7U7j2JUPtHkuE8JBmmbUyxd2LFu7V';
         if (webp) webp.srcset = 'images/editorial_cartoon_20261031.webp';
         if (downloadBtn) {
-          downloadBtn.href = 'images/editorial_cartoon_20261031.png';
+          downloadBtn.href = 'https://lh3.googleusercontent.com/d/1pMn7U7j2JUPtHkuE8JBmmbUyxd2LFu7V';
           downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261031.png';
         }
         if (dateEl) dateEl.innerText = '2026.10.31 토요일 주말 특급 아카이브';
@@ -1690,10 +1690,10 @@
           `;
         }
       } else if (dateStr === '20261030') {
-        if (img) img.src = 'images/editorial_cartoon_20261030.png';
+        if (img) img.src = 'https://lh3.googleusercontent.com/d/1hYKsK-I82lTaXVdEgxgdyMogpop8gGdZ';
         if (webp) webp.srcset = 'images/editorial_cartoon_20261030.webp';
         if (downloadBtn) {
-          downloadBtn.href = 'images/editorial_cartoon_20261030.png';
+          downloadBtn.href = 'https://lh3.googleusercontent.com/d/1hYKsK-I82lTaXVdEgxgdyMogpop8gGdZ';
           downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261030.png';
         }
         if (dateEl) dateEl.innerText = '2026.10.30 07:00 조간 정밀 팩트 확정치 반영';
@@ -1739,10 +1739,10 @@
           `;
         }
       } else if (dateStr === '20261029') {
-        if (img) img.src = 'images/editorial_cartoon_20261029.png';
+        if (img) img.src = 'https://lh3.googleusercontent.com/d/1LuXn4phHeY23tncQDnUR5cN8gM03RSaH';
         if (webp) webp.srcset = 'images/editorial_cartoon_20261029.webp';
         if (downloadBtn) {
-          downloadBtn.href = 'images/editorial_cartoon_20261029.png';
+          downloadBtn.href = 'https://lh3.googleusercontent.com/d/1LuXn4phHeY23tncQDnUR5cN8gM03RSaH';
           downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261029.png';
         }
         if (dateEl) dateEl.innerText = '2026.10.29 16:30 장 마감 정밀 팩트 확정치';
@@ -1788,10 +1788,10 @@
           `;
         }
       } else if (dateStr === '20261028') {
-        if (img) img.src = 'images/editorial_cartoon_20261028.png';
+        if (img) img.src = 'https://lh3.googleusercontent.com/d/12lC6GDxfJ719IYLNUaqOJ6_QwNv8HdSs';
         if (webp) webp.srcset = 'images/editorial_cartoon_20261028.webp';
         if (downloadBtn) {
-          downloadBtn.href = 'images/editorial_cartoon_20261028.png';
+          downloadBtn.href = 'https://lh3.googleusercontent.com/d/12lC6GDxfJ719IYLNUaqOJ6_QwNv8HdSs';
           downloadBtn.download = 'RYUYOUNGSUN_Editorial_Cartoon_20261028.png';
         }
         if (dateEl) dateEl.innerText = '2026.10.28 특급 아카이브';
