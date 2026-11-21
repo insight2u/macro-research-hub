@@ -390,7 +390,7 @@
   "action": "openReportModal('report-2026-11-22-01-bok-november-decision-checklist')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-01-bok-november-decision-checklist",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-01.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-01-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 공장장 보고",
@@ -407,7 +407,7 @@
   "action": "openReportModal('report-2026-11-22-02-ulsan-ai-infrastructure-bottleneck')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-02-ulsan-ai-infrastructure-bottleneck",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-02.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-02-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 회장님의 도박판",
@@ -424,7 +424,7 @@
   "action": "openReportModal('report-2026-11-22-03-ai-strategy-judgment-capacity')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-03-ai-strategy-judgment-capacity",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-03.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-03-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 트렌드人체크카드",
@@ -441,7 +441,7 @@
   "action": "openReportModal('report-2026-11-22-04-black-friday-total-cost-and-identity')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-04-black-friday-total-cost-and-identity",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-04.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-04-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 여의도 한 입, 외교 한 접시",
@@ -458,7 +458,7 @@
   "action": "openReportModal('report-2026-11-22-05-trilateral-talks-words-and-commitments')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-05-trilateral-talks-words-and-commitments",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-05.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-05-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 돈 벌러 세계속으로",
@@ -475,7 +475,7 @@
   "action": "openReportModal('report-2026-11-22-06-europe-growth-living-costs')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-06-europe-growth-living-costs",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-06.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-06-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 라이프人정글",
@@ -492,7 +492,7 @@
   "action": "openReportModal('report-2026-11-22-07-exam-trust-device-controls')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-07-exam-trust-device-controls",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-07.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-07-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 마이다스의 Z-Tech",
@@ -509,7 +509,7 @@
   "action": "openReportModal('report-2026-11-22-08-privacy-leak-second-damage')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-08-privacy-leak-second-damage",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-08.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-08-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 도파민성애자",
@@ -526,7 +526,7 @@
   "action": "openReportModal('report-2026-11-22-09-museum-screening-art-social-time')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-09-museum-screening-art-social-time",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-09.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-09-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  },
  {
   "tagMain": "11/22 · 역사로 오늘을 읽다",
@@ -543,7 +543,7 @@
   "action": "openReportModal('report-2026-11-22-10-daeyaseong-alliance-munmu')",
   "actionText": "기사 전문 읽기",
   "reportId": "report-2026-11-22-10-daeyaseong-alliance-munmu",
-  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-10.svg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
+  "graphicHtml": "<figure><img loading=\"lazy\" decoding=\"async\" src=\"images/nov22-10-3d.jpg\" alt=\"자체 제작 편집 도식. 본문에서 조건과 출처를 확인하세요.\" style=\"width:100%;max-height:420px;object-fit:contain\"><figcaption>편집 도식 · 실제 현장 사진 아님</figcaption></figure>"
  }
 ,
  {
