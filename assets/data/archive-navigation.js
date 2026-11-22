@@ -22,8 +22,8 @@ function record(r){
  const md=((window.BODY_I18N||{})[r.id]||{})[lang()];
  if(lang()==='ko')return r;
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:r.category+' ['+list()[7]+']'};
- const lines=md.split('\n');const title=(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,'')||r.title;
- const prose=lines.find(t=>t.trim()&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
+ const lines=md.split('\n');const title=(r.id==='report-2026-11-22-12-todays-book'?"Today's Book · "+(lines.find(t=>/^##\s/.test(t))||'').replace(/^##\s+/,''):(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,''))||r.title;
+ const prose=lines.find(t=>t.trim()&&!/^(Cover source:|封面来源|表紙出典)/.test(t)&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
  return {title,category:r.date==='2026.11.22'?((nov22CategoryLabels[lang()]||{})[r.category]||r.category):r.date==='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim()),summary:prose.length>330?prose.slice(0,330)+'…':prose};
 }
 window.magazineArchiveRecord=record;
@@ -32,13 +32,13 @@ window.magazineArchiveCount=(total,n,search)=>{
  const l=lang();return ({ko:`${total}개 기사 중 ${n}개${search?' 검색 결과':''}`,en:`${n} of ${total} articles${search?' match':''}`,ja:`全${total}件中${n}件${search?'が一致':''}`,zh:`共${total}篇，${n}篇${search?'匹配':''}`,es:`${n} de ${total} artículos${search?' coinciden':''}`,ru:`${n} из ${total} статей${search?' найдено':''}`,ar:`${n} من ${total} مقالًا${search?' مطابقًا':''}`,sw:`Makala ${n} kati ya ${total}${search?' zinalingana':''}`,fr:`${n} articles sur ${total}${search?' correspondent':''}`,de:`${n} von ${total} Artikeln${search?' gefunden':''}`,it:`${n} articoli su ${total}${search?' corrispondono':''}`})[l]||`${n} / ${total}`;
 };
 function dailyEdition(){
- const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-(0[1-9]|10)-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
+ const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-\d{2,}-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
  const dates=[...new Set(eligible.map(r=>r.date))].sort().reverse();
- const date=dates.find(d=>eligible.filter(r=>r.date===d).length===10);if(!date)return;
+ const date=dates.find(d=>eligible.filter(r=>r.date===d).length>=10);if(!date)return;
  const selected=eligible.filter(r=>r.date===date).sort((a,b)=>a.id.localeCompare(b.id)),grid=document.getElementById('nr-article-grid');if(!grid)return;
  const signature=l+':'+date+':'+selected.map(r=>r.id).join(',');if(grid.dataset.editionSignature===signature)return;grid.dataset.editionSignature=signature;grid.replaceChildren();
  const heading=document.querySelector('#nr-recent h2'),stamp=document.querySelector('#nr-recent small');
- const titles={ko:'오늘의 기사 Top10',en:'Latest edition · Top 10',ja:'最新号 Top10',zh:'最新一期 Top10',es:'Última edición · Top 10',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
+ const titles={ko:'오늘의 기사',en:'Latest articles',ja:'今日の記事',zh:'今日文章',es:'Última edición · Top 10',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
  if(heading)heading.textContent=titles[l]||titles.en;if(stamp)stamp.textContent=date;
  selected.forEach(r=>{const local=record(r),a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=local.category+' · '+r.date;const h=document.createElement('h3');h.textContent=r.date==='2026.11.21'?local.title.replace(/^[^|]+\|\s*/,''):local.title;h.style.cursor='pointer';const p=document.createElement('p');p.textContent=local.summary;const b=document.createElement('button');b.className='nr-read';b.textContent=list()[0]+' →';const open=()=>window.newspaperArchive?.openArticle(r.id);h.onclick=open;p.onclick=open;b.onclick=open;a.append(k,h,p,b);grid.append(a)});
 }
