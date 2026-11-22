@@ -194,16 +194,44 @@
       "group": "ai-power",
       "desk": "industry",
       "category": "공장장 보고",
-      "status": "planned",
-      "urls": {}
+      "status": "published",
+      "urls": {
+        "ko": "special-ai-power-20261122-industry.html"
+      },
+      "date": "2026.11.22",
+      "titles": {
+        "ko": "전력산업을 읽는 지도: 발전소에서 전기요금 고지서까지"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {
+        "en": "pending",
+        "ja": "pending",
+        "zh": "pending"
+      }
     },
     {
       "id": "special-ai-power-20261122-kepco",
       "group": "ai-power",
       "desk": "company",
       "category": "회장님의 도박판",
-      "status": "planned",
-      "urls": {}
+      "status": "published",
+      "urls": {
+        "ko": "special-ai-power-20261122-kepco.html"
+      },
+      "date": "2026.11.22",
+      "titles": {
+        "ko": "한국전력은 어떤 회사인가: 연결 흑자와 별도 적자 사이에서"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {
+        "en": "pending",
+        "ja": "pending",
+        "zh": "pending"
+      }
     }
   ]
 }
