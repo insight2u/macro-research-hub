@@ -1,5 +1,7 @@
 # 《末代皇帝》：穿过中国的动荡，回到坂本龙一的音乐
 
+<figure data-emperor-poster="kmdb" style="width:213px;max-width:100%;margin:22px auto"><a href="https://www.kmdb.or.kr/db/kor/detail/movie/F/02993" target="_blank" rel="noopener noreferrer"><img src="https://file.koreafilm.or.kr/thm/02/99/19/32/tn_DPF032777.jpg" alt="末代皇帝韩国版海报" width="213" height="304" style="display:block;width:213px;max-width:100%;height:auto" loading="eager"></a><figcaption style="font-size:12px;line-height:1.6;margin-top:8px">《末代皇帝》韩国版海报。来源：韩国影像资料院 KMDb。海报版权归相应权利人所有。</figcaption></figure>
+
 ## 先读年表，再聆听
 在紫禁城的壮观景象之前，先打开年表。贝尔纳多·贝托鲁奇的《末代皇帝》(1987)借溥仪的一生，穿过清朝终结、日本控制满洲，以及中华人民共和国的政治变动。与坂本龙一的音乐并读，可以重新思考皇帝头衔与其中个人的距离。这是本文的编辑视角。
 

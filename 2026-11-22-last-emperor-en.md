@@ -1,5 +1,7 @@
 # The Last Emperor: China's upheavals, heard through Sakamoto's music
 
+<figure data-emperor-poster="kmdb" style="width:213px;max-width:100%;margin:22px auto"><a href="https://www.kmdb.or.kr/db/kor/detail/movie/F/02993" target="_blank" rel="noopener noreferrer"><img src="https://file.koreafilm.or.kr/thm/02/99/19/32/tn_DPF032777.jpg" alt="Korean poster for The Last Emperor" width="213" height="304" style="display:block;width:213px;max-width:100%;height:auto" loading="eager"></a><figcaption style="font-size:12px;line-height:1.6;margin-top:8px">Korean poster for The Last Emperor. Source: Korean Film Archive, KMDb. Poster copyright belongs to its rights holders.</figcaption></figure>
+
 ## Begin with a timeline, then listen
 Before the spectacle of the Forbidden City, open a timeline. Bernardo Bertolucci's The Last Emperor (1987) follows Puyi across the end of the Qing, Japan's domination of Manchuria and political upheaval in the People's Republic. Reading that history alongside Ryuichi Sakamoto's music brings the distance between the imperial title and the person inside it into focus. That is this article's editorial perspective.
 

@@ -1,5 +1,7 @@
 # 『ラストエンペラー』。中国の激動から坂本龍一の音楽へ
 
+<figure data-emperor-poster="kmdb" style="width:213px;max-width:100%;margin:22px auto"><a href="https://www.kmdb.or.kr/db/kor/detail/movie/F/02993" target="_blank" rel="noopener noreferrer"><img src="https://file.koreafilm.or.kr/thm/02/99/19/32/tn_DPF032777.jpg" alt="ラストエンペラーの韓国版ポスター" width="213" height="304" style="display:block;width:213px;max-width:100%;height:auto" loading="eager"></a><figcaption style="font-size:12px;line-height:1.6;margin-top:8px">『ラストエンペラー』韓国版ポスター。出典：韓国映像資料院 KMDb。著作権は各権利者に帰属します。</figcaption></figure>
+
 ## 年表を開いてから聴く
 紫禁城の壮観の前に、まず年表を開こう。ベルナルド・ベルトルッチの『ラストエンペラー』(1987)は、溥儀という一人を通して清朝の終わり、日本の満洲支配、中華人民共和国の政治的変動を横切る。坂本龍一の音楽と併せて考えると、皇帝の称号とその中にいる個人の距離が見えてくる。これが今回の編集上の視点だ。
 

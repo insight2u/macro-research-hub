@@ -1,5 +1,7 @@
 # 「마지막 황제」: 중국의 격변을 지나, 사카모토의 음악으로 돌아오다
 
+<figure data-emperor-poster="kmdb" style="width:213px;max-width:100%;margin:22px auto"><a href="https://www.kmdb.or.kr/db/kor/detail/movie/F/02993" target="_blank" rel="noopener noreferrer"><img src="https://file.koreafilm.or.kr/thm/02/99/19/32/tn_DPF032777.jpg" alt="마지막 황제 국내 포스터" width="213" height="304" style="display:block;width:213px;max-width:100%;height:auto" loading="eager"></a><figcaption style="font-size:12px;line-height:1.6;margin-top:8px">영화 「마지막 황제」 국내 포스터. 자료: 한국영상자료원 KMDb. 포스터 저작권은 해당 권리자에게 있습니다.</figcaption></figure>
+
 ## 왕조의 끝은 한 사람에게 어떻게 들리는가
 자금성의 장관보다 먼저 연표를 펼쳐 보자. 베르나르도 베르톨루치의 「마지막 황제」(1987)는 푸이라는 한 사람을 통해 청의 마지막과 일본의 만주 지배, 중화인민공화국의 정치적 변동을 가로지른다. 이 역사를 사카모토 류이치의 음악과 함께 읽으면, 황제라는 지위의 크기와 그 안에 갇힌 개인의 거리가 새롭게 다가온다. 이것이 오늘의 편집 관점이다.
 
