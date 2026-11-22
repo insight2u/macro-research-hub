@@ -196,19 +196,28 @@
       "category": "공장장 보고",
       "status": "published",
       "urls": {
-        "ko": "special-ai-power-20261122-industry.html"
+        "ko": "special-ai-power-20261122-industry.html",
+        "en": "special-ai-power-20261122-industry-en.html",
+        "zh": "special-ai-power-20261122-industry-zh.html",
+        "ja": "special-ai-power-20261122-industry-ja.html"
       },
       "date": "2026.11.22",
       "titles": {
-        "ko": "전력산업을 읽는 지도: 발전소에서 전기요금 고지서까지"
+        "ko": "전력산업을 읽는 지도: 발전소에서 전기요금 고지서까지",
+        "en": "A map of the electricity industry: from power plants to the bill",
+        "zh": "读懂电力产业：从发电厂到电费账单",
+        "ja": "電力産業を読む地図：発電所から電気料金の請求書まで"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "zh",
+        "ja"
       ],
       "translation_status": {
-        "en": "pending",
-        "ja": "pending",
-        "zh": "pending"
+        "en": "complete",
+        "ja": "complete",
+        "zh": "complete"
       }
     },
     {
@@ -218,19 +227,28 @@
       "category": "회장님의 도박판",
       "status": "published",
       "urls": {
-        "ko": "special-ai-power-20261122-kepco.html"
+        "ko": "special-ai-power-20261122-kepco.html",
+        "en": "special-ai-power-20261122-kepco-en.html",
+        "zh": "special-ai-power-20261122-kepco-zh.html",
+        "ja": "special-ai-power-20261122-kepco-ja.html"
       },
       "date": "2026.11.22",
       "titles": {
-        "ko": "한국전력은 어떤 회사인가: 연결 흑자와 별도 적자 사이에서"
+        "ko": "한국전력은 어떤 회사인가: 연결 흑자와 별도 적자 사이에서",
+        "en": "What is KEPCO? Between consolidated profit and parent-only loss",
+        "zh": "韩国电力是什么样的公司：合并盈利与母公司亏损之间",
+        "ja": "韓国電力とはどんな会社か：連結黒字と単体赤字の間で"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "zh",
+        "ja"
       ],
       "translation_status": {
-        "en": "pending",
-        "ja": "pending",
-        "zh": "pending"
+        "en": "complete",
+        "ja": "complete",
+        "zh": "complete"
       }
     }
   ]
