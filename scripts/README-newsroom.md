@@ -32,3 +32,6 @@ Send SUN through main a dated JSON ledger with type/title/subject, per-language 
 
 
 22Nov2026 replacement: owner requested TheLastEmperor instead of Mabu. The Mabu registry entry is held out of the live article list; all four original Markdown manuscripts and their existing translation data are preserved, not deleted. Production keeps a recovery copy of the registry row. Restore only when assigned. The source files remain in this public repository; holding an article out of the reader is not a confidentiality guarantee for previously published source text. The Last Emperor guide separates1911 revolution/1912 abdication,1932 Manchukuo/1934 imperial accession,1966-76 CulturalRevolution/Puyi1967 death, and1987 film/1988 Oscar/2008 recording metadata. Score credit names Sakamoto,Byrne,CongSu.
+
+
+Country coverage default from22Nov2026: consult each country NamuWiki page, Korean MOFA country information and KIEP as baseline sources for every annual country report and country-focused article. Recheck adopted facts against source records; list actual inspected scope, including summary-only and unread PDFs. Do not treat an entry in the bibliography as full reading. TheLastEmperor guide applies this to China without importing current macroeconomic numbers into a historical film essay.

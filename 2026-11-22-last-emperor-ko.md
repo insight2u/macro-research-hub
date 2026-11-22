@@ -30,6 +30,8 @@
 
 Notion Movie의 감독 분류·베르톨루치 항목과 참고자료 영화 개요, Notion Music의 음악 분류·참고자료 목록을 참조했다. 그 목록에서 사카모토의 해당 OST 본문을 읽었다고 주장하지 않는다. 역사·작품·음반 정보는 아래 외부 원문으로 별도 확인했고, 중국편의 역사①②③과 대조했다. 이번 작업에서 본편163분을 새로 전편 감상한 리뷰가 아니라 역사·음악을 연결한 감상 안내다. 예고편·공식 음원·평론은 링크만 제공하며 영상·음원·평론 본문을 복제하지 않는다. 국내 본편의 무료 제공이나 현재 스트리밍 가능 여부는 확인하지 않았다.
 
+
+국가 기본자료로 나무위키 중국 문서의 역사 목차, 외교부 중국 국가정보의 기본사항, KIEP 「중국경제 중장기 성장 전망과 성장구조 변화에 대한 연구」의 웹 요약·목차를 추가 확인했다. KIEP 보고서 PDF 전체를 읽은 것은 아니며, 현대 경제 수치를 이 글에 옮기지 않았다. 역사 연표는 위 백과사전·대학 자료와 별도로 대조했다.
 ## 공식 영상·음원과 확인 자료
 - [YouTube · Arrow Video · official trailer](https://www.youtube.com/watch?v=uJilPHcnnjw)
 - [YouTube · Ryuichi Sakamoto / Universal Music Group · Theme](https://www.youtube.com/watch?v=fTtCXTry0DU)
@@ -40,3 +42,6 @@ Notion Movie의 감독 분류·베르톨루치 항목과 참고자료 영화 개
 - [Britannica · Cultural Revolution](https://kids.britannica.com/scholars/article/A-Brief-Overview-of-Chinas-Cultural-Revolution/649712)
 - [David Thomson · Criterion](https://www.criterion.com/current/posts/556-the-last-emperor-or-the-manchurian-candidate)
 - [Criterion · film information](https://www.criterion.com/films/254-the-last-emperor)
+- [NamuWiki · China](https://namu.wiki/w/%EC%A4%91%EA%B5%AD)
+- [MOFA Korea · China](https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=4&titleNm=%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%28%EC%A4%91%EA%B5%AD%29)
+- [KIEP · China growth study](https://www.kiep.go.kr/gallery.es?act=view&bid=0001&list_no=12325&mid=a10101010000)

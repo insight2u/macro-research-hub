@@ -30,6 +30,8 @@
 
 参照了Notion Movie的导演分类、贝托鲁奇条目及参考概述，以及Notion Music的分类与参考列表；不声称在列表中读到了完整坂本OST资料。历史、电影与唱片信息另以以下外部原文核对，并与中国报告三节历史内容对照。这是连接历史与音乐的观影指南，不声称本次重新完整观看163分钟正片。仅提供官方影像、音源与影评链接，不复制内容。韩国当前流媒体供应与全片是否免费，尚未核实。
 
+
+国家基础资料另核对了NamuWiki中国条目的历史目录、韩国外交部中国国家信息的基本事项，以及KIEP中国经济中长期增长与结构变化研究的网页摘要和目录。未通读该报告PDF，也未将当代经济数字移入本文。历史年表另与上述百科及大学资料对照。
 ## 官方影像、音源与核对资料
 - [YouTube · Arrow Video · official trailer](https://www.youtube.com/watch?v=uJilPHcnnjw)
 - [YouTube · Ryuichi Sakamoto / Universal Music Group · Theme](https://www.youtube.com/watch?v=fTtCXTry0DU)
@@ -40,3 +42,6 @@
 - [Britannica · Cultural Revolution](https://kids.britannica.com/scholars/article/A-Brief-Overview-of-Chinas-Cultural-Revolution/649712)
 - [David Thomson · Criterion](https://www.criterion.com/current/posts/556-the-last-emperor-or-the-manchurian-candidate)
 - [Criterion · film information](https://www.criterion.com/films/254-the-last-emperor)
+- [NamuWiki · China](https://namu.wiki/w/%EC%A4%91%EA%B5%AD)
+- [MOFA Korea · China](https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=4&titleNm=%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%28%EC%A4%91%EA%B5%AD%29)
+- [KIEP · China growth study](https://www.kiep.go.kr/gallery.es?act=view&bid=0001&list_no=12325&mid=a10101010000)

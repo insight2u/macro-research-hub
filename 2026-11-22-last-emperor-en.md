@@ -30,6 +30,8 @@ David Thomson's complete Criterion essay attends to small, quiet moments beside 
 
 We consulted Notion Movie's director category, Bertolucci entry and reference overview, and Notion Music's categories and reference list. We do not claim that list supplied a complete Sakamoto soundtrack text. External sources below separately ground historical, film and recording information; the framing was compared with the China report's three history sections. This is a history-and-music viewing guide, not a claim to have newly watched the complete 163-minute feature. Official video, audio and criticism are linked, not reproduced. Current Korean streaming availability or free access to the feature has not been established.
 
+
+For country background, we additionally checked the history index in NamuWiki's China entry, the basic information on Korea's Ministry of Foreign Affairs China page, and KIEP's web summary and contents for its study of China's medium- and long-term growth structure. We did not read that report's complete PDF or import its modern economic figures into this article. The historical chronology was separately checked against the encyclopedia and university sources above.
 ## Official video, audio and sources
 - [YouTube · Arrow Video · official trailer](https://www.youtube.com/watch?v=uJilPHcnnjw)
 - [YouTube · Ryuichi Sakamoto / Universal Music Group · Theme](https://www.youtube.com/watch?v=fTtCXTry0DU)
@@ -40,3 +42,6 @@ We consulted Notion Movie's director category, Bertolucci entry and reference ov
 - [Britannica · Cultural Revolution](https://kids.britannica.com/scholars/article/A-Brief-Overview-of-Chinas-Cultural-Revolution/649712)
 - [David Thomson · Criterion](https://www.criterion.com/current/posts/556-the-last-emperor-or-the-manchurian-candidate)
 - [Criterion · film information](https://www.criterion.com/films/254-the-last-emperor)
+- [NamuWiki · China](https://namu.wiki/w/%EC%A4%91%EA%B5%AD)
+- [MOFA Korea · China](https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=4&titleNm=%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%28%EC%A4%91%EA%B5%AD%29)
+- [KIEP · China growth study](https://www.kiep.go.kr/gallery.es?act=view&bid=0001&list_no=12325&mid=a10101010000)
