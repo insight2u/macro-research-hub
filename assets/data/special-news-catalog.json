@@ -299,6 +299,24 @@
         "ko"
       ],
       "translation_status": {}
+    },
+    {
+      "id": "special-ktng-20261124-lil",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-lil.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
