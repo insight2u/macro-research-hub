@@ -353,6 +353,24 @@
         "ko"
       ],
       "translation_status": {}
+    },
+    {
+      "id": "special-ktng-20261124-cannabis",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "담배 자본은 왜 대마기업을 잇는가: 인수계약과 규제의 서로 다른 지도"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-cannabis.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
