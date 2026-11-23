@@ -250,6 +250,28 @@
         "ja": "complete",
         "zh": "complete"
       }
+    },
+    {
+      "id": "special-ktng-20261124",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "전매의 유산을 경쟁력으로, KT&G와 정관장은 다음 시장을 어떻게 만드는가"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {
+        "en": "pending",
+        "ja": "pending",
+        "zh": "pending"
+      }
     }
   ]
 }
