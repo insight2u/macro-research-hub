@@ -371,6 +371,24 @@
         "ko"
       ],
       "translation_status": {}
+    },
+    {
+      "id": "special-ktng-20261124-governance",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-governance.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
