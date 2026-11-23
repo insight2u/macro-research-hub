@@ -317,6 +317,24 @@
         "ko"
       ],
       "translation_status": {}
+    },
+    {
+      "id": "special-ktng-20261124-global-ngp",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "불을 끄는 사업, 담배를 끊는 사업인가"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-global-ngp.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
