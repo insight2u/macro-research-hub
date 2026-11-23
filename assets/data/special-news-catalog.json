@@ -281,6 +281,24 @@
         "ja": "complete",
         "zh": "complete"
       }
+    },
+    {
+      "id": "special-ktng-20261124-global",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "수출기업 다음의 KT&G: 해외 매출보다 중요한 현지사업의 힘"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-global.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
