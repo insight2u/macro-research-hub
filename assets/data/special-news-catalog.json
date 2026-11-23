@@ -259,18 +259,27 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "전매의 유산을 경쟁력으로, KT&G와 정관장은 다음 시장을 어떻게 만드는가"
+        "ko": "전매의 유산을 경쟁력으로, KT&G와 정관장은 다음 시장을 어떻게 만드는가",
+        "en": "Turning a monopoly legacy into competitiveness: how KT&G and JungKwanJang are building their next markets",
+        "ja": "専売の遺産を競争力へ：KT&Gと正官庄は次の市場をどうつくるのか",
+        "zh": "将专卖遗产转化为竞争力：KT&G与正官庄如何开拓下一个市场"
       },
       "urls": {
-        "ko": "special-ktng-20261124.html"
+        "ko": "special-ktng-20261124.html",
+        "en": "special-ktng-20261124-en.html",
+        "ja": "special-ktng-20261124-ja.html",
+        "zh": "special-ktng-20261124-zh.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh"
       ],
       "translation_status": {
-        "en": "pending",
-        "ja": "pending",
-        "zh": "pending"
+        "en": "complete",
+        "ja": "complete",
+        "zh": "complete"
       }
     }
   ]
