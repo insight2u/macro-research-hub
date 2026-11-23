@@ -335,6 +335,24 @@
         "ko"
       ],
       "translation_status": {}
+    },
+    {
+      "id": "special-ktng-20261124-kgc",
+      "group": "ktng",
+      "desk": "company",
+      "category": "회장님의 도박판",
+      "status": "published",
+      "date": "2026.11.24",
+      "titles": {
+        "ko": "정관장, 시장을 다시 정의하다"
+      },
+      "urls": {
+        "ko": "special-ktng-20261124-kgc.html"
+      },
+      "available_languages": [
+        "ko"
+      ],
+      "translation_status": {}
     }
   ]
 }
