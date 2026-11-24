@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const source=/^(?:출처(?:와.*)?|확인 자료|보완 출처|참조 범위|평론과 참조 범위|공식 영상·음원과 확인 자료|Sources?(?: vérifiées?| and Scope of Verification)?|References|Official video, audio and sources|出典.*|参考資料.*|参考资料.*|確認資料.*|核实资料.*|核實資料.*|查证资料.*|查證資料.*|来源.*|参考来源.*|參考來源.*|出处|公式映像・音源と確認資料|官方影像、音源与核对资料|Fuentes?(?: consultadas?)?|Источники.*|Проверенный источник|Проверенные источники|المصادر.*|المصدر.*|Vyanzo(?: vilivyohakikiwa)?|Chanzo kilichohakikiwa|(?:Geprüfte )?Quellen?|Fonti(?: verificate)?|Fonte verificata)$/i;
+const source=/^(?:출처(?:와.*| 목록)?|확인 자료|보완 출처|참조 범위|평론과 참조 범위|공식 영상·음원과 확인 자료|Sources?(?: vérifiées?| and Scope of Verification| and reading scope)?|References|Official video, audio and sources|出典.*|参考資料.*|参考范围|影评与参考范围|視聴と確認範囲|参考资料.*|確認資料.*|核实资料.*|核實資料.*|查证资料.*|查證資料.*|来源.*|参考来源.*|參考來源.*|出处|公式映像・音源と確認資料|官方影像、音源与核对资料|Fuentes?(?: consultadas?)?|Источники.*|Проверенный источник|Проверенные источники|المصادر.*|المصدر.*|Vyanzo(?: vilivyohakikiwa)?|Chanzo kilichohakikiwa|(?:Geprüfte )?Quellen?|Fonti(?: verificate)?|Fonte verificata)$/i;
 const speech=/낭독\s*원고|낭독용|방송용 원고|^(?:Read.aloud|Narration|Reading) script$|^朗[读読]原稿$/i;
 let timer;
 function normalize(){
