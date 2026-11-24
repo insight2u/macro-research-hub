@@ -262,25 +262,42 @@
         "ko": "전매의 유산을 경쟁력으로, KT&G와 정관장은 다음 시장을 어떻게 만드는가",
         "en": "Turning a monopoly legacy into competitiveness: how KT&G and JungKwanJang are building their next markets",
         "ja": "専売の遺産を競争力へ：KT&Gと正官庄は次の市場をどうつくるのか",
-        "zh": "将专卖遗产转化为竞争力：KT&G与正官庄如何开拓下一个市场"
+        "zh": "将专卖遗产转化为竞争力：KT&G与正官庄如何开拓下一个市场",
+        "es": "Convertir el legado del monopolio en competitividad: cómo KT&G y JungKwanJang están construyendo sus próximos mercados",
+        "ru": "Наследие монополии как конкурентоспособность: как KT&G и JungKwanJang строят свои следующие рынки",
+        "ar": "تحويل إرث الاحتكار إلى تنافسية: كيف تبني KT&G وJungKwanJang أسواقهما التالية",
+        "sw": "Kugeuza urithi wa ukiritimba kuwa ushindani: KT&G na JungKwanJang wanavyojenga masoko yao yajayo",
+        "fr": "Transformer l'héritage du monopole en compétitivité : comment KT&G et JungKwanJang construisent leurs prochains marchés",
+        "de": "Das Erbe des Monopols in Wettbewerbsfähigkeit verwandeln: Wie KT&G und JungKwanJang ihre nächsten Märkte aufbauen",
+        "it": "Trasformare l'eredità del monopolio in competitività: come KT&G e JungKwanJang stanno costruendo i loro prossimi mercati"
       },
       "urls": {
         "ko": "special-ktng-20261124.html",
         "en": "special-ktng-20261124-en.html",
         "ja": "special-ktng-20261124-ja.html",
-        "zh": "special-ktng-20261124-zh.html"
+        "zh": "special-ktng-20261124-zh.html",
+        "es": "special-ktng-20261124-es.html",
+        "ru": "special-ktng-20261124-ru.html",
+        "ar": "special-ktng-20261124-ar.html",
+        "sw": "special-ktng-20261124-sw.html",
+        "fr": "special-ktng-20261124-fr.html",
+        "de": "special-ktng-20261124-de.html",
+        "it": "special-ktng-20261124-it.html"
       },
       "available_languages": [
         "ko",
         "en",
         "ja",
-        "zh"
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {
-        "en": "complete",
-        "ja": "complete",
-        "zh": "complete"
-      }
+      "translation_status": "complete"
     },
     {
       "id": "special-ktng-20261124-global",
