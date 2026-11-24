@@ -2578,6 +2578,26 @@ DICT["de"]["수출기업 다음의 KT&G: 해외 매출보다 중요한 현지사
 DICT["de"]["데일리샷 마크로 리서치 | KT&G 스페셜 2\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 2 Veröffentlicht am 24. November 2026 · Daten erneut geprüft: 24. November 2026, KST";
 DICT["it"]["수출기업 다음의 KT&G: 해외 매출보다 중요한 현지사업의 힘"]="KT&G oltre l'azienda esportatrice: la forza del business locale, più importante dei ricavi esteri";
 DICT["it"]["데일리샷 마크로 리서치 | KT&G 스페셜 2\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 2 Pubblicato il 24 novembre 2026 · Dati riverificati: 24 novembre 2026, KST";
+DICT["en"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="From an eight-person experiment to a technology platform: how lil changed the way KT&G works";
+DICT["en"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3\nPublished November 24, 2026 · Data rechecked: November 24, 2026 KST";
+DICT["ja"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="8人の実験から技術プラットフォームへ: リルはどうやってKT&Gの働き方を変えたか";
+DICT["ja"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&Gスペシャル 3\n2026年11月24日発行 · 資料再確認: 2026年11月24日 KST";
+DICT["zh"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="从八人实验到技术平台：lil如何改变了KT&G的工作方式";
+DICT["zh"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G特辑 3\n2026年11月24日发布 · 资料复核: 2026年11月24日 KST";
+DICT["es"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="Del experimento de ocho personas a la plataforma tecnológica: cómo lil cambió la forma de trabajar de KT&G";
+DICT["es"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 Publicado el 24 de noviembre de 2026 · Datos verificados de nuevo: 24 de noviembre de 2026, KST";
+DICT["ru"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="От эксперимента восьми человек к технологической платформе: как lil изменила способ работы KT&G";
+DICT["ru"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 Опубликовано 24 ноября 2026 г. · Данные перепроверены: 24 ноября 2026 г., KST";
+DICT["ar"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="من تجربة ثمانية أشخاص إلى منصة تقنية: كيف غيّرت lil طريقة عمل KT&G";
+DICT["ar"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 نُشر في 24 نوفمبر 2026 · إعادة التحقق من البيانات: 24 نوفمبر 2026، بتوقيت كوريا";
+DICT["sw"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="Kutoka kwa jaribio la watu wanane hadi jukwaa la teknolojia: lil ilivyobadilisha namna KT&G inavyofanya kazi";
+DICT["sw"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | Makala maalum ya KT&G 3 Ilichapishwa Novemba 24, 2026 · Uthibitishaji upya wa data: Novemba 24, 2026, saa ya Korea";
+DICT["fr"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="De l'expérience de huit personnes à la plateforme technologique : comment lil a changé la façon de travailler de KT&G";
+DICT["fr"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 Publié le 24 novembre 2026 · Données revérifiées : 24 novembre 2026, KST";
+DICT["de"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="Vom Acht-Personen-Experiment zur Technologieplattform: Wie lil die Arbeitsweise von KT&G veränderte";
+DICT["de"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 Veröffentlicht am 24. November 2026 · Daten erneut geprüft: 24. November 2026, KST";
+DICT["it"]["여덟 명의 실험에서 기술 플랫폼으로: 릴은 어떻게 KT&G의 일하는 방식을 바꿨나"]="Dall'esperimento di otto persone alla piattaforma tecnologica: come lil ha cambiato il modo di lavorare di KT&G";
+DICT["it"]["데일리샷 마크로 리서치 | KT&G 스페셜 3\n2026년 11월 24일 발행 · 자료 재확인: 2026년 11월 24일 KST"]="DailyShot Macro Research | KT&G Special 3 Pubblicato il 24 novembre 2026 · Dati riverificati: 24 novembre 2026, KST";
 var pending = null;
 var obs = new MutationObserver(function(muts){
   if (cur === 'ko') return;
