@@ -2658,6 +2658,26 @@ DICT["de"]["담배 자본은 왜 대마기업을 잇는가: 인수계약과 규�
 DICT["de"]["담배와 대마를 두고 '다음 시장을 빼앗는 전쟁'이라고 부르면 이야기는 간단해진다. 그러나2026년11월 캐나다의 인수계약을 보면 경쟁보다 자본의 결합이 먼저 보인다. 오가니그램이 오로라를 인수하는 거래를 추진하고, 담배기업 BAT의 자회사가 자금을 대기로 했다. 기존 담배기업이 인접한 규제 산업에 어떤 구조로 참여하는지 보여주는 사례다."]="Nennt man Tabak und Cannabis „den Krieg um den nächsten Markt\", wird die Geschichte einfach. Doch der kanadische Übernahmevertrag vom November 2026 zeigt zunächst eine Verbindung von Kapital, vor dem Wettbewerb. Organigram treibt eine Transaktion zur Übernahme von Aurora voran, und eine Tochtergesellschaft des Tabakkonzerns BAT will die Mittel bereitstellen. Es ist ein Fall, der zeigt, mit welcher Struktur ein etablierter Tabakkonzern an einer benachbarten regulierten Branche teilnimmt.";
 DICT["it"]["담배 자본은 왜 대마기업을 잇는가: 인수계약과 규제의 서로 다른 지도"]="Perché il capitale del tabacco si lega alle aziende di cannabis: le diverse mappe dei contratti di acquisizione e della regolamentazione";
 DICT["it"]["담배와 대마를 두고 '다음 시장을 빼앗는 전쟁'이라고 부르면 이야기는 간단해진다. 그러나2026년11월 캐나다의 인수계약을 보면 경쟁보다 자본의 결합이 먼저 보인다. 오가니그램이 오로라를 인수하는 거래를 추진하고, 담배기업 BAT의 자회사가 자금을 대기로 했다. 기존 담배기업이 인접한 규제 산업에 어떤 구조로 참여하는지 보여주는 사례다."]="Se chiamiamo tabacco e cannabis «la guerra per strapparsi il prossimo mercato», la storia diventa semplice. Ma il contratto di acquisizione canadese di novembre 2026 mostra prima la combinazione di capitali, prima della concorrenza. Organigram porta avanti un'operazione per acquisire Aurora, e una controllata del gruppo del tabacco BAT fornirà i fondi. È un caso che mostra con quale struttura un gruppo del tabacco consolidato partecipa a un'industria regolamentata adiacente.";
+DICT["en"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="KT&G's governance and shareholder returns: how to read the 5 trillion won plan";
+DICT["en"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Published November 24, 2026 · Public materials rechecked November 24, 2026 KST";
+DICT["ja"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="KT&Gのガバナンスと株主還元:5兆ウォン計画の読み方";
+DICT["ja"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="2026年11月24日発行 · 公開資料再確認: 2026年11月24日 KST";
+DICT["zh"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="KT&G的治理结构与股东回报：如何解读5万亿韩元计划";
+DICT["zh"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="2026年11月24日发布 · 公开资料复核: 2026年11月24日 KST";
+DICT["es"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="La gobernanza y la retribución al accionista de KT&G: cómo leer el plan de 5 billones de wones";
+DICT["es"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Publicado el 24 de noviembre de 2026 · Datos reverificados: 24 de noviembre de 2026, KST";
+DICT["ru"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="Управление и выплаты акционерам KT&G: как читать план на 5 триллионов вон";
+DICT["ru"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Опубликовано 24 ноября 2026 г. · Данные перепроверены: 24 ноября 2026 г., KST";
+DICT["ar"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="حوكمة KT&G وعوائد المساهمين: كيف نقرأ خطة الخمسة تريليونات وون";
+DICT["ar"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="نُشر في 24 نوفمبر 2026 · أُعيد التحقق من البيانات: 24 نوفمبر 2026 بتوقيت كوريا KST";
+DICT["sw"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="Utawala wa KT&G na mapato ya wanahisa: jinsi ya kusoma mpango wa won trilioni 5";
+DICT["sw"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Imechapishwa Novemba 24, 2026 · Takwimu zimehakikiwa tena: Novemba 24, 2026, KST";
+DICT["fr"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="Gouvernance et rémunération des actionnaires de KT&G : comment lire le plan de 5 000 milliards de wons";
+DICT["fr"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Publié le 24 novembre 2026 · Données revérifiées : 24 novembre 2026, KST";
+DICT["de"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="Die Governance und Aktionärsvergütung von KT&G: Wie man den 5-Billionen-Won-Plan liest";
+DICT["de"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Veröffentlicht am 24. November 2026 · Daten erneut geprüft: 24. November 2026, KST";
+DICT["it"]["KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"]="La governance e la remunerazione degli azionisti di KT&G: come leggere il piano da 5 bilioni di won";
+DICT["it"]["2026년11월24일 발행 · 공개자료 재확인11월24일 KST"]="Pubblicato il 24 novembre 2026 · Dati riverificati: 24 novembre 2026, KST";
 var pending = null;
 var obs = new MutationObserver(function(muts){
   if (cur === 'ko') return;

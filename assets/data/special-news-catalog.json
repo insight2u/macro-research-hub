@@ -547,15 +547,45 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법"
+        "ko": "KT&G의 지배구조와 주주환원: 5조 원 계획을 읽는 법",
+        "en": "KT&G's governance and shareholder returns: how to read the 5 trillion won plan",
+        "ja": "KT&Gのガバナンスと株主還元:5兆ウォン計画の読み方",
+        "zh": "KT&G的治理结构与股东回报：如何解读5万亿韩元计划",
+        "es": "La gobernanza y la retribución al accionista de KT&G: cómo leer el plan de 5 billones de wones",
+        "ru": "Управление и выплаты акционерам KT&G: как читать план на 5 триллионов вон",
+        "ar": "حوكمة KT&G وعوائد المساهمين: كيف نقرأ خطة الخمسة تريليونات وون",
+        "sw": "Utawala wa KT&G na mapato ya wanahisa: jinsi ya kusoma mpango wa won trilioni 5",
+        "fr": "Gouvernance et rémunération des actionnaires de KT&G : comment lire le plan de 5 000 milliards de wons",
+        "de": "Die Governance und Aktionärsvergütung von KT&G: Wie man den 5-Billionen-Won-Plan liest",
+        "it": "La governance e la remunerazione degli azionisti di KT&G: come leggere il piano da 5 bilioni di won"
       },
       "urls": {
-        "ko": "special-ktng-20261124-governance.html"
+        "ko": "special-ktng-20261124-governance.html",
+        "en": "special-ktng-20261124-governance-en.html",
+        "ja": "special-ktng-20261124-governance-ja.html",
+        "zh": "special-ktng-20261124-governance-zh.html",
+        "es": "special-ktng-20261124-governance-es.html",
+        "ru": "special-ktng-20261124-governance-ru.html",
+        "ar": "special-ktng-20261124-governance-ar.html",
+        "sw": "special-ktng-20261124-governance-sw.html",
+        "fr": "special-ktng-20261124-governance-fr.html",
+        "de": "special-ktng-20261124-governance-de.html",
+        "it": "special-ktng-20261124-governance-it.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {}
+      "translation_status": "complete"
     }
   ]
 }
