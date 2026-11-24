@@ -32,6 +32,12 @@
 
 아직 별도 재검증하지 않은 다자 회담의 의제나 합의 내용을 현재 성과로 반복하지 않겠습니다. 일정은 일정으로, 실제 성과는 발표문으로 다루겠습니다. 도착 날짜와 본회의 날짜도 혼동하지 않겠습니다.
 
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/m43Ujwvuz74)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdkj)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659987/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe94081e5-eb56-143e-98d8-047070e2e45d.mp3)
+
 ## 출처와 확인 범위
 
 - [S1] https://www.president.go.kr/briefings/tNz0idHE
@@ -39,9 +45,3 @@
 - [S3] https://www.president.go.kr/schedule/20261116
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
-
-## 같은 수정판 방송
-
-- [영상 보기](https://youtube.com/shorts/m43Ujwvuz74)
-- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdkj)
-- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659987/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe94081e5-eb56-143e-98d8-047070e2e45d.mp3)

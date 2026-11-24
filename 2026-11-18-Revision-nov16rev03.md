@@ -32,6 +32,12 @@
 
 둘 중 하나의 표정을 고르는 대신 전달 경로를 보겠습니다. 기업의 성과가 투자와 일자리, 임금과 소비로 이어지는지를 확인하는 겁니다. 기준월이 다른 수치를 한 시점의 체감 점수로 합산하지 않겠습니다.
 
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/hd-IW_I-1EI)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdjb)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659947/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fd2eb5890-fda5-54ce-124f-14812a37636f.mp3)
+
 ## 출처와 확인 범위
 
 - [S1] https://www.kdi.re.kr/research/monTrends?mon=11&year=2026
@@ -39,9 +45,3 @@
 - [S3] https://mods.go.kr/board.es?act=view&bid=210&list_no=447893&mid=a10301030200
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
-
-## 같은 수정판 방송
-
-- [영상 보기](https://youtube.com/shorts/hd-IW_I-1EI)
-- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdjb)
-- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659947/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fd2eb5890-fda5-54ce-124f-14812a37636f.mp3)

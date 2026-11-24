@@ -83,6 +83,10 @@
 
 > 독립 기사로 읽기: 책의 고유한 개념은 짧게 정리하고 원문으로 연결했다. 사례 비교·판단 질문·출처 사이의 차이 분석은 새로 작성했으며, 전체 단행본의 대체물이 되도록 구성하지 않았다.
 
+### 이전 판
+
+[2026년11월24일07:09 최초 발행 원문](reports/2026-11-24/todays-book-original-0709.md)을 보존했습니다.
+
 ### 출처와 확인 범위
 
 [1] Princeton University Press · 공개 서문, Introduction
@@ -125,9 +129,3 @@ https://press.princeton.edu/books/ebook/9781400888320/capitalism-without-capital
 https://apps.3protv.com/episode/view/33840
 유형: 공식 방송. 사용: 남궁민 출연·해당 도서 회차 일치 확인. 전체 발언 요약 아님.
 https://www.youtube.com/watch?v=O8U-8-cYD40
-
-
-
-### 이전 판
-
-[2026년11월24일07:09 최초 발행 원문](reports/2026-11-24/todays-book-original-0709.md)을 보존했습니다.

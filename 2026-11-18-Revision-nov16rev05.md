@@ -32,15 +32,15 @@
 
 오늘 이미 전기를 공급받고 있다거나, 모든 허가가 끝났다거나, 상업생산이 확정됐다고 말하지 않겠습니다. 남은 관문은 각 단계의 공식 자료가 나올 때 따로 확인하겠습니다.
 
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/bhjCNlACpQc)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdk5)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2b394a30-f004-7cdb-16b6-39186c0d1dc7.mp3)
+
 ## 출처와 확인 범위
 
 - [S1] https://www.ajupress.com/view/20261115141270107
 - [S2] https://www.tva.com/about-tva/our-leadership/board-of-directors
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
-
-## 같은 수정판 방송
-
-- [영상 보기](https://youtube.com/shorts/bhjCNlACpQc)
-- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdk5)
-- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129659973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2b394a30-f004-7cdb-16b6-39186c0d1dc7.mp3)

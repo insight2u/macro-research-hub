@@ -32,15 +32,15 @@
 
 십팔일 현재 모든 공항이 완전히 정상화됐다는 확인은 이 자료만으로 할 수 없습니다. 여행자는 항공사와 공항의 최신 상태를 확인해야 합니다. 이번 방송은 십오일 공식 설명을 재검토한 것이며 실시간 항공편 안내가 아닙니다.
 
+## 같은 수정판 방송
+
+- [영상 보기](https://youtube.com/shorts/0KURbKaZMjM)
+- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdlq)
+- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129660026/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F91666117-7da0-7b17-cf9b-e823c9940046.mp3)
+
 ## 출처와 확인 범위
 
 - [S1] https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers
 - [S2] https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop
 
 원문 문장과 이미지를 전재하지 않고 확인 자료를 바탕으로 새로 쓴 해설입니다. 투자 권유, 실시간 운항 안내 또는 예약 확인이 아닙니다.
-
-## 같은 수정판 방송
-
-- [영상 보기](https://youtube.com/shorts/0KURbKaZMjM)
-- [팟캐스트 듣기](https://podcasters.spotify.com/pod/show/l7bo8obou98/episodes/1116-1118-e3sjdlq)
-- [검증된 MP3 원본](https://anchor.fm/s/11a325260/podcast/play/129660026/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F91666117-7da0-7b17-cf9b-e823c9940046.mp3)
