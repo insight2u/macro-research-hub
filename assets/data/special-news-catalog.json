@@ -403,15 +403,45 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "불을 끄는 사업, 담배를 끊는 사업인가"
+        "ko": "불을 끄는 사업, 담배를 끊는 사업인가",
+        "en": "A business putting out the fire, or a business of quitting cigarettes?",
+        "ja": "火を消す事業か、タバコをやめる事業か",
+        "zh": "熄灭火焰的生意，还是戒烟的生意？",
+        "es": "¿Un negocio que apaga el fuego o un negocio que deja el tabaco?",
+        "ru": "Бизнес, который гасит огонь, — это бизнес, который бросает табак?",
+        "ar": "هل العمل الذي يطفئ النار هو عمل يقلع عن التبغ؟",
+        "sw": "Je, biashara inayozima moto ni biashara inayoacha tumbaku?",
+        "fr": "Une entreprise qui éteint le feu est-elle une entreprise qui arrête le tabac ?",
+        "de": "Ein Geschäft, das das Feuer löscht – ein Geschäft, das mit dem Tabak aufhört?",
+        "it": "Un'azienda che spegne il fuoco è un'azienda che smette con il tabacco?"
       },
       "urls": {
-        "ko": "special-ktng-20261124-global-ngp.html"
+        "ko": "special-ktng-20261124-global-ngp.html",
+        "en": "special-ktng-20261124-global-ngp-en.html",
+        "ja": "special-ktng-20261124-global-ngp-ja.html",
+        "zh": "special-ktng-20261124-global-ngp-zh.html",
+        "es": "special-ktng-20261124-global-ngp-es.html",
+        "ru": "special-ktng-20261124-global-ngp-ru.html",
+        "ar": "special-ktng-20261124-global-ngp-ar.html",
+        "sw": "special-ktng-20261124-global-ngp-sw.html",
+        "fr": "special-ktng-20261124-global-ngp-fr.html",
+        "de": "special-ktng-20261124-global-ngp-de.html",
+        "it": "special-ktng-20261124-global-ngp-it.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {}
+      "translation_status": "complete"
     },
     {
       "id": "special-ktng-20261124-kgc",
