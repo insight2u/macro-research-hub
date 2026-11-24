@@ -451,15 +451,45 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "정관장, 시장을 다시 정의하다"
+        "ko": "정관장, 시장을 다시 정의하다",
+        "en": "Jung Kwan Jang redefines its market",
+        "ja": "正官庄、市場を再定義する",
+        "zh": "正官庄，重新定义市场",
+        "es": "CheongKwanJang redefine el mercado",
+        "ru": "CheongKwanJang переопределяет рынок",
+        "ar": "تشونغ غوان جانغ تعيد تعريف السوق",
+        "sw": "CheongKwanJang inafafanua upya soko",
+        "fr": "CheongKwanJang redéfinit le marché",
+        "de": "CheongKwanJang definiert den Markt neu",
+        "it": "CheongKwanJang ridefinisce il mercato"
       },
       "urls": {
-        "ko": "special-ktng-20261124-kgc.html"
+        "ko": "special-ktng-20261124-kgc.html",
+        "en": "special-ktng-20261124-kgc-en.html",
+        "ja": "special-ktng-20261124-kgc-ja.html",
+        "zh": "special-ktng-20261124-kgc-zh.html",
+        "es": "special-ktng-20261124-kgc-es.html",
+        "ru": "special-ktng-20261124-kgc-ru.html",
+        "ar": "special-ktng-20261124-kgc-ar.html",
+        "sw": "special-ktng-20261124-kgc-sw.html",
+        "fr": "special-ktng-20261124-kgc-fr.html",
+        "de": "special-ktng-20261124-kgc-de.html",
+        "it": "special-ktng-20261124-kgc-it.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {}
+      "translation_status": "complete"
     },
     {
       "id": "special-ktng-20261124-cannabis",
