@@ -499,15 +499,45 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "담배 자본은 왜 대마기업을 잇는가: 인수계약과 규제의 서로 다른 지도"
+        "ko": "담배 자본은 왜 대마기업을 잇는가: 인수계약과 규제의 서로 다른 지도",
+        "en": "Why does tobacco capital keep linking up with cannabis companies: acquisition contracts and regulation's different maps",
+        "ja": "タバコ資本はなぜ大麻企業をつなぐのか:買収契約と規制の異なる地図",
+        "zh": "烟草资本为何连接大麻企业：收购合同与监管的不同版图",
+        "es": "¿Por qué el capital tabaquero se vincula con las empresas de cannabis?: los distintos mapas de los contratos de adquisición y la regulación",
+        "ru": "Почему табачный капитал связывается с каннабис-компаниями: разные карты сделок поглощения и регулирования",
+        "ar": "لماذا يرتبط رأس مال التبغ بشركات القنب: الخرائط المختلفة لعقود الاستحواذ والتنظيم",
+        "sw": "Kwa nini mtaji wa tumbaku unajiunga na makampuni ya bangi: ramani tofauti za mikataba ya ununuzi na udhibiti",
+        "fr": "Pourquoi le capital du tabac se lie-t-il aux entreprises de cannabis : les cartes différentes des contrats d'acquisition et de la réglementation",
+        "de": "Warum verbindet sich Tabakkapital mit Cannabis-Unternehmen: die unterschiedlichen Landkarten von Übernahmeverträgen und Regulierung",
+        "it": "Perché il capitale del tabacco si lega alle aziende di cannabis: le diverse mappe dei contratti di acquisizione e della regolamentazione"
       },
       "urls": {
-        "ko": "special-ktng-20261124-cannabis.html"
+        "ko": "special-ktng-20261124-cannabis.html",
+        "en": "special-ktng-20261124-cannabis-en.html",
+        "ja": "special-ktng-20261124-cannabis-ja.html",
+        "zh": "special-ktng-20261124-cannabis-zh.html",
+        "es": "special-ktng-20261124-cannabis-es.html",
+        "ru": "special-ktng-20261124-cannabis-ru.html",
+        "ar": "special-ktng-20261124-cannabis-ar.html",
+        "sw": "special-ktng-20261124-cannabis-sw.html",
+        "fr": "special-ktng-20261124-cannabis-fr.html",
+        "de": "special-ktng-20261124-cannabis-de.html",
+        "it": "special-ktng-20261124-cannabis-it.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {}
+      "translation_status": "complete"
     },
     {
       "id": "special-ktng-20261124-governance",
