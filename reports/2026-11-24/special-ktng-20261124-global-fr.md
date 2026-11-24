@@ -1,0 +1,99 @@
+# KT&G après l'entreprise exportatrice : la force de l'activité locale, plus importante que le chiffre d'affaires à l'étranger
+
+DailyShot Macro Research | KT&G Special 2  
+Publié le 24 novembre 2026 · Données revérifiées : 24 novembre 2026, KST
+
+La phrase la plus courte pour décrire l'activité internationale de KT&G serait « elle a vendu plus de tabac à l'étranger ». Mais cette phrase seule n'explique ni pourquoi le bénéfice a crû plus vite que le chiffre d'affaires, ni pourquoi les résultats du groupe ont progressé pendant que le marché intérieur rétrécissait, ni quels risques subsistent après la multiplication des usines à l'étranger. Ce que cette entreprise cherche à changer, ce n'est pas seulement la géographie des ventes, mais la manière de contrôler les prix, la distribution et la production.
+
+2025 a été l'année où le chiffre d'affaires des cigarettes à l'étranger a dépassé pour la première fois celui du marché intérieur. Le troisième trimestre 2026 est le point de contrôle le plus récent pour voir si cette transition se poursuit. Séparer les deux moments permet d'interroger la persistance du changement au lieu de répéter une vieille histoire de croissance. Cela dit, une entreprise qui vend bien à l'étranger n'est pas forcément une entreprise à faible risque ni toujours un bon investissement. La performance de l'industrie et les dommages sanitaires, le bénéfice de l'entreprise et le cours de l'action sont des questions distinctes.
+
+## 1. Séparons d'abord quatre boîtes de chiffres
+
+Le chiffre d'affaires consolidé de KT&G en 2025 s'est élevé à 6 579,6 milliards de wons. Dans l'annonce de février 2026 de l'entreprise, le chiffre d'affaires des cigarettes à l'étranger a atteint 1 877,5 milliards de wons, soit 54,1 % du total des ventes de cigarettes. La portée exacte de l'expression « l'étranger a dépassé l'intérieur » est l'activité cigarettes. En faire la part des ventes à l'étranger de tout le groupe, ou la lire comme un chiffre incluant les aliments santé, serait une autre histoire.[1][2]
+
+Pour la même raison, il faut distinguer cigarettes à l'étranger et NGP. Le chiffre d'affaires NGP de 2025, 890,1 milliards de wons, a été présenté séparément. On ne peut pas additionner simplement NGP aux cigarettes à l'étranger et appeler le tout « tabac à l'étranger », car NGP contient à la fois du national et de l'international. Pour lire le compte de résultat, il faut d'abord tracer des boîtes différentes : groupe entier, activité tabac, cigarettes nationales et internationales, NGP national et international.[1]
+
+Au trimestre le plus récent, cette distinction reste valable. Le chiffre d'affaires consolidé du troisième trimestre 2026 s'est établi à 1 905,2 milliards de wons et le bénéfice d'exploitation à 530,1 milliards de wons, en hausse de 4,3 % et 13,9 % respectivement sur un an. Il s'agit de résultats provisoires annoncés par l'entreprise, et un article de Yonhap fondé sur la publication réglementaire a présenté les mêmes chiffres. En revanche, le bénéfice net a chuté de 75,1 %, à 104,1 milliards de wons. Le titre « résultat d'exploitation record » et la « baisse du bénéfice net » peuvent être vrais en même temps, car le bénéfice d'exploitation n'est pas le même chiffre que le bénéfice net.[3][4]
+
+Il ne faut pas non plus juger que toutes les activités se sont améliorées de la même façon sur la seule hausse du bénéfice d'exploitation du groupe. Le chiffre d'affaires de l'activité tabac s'est élevé à 1 306,5 milliards de wons, avec un bénéfice d'exploitation de 425,5 milliards de wons. Celui des aliments santé a atteint 372,2 milliards de wons, avec un bénéfice d'exploitation de 80,1 milliards de wons, présentés séparément. Ces chiffres sont une décomposition pour comprendre la structure de chaque activité ; on ne peut pas mélanger des rentabilités de périmètres différents pour en faire la performance d'une seule marque.[3][5]
+
+## 2. Le recul intérieur est-il masqué, ou l'étranger déplace-t-il le centre de l'activité ?
+
+Selon la compilation de BusinessPost, le chiffre d'affaires national des cigarettes au troisième trimestre 2026 s'est établi à 429,7 milliards de wons, en baisse de 3,8 % sur un an. Le volume des ventes nationales a également reculé de 5,4 %. Sur la même période, le chiffre d'affaires des cigarettes à l'étranger a progressé de 10,5 %, à 579 milliards de wons, et le volume de 6,2 %. Dire que l'étranger a compensé le volume perdu à l'intérieur est exact comme point de départ, mais ce n'est pas tout.[5]
+
+La différence tient à la vitesse de croissance du chiffre d'affaires et des volumes. Le chiffre d'affaires à l'étranger a crû plus vite que le volume. Une analyse du Dong-A Ilbo du 11 novembre a cité comme principaux facteurs les hausses de prix des marques clés, la part accrue des produits premium et l'évolution de la structure de production et de distribution locale. Ce n'est donc pas seulement le résultat d'expédier plus du même produit au même prix. Toutefois, ce matériau seul ne permet pas de fixer en un seul chiffre la contribution des taux de change par pays, de la composition des produits et des variations de prix.[6]
+
+La capacité de défense du marché intérieur ne se juge pas non plus par le seul volume. Selon le même article, la part du marché national des cigarettes s'est établie à 69,0 %, en hausse de 0,1 point de pourcentage sur un an. Si le marché total rétrécit, chiffre d'affaires et volumes peuvent reculer même si la part se maintient ou progresse. « Part défendue » et « volume en baisse » ne sont pas une contradiction. Il faut examiner séparément la compétitivité de l'entreprise et la taille du marché où elle opère.[5]
+
+Cette distinction s'applique aussi à l'évaluation de la qualité de la croissance internationale. Un grand nombre de pays de présence montre l'ampleur de la distribution, mais pas la profondeur de l'activité dans chaque pays. Il faut vérifier combien l'on vend localement, dans quelle mesure on contrôle les prix et quel bénéfice reste après coûts et impôts. Une stratégie qui ajoute des drapeaux de pays et une stratégie qui sécurise durablement les clients et les réseaux de distribution d'un pays ne sont pas la même chose.
+
+## 3. D'exportateur à opérateur local : qui fixe le prix ?
+
+Dans la présentation des résultats 2025, l'entreprise a expliqué la croissance de l'activité internationale par la sortie de l'ancienne structure centrée sur l'exportation et le renforcement de l'activité directe locale. Dans la présentation de stratégie de novembre 2026, elle a également annoncé vouloir élargir les filiales locales afin d'accroître la maîtrise des stratégies de prix et de produits. Le mot à observer ici est « maîtrise », car ce n'est pas seulement le résultat de beaucoup vendre qui change, mais le lieu où se prennent les décisions qui produisent ce résultat.[1][3]
+
+Si la distribution locale dépend fortement d'opérateurs extérieurs, le fabricant n'accède qu'indirectement à la demande des consommateurs et aux évolutions du point de vente final. Renforcer l'activité directe permet d'élargir le périmètre traité : placement des produits, prix, promotions, information sur la demande. C'est une analyse du modèle d'affaires ; cela ne signifie ni que KT&G gère directement la distribution dans tous les pays, ni que les marges d'intermédiation ont disparu. À mesure que le périmètre de maîtrise s'élargit, la responsabilité d'exploitation de l'organisation et de réponse à la réglementation grandit aussi.
+
+Le cas du Kazakhstan présenté par l'analyse du Dong-A Ilbo illustre cette structure. Pour expliquer que chiffre d'affaires et bénéfices aient crû plus vite que le volume, il cite l'internalisation des marges de distribution après le passage à l'activité directe et l'amélioration de la composition des prix et des produits. Toutefois, les estimations de croissance des sociétés de bourse citées dans cet article doivent être distinguées des résultats confirmés observés. On ne peut pas non plus étendre la croissance estimée d'une filiale donnée au taux de croissance futur de tout le groupe.[6]
+
+La question suivante sur l'activité internationale ne s'arrête donc pas à « dans combien de pays est-elle présente ? ». Il faut demander ensemble : sur quels marchés l'activité directe est-elle menée, la filiale locale peut-elle fixer les prix, combien de fonds de roulement et de frais de vente la croissance exige-t-elle, les liquidités récupérées sont-elles suffisantes ? Il s'agit de voir si l'expansion du chiffre d'affaires et celle de la maîtrise de l'activité vont dans le même sens.
+
+## 4. Les usines à l'étranger sont une chance de réduire les coûts et une responsabilité fixe
+
+Dans les documents de novembre 2026, l'entreprise a présenté l'achèvement en octobre de la nouvelle usine d'Indonésie et l'optimisation du réseau de production mondial. Si une installation présentée dans les documents de début d'année comme « une usine sur le point d'être mise en service » est décrite dans un article de novembre encore comme un projet futur, on rate l'état actuel. Inversement, il ne faut pas conclure que, parce qu'elle est achevée, toute la capacité de production s'est déjà convertie en ventes et bénéfices comme prévu.[1][3]
+
+L'article du Dong-A Ilbo a présenté un système de production dans cinq pays : Corée, Indonésie, Russie, Kazakhstan et Turquie. Lorsque la production se rapproche de la demande, une marge d'amélioration de la logistique et de l'approvisionnement apparaît. L'entreprise a fixé comme objectif une réduction de coûts cumulée de plus de 550 milliards de wons sur les quatre prochaines années. Ce n'est pas un gain confirmé déjà réalisé par le passé, mais le plan que l'entreprise entend atteindre.[3][6]
+
+Construire des usines à l'étranger, c'est aussi déplacer les coûts dans les comptes. Même si l'on peut réduire la charge du transport et du dédouanement liés à l'exportation, restent les responsabilités de maintenance des installations, de main-d'œuvre, de contrôle qualité et de conformité à la réglementation locale. C'est pourquoi il est difficile d'expliquer que tous les coûts baissent automatiquement du seul fait que les sites de production ont augmenté. Si le taux d'utilisation reste en deçà des attentes, l'installation fixe peut au contraire devenir une charge : c'est une condition générale de la structure manufacturière.
+
+La liste de vérification dont le lecteur a besoin doit être plus concrète que le nombre d'usines. Il faut confirmer quel marché chaque nouvelle installation dessert, comment elle partage les rôles avec les installations existantes et quand la réduction de coûts apparaît dans les résultats. L'objectif de réduction présenté par l'entreprise est un critère de comparaison pour répondre à cette question, pas un certificat de réalisation.
+
+## 5. Les objectifs des trois axes de croissance ont tous des dénominateurs différents
+
+Lors de la présentation de stratégie de novembre, KT&G a fixé trois objectifs de part pour 2030 : plus de 70 % de chiffre d'affaires à l'étranger dans l'activité cigarettes, plus de 30 % de chiffre d'affaires NGP dans l'activité tabac, et plus de 30 % de chiffre d'affaires à l'étranger dans les aliments santé. Tous sont des objectifs futurs, pas des parts actuelles. On ne peut pas non plus additionner les trois chiffres pour composer le tableau des revenus du groupe, car chaque dénominateur est différent.[3]
+
+Ces objectifs diffèrent aussi d'une stratégie qui consisterait simplement à continuer de développer les cigarettes à l'étranger. Ils contiennent plusieurs transitions à la fois : étendre l'international des cigarettes existantes, élargir la gamme NGP et relever la part internationale des aliments santé. L'entreprise a également évoqué l'élargissement des pays de présence de la marque de sachets de nicotine LOOP, l'activité matières premières de ginseng rouge de KGC et des discussions avec des entreprises mondiales de l'alimentation et de la beauté. Des discussions ne sont pas une étape comme la signature d'un contrat ou la confirmation de ventes.[3]
+
+Si les trois axes de croissance se déploient en même temps, l'allocation des fonds d'investissement et des ressources de gestion devient importante. Il faut distinguer quelle activité produit du bénéfice et des liquidités aujourd'hui et laquelle dépense pour l'avenir. Les seuls documents présentés dans cet article ne permettent pas de calculer tous les rendements d'investissement de chaque activité. Le point de départ est de ne pas juger l'efficacité du capital élevée au seul motif que l'objectif de chiffre d'affaires est grand.
+
+## 6. Bénéfice d'exploitation, bénéfice net et dividendes ne se lisent pas sur une seule ligne
+
+Le troisième trimestre 2026 a vu coïncider une hausse du bénéfice d'exploitation et une baisse du bénéfice net. BusinessPost a rapporté que les autres produits et charges étaient passés d'un bénéfice à une perte par rapport au même trimestre de l'année précédente. Toutefois, ce matériau seul ne détermine ni la cause détaillée de cette perte ni sa possibilité de répétition. L'essentiel est qu'on ne peut pas supposer que l'amélioration au niveau opérationnel entraîne le bénéfice final et la trésorerie dans la même direction.[4][5]
+
+Dans l'annonce de novembre, l'entreprise a présenté un dividende annuel par action de 8 000 wons pour 2026, un rachat et une annulation d'actions propres de 1 200 milliards de wons sur quatre ans à partir de 2027, et un plan de redistribution total de 5 000 milliards de wons dividendes inclus. C'est pourquoi il ne faut pas répéter comme politique la plus récente l'explication d'un dividende annuel d'environ 6 000 wons figurant dans les documents de début d'année. Cela dit, le plan de redistribution annoncé n'est pas un résultat déjà intégralement versé ou annulé. La redistribution spéciale additionnelle est aussi assortie de la condition d'être examinée lorsqu'elle sera jugée nécessaire.[1][3]
+
+Pour comprendre l'argent qui reviendra aux actionnaires, il faut relier non seulement le bénéfice d'exploitation, mais aussi les impôts, les frais financiers, le fonds de roulement, l'investissement en équipements et leur rapport à la trésorerie. Qu'un plan de dividendes soit important montre la direction de la stratégie, mais ne garantit ni le capital ni le rendement d'aucun investisseur individuel. Il faut séparer le jugement que l'entreprise s'est améliorée de la décision qu'il est bon d'acheter l'action au prix actuel.
+
+## 7. La santé et la réglementation, qui ne doivent pas manquer dans le récit de croissance
+
+Analyser la performance de l'activité tabac et recommander l'usage du produit sont deux choses différentes. L'OMS explique que toute forme de consommation de tabac est nocive et qu'il n'existe pas de niveau d'exposition sûr. La nicotine crée une dépendance. Les classifications commerciales « nouvelle génération » ou « sans combustion » ne signifient pas l'innocuité. Louer la seule hausse du chiffre d'affaires en effaçant le risque sanitaire fait facilement basculer l'analyse d'entreprise vers la promotion du produit.[7]
+
+Ce risque n'est pas non plus séparé des conditions de gestion de l'entreprise. Selon les taxes, l'étiquetage, la publicité, la vente et la réglementation par produit, les prix à la consommation et les modes de distribution peuvent changer. Il est difficile de supposer qu'un modèle qui fonctionne dans un pays fonctionnera à l'identique dans un autre. Cet article ne fournit pas de conseil juridique actualisé sur la réglementation de chaque pays et ne juge pas la légalité d'entrées concrètes sur des marchés.
+
+Examiner la qualité de l'activité internationale, c'est lire l'envers de la croissance avec la même échelle. Il faut placer dans un même tableau la marge de hausse des prix et la charge réglementaire, l'efficacité de production et la responsabilité d'exploitation locale, l'expansion du chiffre d'affaires et la récupération des liquidités. Intégrer les conditions hors des chiffres rend le sens des chiffres plus exact.
+
+## Conclusion : ce qu'il faudra vérifier au prochain trimestre n'est pas une seule ligne de chiffre d'affaires
+
+Le changement de KT&G devient plus net lorsqu'on le lit comme le passage de l'expédition de davantage de tabac à l'étranger à l'exploitation directe des marchés locaux. Le basculement du chiffre d'affaires des cigarettes à l'étranger en 2025 et la croissance ultérieure du troisième trimestre 2026 sont des observations qui étayent ce changement. C'est pourquoi il faut regarder ensemble prix et composition des produits, filiales locales et réseau de production.
+
+Lors du prochain contrôle, il faudra vérifier si chiffre d'affaires et volumes à l'étranger progressent ensemble, si l'amélioration des coûts du réseau de production se reflète dans le bénéfice réel, quelle est la différence entre bénéfice net et trésorerie, et quels résultats produit le capital investi dans les nouveaux axes de croissance. Les objectifs de part pour 2030 et le plan de redistribution annoncés doivent aussi être mis en regard de leur mise en œuvre réelle. Une bonne histoire de croissance n'est pas un récit qui fixe le résultat à l'avance, mais une explication qui rend plus précises les questions à vérifier.
+
+## Vidéo liée et perspective de l'article
+
+[![Vidéo institutionnelle officielle de KT&G. Ce n'est pas un résumé d'un visionnage complet.](https://i.ytimg.com/vi/L4tELGW0ZeM/hqdefault.jpg)](https://www.youtube.com/watch?v=L4tELGW0ZeM)
+
+[KT&G 왜 다시 주목받고 있는가? | G적인특강 EP.1 - 1 ↗](https://www.youtube.com/watch?v=L4tELGW0ZeM)
+
+La vidéo officielle de KT&G « KT&G 왜 다시 주목받고 있는가? » est une présentation de l'entreprise elle-même sur le cœur de métier, la croissance mondiale et la redistribution aux actionnaires. Elle touche aux enjeux de cet article, mais ne constitue pas une vérification indépendante de la valeur de l'entreprise. Le thème et la date de publication ont été vérifiés sur la page de présentation de la vidéo, et les résultats et la stratégie de novembre ci-dessus ont été vérifiés séparément par des annonces officielles et des articles indépendants ultérieurs. Ce n'est pas un résumé d'un visionnage et d'une transcription complets de la vidéo. L'explication de politique de la vidéo de septembre ne doit pas être prise pour l'annonce la plus récente de novembre.[8]
+
+## Sources
+
+1. KT&G, résultats annuels 2025 et objectifs 2026, 2026-02-05. Le bénéfice d'exploitation peut être compris comme environ 1 350 milliards de wons dans le corps du texte, car l'arrondi diffère entre le titre et le corps du communiqué. <https://www.ktng.com/media/news/press-release/detail/304361>
+2. The Korea Herald, article de confrontation des résultats 2025, 2026-02-05. <https://www.koreaherald.com/article/10670734>
+3. KT&G, résultats du troisième trimestre et contenu du Capital Markets Day, publié le 2026-11-10, événement du 5 novembre. <https://www.ktng.com/media/news/press-release/detail/313572>
+4. Yonhap News, article fondé sur la publication provisoire du troisième trimestre 2026, 2026-11-05. <https://www.yna.co.kr/view/AKR20261105130600527>
+5. BusinessPost, résultats du troisième trimestre par activité et bénéfice net, 2026-11-05. <https://www.businesspost.co.kr/BP?command=article_view&num=451292>
+6. Dong-A Ilbo/DBR, analyse de la localisation et du réseau de production à l'étranger, 2026-11-11. <https://dbr.donga.com/kfocus/view/en/article_no/3908>
+7. OMS, tabac et nicotine. <https://www.who.int/news-room/fact-sheets/detail/tobacco>
+8. Présentation de la vidéo officielle de KT&G, 2026-09-18. <https://www.ktng.com/media/social/youtube/detail/311956>
+
+Cet article est une analyse de l'industrie et de l'entreprise ; il ne recommande ni l'usage de produits du tabac ou de la nicotine ni l'investissement. Les résultats provisoires et les objectifs futurs sont distingués des résultats confirmés.

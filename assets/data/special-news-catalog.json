@@ -307,15 +307,45 @@
       "status": "published",
       "date": "2026.11.24",
       "titles": {
-        "ko": "수출기업 다음의 KT&G: 해외 매출보다 중요한 현지사업의 힘"
+        "ko": "수출기업 다음의 KT&G: 해외 매출보다 중요한 현지사업의 힘",
+        "en": "KT&G after the exporter era: the power of local operations that matters more than overseas revenue",
+        "ja": "輸出企業の次のKT&G: 海外売上より大事な現地事業の力",
+        "zh": "出口企业之后的KT&G：比海外营收更重要的本地经营之力",
+        "es": "KT&G después de la empresa exportadora: la fuerza del negocio local, más importante que los ingresos en el extranjero",
+        "ru": "KT&G после этапа экспортной компании: сила локального бизнеса важнее зарубежной выручки",
+        "ar": "KT&G بعد مرحلة شركة التصدير: قوة الأعمال المحلية أهم من الإيرادات الخارجية",
+        "sw": "KT&G baada ya kampuni ya kuuza nje: nguvu za biashara ya ndani, muhimu zaidi kuliko mapato ya kimataifa",
+        "fr": "KT&G après l'entreprise exportatrice : la force de l'activité locale, plus importante que le chiffre d'affaires à l'étranger",
+        "de": "KT&G nach dem Exportunternehmen: Die Stärke des lokalen Geschäfts, wichtiger als die Auslandserlöse",
+        "it": "KT&G oltre l'azienda esportatrice: la forza del business locale, più importante dei ricavi esteri"
       },
       "urls": {
-        "ko": "special-ktng-20261124-global.html"
+        "ko": "special-ktng-20261124-global.html",
+        "en": "special-ktng-20261124-global-en.html",
+        "ja": "special-ktng-20261124-global-ja.html",
+        "zh": "special-ktng-20261124-global-zh.html",
+        "es": "special-ktng-20261124-global-es.html",
+        "ru": "special-ktng-20261124-global-ru.html",
+        "ar": "special-ktng-20261124-global-ar.html",
+        "sw": "special-ktng-20261124-global-sw.html",
+        "fr": "special-ktng-20261124-global-fr.html",
+        "de": "special-ktng-20261124-global-de.html",
+        "it": "special-ktng-20261124-global-it.html"
       },
       "available_languages": [
-        "ko"
+        "ko",
+        "en",
+        "ja",
+        "zh",
+        "es",
+        "ru",
+        "ar",
+        "sw",
+        "fr",
+        "de",
+        "it"
       ],
-      "translation_status": {}
+      "translation_status": "complete"
     },
     {
       "id": "special-ktng-20261124-lil",
