@@ -22,7 +22,7 @@ function record(r){
  const md=((window.BODY_I18N||{})[r.id]||{})[lang()];
  if(lang()==='ko')return r;
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:((nov22CategoryLabels[lang()]||{})[r.category]||r.category)+' ['+list()[7]+']'};
- const lines=md.split('\n');const title=(r.id==='report-2026-11-22-12-todays-book'?"Today's Book · "+(lines.find(t=>/^##\s/.test(t))||'').replace(/^##\s+/,''):(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,''))||r.title;
+ const lines=md.split('\n');if(md.trim().startsWith('<')){const d=new DOMParser().parseFromString(md,'text/html');return {title:d.querySelector('h1')?.textContent||r.title,summary:d.querySelector('h1')?.nextElementSibling?.textContent||'',category:(nov22CategoryLabels[lang()]||{})[r.category]||r.category};}const title=(r.id==='report-2026-11-22-12-todays-book'?"Today's Book · "+(lines.find(t=>/^##\s/.test(t))||'').replace(/^##\s+/,''):(lines.find(t=>/^#\s/.test(t))||'').replace(/^#\s+/,''))||r.title;
  const prose=lines.find(t=>t.trim()&&!/^(Cover source:|封面来源|表紙出典)/.test(t)&&!/^(#|\*|!|\[|<|\||-|출처)/.test(t)&&t.trim().length>70)||'';
  return {title:title.replace(/\*([^*]+)\*/g,'$1'),category:(nov22CategoryLabels[lang()]||{})[r.category]|| (r.date==='2026.11.21'?r.category:(title.includes('|')?title.split('|')[0].trim():title.split('｜')[0].trim())),summary:prose.length>330?prose.slice(0,330)+'…':prose};
 }
@@ -32,7 +32,7 @@ window.magazineArchiveCount=(total,n,search)=>{
  const l=lang();return ({ko:`${total}개 기사 중 ${n}개${search?' 검색 결과':''}`,en:`${n} of ${total} articles${search?' match':''}`,ja:`全${total}件中${n}件${search?'が一致':''}`,zh:`共${total}篇，${n}篇${search?'匹配':''}`,es:`${n} de ${total} artículos${search?' coinciden':''}`,ru:`${n} из ${total} статей${search?' найдено':''}`,ar:`${n} من ${total} مقالًا${search?' مطابقًا':''}`,sw:`Makala ${n} kati ya ${total}${search?' zinalingana':''}`,fr:`${n} articles sur ${total}${search?' correspondent':''}`,de:`${n} von ${total} Artikeln${search?' gefunden':''}`,it:`${n} articoli su ${total}${search?' corrispondono':''}`})[l]||`${n} / ${total}`;
 };
 function dailyEdition(){
- const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-\d{2,}-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
+ const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
  const dates=[...new Set(eligible.map(r=>r.date))].sort().reverse();
  const date=dates.find(d=>eligible.filter(r=>r.date===d).length>=1);if(!date)return;
  const selected=eligible.filter(r=>r.date===date).sort((a,b)=>a.id.localeCompare(b.id)),grid=document.getElementById('nr-article-grid');if(!grid)return;
