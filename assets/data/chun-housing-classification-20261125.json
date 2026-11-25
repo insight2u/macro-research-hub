@@ -1,0 +1,288 @@
+[
+  {
+    "id": "special-chun-20261125-main",
+    "section": "history",
+    "score": {
+      "category": "여의도 한 입, 외교 한 접시",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": 4.408
+        },
+        {
+          "category": "도파민성애자",
+          "score": 4.102
+        },
+        {
+          "category": "역사로 오늘을 읽다",
+          "score": 3.025
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-culture",
+    "section": "culture",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": 2.561
+        },
+        {
+          "category": "역사로 오늘을 읽다",
+          "score": -2.207
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.828
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "영화와 책을 통해 역사를 읽는 문화 안내 기사."
+  },
+  {
+    "id": "special-chun-20261125-coup",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -2.304
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.393
+        },
+        {
+          "category": "경제 체온계",
+          "score": -4.764
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-gwangju",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -2.133
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.831
+        },
+        {
+          "category": "경제 체온계",
+          "score": -4.28
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-press",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -1.02
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.831
+        },
+        {
+          "category": "라이프人정글",
+          "score": -4.494
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-detention",
+    "section": "history",
+    "score": {
+      "category": "라이프人정글",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "라이프人정글",
+          "score": 0.956
+        },
+        {
+          "category": "도파민성애자",
+          "score": -2.308
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.393
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-torture",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -2.383
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -3.167
+        },
+        {
+          "category": "경제 체온계",
+          "score": -4.764
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-money",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -1.988
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -3.167
+        },
+        {
+          "category": "경제 체온계",
+          "score": -4.306
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-terror",
+    "section": "history",
+    "score": {
+      "category": "여의도 한 입, 외교 한 접시",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": 3.413
+        },
+        {
+          "category": "역사로 오늘을 읽다",
+          "score": -2.61
+        },
+        {
+          "category": "도파민성애자",
+          "score": -2.763
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "special-chun-20261125-foundation",
+    "section": "history",
+    "score": {
+      "category": "도파민성애자",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "도파민성애자",
+          "score": -1.941
+        },
+        {
+          "category": "여의도 한 입, 외교 한 접시",
+          "score": -2.662
+        },
+        {
+          "category": "회장님의 도박판",
+          "score": -4.416
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "1979~1987년 사건과 이후 판결·진실규명·기관연혁을 복원하는 현대사 기사. 현재 정당·선거 뉴스나 문화 작품평이 아님."
+  },
+  {
+    "id": "column-housing-wages-tax-20261125",
+    "section": "economy",
+    "score": {
+      "category": "마이다스의 Z-Tech",
+      "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
+      "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
+      "training_examples": 34,
+      "ranking": [
+        {
+          "category": "마이다스의 Z-Tech",
+          "score": 11.946
+        },
+        {
+          "category": "경제 체온계",
+          "score": 4.257
+        },
+        {
+          "category": "트렌드人체크카드",
+          "score": 1.059
+        }
+      ],
+      "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
+    },
+    "reason": "가계투자 상품 안내가 아니라 소득·주거비·소비·보유세의 경제적 연결을 다룬 거시 정책 칼럼."
+  }
+]
