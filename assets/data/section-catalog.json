@@ -37,6 +37,10 @@
       "도파민성애자"
     ],
     [
+      "books",
+      "Today's Bookz"
+    ],
+    [
       "history",
       "역사로 오늘을 읽다"
     ],
@@ -46,11 +50,7 @@
     ],
     [
       "superrobot",
-      "초합금의 변신은 무죄"
-    ],
-    [
-      "nonrobot",
-      "드래곤볼을 삼킨 요술공주"
+      "초합금의 변신은 무죄 / 드래곤볼을 삼킨 요술공주"
     ],
     [
       "housing",
@@ -202,17 +202,17 @@
       "it": "Daily News Briefing"
     },
     "superrobot": {
-      "ko": "초합금의 변신은 무죄",
-      "en": "Chogokin Transformations",
-      "ja": "Chogokin Transformations",
-      "zh": "Chogokin Transformations",
-      "es": "Chogokin Transformations",
-      "ru": "Chogokin Transformations",
-      "ar": "Chogokin Transformations",
-      "sw": "Chogokin Transformations",
-      "fr": "Chogokin Transformations",
-      "de": "Chogokin Transformations",
-      "it": "Chogokin Transformations"
+      "ko": "초합금의 변신은 무죄 / 드래곤볼을 삼킨 요술공주",
+      "en": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "ja": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "zh": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "es": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "ru": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "ar": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "sw": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "fr": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "de": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball",
+      "it": "Chogokin Transformations / The Magical Princess Who Swallowed Dragon Ball"
     },
     "nonrobot": {
       "ko": "드래곤볼을 삼킨 요술공주",
@@ -239,6 +239,19 @@
       "fr": "Living Solutions (Income and Investment)",
       "de": "Living Solutions (Income and Investment)",
       "it": "Living Solutions (Income and Investment)"
+    },
+    "books": {
+      "ko": "Today's Bookz",
+      "en": "Today's Bookz",
+      "ja": "Today's Bookz",
+      "zh": "Today's Bookz",
+      "es": "Today's Bookz",
+      "ru": "Today's Bookz",
+      "ar": "Today's Bookz",
+      "sw": "Today's Bookz",
+      "fr": "Today's Bookz",
+      "de": "Today's Bookz",
+      "it": "Today's Bookz"
     }
   },
   "ui": {
@@ -932,7 +945,7 @@
         "zh"
       ],
       "full_markdown": "# 오늘의 책 | 한 곡의 길이로 하루를 다시 읽기\n\n## 김정원 〈나의 찬란한 그대에게〉, 음악가의 에세이를 고르는 기준\n\n피아니스트 김정원의 에세이 〈나의 찬란한 그대에게〉가 25일 북로망스에서 나왔다. 한국도서출판정보센터와 서점 정보상 420쪽, ISBN 9791124038994다. 이 글은 출판사 소개·목차·공개 미리보기를 바탕으로 한 신간 안내다. 책을 전부 읽은 서평은 아니다.\n\n![창작 3D 삽화. 실제 사건의 기록사진이나 작품 속 장면이 아닙니다.](https://lh3.googleusercontent.com/d/1DgBaEi19v7bqCEVHzwJGDUNIQPKxy8zL)\n\n## 저자부터 짧게\n\n김정원은 피아니스트이자 클래식 라디오 진행자로 활동해 왔다. 출판사 소개는 무대와 일상, 사람의 기억을 음악과 연결하는 글을 묶었다고 설명한다. 학력의 최연소·최초 같은 수식보다 연주와 말, 글 사이를 오가며 독자에게 무엇을 건넬 수 있는지가 이 책을 고르는 기준이다.\n\n## 음악을 모르는 독자도 읽을 수 있을까\n\n공개 소개를 보면 전문 연주기법 교재보다 생활과 기억을 건드리는 에세이에 가깝다. 그래서 편집부는 작곡가 이름을 얼마나 아는지보다, 음악이 자신의 어떤 장면을 떠올리게 하는지 묻는 방식으로 접근할 것을 제안한다. 공개 자료로 판단한 책의 성격이며 본문 전체의 난이도를 보증하지는 않는다.\n\n## 함께 듣는 자료의 용도\n\n함께 둔 CBS라디오의 김정원·리베란테 라이브는 저자가 음악을 매개하는 현장을 접하는 보조자료다. 해당 공연이 이 책의 수록 내용이라는 뜻은 아니다. 음악을 듣고 떠오른 개인의 기억을 짧게 적은 뒤 미리보기의 문장과 비교해 보면, 책과 자신의 거리를 가늠할 수 있다.\n\n## 사기 전에 확인할 것\n\n책의 크기와 분량, 공개 미리보기의 문장 호흡을 먼저 보자. 가격·재고·배송일은 변할 수 있어 여기서 보장하지 않는다. 예스24 상세페이지에서 저자·출판사·발행일을 출판정보와 대조했다. 소개 문구에 끌렸다면 구매 전에 실제 문장의 길이와 어조가 자신에게 맞는지 확인하는 편이 좋다.\n\n### 함께 볼 영상\n\n<h2>함께 볼 영상</h2><div class=\"video\"><iframe loading=\"lazy\" title=\"CBS라디오의 김정원·리베란테 라이브. 책 본문 낭독이나 수록곡임을 뜻하지 않는다.\" src=\"https://www.youtube-nocookie.com/embed/pihiA-aUSxA\" allow=\"encrypted-media; picture-in-picture\" allowfullscreen></iframe></div><p class=\"scope\">CBS라디오의 김정원·리베란테 라이브. 책 본문 낭독이나 수록곡임을 뜻하지 않는다.<br><a href=\"https://www.youtube.com/watch?v=pihiA-aUSxA\" target=\"_blank\" rel=\"noopener noreferrer\">YouTube ↗</a></p>\n\n### 출처와 확인 범위\n\n[1] 한국도서출판정보센터 KOBIC, 도서·저자·목차 소개\nhttps://www.kobic.net/book/bookInfo/view.do?isbn=9791124038994\n\n[2] 알라딘, 도서정보와 공개 미리보기\nhttps://www.aladin.co.kr/shop/wproduct.aspx?ItemId=406866553\n\n[3] 예스24, 도서 상세정보\nhttps://www.yes24.com/product/goods/200933494",
-      "section": "culture",
+      "section": "books",
       "urls": {
         "ko": "2026-11-26-todays-book-ko.html",
         "en": "2026-11-26-todays-book-en.html",
@@ -1164,64 +1177,6 @@
           "summary": "住房可负担性不仅是房价，更是家庭现金流",
           "category": "의식주 솔루션(소득 투자)"
         }
-      }
-    },
-    {
-      "id": "column-housing-wages-tax-20261125",
-      "title": "월급 300만 원의 무게를 아는 나라라면, 집값 정상화를 말해야 한다",
-      "subtitle": "소득보다 빠르게 멀어진 주거비는 소비의 여력을 깎는다. 보유세 정상화는 집 없는 사람만을 위한 주장이 아니라 경제의 돈 흐름을 바꾸자는 제안이다.",
-      "category": "의식주 솔루션(소득 투자)",
-      "field": "economy",
-      "tag": "2026.11.25 발행",
-      "date": "2026.11.25",
-      "author": "데일리샷 마크로 리서치",
-      "impact": "NORMAL",
-      "summary": "소득보다 빠르게 멀어진 주거비는 소비의 여력을 깎는다. 보유세 정상화는 집 없는 사람만을 위한 주장이 아니라 경제의 돈 흐름을 바꾸자는 제안이다.",
-      "filename": "housing-wages-tax-20261125.html",
-      "read_time": "5분",
-      "available_languages": [
-        "ko"
-      ],
-      "full_markdown": "# 월급 300만 원의 무게를 아는 나라라면, 집값 정상화를 말해야 한다\n\n소득보다 빠르게 멀어진 주거비는 소비의 여력을 깎는다. 보유세 정상화는 집 없는 사람만을 위한 주장이 아니라 경제의 돈 흐름을 바꾸자는 제안이다.\n\n## 월급이 작은 것이 아니라 집값의 기준이 너무 멀어졌다\n\n월 300만 원, 500만 원을 쉽게 말하는 사회가 됐다. 그러나 매달 그 돈을 노동으로 벌어 생활비를 내고 가족을 돌보는 일은 가볍지 않다. 국가데이터처의 2024년 임금근로일자리 소득 결과에서 2024년 12월 근로자의 평균소득은 375만 원, 중위소득은 288만 원이었다. 중위값은 소득 순서의 가운데다. 월 300만 원을 보잘것없는 돈으로 부르는 언어는 이 분포와 맞지 않는다. 500만 원 역시 이 두 기준보다 높은 금액이다. 다만 이는 임금근로일자리의 소득 통계이지 국민 전체의 소득도, 가구 전체의 소득도 아니다. 세후 실수령액으로 바꿔 읽거나 다른 소득구간의 정확한 백분위로 단정하지 않는다.\n\n## 10억 원을 월급으로 나누면 보이는 간격\n\n주택가격 10억 원, 한 사람의 월소득 300만 원 또는 500만 원이라는 단순 예를 놓자. 연간 소득은 각각 3,600만 원과 6,000만 원이다. 전액을 모아도 집값에 도달하는 데 약 27.8년과 16.7년이 걸린다. 세금도 생활비도 이자도 없다는 비현실적인 가정이다. 소득의 20%만 저축한다면 각각 약 138.9년과 83.3년이다. 이는 실제 서울 평균 집값이나 공식 PIR 추정치가 아니라 소득과 가격의 거리를 보여주는 계산 예시다. 집값과 임금이 변하지 않고 기존 자산·대출·가족 지원도 없다고 가정했다. 계산이 비현실적으로 길다는 사실은 노동소득만으로 출발하는 사람의 진입장벽을 보여준다.\n\n## 실제 조사에서도 서울의 문턱은 높다\n\n국토교통부의 2024년도 주거실태조사에서 자가가구의 연소득 대비 주택가격 비율은 중위값 기준 전국 6.3배였다. 같은 조사에 대한 연합뉴스 보도에서 서울은 13.9배, 수도권은 8.7배다. 이는 2024년 조사값이며 2026년 현재 매물가격이 아니다. 자가가구의 주택가격과 가구소득을 비교한 지표를 한 사람의 월급이나 신규 구매자의 실제 저축기간으로 설명해서도 안 된다. 그래도 결론은 선명하다. 이미 집을 가진 가구의 소득으로 재도 가격과 소득의 간격이 크다. 주거정책의 성공을 가격 상승률로만 자축하기 어려운 이유다.\n\n## 집값 상승이 모두의 소득 상승은 아니다\n\n집값이 오르면 소유자는 자산 평가이익을 얻을 수 있다. 부채가 적고 자산을 활용할 수 있는 일부 가구는 소비도 늘릴 수 있다. 따라서 집값 상승은 모든 사람에게 매 순간 같은 손해라는 말은 정확하지 않다. 그러나 사회 전체가 더 큰 집값을 계속 감당해야 하는 구조는 다르다. 처음 집을 구하는 사람, 더 넓은 집으로 옮겨야 하는 가족, 자녀의 주거비를 걱정하는 부모에게 상승분은 다음 부담이다. 기존 주택을 더 비싸게 사고파는 것만으로 상품과 서비스가 그만큼 더 생산되는 것도 아니다. 개인의 자산 이익과 국민경제의 후생은 같은 숫자가 아니다.\n\n## 소비를 누르는 것은 평가이익보다 매달의 현금흐름이다\n\n한국은행이 2025년 11월 공개한 부동산발 가계부채 연구는 누적된 가계신용이 민간소비를 구조적으로 제약했을 가능성을 분석했다. 해당 모형에서는 가계부채가 2012년 수준으로 관리됐다면 2024년 민간소비 수준이 실제보다 4.9~5.4% 높았을 수 있다고 추정했다. 이는 조건을 둔 반사실적 분석이지 집값 때문에 그만큼의 소비가 실제로 사라졌음을 직접 센 통계가 아니다. 연구가 지목한 경로는 원리금 부담, 제한적인 주택자산의 부의 효과, 기존 부동산 거래로의 대출 편중이다. 집값이 경제 부진의 유일한 원인은 아니지만 부채와 주거비를 빼고 소비 부진을 설명할 수도 없다.\n\n## 월 300만 원 앞의 이자 167만 원\n\n대출 5억 원에 연 4%라는 가정이면 단순 이자만 연 2,000만 원, 월평균 약 166만7,000원이다. 원금 상환과 수수료는 넣지 않았다. 현재 대출 상품의 금리 제안이나 이 소득으로 대출이 승인된다는 뜻도 아니다. 이 계산은 가계의 현금흐름을 보기 위한 예다. 주택가격을 감당하려고 빚을 늘릴수록 식당과 서점, 여행과 문화, 아이의 필요에 쓸 여력이 줄어들 수 있다. 내 집값은 올랐는데 동네 장사는 어렵다는 장면이 반드시 모순은 아니다. 자산의 장부와 매달 쓸 수 있는 돈의 장부가 다르기 때문이다.\n\n## 보유세 정상화는 벌이 아니라 보유 비용의 정상화다\n\n이 칼럼은 보유세의 역할을 정상화해야 한다고 주장한다. 집을 살 때의 거래에 과도하게 매달리기보다 가치가 큰 자산을 오래 보유하는 동안 공적 비용을 어떻게 나눌지 묻자는 것이다. 교통과 교육, 안전과 기반시설 등 공동체가 만든 조건은 입지의 가치에 반영된다. 부동산의 가치와 세 부담이 계속 어긋나면 노동으로 버는 돈보다 자산을 쥐고 기다리는 선택에 유리한 유인이 생길 수 있다. 보유세는 그 불균형을 줄이는 수단 중 하나다. 특정한 세율 하나가 정답이라는 뜻이나 세금만으로 집값을 반드시 내릴 수 있다는 주장은 아니다.\n\n## 국제 연구가 권하는 것은 세율 인상 한 줄이 아니다\n\nOECD의 2022년 주택과세 보고서는 부동산 가치를 정기적으로 갱신해 반복 보유세의 역할을 강화하고, 거래세를 낮추는 방향을 개혁 선택지로 제시한다. 오래된 과표는 비슷한 가치의 집 사이 형평을 깨뜨리고, 이동과 주택의 효율적 이용을 왜곡할 수 있다는 설명이다. 이 보고서를 한국의 2026년 실효세율이 OECD 몇 위라는 주장으로 쓰지는 않는다. 그런 비교에는 같은 범위의 세금과 같은 분모가 필요하다. 정상화는 단순 증세 구호보다 과표·세율·감면·거래세를 함께 설계하는 일에 가깝다.\n\n## 현금이 부족한 1주택자와 세입자를 정책 밖에 두지 않는다\n\n집은 있지만 소득이 적은 고령가구의 납부능력은 실제 문제다. OECD도 유동성 제약을 지적한다. 이에 대한 답은 모든 고가자산의 부담을 일괄 낮추는 것만은 아니다. 소득을 고려한 납부유예·분할납부와 같은 보호 장치를 정교하게 설계할 수 있다. 여기서 유예는 면제와 다르며 구체 제도는 입법과 행정의 검토가 필요하다. 임대인이 세 부담을 세입자에게 얼마나 옮길 수 있는지도 시장 조건에 따라 다르다. 보유세는 모두 전가된다거나 전혀 전가되지 않는다고 단정하지 않고, 임대주택 공급과 세입자 보호를 함께 살펴야 한다.\n\n## 정상화의 목표는 폭락이 아니라 소득으로 감당하는 주거다\n\n집값 정상화를 정책의 필수 목표로 놓아야 한다. 여기서 정상화는 금융불안과 취약차주의 손실을 방치하는 무질서한 폭락이 아니다. 소득·임대료·주거서비스와의 괴리가 줄고, 필요한 집을 구하려고 생애 전체를 빚에 묶지 않아도 되는 방향이다. 공급과 입지의 문제, 공공임대와 교통, 대출 규율, 보유·거래세를 함께 다뤄야 한다. 가격이 얼마나 빨리, 어디까지 조정돼야 하는지는 별도 자료와 사회적 합의가 필요한 정책 판단이다. 상승만이 안정을 뜻한다는 관성부터 바꿔야 한다.\n\n## 월급의 존엄을 회복하는 주거정책\n\n한 집의 가격이 오른 것을 나라 전체가 부유해졌다는 소식처럼 읽는 관행은 바뀌어야 한다. 주거비와 부채가 소비를 잠식하면 집 없는 사람만이 아니라 자영업자와 기업, 다음 세대의 선택지도 좁아진다. 월급 300만 원과 500만 원의 무게를 안다면, 그 소득을 가볍게 만드는 주택가격을 당연하게 여길 수 없다. 보유세 정상화와 안정적인 가격 조정은 부동산 소유자를 벌주자는 제안이 아니다. 일해서 버는 돈이 삶을 꾸리고 소비와 투자로 다시 흐르는 경제를 만들자는 주장이다. 집값이 아니라 사람의 생활이 정책의 기준이어야 한다.\n\n## 출처\n\n- 국가데이터처, 2024년 임금근로일자리 소득(보수), 2026.2.23.: https://www.mods.go.kr/board.es?act=view&bid=11113&list_no=443648&mid=a10301010000\n- 국토교통부 2024년도 주거실태조사, KDI 제공 요약: https://eiec.kdi.re.kr/policy/materialView.do?num=273475\n- 연합뉴스, 2024년 서울·수도권 PIR, 2025.11.16.: https://www.yna.co.kr/view/AKR20251116019500003\n- 한국은행, 부동산발 가계부채 누증이 소비에 미치는 영향, 2025.11.30.: https://www.bok.or.kr/portal/bbs/B0000368/view.do?menuNo=201140&nttId=10094842\n- 한국은행 경제분석, 주택가격과 소비의 이질적 효과, 2015.6.30.: https://www.bok.or.kr/portal/bbs/P0000556/view.do?depth=200440&menuNo=200440&nttId=210405&oldMenuNo=201150&programType=newsData&relate=Y\n- OECD, Housing Taxation in OECD Countries, 2022, 제3장: https://www.oecd.org/en/publications/housing-taxation-in-oecd-countries_03dfe007-en/full-report/component-6.html\n- 참고 영상: 월300 벌기도 너무 힘들어진 최근 한국 현실, 제공 자막 확인: https://youtu.be/aGbhJrs-d9c\n",
-      "edition": "column",
-      "section": "housing",
-      "classification": {
-        "score": {
-          "category": "마이다스의 Z-Tech",
-          "reason": "Highest pooled-diagonal shrinkage LDA ranking score; semantic review required for close scores.",
-          "method": "editorial-keyword shrinkage linear discriminant score with canonical format rules",
-          "training_examples": 34,
-          "ranking": [
-            {
-              "category": "마이다스의 Z-Tech",
-              "score": 11.946
-            },
-            {
-              "category": "경제 체온계",
-              "score": 4.257
-            },
-            {
-              "category": "트렌드人체크카드",
-              "score": 1.059
-            }
-          ],
-          "warning": "Ranking scores are not probabilities; no out-of-sample accuracy claimed."
-        },
-        "editorial_reason": "가계투자 상품 안내가 아니라 소득·주거비·소비·보유세의 경제적 연결을 다룬 거시 정책 칼럼."
-      },
-      "local": {
-        "ko": {
-          "title": "월급 300만 원의 무게를 아는 나라라면, 집값 정상화를 말해야 한다",
-          "summary": "소득보다 빠르게 멀어진 주거비는 소비의 여력을 깎는다. 보유세 정상화는 집 없는 사람만을 위한 주장이 아니라 경제의 돈 흐름을 바꾸자는 제안이다.",
-          "category": "경제 체온계",
-          "full_markdown": "# 월급 300만 원의 무게를 아는 나라라면, 집값 정상화를 말해야 한다\n\n소득보다 빠르게 멀어진 주거비는 소비의 여력을 깎는다. 보유세 정상화는 집 없는 사람만을 위한 주장이 아니라 경제의 돈 흐름을 바꾸자는 제안이다.\n\n## 월급이 작은 것이 아니라 집값의 기준이 너무 멀어졌다\n\n월 300만 원, 500만 원을 쉽게 말하는 사회가 됐다. 그러나 매달 그 돈을 노동으로 벌어 생활비를 내고 가족을 돌보는 일은 가볍지 않다. 국가데이터처의 2024년 임금근로일자리 소득 결과에서 2024년 12월 근로자의 평균소득은 375만 원, 중위소득은 288만 원이었다. 중위값은 소득 순서의 가운데다. 월 300만 원을 보잘것없는 돈으로 부르는 언어는 이 분포와 맞지 않는다. 500만 원 역시 이 두 기준보다 높은 금액이다. 다만 이는 임금근로일자리의 소득 통계이지 국민 전체의 소득도, 가구 전체의 소득도 아니다. 세후 실수령액으로 바꿔 읽거나 다른 소득구간의 정확한 백분위로 단정하지 않는다.\n\n## 10억 원을 월급으로 나누면 보이는 간격\n\n주택가격 10억 원, 한 사람의 월소득 300만 원 또는 500만 원이라는 단순 예를 놓자. 연간 소득은 각각 3,600만 원과 6,000만 원이다. 전액을 모아도 집값에 도달하는 데 약 27.8년과 16.7년이 걸린다. 세금도 생활비도 이자도 없다는 비현실적인 가정이다. 소득의 20%만 저축한다면 각각 약 138.9년과 83.3년이다. 이는 실제 서울 평균 집값이나 공식 PIR 추정치가 아니라 소득과 가격의 거리를 보여주는 계산 예시다. 집값과 임금이 변하지 않고 기존 자산·대출·가족 지원도 없다고 가정했다. 계산이 비현실적으로 길다는 사실은 노동소득만으로 출발하는 사람의 진입장벽을 보여준다.\n\n## 실제 조사에서도 서울의 문턱은 높다\n\n국토교통부의 2024년도 주거실태조사에서 자가가구의 연소득 대비 주택가격 비율은 중위값 기준 전국 6.3배였다. 같은 조사에 대한 연합뉴스 보도에서 서울은 13.9배, 수도권은 8.7배다. 이는 2024년 조사값이며 2026년 현재 매물가격이 아니다. 자가가구의 주택가격과 가구소득을 비교한 지표를 한 사람의 월급이나 신규 구매자의 실제 저축기간으로 설명해서도 안 된다. 그래도 결론은 선명하다. 이미 집을 가진 가구의 소득으로 재도 가격과 소득의 간격이 크다. 주거정책의 성공을 가격 상승률로만 자축하기 어려운 이유다.\n\n## 집값 상승이 모두의 소득 상승은 아니다\n\n집값이 오르면 소유자는 자산 평가이익을 얻을 수 있다. 부채가 적고 자산을 활용할 수 있는 일부 가구는 소비도 늘릴 수 있다. 따라서 집값 상승은 모든 사람에게 매 순간 같은 손해라는 말은 정확하지 않다. 그러나 사회 전체가 더 큰 집값을 계속 감당해야 하는 구조는 다르다. 처음 집을 구하는 사람, 더 넓은 집으로 옮겨야 하는 가족, 자녀의 주거비를 걱정하는 부모에게 상승분은 다음 부담이다. 기존 주택을 더 비싸게 사고파는 것만으로 상품과 서비스가 그만큼 더 생산되는 것도 아니다. 개인의 자산 이익과 국민경제의 후생은 같은 숫자가 아니다.\n\n## 소비를 누르는 것은 평가이익보다 매달의 현금흐름이다\n\n한국은행이 2025년 11월 공개한 부동산발 가계부채 연구는 누적된 가계신용이 민간소비를 구조적으로 제약했을 가능성을 분석했다. 해당 모형에서는 가계부채가 2012년 수준으로 관리됐다면 2024년 민간소비 수준이 실제보다 4.9~5.4% 높았을 수 있다고 추정했다. 이는 조건을 둔 반사실적 분석이지 집값 때문에 그만큼의 소비가 실제로 사라졌음을 직접 센 통계가 아니다. 연구가 지목한 경로는 원리금 부담, 제한적인 주택자산의 부의 효과, 기존 부동산 거래로의 대출 편중이다. 집값이 경제 부진의 유일한 원인은 아니지만 부채와 주거비를 빼고 소비 부진을 설명할 수도 없다.\n\n## 월 300만 원 앞의 이자 167만 원\n\n대출 5억 원에 연 4%라는 가정이면 단순 이자만 연 2,000만 원, 월평균 약 166만7,000원이다. 원금 상환과 수수료는 넣지 않았다. 현재 대출 상품의 금리 제안이나 이 소득으로 대출이 승인된다는 뜻도 아니다. 이 계산은 가계의 현금흐름을 보기 위한 예다. 주택가격을 감당하려고 빚을 늘릴수록 식당과 서점, 여행과 문화, 아이의 필요에 쓸 여력이 줄어들 수 있다. 내 집값은 올랐는데 동네 장사는 어렵다는 장면이 반드시 모순은 아니다. 자산의 장부와 매달 쓸 수 있는 돈의 장부가 다르기 때문이다.\n\n## 보유세 정상화는 벌이 아니라 보유 비용의 정상화다\n\n이 칼럼은 보유세의 역할을 정상화해야 한다고 주장한다. 집을 살 때의 거래에 과도하게 매달리기보다 가치가 큰 자산을 오래 보유하는 동안 공적 비용을 어떻게 나눌지 묻자는 것이다. 교통과 교육, 안전과 기반시설 등 공동체가 만든 조건은 입지의 가치에 반영된다. 부동산의 가치와 세 부담이 계속 어긋나면 노동으로 버는 돈보다 자산을 쥐고 기다리는 선택에 유리한 유인이 생길 수 있다. 보유세는 그 불균형을 줄이는 수단 중 하나다. 특정한 세율 하나가 정답이라는 뜻이나 세금만으로 집값을 반드시 내릴 수 있다는 주장은 아니다.\n\n## 국제 연구가 권하는 것은 세율 인상 한 줄이 아니다\n\nOECD의 2022년 주택과세 보고서는 부동산 가치를 정기적으로 갱신해 반복 보유세의 역할을 강화하고, 거래세를 낮추는 방향을 개혁 선택지로 제시한다. 오래된 과표는 비슷한 가치의 집 사이 형평을 깨뜨리고, 이동과 주택의 효율적 이용을 왜곡할 수 있다는 설명이다. 이 보고서를 한국의 2026년 실효세율이 OECD 몇 위라는 주장으로 쓰지는 않는다. 그런 비교에는 같은 범위의 세금과 같은 분모가 필요하다. 정상화는 단순 증세 구호보다 과표·세율·감면·거래세를 함께 설계하는 일에 가깝다.\n\n## 현금이 부족한 1주택자와 세입자를 정책 밖에 두지 않는다\n\n집은 있지만 소득이 적은 고령가구의 납부능력은 실제 문제다. OECD도 유동성 제약을 지적한다. 이에 대한 답은 모든 고가자산의 부담을 일괄 낮추는 것만은 아니다. 소득을 고려한 납부유예·분할납부와 같은 보호 장치를 정교하게 설계할 수 있다. 여기서 유예는 면제와 다르며 구체 제도는 입법과 행정의 검토가 필요하다. 임대인이 세 부담을 세입자에게 얼마나 옮길 수 있는지도 시장 조건에 따라 다르다. 보유세는 모두 전가된다거나 전혀 전가되지 않는다고 단정하지 않고, 임대주택 공급과 세입자 보호를 함께 살펴야 한다.\n\n## 정상화의 목표는 폭락이 아니라 소득으로 감당하는 주거다\n\n집값 정상화를 정책의 필수 목표로 놓아야 한다. 여기서 정상화는 금융불안과 취약차주의 손실을 방치하는 무질서한 폭락이 아니다. 소득·임대료·주거서비스와의 괴리가 줄고, 필요한 집을 구하려고 생애 전체를 빚에 묶지 않아도 되는 방향이다. 공급과 입지의 문제, 공공임대와 교통, 대출 규율, 보유·거래세를 함께 다뤄야 한다. 가격이 얼마나 빨리, 어디까지 조정돼야 하는지는 별도 자료와 사회적 합의가 필요한 정책 판단이다. 상승만이 안정을 뜻한다는 관성부터 바꿔야 한다.\n\n## 월급의 존엄을 회복하는 주거정책\n\n한 집의 가격이 오른 것을 나라 전체가 부유해졌다는 소식처럼 읽는 관행은 바뀌어야 한다. 주거비와 부채가 소비를 잠식하면 집 없는 사람만이 아니라 자영업자와 기업, 다음 세대의 선택지도 좁아진다. 월급 300만 원과 500만 원의 무게를 안다면, 그 소득을 가볍게 만드는 주택가격을 당연하게 여길 수 없다. 보유세 정상화와 안정적인 가격 조정은 부동산 소유자를 벌주자는 제안이 아니다. 일해서 버는 돈이 삶을 꾸리고 소비와 투자로 다시 흐르는 경제를 만들자는 주장이다. 집값이 아니라 사람의 생활이 정책의 기준이어야 한다.\n\n## 출처\n\n- 국가데이터처, 2024년 임금근로일자리 소득(보수), 2026.2.23.: https://www.mods.go.kr/board.es?act=view&bid=11113&list_no=443648&mid=a10301010000\n- 국토교통부 2024년도 주거실태조사, KDI 제공 요약: https://eiec.kdi.re.kr/policy/materialView.do?num=273475\n- 연합뉴스, 2024년 서울·수도권 PIR, 2025.11.16.: https://www.yna.co.kr/view/AKR20251116019500003\n- 한국은행, 부동산발 가계부채 누증이 소비에 미치는 영향, 2025.11.30.: https://www.bok.or.kr/portal/bbs/B0000368/view.do?menuNo=201140&nttId=10094842\n- 한국은행 경제분석, 주택가격과 소비의 이질적 효과, 2015.6.30.: https://www.bok.or.kr/portal/bbs/P0000556/view.do?depth=200440&menuNo=200440&nttId=210405&oldMenuNo=201150&programType=newsData&relate=Y\n- OECD, Housing Taxation in OECD Countries, 2022, 제3장: https://www.oecd.org/en/publications/housing-taxation-in-oecd-countries_03dfe007-en/full-report/component-6.html\n- 참고 영상: 월300 벌기도 너무 힘들어진 최근 한국 현실, 제공 자막 확인: https://youtu.be/aGbhJrs-d9c\n"
-        }
-      },
-      "urls": {
-        "ko": "housing-wages-tax-20261125.html"
-      },
-      "publication_urls": {
-        "ko": "housing-wages-tax-20261125.html"
       }
     },
     {
@@ -2222,35 +2177,6 @@
       }
     },
     {
-      "id": "report-2026-11-24-15-jeonse-deposit-gap",
-      "title": "2027년 전세 재계약, 집값보다 먼저 확인할 보증금 격차",
-      "subtitle": "재계약 권리와 자금 차액을 나누어 읽기",
-      "category": "경제 체온계",
-      "field": "주거·임대차",
-      "tag": "2026.11.24 발행",
-      "date": "2026.11.24",
-      "author": "데일리샷 마크로 리서치",
-      "impact": "NORMAL",
-      "summary": "전세 재계약을 앞둔 가계에 중요한 숫자는 집값 상승률만이 아니다. 돌려받을 보증금과 다음 계약에 필요한 보증금의 차이, 그 차이를 마련하는 비용이 실제 주거 선택을 바꾼다. 낮은 가격에 계약한 뒤 한 차례 갱신한 세입자라면, 다음 계약 때 시장가격과 기존 보증금 사이의 간격이 얼마나 벌어졌는지 따로 살펴야 한다.",
-      "filename": "reports/2026-11-24/jeonse-deposit-gap-ko.md",
-      "read_time": "5분",
-      "edition": "daily",
-      "available_languages": [
-        "ko"
-      ],
-      "section": "economy",
-      "local": {
-        "ko": {
-          "title": "2027년 전세 재계약, 집값보다 먼저 확인할 보증금 격차",
-          "summary": "전세 재계약을 앞둔 가계에 중요한 숫자는 집값 상승률만이 아니다. 돌려받을 보증금과 다음 계약에 필요한 보증금의 차이, 그 차이를 마련하는 비용이 실제 주거 선택을 바꾼다. 낮은 가격에 계약한 뒤 한 차례 갱신한 세입자라면, 다음 계약 때 시장가격과 기존 보증금 사이의 간격이 얼마나 벌어졌는지 따로 살펴야 한다.",
-          "category": "경제 체온계"
-        }
-      },
-      "urls": {
-        "ko": "jeonse-deposit-gap-20261124.html"
-      }
-    },
-    {
       "id": "report-2026-11-24-14-daily-news-briefing",
       "title": "Daily News Briefing · 개각 후보5명 지명, 한미 증시는 엇갈렸다",
       "subtitle": "정치·경제·사회문화 아침 종합",
@@ -2362,7 +2288,7 @@
       "read_time": "12분",
       "edition": "daily",
       "revision": "2026.11.24 심화 개정",
-      "section": "culture",
+      "section": "books",
       "local": {
         "ko": {
           "id": "report-2026-11-24-13-todays-book",
@@ -5731,7 +5657,7 @@
       "filename": "2026-11-22-todays-book.md",
       "read_time": "5분",
       "edition": "daily",
-      "section": "culture",
+      "section": "books",
       "local": {
         "ko": {
           "id": "report-2026-11-22-12-todays-book",
@@ -26803,26 +26729,6 @@
       }
     },
     {
-      "id": "special-jeonse-20261125",
-      "title": "2027년 전세 재계약, 집값보다 먼저 확인할 보증금 격차",
-      "summary": "재계약 보증금의 격차, 갱신요구권, 계약 비교와 만기 규정을 구분합니다.",
-      "section": "housing",
-      "category": "의식주 솔루션(소득 투자)",
-      "date": "2026.11.25",
-      "local": {
-        "ko": {
-          "title": "2027년 전세 재계약, 집값보다 먼저 확인할 보증금 격차",
-          "summary": "재계약 보증금의 격차, 갱신요구권, 계약 비교와 만기 규정을 구분합니다."
-        }
-      },
-      "urls": {
-        "ko": "special-jeonse-20261125.html",
-        "en": "special-jeonse-20261125-en.html",
-        "ja": "special-jeonse-20261125-ja.html",
-        "zh": "special-jeonse-20261125-zh.html"
-      }
-    },
-    {
       "id": "daily-news-briefing-20261125",
       "section": "briefing",
       "category": "Daily News Briefing",
@@ -26985,17 +26891,17 @@
       "it": "Notizie del mattino: politica, economia, società e cultura"
     },
     "superrobot": {
-      "ko": "슈퍼로봇·특촬·메카",
-      "en": "Super robots, tokusatsu and mecha",
-      "ja": "Super robots, tokusatsu and mecha",
-      "zh": "Super robots, tokusatsu and mecha",
-      "es": "Super robots, tokusatsu and mecha",
-      "ru": "Super robots, tokusatsu and mecha",
-      "ar": "Super robots, tokusatsu and mecha",
-      "sw": "Super robots, tokusatsu and mecha",
-      "fr": "Super robots, tokusatsu and mecha",
-      "de": "Super robots, tokusatsu and mecha",
-      "it": "Super robots, tokusatsu and mecha"
+      "ko": "슈퍼로봇·특촬·메카 / 비로봇 애니메이션·만화",
+      "en": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "ja": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "zh": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "es": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "ru": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "ar": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "sw": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "fr": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "de": "Super robots, tokusatsu and mecha / Non-robot anime and manga",
+      "it": "Super robots, tokusatsu and mecha / Non-robot anime and manga"
     },
     "nonrobot": {
       "ko": "비로봇 애니메이션·만화",
@@ -27022,6 +26928,19 @@
       "fr": "Practical choices for living costs, income and investment",
       "de": "Practical choices for living costs, income and investment",
       "it": "Practical choices for living costs, income and investment"
+    },
+    "books": {
+      "ko": "책을 통해 경제와 사회, 생활을 다시 읽습니다.",
+      "en": "Read economics, society and everyday life through books.",
+      "ja": "本を通じて経済・社会・暮らしを読み直す。",
+      "zh": "通过书籍重新阅读经济、社会与生活。",
+      "es": "Books, economics, society and everyday life.",
+      "ru": "Books, economics, society and everyday life.",
+      "ar": "Books, economics, society and everyday life.",
+      "sw": "Books, economics, society and everyday life.",
+      "fr": "Books, economics, society and everyday life.",
+      "de": "Books, economics, society and everyday life.",
+      "it": "Books, economics, society and everyday life."
     }
   }
 }
