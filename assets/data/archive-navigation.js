@@ -34,7 +34,7 @@ window.magazineArchiveCount=(total,n,search)=>{
 function dailyEdition(){
  const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-\d{2,}-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
  const dates=[...new Set(eligible.map(r=>r.date))].sort().reverse();
- const date=dates.find(d=>eligible.filter(r=>r.date===d).length>=10);if(!date)return;
+ const date=dates.find(d=>eligible.filter(r=>r.date===d).length>=1);if(!date)return;
  const selected=eligible.filter(r=>r.date===date).sort((a,b)=>a.id.localeCompare(b.id)),grid=document.getElementById('nr-article-grid');if(!grid)return;
  const signature=l+':'+date+':'+selected.map(r=>r.id).join(',');if(grid.dataset.editionSignature===signature)return;grid.dataset.editionSignature=signature;grid.replaceChildren();
  const heading=document.querySelector('#nr-recent h2'),stamp=document.querySelector('#nr-recent small');
