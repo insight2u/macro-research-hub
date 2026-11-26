@@ -29,3 +29,5 @@ function sync(){for(const b of document.querySelectorAll('button')){if(!b.closes
 // Homepage briefing has no SNS share bar; article-specific sharing is unchanged.
 new MutationObserver(()=>{const art=document.querySelector('#ar-article');if(art?.querySelector('h1')&&!art.querySelector('.ds-share'))sync();}).observe(document.body,{childList:true,subtree:true});new MutationObserver(sync).observe(document.documentElement,{attributes:true,attributeFilter:['data-lang','lang']});window.addEventListener('hashchange',sync);sync();
 })();
+// Keep reference presentation consistent on standalone articles.
+(()=>{if(document.querySelector('script[data-reference-layout]'))return;const own=[...document.scripts].find(s=>s.src.includes('/social-sharing.js'));if(!own)return;const s=document.createElement('script');s.dataset.referenceLayout='true';s.src=new URL('article-references.js?v=20261126-core1',own.src).href;document.body.append(s)})();
