@@ -2,6 +2,7 @@
 'use strict';
 const root=new URL('./',document.baseURI);const names={ko:['SNS 퍼가기','링크복사','공유하기','링크를 복사했습니다.','복사하지 못했습니다. 주소창의 링크를 복사해 주세요.'],en:['Share','Copy link','Share…','Link copied.','Copy failed. Copy the address-bar link.'],ja:['シェア','リンクをコピー','共有','コピーしました。','アドレスバーのリンクをコピーしてください。'],zh:['分享','复制链接','分享…','链接已复制。','请复制地址栏中的链接。']};
 
+names.es=['Compartir','Copiar enlace','Compartir…','Enlace copiado.','No se pudo copiar. Copia la dirección del navegador.'];
 const kakaoWords={
 ko:['복사했습니다. 카카오톡에 붙여넣으세요.','링크를 복사해 카카오톡에 붙여넣기','자동 복사가 차단되었습니다. 아래 링크를 복사해 카카오톡에 붙여넣으세요.'],
 en:['Copied. Paste it into KakaoTalk.','Copy the link to paste into KakaoTalk','Automatic copying was blocked. Copy the link below and paste it into KakaoTalk.'],

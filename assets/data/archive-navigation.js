@@ -19,6 +19,7 @@ window.magazineArchiveLabel=k=>list()[{read:0,direct:1,empty:2}[k]];
 const nov22CategoryLabels={"en": {"경제 체온계": "Economy Thermometer", "공장장 보고": "Factory Manager's Report", "회장님의 도박판": "The Chairman's Gamble", "트렌드人체크카드": "Trend Check Card", "여의도 한 입, 외교 한 접시": "A Bite of Yeouido, a Plate of Diplomacy", "돈 벌러 세계속으로": "Into the World to Make Money", "라이프人정글": "Life in the Human Jungle", "마이다스의 Z-Tech": "Midas's Z-Tech", "도파민성애자": "Dopamine Lovers", "역사로 오늘을 읽다": "Reading Today Through History"}, "zh": {"경제 체온계": "经济体温计", "공장장 보고": "厂长报告", "회장님의 도박판": "董事长的赌局", "트렌드人체크카드": "趋势人消费卡", "여의도 한 입, 외교 한 접시": "汝矣岛一口，外交一盘", "돈 벌러 세계속으로": "到世界去赚钱", "라이프人정글": "生活丛林", "마이다스의 Z-Tech": "迈达斯的Z-Tech", "도파민성애자": "多巴胺爱好者", "역사로 오늘을 읽다": "用历史读今天"}, "ja": {"경제 체온계": "経済の体温計", "공장장 보고": "工場長レポート", "회장님의 도박판": "会長の賭け", "트렌드人체크카드": "トレンド人チェックカード", "여의도 한 입, 외교 한 접시": "汝矣島を一口、外交を一皿", "돈 벌러 세계속으로": "世界へ稼ぎに行こう", "라이프人정글": "暮らしのジャングル", "마이다스의 Z-Tech": "ミダスのZ-Tech", "도파민성애자": "ドーパミン愛好家", "역사로 오늘을 읽다": "歴史で今日を読む"}};
 // END NOV22 CATEGORY LABELS
 function record(r){
+ const exact=(window.ISSUE_LOCAL_20261127||{})[r.id]?.[lang()];if(exact)return exact;
  const md=((window.BODY_I18N||{})[r.id]||{})[lang()];
  if(lang()==='ko')return r;
  if(!md)return {title:r.title+' ['+list()[7]+']',summary:r.summary,category:((nov22CategoryLabels[lang()]||{})[r.category]||r.category)+' ['+list()[7]+']'};
@@ -35,10 +36,10 @@ function dailyEdition(){
  const l=lang(),all=typeof reports!=='undefined'?reports:[],eligible=all.filter(r=>/^report-\d{4}-\d{2}-\d{2}-/.test(r.id)&&(l==='ko'||((window.BODY_I18N||{})[r.id]||{})[l]));
  const dates=[...new Set(eligible.map(r=>r.date))].sort().reverse();
  const date=dates.find(d=>eligible.filter(r=>r.date===d).length>=1);if(!date)return;
- const selected=eligible.filter(r=>r.date===date).sort((a,b)=>a.id.localeCompare(b.id)),grid=document.getElementById('nr-article-grid');if(!grid)return;
+ const selected=eligible.filter(r=>r.date===date),grid=document.getElementById('nr-article-grid');if(!grid)return;
  const signature=l+':'+date+':'+selected.map(r=>r.id).join(',');if(grid.dataset.editionSignature===signature)return;grid.dataset.editionSignature=signature;grid.replaceChildren();
  const heading=document.querySelector('#nr-recent h2'),stamp=document.querySelector('#nr-recent small');
- const titles={ko:'오늘의 기사',en:'Latest articles',ja:'今日の記事',zh:'今日文章',es:'Última edición · Top 10',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
+ const titles={ko:'오늘의 기사',en:'Latest articles',ja:'今日の記事',zh:'今日文章',es:'Artículos de hoy',ru:'Последний выпуск · Топ-10',ar:'أحدث إصدار · أهم 10',sw:'Toleo la karibuni · 10 bora',fr:'Dernière édition · Top 10',de:'Neueste Ausgabe · Top 10',it:'Ultima edizione · Top 10'};
  if(heading)heading.textContent=titles[l]||titles.en;if(stamp)stamp.textContent=date;
  selected.forEach(r=>{const local=record(r),a=document.createElement('article');a.className='nr-card';a.dataset.articleId=r.id;const k=document.createElement('b');k.textContent=local.category+' · '+r.date;const h=document.createElement('h3');h.textContent=r.date==='2026.11.21'?local.title.replace(/^[^|]+\|\s*/,''):local.title;h.style.cursor='pointer';const p=document.createElement('p');p.textContent=local.summary;const b=document.createElement('button');b.className='nr-read';b.textContent=list()[0]+' →';const open=()=>window.newspaperArchive?.openArticle(r.id);h.onclick=open;p.onclick=open;b.onclick=open;a.append(k,h,p,b);grid.append(a)});
 }
