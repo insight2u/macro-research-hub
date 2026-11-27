@@ -31,6 +31,36 @@ const items = [{"id": "208e42c8c5e280818967ce36a5ab4e9f", "title": "Chemical Eng
     }
   },
   {
+    "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison",
+    "title": "주가 급락 일주일: 코스피 기록과 2000년 닷컴 때와의 비교",
+    "subtitle": "11월 6일부터 27일까지 공식 시황과 영상 속 주장을 날짜별로 대조한다",
+    "category": "마이다스의 Z-Tech",
+    "field": "마이다스의 Z-Tech",
+    "tag": "2026.11.28 발행",
+    "date": "2026.11.28",
+    "author": "데일리샷 마크로 리서치",
+    "impact": "NORMAL",
+    "summary": "11월 6~27일 코스피의 날짜별 마감 숫자, 고점 대비 낙폭, 영상 속 주장의 확인 결과, 2000년 닷컴 시기와의 같은 점과 다른 점을 공식 시황 자료로 정리했다.",
+    "filename": "2026-11-28-kospi-selloff-week-dotcom-comparison-ko.html",
+    "read_time": "5분",
+    "edition": "daily",
+    "available_languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es"
+    ],
+    "full_markdown": "# 주가 급락 일주일: 코스피 기록과 2000년 닷컴 때와의 비교\n\n11월 6일부터 27일까지 공식 시황과 영상 속 주장을 날짜별로 대조한다\n\n코스피는 11월 25일 6.16% 내린 4,697.51로 마감했고, 27일에는 4.34% 올라 4,915.68이 됐다. 하루 6%대 등락이 이어진 한 주 동안 영상 채널에는 추가 하락을 말하는 내용이 많았다. 이 글은 확인된 시황 숫자와 영상 속 주장을 나눠 적고, 2000년 닷컴 시기와 같은 점과 다른 점을 정리한다.\n\n## 이번 주 시황: 날짜별 숫자\n\n11월 6일 코스피는 6.02% 내린 5,059.69로 마감했다. 장중 4,911.28까지 밀려 1단계 서킷브레이커가 발동됐고, 외국인은 이날 약 2조 7,700억원어치를 순매도했다(연합뉴스, 주간동아). 24일 6.32% 오른 5,006.03을 기록했지만 25일에는 6.16% 내린 4,697.51로 마감했다. 이날 외국인은 약 1조 9,000억원을 순매도했고, 올해 사이드카 발동은 102회가 됐다(헤럴드경제). 26일에는 한국은행이 기준금리를 3.25%로 올렸고, 코스피는 0.29% 오른 4,711.21로 끝났다. 27일에는 외국인이 1조 1,256억원 순매수하며 4.34% 오른 4,915.68, 코스닥은 8.13% 오른 708.99로 마감했다. 증시 안정 대책에 대한 기대가 배경으로 거론됐다(블록미디어, 연합뉴스).\n\n## 고점 대비 낙폭\n\n코스피 종가 기준 최고치는 6월 22일의 9,114.55다. 25일 종가는 이보다 48.46% 낮았다(머니투데이). 27일 종가 4,915.68을 같은 기준으로 계산하면 고점보다 약 46.1% 낮다. 현대차증권은 20일 기준 낙폭을 46.6%로 집계하면서, 2008년 금융위기 때의 54.5%와 2001년 닷컴 붕괴·9·11 당시의 55.7%와 비교했다(한국경제).\n\n## 영상 속 주장 대조\n\n한 경제 채널 영상은 11월 6일 종가 기준 고점 대비 약 44.5% 하락했다고 말했는데, 공식 종가(5,059.69)로 계산하면 44.5%로 맞다. 같은 영상의 외국인 순매도 '250조원 이상'은 확인되지 않았다. 한국거래소 자료를 인용한 보도는 11월 18일까지 유가증권시장 223조 6,348억원(전자신문), 금융감독원은 10월까지 상장주식 약 240조원(KBS)이다. 국민연금의 국내주식 목표 비중이 20.8%로 올랐다는 설명은 보도와 일치한다(한국경제). '6거래일 13조원', '한 달 33조원', '2008년 연간 36조원'은 근거를 찾지 못해 이 글에서 뺐다. 다른 영상의 '2005년 이후 두 달 누적 20% 이상 하락은 2008년 두 차례뿐'이라는 말은 영상 속 기사 인용이라 직접 확인하지 못했다. 영상 출연자가 제시한 코스피 2,600~2,800 같은 수준은 출연자의 개인 전망이며 공식 자료로 확인할 수 없다.\n\n## 2000년 닷컴 시기와 같은 점\n\n미국 쪽에서는 비교가 이어졌다. 11월 25일 나스닥은 장중 4.6%까지 내렸다가 0.62% 하락한 23,585.80으로 마감했고, 엔비디아는 3.91% 내렸다(매경이코노미). WSJ 보도를 인용한 기사에 따르면 바클레이스는 최근 1년 미국 경제 성장의 25%가 AI 투자에서 나왔다고 추산했고, 미국 가계 순자산에서 주식 비중은 35%로 닷컴 정점 때의 26%보다 높다(아시아투데이). 영상에서는 AI 관련 7개 종목이 미국 증시 시가총액의 약 33%를 차지한다는 지적도 나왔지만, 이 수치는 영상 속 전달이며 별도 확인은 하지 못했다. 쏠림, 차입을 통한 투자, 금리 상승이 함께 거론된다는 점이 닷컴 때와 비교되는 부분이다.\n\n## 2000년 닷컴 시기와 다른 점\n\n나스닥 종합지수는 2000년 3월 10일 5,048.62로 마감한 뒤 2002년 10월 9일 1,114.11까지 약 77.9% 내렸고, 이전 고점을 다시 넘는 데 15년이 걸렸다(Bubblepedia, FRED 기준). 그 하락은 2년 7개월에 걸쳐 나왔다. 코스피의 이번 낙폭은 6월 고점 이후 5개월 안에 약 46~48%였다. 속도는 다르지만 닷컴 때의 최종 낙폭에 이른 것은 아니다. 반대로 지금의 하락이 닷컴 때처럼 길어질지, 반등할지는 알 수 없다. 영상이 소개한 1929년 대공황 사례에서 다우지수는 1929년 10월 28일 하루 약 13% 내렸고(Federal Reserve History), 영상은 이를 12%로 말했다. 시기와 제도가 다른 사례여서 지금과 직접 이어 읽기는 어렵다.\n\n## 확인할 지표와 불확실성\n\n앞으로 볼 수 있는 숫자는 외국인 순매매 방향, 증시 안정 대책의 구체적 집행 여부, 한국은행의 금리 결정 이후 시장금리, 미국 기술주와 AI 투자 관련 차입 비용이다. 한국경제는 2008년 이후 증시안정펀드가 실제 집행된 사례가 없다고 전했다. 이번 주처럼 하루 6%대 변동이 이어질 때는 공식 마감 자료를 날짜별로 확인하는 일이 먼저다. 이 글은 투자 조언이 아니며, 특정 종목이나 자산의 매수·보유·매도를 권하지 않는다.\n\n\n\n<h2>핵심 참고자료</h2><ol><li>연합뉴스, 코스피 4.3% 급등한 4,915 마감(2026-11-27)<br><a href=\"https://www.yna.co.kr/view/PYH20261127121700013\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yna.co.kr/view/PYH20261127121700013</a></li><li>블록미디어, 코스피 4900선 탈환·외국인 1조1256억원 순매수(2026-11-27)<br><a href=\"https://www.blockmedia.co.kr/archives/1171495\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.blockmedia.co.kr/archives/1171495</a></li><li>알파경제, 코스피 외국인 매도 전환에 0.29% 상승 그쳐(2026-11-26)<br><a href=\"https://kr.investing.com/news/stock-market-news/article-2191254\" target=\"_blank\" rel=\"noopener noreferrer\">https://kr.investing.com/news/stock-market-news/article-2191254</a></li><li>헤럴드경제, 코스피 6% 폭락에 고점 대비 반토막(2026-11-25)<br><a href=\"https://biz.heraldcorp.com/article/10949291\" target=\"_blank\" rel=\"noopener noreferrer\">https://biz.heraldcorp.com/article/10949291</a></li><li>머니투데이, 코스피 지하로(2026-11-25)<br><a href=\"https://www.mt.co.kr/stock/2026/11/25/2026112516341022427\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.mt.co.kr/stock/2026/11/25/2026112516341022427</a></li><li>연합뉴스, 블루웨이브 쇼크 코스피 6%↓(2026-11-06)<br><a href=\"https://www.yna.co.kr/view/AKR20261106130151008\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yna.co.kr/view/AKR20261106130151008</a></li><li>주간동아, 시가총액 267조 증발한 검은 금요일(2026-11)<br><a href=\"https://weekly.donga.com/economy/article/all/11/6449170/1\" target=\"_blank\" rel=\"noopener noreferrer\">https://weekly.donga.com/economy/article/all/11/6449170/1</a></li><li>전자신문, 7개월째 외국인 이탈 올해 유가증권시장서 223조 매도(2026-11-18)<br><a href=\"https://www.etnews.com/20261118000431\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.etnews.com/20261118000431</a></li><li>KBS, 외국인 올해 10월까지 주식 240조 원 순매도(금융감독원 발표, 2026-11-20)<br><a href=\"https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717970\" target=\"_blank\" rel=\"noopener noreferrer\">https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717970</a></li><li>한국경제, 최악의 경우 코스피 3000대까지 밀린다…전문가의 경고(2026-11-23)<br><a href=\"https://www.hankyung.com/article/2026112346726\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.hankyung.com/article/2026112346726</a></li><li>한국경제, 전례없는 국내주식 리밸런싱 유예…국민연금(2026-10-14)<br><a href=\"https://www.hankyung.com/article/2026101422191\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.hankyung.com/article/2026101422191</a></li><li>매경이코노미, AI 과투자·연준 긴축 우려에 기술주 약세 나스닥 0.62%↓(2026-11-26)<br><a href=\"https://www.mk.co.kr/news/world/12219001\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.mk.co.kr/news/world/12219001</a></li><li>아시아투데이, WSJ AI 붕괴 닷컴보다 큰 충격 가능(2026-11-26)<br><a href=\"https://www.asiatoday.co.kr/kn/view.php?key=20261126010010316\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.asiatoday.co.kr/kn/view.php?key=20261126010010316</a></li><li>Bubblepedia, Dot-Com Bubble (Nasdaq 종가 5,048.62 / 1,114.11, FRED 기준)<br><a href=\"https://bubblepedia.org/bubbles/dot-com-bubble\" target=\"_blank\" rel=\"noopener noreferrer\">https://bubblepedia.org/bubbles/dot-com-bubble</a></li><li>Federal Reserve History, Stock Market Crash of 1929<br><a href=\"https://www.federalreservehistory.org/essays/stock-market-crash-of-1929\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.federalreservehistory.org/essays/stock-market-crash-of-1929</a></li></ol>",
+    "publication_urls": {
+      "ko": "2026-11-28-kospi-selloff-week-dotcom-comparison-ko.html",
+      "en": "2026-11-28-kospi-selloff-week-dotcom-comparison-en.html",
+      "ja": "2026-11-28-kospi-selloff-week-dotcom-comparison-ja.html",
+      "zh": "2026-11-28-kospi-selloff-week-dotcom-comparison-zh.html",
+      "es": "2026-11-28-kospi-selloff-week-dotcom-comparison-es.html"
+    }
+  },
+  {
     "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions",
     "title": "풍납토성 앞 한강극동, 32년차 단지의 재건축 조건을 확인한다",
     "subtitle": "공개된 기록으로 단지 개요, 문화유산 규제, 이웃 두 단지의 진행, 실거래 기록을 정리한다",
