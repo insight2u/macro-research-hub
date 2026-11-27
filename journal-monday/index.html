@@ -48,6 +48,9 @@ th,td{padding:10px 12px;border-bottom:2px solid var(--k);text-align:left;vertica
 th{background:var(--k);color:var(--y);font:400 17px "Do Hyeon"}
 .badge{display:inline-block;font:400 18px "Black Han Sans";padding:2px 10px;border:3px solid;transform:rotate(-3deg);white-space:nowrap}
 .ok{color:var(--g)}.part{color:#c77700}.hold{color:#555}.bad{color:var(--r)}
+.day{margin-top:18px;font:400 clamp(17px,3vw,24px)/1.4 "Do Hyeon",sans-serif}
+.day #dayline{display:inline-block;background:var(--k);color:var(--y);padding:4px 12px;transform:rotate(1deg)}
+.day button{margin-left:6px;font:400 17px "Do Hyeon";background:var(--p);color:#fff;border:3px solid var(--k);box-shadow:3px 3px 0 var(--k);padding:6px 14px;min-height:44px;cursor:pointer}
 .table-wrap{overflow-x:auto}
 .sample{background:var(--y);border:4px dashed var(--k);padding:18px;margin-top:16px;position:relative}
 .sample .tag{position:absolute;top:-14px;left:12px;background:var(--r);color:#fff;font:700 13px "Do Hyeon";padding:2px 10px}
@@ -68,10 +71,11 @@ footer b{color:var(--y)}
 <body>
 <div class="ticker" aria-hidden="true"><span>소문은 빠르다 ◼ 검증은 느리다 ◼ 그래도 우리는 확인한다 ◼ 출처 없는 말은 싣지 않는다 ◼ 틀리면 맨 위에 정정 ◼ 이름 있는 사람의 미확인 의혹은 보류 ◼ JOURNAL MONDAY</span></div>
 <header>
-<div class="kicker">INDEPENDENT B-GRADE JOURNAL · 매주 월요일(안)</div>
+<div class="kicker">INDEPENDENT B-GRADE JOURNAL · 이름만 먼데이 · 발행은 불시</div>
 <h1>저널 먼데이</h1>
 <div class="sub">Journal Monday : <b>소문은 인용하고, 판정은 우리가 붙인다</b></div>
 <div class="stamp">창간 준비호<br>시안</div>
+<div class="day" aria-live="polite"><span id="dayline">오늘은 …요일. 그래도 먼데이.</span> <button type="button" id="roll">요일 룰렛 돌리기</button></div>
 </header>
 <nav aria-label="섹션">
 <a href="#about">이게 뭐냐면</a><a href="#sections">6대 코너</a><a href="#method">검증 방법</a><a href="#grades">판정 등급</a><a href="#sample">기사 형식</a><a href="#issue1">창간호</a><a href="#rules">철칙</a><a href="#tip">제보</a>
@@ -195,5 +199,18 @@ footer b{color:var(--y)}
 </section>
 </main>
 <footer><b>저널 먼데이 Journal Monday</b><br>창간 준비호 시안. 기사는 검증이 끝난 뒤에만 게재됩니다.</footer>
+<script>
+(function(){
+var D=["일","월","화","수","목","금","토"],el=document.getElementById("dayline"),b=document.getElementById("roll");
+function now(){var t=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Seoul"}));return t}
+function show(){var t=now(),d=D[t.getDay()];
+el.textContent=d==="월"?"오늘은 월요일. 이름값은 하는 날이네.":"오늘은 "+d+"요일. 그래도 먼데이.";}
+show();
+b.addEventListener("click",function(){var n=0,id=setInterval(function(){
+el.textContent="이번 호는 "+D[Math.floor(Math.random()*7)]+"요일 발행!?";
+if(++n>12){clearInterval(id);var t=now();el.textContent="룰렛 결과 무효. 어차피 오늘("+D[t.getDay()]+")도 먼데이.";}
+},110);});
+})();
+</script>
 </body>
 </html>
