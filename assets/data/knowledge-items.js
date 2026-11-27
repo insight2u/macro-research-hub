@@ -391,6 +391,36 @@ const items = [{"id": "208e42c8c5e280818967ce36a5ab4e9f", "title": "Chemical Eng
     }
   },
   {
+    "id": "report-2026-11-27-precure-24-title",
+    "title": "프리큐어 24번째 새 시리즈, 제목이 먼저 공개됐다",
+    "subtitle": "공개된 것은 제목과 문구뿐, 캐릭터와 방송 시작일은 아직이다",
+    "category": "드래곤볼을 삼킨 요술공주",
+    "field": "드래곤볼을 삼킨 요술공주",
+    "tag": "2026.11.27 발행",
+    "date": "2026.11.27",
+    "author": "데일리샷 마크로 리서치",
+    "impact": "NORMAL",
+    "summary": "도에이 애니메이션은 11월 26일 『프리큐어』 시리즈 제24탄의 타이틀을 『ファンたじっくプリキュア！』로 알렸다. 캐치카피는 \"빛나라! 모두의 웃음! 펀타직한 파티에 어서 오세요\"이다. 캐릭터와 방송 일정은 추후 발표라서, 공개된 사실과 아직 모르는 것을 나눠 읽는다.",
+    "filename": "2026-11-27-precure-24-title-ko.html",
+    "read_time": "5분",
+    "edition": "daily",
+    "available_languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es"
+    ],
+    "full_markdown": "# 프리큐어 24번째 새 시리즈, 제목이 먼저 공개됐다\n\n공개된 것은 제목과 문구뿐, 캐릭터와 방송 시작일은 아직이다\n\n도에이 애니메이션은 11월 26일 보도자료에서 『프리큐어』 시리즈 제24탄의 타이틀을 『ファンたじっくプリキュア！』(영문 표기 FUNtastic Precure!)로 정했다고 알렸다. 캐치카피는 \"빛나라! 모두의 웃음! 펀타직한 파티에 어서 오세요\"이다. 어떤 프리큐어가 활약하는지 등 세부는 추후 발표한다고 밝혔다.\n\n## 공식 발표에 실제로 있는 것\n\n보도자료가 알린 것은 세 가지다. 시리즈 제24탄이라는 위치, 새 타이틀, 그리고 캐치카피다. 영문 매체 Anime News Network도 같은 내용을 24번째 본편 시리즈의 발표로 전했다. 안내처로는 아사히방송 공식 사이트와 도에이 애니메이션 티저 사이트가 적혀 있다.\n\n## 아직 발표되지 않은 것\n\n주인공의 이름과 디자인, 성우, 줄거리, 방송 시작일은 보도자료에 없다. 보도자료는 세부를 \"추후 발표\"고 적었을 뿐이다. 이 글은 이전 시리즈의 경향으로 빈칸을 채우지 않고, 방송 날짜도 추측하지 않는다.\n\n## 제목과 문구를 읽는 법\n\n\"웃음\"과 \"파티\"라는 단어는 제작사가 고른 첫 인상이다. 이야기의 방향이나 완성도를 알려 주는 증거는 아니다. 편집부는 제목 하나로 작품을 평가하지 않고, 공개된 문구를 공식 표현 그대로 옮긴다.\n\n## 팬이 확인할 순서\n\n가장 먼저 볼 곳은 공식 사이트의 후속 공지다. 캐릭터와 방송 일정이 나오면 그때 일정과 시청 방법을 다시 확인하면 된다. 이 글은 구매나 시청을 권하는 글이 아니며, 공식 로고와 이미지는 새로 전재하지 않았다.\n\n\n\n<h2>핵심 참고자료</h2><ol><li>도에이 애니메이션 보도자료, 『프리큐어』シリーズ第24弾 타이틀 결정 (2026-11-26)<br><a href=\"https://corp.toei-anim.co.jp/ja/press/COPY-press815000909226104953.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://corp.toei-anim.co.jp/ja/press/COPY-press815000909226104953.html</a></li><li>Anime News Network, Precure Franchise Announces FUNtastic Precure! Anime<br><a href=\"https://www.animenewsnetwork.com/news/2026-11-25/precure-franchise-announces-funtastic-precure-anime/.244204\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.animenewsnetwork.com/news/2026-11-25/precure-franchise-announces-funtastic-precure-anime/.244204</a></li></ol>",
+    "publication_urls": {
+      "ko": "2026-11-27-precure-24-title-ko.html",
+      "en": "2026-11-27-precure-24-title-en.html",
+      "ja": "2026-11-27-precure-24-title-ja.html",
+      "zh": "2026-11-27-precure-24-title-zh.html",
+      "es": "2026-11-27-precure-24-title-es.html"
+    }
+  },
+  {
     "id": "report-2026-11-27-nobel-will",
     "title": "유언 한 장은 어떻게 세계의 상이 되었나",
     "subtitle": "11월 27일의 역사 | 1895년의 서명과 1901년의 첫 시상 사이",
