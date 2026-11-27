@@ -31,6 +31,36 @@ const items = [{"id": "208e42c8c5e280818967ce36a5ab4e9f", "title": "Chemical Eng
     }
   },
   {
+    "id": "report-2026-11-28-rate-regime-expert-view-official-figures",
+    "title": "기준금리를 내려도 시장금리가 오른다는 주장: 한 전문가의 중금리 시대 견해와 공식 수치 대조",
+    "subtitle": "한 경제연구소장의 인터뷰 주장을 연준·한국은행·국고채 공식 수치와 과거 금리 기록으로 확인한다",
+    "category": "마이다스의 Z-Tech",
+    "field": "마이다스의 Z-Tech",
+    "tag": "2026.11.28 발행",
+    "date": "2026.11.28",
+    "author": "데일리샷 마크로 리서치",
+    "impact": "NORMAL",
+    "summary": "한 전문가가 말한 중금리 시대 주장을 연준·한국은행·국고채 공식 수치와 과거 금리 기록, 금값 보도로 대조하고, 확인된 것과 확인하지 못한 것을 나눠 정리했다.",
+    "filename": "2026-11-28-rate-regime-expert-view-official-figures-ko.html",
+    "read_time": "5분",
+    "edition": "daily",
+    "available_languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es"
+    ],
+    "full_markdown": "# 기준금리를 내려도 시장금리가 오른다는 주장: 한 전문가의 중금리 시대 견해와 공식 수치 대조\n\n한 경제연구소장의 인터뷰 주장을 연준·한국은행·국고채 공식 수치와 과거 금리 기록으로 확인한다\n\n최근 한 경제 채널의 인터뷰에서 한 경제연구소장은 40년 이어진 저금리 시대가 끝나고 4~5%대 중금리 시대가 왔다고 말했다. 기준금리를 내려도 국채금리가 오른다는 점을 근거로 들었다. 이 글은 그 주장을 한 전문가의 견해로 소개하고, 인터뷰에 나온 수치를 공식 자료와 날짜가 확인되는 보도로 대조한다.\n\n## 인터뷰의 핵심 주장\n\n이 전문가는 1980년대 이후 미국 기준금리를 낮추면 자산 가격이 오르는 흐름이 이어졌지만, 최근에는 기준금리를 내려도 국채금리가 오른다고 말했다. 원인으로 베이비붐 세대의 은퇴를 들었다. 국채를 사 줄 수요가 줄어 장기금리가 구조적으로 높아졌다는 설명이다. 앞으로 금리는 4~5%대에서 머물 가능성이 가장 높고, 정부 정책에 따라 더 높아질 수도 있다고 보았다. 이는 한 전문가의 견해이며 확정된 전망이 아니다.\n\n## 현재 금리 수치 대조\n\n미국 연준은 10월 28일 기준금리를 3.75~4.00%로 유지했고, 위원 2명이 금리 인상 의견을 냈다(연준, 이데일리). 같은 날 미국 10년물 국채금리는 5.036%였다(뉴스핌). 인터뷰에서 말한 기준금리 4.0%, 10년물 5.0%대와 맞는다. 한국은행은 11월 26일 기준금리를 3.00%에서 3.25%로 올렸고 금통위원 2명이 동결 의견을 냈다(한국은행, 연합뉴스). 27일 국고채 금리는 3년물 3.685%, 10년물 3.832%였다(연합뉴스). 인터뷰가 말한 한국 10년물 4.0% 돌파 뒤 증시 하락 순서는 이번에 확인하지 못했다.\n\n## 과거 금리 수치 대조\n\n인터뷰는 1980년 연준 기준금리가 19.1%였다고 말했다. 연방기금 실효금리의 월평균 최고치 19.10%는 1981년 6월 기록이고, 1980년 안에서는 4월의 17.61%가 높았다(FRED, Finabase 인용). 연도가 다르다. 한국의 재형저축 금리는 연 41.6%라고 했지만 이 수치는 확인하지 못했다. 1980년 3년 만기 재형저축이 연 33%, 1983년 23%였다는 보도가 있다(중앙일보 2001-09-26). 이 글에서는 확인된 수치만 인용한다.\n\n## 금값과 장기 수익률\n\n11월 27일 금값은 1년 넘게 만에 최저를 찍은 뒤 반등했다(CNBC). 출처마다 온스당 약 3,565~3,657달러로 집계된다. 인터뷰가 말한 금 20년 연 11%, 나스닥 연 13%, 원화 기준 금값 11배 수치는 이번에 공식 자료로 확인하지 못했다. 장기 수익률은 시작과 끝 시점에 따라 크게 달라진다.\n\n## 해석의 한계와 다른 설명\n\n인구 구조가 장기금리를 높인다는 설명은 여러 설명 가운데 하나다. 재정적자와 국채 발행 규모, 통화정책 경로, 물가 기대도 함께 작용한다. 기준금리와 시장금리가 따로 움직인 시기가 있었다는 관찰이 앞으로도 이어진다고 단정할 수는 없다. 한국은행도 11월 결정에서 위원 2명이 동결 의견을 내는 등 판단이 갈렸다. 이 글은 투자 조언이 아니며 어떤 자산의 매수, 보유, 매도도 권하지 않는다.\n\n\n\n<h2>핵심 참고자료</h2><ol><li>미국 연준 FOMC 성명(2026-10-28)<br><a href=\"https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm</a></li><li>이데일리, 연준 기준금리 3.75~4.00% 동결, 인상 소수의견 2명(2026-10-29)<br><a href=\"https://marketin.edaily.co.kr/News/ReadE?newsId=03762166645617840\" target=\"_blank\" rel=\"noopener noreferrer\">https://marketin.edaily.co.kr/News/ReadE?newsId=03762166645617840</a></li><li>뉴스핌, 미 10년물 5.036%, 30년물 5.363%(2026-10-29)<br><a href=\"https://np.newspim.com/news/view/20261029000054\" target=\"_blank\" rel=\"noopener noreferrer\">https://np.newspim.com/news/view/20261029000054</a></li><li>한국은행, 통화정책방향 기준금리 3.00%에서 3.25%로 상향(2026-11-26)<br><a href=\"https://www.bok.or.kr/portal/bbs/P0000559/view.do?menuNo=200690&nttId=11067084\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.bok.or.kr/portal/bbs/P0000559/view.do?menuNo=200690&nttId=11067084</a></li><li>연합뉴스, 국고채 금리 3년물 3.685%·10년물 3.832%(2026-11-27)<br><a href=\"https://www.yna.co.kr/view/AKR20261127135151008\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yna.co.kr/view/AKR20261127135151008</a></li><li>연합뉴스, 한은 기준금리 연 3.25%로 0.25%p 인상, 금통위원 2명 동결 소수의견(2026-11-26)<br><a href=\"https://www.yna.co.kr/view/AKR20261126077300002\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.yna.co.kr/view/AKR20261126077300002</a></li><li>FRED(세인트루이스 연준), 연방기금 실효금리 FEDFUNDS 월별 자료<br><a href=\"https://fred.stlouisfed.org/data/FEDFUNDS\" target=\"_blank\" rel=\"noopener noreferrer\">https://fred.stlouisfed.org/data/FEDFUNDS</a></li><li>Finabase, 볼커 쇼크 해설(1980년 4월 17.61%, 1981년 6월 19.10%, FRED 월평균 인용)<br><a href=\"https://finabase.io/learn/glossary/volcker-shock\" target=\"_blank\" rel=\"noopener noreferrer\">https://finabase.io/learn/glossary/volcker-shock</a></li><li>중앙일보, 1980년 3년 재형저축 연 33%, 1983년 23% 보도(2001-09-26)<br><a href=\"https://www.joongang.co.kr/article/4141782\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.joongang.co.kr/article/4141782</a></li><li>CNBC, 금값 15개월 최저 뒤 반등(2026-11-27)<br><a href=\"https://www.cnbc.com/2026/11/27/gold-metals-silver-markets-federal-reserve.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.cnbc.com/2026/11/27/gold-metals-silver-markets-federal-reserve.html</a></li></ol>",
+    "publication_urls": {
+      "ko": "2026-11-28-rate-regime-expert-view-official-figures-ko.html",
+      "en": "2026-11-28-rate-regime-expert-view-official-figures-en.html",
+      "ja": "2026-11-28-rate-regime-expert-view-official-figures-ja.html",
+      "zh": "2026-11-28-rate-regime-expert-view-official-figures-zh.html",
+      "es": "2026-11-28-rate-regime-expert-view-official-figures-es.html"
+    }
+  },
+  {
     "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison",
     "title": "주가 급락 일주일: 코스피 기록과 2000년 닷컴 때와의 비교",
     "subtitle": "11월 6일부터 27일까지 공식 시황과 영상 속 주장을 날짜별로 대조한다",
