@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>저널 먼데이 | Journal Monday - 인용하고 검증하는 B급 저널</title>
+<meta name="description" content="떠도는 소문, 어디서 나왔고 어디까지 맞나. 인용하고 대조하고 판정까지 붙이는 B급 저널.">
+<meta property="og:title" content="저널 먼데이 Journal Monday">
+<meta property="og:description" content="떠도는 소문, 어디서 나왔고 어디까지 맞나. 인용 → 대조 → 판정.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--y:#ffe600;--p:#ff2e7e;--k:#111;--w:#fffdf2;--g:#1fa84f;--r:#e5201b;--b:#1c4bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--w);color:var(--k);font:16px/1.65 "Noto Sans KR",system-ui,sans-serif;
+background-image:radial-gradient(#0000001a 1px,transparent 1.3px);background-size:9px 9px}
+a{color:inherit}
+.ticker{background:var(--k);color:var(--y);overflow:hidden;white-space:nowrap;font:700 14px/34px "Do Hyeon","Noto Sans KR",sans-serif}
+.ticker span{display:inline-block;padding-left:100%;animation:t 38s linear infinite}
+@keyframes t{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.ticker span{animation:none;padding-left:12px}}
+header{background:var(--y);border-bottom:6px solid var(--k);text-align:center;padding:28px 16px 22px;position:relative;overflow:hidden}
+.kicker{display:inline-block;background:var(--k);color:var(--y);font:700 13px "Do Hyeon";padding:3px 12px;letter-spacing:.12em;transform:rotate(-2deg)}
+h1{margin:10px 0 0;font:400 clamp(52px,13vw,128px)/.95 "Black Han Sans","Noto Sans KR",sans-serif;letter-spacing:-.02em;
+color:var(--k);text-shadow:4px 4px 0 var(--p),8px 8px 0 #0003;transform:rotate(-1.2deg)}
+.sub{font:400 clamp(18px,3.4vw,30px)/1.2 "Do Hyeon",sans-serif;margin-top:16px}
+.sub b{background:var(--k);color:var(--y);padding:0 8px}
+.stamp{position:absolute;right:3%;top:18px;border:4px solid var(--r);color:var(--r);font:400 22px/1.1 "Black Han Sans";padding:6px 12px;transform:rotate(9deg);opacity:.88;background:#fff8}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:14px;background:var(--k)}
+nav a{background:var(--w);text-decoration:none;font:700 15px "Do Hyeon";padding:7px 14px;border:2px solid var(--w);min-height:44px;display:inline-flex;align-items:center}
+nav a:hover,nav a:focus{background:var(--p);color:#fff}
+main{max-width:1040px;margin:0 auto;padding:28px 16px 60px}
+h2{font:400 clamp(28px,5vw,44px)/1.1 "Black Han Sans",sans-serif;margin:46px 0 14px;display:inline-block;background:var(--k);color:var(--y);padding:4px 14px;transform:rotate(-.8deg)}
+h2 small{font:700 14px "Do Hyeon";color:#fff;margin-left:8px}
+.lead{font:400 clamp(20px,3.6vw,30px)/1.4 "Do Hyeon",sans-serif;border-left:10px solid var(--p);padding:4px 0 4px 16px;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:#fff;border:3px solid var(--k);box-shadow:6px 6px 0 var(--k);padding:16px 18px}
+.card:nth-child(odd){transform:rotate(-.5deg)}.card:nth-child(even){transform:rotate(.5deg)}
+.card .n{font:400 34px/1 "Black Han Sans";color:var(--p)}
+.card h3{margin:4px 0 6px;font:400 24px/1.2 "Do Hyeon"}
+.card p{margin:0;font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--b);color:#fff;padding:16px;border:3px solid var(--k);box-shadow:5px 5px 0 var(--k)}
+.step b{font:400 26px "Black Han Sans"}.step p{margin:6px 0 0;font-size:15px}
+table{width:100%;border-collapse:collapse;background:#fff;border:3px solid var(--k);margin-top:16px}
+th,td{padding:10px 12px;border-bottom:2px solid var(--k);text-align:left;vertical-align:top;font-size:15px}
+th{background:var(--k);color:var(--y);font:400 17px "Do Hyeon"}
+.badge{display:inline-block;font:400 18px "Black Han Sans";padding:2px 10px;border:3px solid;transform:rotate(-3deg);white-space:nowrap}
+.ok{color:var(--g)}.part{color:#c77700}.hold{color:#555}.bad{color:var(--r)}
+.table-wrap{overflow-x:auto}
+.sample{background:var(--y);border:4px dashed var(--k);padding:18px;margin-top:16px;position:relative}
+.sample .tag{position:absolute;top:-14px;left:12px;background:var(--r);color:#fff;font:700 13px "Do Hyeon";padding:2px 10px}
+.sample h3{margin:6px 0 8px;font:400 clamp(22px,4vw,32px)/1.25 "Black Han Sans"}
+.sample ul{margin:8px 0;padding-left:0;list-style:none}.sample li{padding:3px 0}
+.sample li::before{content:"◼ ";color:var(--p)}
+.rule{background:var(--k);color:#fff;padding:20px;margin-top:18px;border:3px solid var(--k);box-shadow:6px 6px 0 var(--p)}
+.rule h3{margin:0 0 6px;color:var(--y);font:400 26px "Black Han Sans"}
+.rule p{margin:0}
+.src{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:10px}
+.src span{background:#fff;border:2px solid var(--k);padding:6px 10px;font:700 14px "Do Hyeon"}
+.tip{display:inline-block;margin-top:14px;background:var(--p);color:#fff;font:400 22px "Black Han Sans";padding:12px 20px;text-decoration:none;border:3px solid var(--k);box-shadow:5px 5px 0 var(--k);min-height:44px}
+footer{background:var(--k);color:#ddd;padding:26px 16px;text-align:center;font-size:14px}
+footer b{color:var(--y)}
+@media(max-width:600px){.stamp{position:static;display:inline-block;margin-top:12px}.card:nth-child(n){transform:none}}
+</style>
+</head>
+<body>
+<div class="ticker" aria-hidden="true"><span>소문은 빠르다 ◼ 검증은 느리다 ◼ 그래도 우리는 확인한다 ◼ 출처 없는 말은 싣지 않는다 ◼ 틀리면 맨 위에 정정 ◼ 이름 있는 사람의 미확인 의혹은 보류 ◼ JOURNAL MONDAY</span></div>
+<header>
+<div class="kicker">INDEPENDENT B-GRADE JOURNAL · 매주 월요일(안)</div>
+<h1>저널 먼데이</h1>
+<div class="sub">Journal Monday : <b>소문은 인용하고, 판정은 우리가 붙인다</b></div>
+<div class="stamp">창간 준비호<br>시안</div>
+</header>
+<nav aria-label="섹션">
+<a href="#about">이게 뭐냐면</a><a href="#sections">6대 코너</a><a href="#method">검증 방법</a><a href="#grades">판정 등급</a><a href="#sample">기사 형식</a><a href="#rules">철칙</a><a href="#tip">제보</a>
+</nav>
+<main>
+<section id="about">
+<h2>이게 뭐냐면</h2>
+<p class="lead">게시판에서 돌던 그 글, 주간지가 쓴 그 이야기. 어디서 처음 나왔고, 어디까지 확인되는지 따라가 봅니다. 재미는 B급, 확인은 A급.</p>
+</section>
+
+<section id="sections">
+<h2>6대 코너 <small>준비 중</small></h2>
+<div class="grid">
+<div class="card"><div class="n">01</div><h3>음모론 검증소</h3><p>"그날의 진실"을 공문서, 판결, 통계로 대조해 맞는 것과 틀린 것을 갈라 드립니다.</p></div>
+<div class="card"><div class="n">02</div><h3>연예계 뒷모습</h3><p>계약, 소송, 공시처럼 공개 기록으로 확인되는 산업의 뒷구조. 사생활 추측은 안 다룹니다.</p></div>
+<div class="card"><div class="n">03</div><h3>재벌 가계도·지배구조</h3><p>공시와 판결문으로 따라가는 지분, 순환출자, 승계. 숫자와 날짜가 먼저.</p></div>
+<div class="card"><div class="n">04</div><h3>정치권 막후</h3><p>공개된 발언, 표결, 재산공개, 회의록으로 보는 이면. 소문은 소문이라고 표시.</p></div>
+<div class="card"><div class="n">05</div><h3>게시판 핫글 추적</h3><p>커뮤니티에서 돌던 글의 최초 출처를 거슬러 올라가 확인합니다.</p></div>
+<div class="card"><div class="n">06</div><h3>주간지 따라잡기</h3><p>해외 한인 주간지가 다룬 이야기를 국내외 출처로 교차 확인합니다.</p></div>
+</div>
+</section>
+
+<section id="method">
+<h2>검증 방법 <small>인용 → 대조 → 판정</small></h2>
+<div class="steps">
+<div class="step"><b>① 인용</b><p>소문이 처음 나온 글, 기사, 발언을 원문 그대로 찾아 날짜와 함께 적습니다.</p></div>
+<div class="step"><b>② 대조</b><p>공시, 판결문, 회의록, 통계, 원 영상 같은 1차 출처와 맞춰 봅니다.</p></div>
+<div class="step"><b>③ 판정</b><p>네 등급 중 하나를 기사 맨 위에 도장처럼 찍습니다.</p></div>
+</div>
+</section>
+
+<section id="grades">
+<h2>판정 등급</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>도장</th><th>기준</th><th>게재</th></tr></thead>
+<tbody>
+<tr><td><span class="badge ok">확인</span></td><td>서로 독립된 1차 출처 둘 이상으로 맞춰진 사실</td><td>게재</td></tr>
+<tr><td><span class="badge part">부분 확인</span></td><td>일부만 확인. 된 부분과 안 된 부분을 나눠 표시</td><td>구분 표시 후 게재</td></tr>
+<tr><td><span class="badge hold">검증 보류</span></td><td>출처가 하나이거나 재인용뿐이라 확인 불가</td><td>실명 인물이면 게재 안 함</td></tr>
+<tr><td><span class="badge bad">허위 확인</span></td><td>원문과 기록을 대조하니 사실이 아님</td><td>정정 형식으로 게재</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="sample">
+<h2>기사는 이렇게 나옵니다</h2>
+<div class="sample">
+<span class="tag">형식 견본 · 실제 기사 아님</span>
+<span class="badge part">부분 확인</span>
+<h3>"○○사 회장님이 비밀리에 ○○했다더라" 게시판 글, 어디까지 맞나</h3>
+<ul>
+<li>인용: 커뮤니티 최초 게시글(날짜·게시판·원문 캡처 표기)</li>
+<li>대조: 공시 ○건, 판결문 ○건과 비교</li>
+<li>확인된 것: 공시상 사실 ○○ (출처 링크)</li>
+<li>확인 안 된 것: 게시글의 "비밀리" 주장은 근거 없음</li>
+</ul>
+<p>출처 · 확인일 · 정정 이력이 기사 맨 아래에 붙습니다.</p>
+</div>
+</section>
+
+<section id="rules">
+<h2>철칙</h2>
+<div class="rule"><h3>B급은 말투, 거짓은 안 됨</h3>
+<p>이름이 있는 사람에 대한 확인 안 된 의혹은 싣지 않습니다. 혐오와 비방도 소재로 삼지 않습니다. 틀린 판정은 같은 쪽 맨 위에 정정으로 답니다.</p></div>
+<p style="margin-top:16px"><b>소재를 찾는 곳</b>: 공개 커뮤니티, SNS, 해외 한인 주간지의 공개 기사. 어디서 봤든 최초 출처까지 거슬러 올라가 확인합니다.</p>
+<div class="src"><span>커뮤니티 게시판</span><span>SNS</span><span>주간지</span><span>공시·판결문</span><span>국회·정부 문서</span></div>
+</section>
+
+<section id="tip">
+<h2>제보</h2>
+<p>제보 창구는 창간 때 열립니다. 제보도 같은 3단계로 검증합니다.</p>
+<span class="tip">제보 창구 준비 중</span>
+</section>
+</main>
+<footer><b>저널 먼데이 Journal Monday</b><br>창간 준비호 시안. 기사는 검증이 끝난 뒤에만 게재됩니다.</footer>
+</body>
+</html>
