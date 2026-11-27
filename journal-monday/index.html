@@ -127,6 +127,28 @@ footer b{color:var(--y)}
 .tabs{display:none}
 @media(max-width:900px){.tabs{display:flex;gap:8px;margin-top:14px}.tabs button{flex:1;min-height:48px;border:3px solid var(--k);background:#fff;font:400 18px "Black Han Sans";cursor:pointer;box-shadow:3px 3px 0 var(--k)}.tabs button.on{background:var(--y)}#cols[data-tab="1"] .c2{display:none}#cols[data-tab="2"] .c1{display:none}}
 .rm.old{box-shadow:4px 4px 0 var(--g)}.rm.old .badge{font-size:14px;border-width:2px;padding:0 6px}
+
+nav.mnav{display:flex;gap:6px;justify-content:center;flex-wrap:nowrap;overflow-x:auto;padding:8px 12px;background:var(--k);border-bottom:3px solid var(--y)}
+nav.mnav a{flex:0 0 auto;min-height:40px;padding:4px 14px;background:var(--w);color:var(--k);font:700 15px "Do Hyeon";border:2px solid var(--w);text-decoration:none;display:inline-flex;align-items:center;white-space:nowrap}
+nav.mnav a:hover,nav.mnav a:focus{background:var(--p);color:#fff}
+.b3{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-items:start}
+.b3 .cols{margin-top:16px}
+.side2{background:#fff;border:3px solid var(--k);box-shadow:6px 6px 0 var(--p);align-self:start;margin-top:16px}
+.side2 .sh{background:var(--k);color:var(--y);font:400 22px "Black Han Sans";padding:8px 12px}
+details.ac{border-top:3px solid var(--k)}details.ac:first-of-type{border-top:0}
+details.ac>summary{cursor:pointer;list-style:none;padding:10px 12px;font:400 18px "Do Hyeon";min-height:46px;display:flex;align-items:center;justify-content:space-between}
+details.ac>summary::-webkit-details-marker{display:none}details.ac>summary::after{content:"+";font:400 24px "Black Han Sans";color:var(--p)}details.ac[open]>summary::after{content:"-"}
+details.ac[open]>summary{background:var(--y)}
+.acb{padding:8px 12px 12px;font-size:14px}.acb p,.acb li{font-size:14px}
+.acb .grid,.acb .steps{grid-template-columns:1fr;gap:8px}
+.acb .card{box-shadow:3px 3px 0 var(--k);padding:8px 10px;transform:none!important}.acb .card .n{font-size:20px;display:inline}.acb .card h3{font-size:17px;display:inline;margin:0 0 0 6px}.acb .card p{font-size:13px;margin-top:2px}
+.acb .step{padding:8px 10px;box-shadow:3px 3px 0 var(--k)}.acb .step b{font-size:17px}.acb .step p{font-size:13px}
+.acb table{font-size:12px}.acb th,.acb td{padding:5px 6px;font-size:12px}.acb .badge{font-size:13px;border-width:2px}
+.acb .rule{padding:10px;box-shadow:3px 3px 0 var(--p)}.acb .sample{padding:10px}.acb .sample h3{font-size:16px}.acb h3{font-size:16px}
+.acb .src{grid-template-columns:1fr 1fr}.acb section{margin:0}
+@media(min-width:1200px){.board{max-width:1480px}.b3{grid-template-columns:minmax(0,1.15fr) minmax(0,.9fr) 330px}.b3 .cols{display:contents}.b3 .cols>.col.c1{grid-column:1}.b3 .cols>.col.c2{grid-column:2}.b3>.side2{grid-column:3;grid-row:1;position:sticky;top:8px;max-height:calc(100vh - 16px);overflow:auto}.b3 .tabs{display:none}}
+@media(max-width:1199px){.side2{order:3}}
+@media(max-width:900px){.side2 .sh{font-size:18px}nav.mnav{justify-content:flex-start}}
 mark{background:var(--y);padding:0 2px}
 @media(max-width:600px){.tools{padding:8px}.tools .in{gap:8px}.tl{padding:6px 8px}#tip small,#subform>small:first-of-type{display:none}.tl input{min-height:40px}#tip{display:flex;align-items:center;gap:8px}#tip .lb{margin:0}header{padding:10px 12px 8px}}
 @media(max-width:900px){.tools .in{grid-template-columns:1fr}.wrap{grid-template-columns:1fr}.side{position:static;order:-1}}
@@ -140,12 +162,13 @@ mark{background:var(--y);padding:0 2px}
 <div class="sub">Journal Monday : <b>소문은 인용하고, 판정은 우리가 붙인다</b></div>
 </div></div><div class="stamp">창간호<br>2026.11.28</div>
 <div class="day" aria-live="polite"><span id="dayline">오늘은 …요일. 그래도 먼데이.</span> <button type="button" id="roll">요일 룰렛 돌리기</button></div>
-</header><div class="tools"><div class="in">
+</header><nav class="mnav" aria-label="섹션 이동"><a href="#cols" data-go="c1">기사</a><a href="#cols" data-go="c2">소문</a><a href="#p-about" data-go="p">이게 뭐냐면</a><a href="#p-sections" data-go="p">6대 코너</a><a href="#p-method" data-go="p">검증 방법</a><a href="#p-grades" data-go="p">판정 등급</a><a href="#p-sample" data-go="p">기사 견본</a><a href="#p-rules" data-go="p">철칙</a></nav>
+<div class="tools"><div class="in">
 <form class="tl" id="sform" role="search" onsubmit="return false"><label for="sq">기사 검색 <span style="font-weight:400">(25편 제목·본문·출처)</span></label><div class="row"><input id="sq" type="search" placeholder="검색어 입력" autocomplete="off"><button type="button" id="sclear">지우기</button></div><div id="scount" role="status" aria-live="polite"></div></form>
 <form class="tl" id="subform"><label for="sub-email">매거진 이메일 구독</label><div class="row"><input id="sub-email" type="email" required autocomplete="email" inputmode="email" maxlength="254" placeholder="이메일 주소"><button type="submit">구독 신청 메일</button></div><small>버튼을 누르면 메일 작성 화면이 열립니다. 직접 전송해야 접수됩니다. 이름·전화번호는 필요 없습니다.</small><details><summary>개인정보 처리 안내</summary><small>이메일 주소·신청 내용·접수일시를 구독 접수와 발송에 이용합니다. 신청 철회 또는 접수 후 1년 중 먼저 도래할 때까지 보관합니다. 동의를 거부할 수 있으나 구독 신청은 어렵습니다. 수신거부는 받은 메일에 "구독철회"라고 회신하세요. 발신: 유영선 · 데일리샷 매크로 미디어그룹</small></details><small id="substate" role="status" aria-live="polite"></small></form>
 <div class="tl" id="tip"><span class="lb">제보 창구</span><a class="btn" id="tipbtn" href="#">제보 메일 쓰기</a><small>출처 링크나 원문을 함께 보내 주세요. 같은 3단계(인용·대조·판정)로 검증합니다. 확인되기 전에는 싣지 않습니다.</small></div>
 </div></div>
-<div class="board"><div class="bhead"><span class="led">●</span>저널 먼데이 전광판<small>1열 기사 25편 · 2열 소문 10건(미확인 6, 검증 완료 4) · 2026.11.28 기준</small></div><div class="tabs" role="tablist"><button type="button" id="tab1" class="on" role="tab">기사 25</button><button type="button" id="tab2" role="tab">소문 10</button></div><div class="cols" id="cols" data-tab="1"><section class="col c1" aria-label="기사 전광판"><h2>1열 · 기사 <small>누르면 본문과 출처가 펼쳐집니다</small></h2><div class="rows" id="arts"><details class="art" id="a1"><summary><div class="meta"><span class="sec">재벌 지배구조</span><span class="badge ok">확인</span></div><h3><span class="no">01</span> 총수일가 지분은 평균 3.5%, 그룹 내부지분은 61.4%</h3></summary><ul class="facts"><li><b class="k">사실</b> 2026년 공시대상기업집단 102곳 중 총수 있는 89곳(소속회사 3,293개)을 공정위가 분석했다.</li><li><b class="k">사실</b> 내부지분율 평균 61.4%. 총수일가 평균 3.5%, 계열회사 평균 55.5%.</li><li><b class="k">사실</b> 순환출자가 남은 집단은 현대자동차, BS, 사조, QCP 4곳. 태광과 KG는 고리를 모두 해소했다고 공정위 담당자가 답했다.</li><li><b class="k">해석</b> 공정위는 소유와 지배의 괴리가 이어진다고 평가했다.</li></ul>
+<div class="board"><div class="bhead"><span class="led">●</span>저널 먼데이 전광판<small>1열 기사 25편 · 2열 소문 10건(미확인 6, 검증 완료 4) · 2026.11.28 기준</small></div><div class="tabs" role="tablist"><button type="button" id="tab1" class="on" role="tab">기사 25</button><button type="button" id="tab2" role="tab">소문 10</button></div><div class="b3"><div class="cols" id="cols" data-tab="1"><section class="col c1" aria-label="기사 전광판"><h2>1열 · 기사 <small>누르면 본문과 출처가 펼쳐집니다</small></h2><div class="rows" id="arts"><details class="art" id="a1"><summary><div class="meta"><span class="sec">재벌 지배구조</span><span class="badge ok">확인</span></div><h3><span class="no">01</span> 총수일가 지분은 평균 3.5%, 그룹 내부지분은 61.4%</h3></summary><ul class="facts"><li><b class="k">사실</b> 2026년 공시대상기업집단 102곳 중 총수 있는 89곳(소속회사 3,293개)을 공정위가 분석했다.</li><li><b class="k">사실</b> 내부지분율 평균 61.4%. 총수일가 평균 3.5%, 계열회사 평균 55.5%.</li><li><b class="k">사실</b> 순환출자가 남은 집단은 현대자동차, BS, 사조, QCP 4곳. 태광과 KG는 고리를 모두 해소했다고 공정위 담당자가 답했다.</li><li><b class="k">해석</b> 공정위는 소유와 지배의 괴리가 이어진다고 평가했다.</li></ul>
 <p class="lim"><b>한계</b> 평균치라 그룹별 차이가 크다.</p><ul class="srcs"><li><a href="https://www.korea.kr/briefing/policyBriefingView.do?newsId=156780097" rel="noopener">정책브리핑 공정위 브리핑 2026.09.03</a></li></ul><p class="chk">확인일 2026-11-27</p></details>
 <details class="art" id="a2"><summary><div class="meta"><span class="sec">재벌·기업</span><span class="badge ok">확인(보도 기준)</span></div><h3><span class="no">02</span> 5.5조 통보가 964억 의결로: 통신3사 담합 과징금</h3></summary><ul class="facts"><li><b class="k">사실</b> 공정위는 2015년 11월~2022년 9월 판매장려금 조정 담합을 이유로 통신3사에 과징금 964억 원을 부과했다(2025년 6월).</li><li><b class="k">사실</b> 2024년 4월 심사보고서 단계에서는 3조 4천억~5조 5천억 원을 산정해 통보했다.</li><li><b class="k">사실</b> 감사원은 2026년 2월 25일 공개한 공정위 정기감사 결과에서 관련 매출액이 과다 추정됐다고 밝혔다. 신규가입 회선수 기준으로 추정했고 무관한 법인·직영·알뜰폰 매출이 포함됐다는 설명이다(서울신문 보도).</li><li><b class="k">사실</b> 감사원 비교 결과 87건 중 75건(86%)에서 심사보고서 금액이 최종보다 1.9~2.8배 컸다(서울신문 보도).</li><li><b class="k">입장</b> 통신3사는 담합이 아니라 단통법을 따랐을 뿐이라는 입장이었다(경향신문 2025.02.)</li></ul>
 <p class="lim"><b>한계</b> 감사원 보고서 원문은 아직 확인하지 못했고 복수 언론 보도를 기준으로 했다.</p><ul class="srcs"><li><a href="https://www.seoul.co.kr/news/society/2026/02/25/20260225500091" rel="noopener">서울신문 2026.02.25</a></li><li><a href="https://www.sisajournal-e.com/news/articleView.html?idxno=419515" rel="noopener">시사저널e 2026.03.02</a></li><li><a href="https://www.khan.co.kr/article/202502211458011" rel="noopener">경향신문 2025.02.21</a></li></ul><p class="chk">확인일 2026-11-27</p></details>
@@ -194,11 +217,11 @@ mark{background:var(--y);padding:0 2px}
 <details class="art" id="a25"><summary><div class="meta"><span class="sec">풍자 코너(허구)</span><span class="badge part">풍자(허구)</span></div><h3><span class="no">25</span> [풍자 코너·허구] 대박!! 전국 회의실 &#x27;5분만 더&#x27;가 반란을 일으켰다?!!</h3></summary><ul class="facts"><li><b class="k">표기</b> 이 코너의 인물·단체·사건은 모두 허구입니다. 실존 인물·단체와 무관합니다.</li><li><b class="k">풍자</b> 세상에!! 한 회의실에서 &#x27;5분만 더&#x27;가 무려 55분으로 자라났습니다. 전문가는 &#x27;회의가 회의를 낳는 현상&#x27;이라고 진단했습니다. 이게 진짜 실화(허구)냐!!</li><li><b class="k">풍자</b> 화면 공유가 안 되는 건 이제 일상입니다. &#x27;제 화면 보이시나요?&#x27;는 올해의 명대사 후보 1위!! 박수 대신 음소거 해제가 터져 나왔습니다.</li><li><b class="k">풍자</b> 결말: 회의는 &#x27;다음 회의에서 다시 논의&#x27;로 마무리됐습니다. 다음 회의 일정은 아직도 조율 중!!</li></ul>
 <p class="lim"><b>한계</b> 허구의 풍자다. 사실 주장이 아니며 사실 판정 대상이 아니다.</p><ul class="srcs"></ul><p class="chk">확인일 2026-11-28</p></details>
 <details class="art" id="a23"><summary><div class="meta"><span class="sec">혼맥·결혼비용 공개자료</span><span class="badge part">부분 확인(업체 설문)</span></div><h3><span class="no">23</span> 결혼 한 번에 3억6천: 예식은 5%, 나머지는 집</h3></summary><ul class="facts"><li><b class="k">사실</b> 듀오 &#x27;2025 결혼비용 보고서&#x27;(최근 2년 내 결혼한 신혼부부 1,000명)의 총 결혼비용은 3억6,173만원이다.</li><li><b class="k">사실</b> 주택 3억408만원, 혼수 1,456만원, 예식홀 1,401만원, 신혼여행 965만원, 예단 770만원, 예물 591만원, 스드메 441만원, 이바지 141만원. 주택 제외 시 5,765만원.</li><li><b class="k">사실</b> 예식홀과 스드메 합계 1,842만원은 총액의 약 5.1%, 주택비는 약 84.1%다(본지 계산).</li><li><b class="k">사실</b> 머니투데이에 따르면 스드메는 2020년 235만원에서 2025년 441만원으로 87% 올랐다.</li><li><b class="k">사실</b> 한국소비자원 참가격 지역별 결혼서비스 평균 계약 금액은 서울 강남 3,401만원, 서울 강남 외 3,171만원, 부산 1,254만원이다.</li></ul>
-<p class="lim"><b>한계</b> 듀오 수치는 결혼정보회사 자체 설문이고 소비자원 수치와 집계 기준이 다르다.</p><ul class="srcs"><li><a href="https://www.thepublic.kr/news/articleView.html?idxno=252537" rel="noopener">더퍼블릭 2025.03.04</a></li><li><a href="http://www.bizwnews.com/news/articleView.html?idxno=98776" rel="noopener">비즈월드 2025.03.18</a></li><li><a href="https://www.mt.co.kr/society/2025/11/11/2025111107470693428" rel="noopener">머니투데이 2025.11.11</a></li><li><a href="https://www.price.go.kr/tprice/portal/wedding/areaStatistic.do" rel="noopener">한국소비자원 참가격</a></li></ul><p class="chk">확인일 2026-11-28</p></details></div></section><section class="col c2 rumors" aria-label="소문 전광판"><h2>2열 · 커뮤니티 소문 <small>미확인 소문 표시</small></h2><p class="rnote">커뮤니티에서 돈 글의 제목·게시처·날짜만 옮겼습니다. 사실이라고 단정하지 않으며, 기존 판정 등급(인용→대조→판정)을 통과한 뒤에만 도장이 찍힙니다. 실명 인물의 사생활 소문은 싣지 않습니다.</p><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge bad">허위 확인</span></div><h3>달 착륙은 연출이었다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a9" class="jump">09번 기사: 아폴로 12호 국기 그림자로 따져 본 결과</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge ok">확인(공식 보고서 결론 전달)</span></div><h3>정부가 외계 기술을 숨기고 있다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a10" class="jump">10번 기사: 미 국방부 조사실 보고서는 외계 기술 확인 사례 없음이라고 결론</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge ok">확인(논문 결과 전달)</span></div><h3>비행기가 하늘에 비밀 물질을 뿌린다(케미트레일)</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a11" class="jump">11번 기사: 전문가 77명 중 76명이 증거를 못 봤다고 답한 연구</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge part">부분 확인</span></div><h3>5G 전파는 몸에 해롭다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a12" class="jump">12번 기사: WHO가 2020년에 한 말과 안 한 말을 나눠 정리</a></dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(교통 당국 공지)</span></div><h3>12월 1일부터 청소년도 모두의카드 가능</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.27 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299506" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(판결문·현지 보도)</span></div><h3>뉴욕시 임대료 동결, 법원에서 집주인들에게 승소</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299510" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · 의견 글, 정책 사실만 분리 대조 예정</span></div><h3>전국민 거지 만들기 프로젝트로 집값 잡나요?</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299527" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(거래소 시세)</span></div><h3>오늘자 은값 폭등중</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299487" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(교육청 규정·보도 2건)</span></div><h3>발열조끼 입은 수험생 퇴실조치</h3><dl><dt>최초 게시처</dt><dd>오늘의유머 「베스트오브베스트」 2026.11.24 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=484176" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">검증 보류 · 공식 문서 확인 전</span></div><h3>사단장이 은폐 시도했던 사건</h3><dl><dt>최초 게시처</dt><dd>오늘의유머 「베스트오브베스트」 2026.11.24 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=484177" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div></section></div></div><div class="introbox"><details class="side" id="intro"><summary>이 매거진은</summary>
-<h2>이게 뭐냐면</h2>
-<p class="lead">게시판에서 돌던 그 글, 주간지가 쓴 그 이야기. 어디서 처음 나왔고, 어디까지 확인되는지 따라가 봅니다. 재미는 B급, 확인은 A급.</p>
+<p class="lim"><b>한계</b> 듀오 수치는 결혼정보회사 자체 설문이고 소비자원 수치와 집계 기준이 다르다.</p><ul class="srcs"><li><a href="https://www.thepublic.kr/news/articleView.html?idxno=252537" rel="noopener">더퍼블릭 2025.03.04</a></li><li><a href="http://www.bizwnews.com/news/articleView.html?idxno=98776" rel="noopener">비즈월드 2025.03.18</a></li><li><a href="https://www.mt.co.kr/society/2025/11/11/2025111107470693428" rel="noopener">머니투데이 2025.11.11</a></li><li><a href="https://www.price.go.kr/tprice/portal/wedding/areaStatistic.do" rel="noopener">한국소비자원 참가격</a></li></ul><p class="chk">확인일 2026-11-28</p></details></div></section><section class="col c2 rumors" aria-label="소문 전광판"><h2>2열 · 커뮤니티 소문 <small>미확인 소문 표시</small></h2><p class="rnote">커뮤니티에서 돈 글의 제목·게시처·날짜만 옮겼습니다. 사실이라고 단정하지 않으며, 기존 판정 등급(인용→대조→판정)을 통과한 뒤에만 도장이 찍힙니다. 실명 인물의 사생활 소문은 싣지 않습니다.</p><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge bad">허위 확인</span></div><h3>달 착륙은 연출이었다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a9" class="jump">09번 기사: 아폴로 12호 국기 그림자로 따져 본 결과</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge ok">확인(공식 보고서 결론 전달)</span></div><h3>정부가 외계 기술을 숨기고 있다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a10" class="jump">10번 기사: 미 국방부 조사실 보고서는 외계 기술 확인 사례 없음이라고 결론</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge ok">확인(논문 결과 전달)</span></div><h3>비행기가 하늘에 비밀 물질을 뿌린다(케미트레일)</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a11" class="jump">11번 기사: 전문가 77명 중 76명이 증거를 못 봤다고 답한 연구</a></dd></dl></div><div class="rm old"><div class="tg"><span class="st" style="background:#b8f5c8">오래된 소문 · 검증 완료</span><span class="badge part">부분 확인</span></div><h3>5G 전파는 몸에 해롭다</h3><dl><dt>최초 게시처</dt><dd>특정하지 못함. 오래전부터 온라인에 퍼진 소문이라 기사 안에 출처를 정리</dd><dt>확인 단계</dt><dd>③ 판정 완료</dd><dt>근거</dt><dd><a href="#a12" class="jump">12번 기사: WHO가 2020년에 한 말과 안 한 말을 나눠 정리</a></dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(교통 당국 공지)</span></div><h3>12월 1일부터 청소년도 모두의카드 가능</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.27 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299506" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(판결문·현지 보도)</span></div><h3>뉴욕시 임대료 동결, 법원에서 집주인들에게 승소</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299510" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · 의견 글, 정책 사실만 분리 대조 예정</span></div><h3>전국민 거지 만들기 프로젝트로 집값 잡나요?</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299527" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(거래소 시세)</span></div><h3>오늘자 은값 폭등중</h3><dl><dt>최초 게시처</dt><dd>클리앙 「모두의공원」 2026.11.28 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.clien.net/service/board/park/19299487" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">① 인용 완료 · ② 대조 대기(교육청 규정·보도 2건)</span></div><h3>발열조끼 입은 수험생 퇴실조치</h3><dl><dt>최초 게시처</dt><dd>오늘의유머 「베스트오브베스트」 2026.11.24 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=484176" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div><div class="rm"><div class="tg"><span class="un">미확인 소문</span><span class="st">검증 보류 · 공식 문서 확인 전</span></div><h3>사단장이 은폐 시도했던 사건</h3><dl><dt>최초 게시처</dt><dd>오늘의유머 「베스트오브베스트」 2026.11.24 (수집 시점 최초 확인, 더 앞선 글은 확인 중)</dd><dt>출처 링크</dt><dd><a href="https://www.todayhumor.co.kr/board/view.php?table=bestofbest&no=484177" rel="noopener">원글 보기</a></dd><dt>판정</dt><dd>대조 전. 판정 도장 없음</dd></dl></div></section></div><aside class="side2" aria-label="매거진 소개"><div class="sh">매거진 소개</div><details class="ac" id="p-about" open><summary>이게 뭐냐면</summary><div class="acb">
 
-<h2>6대 코너 <small>준비 중</small></h2>
+<p class="lead">게시판에서 돌던 그 글, 주간지가 쓴 그 이야기. 어디서 처음 나왔고, 어디까지 확인되는지 따라가 봅니다. 재미는 B급, 확인은 A급.</p>
+</div></details><details class="ac" id="p-sections"><summary>6대 코너 (준비 중)</summary><div class="acb">
+
 <div class="grid">
 <div class="card"><div class="n">01</div><h3>음모론 검증소</h3><p>"그날의 진실"을 공문서, 판결, 통계로 대조해 맞는 것과 틀린 것을 갈라 드립니다.</p></div>
 <div class="card"><div class="n">02</div><h3>연예계 뒷모습</h3><p>계약, 소송, 공시처럼 공개 기록으로 확인되는 산업의 뒷구조. 사생활 추측은 안 다룹니다.</p></div>
@@ -207,15 +230,15 @@ mark{background:var(--y);padding:0 2px}
 <div class="card"><div class="n">05</div><h3>게시판 핫글 추적</h3><p>커뮤니티에서 돌던 글의 최초 출처를 거슬러 올라가 확인합니다.</p></div>
 <div class="card"><div class="n">06</div><h3>주간지 따라잡기</h3><p>해외 한인 주간지가 다룬 이야기를 국내외 출처로 교차 확인합니다.</p></div>
 </div>
+</div></details><details class="ac" id="p-method"><summary>검증 방법 · 인용→대조→판정</summary><div class="acb">
 
-<h2>검증 방법 <small>인용 → 대조 → 판정</small></h2>
 <div class="steps">
 <div class="step"><b>① 인용</b><p>소문이 처음 나온 글, 기사, 발언을 원문 그대로 찾아 날짜와 함께 적습니다.</p></div>
 <div class="step"><b>② 대조</b><p>공시, 판결문, 회의록, 통계, 원 영상 같은 1차 출처와 맞춰 봅니다.</p></div>
 <div class="step"><b>③ 판정</b><p>네 등급 중 하나를 기사 맨 위에 도장처럼 찍습니다.</p></div>
 </div>
+</div></details><details class="ac" id="p-grades"><summary>판정 등급</summary><div class="acb">
 
-<h2>판정 등급</h2>
 <div class="table-wrap"><table>
 <thead><tr><th>도장</th><th>기준</th><th>게재</th></tr></thead>
 <tbody>
@@ -224,14 +247,8 @@ mark{background:var(--y);padding:0 2px}
 <tr><td><span class="badge hold">검증 보류</span></td><td>출처가 하나이거나 재인용뿐이라 확인 불가</td><td>실명 인물이면 게재 안 함</td></tr>
 <tr><td><span class="badge bad">허위 확인</span></td><td>원문과 기록을 대조하니 사실이 아님</td><td>정정 형식으로 게재</td></tr>
 </tbody></table></div>
+</div></details><details class="ac" id="p-sample"><summary>기사는 이렇게 나옵니다</summary><div class="acb">
 
-<h2>철칙</h2>
-<div class="rule"><h3>B급은 말투, 거짓은 안 됨</h3>
-<p>이름이 있는 사람에 대한 확인 안 된 의혹은 싣지 않습니다. 혐오와 비방도 소재로 삼지 않습니다. 틀린 판정은 같은 쪽 맨 위에 정정으로 답니다.</p></div>
-<p style="margin-top:16px"><b>소재를 찾는 곳</b>: 공개 커뮤니티, SNS, 해외 한인 주간지의 공개 기사. 어디서 봤든 최초 출처까지 거슬러 올라가 확인합니다.</p>
-<div class="src"><span>커뮤니티 게시판</span><span>SNS</span><span>주간지</span><span>공시·판결문</span><span>국회·정부 문서</span></div>
-<details class="more"><summary>기사는 이렇게 나옵니다 (견본)</summary>
-<h2>기사는 이렇게 나옵니다</h2>
 <p>모든 문장에는 세 가지 꼬리표 중 하나가 붙습니다. 출처에는 신뢰도(높음·보통·낮음)를 따로 답니다.</p>
 <div class="grid" style="margin-top:12px">
 <div class="card"><div class="n ok">사실</div><p>공시, 판결문, 원 영상처럼 확인된 것.</p></div>
@@ -253,8 +270,8 @@ mark{background:var(--y);padding:0 2px}
 <p><b>그래서 지금까지 확인된 것으로는 A설이 유력해 보이나 B설도 배제할 수 없습니다. 남은 확인 지점은 ○○입니다.</b> 이렇게 결론은 열어 둡니다.</p>
 <p>인물은 이니셜로 표기하고, 개인정보는 싣지 않습니다. 출처, 확인일, 정정 이력은 기사 맨 아래에 붙습니다.</p>
 </div>
-</details><details class="more"><summary>창간호 검증 메모</summary>
-<h2>창간호 검증 메모 <small>3건 · 출처 공개</small></h2>
+</div></details><details class="ac" id="p-issue1"><summary>창간호 검증 메모</summary><div class="acb">
+
 <p>아직 정식 기사가 아니라 검증 메모입니다. 확인된 것과 아닌 것을 나눠 적었고, 모든 줄에 출처를 달았습니다.</p>
 <div class="sample" style="background:#fff">
 <span class="tag">3 재벌 지배구조</span>
@@ -291,7 +308,13 @@ mark{background:var(--y);padding:0 2px}
 </ul>
 </div>
 <p style="margin-top:14px"><b>다음 확인 예정</b>: 감사원 감사보고서 원문, 통신3사 소송 진행 상황, 그룹별 지분 구조 표.</p>
-</details></details></div><footer><b>저널 먼데이 Journal Monday</b><br>창간호 2026.11.28(토) · 이름만 먼데이, 발행은 불시. 기사는 검증이 끝난 뒤에만 게재됩니다.</footer><script>
+</div></details><details class="ac" id="p-rules"><summary>철칙</summary><div class="acb">
+
+<div class="rule"><h3>B급은 말투, 거짓은 안 됨</h3>
+<p>이름이 있는 사람에 대한 확인 안 된 의혹은 싣지 않습니다. 혐오와 비방도 소재로 삼지 않습니다. 틀린 판정은 같은 쪽 맨 위에 정정으로 답니다.</p></div>
+<p style="margin-top:16px"><b>소재를 찾는 곳</b>: 공개 커뮤니티, SNS, 해외 한인 주간지의 공개 기사. 어디서 봤든 최초 출처까지 거슬러 올라가 확인합니다.</p>
+<div class="src"><span>커뮤니티 게시판</span><span>SNS</span><span>주간지</span><span>공시·판결문</span><span>국회·정부 문서</span></div>
+</div></details></aside></div></div><footer><b>저널 먼데이 Journal Monday</b><br>창간호 2026.11.28(토) · 이름만 먼데이, 발행은 불시. 기사는 검증이 끝난 뒤에만 게재됩니다.</footer><script>
 (function(){
 var D=["일","월","화","수","목","금","토"],el=document.getElementById("dayline"),b=document.getElementById("roll");
 function now(){var t=new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Seoul"}));return t}
@@ -323,6 +346,9 @@ document.getElementById("tab1").onclick=function(){tab(1)};document.getElementBy
 function openHash(id){var e=document.getElementById(id);if(e){tab(1);e.open=true;setTimeout(function(){e.scrollIntoView({block:"start"});},50);}}
 [].forEach.call(document.querySelectorAll("a.jump"),function(a){a.addEventListener("click",function(ev){ev.preventDefault();openHash(a.getAttribute("href").slice(1));});});
 if(location.hash.length>1)openHash(location.hash.slice(1));
-if(true){document.getElementById("intro").open=false;}
+document.querySelectorAll("nav.mnav a").forEach(function(a){a.addEventListener("click",function(ev){ev.preventDefault();var g=a.dataset.go,h=a.getAttribute("href").slice(1),t;
+if(g==="c1"||g==="c2"){tab(g==="c1"?1:2);t=document.querySelector(".col."+g);}else{var e=document.getElementById(h);e.open=true;t=e;}
+t.scrollIntoView({block:"start",behavior:"smooth"});});});
+if(true){}
 })();
 </script></body></html>
