@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>저널 먼데이 기사 | Journal Monday</title>
+<meta name="description" content="떠도는 소문, 어디서 나왔고 어디까지 맞나. 인용하고 대조하고 판정까지 붙이는 B급 저널.">
+<meta property="og:title" content="저널 먼데이 Journal Monday">
+<meta property="og:description" content="떠도는 소문, 어디서 나왔고 어디까지 맞나. 인용 → 대조 → 판정.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--y:#ffe600;--p:#ff2e7e;--k:#111;--w:#fffdf2;--g:#1fa84f;--r:#e5201b;--b:#1c4bff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--w);color:var(--k);font:16px/1.65 "Noto Sans KR",system-ui,sans-serif;
+background-image:radial-gradient(#0000001a 1px,transparent 1.3px);background-size:9px 9px}
+a{color:inherit}
+.ticker{background:var(--k);color:var(--y);overflow:hidden;white-space:nowrap;font:700 14px/34px "Do Hyeon","Noto Sans KR",sans-serif}
+.ticker span{display:inline-block;padding-left:100%;animation:t 38s linear infinite}
+@keyframes t{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.ticker span{animation:none;padding-left:12px}}
+header{background:var(--y);border-bottom:6px solid var(--k);text-align:center;padding:28px 16px 22px;position:relative;overflow:hidden}
+.kicker{display:inline-block;background:var(--k);color:var(--y);font:700 13px "Do Hyeon";padding:3px 12px;letter-spacing:.12em;transform:rotate(-2deg)}
+h1{margin:10px 0 0;font:400 clamp(52px,13vw,128px)/.95 "Black Han Sans","Noto Sans KR",sans-serif;letter-spacing:-.02em;
+color:var(--k);text-shadow:4px 4px 0 var(--p),8px 8px 0 #0003;transform:rotate(-1.2deg)}
+.sub{font:400 clamp(18px,3.4vw,30px)/1.2 "Do Hyeon",sans-serif;margin-top:16px}
+.sub b{background:var(--k);color:var(--y);padding:0 8px}
+.stamp{position:absolute;right:3%;top:18px;border:4px solid var(--r);color:var(--r);font:400 22px/1.1 "Black Han Sans";padding:6px 12px;transform:rotate(9deg);opacity:.88;background:#fff8}
+nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:14px;background:var(--k)}
+nav a{background:var(--w);text-decoration:none;font:700 15px "Do Hyeon";padding:7px 14px;border:2px solid var(--w);min-height:44px;display:inline-flex;align-items:center}
+nav a:hover,nav a:focus{background:var(--p);color:#fff}
+main{max-width:1040px;margin:0 auto;padding:28px 16px 60px}
+h2{font:400 clamp(28px,5vw,44px)/1.1 "Black Han Sans",sans-serif;margin:46px 0 14px;display:inline-block;background:var(--k);color:var(--y);padding:4px 14px;transform:rotate(-.8deg)}
+h2 small{font:700 14px "Do Hyeon";color:#fff;margin-left:8px}
+.lead{font:400 clamp(20px,3.6vw,30px)/1.4 "Do Hyeon",sans-serif;border-left:10px solid var(--p);padding:4px 0 4px 16px;margin:6px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:#fff;border:3px solid var(--k);box-shadow:6px 6px 0 var(--k);padding:16px 18px}
+.card:nth-child(odd){transform:rotate(-.5deg)}.card:nth-child(even){transform:rotate(.5deg)}
+.card .n{font:400 34px/1 "Black Han Sans";color:var(--p)}
+.card h3{margin:4px 0 6px;font:400 24px/1.2 "Do Hyeon"}
+.card p{margin:0;font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--b);color:#fff;padding:16px;border:3px solid var(--k);box-shadow:5px 5px 0 var(--k)}
+.step b{font:400 26px "Black Han Sans"}.step p{margin:6px 0 0;font-size:15px}
+table{width:100%;border-collapse:collapse;background:#fff;border:3px solid var(--k);margin-top:16px}
+th,td{padding:10px 12px;border-bottom:2px solid var(--k);text-align:left;vertical-align:top;font-size:15px}
+th{background:var(--k);color:var(--y);font:400 17px "Do Hyeon"}
+.badge{display:inline-block;font:400 18px "Black Han Sans";padding:2px 10px;border:3px solid;transform:rotate(-3deg);white-space:nowrap}
+.ok{color:var(--g)}.part{color:#c77700}.hold{color:#555}.bad{color:var(--r)}
+.day{margin-top:18px;font:400 clamp(17px,3vw,24px)/1.4 "Do Hyeon",sans-serif}
+.day #dayline{display:inline-block;background:var(--k);color:var(--y);padding:4px 12px;transform:rotate(1deg)}
+.day button{margin-left:6px;font:400 17px "Do Hyeon";background:var(--p);color:#fff;border:3px solid var(--k);box-shadow:3px 3px 0 var(--k);padding:6px 14px;min-height:44px;cursor:pointer}
+.table-wrap{overflow-x:auto}
+.sample{background:var(--y);border:4px dashed var(--k);padding:18px;margin-top:16px;position:relative}
+.sample .tag{position:absolute;top:-14px;left:12px;background:var(--r);color:#fff;font:700 13px "Do Hyeon";padding:2px 10px}
+.sample h3{margin:6px 0 8px;font:400 clamp(22px,4vw,32px)/1.25 "Black Han Sans"}
+.sample ul{margin:8px 0;padding-left:0;list-style:none}.sample li{padding:3px 0}
+.sample li::before{content:"◼ ";color:var(--p)}
+.rule{background:var(--k);color:#fff;padding:20px;margin-top:18px;border:3px solid var(--k);box-shadow:6px 6px 0 var(--p)}
+.rule h3{margin:0 0 6px;color:var(--y);font:400 26px "Black Han Sans"}
+.rule p{margin:0}
+.src{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:10px}
+.src span{background:#fff;border:2px solid var(--k);padding:6px 10px;font:700 14px "Do Hyeon"}
+.tip{display:inline-block;margin-top:14px;background:var(--p);color:#fff;font:400 22px "Black Han Sans";padding:12px 20px;text-decoration:none;border:3px solid var(--k);box-shadow:5px 5px 0 var(--k);min-height:44px}
+footer{background:var(--k);color:#ddd;padding:26px 16px;text-align:center;font-size:14px}
+footer b{color:var(--y)}
+@media(max-width:600px){.stamp{position:static;display:inline-block;margin-top:12px}.card:nth-child(n){transform:none}}
+.art{background:#fff;border:3px solid var(--k);box-shadow:6px 6px 0 var(--k);padding:16px 18px;margin:20px 0}
+.art .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.art .sec{background:var(--k);color:var(--y);font:700 13px "Do Hyeon";padding:2px 10px}
+.art h3{margin:10px 0;font:400 clamp(22px,4vw,30px)/1.25 "Black Han Sans"}.art .no{color:var(--p)}
+.facts{list-style:none;padding:0;margin:8px 0}.facts li{padding:6px 0;border-bottom:1px dashed #0004}
+.k{display:inline-block;min-width:3.4em;background:var(--y);border:2px solid var(--k);padding:0 6px;font:700 13px "Do Hyeon";margin-right:6px}
+.lim{background:#f3f3f3;border-left:6px solid var(--k);padding:8px 12px;margin:10px 0}.srcs{margin:6px 0;padding-left:18px;font-size:14px}.chk{margin:4px 0 0;font-size:13px;color:#555}
+.toc{columns:2 280px;padding-left:20px}.toc a{text-decoration:none}.toc a:hover{background:var(--y)}
+.back{display:inline-block;margin-top:8px}
+</style>
+</head>
+<body>
+<header style="padding:18px 16px"><div class="kicker">ARTICLES · 불시 발행</div><h1 style="font-size:clamp(40px,10vw,84px)">저널 먼데이 기사</h1><div class="sub"><a href="./">← 저널 먼데이 첫 화면</a></div></header>
+<main><p class="lead">모든 기사에는 판정 도장, 사실·입장·한계 꼬리표, 출처 링크가 붙습니다. 지금 12편.</p>
+<h2>목차</h2><ol class="toc"><li><a href="#a1">01 총수일가 지분은 평균 3.5%, 그룹 내부지분은 61.4%</a></li><li><a href="#a2">02 5.5조 통보가 964억 의결로: 통신3사 담합 과징금</a></li><li><a href="#a3">03 설탕 가격 4년 담합, 과징금 4,083억 원</a></li><li><a href="#a4">04 밀가루 6년 담합, 과징금 6,710억 원으로 역대 최대</a></li><li><a href="#a5">05 배달앱 최혜대우 제재: 배민 3,311억, 쿠팡 3,008억 원(잠정)</a></li><li><a href="#a6">06 팬클럽 유료멤버십 환불 막은 약관, 24개사 자진 시정</a></li><li><a href="#a7">07 국회의원 연봉 약 1억 6,100만 원, 올해 2.5% 올랐다</a></li><li><a href="#a8">08 국회의원 후원금 한도는 1.5억인데 지난해 평균은 2억 원</a></li><li><a href="#a9">09 달 착륙 조작설, 아폴로 12호 국기 그림자로 따져 보기</a></li><li><a href="#a10">10 미 국방부 UFO 조사실: 외계 기술 확인된 사례 없음</a></li><li><a href="#a11">11 &#x27;케미트레일&#x27; 비밀 살포설: 전문가 77명 중 76명 &#x27;증거 못 봤다&#x27;</a></li><li><a href="#a12">12 5G 전파는 해로운가: WHO가 2020년에 한 말과 안 한 말</a></li></ol>
+<article class="art" id="a1"><div class="meta"><span class="sec">재벌 지배구조</span><span class="badge ok">확인</span></div>
+<h3><span class="no">01</span> 총수일가 지분은 평균 3.5%, 그룹 내부지분은 61.4%</h3><ul class="facts"><li><b class="k">사실</b> 2026년 공시대상기업집단 102곳 중 총수 있는 89곳(소속회사 3,293개)을 공정위가 분석했다.</li><li><b class="k">사실</b> 내부지분율 평균 61.4%. 총수일가 평균 3.5%, 계열회사 평균 55.5%.</li><li><b class="k">사실</b> 순환출자가 남은 집단은 현대자동차, BS, 사조, QCP 4곳. 태광과 KG는 고리를 모두 해소했다고 공정위 담당자가 답했다.</li><li><b class="k">해석</b> 공정위는 소유와 지배의 괴리가 이어진다고 평가했다.</li></ul>
+<p class="lim"><b>한계</b> 평균치라 그룹별 차이가 크다.</p><ul class="srcs"><li><a href="https://www.korea.kr/briefing/policyBriefingView.do?newsId=156780097" rel="noopener">정책브리핑 공정위 브리핑 2026.09.03</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a2"><div class="meta"><span class="sec">재벌·기업</span><span class="badge ok">확인(보도 기준)</span></div>
+<h3><span class="no">02</span> 5.5조 통보가 964억 의결로: 통신3사 담합 과징금</h3><ul class="facts"><li><b class="k">사실</b> 공정위는 2015년 11월~2022년 9월 판매장려금 조정 담합을 이유로 통신3사에 과징금 964억 원을 부과했다(2025년 6월).</li><li><b class="k">사실</b> 2024년 4월 심사보고서 단계에서는 3조 4천억~5조 5천억 원을 산정해 통보했다.</li><li><b class="k">사실</b> 감사원은 2026년 2월 25일 공개한 공정위 정기감사 결과에서 관련 매출액이 과다 추정됐다고 밝혔다. 신규가입 회선수 기준으로 추정했고 무관한 법인·직영·알뜰폰 매출이 포함됐다는 설명이다(서울신문 보도).</li><li><b class="k">사실</b> 감사원 비교 결과 87건 중 75건(86%)에서 심사보고서 금액이 최종보다 1.9~2.8배 컸다(서울신문 보도).</li><li><b class="k">입장</b> 통신3사는 담합이 아니라 단통법을 따랐을 뿐이라는 입장이었다(경향신문 2025.02.)</li></ul>
+<p class="lim"><b>한계</b> 감사원 보고서 원문은 아직 확인하지 못했고 복수 언론 보도를 기준으로 했다.</p><ul class="srcs"><li><a href="https://www.seoul.co.kr/news/society/2026/02/25/20260225500091" rel="noopener">서울신문 2026.02.25</a></li><li><a href="https://www.sisajournal-e.com/news/articleView.html?idxno=419515" rel="noopener">시사저널e 2026.03.02</a></li><li><a href="https://www.khan.co.kr/article/202502211458011" rel="noopener">경향신문 2025.02.21</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a3"><div class="meta"><span class="sec">재벌·기업</span><span class="badge ok">확인</span></div>
+<h3><span class="no">03</span> 설탕 가격 4년 담합, 과징금 4,083억 원</h3><ul class="facts"><li><b class="k">사실</b> 공정위는 3개 제당사(CJ제일제당, 삼양사, 대한제당)가 4년여에 걸쳐 B2B 설탕 가격의 인상·인하 폭과 시기를 합의·실행했다며 과징금 총 4,083억 원을 부과하기로 결정했다(2026.02.12 보도자료).</li><li><b class="k">사실</b> 공정위에 따르면 담합 과징금 총액 기준 두 번째로 큰 규모이고 사업자당 평균(1,361억 원) 기준으로는 최대다.</li><li><b class="k">사실</b> 검찰 고발요청에 따라 3개 법인과 임직원 11명은 이미 고발됐다고 공정위가 밝혔다.</li></ul>
+<p class="lim"><b>한계</b> 공정위 결정 시점 정보이며 이후 불복 절차 여부는 확인하지 못했다.</p><ul class="srcs"><li><a href="https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&amp;key=12&amp;nttSn=47137" rel="noopener">공정위 보도자료 2026.02.12</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a4"><div class="meta"><span class="sec">재벌·기업</span><span class="badge ok">확인(보도 기준)</span></div>
+<h3><span class="no">04</span> 밀가루 6년 담합, 과징금 6,710억 원으로 역대 최대</h3><ul class="facts"><li><b class="k">사실</b> 공정위는 7개 제분사(대한제분, CJ제일제당, 사조동아원, 삼양사, 대선제분, 삼화제분, 한탑)에 과징금 총 6,710억 4,500만 원을 의결했다(연합뉴스 2026.05.20).</li><li><b class="k">사실</b> 2019년 11월~2025년 10월 6년간 24차례 가격·물량을 합의한 혐의이며 관련 매출은 5조 6,900억 원이다.</li><li><b class="k">사실</b> 7개사의 B2B 시장점유율은 87.7%(2024년 매출 기준). 공정위는 가격 재결정 명령도 내렸다.</li></ul>
+<p class="lim"><b>한계</b> 연합뉴스 보도 기준이며 공정위 보도자료 원문은 확인하지 못했다. 이후 불복 여부는 미확인.</p><ul class="srcs"><li><a href="https://www.yna.co.kr/view/AKR20260520084251002" rel="noopener">연합뉴스 2026.05.20</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a5"><div class="meta"><span class="sec">재벌·기업</span><span class="badge ok">확인(잠정 금액)</span></div>
+<h3><span class="no">05</span> 배달앱 최혜대우 제재: 배민 3,311억, 쿠팡 3,008억 원(잠정)</h3><ul class="facts"><li><b class="k">사실</b> 공정위는 2026년 10월 29일 배달의민족(우아한형제들)과 쿠팡에 시정명령과 과징금 부과를 결정했다.</li><li><b class="k">사실</b> 과징금은 잠정 금액으로 배민 3,311억 원(최혜대우 요구 1,602억, 자체배달 전환 강제 1,554억, 배달예상시간 기만광고 154억), 쿠팡 3,008억 원이다.</li><li><b class="k">참고</b> 잠정 금액은 이후 달라질 수 있다. 통신3사 사건에서 심사 단계 금액이 최종 의결에서 크게 줄어든 전례가 있다.</li></ul>
+<p class="lim"><b>한계</b> 최종 확정액과 불복 여부는 확인하지 못했다.</p><ul class="srcs"><li><a href="https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&amp;key=12&amp;nttSn=48198" rel="noopener">공정위 보도자료 2026.11.09</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a6"><div class="meta"><span class="sec">연예계 뒷모습</span><span class="badge ok">확인(보도 기준)</span></div>
+<h3><span class="no">06</span> 팬클럽 유료멤버십 환불 막은 약관, 24개사 자진 시정</h3><ul class="facts"><li><b class="k">사실</b> 공정위는 2026년 6월 10일 엔터테인먼트 18곳과 팬덤 플랫폼 6곳, 24개사가 팬클럽 유료멤버십 약관의 불공정 조항을 자진 시정하기로 했다고 밝혔다(연합뉴스 보도).</li><li><b class="k">사실</b> 환불 관련 조항은 연내 시정 예정이고 나머지는 이른 시일 내 고칠 계획이다.</li><li><b class="k">해석</b> 그동안 환불을 받지 못했던 소비자가 경과 기간이나 이용액에 따라 정산 후 환불을 받게 될 것으로 기대된다는 것이 보도 내용이다.</li></ul>
+<p class="lim"><b>한계</b> 개별 회사의 시정 이행 여부는 확인하지 못했다. 공정위 보도자료 원문 확인 필요.</p><ul class="srcs"><li><a href="https://www.yna.co.kr/view/AKR20260610087300002" rel="noopener">연합뉴스 2026.06.10</a></li><li><a href="https://www.ftc.go.kr/www/selectBbsNttView.do?bordCd=3&amp;key=12&amp;nttSn=47589&amp;searchCtgry=01%2C02" rel="noopener">공정위 보도자료 2026.06.10</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a7"><div class="meta"><span class="sec">정치권 막후</span><span class="badge ok">확인(보도 기준)</span></div>
+<h3><span class="no">07</span> 국회의원 연봉 약 1억 6,100만 원, 올해 2.5% 올랐다</h3><ul class="facts"><li><b class="k">사실</b> 2026년 국회의원 1인 수당·경비는 연 약 1억 6,100만 원으로 전년보다 약 2.5~2.6% 올랐다(더팩트, 머니투데이, 한국경제 보도).</li><li><b class="k">사실</b> 국회 사무처 기준 일반수당 월 732만 7,600원의 60%가 설과 추석에 각각 지급되어 명절휴가비는 연 약 880만 원이다(한국경제).</li><li><b class="k">참고</b> 임금근로자 평균 월소득은 2024년 12월 기준 375만 원이다(국가데이터처 집계, 한국경제 인용). 연봉과 월소득을 비교할 때는 수당 포함 여부가 다르다.</li></ul>
+<p class="lim"><b>한계</b> 보도마다 금액이 1억 6,093만~1억 6,100만 원으로 조금 다르다. 국회사무처 원표는 확인하지 못했다.</p><ul class="srcs"><li><a href="https://news.tf.co.kr/read/ptoday/2291395.htm" rel="noopener">더팩트 2026.02.09</a></li><li><a href="https://www.mt.co.kr/politics/2026/09/02/2026090215285874848" rel="noopener">머니투데이 2026.09.02</a></li><li><a href="https://www.hankyung.com/article/2026092667677" rel="noopener">한국경제 2026.09.26</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a8"><div class="meta"><span class="sec">정치권 막후</span><span class="badge part">부분 확인</span></div>
+<h3><span class="no">08</span> 국회의원 후원금 한도는 1.5억인데 지난해 평균은 2억 원</h3><ul class="facts"><li><b class="k">사실</b> 후원회는 연간 1억 5천만 원을 한도로 모금할 수 있다(국가법령 생활법령 100문100답).</li><li><b class="k">사실</b> 중앙선관위는 2026년 3월 6일 지난해 303개 후원회에서 총 608억 3,200여만 원, 의원 1인당 평균 2억 76만 원이 모금됐다고 밝혔다(연합뉴스 보도).</li><li><b class="k">확인 중</b> 한도와 평균 사이의 차이가 왜 생기는지(한도 예외 규정 여부 등)는 근거를 아직 찾지 못했다. 추정으로 채우지 않는다.</li></ul>
+<p class="lim"><b>한계</b> 차이의 원인이 확인되기 전에는 부분 확인으로 둔다.</p><ul class="srcs"><li><a href="https://www.yna.co.kr/view/AKR20260306062351001" rel="noopener">연합뉴스 2026.03.06</a></li><li><a href="https://www.easylaw.go.kr/CSP/OnhunqueansLstRetrieve.laf?onhunqnaAstSeq=97&amp;onhunqueAstSeq=218&amp;pageType=20" rel="noopener">생활법령정보 100문100답</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a9"><div class="meta"><span class="sec">음모론 검증소</span><span class="badge bad">허위 확인</span></div>
+<h3><span class="no">09</span> 달 착륙 조작설, 아폴로 12호 국기 그림자로 따져 보기</h3><ul class="facts"><li><b class="k">인용</b> 달 착륙 영상과 사진은 연출이라는 오래된 주장.</li><li><b class="k">사실</b> NASA 아폴로 달 표면 기록에는 달 궤도 탐사선 LRO 카메라가 아폴로 12호 착륙지를 일출부터 일몰까지 다섯 번 찍은 영상이 실려 있고, 태양 고도에 따라 국기 그림자의 위치가 바뀐다고 설명한다.</li><li><b class="k">한계</b> LRO는 국기 기둥이 아니라 처진 국기의 그림자를 본 것이며 NASA 자료도 그림자 길이의 정밀 비교는 어렵다고 적었다.</li></ul>
+<p class="lim"><b>한계</b> 아폴로 12호 한 건만 다뤘다. 다른 조작설 주장은 따로 검증해야 한다.</p><ul class="srcs"><li><a href="https://www.nasa.gov/history/alsj/a12/a12FlagStillAloft.html" rel="noopener">NASA Apollo Lunar Surface Journal</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a10"><div class="meta"><span class="sec">음모론 검증소</span><span class="badge ok">확인(공식 보고서 결론 전달)</span></div>
+<h3><span class="no">10</span> 미 국방부 UFO 조사실: 외계 기술 확인된 사례 없음</h3><ul class="facts"><li><b class="k">인용</b> 정부가 외계 비행체와 기술을 회수해 숨기고 있다는 이야기.</li><li><b class="k">사실</b> 미 국방부 전영역이상현상해결실(AARO)의 2024년 2월 역사 보고서 1권은 1945년 이후 미 정부의 모든 공식 조사를 검토했고, 어떤 조사도 UAP 목격을 외계 기술로 확인하지 않았다고 밝혔다.</li><li><b class="k">사실</b> 보고서는 미 정부와 민간 기업이 외계 기술을 역설계했다는 주장에 경험적 증거가 없다고 밝혔고, 외계 성격을 시사한다며 유출된 1961년 정보 평가 문서는 진본이 아니라고 결론 냈다.</li><li><b class="k">한계</b> 이 보고서는 &#x27;증거를 찾지 못했다&#x27;는 결론이다. 2권과 이후 자료는 따로 확인해야 한다.</li></ul>
+<p class="lim"><b>한계</b> 2024년 2월 1권 기준이다. 2권 내용은 확인하지 못했다.</p><ul class="srcs"><li><a href="https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Vol_1_2024.pdf" rel="noopener">AARO Historical Record Report Vol. I (PDF)</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a11"><div class="meta"><span class="sec">음모론 검증소</span><span class="badge ok">확인(논문 결과 전달)</span></div>
+<h3><span class="no">11</span> &#x27;케미트레일&#x27; 비밀 살포설: 전문가 77명 중 76명 &#x27;증거 못 봤다&#x27;</h3><ul class="facts"><li><b class="k">인용</b> 비행기 구름이 오래 남는 것은 화학물질을 몰래 뿌리기 때문이라는 주장.</li><li><b class="k">사실</b> 2016년 Environmental Research Letters 논문은 국제 설문에서 응답자의 약 17%가 비밀 대규모 대기 살포 프로그램이 사실이거나 부분적으로 사실이라고 답했다고 적었다.</li><li><b class="k">사실</b> 같은 논문에서 항공기 비행운과 대기 침적 전문가 77명 중 76명(98.7%)이 증거를 접한 적이 없고, 주장된 자료는 비행운과 대기 에어로졸의 잘 알려진 물리·화학으로 설명된다고 답했다.</li><li><b class="k">한계</b> 설문 응답률은 비행운 전문가 29%, 침적 전문가 15%였다. 논문 자체가 설문 방식의 한계를 가진다.</li></ul>
+<p class="lim"><b>한계</b> 전문가 설문 한 건의 결과다. 모든 의혹 사례를 개별 분석한 것은 아니다.</p><ul class="srcs"><li><a href="https://iopscience.iop.org/article/10.1088/1748-9326/11/8/084011" rel="noopener">IOPscience 논문 2016.08.10</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+<article class="art" id="a12"><div class="meta"><span class="sec">음모론 검증소</span><span class="badge part">부분 확인</span></div>
+<h3><span class="no">12</span> 5G 전파는 해로운가: WHO가 2020년에 한 말과 안 한 말</h3><ul class="facts"><li><b class="k">인용</b> 5G 기지국 전파가 몸에 해롭다는 주장.</li><li><b class="k">사실</b> WHO는 2020년 2월 문답에서 많은 연구에도 불구하고 무선 기술 노출과 인과적으로 연결된 건강 악영향은 지금까지 없다고 밝혔다.</li><li><b class="k">사실</b> 같은 문서에서 5G가 쓸 주파수 대역에서는 연구가 아직 일부만 이뤄졌다고 인정했다. 3.5GHz 대역 5G 기지국의 노출 수준은 기존 기지국과 비슷하다고 설명했다.</li><li><b class="k">해석</b> &#x27;해롭지 않다고 증명됐다&#x27;가 아니라 &#x27;현재까지 인과 관계가 확인되지 않았다&#x27;가 정확한 표현이다.</li></ul>
+<p class="lim"><b>한계</b> 2020년 문서 기준이다. 이후 연구와 WHO 갱신은 확인하지 못했다.</p><ul class="srcs"><li><a href="https://www.who.int/news-room/questions-and-answers/item/radiation-5g-mobile-networks-and-health" rel="noopener">WHO Radiation: 5G mobile networks and health</a></li></ul><p class="chk">확인일 2026-11-27</p></article>
+</main><footer><b>저널 먼데이 Journal Monday</b><br>확인된 사실만 싣습니다. 정정은 해당 기사 맨 위에 표시합니다.</footer></body></html>
