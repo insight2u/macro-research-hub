@@ -1,0 +1,670 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-28",
+  "timezone": "Asia/Seoul",
+  "updated_at": "2026-11-28T09:00:54+09:00",
+  "targets": {
+    "article_topics_minimum": 10,
+    "article_topics_published": 13,
+    "article_pages_published": 65,
+    "languages": [
+      "ko",
+      "en",
+      "ja",
+      "zh",
+      "es"
+    ]
+  },
+  "items": [
+    {
+      "id": "report-2026-11-28-morning-briefing-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-morning-briefing-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-morning-briefing-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-morning-briefing-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-morning-briefing-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-morning-briefing-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-morning-briefing-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-morning-briefing-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-morning-briefing-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-morning-briefing-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-income-between-growth-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-income-between-growth-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-income-between-growth-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-income-between-growth-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-income-between-growth-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-income-between-growth-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-income-between-growth-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-income-between-growth-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-income-between-growth-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-income-between-growth-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-robot-data-before-motion-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-robot-data-before-motion-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-robot-data-before-motion-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-robot-data-before-motion-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-robot-data-before-motion-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-robot-data-before-motion-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-robot-data-before-motion-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-robot-data-before-motion-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-robot-data-before-motion-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-robot-data-before-motion-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-internal-sales-denominator-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-internal-sales-denominator-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-internal-sales-denominator-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-internal-sales-denominator-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-internal-sales-denominator-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-internal-sales-denominator-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-internal-sales-denominator-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-internal-sales-denominator-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-internal-sales-denominator-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-internal-sales-denominator-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-consumption-buffer-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-consumption-buffer-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-consumption-buffer-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-consumption-buffer-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-consumption-buffer-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-tehran-map-before-border-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-tehran-map-before-border-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-tehran-map-before-border-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-tehran-map-before-border-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-tehran-map-before-border-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-museum-two-records-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-museum-two-records-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-museum-two-records-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-museum-two-records-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-museum-two-records-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-museum-two-records-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-museum-two-records-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-museum-two-records-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-museum-two-records-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-museum-two-records-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-book-algorithm-disobedience-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-book-algorithm-disobedience-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-book-algorithm-disobedience-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-book-algorithm-disobedience-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-book-algorithm-disobedience-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-book-algorithm-disobedience-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-book-algorithm-disobedience-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-book-algorithm-disobedience-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-book-algorithm-disobedience-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-book-algorithm-disobedience-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-rider-reissue-not-new-series-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rider-reissue-not-new-series-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-rider-reissue-not-new-series-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rider-reissue-not-new-series-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-rider-reissue-not-new-series-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rider-reissue-not-new-series-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-rider-reissue-not-new-series-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rider-reissue-not-new-series-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-rider-reissue-not-new-series-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rider-reissue-not-new-series-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-three-finance-locks-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-three-finance-locks-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-three-finance-locks-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-three-finance-locks-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-three-finance-locks-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-three-finance-locks-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-three-finance-locks-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-three-finance-locks-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-three-finance-locks-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-three-finance-locks-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-impeachment-verbs-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-impeachment-verbs-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-impeachment-verbs-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-impeachment-verbs-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-impeachment-verbs-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-impeachment-verbs-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-impeachment-verbs-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-impeachment-verbs-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-impeachment-verbs-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-impeachment-verbs-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-ai-world-growth-condition-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-ai-world-growth-condition-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-ai-world-growth-condition-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-ai-world-growth-condition-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-ai-world-growth-condition-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-ai-world-growth-condition-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-ai-world-growth-condition-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-ai-world-growth-condition-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-ai-world-growth-condition-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-ai-world-growth-condition-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-automated-decision-questions-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-automated-decision-questions-ko.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-automated-decision-questions-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-automated-decision-questions-en.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-automated-decision-questions-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-automated-decision-questions-ja.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-automated-decision-questions-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-automated-decision-questions-zh.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-automated-decision-questions-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-automated-decision-questions-es.html",
+      "published_at": "2026-11-28T07:02:14+09:00",
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    }
+  ]
+}

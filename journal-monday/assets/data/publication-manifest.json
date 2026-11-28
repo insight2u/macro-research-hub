@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-28",
+  "timezone": "Asia/Seoul",
+  "updated_at": "2026-11-28T09:00:54+09:00",
+  "targets": {
+    "article_topics": 25,
+    "article_topics_published": 25,
+    "article_pages_published": 1
+  },
+  "items": [
+    {
+      "id": "a1",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a1",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a2",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a2",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a3",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a3",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a4",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a4",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a5",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a5",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a6",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a6",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a7",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a7",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a8",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a8",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a9",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a9",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a10",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a10",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a11",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a11",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a12",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a12",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a13",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a13",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a14",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a14",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a15",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a15",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a16",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a16",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a17",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a17",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a18",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a18",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a19",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a19",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a20",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a20",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a21",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a21",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a22",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a22",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a24",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a24",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a25",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a25",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    },
+    {
+      "id": "a23",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/journal-monday/articles.html#a23",
+      "published_at": "2026-11-28T00:32:45+09:00",
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://api.github.com/repos/insight2u/macro-research-hub/commits?path=journal-monday/articles.html"
+    }
+  ]
+}
