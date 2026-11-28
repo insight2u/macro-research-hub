@@ -1,7 +1,25 @@
 {
   "source_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQLg57KWFEweA6IiXJPteLA",
-  "updated_at": "2026-11-28T09:53:27.744593+09:00",
+  "updated_at": "2026-11-28T23:28:00+09:00",
   "items": [
+    {
+      "id": "ijJBEwTd5YQ",
+      "title": "2026-11-28 | 문화 | 같은 백제, 다른 두 권의 기록",
+      "url": "https://www.youtube.com/watch?v=ijJBEwTd5YQ",
+      "date": "2026.11.28",
+      "published_at": "2026-11-28T14:25:41+00:00",
+      "article": "",
+      "order": 0
+    },
+    {
+      "id": "i66pRYK8BrA",
+      "title": "2026-11-28 | 경제 | 성장률은 뛰는데, 쓸 수 있는 돈은 줄었다",
+      "url": "https://www.youtube.com/watch?v=i66pRYK8BrA",
+      "date": "2026.11.28",
+      "published_at": "2026-11-28T14:24:47+00:00",
+      "article": "",
+      "order": 1
+    },
     {
       "id": "Fzp-DcKQWw8",
       "title": "2026-11-28 | 문화 | 시간, 분노, 거리, 사람: 원전으로 확인한 고전 네 문장",
@@ -9,7 +27,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T23:27:13+00:00",
       "article": "",
-      "order": 0
+      "order": 2
     },
     {
       "id": "8hNrsVHyndg",
@@ -18,7 +36,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T23:26:23+00:00",
       "article": "",
-      "order": 1
+      "order": 3
     },
     {
       "id": "H35siyvPHKI",
@@ -27,7 +45,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T16:20:33+00:00",
       "article": "",
-      "order": 2
+      "order": 4
     },
     {
       "id": "csg2TiqHp4c",
@@ -36,7 +54,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T16:20:16+00:00",
       "article": "",
-      "order": 3
+      "order": 5
     },
     {
       "id": "evdXmjxGylw",
@@ -45,7 +63,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T16:19:59+00:00",
       "article": "",
-      "order": 4
+      "order": 6
     },
     {
       "id": "8tGvHAP4wX4",
@@ -54,7 +72,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T16:19:41+00:00",
       "article": "",
-      "order": 5
+      "order": 7
     },
     {
       "id": "0q_FW6BhPcs",
@@ -63,7 +81,7 @@
       "date": "2026.11.28",
       "published_at": "2026-11-27T16:19:25+00:00",
       "article": "",
-      "order": 6
+      "order": 8
     },
     {
       "id": "w2ZrTELZvNk",
@@ -72,7 +90,7 @@
       "date": "2026.11.27",
       "published_at": "2026-11-27T16:19:01+00:00",
       "article": "",
-      "order": 7
+      "order": 9
     },
     {
       "id": "aSGJsvhd-OE",
@@ -81,7 +99,7 @@
       "date": "2026.11.27",
       "published_at": "2026-11-26T23:02:30+00:00",
       "article": "",
-      "order": 8
+      "order": 10
     },
     {
       "id": "ymnheGowQDQ",
@@ -90,7 +108,7 @@
       "date": "2026.11.27",
       "published_at": "2026-11-26T22:48:38+00:00",
       "article": "",
-      "order": 9
+      "order": 11
     },
     {
       "id": "X9vqm_Jmxkk",
@@ -99,7 +117,7 @@
       "date": "2026.11.27",
       "published_at": "2026-11-26T22:47:50+00:00",
       "article": "",
-      "order": 10
+      "order": 12
     }
   ]
 }
