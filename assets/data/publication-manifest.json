@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "date": "2026-11-28",
   "timezone": "Asia/Seoul",
-  "updated_at": "2026-11-28T09:00:54+09:00",
+  "updated_at": "2026-11-28T09:04:09+09:00",
   "targets": {
     "article_topics_minimum": 10,
-    "article_topics_published": 13,
-    "article_pages_published": 65,
+    "article_topics_published": 21,
+    "article_pages_published": 105,
     "languages": [
       "ko",
       "en",
@@ -665,6 +665,406 @@
       "language": "es",
       "status": "published",
       "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
+    },
+    {
+      "id": "report-2026-11-28-classics-time-anger-distance-people-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-classics-time-anger-distance-people-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-classics-time-anger-distance-people-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-classics-time-anger-distance-people-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-kospi-selloff-week-dotcom-comparison-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rates-and-prices-1998-2008-record-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rates-and-prices-1998-2008-record-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rates-and-prices-1998-2008-record-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rates-and-prices-1998-2008-record-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-october-housing-indicators-split-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-october-housing-indicators-split-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-redevelopment-cost-time-rates-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-redevelopment-cost-time-rates-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-pungnap-hangang-geukdong-conditions-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-redevelopment-cost-time-rates-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-redevelopment-cost-time-rates-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-pungnap-hangang-geukdong-conditions-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-october-housing-indicators-split-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-october-housing-indicators-split-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rate-regime-expert-view-official-figures-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rate-regime-expert-view-official-figures-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-japan-long-adjustment-aging-condos-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-japan-long-adjustment-aging-condos-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-redevelopment-cost-time-rates-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-redevelopment-cost-time-rates-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-pungnap-hangang-geukdong-conditions-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-redevelopment-cost-time-rates-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-redevelopment-cost-time-rates-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-redevelopment-cost-time-rates-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-redevelopment-cost-time-rates-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rate-regime-expert-view-official-figures-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rate-regime-expert-view-official-figures-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-pungnap-hangang-geukdong-conditions-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rate-regime-expert-view-official-figures-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rate-regime-expert-view-official-figures-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-classics-time-anger-distance-people-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-classics-time-anger-distance-people-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-october-housing-indicators-split-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-october-housing-indicators-split-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-kospi-selloff-week-dotcom-comparison-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-japan-long-adjustment-aging-condos-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-japan-long-adjustment-aging-condos-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-october-housing-indicators-split-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-october-housing-indicators-split-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-classics-time-anger-distance-people-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-classics-time-anger-distance-people-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-japan-long-adjustment-aging-condos-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-japan-long-adjustment-aging-condos-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-october-housing-indicators-split-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-october-housing-indicators-split-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rate-regime-expert-view-official-figures-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rate-regime-expert-view-official-figures-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-japan-long-adjustment-aging-condos-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-japan-long-adjustment-aging-condos-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-kospi-selloff-week-dotcom-comparison-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rates-and-prices-1998-2008-record-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rates-and-prices-1998-2008-record-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rates-and-prices-1998-2008-record-ja",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rates-and-prices-1998-2008-record-ja.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ja",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-pungnap-hangang-geukdong-conditions-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-pungnap-hangang-geukdong-conditions-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-japan-long-adjustment-aging-condos-zh",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-japan-long-adjustment-aging-condos-zh.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "zh",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-kospi-selloff-week-dotcom-comparison-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rates-and-prices-1998-2008-record-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rates-and-prices-1998-2008-record-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-kospi-selloff-week-dotcom-comparison-es",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-kospi-selloff-week-dotcom-comparison-es.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "es",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-rate-regime-expert-view-official-figures-en",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-rate-regime-expert-view-official-figures-en.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "en",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
+    },
+    {
+      "id": "report-2026-11-28-classics-time-anger-distance-people-ko",
+      "date": "2026-11-28",
+      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-classics-time-anger-distance-people-ko.html",
+      "published_at": null,
+      "channel": "web",
+      "language": "ko",
+      "status": "published",
+      "evidence_url": "https://github.com/insight2u/macro-research-hub/commit/58109e5d4c3ed02493abd54c70546a7f1c2b2a35"
     }
   ]
 }
