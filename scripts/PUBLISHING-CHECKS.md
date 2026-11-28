@@ -12,3 +12,8 @@ Before every publication:
 Publish through `scripts/publish-checked.sh origin HEAD:main`, which runs the title gate and whitespace check before pushing. Do not rely on Git hooks: the execution environment can disable them. Preserve media on Drive and do not copy new large media into this repository.
 
 Image credit standard: description, creator, provider, rights, verified original URL, and edits. Use `article-image-credit.py` only with inspected rights evidence. Preserve existing captions and merge manually rather than duplicate. A publicly viewable image is not automatically reusable. Keep illustration vs documentary-photo qualifications.
+
+
+## History daily-event quality hold (2026-11-28)
+
+Do not publish a date anniversary as a short encyclopedia summary. Operational review floor: 1600 Korean body characters (not a user-ordered numerical rule), primary evidence plus independently authored historical analysis from at least two directly read sources, chronology, causal limits, actors and competing interests, and limits of present-day analogy. Repetition does not meet the floor. Hold substandard drafts privately. The Nov28 Tehran feature is withdrawn; originals are retained privately and in version history. Any rewritten withdrawn article requires owner approval before republication.
