@@ -166,6 +166,11 @@ h1 .te{color:var(--p);font-size:.82em;display:inline-block;transform:rotate(-6de
 .navwrap .intro.open{display:block}
 .navwrap .intro .sechead{margin-top:0}
 h1 .te{color:#fff!important;font-size:1.18em!important;-webkit-text-stroke:3px #111;paint-order:stroke fill;text-shadow:3px 3px 0 var(--p);transform:rotate(-6deg) translateY(-.02em)!important;margin:0 .03em!important}
+.board .bh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.board .bc{margin-left:auto;display:inline-flex;align-items:center;gap:4px}
+.board .bc i{font:700 12px "Do Hyeon";color:var(--y);font-style:normal;margin-right:4px}
+.board .bc button{min-height:26px;min-width:30px;padding:0 8px;background:#111;color:#fff;border:1px solid #fff;font:700 13px sans-serif;cursor:pointer}
+.board .bc button:hover{background:var(--p)}
 </style>
 
 <link rel="icon" href="assets/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="assets/logo_32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/logo_192.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/logo_180.png"><meta property="og:image" content="https://insight2u.github.io/macro-research-hub/journal-monday/assets/og_logo_1200x630.png"></head>
@@ -359,7 +364,19 @@ function go(el,t){if(t)tab(t);if(el&&el.tagName==="DETAILS")el.open=true;setTime
 [].forEach.call(document.querySelectorAll("a.jump"),function(a){a.addEventListener("click",function(ev){ev.preventDefault();go(document.getElementById(a.getAttribute("href").slice(1)),1);});});
 if(location.hash.length>1){var e=document.getElementById(location.hash.slice(1));if(e)go(e,1);}
 })();
-</script><script>(function(){document.querySelectorAll('.board .rot').forEach(function(u){var l=u.children,n=l.length,i=0;if(!n)return;l[0].className='on';var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches;if(rm||n<2)return;var p=false;u.addEventListener('mouseenter',function(){p=true});u.addEventListener('mouseleave',function(){p=false});u.addEventListener('focusin',function(){p=true});u.addEventListener('focusout',function(){p=false});setInterval(function(){if(p)return;l[i].className='';i=(i+1)%n;l[i].className='on'},3800)})})();
+</script><script>(function(){document.querySelectorAll('.board .bcol').forEach(function(col){var u=col.querySelector('.rot'),h=col.querySelector('.bh');if(!u)return;var l=u.children,n=l.length,i=0;if(!n)return;
+var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion:reduce)').matches,hover=false,user=rm;
+var c=document.createElement('span');c.className='bc';c.innerHTML='<i class="bn"></i><button type="button" class="bp" aria-label="이전">‹</button><button type="button" class="bt" aria-label="일시정지">❚❚</button><button type="button" class="bx" aria-label="다음">›</button>';h.appendChild(c);
+var bn=c.querySelector('.bn'),bt=c.querySelector('.bt');
+function show(k){l[i].className='';i=(k+n)%n;l[i].className='on';bn.textContent=(i+1)+' / '+n;}
+show(0);
+c.querySelector('.bp').addEventListener('click',function(){show(i-1)});
+c.querySelector('.bx').addEventListener('click',function(){show(i+1)});
+function lab(){bt.textContent=user?'▶':'❚❚';bt.setAttribute('aria-label',user?'자동 순환 시작':'일시정지');}
+bt.addEventListener('click',function(){user=!user;lab();});lab();
+u.addEventListener('mouseenter',function(){hover=true});u.addEventListener('mouseleave',function(){hover=false});u.addEventListener('focusin',function(){hover=true});u.addEventListener('focusout',function(){hover=false});
+if(n>1)setInterval(function(){if(hover||user)return;show(i+1)},3800);
+})})();
 </script><script>document.getElementById("subdn").addEventListener("click",function(){var n=document.getElementById("subnote");n.hidden=!n.hidden;this.setAttribute("aria-expanded",String(!n.hidden));});</script><script>(function(){var b=document.getElementById("introbtn"),p=document.getElementById("intropanel");
 function set(o){p.classList.toggle("open",o);b.setAttribute("aria-expanded",String(o));}
 b.addEventListener("click",function(e){e.stopPropagation();set(!p.classList.contains("open"));});
