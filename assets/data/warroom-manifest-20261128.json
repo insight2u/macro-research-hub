@@ -1,11 +1,11 @@
 {
-  "updated_at_kst": "2026-11-28T08:59:57+09:00",
+  "updated_at_kst": "2026-11-28T23:02:00+09:00",
   "date": "2026-11-28",
   "goal": {
     "articles_per_day": 10
   },
   "actual": {
-    "articles": 21,
+    "articles": 20,
     "broadcasts_youtube": 6,
     "broadcasts_spotify": 2,
     "sns_requested": 2,
@@ -62,17 +62,6 @@
       "type": "article",
       "title": "더 썼는데 더 잘산 것은 아니다",
       "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-ko.html",
-      "channel": "macro-research-hub (ko; en/ja/zh/es)",
-      "status": "published",
-      "published_at_kst": null,
-      "evidence": "live page HTTP 200 checked 2026-11-28 08:40 KST"
-    },
-    {
-      "date": "2026-11-28",
-      "id": "report-2026-11-28-tehran-map-before-border",
-      "type": "article",
-      "title": "1943년 11월 28일, 지도보다 먼저 움직인 협상",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-ko.html",
       "channel": "macro-research-hub (ko; en/ja/zh/es)",
       "status": "published",
       "published_at_kst": null,

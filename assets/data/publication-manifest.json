@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "date": "2026-11-28",
   "timezone": "Asia/Seoul",
-  "updated_at": "2026-11-28T09:04:09+09:00",
+  "updated_at": "2026-11-28T23:02:00+09:00",
   "targets": {
     "article_topics_minimum": 10,
-    "article_topics_published": 21,
-    "article_pages_published": 105,
+    "article_topics_published": 20,
+    "article_pages_published": 100,
     "languages": [
       "ko",
       "en",
@@ -260,56 +260,6 @@
       "id": "report-2026-11-28-consumption-buffer-es",
       "date": "2026-11-28",
       "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-consumption-buffer-es.html",
-      "published_at": "2026-11-28T07:02:14+09:00",
-      "channel": "web",
-      "language": "es",
-      "status": "published",
-      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
-    },
-    {
-      "id": "report-2026-11-28-tehran-map-before-border-ko",
-      "date": "2026-11-28",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-ko.html",
-      "published_at": "2026-11-28T07:02:14+09:00",
-      "channel": "web",
-      "language": "ko",
-      "status": "published",
-      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
-    },
-    {
-      "id": "report-2026-11-28-tehran-map-before-border-en",
-      "date": "2026-11-28",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-en.html",
-      "published_at": "2026-11-28T07:02:14+09:00",
-      "channel": "web",
-      "language": "en",
-      "status": "published",
-      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
-    },
-    {
-      "id": "report-2026-11-28-tehran-map-before-border-ja",
-      "date": "2026-11-28",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-ja.html",
-      "published_at": "2026-11-28T07:02:14+09:00",
-      "channel": "web",
-      "language": "ja",
-      "status": "published",
-      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
-    },
-    {
-      "id": "report-2026-11-28-tehran-map-before-border-zh",
-      "date": "2026-11-28",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-zh.html",
-      "published_at": "2026-11-28T07:02:14+09:00",
-      "channel": "web",
-      "language": "zh",
-      "status": "published",
-      "evidence_url": "https://github.com/insight2u/macro-research-hub/actions/runs/46073995281"
-    },
-    {
-      "id": "report-2026-11-28-tehran-map-before-border-es",
-      "date": "2026-11-28",
-      "url": "https://insight2u.github.io/macro-research-hub/2026-11-28-tehran-map-before-border-es.html",
       "published_at": "2026-11-28T07:02:14+09:00",
       "channel": "web",
       "language": "es",
