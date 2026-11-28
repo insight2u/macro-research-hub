@@ -9,6 +9,6 @@ Before every publication:
 5. For the general magazine, run `python scripts/sync-broadcast-rss.py` during publication. The snapshot excludes the Innovation sections; content dates and public release dates are kept separate.
 6. Update the publication manifest immediately when new articles are published. A UI-only correction does not count as a new article.
 
-The active publisher checkout has a pre-push hook running the title gate. Install that hook in any replacement checkout before its first push. Preserve media on Drive and do not copy new large media into this repository.
+Publish through `scripts/publish-checked.sh origin HEAD:main`, which runs the title gate and whitespace check before pushing. Do not rely on Git hooks: the execution environment can disable them. Preserve media on Drive and do not copy new large media into this repository.
 
 Image credit standard: description, creator, provider, rights, verified original URL, and edits. Use `article-image-credit.py` only with inspected rights evidence. Preserve existing captions and merge manually rather than duplicate. A publicly viewable image is not automatically reusable. Keep illustration vs documentary-photo qualifications.

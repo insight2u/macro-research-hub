@@ -21,4 +21,12 @@ p=ROOT/'assets/data/dailyshot-player.js';s=p.read_text()
 block="/* RSS_SNAPSHOT_START */\nif(l==='ko')entries.push(..."+json.dumps(items,ensure_ascii=False)+");\n/* RSS_SNAPSHOT_END */"
 s,n=re.subn(r'/\* RSS_SNAPSHOT_START \*/.*?/\* RSS_SNAPSHOT_END \*/',lambda m:block,s,flags=re.S);assert n==1;p.write_text(s)
 (ROOT/'assets/data/broadcast-rss-snapshot.json').write_text(json.dumps(dict(source_url=URL,updated_at=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(),items=items),ensure_ascii=False,indent=2)+'\n')
+# Update the no-script fallback and cache key together with the feed snapshot.
+import html
+p=ROOT/'index.html';s=p.read_text();x=items[0]
+fallback='<p id="youtube-static-fallback">최신 확인 회차 · '+x['date']+' · <a href="'+x['url']+'" rel="noopener" target="_blank">'+html.escape(x['title'])+'</a>. 플레이어가 열리지 않으면 이 링크로 시청하세요.</p>'
+s=re.sub(r'<p id="youtube-static-fallback">.*?</p>',lambda m:fallback,s,count=1,flags=re.S)
+stamp=datetime.datetime.now().strftime('%Y%m%d%H%M')
+s=re.sub(r'dailyshot-player.js\?v=[^"\s]+','dailyshot-player.js?v=rss'+stamp,s)
+p.write_text(s)
 print('Updated general feed snapshot:',len(items),'entries; latest content date',max(x['date'] for x in items))
